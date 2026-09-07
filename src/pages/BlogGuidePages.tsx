@@ -1415,7 +1415,7 @@ export const FaqPage: React.FC = () => {
     {
       cat: 'Account & WhatsApp ID',
       q: 'How do I register for a free Lotus365 betting ID?',
-      a: 'Registration is 100% free and takes less than 60 seconds. Click any "Register via WhatsApp" button on lotus365officialid.com or message wa.link/880088 directly. Send a quick message saying "Hello" or "New ID", and our 24/7 support executive will generate a unique username and private temporary password linked to your WhatsApp account without requesting identity document uploads.'
+      a: 'Registration is 100% free and takes less than 60 seconds. Click any "Register via WhatsApp" button on lotus365officialid.com. Your chat will automatically open with the message "I want ID" — simply tap send, and our 24/7 support executive will immediately issue your verified username and login credentials.'
     },
     {
       cat: 'Account & WhatsApp ID',
@@ -1570,7 +1570,7 @@ export const FaqPage: React.FC = () => {
             <div className="p-6 rounded-2xl bg-[#0b3b2d]/50 border border-white/10 text-center space-y-3">
               <h3 className="text-lg font-bold text-white">Still Have Questions?</h3>
               <p className="text-xs text-white/70">Our dedicated human WhatsApp customer desk operates 24 hours a day, 7 days a week, 365 days a year with sub-30 second response times.</p>
-              <a href="https://wa.link/880088" target="_blank" rel="noopener noreferrer" className="cta-button py-3 px-8 text-sm font-black inline-flex items-center gap-2">
+              <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="cta-button py-3 px-8 text-sm font-black inline-flex items-center gap-2">
                 <MessageCircle className="w-4 h-4 fill-current" />
                 <span>Chat with Senior Support on WhatsApp</span>
               </a>
@@ -1622,7 +1622,7 @@ export const HowItWorksPage: React.FC = () => {
                   {
                     step: '01',
                     title: 'Message Our Official WhatsApp Concierge Desk',
-                    desc: 'Click any "Register via WhatsApp" button on lotus365officialid.com or message directly at wa.link/880088. Simply send "Hello" or "New ID". Our dedicated 24/7 support agent responds within 30 seconds.',
+                    desc: 'Click any "Register via WhatsApp" button on this site. Your chat automatically pre-fills with "I want ID" — simply tap send, and our dedicated agent responds in under 30 seconds.',
                     time: '⏱ Under 30 Seconds',
                   },
                   {

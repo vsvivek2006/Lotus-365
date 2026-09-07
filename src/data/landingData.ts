@@ -9,7 +9,13 @@ import {
   FaqItem,
 } from '../types';
 
-export const OFFICIAL_WHATSAPP_URL = 'https://wa.link/880088';
+export const OFFICIAL_WHATSAPP_PHONE = '918282972363';
+export const OFFICIAL_WHATSAPP_PREFILL = 'I want ID';
+export const OFFICIAL_WHATSAPP_URL = `https://api.whatsapp.com/send?phone=${OFFICIAL_WHATSAPP_PHONE}&text=${encodeURIComponent(OFFICIAL_WHATSAPP_PREFILL)}`;
+
+export const getWhatsAppUrl = (message: string = OFFICIAL_WHATSAPP_PREFILL) =>
+  `https://api.whatsapp.com/send?phone=${OFFICIAL_WHATSAPP_PHONE}&text=${encodeURIComponent(message)}`;
+
 
 export const LIVE_MATCHES: LiveMatch[] = [
   {

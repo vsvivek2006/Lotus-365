@@ -4,6 +4,7 @@ import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageCTA } from '../components/layout/PageCTA';
 import { MapPin, HelpCircle, Network, Layers } from 'lucide-react';
+import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 const sitemapData = [
   { category: 'Core Corporate & Legal Authority', pages: [
@@ -170,7 +171,7 @@ export const SitemapPage: React.FC = () => (
               How Lotus365's Unified Ecosystem Operates
             </h2>
             <p>
-              Every endpoint documented in this sitemap connects into our unified cloud-based account ledger. When you generate an account via WhatsApp at <a href="https://wa.link/880088" className="text-[#F0C419] underline">wa.link/880088</a>, that single login unlocks access to all 54 gaming verticals, betting exchanges, live dealer suites, and payment channels without needing to register separate accounts.
+              Every endpoint documented in this sitemap connects into our unified cloud-based account ledger. When you generate an account via WhatsApp at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline">WhatsApp Support</a>, that single login unlocks access to all 54 gaming verticals, betting exchanges, live dealer suites, and payment channels without needing to register separate accounts.
             </p>
             <p>
               Whether you are hedging match positions on the <Link to="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link>, riding multiplier curves in <Link to="/aviator-game" className="text-[#F0C419] underline">Spribe Aviator</Link>, or requesting a 2-minute instant UPI cashout to your bank account, Lotus365 delivers zero-friction, state-of-the-art gaming performance.

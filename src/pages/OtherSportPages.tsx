@@ -5,6 +5,7 @@ import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
 import { HelpCircle, Star, ShieldCheck, Trophy, Zap, Clock } from 'lucide-react';
+import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 const relatedSports = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'India\'s largest sports trading market' },
@@ -644,7 +645,7 @@ export const SportsbookPage: React.FC = () => (
               On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), you are never constrained to a single sporting code. Our unified sportsbook platform gives you single-wallet access to over 40 global sports disciplines, ranging from high-liquidity cricket exchanges to premier football leagues, grand slam tennis, pro kabaddi, horse racing, and Olympic sports.
             </p>
             <p>
-              We have eliminated the friction of managing multiple accounts across fragmented websites. A single WhatsApp account registration at <a href="https://wa.link/880088" className="text-[#F0C419] underline font-bold">wa.link/880088</a> allows you to trade match odds, session totals, point spreads, and high-paying accumulator parlays with zero transaction fees and guaranteed 2-minute cashouts.
+              We have eliminated the friction of managing multiple accounts across fragmented websites. A single WhatsApp account registration at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline font-bold">Official WhatsApp</a> allows you to trade match odds, session totals, point spreads, and high-paying accumulator parlays with zero transaction fees and guaranteed 2-minute cashouts.
             </p>
           </div>
 

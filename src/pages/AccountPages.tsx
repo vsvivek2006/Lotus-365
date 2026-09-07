@@ -58,8 +58,8 @@ export const RegisterPage: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { step: '01', title: 'Tap the Official WhatsApp Link', desc: 'Click any "Register via WhatsApp" button on this site to launch a direct, encrypted chat with our verified desk (wa.link/880088).' },
-                  { step: '02', title: 'Request Your Free Betting ID', desc: 'Simply send a greeting or type "New ID". Our dedicated 24/7 customer concierge will reply in less than 30 seconds.' },
+                  { step: '01', title: 'Tap the Official WhatsApp Link', desc: 'Click any "Register via WhatsApp" button on this site. Your chat will automatically open with "I want ID".' },
+                  { step: '02', title: 'Send Pre-Filled Message', desc: 'Simply tap send on "I want ID". Our dedicated 24/7 customer concierge will reply in less than 30 seconds.' },
                   { step: '03', title: 'Receive Secure Login Credentials', desc: 'Your agent will provide a unique username and private password assigned directly to your personal WhatsApp account.' },
                   { step: '04', title: 'Log In & Make Your First Deposit', desc: 'Visit lotus365officialid.com, enter your credentials, deposit via PhonePe/GPay/Paytm, and claim your 100% welcome bonus!' },
                 ].map((s) => (

@@ -18,6 +18,7 @@ import {
   TrendingUp, 
   Star 
 } from 'lucide-react';
+import { OFFICIAL_WHATSAPP_URL, getWhatsAppUrl } from '../data/landingData';
 
 const bonusRelated = [
   { href: '/register', label: 'Register Free', description: 'Get your WhatsApp ID in 2 minutes' },
@@ -1378,7 +1379,7 @@ export const VipBlackCardPage: React.FC = () => (
             </p>
             <div className="p-5 rounded-2xl bg-black/20 border border-[#F0C419]/30 space-y-3">
               <p className="text-xs text-white/85">
-                Contact our VIP desk via WhatsApp at <a href="https://wa.link/880088" className="text-[#F0C419] font-bold underline">wa.link/880088</a> and state: <em>"Black Card Confidential Inscription Request"</em>. A Senior Director will review your betting turnover and provide a custom onboarding package within two hours.
+                Contact our VIP desk via WhatsApp at <a href={getWhatsAppUrl("Black Card Confidential Inscription Request")} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] font-bold underline">Official VIP WhatsApp</a> and state: <em>"Black Card Confidential Inscription Request"</em>. A Senior Director will review your betting turnover and provide a custom onboarding package within two hours.
               </p>
             </div>
           </div>
