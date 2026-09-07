@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ShieldCheck, Lock, CheckCircle, ArrowUp, MessageCircle } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface FooterProps {
   onOpenAuth?: (mode: 'login' | 'register') => void;
-  onOpenApk?: () => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
@@ -70,14 +70,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Col 1: Brand & Official Badges */}
           <div>
-            <a href="/" className="flex items-center gap-3 mb-3 group">
+            <Link to="/" className="flex items-center gap-3 mb-3 group">
               <div className="w-10 h-10 rounded-xl bg-[#14614C] p-1 border border-[#F0C419]/40 flex items-center justify-center shadow-lg">
                 <span className="text-xl">🪷</span>
               </div>
               <span className="font-extrabold text-2xl tracking-wider text-white">
                 LOTUS<span className="text-[#F0C419]">365</span>
               </span>
-            </a>
+            </Link>
             <p className="text-xs text-white/80 leading-relaxed mb-4">
               Lotus365 is India's premier sports betting exchange and live casino destination. Built for speed, complete transparency, and peer-to-peer cricket exchange liquidity with guaranteed 2-minute cashouts.
             </p>
@@ -114,16 +114,16 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
               Cricket &amp; Sports
             </h4>
             <ul className="space-y-2 text-xs">
-              <li><a href="/cricket-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Cricket Betting</a></li>
-              <li><a href="/cricket-exchange" className="hover:text-[#F0C419] transition-colors">&rsaquo; Cricket Betting Exchange</a></li>
-              <li><a href="/ipl-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; IPL 2026 Betting Markets</a></li>
-              <li><a href="/t20-world-cup-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; T20 World Cup Odds</a></li>
-              <li><a href="/football-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Football Match Betting</a></li>
-              <li><a href="/tennis-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Tennis Odds</a></li>
-              <li><a href="/kabaddi-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Pro Kabaddi Betting</a></li>
-              <li><a href="/horse-racing-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Horse Racing Betting</a></li>
-              <li><a href="/basketball-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; NBA &amp; Basketball Betting</a></li>
-              <li><a href="/sportsbook" className="hover:text-[#F0C419] transition-colors">&rsaquo; Complete Sportsbook</a></li>
+              <li><Link to="/cricket-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Cricket Betting</Link></li>
+              <li><Link to="/cricket-exchange" className="hover:text-[#F0C419] transition-colors">&rsaquo; Cricket Betting Exchange</Link></li>
+              <li><Link to="/ipl-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; IPL 2026 Betting Markets</Link></li>
+              <li><Link to="/t20-world-cup-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; T20 World Cup Odds</Link></li>
+              <li><Link to="/football-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Football Match Betting</Link></li>
+              <li><Link to="/tennis-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Tennis Odds</Link></li>
+              <li><Link to="/kabaddi-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Pro Kabaddi Betting</Link></li>
+              <li><Link to="/horse-racing-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Horse Racing Betting</Link></li>
+              <li><Link to="/basketball-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; NBA &amp; Basketball Betting</Link></li>
+              <li><Link to="/sportsbook" className="hover:text-[#F0C419] transition-colors">&rsaquo; Complete Sportsbook</Link></li>
             </ul>
           </div>
 
@@ -133,17 +133,17 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
               Casino &amp; Crash Games
             </h4>
             <ul className="space-y-2 text-xs">
-              <li><a href="/live-casino" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Casino Lobby</a></li>
-              <li><a href="/teen-patti" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Teen Patti Cash</a></li>
-              <li><a href="/andar-bahar" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Andar Bahar</a></li>
-              <li><a href="/roulette" className="hover:text-[#F0C419] transition-colors">&rsaquo; European &amp; French Roulette</a></li>
-              <li><a href="/lightning-roulette" className="hover:text-[#F0C419] transition-colors">&rsaquo; Lightning Roulette 500x</a></li>
-              <li><a href="/blackjack" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Blackjack Tables</a></li>
-              <li><a href="/baccarat" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Baccarat &amp; Speed Tables</a></li>
-              <li><a href="/dragon-tiger" className="hover:text-[#F0C419] transition-colors">&rsaquo; Dragon Tiger Live</a></li>
-              <li><a href="/aviator-game" className="hover:text-[#F0C419] transition-colors">&rsaquo; Aviator Crash Game (98.5% RTP)</a></li>
-              <li><a href="/casino-slots" className="hover:text-[#F0C419] transition-colors">&rsaquo; Real Money Casino Slots</a></li>
-              <li><a href="/color-prediction" className="hover:text-[#F0C419] transition-colors">&rsaquo; Color Prediction Games</a></li>
+              <li><Link to="/live-casino" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Casino Lobby</Link></li>
+              <li><Link to="/teen-patti" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Teen Patti Cash</Link></li>
+              <li><Link to="/andar-bahar" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Andar Bahar</Link></li>
+              <li><Link to="/roulette" className="hover:text-[#F0C419] transition-colors">&rsaquo; European &amp; French Roulette</Link></li>
+              <li><Link to="/lightning-roulette" className="hover:text-[#F0C419] transition-colors">&rsaquo; Lightning Roulette 500x</Link></li>
+              <li><Link to="/blackjack" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Blackjack Tables</Link></li>
+              <li><Link to="/baccarat" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Baccarat &amp; Speed Tables</Link></li>
+              <li><Link to="/dragon-tiger" className="hover:text-[#F0C419] transition-colors">&rsaquo; Dragon Tiger Live</Link></li>
+              <li><Link to="/aviator-game" className="hover:text-[#F0C419] transition-colors">&rsaquo; Aviator Crash Game (98.5% RTP)</Link></li>
+              <li><Link to="/casino-slots" className="hover:text-[#F0C419] transition-colors">&rsaquo; Real Money Casino Slots</Link></li>
+              <li><Link to="/color-prediction" className="hover:text-[#F0C419] transition-colors">&rsaquo; Color Prediction Games</Link></li>
             </ul>
           </div>
 
@@ -153,17 +153,17 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
               Account &amp; Rewards
             </h4>
             <ul className="space-y-2 text-xs">
-              <li><a href="/register" className="hover:text-[#F0C419] transition-colors">&rsaquo; Register WhatsApp ID</a></li>
-              <li><a href="/login" className="hover:text-[#F0C419] transition-colors">&rsaquo; Lotus365 Member Login</a></li>
-              <li><a href="/how-to-deposit" className="hover:text-[#F0C419] transition-colors">&rsaquo; How to Deposit via UPI</a></li>
-              <li><a href="/how-to-withdraw" className="hover:text-[#F0C419] transition-colors">&rsaquo; How to Withdraw Funds</a></li>
-              <li><a href="/2-minute-cashout" className="hover:text-[#F0C419] transition-colors">&rsaquo; 2-Minute Instant Cashout</a></li>
-              <li><a href="/payment-methods" className="hover:text-[#F0C419] transition-colors">&rsaquo; Payment Methods Overview</a></li>
-              <li><a href="/welcome-bonus" className="hover:text-[#F0C419] transition-colors">&rsaquo; New Member Welcome Bonus</a></li>
-              <li><a href="/cashback-offers" className="hover:text-[#F0C419] transition-colors">&rsaquo; Weekly Cashback Program</a></li>
-              <li><a href="/referral-bonus" className="hover:text-[#F0C419] transition-colors">&rsaquo; Refer &amp; Earn Rewards</a></li>
-              <li><a href="/vip-club" className="hover:text-[#F0C419] transition-colors">&rsaquo; Lotus365 VIP Club</a></li>
-              <li><a href="/vip-black-card" className="hover:text-[#F0C419] transition-colors">&rsaquo; VIP Black Card Program</a></li>
+              <li><Link to="/register" className="hover:text-[#F0C419] transition-colors">&rsaquo; Register WhatsApp ID</Link></li>
+              <li><Link to="/login" className="hover:text-[#F0C419] transition-colors">&rsaquo; Lotus365 Member Login</Link></li>
+              <li><Link to="/how-to-deposit" className="hover:text-[#F0C419] transition-colors">&rsaquo; How to Deposit via UPI</Link></li>
+              <li><Link to="/how-to-withdraw" className="hover:text-[#F0C419] transition-colors">&rsaquo; How to Withdraw Funds</Link></li>
+              <li><Link to="/2-minute-cashout" className="hover:text-[#F0C419] transition-colors">&rsaquo; 2-Minute Instant Cashout</Link></li>
+              <li><Link to="/payment-methods" className="hover:text-[#F0C419] transition-colors">&rsaquo; Payment Methods Overview</Link></li>
+              <li><Link to="/welcome-bonus" className="hover:text-[#F0C419] transition-colors">&rsaquo; New Member Welcome Bonus</Link></li>
+              <li><Link to="/cashback-offers" className="hover:text-[#F0C419] transition-colors">&rsaquo; Weekly Cashback Program</Link></li>
+              <li><Link to="/referral-bonus" className="hover:text-[#F0C419] transition-colors">&rsaquo; Refer &amp; Earn Rewards</Link></li>
+              <li><Link to="/vip-club" className="hover:text-[#F0C419] transition-colors">&rsaquo; Lotus365 VIP Club</Link></li>
+              <li><Link to="/vip-black-card" className="hover:text-[#F0C419] transition-colors">&rsaquo; VIP Black Card Program</Link></li>
             </ul>
           </div>
         </div>
@@ -174,21 +174,21 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
             Guides, Strategy &amp; Platform Information
           </h4>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-white/75">
-            <a href="/lotus365-review" className="hover:text-[#F0C419] transition-colors">Lotus365 Review 2026</a>
-            <a href="/lotus365-vs-competitors" className="hover:text-[#F0C419] transition-colors">Lotus365 vs Competitors</a>
-            <a href="/betting-tips" className="hover:text-[#F0C419] transition-colors">Cricket Betting Tips</a>
-            <a href="/ipl-predictions" className="hover:text-[#F0C419] transition-colors">IPL 2026 Predictions</a>
-            <a href="/online-casino-guide" className="hover:text-[#F0C419] transition-colors">Online Casino Guide India</a>
-            <a href="/safe-betting-guide" className="hover:text-[#F0C419] transition-colors">Safe Betting Strategy</a>
-            <a href="/mobile-web-app-guide" className="hover:text-[#F0C419] transition-colors">Mobile Gaming Guide</a>
-            <a href="/how-it-works" className="hover:text-[#F0C419] transition-colors">How It Works</a>
-            <a href="/faq" className="hover:text-[#F0C419] transition-colors">Lotus365 FAQ</a>
-            <a href="/about" className="hover:text-[#F0C419] transition-colors">About Lotus365</a>
-            <a href="/contact" className="hover:text-[#F0C419] transition-colors">24/7 WhatsApp Support</a>
-            <a href="/responsible-gaming" className="hover:text-[#F0C419] transition-colors">Responsible Gaming Policy</a>
-            <a href="/terms" className="hover:text-[#F0C419] transition-colors">Terms of Service</a>
-            <a href="/privacy-policy" className="hover:text-[#F0C419] transition-colors">Privacy Policy</a>
-            <a href="/sitemap" className="hover:text-[#F0C419] transition-colors">HTML Sitemap</a>
+            <Link to="/lotus365-review" className="hover:text-[#F0C419] transition-colors">Lotus365 Review 2026</Link>
+            <Link to="/lotus365-vs-competitors" className="hover:text-[#F0C419] transition-colors">Lotus365 vs Competitors</Link>
+            <Link to="/betting-tips" className="hover:text-[#F0C419] transition-colors">Cricket Betting Tips</Link>
+            <Link to="/ipl-predictions" className="hover:text-[#F0C419] transition-colors">IPL 2026 Predictions</Link>
+            <Link to="/online-casino-guide" className="hover:text-[#F0C419] transition-colors">Online Casino Guide India</Link>
+            <Link to="/safe-betting-guide" className="hover:text-[#F0C419] transition-colors">Safe Betting Strategy</Link>
+            <Link to="/mobile-web-app-guide" className="hover:text-[#F0C419] transition-colors">Mobile Gaming Guide</Link>
+            <Link to="/how-it-works" className="hover:text-[#F0C419] transition-colors">How It Works</Link>
+            <Link to="/faq" className="hover:text-[#F0C419] transition-colors">Lotus365 FAQ</Link>
+            <Link to="/about" className="hover:text-[#F0C419] transition-colors">About Lotus365</Link>
+            <Link to="/contact" className="hover:text-[#F0C419] transition-colors">24/7 WhatsApp Support</Link>
+            <Link to="/responsible-gaming" className="hover:text-[#F0C419] transition-colors">Responsible Gaming Policy</Link>
+            <Link to="/terms" className="hover:text-[#F0C419] transition-colors">Terms of Service</Link>
+            <Link to="/privacy-policy" className="hover:text-[#F0C419] transition-colors">Privacy Policy</Link>
+            <Link to="/sitemap" className="hover:text-[#F0C419] transition-colors">HTML Sitemap</Link>
           </div>
         </div>
 
@@ -198,10 +198,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
             &copy; {new Date().getFullYear()} <strong className="text-white">Lotus365 Official</strong> (lotus365officialid.com). All Rights Reserved. 18+ Only.
           </div>
           <div className="flex items-center gap-4">
-            <a href="/responsible-gaming" className="hover:text-[#F0C419] transition-colors">Responsible Gaming</a>
-            <a href="/privacy-policy" className="hover:text-[#F0C419] transition-colors">Privacy</a>
-            <a href="/terms" className="hover:text-[#F0C419] transition-colors">Terms</a>
-            <a href="/sitemap" className="hover:text-[#F0C419] transition-colors">Sitemap</a>
+            <Link to="/responsible-gaming" className="hover:text-[#F0C419] transition-colors">Responsible Gaming</Link>
+            <Link to="/privacy-policy" className="hover:text-[#F0C419] transition-colors">Privacy</Link>
+            <Link to="/terms" className="hover:text-[#F0C419] transition-colors">Terms</Link>
+            <Link to="/sitemap" className="hover:text-[#F0C419] transition-colors">Sitemap</Link>
             <button onClick={scrollToTop} className="hover:text-[#F0C419] flex items-center gap-1 font-semibold ml-2 cursor-pointer">
               <ArrowUp className="w-3.5 h-3.5" />
               <span>Back to Top</span>

@@ -255,8 +255,8 @@ export const CricketBettingPage: React.FC = () => (
                   a: 'Lotus365 prides itself on India\'s fastest withdrawal processing time. When you submit a withdrawal request via our 24/7 WhatsApp desk, funds are credited directly to your registered UPI ID or IMPS bank account in an average of 1 minute 45 seconds (guaranteed under 2 minutes).',
                 },
                 {
-                  q: 'Do I need to download a heavy app file to bet on cricket?',
-                  a: 'instant smartphone access is required! Lotus365 is 100% web-based. Simply open lotus365officialid.com in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting without cluttering your phone memory or risking third-party app permissions.',
+                  q: 'Can I bet on live cricket matches directly from my phone?',
+                  a: 'Yes, absolutely! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting with zero storage needed.',
                 },
                 {
                   q: 'Can I claim a welcome bonus on my first cricket deposit?',

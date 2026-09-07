@@ -778,7 +778,7 @@ export const DragonTigerPage: React.FC = () => (
                 { q: 'What is a Suited Tie?', a: 'A Suited Tie occurs when both Dragon and Tiger receive cards of identical rank and suit (e.g. King of Hearts on both sides), rewarding players with a massive 50:1 payout!' },
                 { q: 'Can I follow roadmaps in Dragon Tiger?', a: 'Yes! The live interface includes Big Road, Bead Plate, and derived roads allowing pattern bettors to follow streaks.' },
                 { q: 'How fast can I withdraw my Dragon Tiger profits?', a: 'Winnings can be withdrawn via instant UPI in under 2 minutes through our 24/7 WhatsApp customer care desk. Enjoy complete financial peace of mind with 100% transparent zero-deduction payouts on all Dragon, Tiger, and Suited Tie wins.' },
-                { q: 'Does Dragon Tiger require an app download?', a: 'No, Lotus365 operates natively in mobile Chrome and Safari as a high-performance Progressive Web App with instant mobile play requirements.' },
+                { q: 'Can I play Dragon Tiger on my smartphone?', a: 'Yes! Dragon Tiger streams smoothly in Full HD inside mobile Chrome and Safari with zero lag and instant bet placement.' },
               ].map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { KEY_FEATURES } from '../data/landingData';
 import { Zap, TrendingUp, ShieldCheck, MessageCircle, ArrowRight, CheckCircle2, Award } from 'lucide-react';
 
@@ -92,12 +93,12 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
                   <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-2">
                     {item.description}
                   </p>
-                  <a
-                    href={item.linkHref}
+                  <Link
+                    to={item.linkHref}
                     className="text-xs font-bold text-[#F0C419] hover:underline inline-flex items-center gap-1"
                   >
                     <span>{item.linkText}</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

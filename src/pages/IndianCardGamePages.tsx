@@ -259,7 +259,7 @@ export const TeenPattiPage: React.FC = () => (
                 { q: 'How fast can I withdraw my Teen Patti winnings?', a: 'You can cash out your balance at any time through our 24/7 WhatsApp desk. UPI payouts are delivered in an average of 1 minute 45 seconds.' },
                 { q: 'What is 6-Card Bonus side bet in Teen Patti?', a: 'The 6-Card Bonus combines your 3 cards with the dealer\'s 3 cards to form the best possible 5-card poker hand. Hitting a Royal Flush pays out a monumental 1000:1 multiplier!' },
                 { q: 'Can I chat with the live dealer in Hindi?', a: 'Yes! Our dedicated Hindi Teen Patti tables feature native Indian dealers who converse warmly in Hindi throughout your session.' },
-                { q: 'Can I play Teen Patti on my mobile phone without downloading an app?', a: 'Yes! Lotus365 is 100% web-based. Simply open lotus365officialid.com in Chrome or Safari and enjoy seamless full-screen gameplay without installing an app.' },
+                { q: 'Can I play Teen Patti on my mobile phone?', a: 'Yes! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome or Safari and enjoy seamless full-screen gameplay directly in your browser.' },
               ].map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>

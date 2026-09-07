@@ -1,5 +1,6 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import { ScrollToTop } from './components/layout/ScrollToTop';
 
 // Home
 import { HomePage } from './pages/HomePage';
@@ -38,9 +39,19 @@ import { WelcomeBonusPage, FirstDepositBonusPage, ReferralBonusPage, CashbackOff
 // Tier 7 — Blog / Info
 import { ReviewPage, VsCompetitorsPage, BettingTipsPage, IplPredictionsPage, OnlineCasinoGuidePage, SafeBettingGuidePage, MobileWebAppGuidePage, FaqPage, HowItWorksPage } from './pages/BlogGuidePages';
 
+const RootLayout: React.FC = () => (
+  <>
+    <ScrollToTop />
+    <Outlet />
+  </>
+);
+
 const router = createBrowserRouter([
-  // ── HOME ───────────────────────────────────────────────────────────────────
-  { path: '/', element: <HomePage /> },
+  {
+    element: <RootLayout />,
+    children: [
+      // ── HOME ───────────────────────────────────────────────────────────────────
+      { path: '/', element: <HomePage /> },
 
   // ── TIER 1: CORE ───────────────────────────────────────────────────────────
   { path: '/about', element: <AboutPage /> },
@@ -108,6 +119,8 @@ const router = createBrowserRouter([
   { path: '/mobile-web-app-guide', element: <MobileWebAppGuidePage /> },
   { path: '/faq', element: <FaqPage /> },
   { path: '/how-it-works', element: <HowItWorksPage /> },
+    ],
+  },
 ]);
 
 export const App: React.FC = () => <RouterProvider router={router} />;

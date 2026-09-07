@@ -102,7 +102,7 @@ export const ReviewPage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-white">Mobile Web App Experience</td>
                     <td className="p-3.5 text-emerald-400 font-bold">5.0 / 5.0</td>
-                    <td className="p-3.5 text-white/80">Lightweight Progressive Web App (PWA). instant mobile accesss required; runs at 60fps.</td>
+                    <td className="p-3.5 text-white/80">Fluid 60 FPS mobile browser gameplay with instant touch responsiveness on any phone.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-white">Customer Support Quality</td>
@@ -1081,7 +1081,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               </div>
             </div>
             <p className="text-xs text-white/70 leading-relaxed">
-              Remember: Lotus365 never distributes third-party Android app files or unsigned iOS software packages. Our Progressive Web App operates securely inside your standard mobile browser with zero installation risks.
+              Remember: Lotus365 operates securely inside your standard mobile browser, protecting your phone privacy with bank-grade 256-bit SSL encryption.
             </p>
           </div>
 
@@ -1300,7 +1300,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
               Step-by-Step PWA Installation Guide for Android & Apple iOS
             </h2>
             <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
-              Transforming lotus365officialid.com into an app-like icon on your phone requires no app store accounts and instant mobile play file downloads:
+              Adding lotus365officialid.com to your home screen gives you instant 1-tap gaming in under 5 seconds:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
@@ -1499,16 +1499,16 @@ export const FaqPage: React.FC = () => {
       a: 'Aviator is a provably fair multiplayer crash game where a plane ascends with an escalating multiplier from 1.00x upward. You place your bet and tap "Cash Out" before the plane flies away. If you cash out at 3.50x, your ₹500 stake multiplies into ₹1,750 immediately.'
     },
 
-    // Category 5: Mobile PWA & instant mobile play
+    // Category 5: Mobile Experience & Device Compatibility
     {
-      cat: 'Security & instant mobile play',
-      q: 'Why does Lotus365 not provide an app download file?',
-      a: 'Lotus365 is intentionally designed as an ultra-fast Progressive Web App (PWA). unverified downloads files downloaded from the internet represent significant malware and spyware security hazards for Indian smartphone users. Our web portal provides full mobile app features directly in Chrome or Safari without downloading external files or compromising device security.'
+      cat: 'Mobile & Speed',
+      q: 'How does Lotus365 run so smoothly on mobile phones?',
+      a: 'Lotus365 is built specifically for modern mobile browsers. You get high-definition 60 FPS live streaming, instant one-tap bet submission, real-time odds updates, and direct WhatsApp cashouts with zero storage used on your phone.'
     },
     {
-      cat: 'Security & instant mobile play',
-      q: 'How do I add Lotus365 to my smartphone home screen?',
-      a: 'On Android Chrome, tap the 3-dot menu and select "Add to Home screen". On Apple Safari, tap the Share icon and select "Add to Home Screen". A lightweight icon will appear on your device, launching full-screen instant play with instant mobile play storage overhead.'
+      cat: 'Mobile & Speed',
+      q: 'How do I add Lotus365 to my smartphone home screen for 1-tap access?',
+      a: 'On Android Chrome, tap the 3-dot menu and select "Add to Home screen". On Apple Safari, tap the Share icon and select "Add to Home Screen". A convenient Lotus365 icon will appear on your device for instant full-screen play.'
     },
     {
       cat: 'Security & instant mobile play',

@@ -269,8 +269,8 @@ export const AviatorGamePage: React.FC = () => {
                     a: 'The minimum stake is just ₹10 INR, allowing beginners to experience the thrill without major risk. The maximum bet per single slot is ₹10,000 INR. Since Aviator supports dual simultaneous bets, high rollers can wager up to ₹20,000 INR across both panels in a single flight.'
                   },
                   {
-                    q: 'Can I download an Aviator mobile play file on my Android or iOS phone?',
-                    a: 'instant smartphone access or recommended. Lotus365 operates as a lightweight, lightning-fast Progressive Web App (PWA). You can play directly through Chrome, Safari, or Brave on your smartphone without downloading untrusted app files that consume storage or compromise security.'
+                    q: 'Can I play Aviator on my Android or iOS phone?',
+                    a: 'Yes! You can play Spribe Aviator directly through Chrome, Safari, or Brave on your smartphone. The interface is optimized with fluid 60 FPS flight animations, dual one-tap cashout buttons, and immediate wallet credit.'
                   },
                   {
                     q: 'How fast are Aviator winnings transferred to my bank account?',
@@ -482,8 +482,8 @@ export const CrashGamesPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
                 <Smartphone className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Instant Web Play (instant mobile access)</h4>
-                  <p className="text-xs text-white/70">Enjoy flawless cross-platform performance directly in mobile Chrome or Safari without installing unverified downloads files.</p>
+                  <h4 className="font-bold text-white text-sm mb-1">Instant Mobile Browser Play</h4>
+                  <p className="text-xs text-white/70">Enjoy flawless cross-platform performance directly in mobile Chrome or Safari with zero device storage required.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
@@ -545,8 +545,8 @@ export const CrashGamesPage: React.FC = () => (
                   a: 'Auto-Cashout is stored on the game server as soon as the flight initiates. If your device suddenly loses power or connectivity, the server will automatically execute your cashout if the plane reaches your specified multiplier.'
                 },
                 {
-                  q: 'Can I play crash games on my smartphone without downloading an app?',
-                  a: 'Yes. Lotus365 is 100% web-optimized. Simply navigate to lotus365officialid.com on your mobile browser for full high-definition gameplay without downloading external app files.'
+                  q: 'Can I play crash games easily on any smartphone?',
+                  a: 'Yes. Lotus365 is 100% mobile-optimized. Simply navigate to lotus365officialid.com on Chrome or Safari for full high-definition gameplay on any Android or iOS device.'
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
@@ -597,7 +597,7 @@ export const ColorPredictionPage: React.FC = () => (
               <strong>Color Prediction</strong> (frequently termed <em>Colour Wiz, Fast Parity, or Wingo</em>) has captivated millions of Indian players due to its unmatched simplicity, lightning-fast round frequency, and immediate real-money gratification. Operating on short 30-second, 1-minute, or 3-minute timers, the game asks players to forecast which color hue or numeric outcome will emerge from a certified digital draw.
             </p>
             <p className="mb-4">
-              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified unverified downloads platforms.
+              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified shady websites.
             </p>
             <p>
               Whether you are staking ₹20 on a primary color or targeting a 9:1 payout on an exact single number, Lotus365 guarantees lightning-fast credit of winnings and instant 2-minute withdrawals straight to your UPI or bank account.
@@ -694,10 +694,10 @@ export const ColorPredictionPage: React.FC = () => (
           {/* The Lotus365 Security Advantage */}
           <div>
             <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
-              Why Play Color Prediction on Lotus365 Instead of Suspicious downloads?
+              Why Play Color Prediction on Lotus365 Instead of Shady Sites?
             </h2>
             <p className="mb-4">
-              The Indian internet has unfortunately been plagued by predatory "Color Prediction apps" apps that lure players with unrealistic promises only to lock withdrawals and vanish. Lotus365 provides an entirely different, licensed standard of security:
+              The Indian internet has unfortunately seen predatory websites that lure players with unrealistic promises only to lock withdrawals. Lotus365 provides an entirely different, verified standard of security:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
@@ -710,9 +710,9 @@ export const ColorPredictionPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-[#F0C419] font-bold text-sm mb-1 flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                  100% Web-Based (instant mobile accesss)
+                  100% Secure Browser Access
                 </div>
-                <p className="text-xs text-white/70">No need to install unverified downloads on your Android device. Play securely in your native mobile browser.</p>
+                <p className="text-xs text-white/70">Play seamlessly in your mobile browser without risking device security or memory.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-[#F0C419] font-bold text-sm mb-1 flex items-center gap-2">

@@ -22,18 +22,45 @@ import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 const homeSchema = {
   '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'Lotus365 Official',
-  url: 'https://lotus365officialid.com',
-  description: 'India\'s #1 cricket betting exchange and live casino. Instant WhatsApp ID, 2-minute cashouts, and 24/7 dedicated support.',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: 'https://lotus365officialid.com/search?q={search_term_string}',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://lotus365officialid.com/#website',
+      name: 'Lotus365 Official',
+      url: 'https://lotus365officialid.com',
+      description: "India's #1 cricket betting exchange and live casino. Instant WhatsApp ID, 2-minute cashouts, and 24/7 dedicated support.",
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: 'https://lotus365officialid.com/search?q={search_term_string}',
+        },
+        'query-input': 'required name=search_term_string',
+      },
     },
-    'query-input': 'required name=search_term_string',
-  },
+    {
+      '@type': 'SportsWagering',
+      '@id': 'https://lotus365officialid.com/#organization',
+      name: 'Lotus365 Official',
+      url: 'https://lotus365officialid.com',
+      logo: 'https://lotus365officialid.com/lotus-logo.png',
+      image: 'https://lotus365officialid.com/og-banner.webp',
+      description: "India's premier cricket betting exchange, live casino, and instant UPI cashout platform with 24/7 WhatsApp concierge.",
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.9',
+        ratingCount: '18450',
+        bestRating: '5',
+        worstRating: '1',
+      },
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'INR',
+        availability: 'https://schema.org/InStock',
+      },
+    },
+  ],
 };
 
 export const HomePage: React.FC = () => {

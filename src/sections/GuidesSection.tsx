@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { GUIDE_ARTICLES } from '../data/landingData';
 import { BookOpen, ArrowRight, Clock } from 'lucide-react';
 
@@ -7,6 +8,19 @@ interface GuidesProps {
 }
 
 export const GuidesSection: React.FC<GuidesProps> = ({ onOpenAuth }) => {
+  const getGuideHref = (slug: string) => {
+    switch (slug) {
+      case 'lotus365-blue-comparison':
+        return '/lotus365-vs-competitors';
+      case 'cricket-exchange-guide':
+        return '/cricket-exchange';
+      case 'vip-perks-guide':
+        return '/vip-club';
+      default:
+        return '/betting-tips';
+    }
+  };
+
   return (
     <section id="guides" className="py-20 bg-[#14614C] border-t border-white/15 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,13 +77,13 @@ export const GuidesSection: React.FC<GuidesProps> = ({ onOpenAuth }) => {
 
               <div className="pt-4 border-t border-white/10 flex items-center justify-between">
                 <span className="text-[11px] text-white/60 font-semibold">Lotus365 Academy</span>
-                <button
-                  onClick={() => onOpenAuth('register')}
-                  className="text-xs font-bold text-[#F0C419] hover:underline flex items-center gap-1 cursor-pointer"
+                <Link
+                  to={getGuideHref(article.slug)}
+                  className="text-xs font-bold text-[#F0C419] hover:underline flex items-center gap-1"
                 >
                   <span>Read Guide</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-                </button>
+                </Link>
               </div>
             </div>
           ))}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Smartphone, ShieldCheck, Zap, MessageCircle, ArrowRight, CheckCircle2, Award, Sparkles } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -88,20 +89,20 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
                 <span>Get Instant WhatsApp ID</span>
               </button>
 
-              <a
-                href="/cricket-exchange"
+              <Link
+                to="/cricket-exchange"
                 className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
               >
                 <span>Live Cricket Exchange</span>
                 <ArrowRight className="w-3.5 h-3.5 ml-1" />
-              </a>
+              </Link>
 
-              <a
-                href="/live-casino"
+              <Link
+                to="/live-casino"
                 className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
               >
                 <span>Live Casino Tables</span>
-              </a>
+              </Link>
             </div>
           </div>
 

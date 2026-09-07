@@ -258,8 +258,8 @@ export const IplBettingPage: React.FC = () => (
                   a: 'Heavy evening dew makes the cricket ball slick, reducing spinners\' grip and pacers\' seam control. As a result, teams batting second in night matches enjoy a marked statistical advantage. Lotus365 exchange traders frequently back the chasing team at the innings break to capitalize on dew conditions.',
                 },
                 {
-                  q: 'Do I need to download an app file to bet on IPL from my smartphone?',
-                  a: 'instant smartphone access is necessary. Lotus365 operates as an ultra-responsive Progressive Web App (PWA) compatible with Chrome and Safari on Android and iOS. Simply bookmark lotus365officialid.com to your home screen for instant 60 FPS mobile access.',
+                  q: 'Can I bet on IPL live matches on my smartphone?',
+                  a: 'Yes! Lotus365 runs smoothly on Chrome and Safari across all Android and iOS smartphones. Simply visit lotus365officialid.com or bookmark it to your home screen for instant 60 FPS in-play cricket odds.'
                 },
                 {
                   q: 'How do I claim an IPL welcome bonus on my first deposit?',

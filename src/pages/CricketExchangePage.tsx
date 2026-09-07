@@ -233,7 +233,7 @@ export const CricketExchangePage: React.FC = () => (
                 },
                 {
                   q: 'Can I trade cricket exchange matches on my mobile phone?',
-                  a: 'Absolutely. Lotus365 is built as an ultra-fast Progressive Web App running directly in mobile Chrome and Safari at 60 FPS. You can execute back and lay orders with one tap on your smartphone without downloading any unverified downloads file.',
+                  a: 'Absolutely. Lotus365 is built for ultra-fast mobile play running directly in mobile Chrome and Safari at 60 FPS. You can execute back and lay orders with one tap on your smartphone with instant ball-by-ball updates.',
                 },
                 {
                   q: 'How do I deposit funds to trade on the cricket exchange?',

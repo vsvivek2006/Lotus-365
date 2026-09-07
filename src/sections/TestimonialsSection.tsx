@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Star, ShieldCheck, CheckCircle2, MessageCircle, ArrowRight, Trophy, Zap, HeartHandshake, Award } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -256,20 +257,20 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
               <span>Get Your WhatsApp ID Now</span>
             </button>
 
-            <a
-              href="/how-it-works"
+            <Link
+              to="/how-it-works"
               className="cta-button-outline py-3 px-5 text-xs font-bold"
             >
               <span>See How It Works</span>
               <ArrowRight className="w-3.5 h-3.5 ml-1" />
-            </a>
+            </Link>
 
-            <a
-              href="/cricket-exchange"
+            <Link
+              to="/cricket-exchange"
               className="cta-button-outline py-3 px-5 text-xs font-bold"
             >
               <span>Explore Cricket Exchange</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

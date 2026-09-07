@@ -111,10 +111,10 @@ export const AboutPage: React.FC = () => (
 
               <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
                 <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <Globe className="w-5 h-5 text-[#F0C419]" /> 4. Modern Progressive Web App Tech
+                  <Globe className="w-5 h-5 text-[#F0C419]" /> 4. Instant Browser Performance
                 </h3>
                 <p className="text-xs text-white/70">
-                  We reject unsafe unverified downloads downloads. Lotus365 is engineered as a lightweight Progressive Web App (PWA) that runs at 60fps in native mobile Chrome and Safari with zero device bloat.
+                  Play smoothly on any smartphone with zero storage consumed. Lotus365 runs at fluid 60fps directly in your mobile browser with lightning response times.
                 </p>
               </div>
             </div>
@@ -257,8 +257,8 @@ export const AboutPage: React.FC = () => (
                   a: 'Unlike European bookmakers that impose severe account limits on winning players, Lotus365 operates as a true exchange where winners are welcomed. Additionally, European platforms frequently reject Indian bank cards and take days to process payouts, whereas Lotus365 settles within 2 minutes via UPI.'
                 },
                 {
-                  q: 'Can I access Lotus365 on an iPhone or iPad without an app download?',
-                  a: 'Yes! Lotus365 is engineered as an ultra-fast Progressive Web App (PWA). Simply visit lotus365officialid.com on Mobile Safari or Chrome and tap "Add to Home Screen" for one-tap native access without installing any unverified app or third-party file.'
+                  q: 'Can I access Lotus365 on an iPhone, iPad, or Android phone?',
+                  a: 'Yes! Lotus365 is completely optimized for all mobile screens. Simply visit lotus365officialid.com on Safari or Chrome and bookmark or add to home screen for 1-tap gaming anytime.'
                 }
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">

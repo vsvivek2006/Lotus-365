@@ -220,8 +220,8 @@ export const LiveCasinoPage: React.FC = () => (
                   a: 'Yes! Our Teen Patti and Andar Bahar studios feature native Hindi-speaking croupiers who celebrate winning hands and converse fluently with Indian players.',
                 },
                 {
-                  q: 'Can I play live casino tables on my mobile phone without downloading an app?',
-                  a: 'Yes! Lotus365 is 100% web-based. Simply open lotus365officialid.com on Mobile Chrome or Safari, tap your favorite game, and begin playing in fullscreen landscape or portrait mode immediately.'
+                  q: 'Can I play live casino tables on my smartphone?',
+                  a: 'Yes! Lotus365 is 100% mobile-optimized. Simply open lotus365officialid.com on Mobile Chrome or Safari, tap your favorite game, and begin playing in fullscreen landscape or portrait mode immediately.'
                 },
               ].map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">

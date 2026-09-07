@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import {
   MessageCircle,
   Sparkles,
@@ -170,18 +171,18 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
             {/* Quick Redirect Interlinks for Players */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-4 text-[11px] sm:text-xs">
               <span className="text-white/60">Explore Games:</span>
-              <a href="/cricket-exchange" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-[#F0C419] border border-[#F0C419]/30 transition-all font-semibold">
+              <Link to="/cricket-exchange" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-[#F0C419] border border-[#F0C419]/30 transition-all font-semibold">
                 🏏 Cricket Exchange
-              </a>
-              <a href="/live-casino" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-emerald-300 border border-emerald-500/30 transition-all font-semibold">
+              </Link>
+              <Link to="/live-casino" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-emerald-300 border border-emerald-500/30 transition-all font-semibold">
                 🎰 Live Casino
-              </a>
-              <a href="/aviator-game" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-sky-300 border border-sky-500/30 transition-all font-semibold">
+              </Link>
+              <Link to="/aviator-game" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-sky-300 border border-sky-500/30 transition-all font-semibold">
                 ✈️ Aviator
-              </a>
-              <a href="/vip-club" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-amber-300 border border-amber-500/30 transition-all font-semibold">
+              </Link>
+              <Link to="/vip-club" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-amber-300 border border-amber-500/30 transition-all font-semibold">
                 👑 VIP Club
-              </a>
+              </Link>
             </div>
 
             {/* Micro Badges */}

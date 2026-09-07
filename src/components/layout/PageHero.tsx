@@ -24,7 +24,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
   const parts = highlight ? title.split(highlight) : [title];
 
   return (
-    <section className="pt-28 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0b3b2d] to-[#14614C] relative overflow-hidden">
+    <section className="pt-10 sm:pt-14 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0b3b2d] to-[#14614C] relative overflow-hidden">
       {/* Ambient glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-[#F0C419]/8 blur-[120px] rounded-full pointer-events-none" />
 

@@ -13,7 +13,7 @@ interface SEOHeadProps {
 
 const SITE_NAME = 'Lotus365 Official';
 const SITE_URL = 'https://lotus365officialid.com';
-const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.jpg`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/og-banner.webp`;
 
 export const SEOHead: React.FC<SEOHeadProps> = ({
   title,

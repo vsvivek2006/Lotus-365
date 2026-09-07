@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X, Sparkles, UserCheck, MessageCircle, ShieldCheck } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -44,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand Logo */}
-        <a href="/" className="flex items-center gap-3 group">
+        <Link to="/" className="flex items-center gap-3 group">
           <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-brand-surface to-brand-card p-1.5 border border-brand-gold/30 shadow-gold-glow flex items-center justify-center group-hover:border-brand-gold transition-colors">
             {/* Lotus SVG Emblem */}
             <svg viewBox="0 0 100 100" className="w-full h-full filter drop-shadow">
@@ -104,15 +105,15 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
               India's Premier Sports Exchange
             </span>
           </div>
-        </a>
+        </Link>
 
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.label}
-              href={link.href}
+              to={link.href}
               className="px-3 py-1.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all flex items-center gap-1.5"
             >
               {link.label}
@@ -127,7 +128,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
                   {link.badge}
                 </span>
               )}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -177,9 +178,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
         <div className="lg:hidden bg-brand-surface/98 backdrop-blur-xl border-b border-white/10 px-4 pt-3 pb-6 shadow-2xl transition-all animate-fadeIn">
           <div className="flex flex-col gap-1.5">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.label}
-                href={link.href}
+                to={link.href}
                 onClick={() => {
                   setMobileMenuOpen(false);
                 }}
@@ -197,7 +198,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
                     {link.badge}
                   </span>
                 )}
-              </a>
+              </Link>
             ))}
 
             <div className="grid grid-cols-2 gap-2 mt-4 pt-4 border-t border-white/10">

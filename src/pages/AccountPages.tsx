@@ -137,8 +137,8 @@ export const RegisterPage: React.FC = () => {
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-white">Smartphone Play</td>
-                      <td className="p-3.5 text-emerald-400 font-semibold">instant mobile play (100% Web Play)</td>
-                      <td className="p-3.5">Requires untrusted unverified downloads</td>
+                      <td className="p-3.5 text-emerald-400 font-semibold">Instant 1-Tap Browser Play</td>
+                      <td className="p-3.5">Heavy, Complicated App Setups</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-white">Payment Method</td>
@@ -319,7 +319,7 @@ export const LoginPage: React.FC = () => {
     <>
       <SEOHead 
         title="Lotus365 Login — Official Portal & Account Access Guide" 
-        description="Official Lotus365 login instructions. Access your account on lotus365officialid.com securely without app downloads. Instant WhatsApp password reset and 24/7 login support." 
+        description="Official Lotus365 login instructions. Access your account on lotus365officialid.com securely on any mobile or desktop browser. Instant WhatsApp password reset and 24/7 login support." 
         canonical="/login" 
         keywords="lotus365 login, lotus365 log in, lotus365 account login, lotus365 official login, lotus365 id login, lotus365 password reset, lotus365 login link" 
       />
@@ -341,7 +341,7 @@ export const LoginPage: React.FC = () => {
                 How to Log In to Your Official Lotus365 Account
               </h2>
               <p className="mb-4">
-                Accessing your Lotus365 betting and gaming dashboard is swift and secure. Because Lotus365 is architected as an ultra-responsive Progressive Web App (PWA), there is no need to download clunky or suspicious app files to your device. Follow these verified login steps:
+                Accessing your Lotus365 betting and gaming dashboard is swift and secure. Lotus365 is optimized for instant access on any smartphone or computer with zero installation needed. Follow these verified login steps:
               </p>
 
               <div className="space-y-4">
@@ -560,8 +560,8 @@ export const LoginPage: React.FC = () => {
                     a: 'The only official login destination is https://lotus365officialid.com. Do not attempt logging into secondary unverified domains that mimic our brand styling.'
                   },
                   {
-                    q: 'Can I log in using my mobile phone without downloading an app?',
-                    a: 'Yes! Lotus365 is optimized as a lightweight, zero-download Progressive Web App. Simply visit lotus365officialid.com on mobile Chrome or Safari for a native app-like experience without app risks.'
+                    q: 'Can I log in using my mobile phone?',
+                    a: 'Yes! Lotus365 is 100% optimized for mobile. Simply visit lotus365officialid.com on mobile Chrome or Safari to access your account instantly with smooth 60 FPS gameplay.'
                   },
                   {
                     q: 'Is my login connection encrypted and secure?',
