@@ -452,4 +452,20 @@ export const AndarBaharPage: React.FC = () => (
                 { q: 'How fast do I receive withdrawals from Andar Bahar winnings?', a: 'Lotus365 processes all UPI and IMPS withdrawals within 2 minutes with zero platform deduction.' },
                 { q: 'Is there a limit on how many cards can be dealt in a single round?', a: 'The round continues until the matching rank card appears. In rare instances, over 40 cards may be dealt, rewarding the 41+ cards side bet with a massive 120x payout!' },
                 { q: 'What is the theoretical house edge on Andar vs Bahar?', a: 'Because Andar receives the first card, it holds a 51.5% probability and pays 0.9:1, resulting in a low house edge of 2.15%. Bahar receives cards second, holding a 48.5% probability and paying 1:1, carrying a house edge of approximately 3.00%.' },
-                { q: 'Can I deposit via Google Pay or Paytm to play Andar Bahar?', a: 'Yes! All Indian UPI applica
+                { q: 'Can I deposit via Google Pay or Paytm to play Andar Bahar?', a: 'Yes! All Indian UPI applications including PhonePe, Google Pay, BHIM, and Paytm are supported with instant zero-fee credits starting at just ₹100. Simply share your 12-digit UTR on WhatsApp to start playing within 30 seconds.' },
+              ].map((item, idx) => (
+                <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
+                  <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <RelatedPages pages={andarLinks} />
+      <PageCTA headline="Play Live Andar Bahar on Lotus365" subtext="Real human dealers, 51.5% edge on Andar, and 2-minute UPI cashouts. Register free on WhatsApp now!" />
+    </Layout>
+  </>
+);

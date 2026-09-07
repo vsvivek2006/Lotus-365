@@ -285,4 +285,28 @@ export const SitemapPage: React.FC = () => (
                 },
                 {
                   q: 'Can I bookmark individual game pages like Aviator or Roulette directly?',
-                  a: 'Yes. Every page in this sit
+                  a: 'Yes. Every page in this sitemap possesses a dedicated canonical URL that you can bookmark on your mobile or desktop browser for direct one-tap access.'
+                },
+                {
+                  q: 'Do I need separate login credentials for the sports exchange and live casino?',
+                  a: 'No! Your single Lotus365 WhatsApp ID grants universal access to every directory and game featured in this sitemap with a unified wallet balance.'
+                },
+                {
+                  q: 'How do I report a broken link or page issue?',
+                  a: 'Message our 24/7 WhatsApp customer care desk at wa.link/880088. Our web engineering team resolves technical inquiries within minutes.'
+                },
+              ].map((faq, idx) => (
+                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
+                  <h4 className="font-bold text-white text-xs sm:text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs text-white/70">{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <PageCTA headline="Navigate, Bet & Win on India's #1 Platform" />
+    </Layout>
+  </>
+);

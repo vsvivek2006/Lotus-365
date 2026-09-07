@@ -173,10 +173,6 @@ export const LiveCasinoPage: React.FC = () => (
             </div>
           </div>
 
-          {/* 6 In-Depth FAQs */}
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
-              <HelpCircle className="w-7 h-7 text-[#F0C419]" />
           {/* Multi-Camera Angle Studio Infrastructure */}
           <div className="p-6 rounded-2xl bg-black/20 border border-white/15 space-y-3">
             <h3 className="text-xl font-bold text-[#F0C419]">

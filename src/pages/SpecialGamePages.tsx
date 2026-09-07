@@ -796,7 +796,6 @@ export const ColorPredictionPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
@@ -1053,7 +1052,6 @@ export const VirtualSportsPage: React.FC = () => (
                   a: 'Yes. You can place wagers prior to kickoff or adjust your stakes in real time as the dynamic simulation unfolds with instant odds recalibration and automated settlement.'
                 },
               ].map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

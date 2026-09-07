@@ -4,7 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
-import { Star, HelpCircle, Zap, ShieldCheck, Trophy, Sparkles } from 'lucide-react';
+import { Star, HelpCircle } from 'lucide-react';
 
 const casinoLinks = [
   { href: '/live-casino', label: 'Live Casino Lobby', description: '1000+ games with real dealers' },
