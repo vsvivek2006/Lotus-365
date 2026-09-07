@@ -13,6 +13,7 @@ const sitemapData = [
     { href: '/responsible-gaming', label: 'Responsible Gaming Policy & 18+ Verification' },
     { href: '/terms', label: 'Terms & Conditions of Service' },
     { href: '/privacy-policy', label: 'Privacy Policy & Zero-Data Leak Promise' },
+    { href: '/sitemap', label: 'Lotus365 Official HTML Sitemap & Directory' },
   ]},
   { category: 'Sportsbook & Cricket Exchange Markets', pages: [
     { href: '/cricket-betting', label: 'Cricket Betting Hub India' },
@@ -84,7 +85,7 @@ export const SitemapPage: React.FC = () => (
       keywords="lotus365 sitemap, all lotus365 pages, lotus365 directory, lotus365 navigation, betting site sitemap india"
     />
     <Layout>
-      <section className="pt-28 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0b3b2d] to-[#14614C]">
+      <section className="pt-10 sm:pt-14 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0b3b2d] to-[#14614C]">
         <div className="max-w-5xl mx-auto space-y-12">
           
           {/* Header */}
@@ -172,7 +173,7 @@ export const SitemapPage: React.FC = () => (
               Every endpoint documented in this sitemap connects into our unified cloud-based account ledger. When you generate an account via WhatsApp at <a href="https://wa.link/880088" className="text-[#F0C419] underline">wa.link/880088</a>, that single login unlocks access to all 54 gaming verticals, betting exchanges, live dealer suites, and payment channels without needing to register separate accounts.
             </p>
             <p>
-              Whether you are hedging match positions on the <a href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</a>, riding multiplier curves in <a href="/aviator-game" className="text-[#F0C419] underline">Spribe Aviator</a>, or requesting a 2-minute instant UPI cashout to your bank account, Lotus365 delivers zero-friction, state-of-the-art gaming performance.
+              Whether you are hedging match positions on the <Link to="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link>, riding multiplier curves in <Link to="/aviator-game" className="text-[#F0C419] underline">Spribe Aviator</Link>, or requesting a 2-minute instant UPI cashout to your bank account, Lotus365 delivers zero-friction, state-of-the-art gaming performance.
             </p>
           </div>
 
@@ -232,7 +233,7 @@ export const SitemapPage: React.FC = () => (
             <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
               <h3 className="text-[#F0C419] font-bold text-sm">Silo 7: Strategic Blog Guides & Technical Knowledge Base</h3>
               <p className="text-xs text-white/70">
-                A rich educational library containing honest independent platform evaluations, head-to-head competitor comparisons, professional cricket exchange trading techniques, bankroll preservation manuals, and full progressive web application (PWA) installation guides.
+                A rich educational library containing honest independent platform evaluations, head-to-head competitor comparisons, professional cricket exchange trading techniques, bankroll preservation manuals, and high-speed smartphone browser guides.
               </p>
             </div>
           </div>
