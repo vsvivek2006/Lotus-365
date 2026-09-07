@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d8266" />
+      <stop offset="50%" stop-color="#14614C" />
+      <stop offset="100%" stop-color="#0a3d30" />
+    </linearGradient>
+    <linearGradient id="goldPetalCenter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDE7" />
+      <stop offset="30%" stop-color="#FFE082" />
+      <stop offset="70%" stop-color="#F0C419" />
+      <stop offset="100%" stop-color="#B47D08" />
+    </linearGradient>
+    <linearGradient id="goldPetalSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4" />
+      <stop offset="45%" stop-color="#FFD54F" />
+      <stop offset="80%" stop-color="#F0C419" />
+      <stop offset="100%" stop-color="#A36B04" />
+    </linearGradient>
+    <linearGradient id="goldPetalOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFECB3" />
+      <stop offset="50%" stop-color="#FFCA28" />
+      <stop offset="85%" stop-color="#D48F12" />
+      <stop offset="100%" stop-color="#7F4E02" />
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="50%" stop-color="#F0C419" />
+      <stop offset="100%" stop-color="#D48F12" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bgGrad)" stroke="url(#goldBorder)" stroke-width="12" />
+  <circle cx="256" cy="270" r="160" fill="#F0C419" opacity="0.15" filter="url(#glow)" />
+  <g transform="translate(0, 15)">
+    <path d="M 256,365 C 180,365 90,325 80,245 C 90,205 130,200 160,240 C 190,280 220,325 256,365 Z" fill="url(#goldPetalOuter)" />
+    <path d="M 256,365 C 332,365 422,325 432,245 C 422,205 382,200 352,240 C 322,280 292,325 256,365 Z" fill="url(#goldPetalOuter)" />
+    <path d="M 256,375 C 190,375 140,295 145,205 C 175,170 215,195 230,250 C 240,290 248,340 256,375 Z" fill="url(#goldPetalSide)" />
+    <path d="M 256,375 C 322,375 372,295 367,205 C 337,170 297,195 282,250 C 272,290 264,340 256,375 Z" fill="url(#goldPetalSide)" />
+    <path d="M 256,110 C 295,190 315,290 256,385 C 197,290 217,190 256,110 Z" fill="url(#goldPetalCenter)" stroke="#FFFDE7" stroke-width="3" stroke-opacity="0.7" />
+    <path d="M 175,375 C 215,405 297,405 337,375 C 310,398 202,398 175,375 Z" fill="#FFE082" />
+    <ellipse cx="256" cy="388" rx="55" ry="8" fill="#D48F12" />
+  </g>
+</svg>

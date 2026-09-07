@@ -8,6 +8,8 @@ import {
   Plane,
   Lock,
   Crown,
+  CheckCircle2,
+  Smartphone,
 } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -48,141 +50,163 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
   }, []);
 
   return (
-    <section className="welcome-section relative pt-24 pb-14 lg:pt-32 lg:pb-20 overflow-hidden">
+    <section className="welcome-section relative pt-6 pb-10 lg:pt-10 lg:pb-16 overflow-hidden">
       {/* Background Ambient Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-brand-gold/10 blur-[130px] rounded-full pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
           {/* Left Column: Authentic Reference Content & 4 Exact Action Buttons */}
           <div className="lg:col-span-7 text-center lg:text-left">
             {/* Status Eyebrow Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/20 border border-[#F0C419]/30 text-xs font-semibold mb-5 shadow-sm">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/30 border border-[#F0C419]/40 text-xs font-semibold mb-4 shadow-sm">
               <span className="flex h-2 w-2 relative">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#F0C419] opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#F0C419]"></span>
               </span>
-              <span className="text-[#F0C419] font-bold">⚡ India's #1 Rated Gaming & Sports Exchange</span>
-              <span className="hidden sm:inline text-white/80">• 0% Commission</span>
+              <span className="text-[#F0C419] font-black uppercase tracking-wider text-[11px] sm:text-xs">
+                ⚡ India's #1 Cricket Exchange &amp; Live Casino
+              </span>
+              <span className="hidden sm:inline text-white/40">•</span>
+              <span className="hidden sm:inline text-emerald-300 font-bold text-xs flex items-center gap-1">
+                <CheckCircle2 className="w-3.5 h-3.5 inline text-emerald-400" /> 100% Verified
+              </span>
             </div>
 
-            {/* Display Headline matching https://lottuss365.co/ */}
-            <h1 className="text-2xl sm:text-4xl lg:text-[2.75rem] font-extrabold text-[#F0C419] leading-[1.2] mb-5 tracking-tight">
-              Lotus365 Official Website – Lotus365 Blue Login &amp; Get Bonuses
+            {/* Display Headline */}
+            <h1 className="text-3xl sm:text-4xl lg:text-[3.1rem] font-black text-white leading-[1.12] mb-3.5 tracking-tight">
+              India's Most Trusted{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFF066] via-[#F0C419] to-[#E5A800] drop-shadow-[0_2px_18px_rgba(240,196,25,0.35)]">
+                Cricket Exchange
+              </span>
             </h1>
 
-            {/* Authentic Narrative Text from https://lottuss365.co/ */}
-            <div className="text-white/90 text-sm sm:text-base leading-relaxed space-y-3.5 mb-8">
-              <p>
-                When you picture the ultimate online gaming destination, you imagine excitement, a true sense of challenge, and the unparalleled thrill of victory. That is the core of the <strong className="text-white">Lotus365</strong> experience, and so much more. Our mission is to create a vibrant, secure, and fun atmosphere where players of all skill levels can master their favorite games and discover new ones.
-              </p>
-              <p className="hidden sm:block">
-                We have built <strong>Lotus365</strong> to cater to your every requirement, whether you’re a casual player looking for a quick, entertaining cricket wager or a dedicated enthusiast ready for live casino action. Available 24/7, every single day of the year.
-              </p>
-              <p>
-                From your very first{' '}
-                <button
-                  onClick={handleWhatsApp}
-                  className="inline-link cursor-pointer font-bold"
-                >
-                  Lotus365 login
-                </button>
-                , you will immediately notice a superior level of quality and service. For our most dedicated players, the{' '}
-                <button
-                  onClick={handleWhatsApp}
-                  className="inline-link cursor-pointer font-bold"
-                >
-                  Lotus365 VIP
-                </button>{' '}
-                experience elevates this further, offering an even more streamlined, rewarding, and exclusive journey with{' '}
-                <button
-                  onClick={handleWhatsApp}
-                  className="inline-link cursor-pointer font-bold"
-                >
-                  Lotus365 Blue
-                </button>
-                .
-              </p>
+            {/* High-Converting Value Proposition */}
+            <p className="text-white/85 text-sm sm:text-base leading-relaxed mb-5 max-w-2xl font-normal">
+              Real-time peer-to-peer cricket odds with <strong className="text-[#F0C419] font-bold">0% commission</strong>, live dealer Teen Patti, Roulette &amp; 1000+ casino games. Get your official WhatsApp ID in under 30 seconds!
+            </p>
+
+            {/* Visual Feature Badges - Replacing Bulky Paragraphs */}
+            <div className="grid grid-cols-2 gap-2 sm:gap-2.5 max-w-xl mb-5">
+              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
+                <div className="w-7 h-7 rounded-lg bg-[#F0C419]/15 border border-[#F0C419]/30 flex items-center justify-center shrink-0">
+                  <Zap className="w-3.5 h-3.5 text-[#F0C419]" />
+                </div>
+                <div className="text-left">
+                  <div className="text-xs font-bold text-white">0% Commission</div>
+                  <div className="text-[10px] text-white/70">Top Cricket Matches</div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
+                <div className="w-7 h-7 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center shrink-0">
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                </div>
+                <div className="text-left">
+                  <div className="text-xs font-bold text-white">2-Min UPI Cashout</div>
+                  <div className="text-[10px] text-white/70">PhonePe, GPay, Paytm</div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
+                <div className="w-7 h-7 rounded-lg bg-sky-500/15 border border-sky-500/30 flex items-center justify-center shrink-0">
+                  <Smartphone className="w-3.5 h-3.5 text-sky-400" />
+                </div>
+                <div className="text-left">
+                  <div className="text-xs font-bold text-white">Zero APK Required</div>
+                  <div className="text-[10px] text-white/70">100% Web Play</div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
+                <div className="w-7 h-7 rounded-lg bg-amber-500/15 border border-amber-500/30 flex items-center justify-center shrink-0">
+                  <Crown className="w-3.5 h-3.5 text-amber-400" />
+                </div>
+                <div className="text-left">
+                  <div className="text-xs font-bold text-white">Lotus365 VIP Club</div>
+                  <div className="text-[10px] text-white/70">Personal Host 24/7</div>
+                </div>
+              </div>
             </div>
 
-            {/* The 4 Exact Primary Theme Buttons from https://lottuss365.co/ */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-3.5 mb-8">
+            {/* The 4 Exact Primary Theme Buttons - 4-Column Grid on Desktop, 2x2 on Mobile */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5 mb-5 max-w-2xl">
               <button
                 onClick={handleWhatsApp}
-                className="cta-button flex-1 sm:flex-initial min-w-[170px]"
+                className="cta-button !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-black w-full shadow-md"
                 id="hero-login-btn"
               >
-                <Lock className="w-4 h-4 mr-1.5 shrink-0" />
-                <span>Lotus365 Login Now</span>
+                <Lock className="w-3.5 h-3.5 shrink-0" />
+                <span>Login Now</span>
               </button>
 
               <button
                 onClick={handleWhatsApp}
-                className="cta-button flex-1 sm:flex-initial min-w-[170px]"
+                className="cta-button !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-black w-full shadow-md"
                 id="hero-signup-btn"
               >
-                <MessageCircle className="w-4 h-4 mr-1.5 shrink-0" />
-                <span>Lotus365 Sign Up Free</span>
+                <MessageCircle className="w-3.5 h-3.5 shrink-0" />
+                <span>Sign Up Free</span>
               </button>
 
               <button
                 onClick={handleWhatsApp}
-                className="cta-button-outline flex-1 sm:flex-initial min-w-[150px]"
+                className="cta-button-outline !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-bold w-full"
                 id="hero-vip-btn"
               >
-                <Crown className="w-4 h-4 mr-1.5 text-[#F0C419] shrink-0" />
+                <Crown className="w-3.5 h-3.5 text-[#F0C419] shrink-0" />
                 <span>Lotus365 VIP</span>
               </button>
 
               <button
                 onClick={handleWhatsApp}
-                className="cta-button-outline flex-1 sm:flex-initial min-w-[150px]"
+                className="cta-button-outline !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-bold w-full border-[#38BDF8]/40 hover:border-[#38BDF8]"
                 id="hero-blue-btn"
               >
-                <Zap className="w-4 h-4 mr-1.5 text-[#38BDF8] shrink-0" />
+                <Zap className="w-3.5 h-3.5 text-[#38BDF8] shrink-0" />
                 <span>Lotus365 Blue</span>
               </button>
             </div>
 
             {/* Micro Badges */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-white/80 mb-8">
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs text-white/80 mb-5">
               <span className="flex items-center gap-1.5">
-                <Flame className="w-4 h-4 text-[#F0C419]" />
+                <Flame className="w-3.5 h-3.5 text-[#F0C419]" />
                 <span>Min Deposit: <strong>₹100</strong></span>
               </span>
               <span className="text-white/30">•</span>
               <span className="flex items-center gap-1.5">
-                <Zap className="w-4 h-4 text-[#F0C419]" />
+                <Zap className="w-3.5 h-3.5 text-[#F0C419]" />
                 <span>Direct UPI / IMPS / NetBanking</span>
               </span>
               <span className="text-white/30">•</span>
               <span className="flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-300" />
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-300" />
                 <span>Licensed &amp; 100% Verified</span>
               </span>
             </div>
 
             {/* Floating Trust Metrics in Lotus Green Cards */}
-            <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-xl mx-auto lg:mx-0 pt-4 border-t border-white/20">
-              <div className="p-3 rounded-xl bg-black/20 border border-white/15 text-center">
-                <div className="font-extrabold text-sm sm:text-xl text-[#F0C419] flex items-center justify-center gap-1">
-                  <Zap className="w-4 h-4 text-[#F0C419]" />
+            <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-xl mx-auto lg:mx-0 pt-3.5 border-t border-white/15">
+              <div className="p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/15 text-center hover:border-[#F0C419]/40 transition-colors">
+                <div className="font-extrabold text-sm sm:text-base text-[#F0C419] flex items-center justify-center gap-1">
+                  <Zap className="w-3.5 h-3.5 text-[#F0C419]" />
                   <span>2 Mins</span>
                 </div>
                 <div className="text-[10px] sm:text-xs text-white/80 font-medium mt-0.5">Instant Cashout</div>
               </div>
 
-              <div className="p-3 rounded-xl bg-black/20 border border-white/15 text-center">
-                <div className="font-extrabold text-sm sm:text-xl text-emerald-300 flex items-center justify-center gap-1">
-                  <ShieldCheck className="w-4 h-4 text-emerald-300" />
+              <div className="p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/15 text-center hover:border-emerald-400/40 transition-colors">
+                <div className="font-extrabold text-sm sm:text-base text-emerald-300 flex items-center justify-center gap-1">
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
                   <span>100%</span>
                 </div>
                 <div className="text-[10px] sm:text-xs text-white/80 font-medium mt-0.5">Fund Protection</div>
               </div>
 
-              <div className="p-3 rounded-xl bg-black/20 border border-white/15 text-center">
-                <div className="font-extrabold text-sm sm:text-xl text-[#FFD000] flex items-center justify-center gap-1">
-                  <Sparkles className="w-4 h-4 text-[#FFD000]" />
+              <div className="p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/15 text-center hover:border-[#FFD000]/40 transition-colors">
+                <div className="font-extrabold text-sm sm:text-base text-[#FFD000] flex items-center justify-center gap-1">
+                  <Sparkles className="w-3.5 h-3.5 text-[#FFD000]" />
                   <span>24/7</span>
                 </div>
                 <div className="text-[10px] sm:text-xs text-white/80 font-medium mt-0.5">WhatsApp Support</div>
