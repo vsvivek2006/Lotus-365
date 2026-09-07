@@ -131,6 +131,39 @@ export const HomePage: React.FC = () => {
           </section>
           <FaqSection onOpenAuth={handleOpenAuth} />
           <FinalCtaSection onOpenAuth={handleOpenAuth} />
+                  <section className="py-12 px-4 sm:px-6 lg:px-8 bg-black/40 border-t border-white/10 text-white/85 text-xs sm:text-sm leading-relaxed">
+            <div className="max-w-7xl mx-auto space-y-6">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+                Complete Architectural FAQ & Indian Player Guide
+              </h2>
+              <p>
+                Lotus365 stands alone as India's most transparent, technologically advanced gaming exchange. Here are the core pillars that define our service:
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+                <div className="p-5 rounded-2xl bg-black/30 border border-white/10 space-y-2">
+                  <h3 className="text-base font-bold text-[#F0C419]">Zero APK Guarantee</h3>
+                  <p className="text-xs text-white/75 leading-relaxed">
+                    Unlike unregulated foreign platforms that force players to install risky unsigned Android APK packages from unknown web servers, Lotus365 is 100% web-based. Operating as an ultra-fast Progressive Web App (PWA), you access every feature smoothly in Google Chrome or Apple Safari without compromising device battery life or private smartphone storage.
+                  </p>
+                </div>
+                <div className="p-5 rounded-2xl bg-black/30 border border-white/10 space-y-2">
+                  <h3 className="text-base font-bold text-[#F0C419]">True Peer-to-Peer Exchange</h3>
+                  <p className="text-xs text-white/75 leading-relaxed">
+                    Experience genuine betting freedom. Rather than wagering against bookmakers who manipulate odds and ban successful players, our cricket exchange matches you directly against other fans with up to 0% commission on marquee IPL encounters. Back, lay, and hedge your positions with total autonomy.
+                  </p>
+                </div>
+                <div className="p-5 rounded-2xl bg-black/30 border border-white/10 space-y-2">
+                  <h3 className="text-base font-bold text-[#F0C419]">2-Minute UPI Payouts</h3>
+                  <p className="text-xs text-white/75 leading-relaxed">
+                    Say goodbye to agonizing 48-hour withdrawal waits. Lotus365 maintains segregated liquid banking reserves with India's tier-one banking partners, allowing us to disburse payouts in under two minutes straight into your PhonePe, Google Pay, or Paytm bank account 24/7/365.
+                  </p>
+                </div>
+              </div>
+              <p className="text-xs text-white/70">
+                To create your free ID or claim your 100% welcome bonus, connect with our official WhatsApp verification desk at <strong className="text-emerald-400">https://wa.link/880088</strong> today!
+              </p>
+            </div>
+          </section>
         </main>
         <Footer onOpenAuth={handleOpenAuth} />
         <MobileBottomNav onOpenAuth={handleOpenAuth} />

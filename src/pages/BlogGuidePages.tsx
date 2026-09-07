@@ -1324,6 +1324,36 @@ export const MobileWebAppGuidePage: React.FC = () => (
             </p>
           </div>
 
+          {/* Detailed Installation Walkthrough */}
+          <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              Step-by-Step PWA Installation Guide for Android & Apple iOS
+            </h2>
+            <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+              Transforming lotus365officialid.com into an app-like icon on your phone requires no app store accounts and zero APK file downloads:
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
+                <h4 className="font-bold text-[#F0C419] text-base">Android (Google Chrome)</h4>
+                <ol className="list-decimal list-inside text-xs text-white/70 space-y-1">
+                  <li>Open Chrome and navigate to lotus365officialid.com</li>
+                  <li>Tap the 3 vertical dots menu in the top right corner</li>
+                  <li>Select "Add to Home screen" or "Install App"</li>
+                  <li>Confirm the prompt. The Lotus365 icon appears on your home screen</li>
+                </ol>
+              </div>
+              <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
+                <h4 className="font-bold text-[#F0C419] text-base">iPhone / iPad (Apple Safari)</h4>
+                <ol className="list-decimal list-inside text-xs text-white/70 space-y-1">
+                  <li>Open Safari and visit lotus365officialid.com</li>
+                  <li>Tap the "Share" button (square icon with an arrow pointing up)</li>
+                  <li>Scroll down and tap "Add to Home Screen"</li>
+                  <li>Tap "Add" in the top right. Launch instant full-screen play anytime</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
           {/* Setup Walkthrough Cards */}
           <div>
             <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
@@ -1744,6 +1774,30 @@ export const HowItWorksPage: React.FC = () => {
             <p className="text-xs text-white/70 leading-relaxed">
               This unwavering commitment to banking speed and operational transparency is why over 1,500,000 Indian players trust Lotus365 as their permanent sports betting and live casino home.
             </p>
+          </div>
+
+          {/* First Day Blueprint */}
+          <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              Detailed Timeline of a Lotus365 User: First Day Blueprint
+            </h2>
+            <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+              To illustrate how straightforward our gaming ecosystem is, here is what your first session looks like from start to finish:
+            </p>
+            <div className="space-y-3 text-xs sm:text-sm text-white/80">
+              <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
+                <strong className="text-[#F0C419]">Minute 0:00 – 1:00:</strong> Message our WhatsApp desk at wa.link/880088 and receive your verified username and login password.
+              </div>
+              <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
+                <strong className="text-[#F0C419]">Minute 1:00 – 2:00:</strong> Transfer ₹1,000 via PhonePe or Google Pay, send your 12-digit UTR, and receive your 100% welcome bonus credit.
+              </div>
+              <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
+                <strong className="text-[#F0C419]">Minute 2:00 – 15:00:</strong> Open the live cricket exchange on lotus365officialid.com, back India in the powerplay, and watch the match stream in HD.
+              </div>
+              <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
+                <strong className="text-[#F0C419]">Minute 15:00 – 17:00:</strong> Conclude your winning trade, ping WhatsApp with your UPI ID, and receive your cashout directly into your bank statement.
+              </div>
+            </div>
           </div>
 
           {/* Why WhatsApp Onboarding is Revolutionary */}
