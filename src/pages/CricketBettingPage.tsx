@@ -204,7 +204,7 @@ export const CricketBettingPage: React.FC = () => (
               How to Start Betting on Cricket with Lotus365 in 4 Easy Steps
             </h2>
             <p className="text-sm text-white/80 leading-relaxed">
-              Because Lotus365 operates with a customer-first direct model, there are no confusing verification paperwork delays or clunky native APK installations required. Here is how you can place your first cricket bet in under 3 minutes:
+              Because Lotus365 operates with a customer-first direct model, there are no confusing verification paperwork delays or clunky native app installations required. Here is how you can place your first cricket bet in under 3 minutes:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
@@ -255,8 +255,8 @@ export const CricketBettingPage: React.FC = () => (
                   a: 'Lotus365 prides itself on India\'s fastest withdrawal processing time. When you submit a withdrawal request via our 24/7 WhatsApp desk, funds are credited directly to your registered UPI ID or IMPS bank account in an average of 1 minute 45 seconds (guaranteed under 2 minutes).',
                 },
                 {
-                  q: 'Do I need to download a heavy APK file to bet on cricket?',
-                  a: 'No APK download is required! Lotus365 is 100% web-based. Simply open lotus365officialid.com in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting without cluttering your phone memory or risking third-party app permissions.',
+                  q: 'Do I need to download a heavy app file to bet on cricket?',
+                  a: 'instant smartphone access is required! Lotus365 is 100% web-based. Simply open lotus365officialid.com in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting without cluttering your phone memory or risking third-party app permissions.',
                 },
                 {
                   q: 'Can I claim a welcome bonus on my first cricket deposit?',

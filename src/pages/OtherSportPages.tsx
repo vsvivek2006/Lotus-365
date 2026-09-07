@@ -196,7 +196,7 @@ export const KabaddiBettingPage: React.FC = () => (
                 { q: 'How fast can I withdraw my kabaddi winnings?', a: 'All winning bets are settled immediately upon the referee\'s final whistle, and funds can be cashed out in under 2 minutes via UPI.' },
                 { q: 'Can I bet on the PKL Outright Champion before the season ends?', a: 'Yes! Outright championship odds are available throughout the season, allowing you to back title contenders before the playoffs.' },
                 { q: 'Does Lotus365 charge commission on kabaddi bets?', a: 'No, Lotus365 charges 0% commission on regular sportsbook markets, allowing you to keep 100% of your net profits.' },
-                { q: 'Is kabaddi betting accessible on mobile phones without downloading an APK?', a: 'Yes, Lotus365 is 100% web-based. You can access all live kabaddi markets directly in Chrome or Safari on your phone.' },
+                { q: 'Is kabaddi betting accessible on mobile phones without downloading an app?', a: 'Yes, Lotus365 is 100% web-based. You can access all live kabaddi markets directly in Chrome or Safari on your phone.' },
               ].map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
@@ -732,9 +732,9 @@ export const SportsbookPage: React.FC = () => (
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-2">
                 <div className="flex items-center gap-2 text-[#F0C419] font-bold text-base">
-                  <ShieldCheck className="w-5 h-5" /> 4. 100% Mobile Web App (Zero APK)
+                  <ShieldCheck className="w-5 h-5" /> 4. 100% Mobile Web App (instant mobile play)
                 </div>
-                <p className="text-white/70">Play directly inside Chrome or Safari without downloading risky third-party APK files. Our Progressive Web App is lightweight, secure, and consumes minimal phone battery.</p>
+                <p className="text-white/70">Play directly inside Chrome or Safari without downloading risky unverified downloads files. Our Progressive Web App is lightweight, secure, and consumes minimal phone battery.</p>
               </div>
             </div>
           </div>
@@ -867,7 +867,7 @@ export const SportsbookPage: React.FC = () => (
                 { q: 'Can I bet on multiple sports using a single account balance?', a: 'Yes! Your single Lotus365 wallet funds bets across cricket, football, tennis, kabaddi, horse racing, basketball, and live casino games seamlessly.' },
                 { q: 'What is the difference between Sportsbook and Exchange?', a: 'The sportsbook offers fixed odds set against the platform, while the cricket exchange matches you peer-to-peer against other players with 0% commission.' },
                 { q: 'Are deposits and withdrawals free of charge?', a: 'Yes, Lotus365 absorbs all banking costs. 100% of your deposits and winnings are processed without fee deductions.' },
-                { q: 'Do I need an app download?', a: 'No, Lotus365 operates as a fluid Progressive Web App inside your mobile browser without third-party APK hazards.' },
+                { q: 'Do I need an app download?', a: 'No, Lotus365 operates as a fluid Progressive Web App inside your mobile browser without unverified downloads hazards.' },
                 { q: 'What is the maximum payout on a single sports bet?', a: 'Standard sports bets support winnings up to ₹25,00,000, while VIP Black Card members enjoy uncapped payout ceilings negotiated with their private managers.' },
                 { q: 'Can I cancel an un-matched bet on the exchange?', a: 'Yes! Any un-matched or partially matched exchange bet can be canceled instantly with one click, returning your unpledged funds to your wallet.' },
                 { q: 'How do I start betting on the Lotus365 Sportsbook?', a: 'Simply click any WhatsApp button to message our official desk at wa.link/880088. An account executive will create your ID and credit your deposit in under 60 seconds.' },

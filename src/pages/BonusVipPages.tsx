@@ -439,7 +439,7 @@ export const FirstDepositBonusPage: React.FC = () => (
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] font-black flex items-center justify-center shrink-0 text-xs">4</div>
-                <div><strong className="text-white">Instant Credential & Bonus Delivery:</strong> Within 30 seconds, your credentials and matched bonus are activated, allowing immediate web play without APK installs.</div>
+                <div><strong className="text-white">Instant Credential & Bonus Delivery:</strong> Within 30 seconds, your credentials and matched bonus are activated, allowing immediate web play without app installs.</div>
               </div>
             </div>
           </div>
@@ -734,7 +734,7 @@ export const ReferralBonusPage: React.FC = () => (
           <div className="p-6 rounded-2xl bg-[#0b3b2d]/40 border border-white/10 space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419]">Affiliate Conversion Techniques: Telegram, WhatsApp & Social Media</h3>
             <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
-              Successful Lotus365 referral partners actively share educational content, live match previews, and toss analysis with their personal networks. Highlighting our zero APK requirement, 2-minute UPI cashouts, and transparent WhatsApp customer support builds immediate trust with Indian sports fans who are tired of offshore betting sites with complicated KYC procedures and frozen withdrawals.
+              Successful Lotus365 referral partners actively share educational content, live match previews, and toss analysis with their personal networks. Highlighting our instant mobile play requirement, 2-minute UPI cashouts, and transparent WhatsApp customer support builds immediate trust with Indian sports fans who are tired of offshore betting sites with complicated KYC procedures and frozen withdrawals.
             </p>
             <p className="text-xs sm:text-sm text-white/70 leading-relaxed">
               When your contacts see proof of sub-second exchange execution and instant banking settlements, conversion rates consistently exceed 45%. Request customized marketing graphics and promotional copy from your affiliate manager on WhatsApp to accelerate your weekly commission earnings.

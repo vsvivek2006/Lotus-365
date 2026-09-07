@@ -18,47 +18,47 @@ export const HowItWorksSection: React.FC<HowItWorksProps> = ({ onOpenAuth }) => 
   const GUIDE_STEPS = [
     {
       stepNumber: '1',
-      title: 'Opening Lotus365 in Browser',
+      title: 'Quick 1-Tap Access on Any Phone',
       icon: Smartphone,
       bullets: [
-        'I usually tap my saved Lotus365 home screen shortcut or open the official site directly in Chrome or Safari.',
-        'The signature Lotus365 blue web platform loads in seconds with zero APK installation required.',
+        'Simply tap your Lotus365 bookmark or open the site directly in Chrome or Safari on your phone or computer.',
+        'The signature Lotus365 Blue platform opens instantly with smooth 60 FPS graphics and real-time live odds.',
       ],
     },
     {
       stepNumber: '2',
-      title: 'Direct WhatsApp Authentication',
+      title: 'Direct WhatsApp Concierge',
       icon: Lock,
       bullets: [
-        'Right at the top is the Lotus365 Login / WhatsApp ID button. One tap connects to the official 24/7 desk.',
-        'Zero backend data storage risks — your account is verified in real-time by dedicated human managers.',
+        'Tap the Lotus365 Login or Sign Up button to open an encrypted chat with your dedicated 24/7 account manager.',
+        'Zero complicated registration forms — your account is verified in real-time by a real human support specialist.',
       ],
     },
     {
       stepNumber: '3',
-      title: 'Instant Verified Access',
+      title: 'Instant Verified Player ID',
       icon: UserCheck,
       bullets: [
-        'Receive your active player ID directly on WhatsApp in under 30 seconds.',
-        'Your demo or live balance is instantly activated with a 100% first deposit bonus.',
+        'Receive your private username and password directly on WhatsApp in under 30 seconds.',
+        'Your demo or real balance is instantly credited with your 100% first deposit welcome bonus.',
       ],
     },
     {
       stepNumber: '4',
-      title: 'Lotus365 VIP Login Perks',
+      title: 'Lotus365 VIP Club Perks',
       icon: Crown,
       bullets: [
-        'On days I’m in Lotus365 VIP mode, I connect with my personal VIP relationship manager on WhatsApp.',
-        'That unlocks faster 60-second cashouts, higher betting limits, and weekly loss cashback bonuses.',
+        'As you play, connect with your personal VIP relationship manager for higher limits and exclusive rewards.',
+        'Enjoy lightning-fast 60-second cashouts, dedicated IMPS priority channels, and 10% weekly loss cashback.',
       ],
     },
     {
       stepNumber: '5',
-      title: 'Getting to the Action',
+      title: 'Jump Right into the Action',
       icon: Trophy,
       bullets: [
-        'Within moments, I’m inside the dashboard — live cricket exchange, casino, live matches, and odds are all there.',
-        'Placing my first bet of the day is always a thrill, and a Lotus365 win feels even better with 2-minute instant cashouts.',
+        'Access live cricket exchange matches, live dealer Teen Patti, and Aviator all in one unified lobby.',
+        'When you win, request your withdrawal on WhatsApp and receive your funds via UPI within 2 minutes flat.',
       ],
     },
   ];
@@ -70,15 +70,15 @@ export const HowItWorksSection: React.FC<HowItWorksProps> = ({ onOpenAuth }) => 
         <div className="max-w-3xl mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-black/25 border border-white/20 text-xs font-bold text-[#F0C419] uppercase tracking-wider mb-3">
             <ShieldCheck className="w-3.5 h-3.5" />
-            <span>Player Walkthrough</span>
+            <span>Fast Player Onboarding</span>
           </div>
 
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
-            Quick Guide: My Experience Logging into Lotus365
+            How It Works: Getting Started on Lotus365 in 3 Easy Steps
           </h2>
 
           <p className="text-white/85 text-sm sm:text-base leading-relaxed">
-            I’ve logged into <strong className="text-white">Lotus365</strong> hundreds of times — directly through mobile Chrome/Safari or on desktop — and it’s always instant and smooth with zero APK installation needed. Here’s exactly how it works:
+            Joining <strong className="text-white">Lotus365</strong> is effortless and takes less than 30 seconds. No endless verification queues, no complicated paperwork — just direct, personal service on WhatsApp. Here is how you can jump in right now:
           </p>
         </div>
 
@@ -116,11 +116,11 @@ export const HowItWorksSection: React.FC<HowItWorksProps> = ({ onOpenAuth }) => 
               })}
             </ol>
 
-            {/* Signature Pro Tip Box from https://lottuss365.co/ */}
+            {/* Signature Pro Tip Box */}
             <div className="pro-tip flex items-start gap-3 shadow-lg">
               <Lightbulb className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
-              <div>
-                <strong>Pro Tip:</strong> Simply bookmark the site or tap "Add to Home Screen" in your mobile browser. You get 100% fluid 60 FPS play without needing any APK download or wasting device storage.
+              <div className="text-xs sm:text-sm leading-relaxed">
+                <strong>Pro Tip:</strong> Bookmark <a href="/" className="text-[#14614C] underline font-bold">lotus365officialid.com</a> to your phone's home screen for 1-tap access anytime. Need guidance? Read our comprehensive <a href="/how-it-works" className="text-[#14614C] underline font-bold">Step-by-Step Guide</a> or explore our <a href="/vip-club" className="text-[#14614C] underline font-bold">VIP Privileges</a>.
               </div>
             </div>
           </div>

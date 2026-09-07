@@ -251,7 +251,7 @@ export const T20WorldCupPage: React.FC = () => (
                 },
                 {
                   q: 'Can I bet on the T20 World Cup from my mobile device?',
-                  a: 'Yes, our platform is built as a state-of-the-art Progressive Web App optimized for mobile Chrome and Safari. You get fluid 60 FPS in-play betting without needing any APK download.',
+                  a: 'Yes, our platform is built as a state-of-the-art Progressive Web App optimized for mobile Chrome and Safari. You get fluid 60 FPS in-play betting without needing any app download.',
                 },
                 {
                   q: 'Is there a tournament bonus available for new members?',

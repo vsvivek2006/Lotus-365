@@ -102,7 +102,7 @@ export const ReviewPage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-white">Mobile Web App Experience</td>
                     <td className="p-3.5 text-emerald-400 font-bold">5.0 / 5.0</td>
-                    <td className="p-3.5 text-white/80">Lightweight Progressive Web App (PWA). Zero APK downloads required; runs at 60fps.</td>
+                    <td className="p-3.5 text-white/80">Lightweight Progressive Web App (PWA). instant mobile accesss required; runs at 60fps.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-white">Customer Support Quality</td>
@@ -141,7 +141,7 @@ export const ReviewPage: React.FC = () => (
                   <li className="flex items-start gap-2"><span>✓</span> <strong>0% Commission on Cricket Exchange:</strong> Maximize profits compared to standard 5% bookmaker cuts.</li>
                   <li className="flex items-start gap-2"><span>✓</span> <strong>Guaranteed 2-Minute Cashouts:</strong> Instant UPI disbursements directly into Indian bank accounts.</li>
                   <li className="flex items-start gap-2"><span>✓</span> <strong>Zero Intrusive KYC Scans:</strong> Register in 60 seconds via WhatsApp without uploading Aadhaar or PAN.</li>
-                  <li className="flex items-start gap-2"><span>✓</span> <strong>No Dangerous APK Files:</strong> Safe, native browser gameplay with zero device bloat.</li>
+                  <li className="flex items-start gap-2"><span>✓</span> <strong>No Dangerous app Files:</strong> Safe, native browser gameplay with zero device bloat.</li>
                   <li className="flex items-start gap-2"><span>✓</span> <strong>1000+ Real Live Dealer Tables:</strong> Hindi-speaking dealers for Teen Patti and Andar Bahar.</li>
                 </ul>
               </div>
@@ -212,7 +212,7 @@ export const ReviewPage: React.FC = () => (
                 },
                 {
                   q: 'What is the official domain of Lotus365?',
-                  a: 'The sole official, verified domain is https://lotus365officialid.com. Beware of phishing lookalikes or rogue APK download mirrors.'
+                  a: 'The sole official, verified domain is https://lotus365officialid.com. Beware of phishing lookalikes or unverified third-party download mirrors.'
                 },
                 {
                   q: 'How fast are real money withdrawals on Lotus365?',
@@ -331,10 +331,10 @@ export const VsCompetitorsPage: React.FC = () => (
                     <td className="p-3.5 text-white/70">PAN Card Required</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">APK Download Needed?</td>
+                    <td className="p-3.5 font-bold text-white">Quick Setup?</td>
                     <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">No (100% Web PWA)</td>
                     <td className="p-3.5 text-white/70">Optional App</td>
-                    <td className="p-3.5 text-rose-300">Mandatory APK</td>
+                    <td className="p-3.5 text-rose-300">Complex Setup</td>
                     <td className="p-3.5 text-white/70">Mandatory App</td>
                   </tr>
                   <tr>
@@ -1081,7 +1081,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               </div>
             </div>
             <p className="text-xs text-white/70 leading-relaxed">
-              Remember: Lotus365 never distributes third-party Android APK files or unsigned iOS software packages. Our Progressive Web App operates securely inside your standard mobile browser with zero installation risks.
+              Remember: Lotus365 never distributes third-party Android app files or unsigned iOS software packages. Our Progressive Web App operates securely inside your standard mobile browser with zero installation risks.
             </p>
           </div>
 
@@ -1211,17 +1211,17 @@ export const SafeBettingGuidePage: React.FC = () => (
 export const MobileWebAppGuidePage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 Mobile Web App Guide — Play on Android & iOS with Zero APK" 
-      description="How to install and play Lotus365 on any Android or iOS smartphone. 100% web-based Progressive Web App (PWA) with zero APK downloads. Step-by-step home screen shortcut setup." 
+      title="Lotus365 Mobile Gaming Guide — Fast & Smooth Play on Android & iOS" 
+      description="Learn how to enjoy Lotus365 smoothly on any Android or iPhone. Fast 60 FPS mobile cricket betting, live casino tables, and 2-minute UPI cashouts with 1-tap home screen access." 
       canonical="/mobile-web-app-guide" 
-      keywords="lotus365 mobile guide, lotus365 on mobile, lotus365 no apk, play lotus365 on phone, lotus365 browser guide, lotus365 pwa, lotus365 ios safari, lotus365 android chrome" 
+      keywords="lotus365 mobile guide, lotus365 on mobile, play lotus365 on phone, lotus365 browser guide, lotus365 mobile betting, lotus365 ios safari, lotus365 android chrome" 
     />
     <Layout>
       <PageHero 
-        badge="Mobile Optimization Guide" 
+        badge="Mobile Gaming Guide" 
         title="Lotus365 on " 
-        highlight="Any Mobile Device" 
-        subtitle="Enjoy seamless, high-speed betting on Android and iPhone with zero APK downloads. Discover how our lightweight Progressive Web App (PWA) delivers 60fps performance directly in your mobile browser." 
+        highlight="Any Smartphone" 
+        subtitle="Enjoy fast, high-speed cricket trading and live casino tables directly on your Android or iPhone. Discover how to add 1-tap instant access to your home screen and withdraw winnings in 2 minutes." 
       />
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
         <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
@@ -1229,71 +1229,41 @@ export const MobileWebAppGuidePage: React.FC = () => (
           {/* Overview */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
-              The PWA Revolution: Why Lotus365 Requires Zero APK Downloads
+              Smooth, Instant Mobile Gaming on Lotus365
             </h2>
             <p className="mb-4">
-              For years, Android sports bettors in India were forced to download shady third-party <code>.apk</code> files from unverified websites, bypassing Google Play security alerts and granting dangerous device permissions. These legacy APKs often consumed hundreds of megabytes of memory, drained battery life, and exposed user phones to malware risks.
+              When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
             </p>
             <p className="mb-4">
-              At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we adopted modern <strong>Progressive Web App (PWA)</strong> architecture. When you visit <strong className="text-white">lotus365officialid.com</strong> on mobile Google Chrome or Apple Safari, the site operates identically to a native app: instantaneous page loads, zero installation friction, 60fps smooth animations, and automatic updates without ever clogging your device storage.
+              Simply open <strong className="text-white">lotus365officialid.com</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <a href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</a>, <a href="/live-casino" className="text-[#F0C419] underline font-semibold">Live Casino</a>, and <a href="/aviator-game" className="text-[#F0C419] underline font-semibold">Aviator Crash</a> games with silky 60 FPS graphics and instant balance updates.
             </p>
           </div>
 
-          {/* PWA Architecture Advantages */}
+          {/* Key Advantages */}
           <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
             <h2 className="text-2xl font-extrabold text-[#F0C419]">
-              Progressive Web App Architecture vs Native APK Overhead
+              Why Players Love Mobile Gaming on Lotus365
             </h2>
             <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
-              Traditional betting apps in India force users to download unverified third-party APK packages from untrusted foreign web servers. These APK files frequently request intrusive smartphone permissions—including access to your photo gallery, contact book, and background location services. Furthermore, they consume 200MB+ of device storage and trigger severe battery drain.
+              We built Lotus365 to deliver the smoothest, most secure experience for Indian players:
             </p>
-            <p className="text-xs sm:text-sm text-white/70 leading-relaxed">
-              Lotus365 is engineered from the ground up as a native Progressive Web App (PWA). Built with lightweight modern web technologies, our portal delivers silky-smooth 60fps animations, instant odds refresh, and sub-second bet execution directly inside Google Chrome or Apple Safari. You enjoy 100% privacy, zero storage clutter, and total battery efficiency.
-            </p>
-          </div>
-
-          {/* Comparison Table */}
-          <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
-              Comparison: Lotus365 Web App vs. Traditional Betting APKs
-            </h2>
-            <div className="overflow-x-auto rounded-xl border border-white/10">
-              <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-[#0b3b2d] text-[#F0C419] font-semibold uppercase tracking-wider">
-                  <tr>
-                    <th className="p-3.5">Feature</th>
-                    <th className="p-3.5">Lotus365 Web App (PWA)</th>
-                    <th className="p-3.5">Traditional Third-Party APK</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20">
-                  <tr>
-                    <td className="p-3.5 font-bold text-white">Storage Footprint</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Under 1 MB (Cached locally)</td>
-                    <td className="p-3.5 text-rose-300">150 MB to 400 MB</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3.5 font-bold text-white">Device Security</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">100% Sandboxed in Browser</td>
-                    <td className="p-3.5 text-rose-300">Requires "Install Unknown Apps" override</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3.5 font-bold text-white">iOS (iPhone & iPad) Compatibility</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Native Support via Safari</td>
-                    <td className="p-3.5 text-rose-300">Not supported on iOS without jailbreak</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3.5 font-bold text-white">Software Updates</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Seamless & Automatic in Cloud</td>
-                    <td className="p-3.5 text-rose-300">Requires frequent manual re-downloading</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3.5 font-bold text-white">Battery & RAM Consumption</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Ultra-low background usage</td>
-                    <td className="p-3.5 text-rose-300">Heavy background processes</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
+                <h4 className="font-bold text-[#F0C419] text-sm">⚡ Instant One-Tap Play</h4>
+                <p className="text-xs text-white/70">Launch straight into your favorite games in under 3 seconds with zero waiting.</p>
+              </div>
+              <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
+                <h4 className="font-bold text-emerald-300 text-sm">🔒 100% Fund &amp; Data Security</h4>
+                <p className="text-xs text-white/70">Protected by bank-level 256-bit SSL encryption so your bets and winnings are always safe.</p>
+              </div>
+              <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
+                <h4 className="font-bold text-sky-300 text-sm">⏱️ 2-Minute Direct Cashouts</h4>
+                <p className="text-xs text-white/70">Request withdrawals directly through WhatsApp to PhonePe, Google Pay, or Paytm.</p>
+              </div>
+              <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
+                <h4 className="font-bold text-amber-300 text-sm">👑 VIP Concierge Service</h4>
+                <p className="text-xs text-white/70">Chat with real human managers on WhatsApp anytime, 24 hours a day, 365 days a year.</p>
+              </div>
             </div>
           </div>
 
@@ -1320,7 +1290,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
               </div>
             </div>
             <p className="text-xs text-white/70 leading-relaxed">
-              Because our platform runs in your browser, updates are applied instantly on our servers. You never have to manually update APK files, grant suspicious device permissions, or deal with broken app packages.
+              Because our platform runs in your browser, updates are applied instantly on our servers. You never have to manually update app files, grant suspicious device permissions, or deal with broken app packages.
             </p>
           </div>
 
@@ -1330,7 +1300,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
               Step-by-Step PWA Installation Guide for Android & Apple iOS
             </h2>
             <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
-              Transforming lotus365officialid.com into an app-like icon on your phone requires no app store accounts and zero APK file downloads:
+              Transforming lotus365officialid.com into an app-like icon on your phone requires no app store accounts and instant mobile play file downloads:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
@@ -1426,7 +1396,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
         { href: '/faq', label: 'FAQ', description: 'Mobile and technical FAQs' },
         { href: '/cricket-betting', label: 'Cricket Betting', description: 'Bet on cricket from your phone' },
       ]} />
-      <PageCTA headline="Play Lotus365 on Any Smartphone with Zero APK" ctaLabel="Register via WhatsApp Now" />
+      <PageCTA headline="Play Lotus365 on Any Smartphone with instant mobile play" ctaLabel="Register via WhatsApp Now" />
     </Layout>
   </>
 );
@@ -1529,19 +1499,19 @@ export const FaqPage: React.FC = () => {
       a: 'Aviator is a provably fair multiplayer crash game where a plane ascends with an escalating multiplier from 1.00x upward. You place your bet and tap "Cash Out" before the plane flies away. If you cash out at 3.50x, your ₹500 stake multiplies into ₹1,750 immediately.'
     },
 
-    // Category 5: Mobile PWA & Zero APK
+    // Category 5: Mobile PWA & instant mobile play
     {
-      cat: 'Security & Zero APK',
-      q: 'Why does Lotus365 not provide an APK download file?',
-      a: 'Lotus365 is intentionally designed as an ultra-fast Progressive Web App (PWA). Third-party APK files downloaded from the internet represent significant malware and spyware security hazards for Indian smartphone users. Our web portal provides full mobile app features directly in Chrome or Safari without downloading external files or compromising device security.'
+      cat: 'Security & instant mobile play',
+      q: 'Why does Lotus365 not provide an app download file?',
+      a: 'Lotus365 is intentionally designed as an ultra-fast Progressive Web App (PWA). unverified downloads files downloaded from the internet represent significant malware and spyware security hazards for Indian smartphone users. Our web portal provides full mobile app features directly in Chrome or Safari without downloading external files or compromising device security.'
     },
     {
-      cat: 'Security & Zero APK',
+      cat: 'Security & instant mobile play',
       q: 'How do I add Lotus365 to my smartphone home screen?',
-      a: 'On Android Chrome, tap the 3-dot menu and select "Add to Home screen". On Apple Safari, tap the Share icon and select "Add to Home Screen". A lightweight icon will appear on your device, launching full-screen instant play with zero APK storage overhead.'
+      a: 'On Android Chrome, tap the 3-dot menu and select "Add to Home screen". On Apple Safari, tap the Share icon and select "Add to Home Screen". A lightweight icon will appear on your device, launching full-screen instant play with instant mobile play storage overhead.'
     },
     {
-      cat: 'Security & Zero APK',
+      cat: 'Security & instant mobile play',
       q: 'Is my data and wallet balance protected by SSL encryption?',
       a: 'Yes! All connections on lotus365officialid.com are secured by 256-bit TLS enterprise encryption. Server communications are monitored 24/7 by dedicated cybersecurity teams to guarantee complete data confidentiality and balance security.'
     },

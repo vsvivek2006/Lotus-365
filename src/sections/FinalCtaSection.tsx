@@ -4,7 +4,6 @@ import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface FinalCtaProps {
   onOpenAuth?: (mode: 'login' | 'register') => void;
-  onOpenApk?: () => void;
 }
 
 export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenAuth }) => {

@@ -69,7 +69,7 @@ const sitemapData = [
     { href: '/ipl-predictions', label: 'IPL 2026 Expert Predictions & Tournament Odds' },
     { href: '/online-casino-guide', label: 'Online Casino Handbook: Rules, RTP & House Edge' },
     { href: '/safe-betting-guide', label: 'Safe & Responsible Online Betting Guide' },
-    { href: '/mobile-web-app-guide', label: 'Mobile Web App Guide (Zero APK Installation)' },
+    { href: '/mobile-web-app-guide', label: 'Mobile Gaming & Fast Smartphone Play Guide' },
     { href: '/faq', label: 'Lotus365 Frequently Asked Questions' },
     { href: '/how-it-works', label: 'How Lotus365 Works: Complete 4-Minute Onboarding' },
   ]},
@@ -134,7 +134,7 @@ export const SitemapPage: React.FC = () => (
               Our 54 platform routes are categorized into six core thematic silos to deliver an intuitive user experience and clear semantic signals to search engines. The Sports Betting exchange silo provides comprehensive market depth for cricket, IPL, football, and tennis. The Live Casino cluster contains dedicated guides for Indian classics like Teen Patti and Andar Bahar alongside Evolution Gaming roulette, blackjack, and baccarat. The Banking hub covers step-by-step 2-minute UPI deposits and instant IMPS cashouts, while the VIP & Promotions directory details cashback tiers, referral bonuses, and high-roller privileges.
             </p>
             <p className="text-xs sm:text-sm text-white/70 leading-relaxed">
-              Every page on lotus365officialid.com operates under HTTPS SSL encryption, complies with Google mobile-first indexing standards, and offers direct access to our 24/7 human WhatsApp concierge service at https://wa.link/880088 without requiring third-party APK downloads.
+              Every page on lotus365officialid.com operates under HTTPS SSL encryption, complies with Google mobile-first indexing standards, and offers direct access to our 24/7 human WhatsApp concierge service at https://wa.link/880088 with direct 1-tap mobile access.
             </p>
           </div>
 
@@ -256,7 +256,7 @@ export const SitemapPage: React.FC = () => (
               Comprehensive Platform Navigation & Security Verification Protocols
             </h2>
             <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
-              Navigating across Lotus365 is designed to be seamless across both mobile devices and desktop computers. Every link cataloged in this directory connects directly to our high-performance Progressive Web App (PWA) infrastructure hosted under the verified domain lotus365officialid.com. Players never need to download suspicious third-party APK files or sideload unsigned software packages.
+              Navigating across Lotus365 is designed to be seamless across both mobile devices and desktop computers. Every link cataloged in this directory connects directly to our verified domain lotus365officialid.com. Players enjoy immediate, secure access directly on any smartphone, tablet, or PC.
             </p>
             <p className="text-xs sm:text-sm text-white/70 leading-relaxed">
               All financial deposits and cashouts are channeled through authorized WhatsApp verification desks with end-to-end encryption. Bookmark this sitemap as your permanent navigational compass for real-time cricket odds, live dealer tables, VIP reward tiers, and 2-minute UPI settlement guides.
@@ -273,7 +273,7 @@ export const SitemapPage: React.FC = () => (
               {[
                 {
                   q: 'Are all pages in this sitemap accessible on mobile phones?',
-                  a: 'Yes! Lotus365 is 100% mobile-optimized as a Progressive Web App (PWA). Every page, live stream, and casino game runs natively in Chrome and Safari without downloading an APK.'
+                  a: 'Yes! Lotus365 is completely mobile-optimized. Every page, live stream, and casino game runs natively in Chrome, Safari, and other browsers with instant load times and fluid 60 FPS graphics.'
                 },
                 {
                   q: 'Where can I find the XML sitemap for search engine crawlers?',

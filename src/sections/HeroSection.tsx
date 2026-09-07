@@ -15,7 +15,6 @@ import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface HeroSectionProps {
   onOpenAuth?: (mode: 'login' | 'register') => void;
-  onOpenApk?: () => void;
 }
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
@@ -113,8 +112,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
                   <Smartphone className="w-3.5 h-3.5 text-sky-400" />
                 </div>
                 <div className="text-left">
-                  <div className="text-xs font-bold text-white">Zero APK Required</div>
-                  <div className="text-[10px] text-white/70">100% Web Play</div>
+                  <div className="text-xs font-bold text-white">Fast Mobile Gaming</div>
+                  <div className="text-[10px] text-white/70">Smooth On Any Phone</div>
                 </div>
               </div>
 
@@ -130,7 +129,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
             </div>
 
             {/* The 4 Exact Primary Theme Buttons - 4-Column Grid on Desktop, 2x2 on Mobile */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5 mb-5 max-w-2xl">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5 mb-4 max-w-2xl">
               <button
                 onClick={handleWhatsApp}
                 className="cta-button !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-black w-full shadow-md"
@@ -166,6 +165,23 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
                 <Zap className="w-3.5 h-3.5 text-[#38BDF8] shrink-0" />
                 <span>Lotus365 Blue</span>
               </button>
+            </div>
+
+            {/* Quick Redirect Interlinks for Players */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-4 text-[11px] sm:text-xs">
+              <span className="text-white/60">Explore Games:</span>
+              <a href="/cricket-exchange" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-[#F0C419] border border-[#F0C419]/30 transition-all font-semibold">
+                🏏 Cricket Exchange
+              </a>
+              <a href="/live-casino" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-emerald-300 border border-emerald-500/30 transition-all font-semibold">
+                🎰 Live Casino
+              </a>
+              <a href="/aviator-game" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-sky-300 border border-sky-500/30 transition-all font-semibold">
+                ✈️ Aviator
+              </a>
+              <a href="/vip-club" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-amber-300 border border-amber-500/30 transition-all font-semibold">
+                👑 VIP Club
+              </a>
             </div>
 
             {/* Micro Badges */}

@@ -228,7 +228,7 @@ export const AviatorGamePage: React.FC = () => {
               <div>
                 <strong className="text-[#F0C419] block text-sm mb-1">Expert Pro Tip: Avoid Fake Aviator "Signals" & Prediction Apps</strong>
                 <p className="text-xs text-white/80">
-                  Never pay for Telegram groups, WhatsApp channels, or APK software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <a href="/" className="text-[#F0C419] underline">Lotus365</a> portal.
+                  Never pay for Telegram groups, WhatsApp channels, or third-party software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <a href="/" className="text-[#F0C419] underline">Lotus365</a> portal.
                 </p>
               </div>
             </div>
@@ -269,8 +269,8 @@ export const AviatorGamePage: React.FC = () => {
                     a: 'The minimum stake is just ₹10 INR, allowing beginners to experience the thrill without major risk. The maximum bet per single slot is ₹10,000 INR. Since Aviator supports dual simultaneous bets, high rollers can wager up to ₹20,000 INR across both panels in a single flight.'
                   },
                   {
-                    q: 'Can I download an Aviator APK file on my Android or iOS phone?',
-                    a: 'No APK is required or recommended. Lotus365 operates as a lightweight, lightning-fast Progressive Web App (PWA). You can play directly through Chrome, Safari, or Brave on your smartphone without downloading untrusted APK files that consume storage or compromise security.'
+                    q: 'Can I download an Aviator mobile play file on my Android or iOS phone?',
+                    a: 'instant smartphone access or recommended. Lotus365 operates as a lightweight, lightning-fast Progressive Web App (PWA). You can play directly through Chrome, Safari, or Brave on your smartphone without downloading untrusted app files that consume storage or compromise security.'
                   },
                   {
                     q: 'How fast are Aviator winnings transferred to my bank account?',
@@ -311,7 +311,7 @@ export const AviatorGamePage: React.FC = () => {
         <RelatedPages pages={crashRelated} />
         <PageCTA 
           headline="Ready for Takeoff? Play Aviator on Lotus365 Now" 
-          subtext="Join over 1,500,000 Indian players enjoying 98.5% RTP and 2-minute instant UPI cashouts. No APK installation required — instant browser play!" 
+          subtext="Join over 1,500,000 Indian players enjoying 98.5% RTP and 2-minute instant UPI cashouts. instant smartphone access required — instant browser play!" 
         />
       </Layout>
     </>
@@ -482,8 +482,8 @@ export const CrashGamesPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
                 <Smartphone className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Instant Web Play (Zero APK Needed)</h4>
-                  <p className="text-xs text-white/70">Enjoy flawless cross-platform performance directly in mobile Chrome or Safari without installing third-party APK files.</p>
+                  <h4 className="font-bold text-white text-sm mb-1">Instant Web Play (instant mobile access)</h4>
+                  <p className="text-xs text-white/70">Enjoy flawless cross-platform performance directly in mobile Chrome or Safari without installing unverified downloads files.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
@@ -545,8 +545,8 @@ export const CrashGamesPage: React.FC = () => (
                   a: 'Auto-Cashout is stored on the game server as soon as the flight initiates. If your device suddenly loses power or connectivity, the server will automatically execute your cashout if the plane reaches your specified multiplier.'
                 },
                 {
-                  q: 'Can I play crash games on my smartphone without downloading an APK?',
-                  a: 'Yes. Lotus365 is 100% web-optimized. Simply navigate to lotus365officialid.com on your mobile browser for full high-definition gameplay without downloading external APK files.'
+                  q: 'Can I play crash games on my smartphone without downloading an app?',
+                  a: 'Yes. Lotus365 is 100% web-optimized. Simply navigate to lotus365officialid.com on your mobile browser for full high-definition gameplay without downloading external app files.'
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
@@ -597,7 +597,7 @@ export const ColorPredictionPage: React.FC = () => (
               <strong>Color Prediction</strong> (frequently termed <em>Colour Wiz, Fast Parity, or Wingo</em>) has captivated millions of Indian players due to its unmatched simplicity, lightning-fast round frequency, and immediate real-money gratification. Operating on short 30-second, 1-minute, or 3-minute timers, the game asks players to forecast which color hue or numeric outcome will emerge from a certified digital draw.
             </p>
             <p className="mb-4">
-              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified third-party APK platforms.
+              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified unverified downloads platforms.
             </p>
             <p>
               Whether you are staking ₹20 on a primary color or targeting a 9:1 payout on an exact single number, Lotus365 guarantees lightning-fast credit of winnings and instant 2-minute withdrawals straight to your UPI or bank account.
@@ -694,10 +694,10 @@ export const ColorPredictionPage: React.FC = () => (
           {/* The Lotus365 Security Advantage */}
           <div>
             <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
-              Why Play Color Prediction on Lotus365 Instead of Suspicious APKs?
+              Why Play Color Prediction on Lotus365 Instead of Suspicious downloads?
             </h2>
             <p className="mb-4">
-              The Indian internet has unfortunately been plagued by predatory "Color Prediction APK" apps that lure players with unrealistic promises only to lock withdrawals and vanish. Lotus365 provides an entirely different, licensed standard of security:
+              The Indian internet has unfortunately been plagued by predatory "Color Prediction apps" apps that lure players with unrealistic promises only to lock withdrawals and vanish. Lotus365 provides an entirely different, licensed standard of security:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
@@ -710,9 +710,9 @@ export const ColorPredictionPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-[#F0C419] font-bold text-sm mb-1 flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                  100% Web-Based (Zero APK Downloads)
+                  100% Web-Based (instant mobile accesss)
                 </div>
-                <p className="text-xs text-white/70">No need to install dangerous .apk files on your Android device. Play securely in your native mobile browser.</p>
+                <p className="text-xs text-white/70">No need to install unverified downloads on your Android device. Play securely in your native mobile browser.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-[#F0C419] font-bold text-sm mb-1 flex items-center gap-2">
@@ -776,7 +776,7 @@ export const ColorPredictionPage: React.FC = () => (
                 },
                 {
                   q: 'Are Color Prediction games on Lotus365 rigged against players who win?',
-                  a: 'No. Unlike rogue APK platforms that manipulate results based on pool volumes, Lotus365 employs certified cryptographic RNG algorithms that guarantee outcome independence for every single round.'
+                  a: 'No. Unlike unverified third-party platforms that manipulate results based on pool volumes, Lotus365 employs certified cryptographic RNG algorithms that guarantee outcome independence for every single round.'
                 },
                 {
                   q: 'Can I withdraw my Color Prediction winnings immediately via PhonePe or GPay?',

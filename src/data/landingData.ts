@@ -314,8 +314,8 @@ export const COMPARISON_DATA: ComparisonRow[] = [
   },
   {
     parameter: 'Mobile Accessibility',
-    lotus365: '⚡ 100% Instant Web Play on Any Phone (Zero APK Required)',
-    otherPlatforms: '❌ Risky Third-Party APKs & Storage-Heavy Apps',
+    lotus365: '⚡ Smooth 60 FPS Mobile Play on Any Phone',
+    otherPlatforms: '❌ Sluggish Performance & Slow Loading',
     advantage: true,
   },
   {
@@ -332,7 +332,7 @@ export const GUIDE_ARTICLES: GuideArticle[] = [
     title: 'Lotus365 Blue vs Original: Speed & Security Breakdown',
     category: 'Platform Update',
     readTime: '3 min read',
-    summary: 'Discover how the upgraded Lotus365 Blue architecture provides 3x faster loading speeds, lower server latency, and seamless web-based betting on any device.',
+    summary: 'Discover how the upgraded Lotus365 Blue architecture provides 3x faster loading speeds, lower server latency, and seamless betting on any device.',
     slug: 'lotus365-blue-comparison',
   },
   {
@@ -369,8 +369,8 @@ export const FAQ_DATA: FaqItem[] = [
   {
     id: 'faq-3',
     category: 'app',
-    question: 'Do I need to download an APK to play on Lotus365?',
-    answer: 'No APK download is needed! Lotus365 is 100% web-based and optimized to run smoothly on any mobile browser (Chrome, Safari, Firefox). You save your phone storage, eliminate malware risks, and get instant access to live cricket odds and casino games without downloading any app.',
+    question: 'Can I play Lotus365 easily on my smartphone?',
+    answer: 'Yes, absolutely! Lotus365 is completely optimized for all smartphones and tablets. You can open the platform smoothly on Chrome, Safari, or any browser, place live bets in real time, and coordinate instant deposits or 2-minute cashouts through WhatsApp without any complicated setup.',
   },
   {
     id: 'faq-4',

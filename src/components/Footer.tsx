@@ -180,7 +180,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
             <a href="/ipl-predictions" className="hover:text-[#F0C419] transition-colors">IPL 2026 Predictions</a>
             <a href="/online-casino-guide" className="hover:text-[#F0C419] transition-colors">Online Casino Guide India</a>
             <a href="/safe-betting-guide" className="hover:text-[#F0C419] transition-colors">Safe Betting Strategy</a>
-            <a href="/mobile-web-app-guide" className="hover:text-[#F0C419] transition-colors">Mobile Web App Guide (No APK)</a>
+            <a href="/mobile-web-app-guide" className="hover:text-[#F0C419] transition-colors">Mobile Gaming Guide</a>
             <a href="/how-it-works" className="hover:text-[#F0C419] transition-colors">How It Works</a>
             <a href="/faq" className="hover:text-[#F0C419] transition-colors">Lotus365 FAQ</a>
             <a href="/about" className="hover:text-[#F0C419] transition-colors">About Lotus365</a>

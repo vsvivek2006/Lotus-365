@@ -4,7 +4,6 @@ import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface SeoContentProps {
   onOpenAuth?: (mode: 'login' | 'register') => void;
-  onOpenApk?: () => void;
 }
 
 export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => {
@@ -112,8 +111,8 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
 
               <div className="p-4 rounded-2xl bg-brand-surface border border-white/10">
                 <div className="w-8 h-8 rounded-lg bg-brand-cyan/15 text-brand-cyan font-bold flex items-center justify-center mb-3">3</div>
-                <h4 className="font-bold text-white text-sm mb-1">Instant Web Play (Zero APK)</h4>
-                <p className="text-xs text-slate-400">Play seamlessly in your browser with 100% security, 60 FPS speed, and zero app download needed.</p>
+                <h4 className="font-bold text-white text-sm mb-1">Instant Play on Any Device</h4>
+                <p className="text-xs text-slate-400">Play seamlessly in your mobile browser with 100% security, 60 FPS speed, and immediate access to all games.</p>
               </div>
             </div>
 
@@ -196,9 +195,9 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
                     <td className="p-3.5 text-slate-400">12 - 48 Hours Manual Hold</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Device Installation</td>
-                    <td className="p-3.5 text-brand-emerald font-semibold">0 MB (Zero Download Instant Web App)</td>
-                    <td className="p-3.5 text-slate-400">60+ MB Risky Third-Party APKs</td>
+                    <td className="p-3.5 font-bold text-white">Device Access</td>
+                    <td className="p-3.5 text-brand-emerald font-semibold">Instant 1-Tap Access (Mobile &amp; PC)</td>
+                    <td className="p-3.5 text-slate-400">Complicated Setup &amp; Delays</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-white">Biometric Login</td>
@@ -264,13 +263,13 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
               <span>Get WhatsApp ID (30s)</span>
             </button>
 
-            <button
-              onClick={handleWhatsApp}
+            <a
+              href="/cricket-exchange"
               className="cta-button-outline py-3 px-6 text-xs font-bold"
             >
               <Smartphone className="w-4 h-4 mr-1.5 text-[#F0C419]" />
-              <span>Instant Web Play (Zero APK)</span>
-            </button>
+              <span>Explore Cricket Exchange</span>
+            </a>
           </div>
         </div>
 

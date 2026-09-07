@@ -7,6 +7,7 @@ import { LiveTickerSection } from '../sections/LiveTickerSection';
 import { WhyChooseSection } from '../sections/WhyChooseSection';
 import { GameHubSection } from '../sections/GameHubSection';
 import { HowItWorksSection } from '../sections/HowItWorksSection';
+import { TestimonialsSection } from '../sections/TestimonialsSection';
 import { VipClubSection } from '../sections/VipClubSection';
 import { ComparisonSection } from '../sections/ComparisonSection';
 import { MobileAppSection } from '../sections/MobileAppSection';
@@ -24,7 +25,7 @@ const homeSchema = {
   '@type': 'WebSite',
   name: 'Lotus365 Official',
   url: 'https://lotus365officialid.com',
-  description: 'India\'s #1 cricket betting exchange and live casino. Instant WhatsApp ID, 2-minute cashouts, zero APK download required.',
+  description: 'India\'s #1 cricket betting exchange and live casino. Instant WhatsApp ID, 2-minute cashouts, and 24/7 dedicated support.',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
@@ -58,6 +59,7 @@ export const HomePage: React.FC = () => {
           <WhyChooseSection onOpenAuth={handleOpenAuth} />
           <GameHubSection onOpenAuth={handleOpenAuth} />
           <HowItWorksSection onOpenAuth={handleOpenAuth} />
+          <TestimonialsSection onOpenAuth={handleOpenAuth} />
           <VipClubSection onOpenAuth={handleOpenAuth} />
           <ComparisonSection onOpenAuth={handleOpenAuth} />
           <MobileAppSection />

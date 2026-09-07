@@ -778,7 +778,7 @@ export const DragonTigerPage: React.FC = () => (
                 { q: 'What is a Suited Tie?', a: 'A Suited Tie occurs when both Dragon and Tiger receive cards of identical rank and suit (e.g. King of Hearts on both sides), rewarding players with a massive 50:1 payout!' },
                 { q: 'Can I follow roadmaps in Dragon Tiger?', a: 'Yes! The live interface includes Big Road, Bead Plate, and derived roads allowing pattern bettors to follow streaks.' },
                 { q: 'How fast can I withdraw my Dragon Tiger profits?', a: 'Winnings can be withdrawn via instant UPI in under 2 minutes through our 24/7 WhatsApp customer care desk. Enjoy complete financial peace of mind with 100% transparent zero-deduction payouts on all Dragon, Tiger, and Suited Tie wins.' },
-                { q: 'Does Dragon Tiger require an app download?', a: 'No, Lotus365 operates natively in mobile Chrome and Safari as a high-performance Progressive Web App with zero APK requirements.' },
+                { q: 'Does Dragon Tiger require an app download?', a: 'No, Lotus365 operates natively in mobile Chrome and Safari as a high-performance Progressive Web App with instant mobile play requirements.' },
               ].map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
@@ -1403,7 +1403,7 @@ export const CasinoSlotsPage: React.FC = () => (
                 { q: 'What is the minimum spin amount on slots?', a: 'Spins start as low as ₹2 to ₹10 on most video slots, allowing accessible fun for all budgets.' },
                 { q: 'What is the Bonus Buy feature?', a: 'The Bonus Buy feature lets you buy direct entry into the Free Spins bonus round for a fixed price (usually 100x your bet) without waiting for 4 Scatter symbols to land naturally.' },
                 { q: 'Are progressive jackpots available on Lotus365?', a: 'Yes! We host progressive jackpot slots where a percentage of every bet feeds into a combined prize pool that can trigger random life-changing multi-crore jackpots.' },
-                { q: 'Can I play slots on my smartphone without downloading an APK?', a: 'Yes! All slots run seamlessly in HTML5 inside Mobile Chrome and Safari on Android and iOS.' },
+                { q: 'Can I play slots on my smartphone without downloading an app?', a: 'Yes! All slots run seamlessly in HTML5 inside Mobile Chrome and Safari on Android and iOS.' },
                 { q: 'How fast can I withdraw slot winnings?', a: 'Withdrawals are processed within 2 minutes via UPI (PhonePe, Google Pay, Paytm) with zero fees. When you hit a massive 5,000x multiplier on Gates of Olympus, your multi-lakh winnings can be disbursed immediately in full to your bank account with zero waiting.' },
                 { q: 'Do slots contribute to bonus turnover requirements?', a: 'Yes! Slots typically contribute 100% toward bonus rollover requirements, making them the fastest way to clear welcome bonuses.' },
               ].map((item, idx) => (

@@ -114,7 +114,7 @@ export const AboutPage: React.FC = () => (
                   <Globe className="w-5 h-5 text-[#F0C419]" /> 4. Modern Progressive Web App Tech
                 </h3>
                 <p className="text-xs text-white/70">
-                  We reject unsafe third-party APK downloads. Lotus365 is engineered as a lightweight Progressive Web App (PWA) that runs at 60fps in native mobile Chrome and Safari with zero device bloat.
+                  We reject unsafe unverified downloads downloads. Lotus365 is engineered as a lightweight Progressive Web App (PWA) that runs at 60fps in native mobile Chrome and Safari with zero device bloat.
                 </p>
               </div>
             </div>
@@ -258,7 +258,7 @@ export const AboutPage: React.FC = () => (
                 },
                 {
                   q: 'Can I access Lotus365 on an iPhone or iPad without an app download?',
-                  a: 'Yes! Lotus365 is engineered as an ultra-fast Progressive Web App (PWA). Simply visit lotus365officialid.com on Mobile Safari or Chrome and tap "Add to Home Screen" for one-tap native access without installing any unverified APK or third-party file.'
+                  a: 'Yes! Lotus365 is engineered as an ultra-fast Progressive Web App (PWA). Simply visit lotus365officialid.com on Mobile Safari or Chrome and tap "Add to Home Screen" for one-tap native access without installing any unverified app or third-party file.'
                 }
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">

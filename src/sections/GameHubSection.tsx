@@ -184,7 +184,36 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
               <span>Play Aviator Now</span>
               <ArrowRight className="w-4 h-4" />
             </button>
+            <a
+              href="/aviator-game"
+              className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm flex items-center justify-center gap-2 border border-white/20 transition-colors"
+            >
+              <span>Aviator Game Rules</span>
+            </a>
           </div>
+        </div>
+
+        {/* Category Navigation Pills for Interlinking */}
+        <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-2.5 text-xs">
+          <span className="text-white/60 font-medium">Explore Hubs:</span>
+          <a href="/cricket-exchange" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+            🏏 Cricket Exchange
+          </a>
+          <a href="/live-casino" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+            🎰 Live Casino
+          </a>
+          <a href="/teen-patti" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+            🎴 Teen Patti
+          </a>
+          <a href="/ipl-betting" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+            🏆 IPL Betting
+          </a>
+          <a href="/vip-club" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+            👑 VIP Club
+          </a>
+          <a href="/how-it-works" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+            📖 How It Works
+          </a>
         </div>
       </div>
     </section>

@@ -23,24 +23,34 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
 
   const BEST_OPTION_REASONS = [
     {
-      title: 'Ease of Use',
-      description: 'Our website is created in such a way that it is simple for you to get to the location you choose with only a few clicks. The procedure of logging in to Lotus365 is both speedy and very easy to understand. No unnecessary steps, no wasted time.',
+      title: 'Effortless 30-Second Access',
+      description: 'You never have to jump through frustrating hoops or fill out complex forms. Getting your verified player ID and logging in takes just 30 seconds directly on WhatsApp.',
+      linkHref: '/how-it-works',
+      linkText: 'See How It Works →',
     },
     {
-      title: 'A Vast Selection of Games',
-      description: 'Variety is the flavour that makes gaming so good. With PlayLotus365, you will never be at a loss for choices — from fast-paced cricket exchange markets to live dealer tables and Aviator.',
+      title: 'India’s Largest Selection of Games',
+      description: 'From peer-to-peer cricket exchange trading and IPL match markets to live dealer Teen Patti, Roulette, and Aviator Crash, you always have thousands of exciting tables ready.',
+      linkHref: '/cricket-exchange',
+      linkText: 'Explore Cricket Markets →',
     },
     {
-      title: 'Security You Can Rely On',
-      description: 'We believe that being safe is just as important as having fun. Every single activity you perform on Lotus365 is safeguarded by 256-bit SSL encryption and sophisticated security mechanisms.',
+      title: 'Guaranteed Fund Security & Fast Payouts',
+      description: 'We safeguard every rupee with 256-bit SSL encryption. Your balance is 100% protected, and when you win, your cashout arrives in your UPI account in under 2 minutes.',
+      linkHref: '/faq',
+      linkText: 'View Safety & Payout FAQ →',
     },
     {
-      title: 'Anywhere You Want to Play',
-      description: 'Lotus365 runs seamlessly on any device, whether you’re on your laptop at home or your mobile phone on the go with zero lag and instant page responses.',
+      title: 'Lightning-Fast Play on Any Device',
+      description: 'Enjoy fluid 60 FPS gameplay on any smartphone, tablet, or laptop. In-play exchange odds refresh in real-time with zero lag so you never miss a match moment.',
+      linkHref: '/live-casino',
+      linkText: 'Visit Live Casino Lobby →',
     },
     {
-      title: 'A Reward System That Keeps You Winning',
-      description: 'We value your time and effort. Enjoy 100% welcome bonuses, VIP cashback programs, loyalty rewards, and exclusive daily promotions.',
+      title: 'Rewarding You Every Time You Play',
+      description: 'Unlock an instant 100% welcome bonus on your first deposit, along with weekly loss cashback and dedicated relationship managers in our VIP Club.',
+      linkHref: '/vip-club',
+      linkText: 'Discover VIP Club Perks →',
     },
   ];
 
@@ -55,11 +65,11 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
           </div>
 
           <h2 className="text-2xl sm:text-4xl lg:text-4xl font-extrabold text-white tracking-tight mb-4">
-            Is Lotus365 the Best Option?
+            Why Players Across India Choose Lotus365
           </h2>
 
           <p className="text-white/85 text-sm sm:text-base leading-relaxed">
-            There is an overwhelming number of gaming platforms available nowadays. What is it about <strong className="text-white">Lotus365</strong> that keeps so many gamers coming back? In the end, everything boils down to a few simple but significant reasons:
+            With so many gaming websites online, why do over 500,000 players trust <strong className="text-white">Lotus365</strong> every single day? It all comes down to trust, speed, and real rewards:
           </p>
         </div>
 
@@ -79,9 +89,15 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
                   <h3 className="text-base sm:text-lg font-bold text-white mb-1 group-hover:text-[#F0C419] transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-2">
                     {item.description}
                   </p>
+                  <a
+                    href={item.linkHref}
+                    className="text-xs font-bold text-[#F0C419] hover:underline inline-flex items-center gap-1"
+                  >
+                    <span>{item.linkText}</span>
+                  </a>
                 </div>
               </div>
             ))}
