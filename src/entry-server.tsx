@@ -2,12 +2,12 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { createMemoryRouter, RouterProvider } from 'react-router-dom';
 import { HelmetProvider, FilledContext } from 'react-helmet-async';
-import { routes } from './App';
+import { staticRoutes } from './routes-static';
 
 export function render(url: string) {
   const helmetContext = {} as FilledContext;
 
-  const router = createMemoryRouter(routes, {
+  const router = createMemoryRouter(staticRoutes, {
     initialEntries: [url],
   });
 

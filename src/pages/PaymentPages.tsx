@@ -112,7 +112,7 @@ export const HowToDepositPage: React.FC = () => (
                 <div key={item.step} className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                   <span className="text-2xl font-black text-[#F0C419] shrink-0">{item.step}</span>
                   <div>
-                    <h4 className="font-bold text-white text-sm mb-1">{item.title}</h4>
+                    <h3 className="font-bold text-white text-sm mb-1">{item.title}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{item.desc}</p>
                   </div>
                 </div>
@@ -262,7 +262,7 @@ export const HowToDepositPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -367,7 +367,7 @@ export const HowToWithdrawPage: React.FC = () => (
                 <div key={item.step} className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                   <span className="text-2xl font-black text-[#F0C419] shrink-0">{item.step}</span>
                   <div>
-                    <h4 className="font-bold text-white text-sm mb-1">{item.title}</h4>
+                    <h3 className="font-bold text-white text-sm mb-1">{item.title}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{item.desc}</p>
                   </div>
                 </div>
@@ -433,17 +433,17 @@ export const HowToWithdrawPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-white text-sm mb-1 flex items-center gap-2">
+                <h3 className="font-bold text-white text-sm mb-1 flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
                   1x Turnover Rule
-                </h4>
+                </h3>
                 <p className="text-xs text-white/70">Deposited funds must be wagered at least once (1x rollover) across any sports or casino market before being eligible for cashout.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-white text-sm mb-1 flex items-center gap-2">
+                <h3 className="font-bold text-white text-sm mb-1 flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
                   Bonus Wagering Completion
-                </h4>
+                </h3>
                 <p className="text-xs text-white/70">If you opted into a promotional bonus (such as a 100% welcome match), ensure bonus turnover conditions are satisfied before requesting withdrawal.</p>
               </div>
             </div>
@@ -556,7 +556,7 @@ export const HowToWithdrawPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -643,28 +643,28 @@ export const UpiDepositPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                 <span className="text-xl font-black text-[#F0C419]">1</span>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Request Verified UPI Details via WhatsApp</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Request Verified UPI Details via WhatsApp</h3>
                   <p className="text-xs text-white/70">Connect with our official 24/7 desk (wa.link/880088) and state your deposit amount. Your agent will share an active UPI ID or dynamic QR code.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                 <span className="text-xl font-black text-[#F0C419]">2</span>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Scan QR Code or Paste UPI Handle</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Scan QR Code or Paste UPI Handle</h3>
                   <p className="text-xs text-white/70">Open PhonePe, Google Pay, or Paytm. Select "Scan Any QR" or "Pay to UPI ID" and input the exact provided handle.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                 <span className="text-xl font-black text-[#F0C419]">3</span>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Authorize with Your Secret UPI PIN</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Authorize with Your Secret UPI PIN</h3>
                   <p className="text-xs text-white/70">Confirm the transfer amount and enter your confidential banking MPIN. Wait for the green "Payment Successful" tick.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                 <span className="text-xl font-black text-[#F0C419]">4</span>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Send the 12-Digit UTR Number</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Send the 12-Digit UTR Number</h3>
                   <p className="text-xs text-white/70">Copy the 12-digit UTR from your payment details screen and share it in your WhatsApp chat. Your balance updates in 30 seconds!</p>
                 </div>
               </div>
@@ -815,7 +815,7 @@ export const UpiDepositPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -898,21 +898,21 @@ export const ImpsWithdrawalPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                 <span className="text-xl font-black text-[#F0C419]">1</span>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Message Our 24/7 WhatsApp Financial Desk</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Message Our 24/7 WhatsApp Financial Desk</h3>
                   <p className="text-xs text-white/70">Send a message to wa.link/880088 with your Lotus365 username and state your withdrawal amount (minimum ₹500 for IMPS).</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                 <span className="text-xl font-black text-[#F0C419]">2</span>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Provide Your Core Banking Particulars</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Provide Your Core Banking Particulars</h3>
                   <p className="text-xs text-white/70">Share your: (a) Account Holder Name, (b) Bank Account Number, (c) Bank Name, and (d) 11-character IFSC Code.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                 <span className="text-xl font-black text-[#F0C419]">3</span>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Instant Direct Disbursement</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Instant Direct Disbursement</h3>
                   <p className="text-xs text-white/70">Our automated banking API dispatches your payout via IMPS. Funds reflect in your bank account balance within 5 to 10 minutes accompanied by an official RRN bank SMS.</p>
                 </div>
               </div>
@@ -1083,7 +1083,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -1376,7 +1376,7 @@ export const PaymentMethodsPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -1670,7 +1670,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}

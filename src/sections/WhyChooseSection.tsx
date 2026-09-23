@@ -110,9 +110,9 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
               <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-[#F0C419] text-[#14614C] flex items-center justify-center shadow-lg font-black text-2xl">
                 365
               </div>
-              <h4 className="text-xl sm:text-2xl font-bold text-white mb-2">
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
                 India's Trusted Sports Exchange
-              </h4>
+              </h3>
               <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-6">
                 Over 500,000 active players trust Lotus365 daily for transparent odds, instant withdrawals, and dedicated VIP support.
               </p>

@@ -53,27 +53,27 @@ export const KabaddiBettingPage: React.FC = () => (
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Match Winner (Moneyline)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Match Winner (Moneyline)</h3>
                 <p className="text-white/70">Wager on which franchise wins the 40-minute contest. Ties in PKL league-stage fixtures offer lucrative odds exceeding 6.50 to 7.00.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Point Spread Handicap</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Point Spread Handicap</h3>
                 <p className="text-white/70">Heavy favorites (such as Puneri Paltan or Patna Pirates) are handicapped with -4.5 or -6.5 point lines, balancing betting action across both sides.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Total Match Points (Over / Under)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Total Match Points (Over / Under)</h3>
                 <p className="text-white/70">Typical PKL totals fluctuate between 68.5 and 76.5 points. Fast raiding teams trigger high-scoring Over outcomes while defensive setups favor the Under.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Individual Raider Super 10s</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Individual Raider Super 10s</h3>
                 <p className="text-white/70">Wager on star raiders (like Pardeep Narwal, Naveen Kumar, or Arjun Deshwal) scoring 10 or more touch/bonus points in a single fixture.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">High 5 Defender Milestone</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">High 5 Defender Milestone</h3>
                 <p className="text-white/70">Back elite corner and cover defenders (like Fazel Atrachali or Mohammadreza Shadloui) to register 5 or more successful tackle points.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">First Team to Score an All-Out</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">First Team to Score an All-Out</h3>
                 <p className="text-white/70">Predict which team inflicts the initial All-Out on their opponent, earning the crucial 2 bonus points and psychological upper hand.</p>
               </div>
             </div>
@@ -134,13 +134,13 @@ export const KabaddiBettingPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419]">1. Super Tackle Asymmetry</h4>
+                <h3 className="font-bold text-[#F0C419]">1. Super Tackle Asymmetry</h3>
                 <p className="text-white/70">
                   When a defending team is reduced to 3 or fewer players, a successful tackle yields 2 points instead of 1 (a Super Tackle). Many unseasoned raiders rush recklessly in these situations, resulting in costly turnovers. Backing the defending team's spread when facing 3 defenders offers superior statistical value.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419]">2. Do-or-Die Raid Predictability</h4>
+                <h3 className="font-bold text-[#F0C419]">2. Do-or-Die Raid Predictability</h3>
                 <p className="text-white/70">
                   After two consecutive empty raids, the third raid is a mandatory Do-or-Die raid where the raider must score or be declared out. In Do-or-Die situations against elite defensive corner duos, the tackle success rate climbs to over 64%. Betting on defensive tackle points in Do-or-Die sequences provides consistent edge.
                 </p>
@@ -251,27 +251,27 @@ export const BasketballBettingPage: React.FC = () => (
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Point Spread (Line Betting)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Point Spread (Line Betting)</h3>
                 <p className="text-white/70">The most popular NBA market. The favored team must win by more than the handicap (e.g. -6.5 points) for your wager to cash.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Total Game Points (Over / Under)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Total Game Points (Over / Under)</h3>
                 <p className="text-white/70">Wager on combined scoring between both teams. NBA totals typically sit between 218.5 and 235.5 points depending on team pace.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Player Points, Rebounds & Assists</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Player Points, Rebounds & Assists</h3>
                 <p className="text-white/70">Prop bets on stars like LeBron James, Nikola Jokić, or Luka Dončić scoring over/under set statistical thresholds.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Quarter & Half Spreads</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Quarter & Half Spreads</h3>
                 <p className="text-white/70">Bet specifically on the outcome of the 1st quarter or 1st half, eliminating late-game garbage-time variance.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Race to 20 Points</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Race to 20 Points</h3>
                 <p className="text-white/70">Fast-action market predicting which team establishes early offensive momentum and reaches the 20-point mark first.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Winning Margin Bands</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Winning Margin Bands</h3>
                 <p className="text-white/70">Predict the exact margin band of victory (e.g. Celtics by 1-5 points, 6-10 points, or 11+ points) for multiplied payouts.</p>
               </div>
             </div>
@@ -447,27 +447,27 @@ export const HorseRacingPage: React.FC = () => (
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Win & Place Bets</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Win & Place Bets</h3>
                 <p className="text-white/70">Win requires your horse to cross the line 1st. Place pays out if your horse finishes in the top 2 (fields under 8) or top 3 (fields of 8+ runners).</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Each-Way (E/W)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Each-Way (E/W)</h3>
                 <p className="text-white/70">Two equal bets combined: one for the horse to Win and one for the horse to Place, providing safety on longshot contenders.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Exacta & Trifecta</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Exacta & Trifecta</h3>
                 <p className="text-white/70">Exacta predicts the exact 1st and 2nd finishers. Trifecta predicts 1st, 2nd, and 3rd in exact order for colossal multiplier payouts.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Quinella</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Quinella</h3>
                 <p className="text-white/70">Select the 1st and 2nd horses across the line in any finishing order, providing increased winning probability.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Superfecta</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Superfecta</h3>
                 <p className="text-white/70">Predict the 1st, 2nd, 3rd, and 4th horses in exact sequence, offering monumental returns from modest ₹100 stakes.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <h4 className="font-bold text-[#F0C419] text-base">Jackpot Pool</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Jackpot Pool</h3>
                 <p className="text-white/70">Select the winners of 5 nominated races on the day's racecard to participate in the platform's community jackpot pool.</p>
               </div>
             </div>
@@ -751,22 +751,22 @@ export const SportsbookPage: React.FC = () => (
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
                 <span className="text-xl font-black text-[#F0C419]">Step 1</span>
-                <h4 className="font-bold text-white">Connect on WhatsApp</h4>
+                <h3 className="font-bold text-white">Connect on WhatsApp</h3>
                 <p className="text-white/70">Click wa.link/880088 to message our verified 24/7 concierge desk. Receive your secure personal login credentials in under 60 seconds.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
                 <span className="text-xl font-black text-[#F0C419]">Step 2</span>
-                <h4 className="font-bold text-white">Deposit via Instant UPI</h4>
+                <h3 className="font-bold text-white">Deposit via Instant UPI</h3>
                 <p className="text-white/70">Transfer as little as ₹100 using PhonePe, GPay, or Paytm. Submit the 12-digit UTR reference for instant balance credit.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
                 <span className="text-xl font-black text-[#F0C419]">Step 3</span>
-                <h4 className="font-bold text-white">Select Markets & Trade</h4>
+                <h3 className="font-bold text-white">Select Markets & Trade</h3>
                 <p className="text-white/70">Navigate through 40+ sports, choose match odds or point spreads, enter your stake, and confirm your trade with zero net commission.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
                 <span className="text-xl font-black text-[#F0C419]">Step 4</span>
-                <h4 className="font-bold text-white">2-Minute Cashout</h4>
+                <h3 className="font-bold text-white">2-Minute Cashout</h3>
                 <p className="text-white/70">When your matches win, request a payout to your UPI ID or bank account. Receive 100% of your net winnings within 120 seconds.</p>
               </div>
             </div>

@@ -99,19 +99,19 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
               <div className="p-4 rounded-2xl bg-brand-surface border border-white/10">
                 <div className="w-8 h-8 rounded-lg bg-brand-gold/15 text-brand-gold font-bold flex items-center justify-center mb-3">1</div>
-                <h4 className="font-bold text-white text-sm mb-1">Click Login or WhatsApp ID</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Click Login or WhatsApp ID</h3>
                 <p className="text-xs text-slate-400">Tap any login or sign up button to connect directly with our 24/7 official WhatsApp team.</p>
               </div>
 
               <div className="p-4 rounded-2xl bg-brand-surface border border-white/10">
                 <div className="w-8 h-8 rounded-lg bg-brand-emerald/15 text-brand-emerald font-bold flex items-center justify-center mb-3">2</div>
-                <h4 className="font-bold text-white text-sm mb-1">Receive Verified Credentials</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Receive Verified Credentials</h3>
                 <p className="text-xs text-slate-400">Our live verification manager generates your private player credentials in under 30 seconds.</p>
               </div>
 
               <div className="p-4 rounded-2xl bg-brand-surface border border-white/10">
                 <div className="w-8 h-8 rounded-lg bg-brand-cyan/15 text-brand-cyan font-bold flex items-center justify-center mb-3">3</div>
-                <h4 className="font-bold text-white text-sm mb-1">Instant Play on Any Device</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Instant Play on Any Device</h3>
                 <p className="text-xs text-slate-400">Play seamlessly in your mobile browser with 100% security, 60 FPS speed, and immediate access to all games.</p>
               </div>
             </div>
@@ -227,7 +227,7 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
                   <Zap className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Instant Priority Cashouts</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Instant Priority Cashouts</h3>
                   <p className="text-xs text-slate-400">VIP withdrawal tickets skip standard checks and are executed via dedicated IMPS channels in under 120 seconds.</p>
                 </div>
               </div>
@@ -237,7 +237,7 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
                   <Trophy className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Up to 10% Weekly Loss Cashback</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Up to 10% Weekly Loss Cashback</h3>
                   <p className="text-xs text-slate-400">Enjoy automated rebate credits deposited directly into your balance every Monday with zero wagering conditions.</p>
                 </div>
               </div>

@@ -209,22 +209,22 @@ export const CricketBettingPage: React.FC = () => (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 01</div>
-                <h4 className="font-bold text-white mb-1">Request Your Login ID</h4>
+                <h3 className="font-bold text-white mb-1">Request Your Login ID</h3>
                 <p className="text-xs text-white/70">Connect with our 24/7 WhatsApp verification desk at <a href="/contact" className="text-[#F0C419] hover:underline">contact support</a> and send a message requesting a new Lotus365 Cricket ID.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 02</div>
-                <h4 className="font-bold text-white mb-1">Deposit Funds via UPI</h4>
+                <h3 className="font-bold text-white mb-1">Deposit Funds via UPI</h3>
                 <p className="text-xs text-white/70">Deposit as little as ₹100 using PhonePe, Google Pay, or Paytm. Follow our <a href="/how-to-deposit" className="text-[#F0C419] hover:underline">deposit guide</a> for 30-second balance updates.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 03</div>
-                <h4 className="font-bold text-white mb-1">Access Live Cricket Markets</h4>
+                <h3 className="font-bold text-white mb-1">Access Live Cricket Markets</h3>
                 <p className="text-xs text-white/70">Open <strong className="text-white">lotus365officialid.com</strong> on your mobile browser, login, and browse ongoing IPL, T20, and international fixtures.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 04</div>
-                <h4 className="font-bold text-white mb-1">Instant 2-Minute Cashout</h4>
+                <h3 className="font-bold text-white mb-1">Instant 2-Minute Cashout</h3>
                 <p className="text-xs text-white/70">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <a href="/2-minute-cashout" className="text-[#F0C419] hover:underline">2-minute cashout SLA</a>.</p>
               </div>
             </div>

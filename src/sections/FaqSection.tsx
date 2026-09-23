@@ -137,7 +137,7 @@ export const FaqSection: React.FC<FaqProps> = ({ onOpenAuth }) => {
         {/* Quick Help Prompt */}
         <div className="mt-10 p-5 rounded-2xl bg-black/25 border border-white/15 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <div>
-            <h4 className="font-bold text-sm text-white">Still have questions?</h4>
+            <h3 className="font-bold text-sm text-white">Still have questions?</h3>
             <p className="text-xs text-white/75">
               Our 24/7 WhatsApp helpdesk agents are active right now to assist you in seconds.
             </p>

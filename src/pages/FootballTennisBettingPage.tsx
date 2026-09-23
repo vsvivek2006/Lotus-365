@@ -58,29 +58,29 @@ export const FootballBettingPage: React.FC = () => (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-3">
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h4 className="font-bold text-[#F0C419] mb-1">1X2 Match Result & Draw No Bet (DNB)</h4>
+                  <h3 className="font-bold text-[#F0C419] mb-1">1X2 Match Result & Draw No Bet (DNB)</h3>
                   <p className="text-xs text-white/70">Wager on a Home win (1), Draw (X), or Away win (2). Use Draw No Bet to eliminate the risk of a tie, returning your entire stake if the match concludes level after 90 minutes.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h4 className="font-bold text-[#F0C419] mb-1">Both Teams to Score (BTTS / GG)</h4>
+                  <h3 className="font-bold text-[#F0C419] mb-1">Both Teams to Score (BTTS / GG)</h3>
                   <p className="text-xs text-white/70">A favorite for attacking fixtures: bet Yes or No on whether both clubs will find the back of the net regardless of who ultimately wins.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h4 className="font-bold text-[#F0C419] mb-1">Over / Under Goal Lines (0.5 to 4.5 Goals)</h4>
+                  <h3 className="font-bold text-[#F0C419] mb-1">Over / Under Goal Lines (0.5 to 4.5 Goals)</h3>
                   <p className="text-xs text-white/70">Predict total match scoring. Over 2.5 goals cashes whenever 3 or more goals are scored, ideal for high-tempo clashes between prolific attacks.</p>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h4 className="font-bold text-[#F0C419] mb-1">Asian Handicap Trading</h4>
+                  <h3 className="font-bold text-[#F0C419] mb-1">Asian Handicap Trading</h3>
                   <p className="text-xs text-white/70">Eliminate the draw bias by applying fractional goal handicaps (-0.5, -1.0, -1.5). Backing favorites on Asian lines offers superior value over traditional moneyline markets.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h4 className="font-bold text-[#F0C419] mb-1">Correct Score & Half-Time / Full-Time</h4>
+                  <h3 className="font-bold text-[#F0C419] mb-1">Correct Score & Half-Time / Full-Time</h3>
                   <p className="text-xs text-white/70">High-yield markets offering odds upwards of 15.00 to 50.00 for pinpoint scoreline predictions (e.g. 2-1, 3-0) or lead reversals at half-time.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h4 className="font-bold text-[#F0C419] mb-1">Card, Corner & Player Props</h4>
+                  <h3 className="font-bold text-[#F0C419] mb-1">Card, Corner & Player Props</h3>
                   <p className="text-xs text-white/70">Wager on total corners, team yellow cards, or individual player anytime goalscorer bets for stars like Erling Haaland or Kylian Mbappé.</p>
                 </div>
               </div>
@@ -153,19 +153,19 @@ export const FootballBettingPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419]">1. The 1-0 Lead Lock</h4>
+                <h3 className="font-bold text-[#F0C419]">1. The 1-0 Lead Lock</h3>
                 <p className="text-white/70">
                   When your backed underdog takes an early 1-0 lead in the 25th minute, their odds plummet dramatically. You can lay the underdog or back the draw/favorite on the exchange to lock in guaranteed profit regardless of who ultimately wins.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419]">2. Over/Under Goal Scalping</h4>
+                <h3 className="font-bold text-[#F0C419]">2. Over/Under Goal Scalping</h3>
                 <p className="text-white/70">
                   Backing "Over 2.5 Goals" in a cagey first half when odds are 2.20, then cashing out immediately after an explosive 50th-minute opening goal when odds sink to 1.35, securing a risk-free 60%+ return without sweating the remainder of the match.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419]">3. Red Card Value Reaction</h4>
+                <h3 className="font-bold text-[#F0C419]">3. Red Card Value Reaction</h3>
                 <p className="text-white/70">
                   When a referee issues a red card, the market frequently overreacts in the first 3 minutes. Identifying disciplined defensive sides that organize into low blocks allows you to back the Under or the 10-man team’s Asian handicap at bloated prices.
                 </p>
@@ -318,7 +318,7 @@ export const TennisBettingPage: React.FC = () => (
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Match & Set Betting</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Match & Set Betting</h3>
                 <ul className="text-white/70 space-y-1 list-disc list-inside">
                   <li>Match Winner (Head-to-Head)</li>
                   <li>Set Betting (2-0, 2-1 in best of 3)</li>
@@ -328,7 +328,7 @@ export const TennisBettingPage: React.FC = () => (
                 </ul>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Games & Handicaps</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Games & Handicaps</h3>
                 <ul className="text-white/70 space-y-1 list-disc list-inside">
                   <li>Game Handicap (+3.5, -3.5 games)</li>
                   <li>Total Match Games (Over/Under 21.5)</li>
@@ -338,7 +338,7 @@ export const TennisBettingPage: React.FC = () => (
                 </ul>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Micro In-Play Live</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Micro In-Play Live</h3>
                 <ul className="text-white/70 space-y-1 list-disc list-inside">
                   <li>Current Game Winner</li>
                   <li>Next Break of Serve</li>
@@ -371,13 +371,13 @@ export const TennisBettingPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419]">Laying the Server at 0-30</h4>
+                <h3 className="font-bold text-[#F0C419]">Laying the Server at 0-30</h3>
                 <p className="text-white/70">
                   When a server falls behind 0-30 or 15-40 in their service game, market odds on the returner plummet. Laying the server at short odds offers asymmetric risk/reward: if the returner breaks, you lock in a major profit; if the server fights back to deuce, you can green out with minimal tick losses.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419]">Tiebreak Momentum Reversals</h4>
+                <h3 className="font-bold text-[#F0C419]">Tiebreak Momentum Reversals</h3>
                 <p className="text-white/70">
                   Tiebreaks are notoriously volatile. A single mini-break shifts odds by 30-50 ticks. By anticipating high-pressure unforced errors and entering positions at 3-3 or 4-4, traders can scalp 20-tick profit margins in under 90 seconds.
                 </p>

@@ -100,7 +100,7 @@ export const T20WorldCupPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Tournament Outrights</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Tournament Outrights</h3>
                 <ul className="text-white/70 space-y-1 list-disc list-inside">
                   <li>Tournament Winner Outright</li>
                   <li>Finalists Prediction (Name the Finalists)</li>
@@ -110,7 +110,7 @@ export const T20WorldCupPage: React.FC = () => (
                 </ul>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Match In-Play Markets</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Match In-Play Markets</h3>
                 <ul className="text-white/70 space-y-1 list-disc list-inside">
                   <li>Match Winner (Back & Lay)</li>
                   <li>6-Over Powerplay Session Benchmark</li>
@@ -120,7 +120,7 @@ export const T20WorldCupPage: React.FC = () => (
                 </ul>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Player Propositions</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Player Propositions</h3>
                 <ul className="text-white/70 space-y-1 list-disc list-inside">
                   <li>Top Batsman (Team 1 & Team 2)</li>
                   <li>Top Bowler (Team 1 & Team 2)</li>

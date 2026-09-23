@@ -232,7 +232,7 @@ export const ReviewPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -366,15 +366,15 @@ export const VsCompetitorsPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">True Exchange Odds</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">True Exchange Odds</h3>
                 <p className="text-xs text-white/70">Lotus365 matches bets peer-to-peer at true market rates with 0% bookmaker vigorish on marquee matches, directly enhancing your long-term return on investment.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Instant INR Liquidity</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Instant INR Liquidity</h3>
                 <p className="text-xs text-white/70">Zero forex currency conversion fees. Deposit exactly what you intend to wager via PhonePe, GPay, or Paytm and receive instant 2-minute cashouts.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Zero Account Freezes</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Zero Account Freezes</h3>
                 <p className="text-xs text-white/70">Offshore operators frequently freeze accounts when players hit winning streaks. Lotus365 welcomes winning players with uncapped VIP liquidity.</p>
               </div>
             </div>
@@ -439,7 +439,7 @@ export const VsCompetitorsPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -617,7 +617,7 @@ export const BettingTipsPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -737,19 +737,19 @@ export const IplPredictionsPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Chennai Super Kings (CSK)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Chennai Super Kings (CSK)</h3>
                 <p className="text-xs text-white/70">Master tacticians at turning Chepauk into an impregnable fortress. Heavy reliance on finger spinners, disciplined middle-order anchors, and death overs strike rotation make them prime favorites in low-scoring defensive encounters.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Mumbai Indians (MI)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Mumbai Indians (MI)</h3>
                 <p className="text-xs text-white/70">Built for power hitting at the Wankhede Stadium. Their aggressive top-order approach results in explosive 6-over powerplay totals, making session over wagers exceptionally profitable when conditions remain dry.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Kolkata Knight Riders (KKR)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Kolkata Knight Riders (KKR)</h3>
                 <p className="text-xs text-white/70">A team defined by boundary-clearing all-rounders and mystery spin combinations. Highly volatile in early group fixtures, creating huge in-play price swings ideal for exchange trading.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Royal Challengers Bengaluru (RCB)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Royal Challengers Bengaluru (RCB)</h3>
                 <p className="text-xs text-white/70">Playing at the high-altitude, short-boundary Chinnaswamy Stadium, match totals frequently surpass 210 runs. Backing top team batters and total match sixes delivers consistent value.</p>
               </div>
             </div>
@@ -764,13 +764,13 @@ export const IplPredictionsPage: React.FC = () => (
               Critical IPL 2026 Betting Trends to Exploit
             </h2>
             <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-              <h4 className="font-bold text-[#F0C419] text-base mb-1">1. The Impact Player Inflation on Powerplay Totals</h4>
+              <h3 className="font-bold text-[#F0C419] text-base mb-1">1. The Impact Player Inflation on Powerplay Totals</h3>
               <p className="text-xs text-white/80">
                 With teams essentially batting down to number 8 or 9 without consequence, openers strike with zero hesitation. First 6 overs totals of 65+ runs have become the new baseline across high-scoring venues. Look for high-value "Over" session bets when elite openers bat first.
               </p>
             </div>
             <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-              <h4 className="font-bold text-[#F0C419] text-base mb-1">2. Chasing Superiority in Dew-Prone Stadiums</h4>
+              <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Chasing Superiority in Dew-Prone Stadiums</h3>
               <p className="text-xs text-white/80">
                 In Mumbai, Lucknow, and Delhi, teams winning the toss will almost universally bowl first. The batting conditions in overs 14–20 of the chase are significantly superior. Backing the chasing side when odds lengthen during the first innings offers prime trading value.
               </p>
@@ -799,7 +799,7 @@ export const IplPredictionsPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -862,11 +862,11 @@ export const OnlineCasinoGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">High RTP Skill Games</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">High RTP Skill Games</h3>
                 <p className="text-xs text-white/70 leading-relaxed">Live Blackjack delivers an extraordinary 99.50% RTP when following basic strategy charts. Baccarat Banker bets yield 98.94% RTP with a microscopic 1.06% house edge, making them premier choices for disciplined bankroll growth.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">High-Multiplier Action Games</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">High-Multiplier Action Games</h3>
                 <p className="text-xs text-white/70 leading-relaxed">Lightning Roulette and Aviator offer explosive upside with multipliers scaling up to 500x and 10,000x respectively. Balance your play between low-volatility table games and high-upside multipliers to optimize session longevity.</p>
               </div>
             </div>
@@ -885,11 +885,11 @@ export const OnlineCasinoGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-white text-sm">The 2% Rule</h4>
+                <h3 className="font-bold text-white text-sm">The 2% Rule</h3>
                 <p className="text-xs text-white/70">Never risk more than 2% of your total casino balance on any individual hand. With a ₹10,000 bankroll, your base unit stake should be ₹200. This provides a buffer of 50 hands, easily weathering normal card variance.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-white text-sm">Stop-Loss & Profit Ceilings</h4>
+                <h3 className="font-bold text-white text-sm">Stop-Loss & Profit Ceilings</h3>
                 <p className="text-xs text-white/70">Set a strict session stop-loss (e.g., losing 25% of your deposit) and an equally firm profit target (e.g., gaining 50%). When either boundary is reached, message WhatsApp for an instant 2-minute UPI cashout and step away.</p>
               </div>
             </div>
@@ -968,19 +968,19 @@ export const OnlineCasinoGuidePage: React.FC = () => (
               Actionable Strategy for Top Casino Disciplines
             </h2>
             <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-              <h4 className="font-bold text-white text-base mb-1">Blackjack: The Only Game Where Skill Lowers the Edge to 0.5%</h4>
+              <h3 className="font-bold text-white text-base mb-1">Blackjack: The Only Game Where Skill Lowers the Edge to 0.5%</h3>
               <p className="text-xs text-white/80">
                 Never play Blackjack on pure instinct. Always use basic strategy charts: double down on 11 against any dealer card except an Ace, split Aces and 8s unconditionally, and stand on hard 12–16 when the dealer displays a bust card (4, 5, or 6).
               </p>
             </div>
             <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-              <h4 className="font-bold text-white text-base mb-1">Baccarat: Avoid the 14.4% Tie Bet Trap</h4>
+              <h3 className="font-bold text-white text-base mb-1">Baccarat: Avoid the 14.4% Tie Bet Trap</h3>
               <p className="text-xs text-white/80">
                 While the 8:1 payout on Baccarat Tie bets looks enticing, its mathematical house edge is an enormous 14.36%—one of the worst bets in the entire casino. Sticking exclusively to the Banker bet yields a razor-thin 1.06% house edge.
               </p>
             </div>
             <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-              <h4 className="font-bold text-white text-base mb-1">Roulette: Strictly Choose Single-Zero European Tables</h4>
+              <h3 className="font-bold text-white text-base mb-1">Roulette: Strictly Choose Single-Zero European Tables</h3>
               <p className="text-xs text-white/80">
                 Never play American Roulette with its double-zero (00) pocket, which increases the house edge to 5.26%. European Roulette features only one single zero (0), keeping the house edge down at 2.70%.
               </p>
@@ -1009,7 +1009,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -1072,11 +1072,11 @@ export const SafeBettingGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-emerald-500/30 space-y-1">
-                <h4 className="font-bold text-emerald-400 text-sm">Official Authorized Domain</h4>
+                <h3 className="font-bold text-emerald-400 text-sm">Official Authorized Domain</h3>
                 <p className="text-xs text-white/70">Our official platform URL is strictly <strong className="text-white">lotus365officialid.com</strong>. Never enter login credentials on lookalike mirror domains or third-party web forms.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-emerald-500/30 space-y-1">
-                <h4 className="font-bold text-emerald-400 text-sm">Official WhatsApp Channel</h4>
+                <h3 className="font-bold text-emerald-400 text-sm">Official WhatsApp Channel</h3>
                 <p className="text-xs text-white/70">All account registrations, deposits, and cashouts are conducted through our verified WhatsApp link at <strong className="text-[#F0C419]">https://wa.link/880088</strong> with end-to-end encryption.</p>
               </div>
             </div>
@@ -1113,7 +1113,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               },
             ].map((rule, idx) => (
               <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">{rule.title}</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">{rule.title}</h3>
                 <p className="text-xs text-white/80">{rule.body}</p>
               </div>
             ))}
@@ -1129,11 +1129,11 @@ export const SafeBettingGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-white text-sm">Strict Identity Isolation</h4>
+                <h3 className="font-bold text-white text-sm">Strict Identity Isolation</h3>
                 <p className="text-xs text-white/70">Never share your betting ID credentials or WhatsApp chat PIN with friends, family, or social media groups. Lotus365 executives will never solicit your login password or banking MPIN.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-white text-sm">Self-Imposed Wagering Limits</h4>
+                <h3 className="font-bold text-white text-sm">Self-Imposed Wagering Limits</h3>
                 <p className="text-xs text-white/70">If you ever feel that your wagering activity is exceeding healthy entertainment limits, message our WhatsApp support team to request a voluntary temporary cool-off or permanent account closure.</p>
               </div>
             </div>
@@ -1186,7 +1186,7 @@ export const SafeBettingGuidePage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -1249,19 +1249,19 @@ export const MobileWebAppGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">⚡ Instant One-Tap Play</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">⚡ Instant One-Tap Play</h3>
                 <p className="text-xs text-white/70">Launch straight into your favorite games in under 3 seconds with zero waiting.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-emerald-300 text-sm">🔒 100% Fund &amp; Data Security</h4>
+                <h3 className="font-bold text-emerald-300 text-sm">🔒 100% Fund &amp; Data Security</h3>
                 <p className="text-xs text-white/70">Protected by bank-level 256-bit SSL encryption so your bets and winnings are always safe.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-sky-300 text-sm">⏱️ 2-Minute Direct Cashouts</h4>
+                <h3 className="font-bold text-sky-300 text-sm">⏱️ 2-Minute Direct Cashouts</h3>
                 <p className="text-xs text-white/70">Request withdrawals directly through WhatsApp to PhonePe, Google Pay, or Paytm.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-amber-300 text-sm">👑 VIP Concierge Service</h4>
+                <h3 className="font-bold text-amber-300 text-sm">👑 VIP Concierge Service</h3>
                 <p className="text-xs text-white/70">Chat with real human managers on WhatsApp anytime, 24 hours a day, 365 days a year.</p>
               </div>
             </div>
@@ -1277,15 +1277,15 @@ export const MobileWebAppGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">One-Tap Bet Placement</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">One-Tap Bet Placement</h3>
                 <p className="text-xs text-white/70">Pre-set quick bet amounts (e.g., ₹500, ₹1,000, ₹5,000) allow you to back or lay cricket odds during rapid in-play shifts with a single finger tap.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">Full HD Live Streams</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Full HD Live Streams</h3>
                 <p className="text-xs text-white/70">Integrated video streaming scales dynamically to portrait or landscape modes without interrupting active betting slips or wallet balance displays.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">Instant WhatsApp Linkage</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Instant WhatsApp Linkage</h3>
                 <p className="text-xs text-white/70">Floating WhatsApp action buttons enable seamless switching between game tables and your 24/7 concierge for 2-minute deposits and cashouts.</p>
               </div>
             </div>
@@ -1304,7 +1304,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">Android (Google Chrome)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Android (Google Chrome)</h3>
                 <ol className="list-decimal list-inside text-xs text-white/70 space-y-1">
                   <li>Open Chrome and navigate to lotus365officialid.com</li>
                   <li>Tap the 3 vertical dots menu in the top right corner</li>
@@ -1313,7 +1313,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
                 </ol>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base">iPhone / iPad (Apple Safari)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">iPhone / iPad (Apple Safari)</h3>
                 <ol className="list-decimal list-inside text-xs text-white/70 space-y-1">
                   <li>Open Safari and visit lotus365officialid.com</li>
                   <li>Tap the "Share" button (square icon with an arrow pointing up)</li>
@@ -1380,7 +1380,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -1730,19 +1730,19 @@ export const HowItWorksPage: React.FC = () => {
             </p>
             <div className="space-y-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Phase 1: Automated Connection & Human Concierge Assignment</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Phase 1: Automated Connection & Human Concierge Assignment</h3>
                 <p className="text-xs text-white/70 leading-relaxed">When you tap the official WhatsApp link (wa.link/880088), our smart routing engine connects your chat with an available senior customer concierge. Within 30 seconds, a dedicated human agent greets you, eliminating frustrating automated bot loops.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Phase 2: Encrypted Token Generation & Wallet Linking</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Phase 2: Encrypted Token Generation & Wallet Linking</h3>
                 <p className="text-xs text-white/70 leading-relaxed">Your concierge provisions a private, secure username on lotus365officialid.com. Your wallet is initialized with zero account maintenance fees and full access to our cricket betting exchange, 1,000+ live dealer tables, and Spribe Aviator crash game.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Phase 3: Real-Time Domestic UPI Clearance</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Phase 3: Real-Time Domestic UPI Clearance</h3>
                 <p className="text-xs text-white/70 leading-relaxed">You receive a fresh merchant UPI handle or QR code. Transfer your chosen stake (minimum ₹100) via PhonePe, Google Pay, or Paytm. Share the 12-digit UTR confirmation, and your balance reflects on the web platform within 30 seconds.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-base">Phase 4: Instant 120-Second Payout Execution</h4>
+                <h3 className="font-bold text-[#F0C419] text-base">Phase 4: Instant 120-Second Payout Execution</h3>
                 <p className="text-xs text-white/70 leading-relaxed">When you conclude your gaming session, send your withdrawal request and UPI ID to your WhatsApp concierge. Funds are disbursed immediately from our segregated liquidity reserves directly into your bank account in under two minutes.</p>
               </div>
             </div>

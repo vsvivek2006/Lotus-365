@@ -159,15 +159,15 @@ export const LiveCasinoPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419]">High-Speed OCR Scanners</h4>
+                <h3 className="font-bold text-[#F0C419]">High-Speed OCR Scanners</h3>
                 <p className="text-white/70">Every card dealt across blackjack, baccarat, and teen patti is scanned via laser optical sensors, translating physical card values directly onto your screen with zero human manipulation.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419]">Multi-Angle HD Cameras</h4>
+                <h3 className="font-bold text-[#F0C419]">Multi-Angle HD Cameras</h3>
                 <p className="text-white/70">Roulette wheels and card shoes are captured by 3 independent high-speed camera angles simultaneously, including close-ups on the ball dropping into the wheel pocket.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419]">Live Dealer Interaction</h4>
+                <h3 className="font-bold text-[#F0C419]">Live Dealer Interaction</h3>
                 <p className="text-white/70">Chat live with dealers in Hindi and English. Dealers welcome you by your username, call out placed bets, and maintain total transparency during every shoe shuffle.</p>
               </div>
             </div>

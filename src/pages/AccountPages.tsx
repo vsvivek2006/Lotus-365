@@ -291,7 +291,7 @@ export const RegisterPage: React.FC = () => {
                   },
                 ].map((faq, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                    <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                    <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                   </div>
                 ))}
@@ -368,7 +368,7 @@ export const LoginPage: React.FC = () => {
                       {idx + 1}
                     </div>
                     <div>
-                      <h4 className="font-bold text-white text-sm mb-1">{item.step}</h4>
+                      <h3 className="font-bold text-white text-sm mb-1">{item.step}</h3>
                       <p className="text-xs text-white/70">{item.desc}</p>
                     </div>
                   </div>
@@ -581,7 +581,7 @@ export const LoginPage: React.FC = () => {
                   },
                 ].map((faq, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                    <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                    <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                   </div>
                 ))}

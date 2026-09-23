@@ -88,7 +88,7 @@ export const CricketExchangePage: React.FC = () => (
             </p>
 
             <div className="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-4">
-              <h4 className="font-bold text-white text-base">Practical In-Play Trading Walkthrough:</h4>
+              <h3 className="font-bold text-white text-base">Practical In-Play Trading Walkthrough:</h3>
               <ol className="space-y-3 text-xs sm:text-sm list-decimal list-inside text-white/80">
                 <li><strong className="text-white">Pre-Match:</strong> You Back India at odds of <strong className="text-[#F0C419]">2.20</strong> with a ₹10,000 stake (Potential return: ₹22,000; Net Profit: ₹12,000).</li>
                 <li><strong className="text-white">During In-Play:</strong> India's opening bowlers strike twice in the powerplay, taking 2 early wickets. India's odds plummet to <strong className="text-[#F0C419]">1.30</strong>.</li>
@@ -176,19 +176,19 @@ export const CricketExchangePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] mb-1">Powerplay Sessions (0-6 Overs)</h4>
+                <h3 className="font-bold text-[#F0C419] mb-1">Powerplay Sessions (0-6 Overs)</h3>
                 <p className="text-white/70 leading-relaxed">
                   Only 2 fielders outside the 30-yard circle. High boundary frequency makes batting conditions predictable. Benchmark typical ranges: 44-48 runs.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] mb-1">Middle Overs (7-15 Overs)</h4>
+                <h3 className="font-bold text-[#F0C419] mb-1">Middle Overs (7-15 Overs)</h3>
                 <p className="text-white/70 leading-relaxed">
                   Field spreads out with 5 fielders on boundary ropes. Spinners control run rate. Wickets in this phase cause massive session collapses.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] mb-1">Death Overs / Lambi (16-20 Overs)</h4>
+                <h3 className="font-bold text-[#F0C419] mb-1">Death Overs / Lambi (16-20 Overs)</h3>
                 <p className="text-white/70 leading-relaxed">
                   Maximum batting aggression. Expect 10 to 14 runs per over if specialist finishers are at the crease, or frequent wickets if yorkers hit the mark.
                 </p>

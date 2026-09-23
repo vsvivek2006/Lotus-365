@@ -42,7 +42,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white mb-0.5">Bank-Grade 256-Bit Security</h4>
+                  <h3 className="text-xs font-bold text-white mb-0.5">Bank-Grade 256-Bit Security</h3>
                   <p className="text-[11px] text-white/70">Your balance, bets, and personal details remain encrypted and fully protected 24/7.</p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
                   <MessageCircle className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white mb-0.5">Instant WhatsApp ID</h4>
+                  <h3 className="text-xs font-bold text-white mb-0.5">Instant WhatsApp ID</h3>
                   <p className="text-[11px] text-white/70">Chat with our verified human support desk to create your account in under 30 seconds.</p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
                   <Zap className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white mb-0.5">2-Minute Instant Cashouts</h4>
+                  <h3 className="text-xs font-bold text-white mb-0.5">2-Minute Instant Cashouts</h3>
                   <p className="text-[11px] text-white/70">Direct withdrawals to PhonePe, Google Pay, Paytm, and IMPS with zero fees.</p>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
                   <Smartphone className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white mb-0.5">Universal Device Compatibility</h4>
+                  <h3 className="text-xs font-bold text-white mb-0.5">Universal Device Compatibility</h3>
                   <p className="text-[11px] text-white/70">Flawless performance on all Android devices, iPhones, iPads, and desktop computers.</p>
                 </div>
               </div>

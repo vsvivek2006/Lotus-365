@@ -110,9 +110,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
 
           {/* Col 2: Cricket & Sports Exchange */}
           <div>
-            <h4 className="text-sm font-bold text-[#F0C419] pb-2 border-b-2 border-white/20 mb-4">
+            <h3 className="text-sm font-bold text-[#F0C419] pb-2 border-b-2 border-white/20 mb-4">
               Cricket &amp; Sports
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li><Link to="/cricket-betting" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Cricket Betting</Link></li>
               <li><Link to="/cricket-exchange" className="hover:text-[#F0C419] transition-colors">&rsaquo; Cricket Betting Exchange</Link></li>
@@ -129,9 +129,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
 
           {/* Col 3: Live Casino & Crash Games */}
           <div>
-            <h4 className="text-sm font-bold text-[#F0C419] pb-2 border-b-2 border-white/20 mb-4">
+            <h3 className="text-sm font-bold text-[#F0C419] pb-2 border-b-2 border-white/20 mb-4">
               Casino &amp; Crash Games
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li><Link to="/live-casino" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Casino Lobby</Link></li>
               <li><Link to="/teen-patti" className="hover:text-[#F0C419] transition-colors">&rsaquo; Live Teen Patti Cash</Link></li>
@@ -149,9 +149,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
 
           {/* Col 4: Account, Banking & VIP */}
           <div>
-            <h4 className="text-sm font-bold text-[#F0C419] pb-2 border-b-2 border-white/20 mb-4">
+            <h3 className="text-sm font-bold text-[#F0C419] pb-2 border-b-2 border-white/20 mb-4">
               Account &amp; Rewards
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li><Link to="/register" className="hover:text-[#F0C419] transition-colors">&rsaquo; Register WhatsApp ID</Link></li>
               <li><Link to="/login" className="hover:text-[#F0C419] transition-colors">&rsaquo; Lotus365 Member Login</Link></li>
@@ -170,9 +170,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
 
         {/* SEO Guides & Learning Directory */}
         <div className="border-t border-white/15 pt-8 pb-8">
-          <h4 className="text-xs font-bold text-[#F0C419] uppercase tracking-wider mb-4">
+          <h3 className="text-xs font-bold text-[#F0C419] uppercase tracking-wider mb-4">
             Guides, Strategy &amp; Platform Information
-          </h4>
+          </h3>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-white/75">
             <Link to="/lotus365-review" className="hover:text-[#F0C419] transition-colors">Lotus365 Review 2026</Link>
             <Link to="/lotus365-vs-competitors" className="hover:text-[#F0C419] transition-colors">Lotus365 vs Competitors</Link>

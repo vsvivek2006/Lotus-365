@@ -134,7 +134,7 @@ export const WelcomeBonusPage: React.FC = () => (
                     {item.step}
                   </div>
                   <div>
-                    <h4 className="font-bold text-white text-sm mb-1">{item.title}</h4>
+                    <h3 className="font-bold text-white text-sm mb-1">{item.title}</h3>
                     <p className="text-xs text-white/70">{item.desc}</p>
                   </div>
                 </div>
@@ -176,11 +176,11 @@ export const WelcomeBonusPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-[#0b3b2d]/50 border border-white/10">
-                <h4 className="font-bold text-white text-sm mb-1 flex items-center gap-1.5"><TrendingUp className="w-4 h-4 text-[#F0C419]" /> Exchange Back/Lay Advantage</h4>
+                <h3 className="font-bold text-white text-sm mb-1 flex items-center gap-1.5"><TrendingUp className="w-4 h-4 text-[#F0C419]" /> Exchange Back/Lay Advantage</h3>
                 <p className="text-xs text-white/70">Trade both sides of cricket overs and match odds to generate rollover volume without bleeding capital.</p>
               </div>
               <div className="p-4 rounded-xl bg-[#0b3b2d]/50 border border-white/10">
-                <h4 className="font-bold text-white text-sm mb-1 flex items-center gap-1.5"><ShieldCheck className="w-4 h-4 text-[#F0C419]" /> Zero Lock-in Security</h4>
+                <h3 className="font-bold text-white text-sm mb-1 flex items-center gap-1.5"><ShieldCheck className="w-4 h-4 text-[#F0C419]" /> Zero Lock-in Security</h3>
                 <p className="text-xs text-white/70">Your cash deposit is never held hostage. Forfeit the promotional credit at any time to execute an instant 2-minute UPI cashout.</p>
               </div>
             </div>
@@ -276,7 +276,7 @@ export const WelcomeBonusPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -375,19 +375,19 @@ export const FirstDepositBonusPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">1. Choose Your Tier Deliberately</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">1. Choose Your Tier Deliberately</h3>
                 <p className="text-xs text-white/80">
                   Because the First Deposit Bonus is an exclusive one-time opportunity, deposit the maximum amount comfortable within your personal entertainment budget to lock in the highest tier match percentage.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">2. Leverage the Cricket Exchange Back/Lay Advantage</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Leverage the Cricket Exchange Back/Lay Advantage</h3>
                 <p className="text-xs text-white/80">
                   Fulfill your turnover requirements on our <a href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</a> by backing solid favorites or laying overpriced longshots with tight spreads, preserving your core principal while steadily chipping away at the turnover target.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">3. Avoid Rushing Your Plays</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">3. Avoid Rushing Your Plays</h3>
                 <p className="text-xs text-white/80">
                   With 30 days of validity, you do not need to place all wagers on a single day. Wait for high-confidence match conditions, verified pitch reports, and favorable team news before deploying your bonus funds.
                 </p>
@@ -405,15 +405,15 @@ export const FirstDepositBonusPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-[#0b3b2d]/50 border border-white/10 space-y-2">
-                <h4 className="font-bold text-emerald-400 text-sm">Conservative Starter (₹1,000)</h4>
+                <h3 className="font-bold text-emerald-400 text-sm">Conservative Starter (₹1,000)</h3>
                 <p className="text-xs text-white/70">Deposit ₹1,000 + ₹1,000 bonus = ₹2,000 active bankroll. Ideal for casual cricket fans wanting to place ₹50 to ₹100 session stakes across 20+ IPL encounters.</p>
               </div>
               <div className="p-4 rounded-xl bg-[#0b3b2d]/50 border border-white/10 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-sm">Strategic Pro (₹5,000)</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Strategic Pro (₹5,000)</h3>
                 <p className="text-xs text-white/70">Deposit ₹5,000 + ₹6,000 bonus (120%) + ₹500 free bet = ₹11,500 total capital. Provides comfortable room for exchange trading, hedging, and live casino sessions.</p>
               </div>
               <div className="p-4 rounded-xl bg-[#0b3b2d]/50 border border-white/10 space-y-2">
-                <h4 className="font-bold text-amber-300 text-sm">High-Roller VIP (₹20,000)</h4>
+                <h3 className="font-bold text-amber-300 text-sm">High-Roller VIP (₹20,000)</h3>
                 <p className="text-xs text-white/70">Deposit ₹20,000 + ₹15,000 max bonus = ₹35,000 bankroll. Unlocks instant Silver VIP status, private WhatsApp manager, higher limits, and priority 2-minute IMPS cashouts.</p>
               </div>
             </div>
@@ -455,11 +455,11 @@ export const FirstDepositBonusPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-white text-sm">Fixed Percentage Staking</h4>
+                <h3 className="font-bold text-white text-sm">Fixed Percentage Staking</h3>
                 <p className="text-xs text-white/70">Wager between 1.5% and 3.0% of your total balance per cricket match selection to guarantee prolonged table presence.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-white text-sm">In-Play Green Book Hedging</h4>
+                <h3 className="font-bold text-white text-sm">In-Play Green Book Hedging</h3>
                 <p className="text-xs text-white/70">Lock in balanced profits across both team outcomes once match odds shift in your favor during live play.</p>
               </div>
             </div>
@@ -517,7 +517,7 @@ export const FirstDepositBonusPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -617,22 +617,22 @@ export const ReferralBonusPage: React.FC = () => (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">01</div>
-                <h4 className="font-bold text-white text-sm mb-1">Request Your Unique Referral Tag</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Request Your Unique Referral Tag</h3>
                 <p className="text-xs text-white/70">Message our WhatsApp desk. Your agent will assign a unique referral code or direct invite link tied to your profile.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">02</div>
-                <h4 className="font-bold text-white text-sm mb-1">Share with Friends & Community</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Share with Friends & Community</h3>
                 <p className="text-xs text-white/70">Share your link across WhatsApp, Telegram, or Instagram. Explain our zero-fee UPI deposits and 2-minute cashouts.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">03</div>
-                <h4 className="font-bold text-white text-sm mb-1">Friend Registers & Deposits</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Friend Registers & Deposits</h3>
                 <p className="text-xs text-white/70">Your friend creates their account and makes their first deposit (min ₹500 to qualify for the referral bounty).</p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">04</div>
-                <h4 className="font-bold text-white text-sm mb-1">Receive Instant Cash Payout</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Receive Instant Cash Payout</h3>
                 <p className="text-xs text-white/70">Your ₹500–₹1,000 cash bonus is credited directly to your wallet, withdrawable immediately via UPI.</p>
               </div>
             </div>
@@ -685,7 +685,7 @@ export const ReferralBonusPage: React.FC = () => (
 
           {/* Referral Anti-Syndicate Integrity Policy */}
           <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-            <h4 className="font-bold text-[#F0C419] text-base">Referral Partner Verification & Fraud Shield</h4>
+            <h3 className="font-bold text-[#F0C419] text-base">Referral Partner Verification & Fraud Shield</h3>
             <p className="text-xs text-white/80 leading-relaxed">
               To safeguard our honest network of affiliates, Lotus365 deploys continuous multi-accounting detection algorithms. Referral earnings generated through genuine word-of-mouth recommendations, social media channels, and private group chats are cleared with 100% automated settlement every Monday morning via instant UPI bank transfers.
             </p>
@@ -707,11 +707,11 @@ export const ReferralBonusPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">Transparent Real-Time Dashboard</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Transparent Real-Time Dashboard</h3>
                 <p className="text-xs text-white/70">Request complete weekly reports showing referred member active volume, platform turnover, and generated commission payouts.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">Weekly Automated Monday Payouts</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Weekly Automated Monday Payouts</h3>
                 <p className="text-xs text-white/70">Commissions settle like clockwork every Monday noon directly to your UPI ID without invoice delays or withdrawal fees.</p>
               </div>
             </div>
@@ -772,7 +772,7 @@ export const ReferralBonusPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -952,7 +952,7 @@ export const CashbackOffersPage: React.FC = () => (
 
           {/* Psychological Defense & Staking Discipline */}
           <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-            <h4 className="font-bold text-[#F0C419] text-base">Fair Net Loss Calculation Transparency Guarantee</h4>
+            <h3 className="font-bold text-[#F0C419] text-base">Fair Net Loss Calculation Transparency Guarantee</h3>
             <p className="text-xs text-white/80 leading-relaxed">
               Every Sunday midnight, our automated system tallies your aggregate turnover across all sports and casino categories. If variance has resulted in a net negative balance for the week, your calculated tier rebate percentage is transferred directly into your primary wallet at 12:00 PM IST on Monday, with immediate withdrawal clearance.
             </p>
@@ -966,15 +966,15 @@ export const CashbackOffersPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h4 className="font-bold text-white text-sm mb-1">Guaranteed Capital Return</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Guaranteed Capital Return</h3>
                 <p className="text-xs text-white/70">Know in advance that 5% to 15% of any net loss will be refunded directly into your wallet with zero wagering strings.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h4 className="font-bold text-white text-sm mb-1">Fresh Start Every Monday</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Fresh Start Every Monday</h3>
                 <p className="text-xs text-white/70">Re-enter the market each week with clear analytical focus, fortified by refunded cash ready for upcoming cricket fixtures.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h4 className="font-bold text-white text-sm mb-1">Zero Claim Paperwork</h4>
+                <h3 className="font-bold text-white text-sm mb-1">Zero Claim Paperwork</h3>
                 <p className="text-xs text-white/70">Rebates are calculated and credited automatically by our core finance engine. No tickets, claims, or manual requests required.</p>
               </div>
             </div>
@@ -1031,7 +1031,7 @@ export const CashbackOffersPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -1160,16 +1160,16 @@ export const VipClubPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
-                <h4 className="font-bold text-white text-base flex items-center gap-2"><Star className="w-5 h-5 text-slate-400" /> Bronze & Silver Tiers</h4>
+                <h3 className="font-bold text-white text-base flex items-center gap-2"><Star className="w-5 h-5 text-slate-400" /> Bronze & Silver Tiers</h3>
                 <p className="text-xs text-white/70 leading-relaxed">The foundation of our rewards club. Enjoy 5% to 7.5% weekly net loss cashback, standard 2-minute UPI cashouts, and 24/7 dedicated human WhatsApp support with zero automated bot queues.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-[#F0C419]/30 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-base flex items-center gap-2"><Crown className="w-5 h-5 text-[#F0C419]" /> Gold & Platinum Tiers</h4>
+                <h3 className="font-bold text-[#F0C419] text-base flex items-center gap-2"><Crown className="w-5 h-5 text-[#F0C419]" /> Gold & Platinum Tiers</h3>
                 <p className="text-xs text-white/70 leading-relaxed">For seasoned exchange traders. Receive up to 10% cashback, ₹25,00,000 daily withdrawal limits, customized odds spreads on high-stakes cricket matches, and surprise festive Diwali gift boxes.</p>
               </div>
             </div>
             <div className="p-5 rounded-2xl bg-gradient-to-r from-black/50 via-[#0b3b2d] to-black/50 border border-[#F0C419]/50 space-y-2">
-              <h4 className="text-base font-extrabold text-[#F0C419] flex items-center gap-2"><Trophy className="w-5 h-5 text-[#F0C419]" /> Dedicated Concierge Desk & Private Table Limits</h4>
+              <h3 className="text-base font-extrabold text-[#F0C419] flex items-center gap-2"><Trophy className="w-5 h-5 text-[#F0C419]" /> Dedicated Concierge Desk & Private Table Limits</h3>
               <p className="text-xs text-white/80 leading-relaxed">
                 VIP members are assigned a private senior relationship manager on WhatsApp. Need a custom betting ceiling on a high-profile IPL final? Looking to execute a multi-lakh IMPS bank wire in under five minutes? Your VIP manager oversees all financial logistics with discreet white-glove precision.
               </p>
@@ -1194,11 +1194,11 @@ export const VipClubPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">Discreet Financial Execution</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Discreet Financial Execution</h3>
                 <p className="text-xs text-white/70">Large withdrawals are routed through high-priority corporate banking channels with end-to-end encryption and total confidentiality.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-1">
-                <h4 className="font-bold text-[#F0C419] text-sm">Tailored Festival Bonuses</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Tailored Festival Bonuses</h3>
                 <p className="text-xs text-white/70">Celebrate Diwali, IPL Finals, and New Year with exclusive high-roller reload incentives, custom gadget rewards, and luxury hampers.</p>
               </div>
             </div>
@@ -1209,7 +1209,7 @@ export const VipClubPage: React.FC = () => (
 
           {/* Real-World VIP Experiences */}
           <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-3">
-            <h4 className="font-bold text-[#F0C419] text-base">VIP Event Invitations & Tailored Celebration Packages</h4>
+            <h3 className="font-bold text-[#F0C419] text-base">VIP Event Invitations & Tailored Celebration Packages</h3>
             <p className="text-xs text-white/80 leading-relaxed">
               Lotus365 deeply respects and values the enduring loyalty of our premier Indian gaming community. Throughout the sporting calendar, our VIP managers arrange complimentary stadium hospitality, 5-star hotel accommodations, and private airport transfers for top patrons attending marquee cricket tournaments and international sports events.
             </p>
@@ -1264,7 +1264,7 @@ export const VipClubPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -1394,15 +1394,15 @@ export const VipBlackCardPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/40 border border-[#F0C419]/40 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-sm">Unlimited Cashout Limits</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Unlimited Cashout Limits</h3>
                 <p className="text-xs text-white/70">Zero transaction or daily withdrawal ceilings. Cash out ₹10,00,000, ₹50,00,000, or more via multi-channel IMPS wires with dedicated treasury reserve clearance.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/40 border border-[#F0C419]/40 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-sm">Zero Slippage Liquidity Desk</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Zero Slippage Liquidity Desk</h3>
                 <p className="text-xs text-white/70">Execute massive back and lay wagers directly into deep international exchange order books without moving the market price or encountering bet rejection.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/40 border border-[#F0C419]/40 space-y-2">
-                <h4 className="font-bold text-[#F0C419] text-sm">Personal Wealth Concierge</h4>
+                <h3 className="font-bold text-[#F0C419] text-sm">Personal Wealth Concierge</h3>
                 <p className="text-xs text-white/70">Direct 24/7 hotline to a dedicated senior account executive catering to custom betting markets, private live casino tables, and luxury gifting.</p>
               </div>
             </div>
@@ -1421,7 +1421,7 @@ export const VipBlackCardPage: React.FC = () => (
 
           {/* Treasury & Clearance Architecture */}
           <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-            <h4 className="font-bold text-[#F0C419] text-base">Discreet High-Roller Financial Settlement Channels</h4>
+            <h3 className="font-bold text-[#F0C419] text-base">Discreet High-Roller Financial Settlement Channels</h3>
             <p className="text-xs text-white/80 leading-relaxed">
               Black Card members benefit from dedicated multi-channel IMPS corporate rails that bypass public payment queues entirely. Seven-figure settlements are processed with complete privacy, encrypted audit logs, and instantaneous verification via your personal senior wealth manager on WhatsApp.
             </p>
@@ -1435,11 +1435,11 @@ export const VipBlackCardPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-black/40 border border-[#F0C419]/30 space-y-1">
-                <h4 className="font-bold text-white text-sm">Zero Daily Withdrawal Caps</h4>
+                <h3 className="font-bold text-white text-sm">Zero Daily Withdrawal Caps</h3>
                 <p className="text-xs text-white/70">Withdraw ₹10,00,000, ₹25,00,000, or more in single transactions without arbitrary frequency restrictions or administrative hold periods.</p>
               </div>
               <div className="p-4 rounded-xl bg-black/40 border border-[#F0C419]/30 space-y-1">
-                <h4 className="font-bold text-white text-sm">Direct WhatsApp Executive Line</h4>
+                <h3 className="font-bold text-white text-sm">Direct WhatsApp Executive Line</h3>
                 <p className="text-xs text-white/70">Direct access to our Chief Financial Officer and Senior Risk Management desk for bespoke sports wagering arrangements.</p>
               </div>
             </div>
@@ -1496,7 +1496,7 @@ export const VipBlackCardPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}

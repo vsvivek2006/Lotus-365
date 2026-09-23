@@ -157,10 +157,10 @@ export const AviatorGamePage: React.FC = () => {
                 Skeptical players frequently wonder: <em>"Can Lotus365 or Spribe deliberately trigger a crash the moment I place a heavy bet?"</em> The technological answer is an absolute <strong>no</strong>. Aviator relies on cryptographic <strong>Provably Fair</strong> protocol, which guarantees that game outcomes are not calculated on the operator's server.
               </p>
               <div className="p-5 rounded-xl bg-black/30 border border-[#F0C419]/30 space-y-3">
-                <h4 className="font-bold text-[#F0C419] flex items-center gap-2">
+                <h3 className="font-bold text-[#F0C419] flex items-center gap-2">
                   <Lock className="w-5 h-5 text-[#F0C419]" />
                   The 4-Seed Cryptographic Generation Formula
-                </h4>
+                </h3>
                 <p className="text-xs text-white/80">
                   Each flight's crash coefficient is generated using four distinct cryptographic seeds:
                 </p>
@@ -187,10 +187,10 @@ export const AviatorGamePage: React.FC = () => {
 
               <div className="space-y-4">
                 <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-base mb-1 flex items-center gap-2">
+                  <h3 className="font-bold text-white text-base mb-1 flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] flex items-center justify-center font-bold text-xs">1</span>
                     The 2:1 Dual-Bet Hedging Strategy (Most Recommended)
-                  </h4>
+                  </h3>
                   <p className="text-xs text-white/80 mb-2">
                     Aviator allows you to place two independent bets on the same round. Take advantage of this by setting one primary risk-neutralizing bet and one secondary profit-hunting bet:
                   </p>
@@ -201,20 +201,20 @@ export const AviatorGamePage: React.FC = () => {
                 </div>
 
                 <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-base mb-1 flex items-center gap-2">
+                  <h3 className="font-bold text-white text-base mb-1 flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] flex items-center justify-center font-bold text-xs">2</span>
                     The Low-Volatility Compound Grind (1.20× – 1.35×)
-                  </h4>
+                  </h3>
                   <p className="text-xs text-white/80">
                     Statistically, over 70% of Aviator rounds pass the 1.30× mark. In this disciplined method, players configure Auto-Bet with an Auto-Cashout fixed between 1.20× and 1.30×. While profits per round are modest (e.g., ₹200 on a ₹1,000 stake), the compound win rate is remarkably steady, making it ideal for systematic bankroll growth with controlled drawdown exposure.
                   </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-base mb-1 flex items-center gap-2">
+                  <h3 className="font-bold text-white text-base mb-1 flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] flex items-center justify-center font-bold text-xs">3</span>
                     The Post-Cold Multiplier Sniper Technique
-                  </h4>
+                  </h3>
                   <p className="text-xs text-white/80">
                     Examine the live round history bar at the top of the interface. When you observe a succession of 4 to 6 consecutive low-multiplier crashes (under 1.20×), variance indicates that the probability of an extended flight (5.00×+) rises over subsequent intervals. Place smaller stakes (₹100–₹200) seeking double-digit multipliers while keeping stop-losses strictly capped.
                   </p>
@@ -248,7 +248,7 @@ export const AviatorGamePage: React.FC = () => {
                   <div key={item.step} className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
                     <span className="text-2xl font-black text-[#F0C419]">{item.step}</span>
                     <div>
-                      <h4 className="font-bold text-white text-sm mb-1">{item.title}</h4>
+                      <h3 className="font-bold text-white text-sm mb-1">{item.title}</h3>
                       <p className="text-xs text-white/70">{item.desc}</p>
                     </div>
                   </div>
@@ -290,7 +290,7 @@ export const AviatorGamePage: React.FC = () => {
                   },
                 ].map((faq, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                    <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                    <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                   </div>
                 ))}
@@ -446,19 +446,19 @@ export const CrashGamesPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">Methodology A: The Conservative 50% Lock (Spaceman / Dual-Bet)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">Methodology A: The Conservative 50% Lock (Spaceman / Dual-Bet)</h3>
                 <p className="text-xs text-white/80">
                   When playing games with partial cashout capabilities (such as Pragmatic's Spaceman) or dual-bet options (such as Aviator and JetX), configure an auto-cashout of 50% of your position at 2.00×. Reaching 2.00× completely recoups 100% of your original round stake. The remaining 50% can be permitted to climb to 5×, 10×, or 50× with zero financial risk to your core balance.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">Methodology B: The Fixed Ratio Scalping Technique</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">Methodology B: The Fixed Ratio Scalping Technique</h3>
                 <p className="text-xs text-white/80">
                   Discipline is the hallmark of professional scalpers. Set an automatic cashout between 1.25× and 1.35× on single bets. Allocate exactly 2% of your total session wallet per round. While each single victory returns a 25–35% margin on the stake, the statistical win rate over 50 consecutive flights cushions against sudden single-round crashes.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">Methodology C: The Anti-Martingale (Paroli System)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">Methodology C: The Anti-Martingale (Paroli System)</h3>
                 <p className="text-xs text-white/80">
                   Unlike dangerous Martingale systems (doubling after losses), the Paroli system involves increasing your stake only after a successful round, resetting immediately to baseline after any loss or after 3 consecutive wins. This protects your bankroll during drawdown streaks while capitalizing aggressively during hot variance runs.
                 </p>
@@ -475,28 +475,28 @@ export const CrashGamesPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
                 <Zap className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Zero-Latency Server Connections</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Zero-Latency Server Connections</h3>
                   <p className="text-xs text-white/70">Our server nodes deliver sub-50ms latency across India, ensuring your manual cashout clicks register with millisecond accuracy.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
                 <Smartphone className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Instant Mobile Browser Play</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Instant Mobile Browser Play</h3>
                   <p className="text-xs text-white/70">Enjoy flawless cross-platform performance directly in mobile Chrome or Safari with zero device storage required.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
                 <Clock className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">2-Minute Instant UPI Cashouts</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">2-Minute Instant UPI Cashouts</h3>
                   <p className="text-xs text-white/70">When you hit a big multiplier, request your payout on WhatsApp. Funds land in your Indian bank account via IMPS/UPI in 120 seconds.</p>
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
                 <ShieldCheck className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-white text-sm mb-1">Certified Provably Fair RNG</h4>
+                  <h3 className="font-bold text-white text-sm mb-1">Certified Provably Fair RNG</h3>
                   <p className="text-xs text-white/70">Every crash point can be mathematically scrutinized and validated using SHA-512 cryptographic public hashes.</p>
                 </div>
               </div>
@@ -550,7 +550,7 @@ export const CrashGamesPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -669,21 +669,21 @@ export const ColorPredictionPage: React.FC = () => (
 
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">1. The Trend-Following "Dragon Streak" Strategy</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">1. The Trend-Following "Dragon Streak" Strategy</h3>
                 <p className="text-xs text-white/80">
                   Inspect the recent results board. In color betting, random variance often creates "Dragon Streaks"—where a single color (e.g., Red) appears 5, 7, or 9 times consecutively. Rather than trying to guess when the streak will snap (a common gambler's fallacy), trend-following bettors place baseline wagers on the currently running color until an actual break occurs.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">2. Color + Violet Insurance Hedging</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Color + Violet Insurance Hedging</h3>
                 <p className="text-xs text-white/80">
                   When you wager ₹1,000 on Red, place a fractional ₹200 insurance bet on Violet. If the result is 0 (Red + Violet), your Red bet returns half while your Violet bet pays out 4.50× (returning ₹900), turning what would otherwise be a diminished round into a substantial net profit.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">3. Strict 3-Stage Martingale Ceiling</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">3. Strict 3-Stage Martingale Ceiling</h3>
                 <p className="text-xs text-white/80">
                   If using progression systems (doubling after a loss), never exceed three consecutive stages (e.g., ₹100 → ₹200 → ₹400). If the third stage does not resolve in your favor, reset to your base ₹100 unit. Uncapped Martingale progressions can wipe out an entire balance during an extended cold sequence.
                 </p>
@@ -796,7 +796,7 @@ export const ColorPredictionPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
@@ -966,21 +966,21 @@ export const VirtualSportsPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">1. Respect Mathematical Odds Rather Than Team Names</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">1. Respect Mathematical Odds Rather Than Team Names</h3>
                 <p className="text-xs text-white/80">
                   In virtual cricket, a team named "Mumbai" or "Chennai" is governed by assigned RNG rating weightings, not the actual real-world form of Rohit Sharma or MS Dhoni. Always examine the listed decimal odds: an RNG team priced at 1.45 has a statistically programmed 69% probability weight, regardless of franchise nostalgia.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">2. Manage High Event Frequency with Strict Session Budgets</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Manage High Event Frequency with Strict Session Budgets</h3>
                 <p className="text-xs text-white/80">
                   Because virtual sports matches resolve every three minutes, it is easy to place 20 bets in an hour. Establish a dedicated session bankroll (e.g., ₹2,000) and limit each individual ticket to 2%–5% (₹50–₹100). Never attempt to chase losses in subsequent consecutive races.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h4 className="font-bold text-[#F0C419] text-base mb-1">3. Diversify into Binary Total Markets (Over/Under)</h4>
+                <h3 className="font-bold text-[#F0C419] text-base mb-1">3. Diversify into Binary Total Markets (Over/Under)</h3>
                 <p className="text-xs text-white/80">
                   Instead of attempting to forecast exact football scores or exact cricket winners in high-variance virtual algorithms, focus on Over/Under total goals (Over 1.5 or 2.5) and cricket boundary lines where odds are balanced close to even money.
                 </p>
@@ -1053,7 +1053,7 @@ export const VirtualSportsPage: React.FC = () => (
                 },
               ].map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-2">{faq.q}</h4>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
