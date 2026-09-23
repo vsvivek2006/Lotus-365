@@ -18,6 +18,41 @@ const related = [
   { href: '/faq', label: 'FAQ', description: 'Frequently asked questions' },
 ];
 
+const privacyPolicyFaqs = [
+  {
+    q: 'Will Lotus365 ever share my mobile number with marketing agencies?',
+    a: 'Never. Your contact information is used strictly by our internal customer support team to manage your active betting ID and process transactions.'
+  },
+  {
+    q: 'Can my local bank see that I am playing on Lotus365?',
+    a: 'UPI transfers are processed using peer-to-peer corporate partner VPAs with standard commercial descriptions, preserving your financial discretion.'
+  },
+  {
+    q: 'How does Lotus365 protect against hacking or database breaches?',
+    a: 'All website communications use 256-bit TLS encryption. Because we do not store sensitive identity cards or banking passwords, our infrastructure eliminates common database risk vectors.'
+  },
+  {
+    q: 'How do I request complete deletion of my account history?',
+    a: 'Contact our Data Privacy desk via WhatsApp (wa.link/880088) with your registered number and state "Data Erasure Request." Our compliance team will process your request within 24 hours.'
+  },
+  {
+    q: 'Does Lotus365 share data with overseas advertising networks like Meta or Google?',
+    a: 'No. We do not run external tracking pixels or sell audience lists to ad exchanges. Your visit to lotus365officialid.com is untracked by third-party social networks.'
+  },
+  {
+    q: 'How long are my financial transaction logs retained?',
+    a: 'Transactional logs are retained for standard international audit requirements of up to 5 years, after which financial records are permanently purged.'
+  },
+  {
+    q: 'What happens if I lose my mobile phone?',
+    a: 'If you lose your device, message our 24/7 WhatsApp customer desk immediately from your new SIM or alternate number with your registered username. Our compliance team will immediately freeze the account, invalidate all active sessions, and verify your ownership before releasing access.'
+  },
+  {
+    q: 'Does Lotus365 use biometric data like fingerprints or facial recognition?',
+    a: 'No. We do not collect or store biometric data. Your mobile device’s native biometrics (such as Apple FaceID or Android Fingerprint) remain localized on your own phone hardware when unlocking your browser.'
+  }
+];
+
 export const PrivacyPolicyPage: React.FC = () => (
   <>
     <SEOHead
@@ -25,6 +60,7 @@ export const PrivacyPolicyPage: React.FC = () => (
       description="Read the Lotus365 Privacy Policy. Discover how we protect your personal credentials, UPI details, and transaction history using 256-bit bank-grade SSL encryption."
       canonical="/privacy-policy"
       keywords="lotus365 privacy policy, lotus365 data protection, lotus365 user data security, betting privacy india, dpdp act compliance, encrypted betting platform"
+      faqItems={privacyPolicyFaqs}
     />
     <Layout>
       <PageHero 
@@ -207,40 +243,7 @@ export const PrivacyPolicyPage: React.FC = () => (
               Frequently Asked Questions About Privacy & Security
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Will Lotus365 ever share my mobile number with marketing agencies?',
-                  a: 'Never. Your contact information is used strictly by our internal customer support team to manage your active betting ID and process transactions.'
-                },
-                {
-                  q: 'Can my local bank see that I am playing on Lotus365?',
-                  a: 'UPI transfers are processed using peer-to-peer corporate partner VPAs with standard commercial descriptions, preserving your financial discretion.'
-                },
-                {
-                  q: 'How does Lotus365 protect against hacking or database breaches?',
-                  a: 'All website communications use 256-bit TLS encryption. Because we do not store sensitive identity cards or banking passwords, our infrastructure eliminates common database risk vectors.'
-                },
-                {
-                  q: 'How do I request complete deletion of my account history?',
-                  a: 'Contact our Data Privacy desk via WhatsApp (wa.link/880088) with your registered number and state "Data Erasure Request." Our compliance team will process your request within 24 hours.'
-                },
-                {
-                  q: 'Does Lotus365 share data with overseas advertising networks like Meta or Google?',
-                  a: 'No. We do not run external tracking pixels or sell audience lists to ad exchanges. Your visit to lotus365officialid.com is untracked by third-party social networks.'
-                },
-                {
-                  q: 'How long are my financial transaction logs retained?',
-                  a: 'Transactional logs are retained for standard international audit requirements of up to 5 years, after which financial records are permanently purged.'
-                },
-                {
-                  q: 'What happens if I lose my mobile phone?',
-                  a: 'If you lose your device, message our 24/7 WhatsApp customer desk immediately from your new SIM or alternate number with your registered username. Our compliance team will immediately freeze the account, invalidate all active sessions, and verify your ownership before releasing access.'
-                },
-                {
-                  q: 'Does Lotus365 use biometric data like fingerprints or facial recognition?',
-                  a: 'No. We do not collect or store biometric data. Your mobile device’s native biometrics (such as Apple FaceID or Android Fingerprint) remain localized on your own phone hardware when unlocking your browser.'
-                }
-              ].map((faq, idx) => (
+              {privacyPolicyFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

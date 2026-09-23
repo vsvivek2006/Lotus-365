@@ -39,8 +39,7 @@ export default defineConfig({
             return `pg-${pageFile}`;
           }
           if (id.includes('src/sections/')) {
-            const secFile = id.split('src/sections/')[1].replace(/\.tsx?$/, '').toLowerCase();
-            return `sec-${secFile}`;
+            return 'landing-sections';
           }
           if (id.includes('src/components/')) {
             return 'site-components';

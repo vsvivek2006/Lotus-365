@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -22,6 +23,33 @@ import {
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 // ── Review Page ───────────────────────────────────────────────────────────────
+const reviewFaqs = [
+                {
+                  q: 'Is Lotus365 a legal and legitimate platform in India?',
+                  a: 'Lotus365 operates as an offshore licensed betting exchange, allowing Indian players to lawfully participate in sports betting and casino games under current federal digital gaming guidelines.'
+                },
+                {
+                  q: 'What is the official domain of Lotus365?',
+                  a: 'The sole official, verified domain is https://lotus365officialid.com. Beware of phishing lookalikes or unverified third-party download mirrors.'
+                },
+                {
+                  q: 'How fast are real money withdrawals on Lotus365?',
+                  a: 'Withdrawals via UPI are guaranteed to process within 2 minutes. Direct IMPS bank transfers typically clear within 5 to 10 minutes.'
+                },
+                {
+                  q: 'What is the minimum deposit to start betting?',
+                  a: 'The minimum deposit is just ₹100 via UPI (Google Pay, PhonePe, or Paytm), making it accessible to every sports fan.'
+                },
+                {
+                  q: 'Can I play Lotus365 on an iPhone without downloading an app?',
+                  a: 'Yes! Simply visit lotus365officialid.com in Safari and tap "Add to Home Screen" for a full native app-like experience with zero installation required.'
+                },
+                {
+                  q: 'Does Lotus365 provide customer support in Hindi?',
+                  a: 'Yes! Our 24/7 WhatsApp concierge agents are fluent in both Hindi and English, ensuring smooth communication for all Indian players.'
+                },
+              ];
+
 export const ReviewPage: React.FC = () => (
   <>
     <SEOHead
@@ -29,7 +57,8 @@ export const ReviewPage: React.FC = () => (
       description="Honest, expert Lotus365 review for 2026. We audit betting odds, live casino fairness, 2-minute cashout reliability, and WhatsApp customer support quality."
       canonical="/lotus365-review"
       keywords="lotus365 review, lotus365 review 2026, is lotus365 legit, lotus365 safe, lotus365 trustworthy, lotus365 honest review india"
-    />
+      faqItems={reviewFaqs}
+      />
     <Layout>
       <PageHero 
         badge="Independent Platform Audit 2026" 
@@ -67,7 +96,7 @@ export const ReviewPage: React.FC = () => (
               Established in 2019, <strong>Lotus365</strong> has grown into the undisputed market leader in online sports betting and live casino entertainment across India. Operating exclusively via its official web domain <strong className="text-white">lotus365officialid.com</strong>, the platform serves over 1.5 million active accounts by solving the two greatest frustrations Indian players historically faced with offshore foreign bookmakers: complicated registration hurdles and excruciatingly slow withdrawal times.
             </p>
             <p className="mb-4">
-              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <a href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline">2-Minute Cashout Guarantee</a> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
+              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link to="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
             </p>
           </div>
 
@@ -205,32 +234,7 @@ export const ReviewPage: React.FC = () => (
               Frequently Asked Questions About Lotus365
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Is Lotus365 a legal and legitimate platform in India?',
-                  a: 'Lotus365 operates as an offshore licensed betting exchange, allowing Indian players to lawfully participate in sports betting and casino games under current federal digital gaming guidelines.'
-                },
-                {
-                  q: 'What is the official domain of Lotus365?',
-                  a: 'The sole official, verified domain is https://lotus365officialid.com. Beware of phishing lookalikes or unverified third-party download mirrors.'
-                },
-                {
-                  q: 'How fast are real money withdrawals on Lotus365?',
-                  a: 'Withdrawals via UPI are guaranteed to process within 2 minutes. Direct IMPS bank transfers typically clear within 5 to 10 minutes.'
-                },
-                {
-                  q: 'What is the minimum deposit to start betting?',
-                  a: 'The minimum deposit is just ₹100 via UPI (Google Pay, PhonePe, or Paytm), making it accessible to every sports fan.'
-                },
-                {
-                  q: 'Can I play Lotus365 on an iPhone without downloading an app?',
-                  a: 'Yes! Simply visit lotus365officialid.com in Safari and tap "Add to Home Screen" for a full native app-like experience with zero installation required.'
-                },
-                {
-                  q: 'Does Lotus365 provide customer support in Hindi?',
-                  a: 'Yes! Our 24/7 WhatsApp concierge agents are fluent in both Hindi and English, ensuring smooth communication for all Indian players.'
-                },
-              ].map((faq, idx) => (
+              {reviewFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -254,6 +258,21 @@ export const ReviewPage: React.FC = () => (
 );
 
 // ── VS Competitors Page ───────────────────────────────────────────────────────
+const vsCompetitorsFaqs = [
+                {
+                  q: 'Why are odds generally higher on Lotus365 than on standard sportsbooks?',
+                  a: 'Because Lotus365 operates an exchange where peer-to-peer market supply and demand determines odds, eliminating the 5% to 8% margin profit margin that traditional bookmakers build into their lines.'
+                },
+                {
+                  q: 'Is it easy to switch my balance from Betway or 1xBet to Lotus365?',
+                  a: 'Yes! Simply message our WhatsApp desk to create your free Lotus365 ID. You can deposit starting from ₹100 via UPI and start betting immediately.'
+                },
+                {
+                  q: 'How does Lotus365 compare to fantasy sports platforms like Dream11?',
+                  a: 'In fantasy sports, you compete against millions of other teams in high-variance pools where the operator takes a 15% to 20% rake. On Lotus365, you bet on real-time cricket match outcomes, over-by-over sessions, and individual player milestones with instant settlements and immediate cashouts.'
+                },
+              ];
+
 export const VsCompetitorsPage: React.FC = () => (
   <>
     <SEOHead 
@@ -261,7 +280,8 @@ export const VsCompetitorsPage: React.FC = () => (
       description="Compare Lotus365 against traditional bookmakers. Discover why our 0% exchange commission and guaranteed 2-minute cashouts rank us #1 among Indian players." 
       canonical="/lotus365-vs-competitors" 
       keywords="lotus365 vs betway, lotus365 vs 1xbet, lotus365 vs parimatch, lotus365 comparison india, best betting site india 2026, betting exchange vs sportsbook" 
-    />
+      faqItems={vsCompetitorsFaqs}
+      />
     <Layout>
       <PageHero 
         badge="Direct Market Comparison" 
@@ -424,20 +444,7 @@ export const VsCompetitorsPage: React.FC = () => (
               Frequently Asked Questions: Lotus365 vs Competitors
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Why are odds generally higher on Lotus365 than on standard sportsbooks?',
-                  a: 'Because Lotus365 operates an exchange where peer-to-peer market supply and demand determines odds, eliminating the 5% to 8% margin profit margin that traditional bookmakers build into their lines.'
-                },
-                {
-                  q: 'Is it easy to switch my balance from Betway or 1xBet to Lotus365?',
-                  a: 'Yes! Simply message our WhatsApp desk to create your free Lotus365 ID. You can deposit starting from ₹100 via UPI and start betting immediately.'
-                },
-                {
-                  q: 'How does Lotus365 compare to fantasy sports platforms like Dream11?',
-                  a: 'In fantasy sports, you compete against millions of other teams in high-variance pools where the operator takes a 15% to 20% rake. On Lotus365, you bet on real-time cricket match outcomes, over-by-over sessions, and individual player milestones with instant settlements and immediate cashouts.'
-                },
-              ].map((faq, idx) => (
+              {vsCompetitorsFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -461,6 +468,21 @@ export const VsCompetitorsPage: React.FC = () => (
 );
 
 // ── Betting Tips Page ─────────────────────────────────────────────────────────
+const bettingTipsFaqs = [
+                {
+                  q: 'What is the safest market for a beginner on Lotus365?',
+                  a: 'Match Winner on the Cricket Exchange and First 6 Overs Session Total are the most structured markets for beginners because they follow clear statistical patterns.'
+                },
+                {
+                  q: 'How does exchange commission affect my long-term betting profitability?',
+                  a: 'Traditional bookies incorporate a 5% to 8% margin on every bet, which slowly erodes your capital. Lotus365 charges 0% to 2% commission on the exchange, saving you thousands of rupees over a full IPL season.'
+                },
+                {
+                  q: 'Can I withdraw my trading winnings immediately after a match concludes?',
+                  a: 'Yes! All cricket exchange markets settle within seconds of the final ball, and you can request a 2-minute UPI withdrawal directly via WhatsApp.'
+                },
+              ];
+
 export const BettingTipsPage: React.FC = () => (
   <>
     <SEOHead 
@@ -468,7 +490,8 @@ export const BettingTipsPage: React.FC = () => (
       description="Improve your cricket betting win rate with professional tips on pitch analysis, weather conditions, back & lay exchange hedging, and bankroll discipline." 
       canonical="/betting-tips" 
       keywords="cricket betting tips india, betting tips 2026, online betting strategy india, cricket betting guide, ipl betting tips, cricket exchange trading strategy" 
-    />
+      faqItems={bettingTipsFaqs}
+      />
     <Layout>
       <PageHero 
         badge="Expert Masterclass 2026" 
@@ -488,7 +511,7 @@ export const BettingTipsPage: React.FC = () => (
               The overwhelming majority of casual cricket bettors lose money over time because they bet with their hearts rather than with mathematical probability. They back their favorite franchise or celebrated superstars regardless of pitch deterioration, weather shifts, or unfavourable market pricing.
             </p>
             <p className="mb-4">
-              On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, professional cricket traders view every fixture as an evolving financial market. By mastering pitch variables, statistical venue averages, and in-play exchange hedging ("greening up"), you can systematically tilt the odds in your favor. Below is the master blueprint developed by our senior cricket analysts.
+              On <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, professional cricket traders view every fixture as an evolving financial market. By mastering pitch variables, statistical venue averages, and in-play exchange hedging ("greening up"), you can systematically tilt the odds in your favor. Below is the master blueprint developed by our senior cricket analysts.
             </p>
           </div>
 
@@ -602,20 +625,7 @@ export const BettingTipsPage: React.FC = () => (
               Frequently Asked Questions About Cricket Betting Strategy
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What is the safest market for a beginner on Lotus365?',
-                  a: 'Match Winner on the Cricket Exchange and First 6 Overs Session Total are the most structured markets for beginners because they follow clear statistical patterns.'
-                },
-                {
-                  q: 'How does exchange commission affect my long-term betting profitability?',
-                  a: 'Traditional bookies incorporate a 5% to 8% margin on every bet, which slowly erodes your capital. Lotus365 charges 0% to 2% commission on the exchange, saving you thousands of rupees over a full IPL season.'
-                },
-                {
-                  q: 'Can I withdraw my trading winnings immediately after a match concludes?',
-                  a: 'Yes! All cricket exchange markets settle within seconds of the final ball, and you can request a 2-minute UPI withdrawal directly via WhatsApp.'
-                },
-              ].map((faq, idx) => (
+              {bettingTipsFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -639,6 +649,21 @@ export const BettingTipsPage: React.FC = () => (
 );
 
 // ── IPL Predictions Page ──────────────────────────────────────────────────────
+const iplPredictionsFaqs = [
+                {
+                  q: 'Can I bet on individual player runs during IPL on Lotus365?',
+                  a: 'Yes! Lotus365 offers extensive player proposition markets, including Player Runs (Over/Under), Top Team Batsman, Total Match Sixes, and Man of the Match.'
+                },
+                {
+                  q: 'How fast are IPL bets settled during live matches?',
+                  a: 'Session bets settle immediately as soon as the final ball of the specified over is bowled. Outright match bets settle within 60 seconds of match completion.'
+                },
+                {
+                  q: 'Can I lay a team that seems overvalued in the IPL exchange?',
+                  a: 'Yes! You can act as the bookmaker on our Cricket Exchange by "Laying" any team, winning your bet if that team fails to secure victory.'
+                },
+              ];
+
 export const IplPredictionsPage: React.FC = () => (
   <>
     <SEOHead 
@@ -646,7 +671,8 @@ export const IplPredictionsPage: React.FC = () => (
       description="Get daily expert IPL 2026 match predictions, head-to-head records, toss analysis, and player prop picks with the best live betting odds on Lotus365." 
       canonical="/ipl-predictions" 
       keywords="ipl 2026 predictions, ipl betting predictions, ipl winner 2026, ipl analysis 2026, ipl tips india, ipl exchange odds lotus365" 
-    />
+      faqItems={iplPredictionsFaqs}
+      />
     <Layout>
       <PageHero 
         badge="IPL 2026 Tournament Preview" 
@@ -666,7 +692,7 @@ export const IplPredictionsPage: React.FC = () => (
               The Indian Premier League remains the absolute pinnacle of franchise cricket, commanding over ₹2,500 Crores in daily digital betting liquidity across India. The 2026 season introduces updated squad compositions following the mega-auctions, refined tactical adaptations to the <strong>Impact Player rule</strong>, and enhanced pitch dynamics across 12 host venues.
             </p>
             <p className="mb-4">
-              On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, our <a href="/ipl-betting" className="text-[#F0C419] font-semibold hover:underline">IPL Betting Hub</a> and Cricket Exchange deliver ball-by-ball micro-markets, session runs, highest opening partnerships, and tournament outright winner lines with 0% commission on select marquee clashes.
+              On <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, our <Link to="/ipl-betting" className="text-[#F0C419] font-semibold hover:underline">IPL Betting Hub</Link> and Cricket Exchange deliver ball-by-ball micro-markets, session runs, highest opening partnerships, and tournament outright winner lines with 0% commission on select marquee clashes.
             </p>
           </div>
 
@@ -784,20 +810,7 @@ export const IplPredictionsPage: React.FC = () => (
               Frequently Asked Questions About IPL Predictions
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Can I bet on individual player runs during IPL on Lotus365?',
-                  a: 'Yes! Lotus365 offers extensive player proposition markets, including Player Runs (Over/Under), Top Team Batsman, Total Match Sixes, and Man of the Match.'
-                },
-                {
-                  q: 'How fast are IPL bets settled during live matches?',
-                  a: 'Session bets settle immediately as soon as the final ball of the specified over is bowled. Outright match bets settle within 60 seconds of match completion.'
-                },
-                {
-                  q: 'Can I lay a team that seems overvalued in the IPL exchange?',
-                  a: 'Yes! You can act as the bookmaker on our Cricket Exchange by "Laying" any team, winning your bet if that team fails to secure victory.'
-                },
-              ].map((faq, idx) => (
+              {iplPredictionsFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -821,6 +834,21 @@ export const IplPredictionsPage: React.FC = () => (
 );
 
 // ── Online Casino Guide ───────────────────────────────────────────────────────
+const onlineCasinoGuideFaqs = [
+                {
+                  q: 'Are live casino games on Lotus365 broadcast in real time?',
+                  a: 'Yes! All live dealer tables are streamed in crystal-clear 1080p Full HD with optical character recognition (OCR) sensors scanning physical cards instantly.'
+                },
+                {
+                  q: 'What is the minimum stake at live casino tables?',
+                  a: 'You can wager starting from just ₹50 on Roulette and Teen Patti tables, allowing you to enjoy authentic live dealer action on modest budgets.'
+                },
+                {
+                  q: 'How fast can I withdraw my casino winnings?',
+                  a: 'Lotus365 guarantees 2-minute instant withdrawals via UPI or 10-minute IMPS bank transfers with zero transaction fees.'
+                },
+              ];
+
 export const OnlineCasinoGuidePage: React.FC = () => (
   <>
     <SEOHead 
@@ -828,7 +856,8 @@ export const OnlineCasinoGuidePage: React.FC = () => (
       description="Master live casino gaming with our complete 2026 guide. Learn optimal strategies for Teen Patti, Andar Bahar, Roulette, and Aviator to maximize your payouts." 
       canonical="/online-casino-guide" 
       keywords="online casino guide india, how to play casino india, casino guide beginner india, best online casino india 2026, live casino strategy india, house edge casino math" 
-    />
+      faqItems={onlineCasinoGuideFaqs}
+      />
     <Layout>
       <PageHero 
         badge="Casino Strategy Handbook 2026" 
@@ -845,7 +874,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
               Mastering Real-Money Casino Gaming: Knowledge Over Luck
             </h2>
             <p className="mb-4">
-              Online casino gaming in India has undergone a massive renaissance. Gone are the days of pixelated, computer-generated digital card tables. Today, on <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, you connect directly to ultra-high-definition live dealer studios operated by global giants like Evolution Gaming, Ezugi, and Pragmatic Play Live.
+              Online casino gaming in India has undergone a massive renaissance. Gone are the days of pixelated, computer-generated digital card tables. Today, on <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, you connect directly to ultra-high-definition live dealer studios operated by global giants like Evolution Gaming, Ezugi, and Pragmatic Play Live.
             </p>
             <p className="mb-4">
               However, entering the live casino lobby without understanding the mathematical foundations—specifically <strong>Return to Player (RTP)</strong> and <strong>House Edge</strong>—is the quickest way to deplete your capital. This guide equips you with the statistical knowledge necessary to choose high-value games, deploy disciplined staking, and secure consistent profits.
@@ -994,20 +1023,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
               Frequently Asked Questions About Online Casino Games
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Are live casino games on Lotus365 broadcast in real time?',
-                  a: 'Yes! All live dealer tables are streamed in crystal-clear 1080p Full HD with optical character recognition (OCR) sensors scanning physical cards instantly.'
-                },
-                {
-                  q: 'What is the minimum stake at live casino tables?',
-                  a: 'You can wager starting from just ₹50 on Roulette and Teen Patti tables, allowing you to enjoy authentic live dealer action on modest budgets.'
-                },
-                {
-                  q: 'How fast can I withdraw my casino winnings?',
-                  a: 'Lotus365 guarantees 2-minute instant withdrawals via UPI or 10-minute IMPS bank transfers with zero transaction fees.'
-                },
-              ].map((faq, idx) => (
+              {onlineCasinoGuideFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -1031,6 +1047,21 @@ export const OnlineCasinoGuidePage: React.FC = () => (
 );
 
 // ── Safe Betting Guide ────────────────────────────────────────────────────────
+const safeBettingGuideFaqs = [
+                {
+                  q: 'How do I set a daily deposit limit on Lotus365?',
+                  a: 'Message our 24/7 WhatsApp support desk stating your desired daily or weekly maximum deposit ceiling. Our agents will enforce this on your account within 60 seconds.'
+                },
+                {
+                  q: 'Can I temporarily lock my account if I feel I need a break?',
+                  a: 'Yes! We offer a "Cooling-Off" feature where your login can be temporarily frozen for 24 hours, 7 days, or up to 6 months upon your request.'
+                },
+                {
+                  q: 'Is my personal data and balance safe on Lotus365?',
+                  a: 'Yes. We utilize enterprise 256-bit TLS encryption and do not share user contact details or financial data with any third-party advertisers.'
+                },
+              ];
+
 export const SafeBettingGuidePage: React.FC = () => (
   <>
     <SEOHead 
@@ -1038,7 +1069,8 @@ export const SafeBettingGuidePage: React.FC = () => (
       description="Learn how to protect your funds and bet responsibly. Explore proven bankroll management strategies, loss-limit discipline, and safe online betting practices." 
       canonical="/safe-betting-guide" 
       keywords="safe betting india, responsible gambling india, betting limits india, safe online gambling guide, stop loss betting, bankroll management" 
-    />
+      faqItems={safeBettingGuideFaqs}
+      />
     <Layout>
       <PageHero 
         badge="Player Protection & Welfare" 
@@ -1055,7 +1087,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               The Philosophy of Sustainable & Safe Wagering
             </h2>
             <p className="mb-4">
-              At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we believe our long-term success is directly connected to the well-being and safety of our player community. Online sports betting and live casino entertainment must never be viewed as an emergency income solution or a method to resolve financial hardship.
+              At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe our long-term success is directly connected to the well-being and safety of our player community. Online sports betting and live casino entertainment must never be viewed as an emergency income solution or a method to resolve financial hardship.
             </p>
             <p className="mb-4">
               When approached with disciplined bankroll management and clear stop-loss limits, betting enhances the thrill of sports. However, when players succumb to emotional tilt or chase previous losses, entertainment can transform into a liability. This guide details practical protocols to keep your gaming healthy, enjoyable, and sustainable.
@@ -1171,20 +1203,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               Frequently Asked Questions About Safe Betting
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'How do I set a daily deposit limit on Lotus365?',
-                  a: 'Message our 24/7 WhatsApp support desk stating your desired daily or weekly maximum deposit ceiling. Our agents will enforce this on your account within 60 seconds.'
-                },
-                {
-                  q: 'Can I temporarily lock my account if I feel I need a break?',
-                  a: 'Yes! We offer a "Cooling-Off" feature where your login can be temporarily frozen for 24 hours, 7 days, or up to 6 months upon your request.'
-                },
-                {
-                  q: 'Is my personal data and balance safe on Lotus365?',
-                  a: 'Yes. We utilize enterprise 256-bit TLS encryption and do not share user contact details or financial data with any third-party advertisers.'
-                },
-              ].map((faq, idx) => (
+              {safeBettingGuideFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -1208,6 +1227,21 @@ export const SafeBettingGuidePage: React.FC = () => (
 );
 
 // ── Mobile Web App Guide ──────────────────────────────────────────────────────
+const mobileWebAppGuideFaqs = [
+                {
+                  q: 'Does the mobile web app have all the same games as the desktop version?',
+                  a: 'Yes! You have 100% full access to all cricket exchange markets, live streaming, 1000+ live casino tables, Spribe Aviator, and WhatsApp banking.'
+                },
+                {
+                  q: 'Can I watch live cricket streaming on my mobile browser?',
+                  a: 'Yes. When logged into your account, high-definition live match video streams are embedded seamlessly above the live betting slip.'
+                },
+                {
+                  q: 'What should I do if the page loads slowly on my mobile phone?',
+                  a: 'Simply clear your browser cache in Chrome or Safari settings, or switch from a crowded 4G network to stable Wi-Fi.'
+                },
+              ];
+
 export const MobileWebAppGuidePage: React.FC = () => (
   <>
     <SEOHead 
@@ -1215,7 +1249,8 @@ export const MobileWebAppGuidePage: React.FC = () => (
       description="Learn how to add Lotus365 to your Android or iPhone home screen as an instant web app. Zero APK installation hazards, instant launch, and 60 FPS live odds." 
       canonical="/mobile-web-app-guide" 
       keywords="lotus365 mobile guide, lotus365 on mobile, play lotus365 on phone, lotus365 browser guide, lotus365 mobile betting, lotus365 ios safari, lotus365 android chrome" 
-    />
+      faqItems={mobileWebAppGuideFaqs}
+      />
     <Layout>
       <PageHero 
         badge="Mobile Gaming Guide" 
@@ -1232,10 +1267,10 @@ export const MobileWebAppGuidePage: React.FC = () => (
               Smooth, Instant Mobile Gaming on Lotus365
             </h2>
             <p className="mb-4">
-              When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
+              When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
             </p>
             <p className="mb-4">
-              Simply open <strong className="text-white">lotus365officialid.com</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <a href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</a>, <a href="/live-casino" className="text-[#F0C419] underline font-semibold">Live Casino</a>, and <a href="/aviator-game" className="text-[#F0C419] underline font-semibold">Aviator Crash</a> games with silky 60 FPS graphics and instant balance updates.
+              Simply open <strong className="text-white">lotus365officialid.com</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <Link to="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>, <Link to="/live-casino" className="text-[#F0C419] underline font-semibold">Live Casino</Link>, and <Link to="/aviator-game" className="text-[#F0C419] underline font-semibold">Aviator Crash</Link> games with silky 60 FPS graphics and instant balance updates.
             </p>
           </div>
 
@@ -1365,20 +1400,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
               Frequently Asked Questions About Mobile Play
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Does the mobile web app have all the same games as the desktop version?',
-                  a: 'Yes! You have 100% full access to all cricket exchange markets, live streaming, 1000+ live casino tables, Spribe Aviator, and WhatsApp banking.'
-                },
-                {
-                  q: 'Can I watch live cricket streaming on my mobile browser?',
-                  a: 'Yes. When logged into your account, high-definition live match video streams are embedded seamlessly above the live betting slip.'
-                },
-                {
-                  q: 'What should I do if the page loads slowly on my mobile phone?',
-                  a: 'Simply clear your browser cache in Chrome or Safari settings, or switch from a crowded 4G network to stable Wi-Fi.'
-                },
-              ].map((faq, idx) => (
+              {mobileWebAppGuideFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

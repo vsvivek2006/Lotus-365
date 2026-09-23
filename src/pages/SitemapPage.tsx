@@ -77,6 +77,33 @@ const sitemapData = [
   ]},
 ];
 
+const sitemapFaqs = [
+  {
+    q: 'Are all pages in this sitemap accessible on mobile phones?',
+    a: 'Yes! Lotus365 is completely mobile-optimized. Every page, live stream, and casino game runs natively in Chrome, Safari, and other browsers with instant load times and fluid 60 FPS graphics.'
+  },
+  {
+    q: 'Where can I find the XML sitemap for search engine crawlers?',
+    a: 'Our machine-readable XML sitemap is maintained at https://lotus365officialid.com/sitemap.xml and indexed directly with Google Search Console.'
+  },
+  {
+    q: 'How frequently is this directory updated?',
+    a: 'This sitemap is updated in real time whenever new sports tournaments, live casino games, or promotional bonuses are introduced to the Lotus365 platform.'
+  },
+  {
+    q: 'Can I bookmark individual game pages like Aviator or Roulette directly?',
+    a: 'Yes. Every page in this sitemap possesses a dedicated canonical URL that you can bookmark on your mobile or desktop browser for direct one-tap access.'
+  },
+  {
+    q: 'Do I need separate login credentials for the sports exchange and live casino?',
+    a: 'No! Your single Lotus365 WhatsApp ID grants universal access to every directory and game featured in this sitemap with a unified wallet balance.'
+  },
+  {
+    q: 'How do I report a broken link or page issue?',
+    a: 'Message our 24/7 WhatsApp customer care desk at wa.link/880088. Our web engineering team resolves technical inquiries within minutes.'
+  },
+];
+
 export const SitemapPage: React.FC = () => (
   <>
     <SEOHead
@@ -84,6 +111,7 @@ export const SitemapPage: React.FC = () => (
       description="Navigate the complete directory of Lotus365 pages. Find quick links to cricket betting, live casino, Aviator crash games, bonuses, and banking guides."
       canonical="/sitemap"
       keywords="lotus365 sitemap, all lotus365 pages, lotus365 directory, lotus365 navigation, betting site sitemap india"
+      faqItems={sitemapFaqs}
     />
     <Layout>
       <section className="pt-10 sm:pt-14 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0b3b2d] to-[#14614C]">
@@ -272,32 +300,7 @@ export const SitemapPage: React.FC = () => (
               Frequently Asked Questions About Site Navigation
             </h2>
             <div className="space-y-3">
-              {[
-                {
-                  q: 'Are all pages in this sitemap accessible on mobile phones?',
-                  a: 'Yes! Lotus365 is completely mobile-optimized. Every page, live stream, and casino game runs natively in Chrome, Safari, and other browsers with instant load times and fluid 60 FPS graphics.'
-                },
-                {
-                  q: 'Where can I find the XML sitemap for search engine crawlers?',
-                  a: 'Our machine-readable XML sitemap is maintained at https://lotus365officialid.com/sitemap.xml and indexed directly with Google Search Console.'
-                },
-                {
-                  q: 'How frequently is this directory updated?',
-                  a: 'This sitemap is updated in real time whenever new sports tournaments, live casino games, or promotional bonuses are introduced to the Lotus365 platform.'
-                },
-                {
-                  q: 'Can I bookmark individual game pages like Aviator or Roulette directly?',
-                  a: 'Yes. Every page in this sitemap possesses a dedicated canonical URL that you can bookmark on your mobile or desktop browser for direct one-tap access.'
-                },
-                {
-                  q: 'Do I need separate login credentials for the sports exchange and live casino?',
-                  a: 'No! Your single Lotus365 WhatsApp ID grants universal access to every directory and game featured in this sitemap with a unified wallet balance.'
-                },
-                {
-                  q: 'How do I report a broken link or page issue?',
-                  a: 'Message our 24/7 WhatsApp customer care desk at wa.link/880088. Our web engineering team resolves technical inquiries within minutes.'
-                },
-              ].map((faq, idx) => (
+              {sitemapFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-xs sm:text-sm mb-1">{faq.q}</h3>
                   <p className="text-xs text-white/70">{faq.a}</p>

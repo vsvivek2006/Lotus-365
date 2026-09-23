@@ -18,7 +18,7 @@ export const RelatedPages: React.FC<RelatedPagesProps> = ({
   pages,
 }) => {
   return (
-    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-[#0E4737] border-t border-white/10">
+    <section className="related-pages-section py-12 px-4 sm:px-6 lg:px-8 bg-[#0E4737] border-t border-white/10">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-xl font-extrabold text-[#F0C419] mb-6">{title}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

@@ -16,6 +16,8 @@ import {
   Lock 
 } from 'lucide-react';
 
+import { Link } from 'react-router-dom';
+
 const related = [
   { href: '/lotus365-review', label: 'Lotus365 Review 2026', description: 'Full honest review of the Lotus365 platform' },
   { href: '/cricket-betting', label: 'Cricket Betting', description: 'Bet on live IPL and T20 cricket matches' },
@@ -25,6 +27,33 @@ const related = [
   { href: '/responsible-gaming', label: 'Responsible Gaming', description: 'Our commitment to safe betting' },
 ];
 
+const aboutFaqs = [
+  {
+    question: 'Who owns and operates the Lotus365 platform?',
+    answer: 'Lotus365 is operated by an offshore gaming enterprise licensed under international regulatory jurisdictions, providing a secure, compliant environment for Indian sports and casino enthusiasts.'
+  },
+  {
+    question: 'How does Lotus365 ensure games are not rigged?',
+    answer: 'All casino tables are broadcast live from licensed international studios with physical card decks and optical sensors. Crash games like Spribe Aviator use public SHA-512 cryptographic Provably Fair algorithms that anyone can independently audit.'
+  },
+  {
+    question: 'Why does Lotus365 operate through WhatsApp rather than a public registration form?',
+    answer: 'WhatsApp allows us to provide instant, personalized human assistance, deliver rapid 2-minute cashouts, and protect your privacy without storing unencrypted identity documents on web servers.'
+  },
+  {
+    question: 'Is Lotus365 accessible across all states in India?',
+    answer: 'Lotus365 is accessible via web browsers throughout India, complying with international digital entertainment standards.'
+  },
+  {
+    question: 'What makes Lotus365 different from European bookmakers like Bet365 or Betway?',
+    answer: 'Unlike European bookmakers that impose severe account limits on winning players, Lotus365 operates as a true exchange where winners are welcomed. Additionally, European platforms frequently reject Indian bank cards and take days to process payouts, whereas Lotus365 settles within 2 minutes via UPI.'
+  },
+  {
+    question: 'Can I access Lotus365 on an iPhone, iPad, or Android phone?',
+    answer: 'Yes! Lotus365 is completely optimized for all mobile screens. Simply visit lotus365officialid.com on Safari or Chrome and bookmark or add to home screen for 1-tap gaming anytime.'
+  }
+];
+
 export const AboutPage: React.FC = () => (
   <>
     <SEOHead
@@ -32,6 +61,7 @@ export const AboutPage: React.FC = () => (
       description="Learn about Lotus365, India's leading sports betting exchange since 2019. Discover our 0% commission model, 2-minute cashouts, and 1.5M+ active player base."
       canonical="/about"
       keywords="about lotus365, lotus365 official platform, lotus365 company history, lotus365 trusted, lotus365 license, lotus365 owner, best betting exchange india"
+      faqItems={aboutFaqs}
     />
     <Layout>
       <PageHero
@@ -87,7 +117,7 @@ export const AboutPage: React.FC = () => (
                   <Award className="w-5 h-5 text-[#F0C419]" /> 1. Peer-to-Peer Exchange Integrity
                 </h3>
                 <p className="text-xs text-white/70">
-                  Unlike traditional sportsbooks that profit when you lose, our <a href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</a> is a true marketplace where players trade against one another. We simply provide the secure matching engine and charge our industry-low 0% to 2% commission.
+                  Unlike traditional sportsbooks that profit when you lose, our <Link to="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link> is a true marketplace where players trade against one another. We simply provide the secure matching engine and charge our industry-low 0% to 2% commission.
                 </p>
               </div>
 
@@ -171,7 +201,7 @@ export const AboutPage: React.FC = () => (
               Commitment to Fair Play & Responsible Entertainment
             </h2>
             <p className="mb-4">
-              We hold the view that a healthy gaming ecosystem depends on customer welfare. Lotus365 enforces strict age verification (18+ only), certified cryptographic Random Number Generators (RNG) for all virtual games, and proactive responsible gambling tools. Players may at any time request cooling-off breaks, deposit ceilings, or account self-exclusion through our dedicated <a href="/responsible-gaming" className="text-[#F0C419] font-semibold hover:underline">Responsible Gaming Desk</a>.
+              We hold the view that a healthy gaming ecosystem depends on customer welfare. Lotus365 enforces strict age verification (18+ only), certified cryptographic Random Number Generators (RNG) for all virtual games, and proactive responsible gambling tools. Players may at any time request cooling-off breaks, deposit ceilings, or account self-exclusion through our dedicated <Link to="/responsible-gaming" className="text-[#F0C419] font-semibold hover:underline">Responsible Gaming Desk</Link>.
             </p>
           </div>
 
@@ -235,35 +265,10 @@ export const AboutPage: React.FC = () => (
               Frequently Asked Questions About Lotus365
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Who owns and operates the Lotus365 platform?',
-                  a: 'Lotus365 is operated by an offshore gaming enterprise licensed under international regulatory jurisdictions, providing a secure, compliant environment for Indian sports and casino enthusiasts.'
-                },
-                {
-                  q: 'How does Lotus365 ensure games are not rigged?',
-                  a: 'All casino tables are broadcast live from licensed international studios with physical card decks and optical sensors. Crash games like Spribe Aviator use public SHA-512 cryptographic Provably Fair algorithms that anyone can independently audit.'
-                },
-                {
-                  q: 'Why does Lotus365 operate through WhatsApp rather than a public registration form?',
-                  a: 'WhatsApp allows us to provide instant, personalized human assistance, deliver rapid 2-minute cashouts, and protect your privacy without storing unencrypted identity documents on web servers.'
-                },
-                {
-                  q: 'Is Lotus365 accessible across all states in India?',
-                  a: 'Lotus365 is accessible via web browsers throughout India, complying with international digital entertainment standards.'
-                },
-                {
-                  q: 'What makes Lotus365 different from European bookmakers like Bet365 or Betway?',
-                  a: 'Unlike European bookmakers that impose severe account limits on winning players, Lotus365 operates as a true exchange where winners are welcomed. Additionally, European platforms frequently reject Indian bank cards and take days to process payouts, whereas Lotus365 settles within 2 minutes via UPI.'
-                },
-                {
-                  q: 'Can I access Lotus365 on an iPhone, iPad, or Android phone?',
-                  a: 'Yes! Lotus365 is completely optimized for all mobile screens. Simply visit lotus365officialid.com on Safari or Chrome and bookmark or add to home screen for 1-tap gaming anytime.'
-                }
-              ].map((faq, idx) => (
+              {aboutFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
-                  <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
+                  <h3 className="font-bold text-white text-sm mb-2">{faq.question}</h3>
+                  <p className="text-xs text-white/70 leading-relaxed">{faq.answer}</p>
                 </div>
               ))}
             </div>

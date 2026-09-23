@@ -4,6 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { Link } from 'react-router-dom';
 import { HelpCircle, Star } from 'lucide-react';
 
 const related = [
@@ -15,6 +16,33 @@ const related = [
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Guaranteed 2-minute UPI cashouts' },
 ];
 
+const t20Faqs = [
+  {
+    question: 'Can I bet on every T20 World Cup match live on Lotus365?',
+    answer: 'Yes, Lotus365 provides 100% comprehensive coverage of all group stage, Super 8, semi-final, and final matches with real-time in-play odds updating on every single ball.',
+  },
+  {
+    question: 'What is the minimum stake for a T20 World Cup bet?',
+    answer: 'You can place bets with as little as ₹100 per market. Our exchange accepts wagers of all stake levels from recreational fans to high-roller VIP traders with equal speed.',
+  },
+  {
+    question: 'How do session runs settle during a rain-affected T20 match?',
+    answer: 'If rain terminates an innings early before a session bracket concludes (e.g., match interrupted during over 4 of a 6-over powerplay), all bets on incomplete sessions are voided and your stake is refunded in full to your wallet immediately.',
+  },
+  {
+    question: 'How fast can I withdraw my T20 World Cup winnings?',
+    answer: 'Lotus365 guarantees withdrawal processing in under 2 minutes directly into your registered Indian bank account or UPI ID (PhonePe, Google Pay, Paytm) with zero deduction.',
+  },
+  {
+    question: 'Can I bet on the T20 World Cup from my mobile device?',
+    answer: 'Yes, our platform is fully optimized for mobile Chrome and Safari. You get fluid 60 FPS in-play betting with real-time ball-by-ball market updates on any phone.',
+  },
+  {
+    question: 'Is there a tournament bonus available for new members?',
+    answer: 'Yes! First-time depositors can claim an exclusive welcome bonus to boost their T20 World Cup bankroll. Contact our WhatsApp desk when creating your account to have your bonus applied immediately.',
+  },
+];
+
 export const T20WorldCupPage: React.FC = () => (
   <>
     <SEOHead
@@ -22,6 +50,7 @@ export const T20WorldCupPage: React.FC = () => (
       description="Wager on ICC T20 World Cup 2026 with Lotus365. Enjoy outright tournament odds, live ball-by-ball in-play markets, and zero-commission peer-to-peer betting."
       canonical="/t20-world-cup-betting"
       keywords="t20 world cup betting, t20 betting india, t20 world cup 2026 odds, cricket world cup betting, icc t20 world cup live odds, t20 tournament winner betting"
+      faqItems={t20Faqs}
     />
     <Layout>
       <PageHero
@@ -39,7 +68,7 @@ export const T20WorldCupPage: React.FC = () => (
               The ICC T20 World Cup: International Cricket's Greatest Spectacle
             </h2>
             <p>
-              The ICC Men's T20 World Cup represents the zenith of international Twenty20 cricket, bringing together 20 of the world's most formidable cricketing nations. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), we provide an institutional-grade sports exchange where Indian bettors can back and lay international cricket outcomes with unmatched market liquidity.
+              The ICC Men's T20 World Cup represents the zenith of international Twenty20 cricket, bringing together 20 of the world's most formidable cricketing nations. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we provide an institutional-grade sports exchange where Indian bettors can back and lay international cricket outcomes with unmatched market liquidity.
             </p>
             <p>
               Unlike traditional bookmakers who slash your profit margins with a 10% platform vig, Lotus365 operates with a pure peer-to-peer exchange structure. That means when you back Team India to lift the World Cup trophy or lay an opposing favorite during a tense chase, you retain 100% of your net profits.
@@ -139,7 +168,7 @@ export const T20WorldCupPage: React.FC = () => (
               <span>Pro Tip: Trading Rain Interruptions & DLS Revisions</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              In tournament cricket where rain delays can occur, the Duckworth-Lewis-Stern (DLS) method systematically rewards teams that have wickets in hand when rain pauses play. On the Lotus365 <a href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">cricket exchange</a>, observant traders watch radar weather feeds: if clouds gather and a team is batting conservatively without losing wickets, laying the bowling team before rain hits generates instant price arbitrage when the revised par score drops significantly in the batting team's favor!
+              In tournament cricket where rain delays can occur, the Duckworth-Lewis-Stern (DLS) method systematically rewards teams that have wickets in hand when rain pauses play. On the Lotus365 <Link to="/cricket-exchange" className="text-[#F0C419] underline font-semibold">cricket exchange</Link>, observant traders watch radar weather feeds: if clouds gather and a team is batting conservatively without losing wickets, laying the bowling team before rain hits generates instant price arbitrage when the revised par score drops significantly in the batting team's favor!
             </p>
           </div>
 
@@ -232,38 +261,13 @@ export const T20WorldCupPage: React.FC = () => (
               <span>T20 World Cup Betting Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                {
-                  q: 'Can I bet on every T20 World Cup match live on Lotus365?',
-                  a: 'Yes, Lotus365 provides 100% comprehensive coverage of all group stage, Super 8, semi-final, and final matches with real-time in-play odds updating on every single ball.',
-                },
-                {
-                  q: 'What is the minimum stake for a T20 World Cup bet?',
-                  a: 'You can place bets with as little as ₹100 per market. Our exchange accepts wagers of all stake levels from recreational fans to high-roller VIP traders with equal speed.',
-                },
-                {
-                  q: 'How do session runs settle during a rain-affected T20 match?',
-                  a: 'If rain terminates an innings early before a session bracket concludes (e.g., match interrupted during over 4 of a 6-over powerplay), all bets on incomplete sessions are voided and your stake is refunded in full to your wallet immediately.',
-                },
-                {
-                  q: 'How fast can I withdraw my T20 World Cup winnings?',
-                  a: 'Lotus365 guarantees withdrawal processing in under 2 minutes directly into your registered Indian bank account or UPI ID (PhonePe, Google Pay, Paytm) with zero deduction.',
-                },
-                {
-                  q: 'Can I bet on the T20 World Cup from my mobile device?',
-                  a: 'Yes, our platform is fully optimized for mobile Chrome and Safari. You get fluid 60 FPS in-play betting with real-time ball-by-ball market updates on any phone.',
-                },
-                {
-                  q: 'Is there a tournament bonus available for new members?',
-                  a: 'Yes! First-time depositors can claim an exclusive welcome bonus to boost their T20 World Cup bankroll. Contact our WhatsApp desk when creating your account to have your bonus applied immediately.',
-                },
-              ].map((item, idx) => (
+              {t20Faqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
-                    <span>{item.q}</span>
+                    <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

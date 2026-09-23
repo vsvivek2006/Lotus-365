@@ -39,12 +39,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
           setIsFlying(false);
           setTimeout(() => {
             setIsFlying(true);
-          }, 1200);
+          }, 1500);
           return 1.12;
         }
-        return +(prev + 0.14).toFixed(2);
+        return +(prev + 0.45).toFixed(2);
       });
-    }, 180);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, []);

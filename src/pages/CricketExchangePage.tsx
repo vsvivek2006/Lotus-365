@@ -4,6 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { Link } from 'react-router-dom';
 import { HelpCircle, DollarSign, BarChart3 } from 'lucide-react';
 
 const related = [
@@ -15,6 +16,33 @@ const related = [
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'UPI & IMPS deposit guide' },
 ];
 
+const exchangeFaqs = [
+  {
+    question: 'Why do odds on the cricket exchange change so rapidly during live matches?',
+    answer: 'Exchange odds are determined by direct supply and demand among thousands of live traders. Every single ball (a dot ball, boundary four, maximum six, or fallen wicket) changes the statistical win probability instantly. High-frequency API feeds update Lotus365 odds in under 500 milliseconds.',
+  },
+  {
+    question: 'What is market liquidity on a cricket exchange?',
+    answer: 'Liquidity represents the total amount of money available to be matched at specific odds. High liquidity means you can place large bets (e.g., ₹50,000 or ₹1,00,000) and have them matched instantly without waiting for a counterparty. Lotus365 boasts the highest cricket exchange liquidity in India.',
+  },
+  {
+    question: 'What happens if my bet on the exchange is unmatched?',
+    answer: 'If you propose odds that no other player is currently willing to accept, your bet remains "unmatched" in the order book. You can cancel your unmatched bet at any time before it gets taken with zero penalty, and your funds return to your wallet immediately.',
+  },
+  {
+    question: 'Does Lotus365 really charge 0% commission on exchange winnings?',
+    answer: 'Yes! While international platforms like Betfair deduct up to 7% of your net profits, Lotus365 is committed to a zero-commission model for our members. 100% of your cricket exchange profits remain yours to withdraw.',
+  },
+  {
+    question: 'Can I trade cricket exchange matches on my mobile phone?',
+    answer: 'Absolutely. Lotus365 is built for ultra-fast mobile play running directly in mobile Chrome and Safari at 60 FPS. You can execute back and lay orders with one tap on your smartphone with instant ball-by-ball updates.',
+  },
+  {
+    question: 'How do I deposit funds to trade on the cricket exchange?',
+    answer: 'Simply connect with our 24/7 WhatsApp desk, receive your ID, and deposit via UPI (PhonePe, Google Pay, Paytm) with a minimum of ₹100. Your exchange account balance reflects within 30 seconds so you never miss match action.',
+  },
+];
+
 export const CricketExchangePage: React.FC = () => (
   <>
     <SEOHead
@@ -22,6 +50,7 @@ export const CricketExchangePage: React.FC = () => (
       description="Experience true peer-to-peer cricket trading on Lotus365 Exchange. Back and lay live match outcomes with 0% commission, deep liquidity, and 2-minute cashouts."
       canonical="/cricket-exchange"
       keywords="cricket exchange online, cricket exchange india, p2p cricket betting, back and lay cricket, best cricket exchange, 0 commission cricket exchange, cricket trading india"
+      faqItems={exchangeFaqs}
     />
     <Layout>
       <PageHero
@@ -203,7 +232,7 @@ export const CricketExchangePage: React.FC = () => (
               <span>Exchange Rule of Thumb: Never Chase Losses on Khado</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              If a session run bet fails because of an unexpected maiden over or a double-wicket maiden, never double your stake on the following session out of frustration. Stick strictly to flat 2% to 4% bankroll allocations per market as explained in our <a href="/betting-tips" className="text-[#F0C419] underline font-semibold">cricket betting tips guide</a>.
+              If a session run bet fails because of an unexpected maiden over or a double-wicket maiden, never double your stake on the following session out of frustration. Stick strictly to flat 2% to 4% bankroll allocations per market as explained in our <Link to="/betting-tips" className="text-[#F0C419] underline font-semibold">cricket betting tips guide</Link>.
             </p>
           </div>
 
@@ -214,38 +243,13 @@ export const CricketExchangePage: React.FC = () => (
               <span>Cricket Exchange Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                {
-                  q: 'Why do odds on the cricket exchange change so rapidly during live matches?',
-                  a: 'Exchange odds are determined by direct supply and demand among thousands of live traders. Every single ball (a dot ball, boundary four, maximum six, or fallen wicket) changes the statistical win probability instantly. High-frequency API feeds update Lotus365 odds in under 500 milliseconds.',
-                },
-                {
-                  q: 'What is market liquidity on a cricket exchange?',
-                  a: 'Liquidity represents the total amount of money available to be matched at specific odds. High liquidity means you can place large bets (e.g., ₹50,000 or ₹1,00,000) and have them matched instantly without waiting for a counterparty. Lotus365 boasts the highest cricket exchange liquidity in India.',
-                },
-                {
-                  q: 'What happens if my bet on the exchange is unmatched?',
-                  a: 'If you propose odds that no other player is currently willing to accept, your bet remains "unmatched" in the order book. You can cancel your unmatched bet at any time before it gets taken with zero penalty, and your funds return to your wallet immediately.',
-                },
-                {
-                  q: 'Does Lotus365 really charge 0% commission on exchange winnings?',
-                  a: 'Yes! While international platforms like Betfair deduct up to 7% of your net profits, Lotus365 is committed to a zero-commission model for our members. 100% of your cricket exchange profits remain yours to withdraw.',
-                },
-                {
-                  q: 'Can I trade cricket exchange matches on my mobile phone?',
-                  a: 'Absolutely. Lotus365 is built for ultra-fast mobile play running directly in mobile Chrome and Safari at 60 FPS. You can execute back and lay orders with one tap on your smartphone with instant ball-by-ball updates.',
-                },
-                {
-                  q: 'How do I deposit funds to trade on the cricket exchange?',
-                  a: 'Simply connect with our 24/7 WhatsApp desk, receive your ID, and deposit via UPI (PhonePe, Google Pay, Paytm) with a minimum of ₹100. Your exchange account balance reflects within 30 seconds so you never miss match action.',
-                },
-              ].map((item, idx) => (
+              {exchangeFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
-                    <span>{item.q}</span>
+                    <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

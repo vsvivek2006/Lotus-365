@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -15,6 +16,17 @@ const casinoLinks = [
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
 ];
 
+const rouletteFaqs = [
+                { q: 'Is live online roulette rigged?', a: 'No! All Lotus365 live roulette games feature physical roulette wheels spun on camera by certified human croupiers in licensed international studios audited by eCOGRA.' },
+                { q: 'What happens if the ball lands on Green Zero (0)?', a: 'If the ball lands on 0, all straight-up bets on 0 win at 35:1. All other inside bets and outside even-money bets (Red/Black, Odd/Even) lose unless playing on French tables with La Partage rules.' },
+                { q: 'What is the minimum bet on Live Roulette?', a: 'Minimum bets start at just ₹10 on outside positions and ₹5 on straight-up numbers, accommodating players of all bankroll sizes.' },
+                { q: 'Can I chat with the live roulette dealer?', a: 'Yes! You can interact via the in-game chat box in Hindi or English, and the dealer responds directly via their live microphone.' },
+                { q: 'How fast are roulette winnings credited?', a: 'Winnings are credited to your balance the instant the optical wheel sensor registers the winning pocket. You can cash out via UPI in under 2 minutes.' },
+                { q: 'What is the difference between European and French Roulette?', a: 'French Roulette uses the same 37-number single-zero wheel as European Roulette, but includes the "La Partage" rule: if the ball lands on 0, half of your even-money outside stake is refunded, dropping house edge to 1.35%.' },
+                { q: 'Can I play live roulette on an iPhone without an app?', a: 'Yes! Lotus365 is 100% web-based. Simply open lotus365officialid.com in Safari or Chrome and start spinning instantly.' },
+                { q: 'What is the maximum bet permitted on live roulette tables?', a: 'Standard tables support up to ₹1,00,000 per spin, while VIP Salon Privé tables cater to high rollers with limits up to ₹10,00,000 per spin.' },
+              ];
+
 export const RoulettePage: React.FC = () => (
   <>
     <SEOHead
@@ -22,6 +34,7 @@ export const RoulettePage: React.FC = () => (
       description="Play European and French Roulette live with crystal-clear 4K streams. Place inside/outside bets with high table limits and instant 2-minute cashouts."
       canonical="/roulette"
       keywords="roulette online india, live roulette india, european roulette india, play roulette online, roulette real money india, roulette wheel odds"
+          faqItems={rouletteFaqs}
     />
     <Layout>
       <PageHero
@@ -38,7 +51,7 @@ export const RoulettePage: React.FC = () => (
               The Elegance of Live European Roulette on Lotus365
             </h2>
             <p>
-              Roulette is celebrated worldwide as the Queen of Casino Games. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), our Live Roulette brings authentic physical mahogany wheels spun by certified human croupiers directly to your screen. With HD multi-angle camera feeds from Evolution Gaming and Pragmatic Play Live studios, you witness the ivory ball decelerate and settle into the winning pocket in real-time.
+              Roulette is celebrated worldwide as the Queen of Casino Games. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), our Live Roulette brings authentic physical mahogany wheels spun by certified human croupiers directly to your screen. With HD multi-angle camera feeds from Evolution Gaming and Pragmatic Play Live studios, you witness the ivory ball decelerate and settle into the winning pocket in real-time.
             </p>
             <p>
               We prioritize <strong className="text-white">European Roulette</strong> tables featuring a single green zero (0), offering a player-friendly house edge of just 2.70% (97.30% RTP). This stands in stark contrast to American roulette wheels that feature both a single zero (0) and double zero (00), which jacks the house edge up to a brutal 5.26%. By playing single-zero roulette on Lotus365, you instantly cut the mathematical house edge in half.
@@ -196,16 +209,7 @@ export const RoulettePage: React.FC = () => (
               <span>Roulette Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Is live online roulette rigged?', a: 'No! All Lotus365 live roulette games feature physical roulette wheels spun on camera by certified human croupiers in licensed international studios audited by eCOGRA.' },
-                { q: 'What happens if the ball lands on Green Zero (0)?', a: 'If the ball lands on 0, all straight-up bets on 0 win at 35:1. All other inside bets and outside even-money bets (Red/Black, Odd/Even) lose unless playing on French tables with La Partage rules.' },
-                { q: 'What is the minimum bet on Live Roulette?', a: 'Minimum bets start at just ₹10 on outside positions and ₹5 on straight-up numbers, accommodating players of all bankroll sizes.' },
-                { q: 'Can I chat with the live roulette dealer?', a: 'Yes! You can interact via the in-game chat box in Hindi or English, and the dealer responds directly via their live microphone.' },
-                { q: 'How fast are roulette winnings credited?', a: 'Winnings are credited to your balance the instant the optical wheel sensor registers the winning pocket. You can cash out via UPI in under 2 minutes.' },
-                { q: 'What is the difference between European and French Roulette?', a: 'French Roulette uses the same 37-number single-zero wheel as European Roulette, but includes the "La Partage" rule: if the ball lands on 0, half of your even-money outside stake is refunded, dropping house edge to 1.35%.' },
-                { q: 'Can I play live roulette on an iPhone without an app?', a: 'Yes! Lotus365 is 100% web-based. Simply open lotus365officialid.com in Safari or Chrome and start spinning instantly.' },
-                { q: 'What is the maximum bet permitted on live roulette tables?', a: 'Standard tables support up to ₹1,00,000 per spin, while VIP Salon Privé tables cater to high rollers with limits up to ₹10,00,000 per spin.' },
-              ].map((item, idx) => (
+              {rouletteFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -221,6 +225,17 @@ export const RoulettePage: React.FC = () => (
   </>
 );
 
+const blackjackFaqs = [
+                { q: 'What is the objective of Blackjack?', a: 'The goal is to beat the dealer by achieving a hand total closer to 21 without exceeding 21 (busting). You are playing only against the dealer, not other players.' },
+                { q: 'Does the dealer have to hit on Soft 17?', a: 'On standard Lotus365 live tables, the dealer must stand on all 17s (both hard 17 and soft 17), which provides players with an additional mathematical advantage.' },
+                { q: 'Can I play Infinite Blackjack if all standard seats are taken?', a: 'Yes! Infinite Blackjack allows unlimited simultaneous players to wager on a single dealt hand, with each player making independent Hit, Stand, Double, or Split decisions.' },
+                { q: 'What is the minimum bet on live blackjack tables?', a: 'Minimum stakes start at ₹50 on Infinite Blackjack and ₹250 on standard 7-seat tables.' },
+                { q: 'Can I double down after splitting pairs?', a: 'Yes, on most of our live dealer tables, Double After Split (DAS) is permitted on eligible totals, further enhancing your RTP.' },
+                { q: 'Can I count cards in live online blackjack?', a: 'Live dealer tables utilize automatic shufflers or burn shoes halfway through an 8-deck shoe (penetration around 50%), which makes card counting systems ineffective compared to basic strategy.' },
+                { q: 'How quickly are blackjack winnings credited?', a: 'Winnings are credited instantly as soon as the dealer resolves the hand. You can cash out to your UPI account within 2 minutes.' },
+                { q: 'What happens if both the player and the dealer bust?', a: 'Because the player must act first, if your hand exceeds 21, you bust and lose your wager immediately, even if the dealer subsequently busts.' },
+              ];
+
 export const BlackjackPage: React.FC = () => (
   <>
     <SEOHead
@@ -228,6 +243,7 @@ export const BlackjackPage: React.FC = () => (
       description="Play real money Blackjack 21 online with 99.5% RTP. Enjoy side bets like Perfect Pairs and 21+3 with professional live dealers and fast UPI settlements."
       canonical="/blackjack"
       keywords="blackjack online india, live blackjack india, play blackjack 21, real money blackjack, online 21 card game, blackjack strategy india"
+          faqItems={blackjackFaqs}
     />
     <Layout>
       <PageHero
@@ -247,7 +263,7 @@ export const BlackjackPage: React.FC = () => (
               Unlike purely luck-based casino games, <strong className="text-white">Blackjack</strong> is a game of skill and mathematics where player decisions directly dictate the outcome. By applying strict basic strategy, you can depress the casino house edge to a miniscule 0.50%—translating to an extraordinary <strong className="text-[#F0C419]">99.50% Return to Player (RTP)</strong>, the highest in the entire live casino industry.
             </p>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), you can choose from standard 7-seat classic tables, Infinite Blackjack (where unlimited players share the same hand), Speed Blackjack, and VIP high-roller salons with stakes ranging from ₹50 to ₹5,00,000 per hand.
+              On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can choose from standard 7-seat classic tables, Infinite Blackjack (where unlimited players share the same hand), Speed Blackjack, and VIP high-roller salons with stakes ranging from ₹50 to ₹5,00,000 per hand.
             </p>
           </div>
 
@@ -389,16 +405,7 @@ export const BlackjackPage: React.FC = () => (
               <span>Blackjack Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'What is the objective of Blackjack?', a: 'The goal is to beat the dealer by achieving a hand total closer to 21 without exceeding 21 (busting). You are playing only against the dealer, not other players.' },
-                { q: 'Does the dealer have to hit on Soft 17?', a: 'On standard Lotus365 live tables, the dealer must stand on all 17s (both hard 17 and soft 17), which provides players with an additional mathematical advantage.' },
-                { q: 'Can I play Infinite Blackjack if all standard seats are taken?', a: 'Yes! Infinite Blackjack allows unlimited simultaneous players to wager on a single dealt hand, with each player making independent Hit, Stand, Double, or Split decisions.' },
-                { q: 'What is the minimum bet on live blackjack tables?', a: 'Minimum stakes start at ₹50 on Infinite Blackjack and ₹250 on standard 7-seat tables.' },
-                { q: 'Can I double down after splitting pairs?', a: 'Yes, on most of our live dealer tables, Double After Split (DAS) is permitted on eligible totals, further enhancing your RTP.' },
-                { q: 'Can I count cards in live online blackjack?', a: 'Live dealer tables utilize automatic shufflers or burn shoes halfway through an 8-deck shoe (penetration around 50%), which makes card counting systems ineffective compared to basic strategy.' },
-                { q: 'How quickly are blackjack winnings credited?', a: 'Winnings are credited instantly as soon as the dealer resolves the hand. You can cash out to your UPI account within 2 minutes.' },
-                { q: 'What happens if both the player and the dealer bust?', a: 'Because the player must act first, if your hand exceeds 21, you bust and lose your wager immediately, even if the dealer subsequently busts.' },
-              ].map((item, idx) => (
+              {blackjackFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -414,6 +421,17 @@ export const BlackjackPage: React.FC = () => (
   </>
 );
 
+const baccaratFaqs = [
+                { q: 'What is No Commission Baccarat?', a: 'In No Commission Baccarat, Banker wins pay full 1:1 even money on all hands except when the Banker wins with a total of 6, which pays 0.5:1 (50%).' },
+                { q: 'What is the Third Card Rule in Baccarat?', a: 'Drawing a third card is completely automated based on strict, predetermined mathematical rules. Neither the player nor the dealer makes discretionary decisions.' },
+                { q: 'What is the minimum stake on Live Baccarat?', a: 'Stakes start at just ₹50 on Speed Baccarat tables and scale up to ₹5,00,000 in VIP Salon Privé rooms.' },
+                { q: 'What happens to my Player or Banker bet if the round results in a Tie?', a: 'If the round ends in a Tie, all bets on Player and Banker are refunded in full (Push). Only bets placed on the Tie spot win.' },
+                { q: 'What is Baccarat Squeeze?', a: 'Baccarat Squeeze replicates the suspense of Macau VIP rooms where the dealer slowly peeks and bends the physical cards to reveal the pips, building intense drama.' },
+                { q: 'Can I bet on both Player and Banker at the same time?', a: 'Simultaneous opposite wagering on the same hand is prohibited as it violates standard anti-money laundering turnover policies.' },
+                { q: 'How fast are Baccarat winnings disbursed?', a: 'All baccarat payouts are processed via automated UPI rails within 120 seconds of your WhatsApp withdrawal request. Lotus365 operates dedicated banking liquidity reserves ensuring that whether you win ₹5,000 or ₹5,00,000, your funds reach your Indian bank account immediately with zero administrative friction.' },
+                { q: 'Is card counting effective in Baccarat?', a: 'Because cards removed from the shoe affect both sides almost symmetrically, card counting yields a negligible edge in Baccarat and is not practically viable.' },
+              ];
+
 export const BaccaratPage: React.FC = () => (
   <>
     <SEOHead
@@ -421,6 +439,7 @@ export const BaccaratPage: React.FC = () => (
       description="Wager on Player, Banker, or Tie with low 1.06% house edge. Experience high-limit VIP tables, squeeze cards, and lightning-fast UPI bank withdrawals."
       canonical="/baccarat"
       keywords="baccarat online india, live baccarat india, punto banco online, speed baccarat, baccarat strategy india, play baccarat real money"
+          faqItems={baccaratFaqs}
     />
     <Layout>
       <PageHero
@@ -437,7 +456,7 @@ export const BaccaratPage: React.FC = () => (
               The High-Roller's Game of Choice: Baccarat on Lotus365
             </h2>
             <p>
-              Baccarat has long reigned as the undisputed king of Asian casino floors in Macau, Singapore, and Manila. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), you can experience this prestigious game with real human dealers dealing from physical multi-deck shoes.
+              Baccarat has long reigned as the undisputed king of Asian casino floors in Macau, Singapore, and Manila. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can experience this prestigious game with real human dealers dealing from physical multi-deck shoes.
             </p>
             <p>
               Baccarat features three core betting positions: <strong className="text-white">Player</strong>, <strong className="text-white">Banker</strong>, and <strong className="text-white">Tie</strong>. The objective is to predict which hand will total closest to 9. Tens and face cards (J, Q, K) count as zero, Aces count as one, and all other cards retain their face value. If a hand total exceeds 9, the first digit is dropped (e.g. 7 + 8 = 15, which becomes a 5).
@@ -576,16 +595,7 @@ export const BaccaratPage: React.FC = () => (
               <span>Baccarat Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'What is No Commission Baccarat?', a: 'In No Commission Baccarat, Banker wins pay full 1:1 even money on all hands except when the Banker wins with a total of 6, which pays 0.5:1 (50%).' },
-                { q: 'What is the Third Card Rule in Baccarat?', a: 'Drawing a third card is completely automated based on strict, predetermined mathematical rules. Neither the player nor the dealer makes discretionary decisions.' },
-                { q: 'What is the minimum stake on Live Baccarat?', a: 'Stakes start at just ₹50 on Speed Baccarat tables and scale up to ₹5,00,000 in VIP Salon Privé rooms.' },
-                { q: 'What happens to my Player or Banker bet if the round results in a Tie?', a: 'If the round ends in a Tie, all bets on Player and Banker are refunded in full (Push). Only bets placed on the Tie spot win.' },
-                { q: 'What is Baccarat Squeeze?', a: 'Baccarat Squeeze replicates the suspense of Macau VIP rooms where the dealer slowly peeks and bends the physical cards to reveal the pips, building intense drama.' },
-                { q: 'Can I bet on both Player and Banker at the same time?', a: 'Simultaneous opposite wagering on the same hand is prohibited as it violates standard anti-money laundering turnover policies.' },
-                { q: 'How fast are Baccarat winnings disbursed?', a: 'All baccarat payouts are processed via automated UPI rails within 120 seconds of your WhatsApp withdrawal request. Lotus365 operates dedicated banking liquidity reserves ensuring that whether you win ₹5,000 or ₹5,00,000, your funds reach your Indian bank account immediately with zero administrative friction.' },
-                { q: 'Is card counting effective in Baccarat?', a: 'Because cards removed from the shoe affect both sides almost symmetrically, card counting yields a negligible edge in Baccarat and is not practically viable.' },
-              ].map((item, idx) => (
+              {baccaratFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -601,6 +611,17 @@ export const BaccaratPage: React.FC = () => (
   </>
 );
 
+const dragonTigerFaqs = [
+                { q: 'What happens if Dragon and Tiger tie on rank?', a: 'If a Tie occurs, half (50%) of your original Dragon or Tiger wager is returned to your balance, while bets placed on the Tie spot pay out at 11:1.' },
+                { q: 'Is Ace high or low in Dragon Tiger?', a: 'Ace is strictly the lowest card with a value of 1. King is the highest card with a value of 13.' },
+                { q: 'How long does a round of Dragon Tiger take?', a: 'Each round takes only 15 to 20 seconds from card deal to settlement, making it one of the most action-packed games on the platform.' },
+                { q: 'What is the minimum stake on Dragon Tiger?', a: 'You can begin playing with just ₹10 per hand on Lotus365.' },
+                { q: 'What is a Suited Tie?', a: 'A Suited Tie occurs when both Dragon and Tiger receive cards of identical rank and suit (e.g. King of Hearts on both sides), rewarding players with a massive 50:1 payout!' },
+                { q: 'Can I follow roadmaps in Dragon Tiger?', a: 'Yes! The live interface includes Big Road, Bead Plate, and derived roads allowing pattern bettors to follow streaks.' },
+                { q: 'How fast can I withdraw my Dragon Tiger profits?', a: 'Winnings can be withdrawn via instant UPI in under 2 minutes through our 24/7 WhatsApp customer care desk. Enjoy complete financial peace of mind with 100% transparent zero-deduction payouts on all Dragon, Tiger, and Suited Tie wins.' },
+                { q: 'Can I play Dragon Tiger on my smartphone?', a: 'Yes! Dragon Tiger streams smoothly in Full HD inside mobile Chrome and Safari with zero lag and instant bet placement.' },
+              ];
+
 export const DragonTigerPage: React.FC = () => (
   <>
     <SEOHead
@@ -608,6 +629,7 @@ export const DragonTigerPage: React.FC = () => (
       description="Play live Dragon Tiger on Lotus365. Enjoy 25-second rapid betting rounds, tie side bets with 11:1 odds, and guaranteed 2-minute instant UPI cashouts."
       canonical="/dragon-tiger"
       keywords="dragon tiger online, live dragon tiger india, dragon tiger real cash, play dragon tiger, dragon tiger tricks, dragon vs tiger game"
+          faqItems={dragonTigerFaqs}
     />
     <Layout>
       <PageHero
@@ -627,7 +649,7 @@ export const DragonTigerPage: React.FC = () => (
               Often described as a simplified two-card variation of Baccarat, <strong className="text-white">Dragon Tiger</strong> is the fastest table game in the live casino world. There are no complex third-card drawing rules, no hand combinations, and no mathematical additions.
             </p>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), the dealer deals exactly one card face-up to the <strong className="text-[#F0C419]">Dragon</strong> position and one card to the <strong className="text-rose-400">Tiger</strong> position. The position that receives the higher rank card wins! Aces are strictly the lowest card (value 1), while Kings are the highest card (value 13).
+              On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), the dealer deals exactly one card face-up to the <strong className="text-[#F0C419]">Dragon</strong> position and one card to the <strong className="text-rose-400">Tiger</strong> position. The position that receives the higher rank card wins! Aces are strictly the lowest card (value 1), while Kings are the highest card (value 13).
             </p>
           </div>
 
@@ -770,16 +792,7 @@ export const DragonTigerPage: React.FC = () => (
               <span>Dragon Tiger Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'What happens if Dragon and Tiger tie on rank?', a: 'If a Tie occurs, half (50%) of your original Dragon or Tiger wager is returned to your balance, while bets placed on the Tie spot pay out at 11:1.' },
-                { q: 'Is Ace high or low in Dragon Tiger?', a: 'Ace is strictly the lowest card with a value of 1. King is the highest card with a value of 13.' },
-                { q: 'How long does a round of Dragon Tiger take?', a: 'Each round takes only 15 to 20 seconds from card deal to settlement, making it one of the most action-packed games on the platform.' },
-                { q: 'What is the minimum stake on Dragon Tiger?', a: 'You can begin playing with just ₹10 per hand on Lotus365.' },
-                { q: 'What is a Suited Tie?', a: 'A Suited Tie occurs when both Dragon and Tiger receive cards of identical rank and suit (e.g. King of Hearts on both sides), rewarding players with a massive 50:1 payout!' },
-                { q: 'Can I follow roadmaps in Dragon Tiger?', a: 'Yes! The live interface includes Big Road, Bead Plate, and derived roads allowing pattern bettors to follow streaks.' },
-                { q: 'How fast can I withdraw my Dragon Tiger profits?', a: 'Winnings can be withdrawn via instant UPI in under 2 minutes through our 24/7 WhatsApp customer care desk. Enjoy complete financial peace of mind with 100% transparent zero-deduction payouts on all Dragon, Tiger, and Suited Tie wins.' },
-                { q: 'Can I play Dragon Tiger on my smartphone?', a: 'Yes! Dragon Tiger streams smoothly in Full HD inside mobile Chrome and Safari with zero lag and instant bet placement.' },
-              ].map((item, idx) => (
+              {dragonTigerFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -795,6 +808,17 @@ export const DragonTigerPage: React.FC = () => (
   </>
 );
 
+const speedBaccaratFaqs = [
+                { q: 'Are the rules of Speed Baccarat the same as regular Baccarat?', a: 'Yes! The card values, third-card drawing rules, and 1.06% Banker house edge are 100% identical. The only difference is the faster deal and reduced betting window.' },
+                { q: 'How much time do I have to place bets between rounds?', a: 'Players have 10 to 12 seconds to place their bets between rounds before the dealer immediately begins drawing cards.' },
+                { q: 'What is the minimum bet on Speed Baccarat?', a: 'Stakes start at ₹50 per hand on Lotus365, accommodating recreational bankrolls while welcoming high-stakes VIP wagers up to ₹5,00,000 per hand.' },
+                { q: 'Does Speed Baccarat offer side bets?', a: 'Yes! Player Pair, Banker Pair, Perfect Pair, and Either Pair side bets are all available with multipliers up to 25:1.' },
+                { q: 'Can I chat with the dealer in Speed Baccarat?', a: 'Yes, although dealers focus on maintaining the fast dealing pace, they greet players and acknowledge winning hands via the audio stream.' },
+                { q: 'Is Speed Baccarat fair and certified?', a: 'Yes, all tables are broadcast live from licensed Evolution and Pragmatic Play studios with optical sensor verification.' },
+                { q: 'How fast can I withdraw winnings?', a: 'All withdrawals are processed via instant UPI in under 2 minutes through our 24/7 WhatsApp concierge. Because Speed Baccarat allows rapid turnover of bankroll, our financial desk prioritizes speed baccarat cashout tickets with sub-120-second instant IMPS and UPI settlement around the clock.' },
+                { q: 'Can I play Speed Baccarat on 4G mobile connections?', a: 'Yes! The video feed dynamically optimizes resolution to ensure 60fps low-latency streaming even on modest mobile data networks. Whether you are connected via Airtel, Jio, or home broadband Wi-Fi, the real-time optical scan registers cards instantaneously without buffering or frame drops.' },
+              ];
+
 export const SpeedBaccaratPage: React.FC = () => (
   <>
     <SEOHead
@@ -802,6 +826,7 @@ export const SpeedBaccaratPage: React.FC = () => (
       description="Looking for high-speed card action? Play Speed Baccarat with 27-second rounds, instant hand resolutions, and sub-2-minute UPI bank cashouts on Lotus365."
       canonical="/speed-baccarat"
       keywords="speed baccarat online, live speed baccarat india, fast baccarat real money, evolution speed baccarat, baccarat fast rounds india"
+          faqItems={speedBaccaratFaqs}
     />
     <Layout>
       <PageHero
@@ -818,7 +843,7 @@ export const SpeedBaccaratPage: React.FC = () => (
               Maximum Velocity: Live Speed Baccarat on Lotus365
             </h2>
             <p>
-              In traditional baccarat and baccarat squeeze tables, a single round can stretch past 60 to 75 seconds while cards are slowly revealed. For high-volume traders and seasoned players, <strong className="text-white">Speed Baccarat</strong> eliminates all delay. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), cards are dealt face-up instantly, cutting the complete round cycle to just <strong className="text-[#F0C419]">27 seconds</strong>.
+              In traditional baccarat and baccarat squeeze tables, a single round can stretch past 60 to 75 seconds while cards are slowly revealed. For high-volume traders and seasoned players, <strong className="text-white">Speed Baccarat</strong> eliminates all delay. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), cards are dealt face-up instantly, cutting the complete round cycle to just <strong className="text-[#F0C419]">27 seconds</strong>.
             </p>
             <p>
               This allows you to play more than double the number of hands per hour, maximizing your turnover rate to clear promotional bonuses rapidly or capitalize on hot shoe streaks without waiting between deals.
@@ -980,16 +1005,7 @@ export const SpeedBaccaratPage: React.FC = () => (
               <span>Speed Baccarat Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Are the rules of Speed Baccarat the same as regular Baccarat?', a: 'Yes! The card values, third-card drawing rules, and 1.06% Banker house edge are 100% identical. The only difference is the faster deal and reduced betting window.' },
-                { q: 'How much time do I have to place bets between rounds?', a: 'Players have 10 to 12 seconds to place their bets between rounds before the dealer immediately begins drawing cards.' },
-                { q: 'What is the minimum bet on Speed Baccarat?', a: 'Stakes start at ₹50 per hand on Lotus365, accommodating recreational bankrolls while welcoming high-stakes VIP wagers up to ₹5,00,000 per hand.' },
-                { q: 'Does Speed Baccarat offer side bets?', a: 'Yes! Player Pair, Banker Pair, Perfect Pair, and Either Pair side bets are all available with multipliers up to 25:1.' },
-                { q: 'Can I chat with the dealer in Speed Baccarat?', a: 'Yes, although dealers focus on maintaining the fast dealing pace, they greet players and acknowledge winning hands via the audio stream.' },
-                { q: 'Is Speed Baccarat fair and certified?', a: 'Yes, all tables are broadcast live from licensed Evolution and Pragmatic Play studios with optical sensor verification.' },
-                { q: 'How fast can I withdraw winnings?', a: 'All withdrawals are processed via instant UPI in under 2 minutes through our 24/7 WhatsApp concierge. Because Speed Baccarat allows rapid turnover of bankroll, our financial desk prioritizes speed baccarat cashout tickets with sub-120-second instant IMPS and UPI settlement around the clock.' },
-                { q: 'Can I play Speed Baccarat on 4G mobile connections?', a: 'Yes! The video feed dynamically optimizes resolution to ensure 60fps low-latency streaming even on modest mobile data networks. Whether you are connected via Airtel, Jio, or home broadband Wi-Fi, the real-time optical scan registers cards instantaneously without buffering or frame drops.' },
-              ].map((item, idx) => (
+              {speedBaccaratFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -1005,6 +1021,17 @@ export const SpeedBaccaratPage: React.FC = () => (
   </>
 );
 
+const lightningRouletteFaqs = [
+                { q: 'How is the lightning multiplier determined?', a: 'Between 1 and 5 numbers and their multiplier values (50x-500x) are generated each round by an independently audited, cryptographically certified Random Number Generator (RNG).' },
+                { q: 'What is the theoretical RTP of Lightning Roulette?', a: 'Lightning Roulette has an overall theoretical Return to Player (RTP) of 97.30%, matching standard European Roulette.' },
+                { q: 'What is the maximum payout possible on a single number?', a: 'A ₹100 straight-up bet struck with a 500x multiplier produces a net payout of ₹50,000 in a single spin!' },
+                { q: 'What is the minimum bet on Lightning Roulette?', a: 'You can participate in Lightning Roulette with as little as ₹10 per chip.' },
+                { q: 'Can the Green Zero (0) be struck by lightning?', a: 'Yes! Zero (0) is a valid single number on the European layout and can be struck by 500x lightning multipliers just like any other number.' },
+                { q: 'Is the physical wheel spun by a human?', a: 'Yes, the wheel is spun by the live host or automated precision air-jet pulses, with the ball landing physically in a mechanical pocket.' },
+                { q: 'How fast can I withdraw Lightning Roulette winnings?', a: 'Winnings can be withdrawn immediately to your UPI ID or bank account within 2 minutes via our 24/7 WhatsApp concierge.' },
+                { q: 'Can I play Lightning Roulette on mobile without an app?', a: 'Yes, Lotus365 is 100% web-based. Simply access lotus365officialid.com on Chrome or Safari on iOS or Android.' },
+              ];
+
 export const LightningRoulettePage: React.FC = () => (
   <>
     <SEOHead
@@ -1012,6 +1039,7 @@ export const LightningRoulettePage: React.FC = () => (
       description="Win up to 500x on single straight-up numbers in Evolution Lightning Roulette. High-energy gameplay, electrifying multipliers, and instant UPI payouts."
       canonical="/lightning-roulette"
       keywords="lightning roulette online, live lightning roulette india, 500x multiplier roulette, evolution lightning roulette, lightning roulette tricks india"
+          faqItems={lightningRouletteFaqs}
     />
     <Layout>
       <PageHero
@@ -1182,16 +1210,7 @@ export const LightningRoulettePage: React.FC = () => (
               <span>Lightning Roulette Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'How is the lightning multiplier determined?', a: 'Between 1 and 5 numbers and their multiplier values (50x-500x) are generated each round by an independently audited, cryptographically certified Random Number Generator (RNG).' },
-                { q: 'What is the theoretical RTP of Lightning Roulette?', a: 'Lightning Roulette has an overall theoretical Return to Player (RTP) of 97.30%, matching standard European Roulette.' },
-                { q: 'What is the maximum payout possible on a single number?', a: 'A ₹100 straight-up bet struck with a 500x multiplier produces a net payout of ₹50,000 in a single spin!' },
-                { q: 'What is the minimum bet on Lightning Roulette?', a: 'You can participate in Lightning Roulette with as little as ₹10 per chip.' },
-                { q: 'Can the Green Zero (0) be struck by lightning?', a: 'Yes! Zero (0) is a valid single number on the European layout and can be struck by 500x lightning multipliers just like any other number.' },
-                { q: 'Is the physical wheel spun by a human?', a: 'Yes, the wheel is spun by the live host or automated precision air-jet pulses, with the ball landing physically in a mechanical pocket.' },
-                { q: 'How fast can I withdraw Lightning Roulette winnings?', a: 'Winnings can be withdrawn immediately to your UPI ID or bank account within 2 minutes via our 24/7 WhatsApp concierge.' },
-                { q: 'Can I play Lightning Roulette on mobile without an app?', a: 'Yes, Lotus365 is 100% web-based. Simply access lotus365officialid.com on Chrome or Safari on iOS or Android.' },
-              ].map((item, idx) => (
+              {lightningRouletteFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -1207,6 +1226,17 @@ export const LightningRoulettePage: React.FC = () => (
   </>
 );
 
+const casinoSlotsFaqs = [
+                { q: 'Can online casino slots be rigged?', a: 'No! All slots on Lotus365 are hosted directly on certified developer cloud servers (Pragmatic Play, NetEnt) using audited Random Number Generators that cannot be manipulated.' },
+                { q: 'What is RTP in online slots?', a: 'RTP stands for Return to Player. A slot with a 96.5% RTP returns an average of ₹96.50 for every ₹100 wagered across millions of spins.' },
+                { q: 'What is the minimum spin amount on slots?', a: 'Spins start as low as ₹2 to ₹10 on most video slots, allowing accessible fun for all budgets.' },
+                { q: 'What is the Bonus Buy feature?', a: 'The Bonus Buy feature lets you buy direct entry into the Free Spins bonus round for a fixed price (usually 100x your bet) without waiting for 4 Scatter symbols to land naturally.' },
+                { q: 'Are progressive jackpots available on Lotus365?', a: 'Yes! We host progressive jackpot slots where a percentage of every bet feeds into a combined prize pool that can trigger random life-changing multi-crore jackpots.' },
+                { q: 'Can I play slots on my smartphone without downloading an app?', a: 'Yes! All slots run seamlessly in HTML5 inside Mobile Chrome and Safari on Android and iOS.' },
+                { q: 'How fast can I withdraw slot winnings?', a: 'Withdrawals are processed within 2 minutes via UPI (PhonePe, Google Pay, Paytm) with zero fees. When you hit a massive 5,000x multiplier on Gates of Olympus, your multi-lakh winnings can be disbursed immediately in full to your bank account with zero waiting.' },
+                { q: 'Do slots contribute to bonus turnover requirements?', a: 'Yes! Slots typically contribute 100% toward bonus rollover requirements, making them the fastest way to clear welcome bonuses.' },
+              ];
+
 export const CasinoSlotsPage: React.FC = () => (
   <>
     <SEOHead
@@ -1214,6 +1244,7 @@ export const CasinoSlotsPage: React.FC = () => (
       description="Spin 500+ real money video slots on Lotus365. Enjoy Pragmatic Play, Megaways, progressive jackpots, high RTP slot machines, and instant 2-minute cashouts."
       canonical="/casino-slots"
       keywords="online slots india, casino slots real money, megaways slots india, gates of olympus lotus365, sweet bonanza india, best online slots india"
+          faqItems={casinoSlotsFaqs}
     />
     <Layout>
       <PageHero
@@ -1230,7 +1261,7 @@ export const CasinoSlotsPage: React.FC = () => (
               500+ Premium Online Slots on Lotus365
             </h2>
             <p>
-              Online video slots have transformed from simple three-reel fruit machines into cinematic digital spectacles packed with cascading reels, expanding wilds, Megaways payline expansions, and colossal progressive jackpots. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), you can explore a curated library of over 500 top-tier slots from world-renowned software titans like Pragmatic Play, NetEnt, Play'n GO, and Microgaming.
+              Online video slots have transformed from simple three-reel fruit machines into cinematic digital spectacles packed with cascading reels, expanding wilds, Megaways payline expansions, and colossal progressive jackpots. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can explore a curated library of over 500 top-tier slots from world-renowned software titans like Pragmatic Play, NetEnt, Play'n GO, and Microgaming.
             </p>
             <p>
               From iconic viral hits like <strong className="text-white">Gates of Olympus</strong> and <strong className="text-white">Sweet Bonanza</strong> to high-octane Egyptian adventures like <strong className="text-white">Book of Dead</strong>, all games are verified for mathematical randomness by independent testing agencies like BMM Testlabs and GLI.
@@ -1397,16 +1428,7 @@ export const CasinoSlotsPage: React.FC = () => (
               <span>Casino Slots Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Can online casino slots be rigged?', a: 'No! All slots on Lotus365 are hosted directly on certified developer cloud servers (Pragmatic Play, NetEnt) using audited Random Number Generators that cannot be manipulated.' },
-                { q: 'What is RTP in online slots?', a: 'RTP stands for Return to Player. A slot with a 96.5% RTP returns an average of ₹96.50 for every ₹100 wagered across millions of spins.' },
-                { q: 'What is the minimum spin amount on slots?', a: 'Spins start as low as ₹2 to ₹10 on most video slots, allowing accessible fun for all budgets.' },
-                { q: 'What is the Bonus Buy feature?', a: 'The Bonus Buy feature lets you buy direct entry into the Free Spins bonus round for a fixed price (usually 100x your bet) without waiting for 4 Scatter symbols to land naturally.' },
-                { q: 'Are progressive jackpots available on Lotus365?', a: 'Yes! We host progressive jackpot slots where a percentage of every bet feeds into a combined prize pool that can trigger random life-changing multi-crore jackpots.' },
-                { q: 'Can I play slots on my smartphone without downloading an app?', a: 'Yes! All slots run seamlessly in HTML5 inside Mobile Chrome and Safari on Android and iOS.' },
-                { q: 'How fast can I withdraw slot winnings?', a: 'Withdrawals are processed within 2 minutes via UPI (PhonePe, Google Pay, Paytm) with zero fees. When you hit a massive 5,000x multiplier on Gates of Olympus, your multi-lakh winnings can be disbursed immediately in full to your bank account with zero waiting.' },
-                { q: 'Do slots contribute to bonus turnover requirements?', a: 'Yes! Slots typically contribute 100% toward bonus rollover requirements, making them the fastest way to clear welcome bonuses.' },
-              ].map((item, idx) => (
+              {casinoSlotsFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>

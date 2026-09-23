@@ -57,7 +57,63 @@ const routes = [
   '/safe-betting-guide',
   '/mobile-web-app-guide',
   '/faq',
-  '/how-it-works'
+  '/how-it-works',
+  // Tier 8: Tournament & Leagues (10)
+  '/wpl-betting',
+  '/psl-betting',
+  '/bbl-betting',
+  '/cpl-betting',
+  '/asia-cup-betting',
+  '/icc-odi-world-cup',
+  '/test-cricket-betting',
+  '/live-cricket-score-odds',
+  '/cricket-session-betting',
+  '/cricket-toss-prediction',
+  // Tier 9: Exchange Guides & Trading (8)
+  '/back-and-lay-betting',
+  '/exchange-commission-rates',
+  '/betting-exchange-vs-sportsbook',
+  '/bookmaker-market',
+  '/in-play-cashout-guide',
+  '/match-odds-trading',
+  '/tied-match-rules',
+  '/bet-slip-guide',
+  // Tier 10: Asian & Live Casino (10)
+  '/lucky-7-game',
+  '/32-cards-casino',
+  '/super-over-game',
+  '/muflis-teen-patti',
+  '/ak47-teen-patti',
+  '/joker-teen-patti',
+  '/roulette-strategies',
+  '/live-dealer-games',
+  '/crazy-time',
+  '/mega-wheel',
+  // Tier 11: Wallet & Banking (8)
+  '/phonepe-deposit',
+  '/google-pay-deposit',
+  '/paytm-deposit',
+  '/bank-transfer-neft-rtgs',
+  '/crypto-deposit-usdt',
+  '/withdrawal-proof-times',
+  '/kyc-verification-guide',
+  '/account-security-tips',
+  // Tier 12: Regional Indian Cricket (6)
+  '/cricket-betting-delhi',
+  '/cricket-betting-mumbai',
+  '/cricket-betting-punjab',
+  '/cricket-betting-bangalore',
+  '/cricket-betting-hyderabad',
+  '/cricket-betting-kolkata',
+  // Tier 13: Strategy & Calculators (8)
+  '/betting-odds-calculator',
+  '/dutching-calculator-guide',
+  '/ipl-teams-betting-odds',
+  '/cricket-betting-glossary',
+  '/lotus365-blue',
+  '/lotus365-partner-program',
+  '/complaints-resolution',
+  '/responsible-gambling-tools'
 ];
 
 let failed = 0;
@@ -113,7 +169,7 @@ for (const r of routes) {
 
 console.log('--------------------------------------------------');
 if (failed === 0) {
-  console.log(`ALL CHECKS PASSED: 54/54 static routes verified.`);
+  console.log(`ALL CHECKS PASSED: ${routes.length}/${routes.length} static routes verified.`);
   console.log(`- 100% Unique & accurate canonical tags matching exact URLs`);
   console.log(`- 100% Non-truncated titles (20 - 60 chars)`);
   console.log(`- 100% Rich meta descriptions (50 - 165 chars)`);

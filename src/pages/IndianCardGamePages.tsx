@@ -4,6 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { Link } from 'react-router-dom';
 import { Star, HelpCircle } from 'lucide-react';
 
 const casinoLinks = [
@@ -24,6 +25,28 @@ const andarLinks = [
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Instant UPI & IMPS deposit guide' },
 ];
 
+const teenPattiFaqs = [
+  { question: 'What is the difference between Blind and Seen play?', answer: 'In traditional peer-to-peer Teen Patti, Blind players place bets without checking their hole cards, while Seen players check their cards and must wager double the Chaal amount. Live casino versions feature fixed Ante and Play structures.' },
+  { question: 'Can I play Teen Patti with as little as ₹10?', answer: 'Yes! Lotus365 offers beginner-friendly tables starting from just ₹10 per hand, all the way up to high-limit VIP tables.' },
+  { question: 'How does the dealer qualify in Live Teen Patti?', answer: 'In live dealer Teen Patti (such as Evolution\'s Bet on Teen Patti), the dealer must hold at least a Queen-high card to qualify. If the dealer does not qualify, your Ante bet pays 1:1 and the Play bet pushes.' },
+  { question: 'Are cards shuffled live on camera?', answer: 'Yes, every card deck is freshly shuffled using certified automatic shufflers or hand-shuffled live on video stream, ensuring 100% fair dealing.' },
+  { question: 'How fast can I withdraw my Teen Patti winnings?', answer: 'You can cash out your balance at any time through our 24/7 WhatsApp desk. UPI payouts are delivered in an average of 1 minute 45 seconds.' },
+  { question: 'What is 6-Card Bonus side bet in Teen Patti?', answer: 'The 6-Card Bonus combines your 3 cards with the dealer\'s 3 cards to form the best possible 5-card poker hand. Hitting a Royal Flush pays out a monumental 1000:1 multiplier!' },
+  { question: 'Can I chat with the live dealer in Hindi?', answer: 'Yes! Our dedicated Hindi Teen Patti tables feature native Indian dealers who converse warmly in Hindi throughout your session.' },
+  { question: 'Can I play Teen Patti on my mobile phone?', answer: 'Yes! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome or Safari and enjoy seamless full-screen gameplay directly in your browser.' },
+];
+
+const andarBaharFaqs = [
+  { question: 'Is Andar Bahar purely a game of chance?', answer: 'Yes, Andar Bahar is an unadulterated game of probability where cards are drawn alternately from a shuffled shoe. Following optimal betting on the first-dealt side maximizes your mathematical advantage.' },
+  { question: 'What is the difference between Classic and Turbo Andar Bahar?', answer: 'Classic Andar Bahar gives players 15 seconds to evaluate side bets between rounds, while Turbo Andar Bahar accelerates the dealing speed with 8-second intervals for rapid gameplay.' },
+  { question: 'Can I bet on the suit or color of the Joker card?', answer: 'Yes! Our live tables feature pre-deal proposition bets where you can wager on whether the Joker card will be Red or Black, Odd or Even, or Above/Below 7.' },
+  { question: 'What is the minimum bet on Andar Bahar?', answer: 'Minimum bets start at just ₹10, making it accessible to all players.' },
+  { question: 'How fast do I receive withdrawals from Andar Bahar winnings?', answer: 'Lotus365 processes all UPI and IMPS withdrawals within 2 minutes with zero platform deduction.' },
+  { question: 'Is there a limit on how many cards can be dealt in a single round?', answer: 'The round continues until the matching rank card appears. In rare instances, over 40 cards may be dealt, rewarding the 41+ cards side bet with a massive 120x payout!' },
+  { question: 'What is the theoretical house edge on Andar vs Bahar?', answer: 'Because Andar receives the first card, it holds a 51.5% probability and pays 0.9:1, resulting in a low house edge of 2.15%. Bahar receives cards second, holding a 48.5% probability and paying 1:1, carrying a house edge of approximately 3.00%.' },
+  { question: 'Can I deposit via Google Pay or Paytm to play Andar Bahar?', answer: 'Yes! All Indian UPI applications including PhonePe, Google Pay, BHIM, and Paytm are supported with instant zero-fee credits starting at just ₹100. Simply share your 12-digit UTR on WhatsApp to start playing within 30 seconds.' },
+];
+
 export const TeenPattiPage: React.FC = () => (
   <>
     <SEOHead
@@ -31,6 +54,7 @@ export const TeenPattiPage: React.FC = () => (
       description="Play Teen Patti cash games online with real human dealers. Low entry limits, high-roller VIP tables, fast UPI cashouts, and 100% fair RNG certified card play."
       canonical="/teen-patti"
       keywords="teen patti online, teen patti real money, live teen patti india, 3 patti cash, play teen patti online, 3 patti real cash game, teen patti rules"
+      faqItems={teenPattiFaqs}
     />
     <Layout>
       <PageHero
@@ -48,7 +72,7 @@ export const TeenPattiPage: React.FC = () => (
               The King of Indian Card Games: Teen Patti on Lotus365
             </h2>
             <p>
-              Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
+              Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
             </p>
           </div>
 
@@ -244,26 +268,17 @@ export const TeenPattiPage: React.FC = () => (
               </p>
             </div>
 
-            {/* 5 FAQs */}
+          {/* 8 FAQs */}
           <div className="space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Teen Patti Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'What is the difference between Blind and Seen play?', a: 'In traditional peer-to-peer Teen Patti, Blind players place bets without checking their hole cards, while Seen players check their cards and must wager double the Chaal amount. Live casino versions feature fixed Ante and Play structures.' },
-                { q: 'Can I play Teen Patti with as little as ₹10?', a: 'Yes! Lotus365 offers beginner-friendly tables starting from just ₹10 per hand, all the way up to high-limit VIP tables.' },
-                { q: 'How does the dealer qualify in Live Teen Patti?', a: 'In live dealer Teen Patti (such as Evolution\'s Bet on Teen Patti), the dealer must hold at least a Queen-high card to qualify. If the dealer does not qualify, your Ante bet pays 1:1 and the Play bet pushes.' },
-                { q: 'Are cards shuffled live on camera?', a: 'Yes, every card deck is freshly shuffled using certified automatic shufflers or hand-shuffled live on video stream, ensuring 100% fair dealing.' },
-                { q: 'How fast can I withdraw my Teen Patti winnings?', a: 'You can cash out your balance at any time through our 24/7 WhatsApp desk. UPI payouts are delivered in an average of 1 minute 45 seconds.' },
-                { q: 'What is 6-Card Bonus side bet in Teen Patti?', a: 'The 6-Card Bonus combines your 3 cards with the dealer\'s 3 cards to form the best possible 5-card poker hand. Hitting a Royal Flush pays out a monumental 1000:1 multiplier!' },
-                { q: 'Can I chat with the live dealer in Hindi?', a: 'Yes! Our dedicated Hindi Teen Patti tables feature native Indian dealers who converse warmly in Hindi throughout your session.' },
-                { q: 'Can I play Teen Patti on my mobile phone?', a: 'Yes! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome or Safari and enjoy seamless full-screen gameplay directly in your browser.' },
-              ].map((item, idx) => (
+              {teenPattiFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
-                  <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.question}</span></h3>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>
@@ -284,6 +299,7 @@ export const AndarBaharPage: React.FC = () => (
       description="Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7."
       canonical="/andar-bahar"
       keywords="andar bahar online, live andar bahar india, andar bahar real money, play andar bahar online, andar bahar game online, katti card game, andar bahar winning tricks"
+      faqItems={andarBaharFaqs}
     />
     <Layout>
       <PageHero
@@ -301,7 +317,7 @@ export const AndarBaharPage: React.FC = () => (
               The Magic of Andar Bahar: Simple, Fast & Electrifying
             </h2>
             <p>
-              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
+              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
             </p>
           </div>
 
@@ -441,22 +457,11 @@ export const AndarBaharPage: React.FC = () => (
                 Every live Andar Bahar table streamed on Lotus365 features advanced optical barcode scanners integrated directly into the physical dealing shoe. The moment a card is extracted by the live dealer, its numerical rank and suit are electronically decoded and flashed on screen, eliminating any human error in determining the winning card match. Whether you bet on Andar with its 51.5% natural probability or back longshot multiplier side bets, all payouts settle instantaneously into your wallet with 2-minute UPI cashout availability.
               </p>
             </div>
-            <h2 className="hidden">
-            </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Is Andar Bahar purely a game of chance?', a: 'Yes, Andar Bahar is an unadulterated game of probability where cards are drawn alternately from a shuffled shoe. Following optimal betting on the first-dealt side maximizes your mathematical advantage.' },
-                { q: 'What is the difference between Classic and Turbo Andar Bahar?', a: 'Classic Andar Bahar gives players 15 seconds to evaluate side bets between rounds, while Turbo Andar Bahar accelerates the dealing speed with 8-second intervals for rapid gameplay.' },
-                { q: 'Can I bet on the suit or color of the Joker card?', a: 'Yes! Our live tables feature pre-deal proposition bets where you can wager on whether the Joker card will be Red or Black, Odd or Even, or Above/Below 7.' },
-                { q: 'What is the minimum bet on Andar Bahar?', a: 'Minimum bets start at just ₹10, making it accessible to all players.' },
-                { q: 'How fast do I receive withdrawals from Andar Bahar winnings?', a: 'Lotus365 processes all UPI and IMPS withdrawals within 2 minutes with zero platform deduction.' },
-                { q: 'Is there a limit on how many cards can be dealt in a single round?', a: 'The round continues until the matching rank card appears. In rare instances, over 40 cards may be dealt, rewarding the 41+ cards side bet with a massive 120x payout!' },
-                { q: 'What is the theoretical house edge on Andar vs Bahar?', a: 'Because Andar receives the first card, it holds a 51.5% probability and pays 0.9:1, resulting in a low house edge of 2.15%. Bahar receives cards second, holding a 48.5% probability and paying 1:1, carrying a house edge of approximately 3.00%.' },
-                { q: 'Can I deposit via Google Pay or Paytm to play Andar Bahar?', a: 'Yes! All Indian UPI applications including PhonePe, Google Pay, BHIM, and Paytm are supported with instant zero-fee credits starting at just ₹100. Simply share your 12-digit UTR on WhatsApp to start playing within 30 seconds.' },
-              ].map((item, idx) => (
+              {andarBaharFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
-                  <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.question}</span></h3>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

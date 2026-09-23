@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -18,6 +19,33 @@ import {
   Smartphone, 
   Lock
 } from 'lucide-react';
+
+const aviatorFaqs = [
+  {
+    q: 'What is the minimum and maximum bet for Aviator on Lotus365?',
+    a: 'The minimum stake is just ₹10 INR, allowing beginners to experience the thrill without major risk. The maximum bet per single slot is ₹10,000 INR. Since Aviator supports dual simultaneous bets, high rollers can wager up to ₹20,000 INR across both panels in a single flight.'
+  },
+  {
+    q: 'Can I play Aviator on my Android or iOS phone?',
+    a: 'Yes! You can play Spribe Aviator directly through Chrome, Safari, or Brave on your smartphone. The interface is optimized with fluid 60 FPS flight animations, dual one-tap cashout buttons, and immediate wallet credit.'
+  },
+  {
+    q: 'How fast are Aviator winnings transferred to my bank account?',
+    a: 'Payouts are instantaneous. As soon as you hit "Cash Out," your winning balance reflects in your Lotus365 wallet. When requesting an IMPS or UPI withdrawal via WhatsApp, funds are dispatched directly to your Indian bank account within 2 minutes.'
+  },
+  {
+    q: 'Is there an algorithm or trick that guarantees 100% win in Aviator?',
+    a: 'No game with random generation can guarantee 100% wins on every single flight. However, disciplined strategies such as Dual-Bet Hedging (cashing out Bet 1 at 1.50× to cover costs) and strict stop-loss caps yield the highest mathematical success rate over extended sessions.'
+  },
+  {
+    q: 'How do I verify that an Aviator flight was Provably Fair?',
+    a: 'Inside the Aviator game window, click the green Provably Fair icon located in the round history dropdown. You can copy the combined SHA-512 server and client seed hashes and verify them in any open-source SHA-512 cryptographic calculator.'
+  },
+  {
+    q: 'What should I do if my internet disconnects mid-flight?',
+    a: 'If you have enabled "Auto-Cashout," your bet will be successfully cashed out at your preset multiplier regardless of your local internet connection, as the logic executes directly on Spribe’s central game engine.'
+  },
+];
 
 const crashRelated = [
   { href: '/live-casino', label: 'Live Casino Lobby', description: '1000+ games with real dealers' },
@@ -44,6 +72,7 @@ export const AviatorGamePage: React.FC = () => {
         description="Play official Spribe Aviator crash game on Lotus365. Cash out before the plane flies away with 98.5% RTP, dual bets, auto-cashout, and instant UPI payouts."
         canonical="/aviator-game"
         keywords="aviator game india, aviator online india, aviator crash game, spribe aviator india, aviator betting india, aviator tricks, aviator cashout strategy"
+        faqItems={aviatorFaqs}
       />
       <Layout>
         <PageHero 
@@ -81,7 +110,7 @@ export const AviatorGamePage: React.FC = () => {
                 Your core gameplay objective is deceptively simple yet psychologically captivating: place one or two bets before takeoff and tap the <strong>"Cash Out"</strong> button before the lucky plane flies away off the radar screen. Cash out in time, and your stake is multiplied by the exact coefficient frozen at that millisecond. Fail to hit cash out before the departure crash, and your round stake is forfeited.
               </p>
               <p>
-                What makes Aviator the premier choice on <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <a href="/upi-deposit" className="text-[#F0C419] font-semibold hover:underline">UPI deposit</a> and withdrawal account.
+                What makes Aviator the premier choice on <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <Link to="/upi-deposit" className="text-[#F0C419] font-semibold hover:underline">UPI deposit</Link> and withdrawal account.
               </p>
             </div>
 
@@ -228,7 +257,7 @@ export const AviatorGamePage: React.FC = () => {
               <div>
                 <strong className="text-[#F0C419] block text-sm mb-1">Expert Pro Tip: Avoid Fake Aviator "Signals" & Prediction Apps</strong>
                 <p className="text-xs text-white/80">
-                  Never pay for Telegram groups, WhatsApp channels, or third-party software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <a href="/" className="text-[#F0C419] underline">Lotus365</a> portal.
+                  Never pay for Telegram groups, WhatsApp channels, or third-party software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <Link to="/" className="text-[#F0C419] underline">Lotus365</Link> portal.
                 </p>
               </div>
             </div>
@@ -263,32 +292,7 @@ export const AviatorGamePage: React.FC = () => {
                 Frequently Asked Questions About Aviator
               </h2>
               <div className="space-y-4">
-                {[
-                  {
-                    q: 'What is the minimum and maximum bet for Aviator on Lotus365?',
-                    a: 'The minimum stake is just ₹10 INR, allowing beginners to experience the thrill without major risk. The maximum bet per single slot is ₹10,000 INR. Since Aviator supports dual simultaneous bets, high rollers can wager up to ₹20,000 INR across both panels in a single flight.'
-                  },
-                  {
-                    q: 'Can I play Aviator on my Android or iOS phone?',
-                    a: 'Yes! You can play Spribe Aviator directly through Chrome, Safari, or Brave on your smartphone. The interface is optimized with fluid 60 FPS flight animations, dual one-tap cashout buttons, and immediate wallet credit.'
-                  },
-                  {
-                    q: 'How fast are Aviator winnings transferred to my bank account?',
-                    a: 'Payouts are instantaneous. As soon as you hit "Cash Out," your winning balance reflects in your Lotus365 wallet. When requesting an IMPS or UPI withdrawal via WhatsApp, funds are dispatched directly to your Indian bank account within 2 minutes.'
-                  },
-                  {
-                    q: 'Is there an algorithm or trick that guarantees 100% win in Aviator?',
-                    a: 'No game with random generation can guarantee 100% wins on every single flight. However, disciplined strategies such as Dual-Bet Hedging (cashing out Bet 1 at 1.50× to cover costs) and strict stop-loss caps yield the highest mathematical success rate over extended sessions.'
-                  },
-                  {
-                    q: 'How do I verify that an Aviator flight was Provably Fair?',
-                    a: 'Inside the Aviator game window, click the green Provably Fair icon located in the round history dropdown. You can copy the combined SHA-512 server and client seed hashes and verify them in any open-source SHA-512 cryptographic calculator.'
-                  },
-                  {
-                    q: 'What should I do if my internet disconnects mid-flight?',
-                    a: 'If you have enabled "Auto-Cashout," your bet will be successfully cashed out at your preset multiplier regardless of your local internet connection, as the logic executes directly on Spribe’s central game engine.'
-                  },
-                ].map((faq, idx) => (
+                {aviatorFaqs.map((faq, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                     <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -301,7 +305,7 @@ export const AviatorGamePage: React.FC = () => {
             <div className="p-4 rounded-xl bg-black/30 border border-white/10 text-xs text-white/80 space-y-2">
               <span className="text-[#F0C419] font-bold uppercase tracking-wider block">Explore Complementary Lotus365 Portals</span>
               <p>
-                Interested in testing other real-money gaming verticals? Discover our high-speed <a href="/crash-games" className="text-[#F0C419] hover:underline font-medium">Crash Games Directory</a>, try fast-paced <a href="/color-prediction" className="text-[#F0C419] hover:underline font-medium">Color Prediction</a>, check live action at the <a href="/live-casino" className="text-[#F0C419] hover:underline font-medium">Live Casino Lobby</a>, or place match bets on the <a href="/ipl-betting" className="text-[#F0C419] hover:underline font-medium">IPL Cricket Betting Exchange</a>.
+                Interested in testing other real-money gaming verticals? Discover our high-speed <Link to="/crash-games" className="text-[#F0C419] hover:underline font-medium">Crash Games Directory</Link>, try fast-paced <Link to="/color-prediction" className="text-[#F0C419] hover:underline font-medium">Color Prediction</Link>, check live action at the <Link to="/live-casino" className="text-[#F0C419] hover:underline font-medium">Live Casino Lobby</Link>, or place match bets on the <Link to="/ipl-betting" className="text-[#F0C419] hover:underline font-medium">IPL Cricket Betting Exchange</Link>.
               </p>
             </div>
 
@@ -318,6 +322,33 @@ export const AviatorGamePage: React.FC = () => {
   );
 };
 
+const crashFaqs = [
+  {
+    q: 'What makes crash games different from traditional online slots?',
+    a: 'In traditional slots, the outcome is determined entirely upon pressing spin, and players have no further control. In crash games, players actively control their payout by deciding precisely when to cash out while watching the multiplier increase in real time.'
+  },
+  {
+    q: 'What is the highest multiplier ever recorded on Lotus365 crash games?',
+    a: 'Multipliers in Spribe Aviator and SmartSoft JetX have routinely exceeded 5,000×, with rare flights reaching beyond 10,000×. In JetX, lucky players have unlocked the tiered progressive community jackpot on top of their multiplier.'
+  },
+  {
+    q: 'Can crash games be manipulated by the website?',
+    a: 'No. All crash games featured on Lotus365 utilize Provably Fair cryptographic technology. Game outcomes are determined by combining server seeds with player client seeds, preventing any manipulation by operators or third parties.'
+  },
+  {
+    q: 'What is the minimum deposit required to play crash games on Lotus365?',
+    a: 'You can start playing with a deposit as low as ₹100 via UPI (Google Pay, PhonePe, Paytm). Bet limits start from just ₹10 per flight.'
+  },
+  {
+    q: 'How does Auto-Cashout work if my phone battery dies or internet drops?',
+    a: 'Auto-Cashout is stored on the game server as soon as the flight initiates. If your device suddenly loses power or connectivity, the server will automatically execute your cashout if the plane reaches your specified multiplier.'
+  },
+  {
+    q: 'Can I play crash games easily on any smartphone?',
+    a: 'Yes. Lotus365 is 100% mobile-optimized. Simply navigate to lotus365officialid.com on Chrome or Safari for full high-definition gameplay on any Android or iOS device.'
+  },
+];
+
 export const CrashGamesPage: React.FC = () => (
   <>
     <SEOHead 
@@ -325,6 +356,7 @@ export const CrashGamesPage: React.FC = () => (
       description="Explore high-multiplier crash games on Lotus365. Play Aviator, JetX, and Spaceman with provably fair cryptographic verification and 2-minute bank cashouts." 
       canonical="/crash-games" 
       keywords="crash games india, aviator crash, jetx game india, spaceman pragmatic, crash betting india, online crash games, provably fair games" 
+      faqItems={crashFaqs}
     />
     <Layout>
       <PageHero 
@@ -349,7 +381,7 @@ export const CrashGamesPage: React.FC = () => (
               In a crash game, every round starts at a 1.00× multiplier coefficient that increases dynamically along an upward mathematical curve. As the multiplier ascends, players retain complete agency: you decide precisely when to hit the <strong>Cash Out</strong> trigger. If you cash out before the crash event occurs, you pocket your initial wager multiplied by the exact real-time figure. However, if the multiplier crashes before you take profit, your stake is lost.
             </p>
             <p>
-              On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we host the most comprehensive suite of crash games licensed by international auditing authorities, featuring titles by Spribe, SmartSoft Gaming, Pragmatic Play, and Evolution Gaming.
+              On <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we host the most comprehensive suite of crash games licensed by international auditing authorities, featuring titles by Spribe, SmartSoft Gaming, Pragmatic Play, and Evolution Gaming.
             </p>
           </div>
 
@@ -372,7 +404,7 @@ export const CrashGamesPage: React.FC = () => (
                 <tbody className="divide-y divide-white/10 bg-black/20">
                   <tr>
                     <td className="p-3.5 font-bold text-white">
-                      <a href="/aviator-game" className="text-[#F0C419] hover:underline">Aviator</a>
+                      <Link to="/aviator-game" className="text-[#F0C419] hover:underline">Aviator</Link>
                     </td>
                     <td className="p-3.5">Spribe</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">98.50%</td>
@@ -523,32 +555,7 @@ export const CrashGamesPage: React.FC = () => (
               Frequently Asked Questions About Crash Games
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What makes crash games different from traditional online slots?',
-                  a: 'In traditional slots, the outcome is determined entirely upon pressing spin, and players have no further control. In crash games, players actively control their payout by deciding precisely when to cash out while watching the multiplier increase in real time.'
-                },
-                {
-                  q: 'What is the highest multiplier ever recorded on Lotus365 crash games?',
-                  a: 'Multipliers in Spribe Aviator and SmartSoft JetX have routinely exceeded 5,000×, with rare flights reaching beyond 10,000×. In JetX, lucky players have unlocked the tiered progressive community jackpot on top of their multiplier.'
-                },
-                {
-                  q: 'Can crash games be manipulated by the website?',
-                  a: 'No. All crash games featured on Lotus365 utilize Provably Fair cryptographic technology. Game outcomes are determined by combining server seeds with player client seeds, preventing any manipulation by operators or third parties.'
-                },
-                {
-                  q: 'What is the minimum deposit required to play crash games on Lotus365?',
-                  a: 'You can start playing with a deposit as low as ₹100 via UPI (Google Pay, PhonePe, Paytm). Bet limits start from just ₹10 per flight.'
-                },
-                {
-                  q: 'How does Auto-Cashout work if my phone battery dies or internet drops?',
-                  a: 'Auto-Cashout is stored on the game server as soon as the flight initiates. If your device suddenly loses power or connectivity, the server will automatically execute your cashout if the plane reaches your specified multiplier.'
-                },
-                {
-                  q: 'Can I play crash games easily on any smartphone?',
-                  a: 'Yes. Lotus365 is 100% mobile-optimized. Simply navigate to lotus365officialid.com on Chrome or Safari for full high-definition gameplay on any Android or iOS device.'
-                },
-              ].map((faq, idx) => (
+              {crashFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -569,6 +576,41 @@ export const CrashGamesPage: React.FC = () => (
   </>
 );
 
+const colorPredictionFaqs = [
+  {
+    q: 'What happens when number 0 or 5 is drawn in Color Prediction?',
+    a: 'Number 0 is considered half Red and half Violet, while number 5 is half Green and half Violet. If you bet on Red and 0 appears, you receive 1.5× your stake instead of 2.0×. If you bet directly on Violet, you receive the full 4.5× payout.'
+  },
+  {
+    q: 'How fast do Color Prediction rounds run on Lotus365?',
+    a: 'We offer multiple formats: Fast Parity (30 seconds per round), Wingo 1-Minute, and Standard 3-Minute draws. You can participate in whichever speed best suits your analytical rhythm.'
+  },
+  {
+    q: 'What is the minimum stake for a Color Prediction round?',
+    a: 'You can wager as little as ₹10 per round, making it ideal for testing strategies and enjoying entertainment with modest amounts.'
+  },
+  {
+    q: 'Are Color Prediction games on Lotus365 rigged against players who win?',
+    a: 'No. Unlike unverified third-party platforms that manipulate results based on pool volumes, Lotus365 employs certified cryptographic RNG algorithms that guarantee outcome independence for every single round.'
+  },
+  {
+    q: 'Can I withdraw my Color Prediction winnings immediately via PhonePe or GPay?',
+    a: 'Yes. Lotus365 provides automated, 2-minute UPI cashouts. As soon as you conclude your gaming session, message our WhatsApp support team with your UPI ID to receive funds directly into your bank account.'
+  },
+  {
+    q: 'Can I also bet on live sports using the same balance?',
+    a: 'Absolutely! Your Lotus365 wallet is unified. You can use the exact same balance to bet on live cricket, IPL matches, live casino tables, or crash games without transferring funds across separate wallets.'
+  },
+  {
+    q: 'What is the minimum stake to begin playing Color Prediction on Lotus365?',
+    a: 'You can start wagering with as little as ₹10 per round. This low barrier to entry allows beginners to test color patterns and streak hedging strategies before scaling up their betting volume.'
+  },
+  {
+    q: 'Are Color Prediction rounds auditable and provably fair?',
+    a: 'Yes. Every 30-second and 60-second result is computed using certified cryptographic random number generators (RNG) with SHA-256 hash proofs published immediately upon round termination.'
+  },
+];
+
 export const ColorPredictionPage: React.FC = () => (
   <>
     <SEOHead 
@@ -576,6 +618,7 @@ export const ColorPredictionPage: React.FC = () => (
       description="Predict Red, Green, or Violet in 30-second color prediction games on Lotus365. High payout multipliers, zero lag, and instant UPI cashouts 24/7." 
       canonical="/color-prediction" 
       keywords="color prediction game india, colour prediction game, colour wiz india, colour betting game online, fast parity game, win go color game, daman game alternative" 
+      faqItems={colorPredictionFaqs}
     />
     <Layout>
       <PageHero 
@@ -597,7 +640,7 @@ export const ColorPredictionPage: React.FC = () => (
               <strong>Color Prediction</strong> (frequently termed <em>Colour Wiz, Fast Parity, or Wingo</em>) has captivated millions of Indian players due to its unmatched simplicity, lightning-fast round frequency, and immediate real-money gratification. Operating on short 30-second, 1-minute, or 3-minute timers, the game asks players to forecast which color hue or numeric outcome will emerge from a certified digital draw.
             </p>
             <p className="mb-4">
-              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified shady websites.
+              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified shady websites.
             </p>
             <p>
               Whether you are staking ₹20 on a primary color or targeting a 9:1 payout on an exact single number, Lotus365 guarantees lightning-fast credit of winnings and instant 2-minute withdrawals straight to your UPI or bank account.
@@ -761,40 +804,7 @@ export const ColorPredictionPage: React.FC = () => (
               Frequently Asked Questions About Color Prediction
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What happens when number 0 or 5 is drawn in Color Prediction?',
-                  a: 'Number 0 is considered half Red and half Violet, while number 5 is half Green and half Violet. If you bet on Red and 0 appears, you receive 1.5× your stake instead of 2.0×. If you bet directly on Violet, you receive the full 4.5× payout.'
-                },
-                {
-                  q: 'How fast do Color Prediction rounds run on Lotus365?',
-                  a: 'We offer multiple formats: Fast Parity (30 seconds per round), Wingo 1-Minute, and Standard 3-Minute draws. You can participate in whichever speed best suits your analytical rhythm.'
-                },
-                {
-                  q: 'What is the minimum stake for a Color Prediction round?',
-                  a: 'You can wager as little as ₹10 per round, making it ideal for testing strategies and enjoying entertainment with modest amounts.'
-                },
-                {
-                  q: 'Are Color Prediction games on Lotus365 rigged against players who win?',
-                  a: 'No. Unlike unverified third-party platforms that manipulate results based on pool volumes, Lotus365 employs certified cryptographic RNG algorithms that guarantee outcome independence for every single round.'
-                },
-                {
-                  q: 'Can I withdraw my Color Prediction winnings immediately via PhonePe or GPay?',
-                  a: 'Yes. Lotus365 provides automated, 2-minute UPI cashouts. As soon as you conclude your gaming session, message our WhatsApp support team with your UPI ID to receive funds directly into your bank account.'
-                },
-                {
-                  q: 'Can I also bet on live sports using the same balance?',
-                  a: 'Absolutely! Your Lotus365 wallet is unified. You can use the exact same balance to bet on live cricket, IPL matches, live casino tables, or crash games without transferring funds across separate wallets.'
-                },
-                {
-                  q: 'What is the minimum stake to begin playing Color Prediction on Lotus365?',
-                  a: 'You can start wagering with as little as ₹10 per round. This low barrier to entry allows beginners to test color patterns and streak hedging strategies before scaling up their betting volume.'
-                },
-                {
-                  q: 'Are Color Prediction rounds auditable and provably fair?',
-                  a: 'Yes. Every 30-second and 60-second result is computed using certified cryptographic random number generators (RNG) with SHA-256 hash proofs published immediately upon round termination.'
-                },
-              ].map((faq, idx) => (
+              {colorPredictionFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -815,6 +825,41 @@ export const ColorPredictionPage: React.FC = () => (
   </>
 );
 
+const virtualSportsFaqs = [
+  {
+    q: 'Are virtual sports outcomes fixed by the bookmaker?',
+    a: 'No. The virtual sports software integrated into Lotus365 is supplied by internationally accredited software providers such as Betradar. Outcomes are determined by certified Random Number Generators that cannot be modified by Lotus365.'
+  },
+  {
+    q: 'Can I watch live video streams of the virtual matches?',
+    a: 'Yes! Every virtual cricket match, football game, and horse race comes with a high-definition, animated 3D video stream directly inside your mobile or desktop browser without requiring any plugin.'
+  },
+  {
+    q: 'How long does it take for virtual bets to settle?',
+    a: 'Settlement is instant. As soon as the virtual referee blows the final whistle or the winning horse crosses the finish line, winnings are calculated and credited to your wallet in seconds.'
+  },
+  {
+    q: 'What is the minimum wager on virtual sports?',
+    a: 'You can place bets starting from just ₹20 INR, making virtual sports accessible for casual bettors and serious strategy enthusiasts alike.'
+  },
+  {
+    q: 'Can I combine virtual sports selections into accumulator / parlay bets?',
+    a: 'Yes. You can combine multiple virtual football matches or horse racing outcomes into multi-leg parlays for significantly amplified odds.'
+  },
+  {
+    q: 'How do I deposit money to start betting on virtual sports?',
+    a: 'You can deposit instantly using UPI (Google Pay, PhonePe, Paytm, or BHIM) by messaging our official WhatsApp support team. Accounts are credited in less than 60 seconds.'
+  },
+  {
+    q: 'How frequently do Virtual Cricket and Virtual Football matches start?',
+    a: 'Virtual matches kick off continuously every 90 to 180 seconds around the clock, 24 hours a day, 365 days a year. You never have to wait for real-world tournament calendars or weather delays.'
+  },
+  {
+    q: 'Can I bet both pre-match and in-play on Virtual Sports?',
+    a: 'Yes. You can place wagers prior to kickoff or adjust your stakes in real time as the dynamic simulation unfolds with instant odds recalibration and automated settlement.'
+  },
+];
+
 export const VirtualSportsPage: React.FC = () => (
   <>
     <SEOHead 
@@ -822,6 +867,7 @@ export const VirtualSportsPage: React.FC = () => (
       description="Never wait for match day! Bet on 24/7 virtual cricket, virtual football leagues, and greyhound racing with rapid 3-minute match resolutions on Lotus365." 
       canonical="/virtual-sports" 
       keywords="virtual sports betting india, virtual cricket betting, virtual football india, virtual horse racing india, rng sports betting, betradar virtuals" 
+      faqItems={virtualSportsFaqs}
     />
     <Layout>
       <PageHero 
@@ -843,10 +889,10 @@ export const VirtualSportsPage: React.FC = () => (
               <strong>Virtual Sports</strong> represent the perfect marriage of sports betting intuition and state-of-the-art computer-generated graphics. Powered by sophisticated Random Number Generators (RNG) and 3D visual engines developed by global leaders like <em>Betradar</em> and <em>Kiron Interactive</em>, virtual sports deliver photorealistic simulations of live athletic competitions around the clock.
             </p>
             <p className="mb-4">
-              While real-world international cricket fixtures and football derbies depend on schedules, weather, and time zones, virtual sports on <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a> operate 24 hours a day, 365 days a year. Every 3 minutes, a new fixture kicks off with full match markets, live statistical previews, simulated video highlights, and instantaneous settlement of all placed bets.
+              While real-world international cricket fixtures and football derbies depend on schedules, weather, and time zones, virtual sports on <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> operate 24 hours a day, 365 days a year. Every 3 minutes, a new fixture kicks off with full match markets, live statistical previews, simulated video highlights, and instantaneous settlement of all placed bets.
             </p>
             <p>
-              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <a href="/payment-methods" className="text-[#F0C419] font-semibold hover:underline">UPI payouts</a> on Lotus365.
+              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <Link to="/payment-methods" className="text-[#F0C419] font-semibold hover:underline">UPI payouts</Link> on Lotus365.
             </p>
           </div>
 
@@ -1018,40 +1064,7 @@ export const VirtualSportsPage: React.FC = () => (
               Frequently Asked Questions About Virtual Sports
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Are virtual sports outcomes fixed by the bookmaker?',
-                  a: 'No. The virtual sports software integrated into Lotus365 is supplied by internationally accredited software providers such as Betradar. Outcomes are determined by certified Random Number Generators that cannot be modified by Lotus365.'
-                },
-                {
-                  q: 'Can I watch live video streams of the virtual matches?',
-                  a: 'Yes! Every virtual cricket match, football game, and horse race comes with a high-definition, animated 3D video stream directly inside your mobile or desktop browser without requiring any plugin.'
-                },
-                {
-                  q: 'How long does it take for virtual bets to settle?',
-                  a: 'Settlement is instant. As soon as the virtual referee blows the final whistle or the winning horse crosses the finish line, winnings are calculated and credited to your wallet in seconds.'
-                },
-                {
-                  q: 'What is the minimum wager on virtual sports?',
-                  a: 'You can place bets starting from just ₹20 INR, making virtual sports accessible for casual bettors and serious strategy enthusiasts alike.'
-                },
-                {
-                  q: 'Can I combine virtual sports selections into accumulator / parlay bets?',
-                  a: 'Yes. You can combine multiple virtual football matches or horse racing outcomes into multi-leg parlays for significantly amplified odds.'
-                },
-                {
-                  q: 'How do I deposit money to start betting on virtual sports?',
-                  a: 'You can deposit instantly using UPI (Google Pay, PhonePe, Paytm, or BHIM) by messaging our official WhatsApp support team. Accounts are credited in less than 60 seconds.'
-                },
-                {
-                  q: 'How frequently do Virtual Cricket and Virtual Football matches start?',
-                  a: 'Virtual matches kick off continuously every 90 to 180 seconds around the clock, 24 hours a day, 365 days a year. You never have to wait for real-world tournament calendars or weather delays.'
-                },
-                {
-                  q: 'Can I bet both pre-match and in-play on Virtual Sports?',
-                  a: 'Yes. You can place wagers prior to kickoff or adjust your stakes in real time as the dynamic simulation unfolds with instant odds recalibration and automated settlement.'
-                },
-              ].map((faq, idx) => (
+              {virtualSportsFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -1064,7 +1077,7 @@ export const VirtualSportsPage: React.FC = () => (
           <div className="p-4 rounded-xl bg-black/30 border border-white/10 text-xs text-white/80 space-y-2">
             <span className="text-[#F0C419] font-bold uppercase tracking-wider block">More Sports & Gaming on Lotus365</span>
             <p>
-              Prefer real-world sporting events? Jump into our <a href="/cricket-betting" className="text-[#F0C419] hover:underline font-semibold">Cricket Betting Hub</a>, explore the <a href="/cricket-exchange" className="text-[#F0C419] hover:underline font-semibold">Betting Exchange</a>, or bet on world football at our <a href="/football-betting" className="text-[#F0C419] hover:underline font-semibold">Football Sportsbook</a>.
+              Prefer real-world sporting events? Jump into our <Link to="/cricket-betting" className="text-[#F0C419] hover:underline font-semibold">Cricket Betting Hub</Link>, explore the <Link to="/cricket-exchange" className="text-[#F0C419] hover:underline font-semibold">Betting Exchange</Link>, or bet on world football at our <Link to="/football-betting" className="text-[#F0C419] hover:underline font-semibold">Football Sportsbook</Link>.
             </p>
           </div>
 

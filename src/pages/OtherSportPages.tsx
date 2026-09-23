@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -16,6 +17,17 @@ const relatedSports = [
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
 ];
 
+const kabaddiFaqs = [
+  { q: 'Are all 12 PKL teams covered on Lotus365?', a: 'Yes! We cover all 12 Pro Kabaddi franchises including Patna Pirates, U Mumba, Jaipur Pink Panthers, Bengal Warriors, Dabang Delhi, Bengaluru Bulls, Puneri Paltan, Haryana Steelers, Gujarat Giants, Tamil Thalaivas, UP Yoddhas, and Telugu Titans with live in-play odds on every fixture.' },
+  { q: 'How does live in-play kabaddi betting work?', a: 'Odds update after every 30-second raid. You can bet on whether the raider will score a touch point, get tackled, or execute a bonus point.' },
+  { q: 'What happens if a PKL match ends in a tie?', a: 'In league stage fixtures that conclude in a tie, bets placed on the Draw market are settled as winners, while 2-way handicap bets follow designated tie rules.' },
+  { q: 'What is the minimum stake for a kabaddi bet?', a: 'You can wager with as little as ₹100 per market. Deposits reflect in 30 seconds via instant UPI.' },
+  { q: 'How fast can I withdraw my kabaddi winnings?', a: 'All winning bets are settled immediately upon the referee\'s final whistle, and funds can be cashed out in under 2 minutes via UPI.' },
+  { q: 'Can I bet on the PKL Outright Champion before the season ends?', a: 'Yes! Outright championship odds are available throughout the season, allowing you to back title contenders before the playoffs.' },
+  { q: 'Does Lotus365 charge commission on kabaddi bets?', a: 'No, Lotus365 charges 0% commission on regular sportsbook markets, allowing you to keep 100% of your net profits.' },
+  { q: 'Is kabaddi betting accessible on mobile phones without downloading an app?', a: 'Yes, Lotus365 is 100% web-based. You can access all live kabaddi markets directly in Chrome or Safari on your phone.' },
+];
+
 export const KabaddiBettingPage: React.FC = () => (
   <>
     <SEOHead
@@ -23,6 +35,7 @@ export const KabaddiBettingPage: React.FC = () => (
       description="Bet on Pro Kabaddi League (PKL) matches on Lotus365. Live raid points, tackle counts, match winners, and instant UPI withdrawals 24/7 across India."
       canonical="/kabaddi-betting"
       keywords="kabaddi betting india, pkl betting, pro kabaddi betting, kabaddi online betting, pkl live odds, raid points betting, tackle points pkl"
+      faqItems={kabaddiFaqs}
     />
     <Layout>
       <PageHero
@@ -39,7 +52,7 @@ export const KabaddiBettingPage: React.FC = () => (
               The Rapid Rise of Kabaddi Betting in India
             </h2>
             <p>
-              Kabaddi is rooted in Indian soil, carrying centuries of martial discipline and athletic prowess. Since the inception of the Pro Kabaddi League (PKL), this traditional sport has transformed into India's second most-watched sporting phenomenon, attracting millions of passionate supporters every winter. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), we have engineered a dedicated kabaddi wagering infrastructure featuring raid-by-raid live pricing, total team points over/unders, super tackle multiplier markets, and individual raider milestones.
+              Kabaddi is rooted in Indian soil, carrying centuries of martial discipline and athletic prowess. Since the inception of the Pro Kabaddi League (PKL), this traditional sport has transformed into India's second most-watched sporting phenomenon, attracting millions of passionate supporters every winter. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we have engineered a dedicated kabaddi wagering infrastructure featuring raid-by-raid live pricing, total team points over/unders, super tackle multiplier markets, and individual raider milestones.
             </p>
             <p>
               Traditional overseas bookmakers treat kabaddi as an afterthought, often offering delayed odds or closing markets prematurely mid-contest. In contrast, Lotus365 operates dedicated courtside feeds for every PKL fixture, allowing Indian punters to wager on rapid 30-second raid cycles with 0% net commission and guaranteed 2-minute cashouts via UPI.
@@ -189,16 +202,7 @@ export const KabaddiBettingPage: React.FC = () => (
               <span>Pro Kabaddi Betting Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Are all 12 PKL teams covered on Lotus365?', a: 'Yes! We cover all 12 Pro Kabaddi franchises including Patna Pirates, U Mumba, Jaipur Pink Panthers, Bengal Warriors, Dabang Delhi, Bengaluru Bulls, Puneri Paltan, Haryana Steelers, Gujarat Giants, Tamil Thalaivas, UP Yoddhas, and Telugu Titans with live in-play odds on every fixture.' },
-                { q: 'How does live in-play kabaddi betting work?', a: 'Odds update after every 30-second raid. You can bet on whether the raider will score a touch point, get tackled, or execute a bonus point.' },
-                { q: 'What happens if a PKL match ends in a tie?', a: 'In league stage fixtures that conclude in a tie, bets placed on the Draw market are settled as winners, while 2-way handicap bets follow designated tie rules.' },
-                { q: 'What is the minimum stake for a kabaddi bet?', a: 'You can wager with as little as ₹100 per market. Deposits reflect in 30 seconds via instant UPI.' },
-                { q: 'How fast can I withdraw my kabaddi winnings?', a: 'All winning bets are settled immediately upon the referee\'s final whistle, and funds can be cashed out in under 2 minutes via UPI.' },
-                { q: 'Can I bet on the PKL Outright Champion before the season ends?', a: 'Yes! Outright championship odds are available throughout the season, allowing you to back title contenders before the playoffs.' },
-                { q: 'Does Lotus365 charge commission on kabaddi bets?', a: 'No, Lotus365 charges 0% commission on regular sportsbook markets, allowing you to keep 100% of your net profits.' },
-                { q: 'Is kabaddi betting accessible on mobile phones without downloading an app?', a: 'Yes, Lotus365 is 100% web-based. You can access all live kabaddi markets directly in Chrome or Safari on your phone.' },
-              ].map((item, idx) => (
+              {kabaddiFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -214,6 +218,19 @@ export const KabaddiBettingPage: React.FC = () => (
   </>
 );
 
+const basketballFaqs = [
+  { q: 'Does basketball betting include overtime points?', a: 'Yes! Standard NBA and EuroLeague point spread, moneyline, and total points markets include overtime scoring unless explicitly designated as regulation-only 48-minute lines.' },
+  { q: 'Can I bet on individual quarters and halves?', a: 'Yes, Lotus365 provides 1st quarter, 2nd quarter, and 1st half point spread and total lines with rapid in-play settlement.' },
+  { q: 'What is the minimum stake on NBA games?', a: 'The minimum stake is ₹100 with no maximum restriction for VIP members.' },
+  { q: 'How fast are NBA player prop bets settled?', a: 'Player props are verified and settled within 10 minutes of the official box score confirmation from the NBA.' },
+  { q: 'Can I withdraw my basketball winnings via UPI?', a: 'Yes, all sports payouts are processed within 2 minutes via UPI (GPay, PhonePe, Paytm) with zero deduction.' },
+  { q: 'Does Lotus365 cover European leagues like EuroLeague and ACB Spain?', a: 'Yes! In addition to the NBA, we cover the Turkish Airlines EuroLeague, Spanish Liga ACB, and international FIBA World Cup qualifiers.' },
+  { q: 'Can I build same-game parlays on NBA matches?', a: 'Yes, you can combine point spreads, total match points, and player point milestones from the same NBA game into one high-paying ticket.' },
+  { q: 'What happens if an NBA player is ruled out before the game starts?', a: 'If a player does not take the court at all, all individual player prop bets for that athlete are automatically voided and refunded.' },
+  { q: 'How does live cashout work during NBA 4th quarter crunch time?', a: 'Lotus365 allows you to lock in guaranteed profit or trim risk using our dynamic live cashout slider right until the final 60 seconds of regulation play.' },
+  { q: 'Are point spreads graded at the end of regulation or overtime?', a: 'Standard full-game NBA point spread and total points bets include all points scored in overtime periods until a definitive victor is established. All results are verified through official NBA box scores to guarantee fair, undisputed settlement across all tickets.' },
+];
+
 export const BasketballBettingPage: React.FC = () => (
   <>
     <SEOHead
@@ -221,6 +238,7 @@ export const BasketballBettingPage: React.FC = () => (
       description="Wager on NBA, EuroLeague, and FIBA basketball tournaments. Spread betting, over/under point totals, player props, and 2-minute UPI cashouts on Lotus365."
       canonical="/basketball-betting"
       keywords="basketball betting india, nba betting india, online basketball betting, nba odds india, point spread basketball, euroleague betting"
+      faqItems={basketballFaqs}
     />
     <Layout>
       <PageHero
@@ -237,7 +255,7 @@ export const BasketballBettingPage: React.FC = () => (
               Fast-Paced Basketball Action on Lotus365
             </h2>
             <p>
-              With non-stop scoring runs, dynamic pace of play, and frequent lead changes, basketball offers some of the most liquid and lucrative wagering markets in global sports. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), you gain direct access to all 82 regular-season games per NBA franchise, the NBA Play-In tournament, the NBA Playoffs, NBA Finals, EuroLeague, and FIBA international championships.
+              With non-stop scoring runs, dynamic pace of play, and frequent lead changes, basketball offers some of the most liquid and lucrative wagering markets in global sports. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you gain direct access to all 82 regular-season games per NBA franchise, the NBA Play-In tournament, the NBA Playoffs, NBA Finals, EuroLeague, and FIBA international championships.
             </p>
             <p>
               Whether you are analyzing Stephen Curry's three-point shooting prop in San Francisco or backing the Boston Celtics on a -5.5 point spread at TD Garden, our live odds visualizer delivers instantaneous in-play updates with zero lag and 0% commission on winning slips.
@@ -383,18 +401,7 @@ export const BasketballBettingPage: React.FC = () => (
               <span>Basketball Betting Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Does basketball betting include overtime points?', a: 'Yes! Standard NBA and EuroLeague point spread, moneyline, and total points markets include overtime scoring unless explicitly designated as regulation-only 48-minute lines.' },
-                { q: 'Can I bet on individual quarters and halves?', a: 'Yes, Lotus365 provides 1st quarter, 2nd quarter, and 1st half point spread and total lines with rapid in-play settlement.' },
-                { q: 'What is the minimum stake on NBA games?', a: 'The minimum stake is ₹100 with no maximum restriction for VIP members.' },
-                { q: 'How fast are NBA player prop bets settled?', a: 'Player props are verified and settled within 10 minutes of the official box score confirmation from the NBA.' },
-                { q: 'Can I withdraw my basketball winnings via UPI?', a: 'Yes, all sports payouts are processed within 2 minutes via UPI (GPay, PhonePe, Paytm) with zero deduction.' },
-                { q: 'Does Lotus365 cover European leagues like EuroLeague and ACB Spain?', a: 'Yes! In addition to the NBA, we cover the Turkish Airlines EuroLeague, Spanish Liga ACB, and international FIBA World Cup qualifiers.' },
-                { q: 'Can I build same-game parlays on NBA matches?', a: 'Yes, you can combine point spreads, total match points, and player point milestones from the same NBA game into one high-paying ticket.' },
-                { q: 'What happens if an NBA player is ruled out before the game starts?', a: 'If a player does not take the court at all, all individual player prop bets for that athlete are automatically voided and refunded.' },
-                { q: 'How does live cashout work during NBA 4th quarter crunch time?', a: 'Lotus365 allows you to lock in guaranteed profit or trim risk using our dynamic live cashout slider right until the final 60 seconds of regulation play.' },
-                { q: 'Are point spreads graded at the end of regulation or overtime?', a: 'Standard full-game NBA point spread and total points bets include all points scored in overtime periods until a definitive victor is established. All results are verified through official NBA box scores to guarantee fair, undisputed settlement across all tickets.' },
-              ].map((item, idx) => (
+              {basketballFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -410,6 +417,18 @@ export const BasketballBettingPage: React.FC = () => (
   </>
 );
 
+const horseRacingFaqs = [
+  { q: 'Which Indian racecourses are covered on Lotus365?', a: 'We cover all premier Indian meetings including RWITC (Mahalaxmi Mumbai & Pune), Bangalore Turf Club, Madras Race Club (Chennai), Hyderabad Race Club, and Royal Calcutta Turf Club.' },
+  { q: 'What happens if my horse is scratched (withdrawn)?', a: 'If a horse is scratched before coming under starter\'s orders, all single wagers on that runner are voided and refunded in full to your account wallet.' },
+  { q: 'Are international race meetings like Royal Ascot covered?', a: 'Yes! In addition to Indian Derbies, Lotus365 offers comprehensive race cards for Royal Ascot, Cheltenham, Dubai World Cup, and Melbourne Cup.' },
+  { q: 'What is the minimum bet on Indian horse racing?', a: 'You can wager with as little as ₹100 per ticket.' },
+  { q: 'How quickly are racing bets settled?', a: 'Bets settle within 3 minutes of the official stewards\' confirmation of the placings and photograph finish verification.' },
+  { q: 'What does Each-Way betting mean?', a: 'An Each-Way bet consists of two equal parts: one bet on the horse to Win and one on the horse to Place. If the horse finishes 2nd or 3rd, the Place portion pays out.' },
+  { q: 'Can I bet on live odds as horses load into the starting gates?', a: 'Yes, our live betting gate remains open until the official race starter presses the button releasing the gates.' },
+  { q: 'How do I cash out horse racing profits to my bank account?', a: 'Simply request a withdrawal via our 24/7 WhatsApp concierge (wa.link/880088), and funds are sent via instant UPI or IMPS in 2 minutes.' },
+  { q: 'What is the difference between an objection and a stewards enquiry in Indian racing?', a: 'An objection is lodged by a jockey or trainer against a rival for interference in the straight, whereas a stewards enquiry is initiated directly by the turf club race officials to review race footage before declaring all clear.' },
+];
+
 export const HorseRacingPage: React.FC = () => (
   <>
     <SEOHead
@@ -417,6 +436,7 @@ export const HorseRacingPage: React.FC = () => (
       description="Bet on live Indian horse racing in Mumbai, Pune, Bangalore, and Kolkata. Win, Place, and Forecast pool betting with instant race settlement on Lotus365."
       canonical="/horse-racing-betting"
       keywords="horse racing betting india, indian derby betting, rwitc mumbai odds, pune horse racing, bangalore turf club betting, thoroughbred odds india"
+      faqItems={horseRacingFaqs}
     />
     <Layout>
       <PageHero
@@ -433,7 +453,7 @@ export const HorseRacingPage: React.FC = () => (
               India's Rich Horse Racing Heritage on Lotus365
             </h2>
             <p>
-              Thoroughbred horse racing has been a premier equestrian sport in India since 1777, governed by historic turf authorities like the Royal Western India Turf Club (RWITC). On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), racing enthusiasts can place Win, Place, Each-Way, and Forecast bets on prestigious race meetings across Mahalaxmi (Mumbai), Pune, Guindy (Chennai), Hyderabad, Kolkata, and Bangalore, as well as international Grade 1 fixtures like the Dubai World Cup and Royal Ascot.
+              Thoroughbred horse racing has been a premier equestrian sport in India since 1777, governed by historic turf authorities like the Royal Western India Turf Club (RWITC). On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), racing enthusiasts can place Win, Place, Each-Way, and Forecast bets on prestigious race meetings across Mahalaxmi (Mumbai), Pune, Guindy (Chennai), Hyderabad, Kolkata, and Bangalore, as well as international Grade 1 fixtures like the Dubai World Cup and Royal Ascot.
             </p>
             <p>
               Whether you are an experienced turf punter analyzing past performance sheets and pedigree records or a newcomer experiencing the adrenaline of the Indian Derby, Lotus365 provides authentic fixed odds, comprehensive jockey metrics, and rapid 2-minute UPI disbursements.
@@ -593,17 +613,7 @@ export const HorseRacingPage: React.FC = () => (
               <span>Horse Racing Betting Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Which Indian racecourses are covered on Lotus365?', a: 'We cover all premier Indian meetings including RWITC (Mahalaxmi Mumbai & Pune), Bangalore Turf Club, Madras Race Club (Chennai), Hyderabad Race Club, and Royal Calcutta Turf Club.' },
-                { q: 'What happens if my horse is scratched (withdrawn)?', a: 'If a horse is scratched before coming under starter\'s orders, all single wagers on that runner are voided and refunded in full to your account wallet.' },
-                { q: 'Are international race meetings like Royal Ascot covered?', a: 'Yes! In addition to Indian Derbies, Lotus365 offers comprehensive race cards for Royal Ascot, Cheltenham, Dubai World Cup, and Melbourne Cup.' },
-                { q: 'What is the minimum bet on Indian horse racing?', a: 'You can wager with as little as ₹100 per ticket.' },
-                { q: 'How quickly are racing bets settled?', a: 'Bets settle within 3 minutes of the official stewards\' confirmation of the placings and photograph finish verification.' },
-                { q: 'What does Each-Way betting mean?', a: 'An Each-Way bet consists of two equal parts: one bet on the horse to Win and one on the horse to Place. If the horse finishes 2nd or 3rd, the Place portion pays out.' },
-                { q: 'Can I bet on live odds as horses load into the starting gates?', a: 'Yes, our live betting gate remains open until the official race starter presses the button releasing the gates.' },
-                { q: 'How do I cash out horse racing profits to my bank account?', a: 'Simply request a withdrawal via our 24/7 WhatsApp concierge (wa.link/880088), and funds are sent via instant UPI or IMPS in 2 minutes.' },
-                { q: 'What is the difference between an objection and a stewards enquiry in Indian racing?', a: 'An objection is lodged by a jockey or trainer against a rival for interference in the straight, whereas a stewards enquiry is initiated directly by the turf club race officials to review race footage before declaring all clear.' },
-              ].map((item, idx) => (
+              {horseRacingFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
@@ -619,6 +629,18 @@ export const HorseRacingPage: React.FC = () => (
   </>
 );
 
+const sportsbookFaqs = [
+  { q: 'Can I bet on multiple sports using a single account balance?', a: 'Yes! Your single Lotus365 wallet funds bets across cricket, football, tennis, kabaddi, horse racing, basketball, and live casino games seamlessly.' },
+  { q: 'What is the difference between Sportsbook and Exchange?', a: 'The sportsbook offers fixed odds set against the platform, while the cricket exchange matches you peer-to-peer against other players with 0% commission.' },
+  { q: 'Are deposits and withdrawals free of charge?', a: 'Yes, Lotus365 absorbs all banking costs. 100% of your deposits and winnings are processed without fee deductions.' },
+  { q: 'Can I bet on sports from my mobile phone?', a: 'Yes! Lotus365 is 100% mobile-optimized. You can place in-play bets and cash out directly inside your mobile browser on any smartphone.' },
+  { q: 'What is the maximum payout on a single sports bet?', a: 'Standard sports bets support winnings up to ₹25,00,000, while VIP Black Card members enjoy uncapped payout ceilings negotiated with their private managers.' },
+  { q: 'Can I cancel an un-matched bet on the exchange?', a: 'Yes! Any un-matched or partially matched exchange bet can be canceled instantly with one click, returning your unpledged funds to your wallet.' },
+  { q: 'How do I start betting on the Lotus365 Sportsbook?', a: 'Simply click any WhatsApp button to message our official desk at wa.link/880088. An account executive will create your ID and credit your deposit in under 60 seconds.' },
+  { q: 'Is my financial data secure when betting on Lotus365?', a: 'Absolutely. We utilize 256-bit TLS encryption, zero document storage on public web servers, and direct NPCI-regulated UPI payment rails.' },
+  { q: 'Can I bet on live esports and virtual leagues in the sportsbook?', a: 'Yes! In addition to traditional physical sports, Lotus365 offers 24/7 virtual cricket, virtual football, and major esports tournaments like CS2, Dota 2, and Valorant with instant round settlements.' },
+];
+
 export const SportsbookPage: React.FC = () => (
   <>
     <SEOHead
@@ -626,6 +648,7 @@ export const SportsbookPage: React.FC = () => (
       description="Explore India's leading sportsbook covering cricket, football, tennis, kabaddi, and esports. Zero commission exchange options and fast UPI settlements."
       canonical="/sportsbook"
       keywords="online sportsbook india, sports betting india, best sportsbook india, all sports betting, lotus365 sports, p2p sports exchange"
+      faqItems={sportsbookFaqs}
     />
     <Layout>
       <PageHero
@@ -642,7 +665,7 @@ export const SportsbookPage: React.FC = () => (
               The All-in-One Sportsbook Built for Indian Sports Punters
             </h2>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), you are never constrained to a single sporting code. Our unified sportsbook platform gives you single-wallet access to over 40 global sports disciplines, ranging from high-liquidity cricket exchanges to premier football leagues, grand slam tennis, pro kabaddi, horse racing, and Olympic sports.
+              On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you are never constrained to a single sporting code. Our unified sportsbook platform gives you single-wallet access to over 40 global sports disciplines, ranging from high-liquidity cricket exchanges to premier football leagues, grand slam tennis, pro kabaddi, horse racing, and Olympic sports.
             </p>
             <p>
               We have eliminated the friction of managing multiple accounts across fragmented websites. A single WhatsApp account registration at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline font-bold">Official WhatsApp</a> allows you to trade match odds, session totals, point spreads, and high-paying accumulator parlays with zero transaction fees and guaranteed 2-minute cashouts.
@@ -673,9 +696,9 @@ export const SportsbookPage: React.FC = () => (
                 { name: 'Snooker & Pool', path: '/sportsbook' },
                 { name: 'Virtual Sports 24/7', path: '/virtual-sports' },
               ].map((s) => (
-                <a key={s.name} href={s.path} className="p-3 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419] hover:text-[#F0C419] text-white font-semibold transition-all text-center">
+                <Link key={s.name} to={s.path} className="p-3 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419] hover:text-[#F0C419] text-white font-semibold transition-all text-center">
                   {s.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -864,17 +887,7 @@ export const SportsbookPage: React.FC = () => (
               <span>Lotus365 Sportsbook FAQs</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                { q: 'Can I bet on multiple sports using a single account balance?', a: 'Yes! Your single Lotus365 wallet funds bets across cricket, football, tennis, kabaddi, horse racing, basketball, and live casino games seamlessly.' },
-                { q: 'What is the difference between Sportsbook and Exchange?', a: 'The sportsbook offers fixed odds set against the platform, while the cricket exchange matches you peer-to-peer against other players with 0% commission.' },
-                { q: 'Are deposits and withdrawals free of charge?', a: 'Yes, Lotus365 absorbs all banking costs. 100% of your deposits and winnings are processed without fee deductions.' },
-                { q: 'Can I bet on sports from my mobile phone?', a: 'Yes! Lotus365 is 100% mobile-optimized. You can place in-play bets and cash out directly inside your mobile browser on any smartphone.' },
-                { q: 'What is the maximum payout on a single sports bet?', a: 'Standard sports bets support winnings up to ₹25,00,000, while VIP Black Card members enjoy uncapped payout ceilings negotiated with their private managers.' },
-                { q: 'Can I cancel an un-matched bet on the exchange?', a: 'Yes! Any un-matched or partially matched exchange bet can be canceled instantly with one click, returning your unpledged funds to your wallet.' },
-                { q: 'How do I start betting on the Lotus365 Sportsbook?', a: 'Simply click any WhatsApp button to message our official desk at wa.link/880088. An account executive will create your ID and credit your deposit in under 60 seconds.' },
-                { q: 'Is my financial data secure when betting on Lotus365?', a: 'Absolutely. We utilize 256-bit TLS encryption, zero document storage on public web servers, and direct NPCI-regulated UPI payment rails.' },
-                { q: 'Can I bet on live esports and virtual leagues in the sportsbook?', a: 'Yes! In addition to traditional physical sports, Lotus365 offers 24/7 virtual cricket, virtual football, and major esports tournaments like CS2, Dota 2, and Valorant with instant round settlements.' },
-              ].map((item, idx) => (
+              {sportsbookFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2"><span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span><span>{item.q}</span></h3>
                   <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>

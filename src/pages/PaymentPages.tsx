@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -24,6 +25,33 @@ const paymentRelated = [
   { href: '/2-minute-cashout', label: '2-Min Cashout', description: 'Our guaranteed withdrawal speed' },
 ];
 
+const howToDepositFaqs = [
+  {
+    q: 'What is the minimum deposit amount on Lotus365?',
+    a: 'The minimum deposit is just ₹100 INR when using UPI (PhonePe, Google Pay, or Paytm). This makes Lotus365 accessible for all Indian sports fans and casual gamers.'
+  },
+  {
+    q: 'Does Lotus365 charge any deposit tax or transaction commission?',
+    a: 'No. Lotus365 absorbs 100% of all gateway, banking, and merchant processing fees. When you deposit ₹1,000, your betting wallet receives exactly ₹1,000.'
+  },
+  {
+    q: 'How fast do deposits reflect in my Lotus365 account?',
+    a: 'UPI deposits reflect within 30 to 60 seconds once you send the 12-digit UTR receipt to our WhatsApp support desk. IMPS transfers usually clear in 1 to 3 minutes.'
+  },
+  {
+    q: 'Can I deposit using a friend’s UPI or bank account?',
+    a: 'For account security and smooth withdrawals, we strongly advise depositing from a bank account or UPI handle registered in your own name.'
+  },
+  {
+    q: 'What should I do if my bank account was debited but the deposit failed?',
+    a: 'Do not panic. Share your payment screenshot displaying the 12-digit UTR with our WhatsApp desk. If the payment reached our system, we credit it manually; if your bank held it, NPCI automatically returns the funds within 2 to 24 hours.'
+  },
+  {
+    q: 'Are high-roller deposits supported for VIP players?',
+    a: 'Yes! For deposits exceeding ₹5,00,000, contact our VIP desk via WhatsApp to receive dedicated corporate RTGS bank accounts and priority concierge processing.'
+  },
+];
+
 export const HowToDepositPage: React.FC = () => (
   <>
     <SEOHead 
@@ -31,6 +59,7 @@ export const HowToDepositPage: React.FC = () => (
       description="Step-by-step guide to depositing funds on Lotus365 via PhonePe, Google Pay, Paytm, and IMPS. Enjoy 0% deposit fees and instant balance crediting in 30 seconds." 
       canonical="/how-to-deposit" 
       keywords="lotus365 deposit, how to deposit lotus365, lotus365 upi deposit, lotus365 add money, lotus365 fund account, lotus365 payment, instant betting deposit india" 
+      faqItems={howToDepositFaqs}
     />
     <Layout>
       <PageHero 
@@ -49,13 +78,13 @@ export const HowToDepositPage: React.FC = () => (
               Fast, Seamless & Zero-Fee Deposits on Lotus365
             </h2>
             <p className="mb-4">
-              At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we understand that when a high-voltage IPL match or an intense live casino table is underway, you cannot afford to wait 30 minutes for your deposit to reflect. That is why our proprietary payment routing network is directly integrated with India’s Unified Payments Interface (UPI) and NPCI banking rails, guaranteeing that 99.4% of deposits reflect in your wallet balance in under 60 seconds.
+              At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we understand that when a high-voltage IPL match or an intense live casino table is underway, you cannot afford to wait 30 minutes for your deposit to reflect. That is why our proprietary payment routing network is directly integrated with India’s Unified Payments Interface (UPI) and NPCI banking rails, guaranteeing that 99.4% of deposits reflect in your wallet balance in under 60 seconds.
             </p>
             <p className="mb-4">
               Whether you prefer depositing via <strong>PhonePe, Google Pay, Paytm, BHIM, CRED UPI</strong>, or instant <strong>IMPS net banking</strong>, our process eliminates confusing third-party payment gateways that trigger bank declines. Lotus365 charges exactly 0% in deposit fees, meaning 100% of your hard-earned rupees go straight toward your betting bankroll.
             </p>
             <p>
-              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <a href="/welcome-bonus" className="text-[#F0C419] font-semibold hover:underline">100% First Deposit Welcome Bonus</a> to double your initial playing balance up to ₹5,000!
+              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link to="/welcome-bonus" className="text-[#F0C419] font-semibold hover:underline">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,000!
             </p>
           </div>
 
@@ -235,32 +264,7 @@ export const HowToDepositPage: React.FC = () => (
               Frequently Asked Questions About Lotus365 Deposits
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What is the minimum deposit amount on Lotus365?',
-                  a: 'The minimum deposit is just ₹100 INR when using UPI (PhonePe, Google Pay, or Paytm). This makes Lotus365 accessible for all Indian sports fans and casual gamers.'
-                },
-                {
-                  q: 'Does Lotus365 charge any deposit tax or transaction commission?',
-                  a: 'No. Lotus365 absorbs 100% of all gateway, banking, and merchant processing fees. When you deposit ₹1,000, your betting wallet receives exactly ₹1,000.'
-                },
-                {
-                  q: 'How fast do deposits reflect in my Lotus365 account?',
-                  a: 'UPI deposits reflect within 30 to 60 seconds once you send the 12-digit UTR receipt to our WhatsApp support desk. IMPS transfers usually clear in 1 to 3 minutes.'
-                },
-                {
-                  q: 'Can I deposit using a friend’s UPI or bank account?',
-                  a: 'For account security and smooth withdrawals, we strongly advise depositing from a bank account or UPI handle registered in your own name.'
-                },
-                {
-                  q: 'What should I do if my bank account was debited but the deposit failed?',
-                  a: 'Do not panic. Share your payment screenshot displaying the 12-digit UTR with our WhatsApp desk. If the payment reached our system, we credit it manually; if your bank held it, NPCI automatically returns the funds within 2 to 24 hours.'
-                },
-                {
-                  q: 'Are high-roller deposits supported for VIP players?',
-                  a: 'Yes! For deposits exceeding ₹5,00,000, contact our VIP desk via WhatsApp to receive dedicated corporate RTGS bank accounts and priority concierge processing.'
-                },
-              ].map((faq, idx) => (
+              {howToDepositFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -282,6 +286,33 @@ export const HowToDepositPage: React.FC = () => (
   </>
 );
 
+const howToWithdrawFaqs = [
+  {
+    q: 'What is the fastest withdrawal method on Lotus365?',
+    a: 'UPI (PhonePe, Google Pay, Paytm) is the fastest method, with funds landing in your account in under 2 minutes. IMPS bank transfer is equally dependable, settling within 5 to 10 minutes.'
+  },
+  {
+    q: 'Can I withdraw my money at night or on bank holidays?',
+    a: 'Yes! Both UPI and IMPS operate 24 hours a day, 7 days a week, 365 days a year. Lotus365’s disbursement team works round-the-clock without holiday interruptions.'
+  },
+  {
+    q: 'Is there any withdrawal fee or TDS deduction?',
+    a: 'Lotus365 charges zero withdrawal fees and zero commission cuts on cashouts. You receive the exact amount you requested.'
+  },
+  {
+    q: 'What is the maximum amount I can withdraw in a single day?',
+    a: 'Standard player accounts can withdraw up to ₹10,00,000 INR per day. For VIP and Black Card holders, withdrawal limits can be raised higher upon request.'
+  },
+  {
+    q: 'Why hasn’t my withdrawal arrived after 5 minutes?',
+    a: 'In 99% of rare delays, the cause is temporary NPCI or recipient bank maintenance. Message our 24/7 WhatsApp team with your reference number, and our finance leads will track and expedite the transaction immediately.'
+  },
+  {
+    q: 'Do I have to upload my PAN or Aadhaar card before withdrawing?',
+    a: 'No invasive document scans are required for standard withdrawals. Your verified WhatsApp account identity is sufficient to process cashouts quickly and securely.'
+  },
+];
+
 export const HowToWithdrawPage: React.FC = () => (
   <>
     <SEOHead 
@@ -289,6 +320,7 @@ export const HowToWithdrawPage: React.FC = () => (
       description="Learn how to withdraw winnings from Lotus365 in under 2 minutes. Direct UPI disbursements to PhonePe, GPay, Paytm, and IMPS bank accounts with zero fees." 
       canonical="/how-to-withdraw" 
       keywords="lotus365 withdrawal, lotus365 cashout, how to withdraw lotus365, lotus365 payout guide, lotus365 2 minute withdrawal, instant betting cashout india" 
+      faqItems={howToWithdrawFaqs}
     />
     <Layout>
       <PageHero 
@@ -310,7 +342,7 @@ export const HowToWithdrawPage: React.FC = () => (
               The true hallmark of a trusted online betting exchange is not how smoothly it accepts deposits, but how swiftly and respectfully it honors customer payouts. Offshore betting sites frequently delay player withdrawals by 48 to 72 hours, demanding repetitive passport scans, notarized documents, and imposing hidden rollover penalties.
             </p>
             <p className="mb-4">
-              On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we operate on a strict <a href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline">2-Minute Cashout Guarantee</a>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
+              On <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we operate on a strict <Link to="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline">2-Minute Cashout Guarantee</Link>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
             </p>
             <p>
               Best of all, there are <strong>zero transaction deductions or withdrawal service fees</strong>. Every single rupee you cash out arrives intact in your bank balance.
@@ -529,32 +561,7 @@ export const HowToWithdrawPage: React.FC = () => (
               Frequently Asked Questions About Lotus365 Withdrawals
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What is the fastest withdrawal method on Lotus365?',
-                  a: 'UPI (PhonePe, Google Pay, Paytm) is the fastest method, with funds landing in your account in under 2 minutes. IMPS bank transfer is equally dependable, settling within 5 to 10 minutes.'
-                },
-                {
-                  q: 'Can I withdraw my money at night or on bank holidays?',
-                  a: 'Yes! Both UPI and IMPS operate 24 hours a day, 7 days a week, 365 days a year. Lotus365’s disbursement team works round-the-clock without holiday interruptions.'
-                },
-                {
-                  q: 'Is there any withdrawal fee or TDS deduction?',
-                  a: 'Lotus365 charges zero withdrawal fees and zero commission cuts on cashouts. You receive the exact amount you requested.'
-                },
-                {
-                  q: 'What is the maximum amount I can withdraw in a single day?',
-                  a: 'Standard player accounts can withdraw up to ₹10,00,000 INR per day. For VIP and Black Card holders, withdrawal limits can be raised higher upon request.'
-                },
-                {
-                  q: 'Why hasn’t my withdrawal arrived after 5 minutes?',
-                  a: 'In 99% of rare delays, the cause is temporary NPCI or recipient bank maintenance. Message our 24/7 WhatsApp team with your reference number, and our finance leads will track and expedite the transaction immediately.'
-                },
-                {
-                  q: 'Do I have to upload my PAN or Aadhaar card before withdrawing?',
-                  a: 'No invasive document scans are required for standard withdrawals. Your verified WhatsApp account identity is sufficient to process cashouts quickly and securely.'
-                },
-              ].map((faq, idx) => (
+              {howToWithdrawFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -576,6 +583,33 @@ export const HowToWithdrawPage: React.FC = () => (
   </>
 );
 
+const upiDepositFaqs = [
+  {
+    q: 'What is a UTR number and where do I find it in my UPI app?',
+    a: 'UTR stands for Unique Transaction Reference. It is a 12-digit numeric tracking code generated by NPCI. In PhonePe and Google Pay, click on the completed payment to view "UPI Transaction ID" or "Google Transaction ID / UTR".'
+  },
+  {
+    q: 'How fast do UPI deposits reflect in my Lotus365 wallet?',
+    a: 'UPI deposits reflect within 30 to 60 seconds! Once you send the screenshot or 12-digit UTR on WhatsApp, our 24/7 financial desk instantly verifies and credits your gaming balance.'
+  },
+  {
+    q: 'What happens if my UPI transaction status shows "Processing"?',
+    a: 'Occasionally, bank server congestion causes a transaction to hang in "Processing" status. In 95% of cases, the bank clears it within 10 minutes. Once marked "Success," forward the UTR to our WhatsApp team for immediate wallet credit.'
+  },
+  {
+    q: 'What is the daily maximum deposit limit via UPI?',
+    a: 'The Reserve Bank of India and NPCI set a standard limit of ₹1,00,000 per day per UPI account. If you wish to deposit more than ₹1,00,000 in a single day, our team can provide corporate IMPS or RTGS bank details.'
+  },
+  {
+    q: 'Are UPI deposits eligible for the Lotus365 Welcome Bonus?',
+    a: 'Yes! All UPI deposits qualify for our 100% first deposit match bonus up to ₹5,00,000 and subsequent reload promotions.'
+  },
+  {
+    q: 'Can I withdraw my winnings back to the same UPI handle?',
+    a: 'Yes. When you request a cashout, provide the same or any other valid Indian UPI VPA, and your funds will be credited in under 2 minutes.'
+  },
+];
+
 export const UpiDepositPage: React.FC = () => (
   <>
     <SEOHead 
@@ -583,6 +617,7 @@ export const UpiDepositPage: React.FC = () => (
       description="Deposit funds instantly using any Indian UPI app: PhonePe, Google Pay, or Paytm. Enjoy instant wallet updates and zero transaction charges on Lotus365." 
       canonical="/upi-deposit" 
       keywords="upi deposit betting, upi betting india, google pay betting deposit, phonepe betting deposit, paytm betting india, bhim upi betting, instant upi deposit lotus365" 
+      faqItems={upiDepositFaqs}
     />
     <Layout>
       <PageHero 
@@ -607,7 +642,7 @@ export const UpiDepositPage: React.FC = () => (
               Unlike debit cards, credit cards, or international e-wallets, UPI never forces you to expose your 16-digit card number, CVV code, or online banking passwords to third-party web portals. Every transaction is authenticated locally inside your smartphone using your secret 4-digit or 6-digit UPI MPIN, backed by two-factor device binding.
             </p>
             <p>
-              On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we have optimized our payment gateways to interface natively with the UPI architecture, providing instant balance credits within 30 seconds of completing your payment.
+              On <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we have optimized our payment gateways to interface natively with the UPI architecture, providing instant balance credits within 30 seconds of completing your payment.
             </p>
           </div>
 
@@ -788,32 +823,7 @@ export const UpiDepositPage: React.FC = () => (
               Frequently Asked Questions About UPI Deposits
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What is a UTR number and where do I find it in my UPI app?',
-                  a: 'UTR stands for Unique Transaction Reference. It is a 12-digit numeric tracking code generated by NPCI. In PhonePe and Google Pay, click on the completed payment to view "UPI Transaction ID" or "Google Transaction ID / UTR".'
-                },
-                {
-                  q: 'How fast do UPI deposits reflect in my Lotus365 wallet?',
-                  a: 'UPI deposits reflect within 30 to 60 seconds! Once you send the screenshot or 12-digit UTR on WhatsApp, our 24/7 financial desk instantly verifies and credits your gaming balance.'
-                },
-                {
-                  q: 'What happens if my UPI transaction status shows "Processing"?',
-                  a: 'Occasionally, bank server congestion causes a transaction to hang in "Processing" status. In 95% of cases, the bank clears it within 10 minutes. Once marked "Success," forward the UTR to our WhatsApp team for immediate wallet credit.'
-                },
-                {
-                  q: 'What is the daily maximum deposit limit via UPI?',
-                  a: 'The Reserve Bank of India and NPCI set a standard limit of ₹1,00,000 per day per UPI account. If you wish to deposit more than ₹1,00,000 in a single day, our team can provide corporate IMPS or RTGS bank details.'
-                },
-                {
-                  q: 'Are UPI deposits eligible for the Lotus365 Welcome Bonus?',
-                  a: 'Yes! All UPI deposits qualify for our 100% first deposit match bonus up to ₹5,000 and subsequent reload promotions.'
-                },
-                {
-                  q: 'Can I withdraw my winnings back to the same UPI handle?',
-                  a: 'Yes. When you request a cashout, provide the same or any other valid Indian UPI VPA, and your funds will be credited in under 2 minutes.'
-                },
-              ].map((faq, idx) => (
+              {upiDepositFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -835,6 +845,33 @@ export const UpiDepositPage: React.FC = () => (
   </>
 );
 
+const impsWithdrawalFaqs = [
+  {
+    q: 'What is the difference between IMPS and NEFT for betting cashouts?',
+    a: 'NEFT operates in hourly batches and can be delayed overnight or on weekends. IMPS processes instantly in real time 24 hours a day, ensuring your funds reflect within 10 minutes even on Sunday midnight.'
+  },
+  {
+    q: 'Are there any bank charges or deductions for IMPS withdrawals?',
+    a: 'No. Lotus365 absorbs 100% of interbank IMPS charges. You receive your complete winning payout down to the exact rupee.'
+  },
+  {
+    q: 'What is the maximum limit per IMPS transaction?',
+    a: 'Standard banking guidelines allow up to ₹5,00,000 per IMPS transaction. If you are withdrawing larger sums (e.g., ₹10,00,000+), our financial team splits the payout into rapid sequential tranches or utilizes corporate RTGS.'
+  },
+  {
+    q: 'What if I provide an incorrect IFSC code?',
+    a: 'Our banking validation system automatically checks your IFSC against the RBI database. If an invalid code is supplied, our team will immediately alert you via WhatsApp before dispatching funds.'
+  },
+  {
+    q: 'Do regional rural banks (Gramin Banks) support IMPS withdrawals?',
+    a: 'Yes, over 140+ regional and cooperative banks in India support IMPS. As long as your bank branch has an active IFSC code, we can disburse funds directly.'
+  },
+  {
+    q: 'How do I know my IMPS payment has succeeded?',
+    a: 'You will receive an official SMS notification from your bank with the 12-digit RRN (Retrieval Reference Number) confirming the instant credit.'
+  },
+];
+
 export const ImpsWithdrawalPage: React.FC = () => (
   <>
     <SEOHead 
@@ -842,6 +879,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
       description="Withdraw large gaming winnings directly to any Indian bank account via 24/7 IMPS. High transaction limits, bank-grade encryption, and zero hidden fees." 
       canonical="/imps-withdrawal" 
       keywords="imps withdrawal betting, imps payout india, imps betting withdrawal, instant bank transfer betting india, netbanking betting withdrawal, lotus365 imps cashout" 
+      faqItems={impsWithdrawalFaqs}
     />
     <Layout>
       <PageHero 
@@ -866,7 +904,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
               For Lotus365 players withdrawing substantial sums—particularly balances between ₹50,000 and ₹5,00,000—IMPS is the preferred mechanism over UPI because it bypasses daily VPA limits imposed by retail apps like Google Pay. Payouts sent via IMPS land directly in your core bank account balance, ready for immediate ATM withdrawal, card spending, or personal transfers.
             </p>
             <p>
-              On <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, our automated treasury disburses IMPS transfers within 5 to 10 minutes of confirmation with zero deduction fees.
+              On <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, our automated treasury disburses IMPS transfers within 5 to 10 minutes of confirmation with zero deduction fees.
             </p>
           </div>
 
@@ -1056,32 +1094,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
               Frequently Asked Questions About IMPS Withdrawals
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What is the difference between IMPS and NEFT for betting cashouts?',
-                  a: 'NEFT operates in hourly batches and can be delayed overnight or on weekends. IMPS processes instantly in real time 24 hours a day, ensuring your funds reflect within 10 minutes even on Sunday midnight.'
-                },
-                {
-                  q: 'Are there any bank charges or deductions for IMPS withdrawals?',
-                  a: 'No. Lotus365 absorbs 100% of interbank IMPS charges. You receive your complete winning payout down to the exact rupee.'
-                },
-                {
-                  q: 'What is the maximum limit per IMPS transaction?',
-                  a: 'Standard banking guidelines allow up to ₹5,00,000 per IMPS transaction. If you are withdrawing larger sums (e.g., ₹10,00,000+), our financial team splits the payout into rapid sequential tranches or utilizes corporate RTGS.'
-                },
-                {
-                  q: 'What if I provide an incorrect IFSC code?',
-                  a: 'Our banking validation system automatically checks your IFSC against the RBI database. If an invalid code is supplied, our team will immediately alert you via WhatsApp before dispatching funds.'
-                },
-                {
-                  q: 'Do regional rural banks (Gramin Banks) support IMPS withdrawals?',
-                  a: 'Yes, over 140+ regional and cooperative banks in India support IMPS. As long as your bank branch has an active IFSC code, we can disburse funds directly.'
-                },
-                {
-                  q: 'How do I know my IMPS payment has succeeded?',
-                  a: 'You will receive an official SMS notification from your bank with the 12-digit RRN (Retrieval Reference Number) confirming the instant credit.'
-                },
-              ].map((faq, idx) => (
+              {impsWithdrawalFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -1103,6 +1116,33 @@ export const ImpsWithdrawalPage: React.FC = () => (
   </>
 );
 
+const paymentMethodsFaqs = [
+  {
+    q: 'Are credit cards or international debit cards accepted?',
+    a: 'Due to frequent international transaction blocks and high forex conversion fees by Indian banks, we prioritize UPI and direct IMPS transfers. These methods are faster, 100% free, and have a 99%+ success rate.'
+  },
+  {
+    q: 'Can I deposit with PhonePe and withdraw to Google Pay?',
+    a: 'Yes. As long as both UPI VPAs belong to you, you have full freedom to deposit via one UPI application and receive your winnings in another.'
+  },
+  {
+    q: 'Does Lotus365 charge any hidden maintenance or payment gateway fees?',
+    a: 'Never. Lotus365 maintains a strict zero-fee policy across all deposit and cashout channels.'
+  },
+  {
+    q: 'How can I check the status of a pending payment?',
+    a: 'Message our official WhatsApp desk (wa.link/880088) with your registered username and transaction UTR. Our agents verify and update transactions in real time.'
+  },
+  {
+    q: 'What is the fastest way to get started as a complete beginner?',
+    a: 'Start with a simple ₹100 deposit via PhonePe or Google Pay. It takes under 60 seconds to reflect, and our WhatsApp team will guide you through placing your first bet.'
+  },
+  {
+    q: 'Can I change my registered bank details later?',
+    a: 'Yes. You can update your withdrawal bank account or UPI ID at any time by sending a verification request through your registered WhatsApp number.'
+  },
+];
+
 export const PaymentMethodsPage: React.FC = () => (
   <>
     <SEOHead 
@@ -1110,6 +1150,7 @@ export const PaymentMethodsPage: React.FC = () => (
       description="Explore all accepted payment methods on Lotus365: UPI (GPay, PhonePe, Paytm), IMPS NetBanking, and Crypto. Fast deposits and sub-2-minute cashouts 24/7." 
       canonical="/payment-methods" 
       keywords="lotus365 payment methods, lotus365 deposit options, lotus365 withdrawal methods, upi imps betting india, crypto betting india, fastest betting payments" 
+      faqItems={paymentMethodsFaqs}
     />
     <Layout>
       <PageHero 
@@ -1128,7 +1169,7 @@ export const PaymentMethodsPage: React.FC = () => (
               Comprehensive Financial Gateway for Indian Players
             </h2>
             <p className="mb-4">
-              At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we believe financial flexibility and payment transparency are the cornerstones of a world-class gaming experience. We have tailored our payment infrastructure specifically for the Indian market, eliminating foreign conversion fees, frustrating credit card international blockades, and lengthy verification delays.
+              At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe financial flexibility and payment transparency are the cornerstones of a world-class gaming experience. We have tailored our payment infrastructure specifically for the Indian market, eliminating foreign conversion fees, frustrating credit card international blockades, and lengthy verification delays.
             </p>
             <p className="mb-4">
               Every payment rail featured on our platform is governed by three strict commitments: <strong>instant execution, 0% commission fees, and 24/7 human WhatsApp customer assistance</strong>.
@@ -1349,32 +1390,7 @@ export const PaymentMethodsPage: React.FC = () => (
               Frequently Asked Questions About Payment Methods
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Are credit cards or international debit cards accepted?',
-                  a: 'Due to frequent international transaction blocks and high forex conversion fees by Indian banks, we prioritize UPI and direct IMPS transfers. These methods are faster, 100% free, and have a 99%+ success rate.'
-                },
-                {
-                  q: 'Can I deposit with PhonePe and withdraw to Google Pay?',
-                  a: 'Yes. As long as both UPI VPAs belong to you, you have full freedom to deposit via one UPI application and receive your winnings in another.'
-                },
-                {
-                  q: 'Does Lotus365 charge any hidden maintenance or payment gateway fees?',
-                  a: 'Never. Lotus365 maintains a strict zero-fee policy across all deposit and cashout channels.'
-                },
-                {
-                  q: 'How can I check the status of a pending payment?',
-                  a: 'Message our official WhatsApp desk (wa.link/880088) with your registered username and transaction UTR. Our agents verify and update transactions in real time.'
-                },
-                {
-                  q: 'What is the fastest way to get started as a complete beginner?',
-                  a: 'Start with a simple ₹100 deposit via PhonePe or Google Pay. It takes under 60 seconds to reflect, and our WhatsApp team will guide you through placing your first bet.'
-                },
-                {
-                  q: 'Can I change my registered bank details later?',
-                  a: 'Yes. You can update your withdrawal bank account or UPI ID at any time by sending a verification request through your registered WhatsApp number.'
-                },
-              ].map((faq, idx) => (
+              {paymentMethodsFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -1396,6 +1412,33 @@ export const PaymentMethodsPage: React.FC = () => (
   </>
 );
 
+const twoMinuteCashoutFaqs = [
+  {
+    q: 'Is the 2-minute cashout really guaranteed on every withdrawal?',
+    a: 'Yes! Between 9:00 AM and 11:00 PM IST, all standard UPI withdrawal requests are executed and credited within 2 minutes. During late-night hours (11:00 PM to 9:00 AM), IMPS transfers usually take between 3 and 8 minutes.'
+  },
+  {
+    q: 'What is the minimum amount required for a 2-minute cashout?',
+    a: 'You can request an instant 2-minute cashout for amounts as low as ₹200 INR.'
+  },
+  {
+    q: 'Are there any fees deducted from my 2-minute withdrawal?',
+    a: 'No fees whatsoever. Lotus365 absorbs 100% of all interbank and UPI merchant processing fees.'
+  },
+  {
+    q: 'What should I do if my bank is undergoing scheduled server maintenance?',
+    a: 'If your recipient bank (e.g., SBI or HDFC) is undergoing unscheduled RBI downtime, our system will notify you immediately and allow you to reroute the payout to an alternate UPI handle or bank account.'
+  },
+  {
+    q: 'Can I withdraw multiple times in a single day?',
+    a: 'Yes! Players are permitted multiple withdrawals per day up to their account tier’s maximum daily limit with zero penalties.'
+  },
+  {
+    q: 'Do I need an app or app to withdraw my winnings?',
+    a: 'No app or app is needed. Simply coordinate your withdrawal through your verified WhatsApp chat with our support team.'
+  },
+];
+
 export const TwoMinuteCashoutPage: React.FC = () => (
   <>
     <SEOHead 
@@ -1403,6 +1446,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
       description="Learn about Lotus365's industry-first 2-minute cashout guarantee. Fast automated payouts directly to your UPI ID or Indian bank account without delay." 
       canonical="/2-minute-cashout" 
       keywords="2 minute cashout india, fastest withdrawal betting india, instant withdrawal betting, lotus365 cashout guarantee, 120 second betting withdrawal, instant upi cashout" 
+      faqItems={twoMinuteCashoutFaqs}
     />
     <Layout>
       <PageHero 
@@ -1424,7 +1468,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
               In the fast-moving world of online sports betting and live casino gaming, nothing matters more than the speed and reliability of your withdrawals. While many platforms brag about flashy odds and massive welcome banners, their true colors show when a player requests a cashout: lengthy verification hurdles, arbitrary account freezes, and frustrating 48-to-72-hour waiting periods.
             </p>
             <p className="mb-4">
-              At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we dismantled this outdated model by pioneering the <strong>2-Minute Cashout Guarantee</strong>. When you place a winning bet on an IPL match or strike a massive multiplier in <a href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline">Aviator</a>, your money is disbursed within 120 seconds of submitting your request on WhatsApp.
+              At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we dismantled this outdated model by pioneering the <strong>2-Minute Cashout Guarantee</strong>. When you place a winning bet on an IPL match or strike a massive multiplier in <Link to="/aviator-game" className="text-[#F0C419] font-semibold hover:underline">Aviator</Link>, your money is disbursed within 120 seconds of submitting your request on WhatsApp.
             </p>
             <p>
               We maintain dedicated liquidity reserves across India’s primary banking partners (HDFC, ICICI, SBI, and Axis Bank), ensuring that whether your cashout is ₹500 or ₹5,00,000, our automated disbursement gateway processes it immediately.
@@ -1643,32 +1687,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
               Frequently Asked Questions About 2-Minute Cashouts
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Is the 2-minute cashout really guaranteed on every withdrawal?',
-                  a: 'Yes! Between 9:00 AM and 11:00 PM IST, all standard UPI withdrawal requests are executed and credited within 2 minutes. During late-night hours (11:00 PM to 9:00 AM), IMPS transfers usually take between 3 and 8 minutes.'
-                },
-                {
-                  q: 'What is the minimum amount required for a 2-minute cashout?',
-                  a: 'You can request an instant 2-minute cashout for amounts as low as ₹200 INR.'
-                },
-                {
-                  q: 'Are there any fees deducted from my 2-minute withdrawal?',
-                  a: 'No fees whatsoever. Lotus365 absorbs 100% of all interbank and UPI merchant processing fees.'
-                },
-                {
-                  q: 'What should I do if my bank is undergoing scheduled server maintenance?',
-                  a: 'If your recipient bank (e.g., SBI or HDFC) is undergoing unscheduled RBI downtime, our system will notify you immediately and allow you to reroute the payout to an alternate UPI handle or bank account.'
-                },
-                {
-                  q: 'Can I withdraw multiple times in a single day?',
-                  a: 'Yes! Players are permitted multiple withdrawals per day up to their account tier’s maximum daily limit with zero penalties.'
-                },
-                {
-                  q: 'Do I need an app or app to withdraw my winnings?',
-                  a: 'No app or app is needed. Simply coordinate your withdrawal through your verified WhatsApp chat with our support team.'
-                },
-              ].map((faq, idx) => (
+              {twoMinuteCashoutFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

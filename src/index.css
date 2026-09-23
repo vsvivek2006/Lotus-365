@@ -310,3 +310,20 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* High-Performance Rendering & Sub-Millisecond Scrolling Optimizations */
+.page-cta-section,
+.related-pages-section,
+.faq-accordion-section,
+footer {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 500px;
+}
+
+/* GPU hardware acceleration for smooth 60/120fps scrolling and interactions */
+.gpu-accelerated {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+

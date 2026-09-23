@@ -39,6 +39,80 @@ import { WelcomeBonusPage, FirstDepositBonusPage, ReferralBonusPage, CashbackOff
 // Tier 7 — Blog / Info
 import { ReviewPage, VsCompetitorsPage, BettingTipsPage, IplPredictionsPage, OnlineCasinoGuidePage, SafeBettingGuidePage, MobileWebAppGuidePage, FaqPage, HowItWorksPage } from './pages/BlogGuidePages';
 
+// Tier 8 — Tournament & Leagues (10)
+import {
+  WplBettingPage,
+  PslBettingPage,
+  BblBettingPage,
+  CplBettingPage,
+  AsiaCupBettingPage,
+  IccOdiWorldCupPage,
+  TestCricketBettingPage,
+  LiveCricketScoreOddsPage,
+  CricketSessionBettingPage,
+  CricketTossPredictionPage,
+} from './pages/TournamentSportPages';
+
+// Tier 9 — Exchange Guides & Trading (8)
+import {
+  BackAndLayBettingPage,
+  ExchangeCommissionRatesPage,
+  BettingExchangeVsSportsbookPage,
+  BookmakerMarketPage,
+  InPlayCashoutGuidePage,
+  MatchOddsTradingPage,
+  TiedMatchRulesPage,
+  BetSlipGuidePage,
+} from './pages/ExchangeGuidePages';
+
+// Tier 10 — Asian & Live Casino (10)
+import {
+  Lucky7GamePage,
+  ThirtyTwoCardsCasinoPage,
+  SuperOverGamePage,
+  MuflisTeenPattiPage,
+  Ak47TeenPattiPage,
+  JokerTeenPattiPage,
+  RouletteStrategiesPage,
+  LiveDealerGamesPage,
+  CrazyTimePage,
+  MegaWheelPage,
+} from './pages/AsianCasinoPages';
+
+// Tier 11 — Wallet & Banking (8)
+import {
+  PhonePeDepositPage,
+  GooglePayDepositPage,
+  PaytmDepositPage,
+  BankTransferNeftRtgsPage,
+  CryptoDepositUsdtPage,
+  WithdrawalProofTimesPage,
+  KycVerificationGuidePage,
+  AccountSecurityTipsPage,
+} from './pages/WalletBankingPages';
+
+// Tier 12 — Regional Indian Cricket (6)
+import {
+  CricketBettingDelhiPage,
+  CricketBettingMumbaiPage,
+  CricketBettingPunjabPage,
+  CricketBettingBangalorePage,
+  CricketBettingHyderabadPage,
+  CricketBettingKolkataPage,
+} from './pages/RegionalPages';
+
+// Tier 13 — Strategy & Calculators (8)
+import {
+  BettingOddsCalculatorPage,
+  DutchingCalculatorGuidePage,
+  IplTeamsBettingOddsPage,
+  CricketBettingGlossaryPage,
+  Lotus365BluePage,
+  Lotus365PartnerProgramPage,
+  ComplaintsResolutionPage,
+  ResponsibleGamblingToolsPage,
+} from './pages/StrategyResourcePages';
+
 const RootLayout: React.FC = () => (
   <>
     <ScrollToTop />
@@ -119,6 +193,68 @@ export const staticRoutes = [
       { path: '/mobile-web-app-guide', element: <MobileWebAppGuidePage /> },
       { path: '/faq', element: <FaqPage /> },
       { path: '/how-it-works', element: <HowItWorksPage /> },
+
+      // ── TIER 8: TOURNAMENTS & CRICKET LEAGUES (10) ─────────────────────────────
+      { path: '/wpl-betting', element: <WplBettingPage /> },
+      { path: '/psl-betting', element: <PslBettingPage /> },
+      { path: '/bbl-betting', element: <BblBettingPage /> },
+      { path: '/cpl-betting', element: <CplBettingPage /> },
+      { path: '/asia-cup-betting', element: <AsiaCupBettingPage /> },
+      { path: '/icc-odi-world-cup', element: <IccOdiWorldCupPage /> },
+      { path: '/test-cricket-betting', element: <TestCricketBettingPage /> },
+      { path: '/live-cricket-score-odds', element: <LiveCricketScoreOddsPage /> },
+      { path: '/cricket-session-betting', element: <CricketSessionBettingPage /> },
+      { path: '/cricket-toss-prediction', element: <CricketTossPredictionPage /> },
+
+      // ── TIER 9: EXCHANGE GUIDES & TRADING (8) ─────────────────────────────────
+      { path: '/back-and-lay-betting', element: <BackAndLayBettingPage /> },
+      { path: '/exchange-commission-rates', element: <ExchangeCommissionRatesPage /> },
+      { path: '/betting-exchange-vs-sportsbook', element: <BettingExchangeVsSportsbookPage /> },
+      { path: '/bookmaker-market', element: <BookmakerMarketPage /> },
+      { path: '/in-play-cashout-guide', element: <InPlayCashoutGuidePage /> },
+      { path: '/match-odds-trading', element: <MatchOddsTradingPage /> },
+      { path: '/tied-match-rules', element: <TiedMatchRulesPage /> },
+      { path: '/bet-slip-guide', element: <BetSlipGuidePage /> },
+
+      // ── TIER 10: ASIAN & LIVE CASINO (10) ──────────────────────────────────────
+      { path: '/lucky-7-game', element: <Lucky7GamePage /> },
+      { path: '/32-cards-casino', element: <ThirtyTwoCardsCasinoPage /> },
+      { path: '/super-over-game', element: <SuperOverGamePage /> },
+      { path: '/muflis-teen-patti', element: <MuflisTeenPattiPage /> },
+      { path: '/ak47-teen-patti', element: <Ak47TeenPattiPage /> },
+      { path: '/joker-teen-patti', element: <JokerTeenPattiPage /> },
+      { path: '/roulette-strategies', element: <RouletteStrategiesPage /> },
+      { path: '/live-dealer-games', element: <LiveDealerGamesPage /> },
+      { path: '/crazy-time', element: <CrazyTimePage /> },
+      { path: '/mega-wheel', element: <MegaWheelPage /> },
+
+      // ── TIER 11: WALLET & BANKING (8) ──────────────────────────────────────────
+      { path: '/phonepe-deposit', element: <PhonePeDepositPage /> },
+      { path: '/google-pay-deposit', element: <GooglePayDepositPage /> },
+      { path: '/paytm-deposit', element: <PaytmDepositPage /> },
+      { path: '/bank-transfer-neft-rtgs', element: <BankTransferNeftRtgsPage /> },
+      { path: '/crypto-deposit-usdt', element: <CryptoDepositUsdtPage /> },
+      { path: '/withdrawal-proof-times', element: <WithdrawalProofTimesPage /> },
+      { path: '/kyc-verification-guide', element: <KycVerificationGuidePage /> },
+      { path: '/account-security-tips', element: <AccountSecurityTipsPage /> },
+
+      // ── TIER 12: REGIONAL INDIAN CRICKET (6) ───────────────────────────────────
+      { path: '/cricket-betting-delhi', element: <CricketBettingDelhiPage /> },
+      { path: '/cricket-betting-mumbai', element: <CricketBettingMumbaiPage /> },
+      { path: '/cricket-betting-punjab', element: <CricketBettingPunjabPage /> },
+      { path: '/cricket-betting-bangalore', element: <CricketBettingBangalorePage /> },
+      { path: '/cricket-betting-hyderabad', element: <CricketBettingHyderabadPage /> },
+      { path: '/cricket-betting-kolkata', element: <CricketBettingKolkataPage /> },
+
+      // ── TIER 13: STRATEGY & CALCULATORS (8) ────────────────────────────────────
+      { path: '/betting-odds-calculator', element: <BettingOddsCalculatorPage /> },
+      { path: '/dutching-calculator-guide', element: <DutchingCalculatorGuidePage /> },
+      { path: '/ipl-teams-betting-odds', element: <IplTeamsBettingOddsPage /> },
+      { path: '/cricket-betting-glossary', element: <CricketBettingGlossaryPage /> },
+      { path: '/lotus365-blue', element: <Lotus365BluePage /> },
+      { path: '/lotus365-partner-program', element: <Lotus365PartnerProgramPage /> },
+      { path: '/complaints-resolution', element: <ComplaintsResolutionPage /> },
+      { path: '/responsible-gambling-tools', element: <ResponsibleGamblingToolsPage /> },
     ],
   },
 ];

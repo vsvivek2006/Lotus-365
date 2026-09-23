@@ -18,7 +18,7 @@ export const PageCTA: React.FC<PageCTAProps> = ({
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#14614C] to-[#0b3b2d]">
+    <section className="page-cta-section py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#14614C] to-[#0b3b2d]">
       <div className="max-w-3xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F0C419]/15 border border-[#F0C419]/30 text-xs font-extrabold text-[#F0C419] uppercase tracking-wider mb-6">
           <Sparkles className="w-3.5 h-3.5" />

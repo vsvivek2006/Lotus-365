@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -18,13 +19,40 @@ import {
   TrendingUp, 
   Star 
 } from 'lucide-react';
-import { OFFICIAL_WHATSAPP_URL, getWhatsAppUrl } from '../data/landingData';
+import { getWhatsAppUrl } from '../data/landingData';
 
 const bonusRelated = [
   { href: '/register', label: 'Register Free', description: 'Get your WhatsApp ID in 2 minutes' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Fund your account via UPI' },
   { href: '/vip-club', label: 'VIP Club', description: 'Exclusive member rewards' },
   { href: '/referral-bonus', label: 'Referral Bonus', description: 'Earn by inviting friends' },
+];
+
+const welcomeBonusFaqs = [
+  {
+    q: 'Can I withdraw my deposit money before completing the bonus rollover?',
+    a: 'You can forfeit the promotional bonus amount at any time if you wish to withdraw your real-money deposit balance without waiting to finish the remaining rollover.'
+  },
+  {
+    q: 'What is the minimum deposit required to qualify for the welcome bonus?',
+    a: 'The minimum qualifying deposit is just ₹100 via UPI (Google Pay, PhonePe, Paytm), ensuring that every new Indian player can enjoy bonus benefits.'
+  },
+  {
+    q: 'Do Aviator and Crash Games count toward the rollover?',
+    a: 'Yes, crash games like Spribe Aviator contribute 50% toward the wagering requirement, making them a swift way to build turnover alongside sports bets.'
+  },
+  {
+    q: 'Can I claim the welcome bonus more than once?',
+    a: 'No. To maintain fairness, the welcome bonus is strictly limited to one per player, household, and registered WhatsApp mobile number.'
+  },
+  {
+    q: 'How long do I have to clear the wagering requirements?',
+    a: 'You have a generous 30-day window from the date of credit to complete the turnover criteria.'
+  },
+  {
+    q: 'What other bonuses are available after the welcome offer?',
+    a: 'Once you complete your welcome promotion, you become eligible for our weekly cashback program, referral cash bonuses, and VIP Club reload rewards!'
+  },
 ];
 
 export const WelcomeBonusPage: React.FC = () => (
@@ -34,6 +62,7 @@ export const WelcomeBonusPage: React.FC = () => (
       description="Claim your 100% Welcome Bonus up to ₹5,000 on Lotus365! Instant bonus crediting upon first deposit, fair wagering requirements, and 2-minute UPI cashouts." 
       canonical="/welcome-bonus" 
       keywords="lotus365 welcome bonus, lotus365 new member bonus, lotus365 first deposit bonus, lotus365 bonus offer india, betting welcome bonus india, 100% deposit bonus" 
+      faqItems={welcomeBonusFaqs}
     />
     <Layout>
       <PageHero 
@@ -70,7 +99,7 @@ export const WelcomeBonusPage: React.FC = () => (
               Starting your online sports betting or live casino journey should be backed by real value, not deceptive marketing gimmicks. Many offshore bookmakers advertise enormous bonus figures like "300% up to ₹50,000," only to trap players with predatory 40x wagering hurdles, unrealistic 3-day deadlines, and hidden withdrawal caps that make cashing out winnings virtually impossible.
             </p>
             <p className="mb-4">
-              At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we believe in straightforward, player-first hospitality. Our <strong>100% Welcome Bonus</strong> is designed to provide you with meaningful, playable bankroll leverage. Whether you intend to back your favorite IPL franchise on our <a href="/cricket-exchange" className="text-[#F0C419] font-semibold hover:underline">Cricket Exchange</a>, try high-RTP <a href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline">Aviator crash rounds</a>, or play hands of <a href="/teen-patti" className="text-[#F0C419] font-semibold hover:underline">Live Teen Patti</a>, our welcome credits give you an immediate competitive edge.
+              At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe in straightforward, player-first hospitality. Our <strong>100% Welcome Bonus</strong> is designed to provide you with meaningful, playable bankroll leverage. Whether you intend to back your favorite IPL franchise on our <Link to="/cricket-exchange" className="text-[#F0C419] font-semibold hover:underline">Cricket Exchange</Link>, try high-RTP <Link to="/aviator-game" className="text-[#F0C419] font-semibold hover:underline">Aviator crash rounds</Link>, or play hands of <Link to="/teen-patti" className="text-[#F0C419] font-semibold hover:underline">Live Teen Patti</Link>, our welcome credits give you an immediate competitive edge.
             </p>
           </div>
 
@@ -249,32 +278,7 @@ export const WelcomeBonusPage: React.FC = () => (
               Frequently Asked Questions About the Welcome Bonus
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Can I withdraw my deposit money before completing the bonus rollover?',
-                  a: 'You can forfeit the promotional bonus amount at any time if you wish to withdraw your real-money deposit balance without waiting to finish the remaining rollover.'
-                },
-                {
-                  q: 'What is the minimum deposit required to qualify for the welcome bonus?',
-                  a: 'The minimum qualifying deposit is just ₹100 via UPI (Google Pay, PhonePe, Paytm), ensuring that every new Indian player can enjoy bonus benefits.'
-                },
-                {
-                  q: 'Do Aviator and Crash Games count toward the rollover?',
-                  a: 'Yes, crash games like Spribe Aviator contribute 50% toward the wagering requirement, making them a swift way to build turnover alongside sports bets.'
-                },
-                {
-                  q: 'Can I claim the welcome bonus more than once?',
-                  a: 'No. To maintain fairness, the welcome bonus is strictly limited to one per player, household, and registered WhatsApp mobile number.'
-                },
-                {
-                  q: 'How long do I have to clear the wagering requirements?',
-                  a: 'You have a generous 30-day window from the date of credit to complete the turnover criteria.'
-                },
-                {
-                  q: 'What other bonuses are available after the welcome offer?',
-                  a: 'Once you complete your welcome promotion, you become eligible for our weekly cashback program, referral cash bonuses, and VIP Club reload rewards!'
-                },
-              ].map((faq, idx) => (
+              {welcomeBonusFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -296,6 +300,37 @@ export const WelcomeBonusPage: React.FC = () => (
   </>
 );
 
+const firstDepositBonusFaqs = [
+  {
+    q: 'How soon after depositing will my first deposit bonus be credited?',
+    a: 'Your bonus is credited immediately alongside your initial deposit as soon as our WhatsApp financial desk validates your UPI payment UTR.'
+  },
+  {
+    q: 'Can I use my bonus on both cricket betting and live casino games?',
+    a: 'Yes! Your balance is unified across our platform, enabling you to wager on sports, casino tables, and crash games simultaneously.'
+  },
+  {
+    q: 'What happens if I don’t complete the turnover within 30 days?',
+    a: 'If the turnover target is not met within 30 days, the bonus credits expire, but your real-money deposit and any unlocked winnings remain safe and withdrawable.'
+  },
+  {
+    q: 'Is there any bonus code required to activate the promotion?',
+    a: 'No complicated promo codes are required. Simply inform your WhatsApp concierge when sending your deposit confirmation.'
+  },
+  {
+    q: 'Can I withdraw my winnings using UPI after meeting rollover?',
+    a: 'Yes! All winnings earned with bonus funds can be withdrawn via PhonePe, GPay, Paytm, or IMPS within 2 minutes once rollover criteria are met.'
+  },
+  {
+    q: 'Can I deposit in cryptocurrency like USDT for the first deposit bonus?',
+    a: 'Yes, Lotus365 supports USDT TRC-20 deposits alongside Indian UPI banking. When depositing in crypto, our finance desk applies real-time INR exchange conversion rates and immediately activates your tier match bonus.'
+  },
+  {
+    q: 'Does placing exchange lay bets count towards the first deposit bonus turnover?',
+    a: 'Yes! Both back and lay wagers on the Lotus365 Cricket Exchange contribute 100% toward meeting your wagering turnover targets, providing ultimate flexibility in clearing your bonus safely.'
+  },
+];
+
 export const FirstDepositBonusPage: React.FC = () => (
   <>
     <SEOHead 
@@ -303,6 +338,7 @@ export const FirstDepositBonusPage: React.FC = () => (
       description="Double your starting balance on Lotus365 with our First Deposit Bonus. Valid on all sports exchange markets, live casino games, and Aviator crash rounds." 
       canonical="/first-deposit-bonus" 
       keywords="first deposit bonus india, lotus365 first deposit, lotus365 deposit bonus, first bet bonus india, cricket first deposit offer, sign up bonus betting" 
+      faqItems={firstDepositBonusFaqs}
     />
     <Layout>
       <PageHero 
@@ -322,10 +358,10 @@ export const FirstDepositBonusPage: React.FC = () => (
               Unlock Maximum Value from Your Opening Deposit
             </h2>
             <p className="mb-4">
-              Your initial deposit on <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a> is more than just funding your account; it is your gateway to our elite loyalty ecosystem. We offer a progressive, tiered <strong>First Deposit Booster</strong> that rewards both cautious beginners and high-stakes veterans with tailored promotional balances.
+              Your initial deposit on <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> is more than just funding your account; it is your gateway to our elite loyalty ecosystem. We offer a progressive, tiered <strong>First Deposit Booster</strong> that rewards both cautious beginners and high-stakes veterans with tailored promotional balances.
             </p>
             <p className="mb-4">
-              By aligning your first deposit with the right tier bracket, you can unlock up to <strong>150% in matching bonus credits</strong>, complimentary free bets for high-profile IPL matches, and automatic fast-track entry into the Lotus365 <a href="/vip-club" className="text-[#F0C419] font-semibold hover:underline">VIP Club</a>.
+              By aligning your first deposit with the right tier bracket, you can unlock up to <strong>150% in matching bonus credits</strong>, complimentary free bets for high-profile IPL matches, and automatic fast-track entry into the Lotus365 <Link to="/vip-club" className="text-[#F0C419] font-semibold hover:underline">VIP Club</Link>.
             </p>
           </div>
 
@@ -383,7 +419,7 @@ export const FirstDepositBonusPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Leverage the Cricket Exchange Back/Lay Advantage</h3>
                 <p className="text-xs text-white/80">
-                  Fulfill your turnover requirements on our <a href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</a> by backing solid favorites or laying overpriced longshots with tight spreads, preserving your core principal while steadily chipping away at the turnover target.
+                  Fulfill your turnover requirements on our <Link to="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link> by backing solid favorites or laying overpriced longshots with tight spreads, preserving your core principal while steadily chipping away at the turnover target.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
@@ -486,36 +522,7 @@ export const FirstDepositBonusPage: React.FC = () => (
               Frequently Asked Questions About the First Deposit Bonus
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'How soon after depositing will my first deposit bonus be credited?',
-                  a: 'Your bonus is credited immediately alongside your initial deposit as soon as our WhatsApp financial desk validates your UPI payment UTR.'
-                },
-                {
-                  q: 'Can I use my bonus on both cricket betting and live casino games?',
-                  a: 'Yes! Your balance is unified across our platform, enabling you to wager on sports, casino tables, and crash games simultaneously.'
-                },
-                {
-                  q: 'What happens if I don’t complete the turnover within 30 days?',
-                  a: 'If the turnover target is not met within 30 days, the bonus credits expire, but your real-money deposit and any unlocked winnings remain safe and withdrawable.'
-                },
-                {
-                  q: 'Is there any bonus code required to activate the promotion?',
-                  a: 'No complicated promo codes are required. Simply inform your WhatsApp concierge when sending your deposit confirmation.'
-                },
-                {
-                  q: 'Can I withdraw my winnings using UPI after meeting rollover?',
-                  a: 'Yes! All winnings earned with bonus funds can be withdrawn via PhonePe, GPay, Paytm, or IMPS within 2 minutes once rollover criteria are met.'
-                },
-                {
-                  q: 'Can I deposit in cryptocurrency like USDT for the first deposit bonus?',
-                  a: 'Yes, Lotus365 supports USDT TRC-20 deposits alongside Indian UPI banking. When depositing in crypto, our finance desk applies real-time INR exchange conversion rates and immediately activates your tier match bonus.'
-                },
-                {
-                  q: 'Does placing exchange lay bets count towards the first deposit bonus turnover?',
-                  a: 'Yes! Both back and lay wagers on the Lotus365 Cricket Exchange contribute 100% toward meeting your wagering turnover targets, providing ultimate flexibility in clearing your bonus safely.'
-                },
-              ].map((faq, idx) => (
+              {firstDepositBonusFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -537,6 +544,29 @@ export const FirstDepositBonusPage: React.FC = () => (
   </>
 );
 
+const referralBonusFaqs = [
+  {
+    q: 'Is there any limit to how many friends I can refer?',
+    a: 'No! There is absolutely no ceiling. You can refer 5 friends or 500 friends and earn bonuses on every single qualified participant.'
+  },
+  {
+    q: 'Do I have to bet the referral cash bonus before withdrawing it?',
+    a: 'No. Referral cash bounties are credited as real cash with zero turnover restrictions, meaning you can cash them out to your UPI immediately.'
+  },
+  {
+    q: 'Can I refer family members who live in the same house?',
+    a: 'To prevent fraudulent multi-accounting, referrals must be distinct individuals with their own mobile numbers and personal bank accounts.'
+  },
+  {
+    q: 'How frequently are turnover commissions disbursed?',
+    a: 'Turnover commissions are calculated every Sunday midnight and credited directly to your main wallet balance every Monday at 12:00 PM IST.'
+  },
+  {
+    q: 'What should my friend say when they contact WhatsApp?',
+    a: 'Your friend should provide your unique referral code or mention your registered username during their initial greeting to ensure the referral is properly linked.'
+  },
+];
+
 export const ReferralBonusPage: React.FC = () => (
   <>
     <SEOHead 
@@ -544,6 +574,7 @@ export const ReferralBonusPage: React.FC = () => (
       description="Earn unlimited real cash bonuses by referring friends to Lotus365! Get cash rewards for every active referral with instant withdrawal eligibility via UPI." 
       canonical="/referral-bonus" 
       keywords="lotus365 referral bonus, lotus365 refer a friend, lotus365 affiliate, invite friends betting india, earn money betting referral, betting affiliate program india" 
+      faqItems={referralBonusFaqs}
     />
     <Layout>
       <PageHero 
@@ -749,28 +780,7 @@ export const ReferralBonusPage: React.FC = () => (
               Frequently Asked Questions About the Referral Program
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Is there any limit to how many friends I can refer?',
-                  a: 'No! There is absolutely no ceiling. You can refer 5 friends or 500 friends and earn bonuses on every single qualified participant.'
-                },
-                {
-                  q: 'Do I have to bet the referral cash bonus before withdrawing it?',
-                  a: 'No. Referral cash bounties are credited as real cash with zero turnover restrictions, meaning you can cash them out to your UPI immediately.'
-                },
-                {
-                  q: 'Can I refer family members who live in the same house?',
-                  a: 'To prevent fraudulent multi-accounting, referrals must be distinct individuals with their own mobile numbers and personal bank accounts.'
-                },
-                {
-                  q: 'How frequently are turnover commissions disbursed?',
-                  a: 'Turnover commissions are calculated every Sunday midnight and credited directly to your main wallet balance every Monday at 12:00 PM IST.'
-                },
-                {
-                  q: 'What should my friend say when they contact WhatsApp?',
-                  a: 'Your friend should provide your unique referral code or mention your registered username during their initial greeting to ensure the referral is properly linked.'
-                },
-              ].map((faq, idx) => (
+              {referralBonusFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -792,6 +802,25 @@ export const ReferralBonusPage: React.FC = () => (
   </>
 );
 
+const cashbackOffersFaqs = [
+  {
+    q: 'Do I need to manually request my cashback on WhatsApp every week?',
+    a: 'No! Cashback is calculated programmatically and credited automatically to all eligible active accounts every Monday by 12:00 PM IST.'
+  },
+  {
+    q: 'Is there any maximum cap on how much cashback I can receive?',
+    a: 'For Standard and Silver accounts, weekly cashback is capped at ₹25,000. For Gold, Platinum, and Black Card members, cashback is 100% uncapped.'
+  },
+  {
+    q: 'Can I withdraw my cashback immediately via UPI?',
+    a: 'For Gold, Platinum, and Black Card members, cashback has 0x rollover and can be withdrawn immediately. For Bronze and Silver members, a simple 1x turnover is required.'
+  },
+  {
+    q: 'What games count toward cashback calculation?',
+    a: 'All settled bets across Cricket, Football, Tennis, Live Casino (Teen Patti, Andar Bahar, Roulette, Blackjack), and Spribe Aviator are factored into your weekly net calculation.'
+  },
+];
+
 export const CashbackOffersPage: React.FC = () => (
   <>
     <SEOHead 
@@ -799,6 +828,7 @@ export const CashbackOffersPage: React.FC = () => (
       description="Play with confidence on Lotus365. Enjoy up to 15% weekly loss cashback credited automatically to your account every Monday with zero turnover hurdles." 
       canonical="/cashback-offers" 
       keywords="cashback betting india, lotus365 cashback, weekly cashback betting, cricket cashback offer india, casino loss rebate, betting insurance india" 
+      faqItems={cashbackOffersFaqs}
     />
     <Layout>
       <PageHero 
@@ -818,7 +848,7 @@ export const CashbackOffersPage: React.FC = () => (
               Real Cash Rebates: Because Every Bettor Deserves a Second Chance
             </h2>
             <p className="mb-4">
-              In sports betting and casino games, variance is an inescapable reality. Even the most seasoned cricket analysts occasionally suffer an unlucky over or an unexpected batting collapse. At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we believe true customer loyalty means standing by our players during downswings.
+              In sports betting and casino games, variance is an inescapable reality. Even the most seasoned cricket analysts occasionally suffer an unlucky over or an unexpected batting collapse. At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe true customer loyalty means standing by our players during downswings.
             </p>
             <p className="mb-4">
               Our <strong>Weekly Cashback Program</strong> functions as an automatic financial cushion. Every Monday at 12:00 PM IST, our automated ledger calculates your net activity across all sports and casino games for the preceding seven days. A healthy percentage of your net losses is returned straight to your wallet as real, playable, and withdrawable cash.
@@ -1012,24 +1042,7 @@ export const CashbackOffersPage: React.FC = () => (
               Frequently Asked Questions About Weekly Cashback
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Do I need to manually request my cashback on WhatsApp every week?',
-                  a: 'No! Cashback is calculated programmatically and credited automatically to all eligible active accounts every Monday by 12:00 PM IST.'
-                },
-                {
-                  q: 'Is there any maximum cap on how much cashback I can receive?',
-                  a: 'For Standard and Silver accounts, weekly cashback is capped at ₹25,000. For Gold, Platinum, and Black Card members, cashback is 100% uncapped.'
-                },
-                {
-                  q: 'Can I withdraw my cashback immediately via UPI?',
-                  a: 'For Gold, Platinum, and Black Card members, cashback has 0x rollover and can be withdrawn immediately. For Bronze and Silver members, a simple 1x turnover is required.'
-                },
-                {
-                  q: 'What games count toward cashback calculation?',
-                  a: 'All settled bets across Cricket, Football, Tennis, Live Casino (Teen Patti, Andar Bahar, Roulette, Blackjack), and Spribe Aviator are factored into your weekly net calculation.'
-                },
-              ].map((faq, idx) => (
+              {cashbackOffersFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -1051,6 +1064,25 @@ export const CashbackOffersPage: React.FC = () => (
   </>
 );
 
+const vipClubFaqs = [
+  {
+    q: 'How do I qualify for the Lotus365 VIP Club?',
+    a: 'VIP status is automatically awarded based on your monthly wagering volume. You can also request an account evaluation by messaging our WhatsApp VIP desk directly.'
+  },
+  {
+    q: 'Can I fast-track my VIP status with a large initial deposit?',
+    a: 'Yes! Players making an opening deposit of ₹1,00,000 or greater are immediately enrolled in Silver VIP status with full concierge privileges.'
+  },
+  {
+    q: 'Do VIP members get special odds on the cricket exchange?',
+    a: 'VIP members enjoy reduced commission rates (as low as 0%) on select cricket exchange markets, maximizing long-term profitability.'
+  },
+  {
+    q: 'How do I access VIP live dealer tables?',
+    a: 'Your Account Manager will grant you access to exclusive Salon Privé blackjack, baccarat, and roulette suites with high minimum bet limits.'
+  },
+];
+
 export const VipClubPage: React.FC = () => (
   <>
     <SEOHead 
@@ -1058,6 +1090,7 @@ export const VipClubPage: React.FC = () => (
       description="Join the exclusive Lotus365 VIP Club. Enjoy dedicated 24/7 WhatsApp relationship managers, sub-60-second priority cashouts, and luxury high-roller perks." 
       canonical="/vip-club" 
       keywords="lotus365 vip club, lotus365 vip, lotus365 premium membership, vip betting india, vip casino india, high roller betting india" 
+      faqItems={vipClubFaqs}
     />
     <Layout>
       <PageHero 
@@ -1077,7 +1110,7 @@ export const VipClubPage: React.FC = () => (
               Bespoke Gaming Luxury for Discerning Indian High Rollers
             </h2>
             <p className="mb-4">
-              At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, high-volume players are not treated like algorithmic numbers in a database. The <strong>Lotus365 VIP Club</strong> is an invitation-tier loyalty program crafted to deliver the white-glove treatment you would expect from the world's premier casinos in Macau, London, or Las Vegas.
+              At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, high-volume players are not treated like algorithmic numbers in a database. The <strong>Lotus365 VIP Club</strong> is an invitation-tier loyalty program crafted to deliver the white-glove treatment you would expect from the world's premier casinos in Macau, London, or Las Vegas.
             </p>
             <p className="mb-4">
               From the moment you ascend to VIP status, you receive a direct private WhatsApp communication channel with a dedicated Senior Account Director who oversees your deposits, facilitates custom betting limits on cricket matches, and coordinates priority IMPS payouts in under 60 seconds.
@@ -1245,24 +1278,7 @@ export const VipClubPage: React.FC = () => (
               Frequently Asked Questions About the VIP Club
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'How do I qualify for the Lotus365 VIP Club?',
-                  a: 'VIP status is automatically awarded based on your monthly wagering volume. You can also request an account evaluation by messaging our WhatsApp VIP desk directly.'
-                },
-                {
-                  q: 'Can I fast-track my VIP status with a large initial deposit?',
-                  a: 'Yes! Players making an opening deposit of ₹1,00,000 or greater are immediately enrolled in Silver VIP status with full concierge privileges.'
-                },
-                {
-                  q: 'Do VIP members get special odds on the cricket exchange?',
-                  a: 'VIP members enjoy reduced commission rates (as low as 0%) on select cricket exchange markets, maximizing long-term profitability.'
-                },
-                {
-                  q: 'How do I access VIP live dealer tables?',
-                  a: 'Your Account Manager will grant you access to exclusive Salon Privé blackjack, baccarat, and roulette suites with high minimum bet limits.'
-                },
-              ].map((faq, idx) => (
+              {vipClubFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -1290,6 +1306,25 @@ export const VipClubPage: React.FC = () => (
   </>
 );
 
+const vipBlackCardFaqs = [
+  {
+    q: 'What is the turnover requirement to qualify for the Black Card?',
+    a: 'Black Card membership is typically considered for players maintaining monthly betting volume of ₹1 Crore or higher across sports exchange or live casino markets.'
+  },
+  {
+    q: 'Can I withdraw large amounts via cryptocurrency as a Black Card member?',
+    a: 'Yes. Black Card holders can execute unlimited daily deposits and cashouts in USDT (TRC-20/BEP-20) with immediate blockchain confirmation.'
+  },
+  {
+    q: 'Are exchange commission rates waived for Black Card holders?',
+    a: 'Yes! Black Card members receive our absolute minimum 0% commission tier across all cricket and sports exchange betting markets.'
+  },
+  {
+    q: 'Is my financial privacy protected at the Black Card level?',
+    a: 'We adhere to the highest international data confidentiality standards. Your account details and high-stakes transactions are protected by end-to-end encryption and restricted executive access.'
+  },
+];
+
 export const VipBlackCardPage: React.FC = () => (
   <>
     <SEOHead 
@@ -1297,6 +1332,7 @@ export const VipBlackCardPage: React.FC = () => (
       description="Experience the peak of sports trading luxury with the Lotus365 VIP Black Card. 0% exchange fees, unlimited daily transaction volumes, and private concierge." 
       canonical="/vip-black-card" 
       keywords="lotus365 vip black card, lotus365 black card, lotus365 elite membership, vip black card india betting, high stakes cricket betting, ultra luxury betting" 
+      faqItems={vipBlackCardFaqs}
     />
     <Layout>
       <PageHero 
@@ -1477,24 +1513,7 @@ export const VipBlackCardPage: React.FC = () => (
               Frequently Asked Questions About the VIP Black Card
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'What is the turnover requirement to qualify for the Black Card?',
-                  a: 'Black Card membership is typically considered for players maintaining monthly betting volume of ₹1 Crore or higher across sports exchange or live casino markets.'
-                },
-                {
-                  q: 'Can I withdraw large amounts via cryptocurrency as a Black Card member?',
-                  a: 'Yes. Black Card holders can execute unlimited daily deposits and cashouts in USDT (TRC-20/BEP-20) with immediate blockchain confirmation.'
-                },
-                {
-                  q: 'Are exchange commission rates waived for Black Card holders?',
-                  a: 'Yes! Black Card members receive our absolute minimum 0% commission tier across all cricket and sports exchange betting markets.'
-                },
-                {
-                  q: 'Is my financial privacy protected at the Black Card level?',
-                  a: 'We adhere to the highest international data confidentiality standards. Your account details and high-stakes transactions are protected by end-to-end encryption and restricted executive access.'
-                },
-              ].map((faq, idx) => (
+              {vipBlackCardFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

@@ -4,6 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { Link } from 'react-router-dom';
 import { Trophy, Zap, Star, ShieldCheck, TrendingUp, Target, CheckCircle2, HelpCircle } from 'lucide-react';
 
 const related = [
@@ -13,6 +14,33 @@ const related = [
   { href: '/betting-tips', label: 'Cricket Betting Tips', description: 'Proven strategy & pitch analysis' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Instant UPI & IMPS deposit guide' },
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Lightning-fast UPI withdrawals' },
+];
+
+const cricketFaqs = [
+  {
+    question: 'Is cricket betting legal on Lotus365 in India?',
+    answer: 'Lotus365 operates under legitimate international gaming licenses in compliance with online service provisions. We provide a 100% encrypted, secure web platform enabling skill-based sports trading and peer-to-peer cricket exchange matching for consenting adults aged 18 and above.',
+  },
+  {
+    question: 'What is the minimum deposit required to start betting on cricket?',
+    answer: 'You can start cricket betting on Lotus365 with as little as ₹100. Deposits are processed instantaneously via UPI (Google Pay, PhonePe, Paytm, BHIM) and IMPS Net Banking with zero convenience charges or hidden administrative fees.',
+  },
+  {
+    question: 'How does session betting work in live cricket matches?',
+    answer: 'Session betting (also called Fancy or Khado betting) allows you to wager on whether the batting team will score more or less than a specified number of runs within a set over bracket (such as 6 overs powerplay, 10 overs, 15 overs, or 20 overs). Lotus365 updates session benchmarks ball-by-ball with live settlement as soon as the final ball of the session is bowled.',
+  },
+  {
+    question: 'How fast will I receive my cricket winnings when I withdraw?',
+    answer: 'Lotus365 prides itself on India\'s fastest withdrawal processing time. When you submit a withdrawal request via our 24/7 WhatsApp desk, funds are credited directly to your registered UPI ID or IMPS bank account in an average of 1 minute 45 seconds (guaranteed under 2 minutes).',
+  },
+  {
+    question: 'Can I bet on live cricket matches directly from my phone?',
+    answer: 'Yes, absolutely! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting with zero storage needed.',
+  },
+  {
+    question: 'Can I claim a welcome bonus on my first cricket deposit?',
+    answer: 'Yes! First-time depositors on Lotus365 are eligible for our exclusive new-member welcome bonus. Simply ask your WhatsApp relationship manager about the active deposit match promotion when you register your ID to receive bonus betting credits.',
+  },
 ];
 
 const features = [
@@ -31,6 +59,7 @@ export const CricketBettingPage: React.FC = () => (
       description="Bet on live cricket matches with Lotus365 India. Enjoy 0% commission, ball-by-ball odds, session markets, and instant 2-minute UPI cashouts. Register now!"
       canonical="/cricket-betting"
       keywords="cricket betting india, online cricket betting, cricket exchange live, best cricket odds, ipl betting 2026, session runs betting, live cricket match odds india"
+      faqItems={cricketFaqs}
     />
     <Layout>
       <PageHero
@@ -48,7 +77,7 @@ export const CricketBettingPage: React.FC = () => (
               Why Lotus365 Is India's Undisputed Leader in Cricket Betting
             </h2>
             <p className="text-center text-white/80 max-w-3xl mx-auto text-sm sm:text-base mb-8 leading-relaxed">
-              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
+              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {features.map((f, i) => (
@@ -67,7 +96,7 @@ export const CricketBettingPage: React.FC = () => (
               Comprehensive Cricket Betting Markets Covered on Lotus365
             </h2>
             <p>
-              Unlike traditional sportsbooks that limit you to basic match-winner outcomes, Lotus365 offers an exhaustive array of over 60 micro-markets for every televised match. Whether you are following international Test fixtures, bilateral ODIs, or high-intensity franchise tournaments like the <a href="/ipl-betting" className="text-[#F0C419] hover:underline font-semibold">Indian Premier League (IPL)</a>, our live board keeps you in complete control.
+              Unlike traditional sportsbooks that limit you to basic match-winner outcomes, Lotus365 offers an exhaustive array of over 60 micro-markets for every televised match. Whether you are following international Test fixtures, bilateral ODIs, or high-intensity franchise tournaments like the <Link to="/ipl-betting" className="text-[#F0C419] hover:underline font-semibold">Indian Premier League (IPL)</Link>, our live board keeps you in complete control.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
@@ -75,7 +104,7 @@ export const CricketBettingPage: React.FC = () => (
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                   <h3 className="text-base font-bold text-[#F0C419] mb-1">1. Match Winner & Outright Series Odds</h3>
                   <p className="text-xs text-white/75 leading-relaxed">
-                    Back your favoured team to win the match, or lay against outcomes on the <a href="/cricket-exchange" className="text-[#F0C419] hover:underline">cricket exchange</a>. Odds fluctuate live from the opening toss through the final over based on real-time pitch behavior and wicket casualties.
+                    Back your favoured team to win the match, or lay against outcomes on the <Link to="/cricket-exchange" className="text-[#F0C419] hover:underline">cricket exchange</Link>. Odds fluctuate live from the opening toss through the final over based on real-time pitch behavior and wicket casualties.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
@@ -170,7 +199,7 @@ export const CricketBettingPage: React.FC = () => (
               <span>Lotus365 Cricket Pro Tip: The "Greening Up" Strategy</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              On Lotus365's <a href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</a>, you can back a team at high pre-match odds (e.g., 2.20) and lay them during the match when they take early wickets and their odds drop to 1.30. By trading both positions, you lock in a guaranteed green profit before the match even finishes, regardless of who eventually wins!
+              On Lotus365's <Link to="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>, you can back a team at high pre-match odds (e.g., 2.20) and lay them during the match when they take early wickets and their odds drop to 1.30. By trading both positions, you lock in a guaranteed green profit before the match even finishes, regardless of who eventually wins!
             </p>
           </div>
 
@@ -210,12 +239,12 @@ export const CricketBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 01</div>
                 <h3 className="font-bold text-white mb-1">Request Your Login ID</h3>
-                <p className="text-xs text-white/70">Connect with our 24/7 WhatsApp verification desk at <a href="/contact" className="text-[#F0C419] hover:underline">contact support</a> and send a message requesting a new Lotus365 Cricket ID.</p>
+                <p className="text-xs text-white/70">Connect with our 24/7 WhatsApp verification desk at <Link to="/contact" className="text-[#F0C419] hover:underline">contact support</Link> and send a message requesting a new Lotus365 Cricket ID.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 02</div>
                 <h3 className="font-bold text-white mb-1">Deposit Funds via UPI</h3>
-                <p className="text-xs text-white/70">Deposit as little as ₹100 using PhonePe, Google Pay, or Paytm. Follow our <a href="/how-to-deposit" className="text-[#F0C419] hover:underline">deposit guide</a> for 30-second balance updates.</p>
+                <p className="text-xs text-white/70">Deposit as little as ₹100 using PhonePe, Google Pay, or Paytm. Follow our <Link to="/how-to-deposit" className="text-[#F0C419] hover:underline">deposit guide</Link> for 30-second balance updates.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 03</div>
@@ -225,7 +254,7 @@ export const CricketBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 04</div>
                 <h3 className="font-bold text-white mb-1">Instant 2-Minute Cashout</h3>
-                <p className="text-xs text-white/70">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <a href="/2-minute-cashout" className="text-[#F0C419] hover:underline">2-minute cashout SLA</a>.</p>
+                <p className="text-xs text-white/70">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <Link to="/2-minute-cashout" className="text-[#F0C419] hover:underline">2-minute cashout SLA</Link>.</p>
               </div>
             </div>
           </div>
@@ -237,38 +266,13 @@ export const CricketBettingPage: React.FC = () => (
               <span>Frequently Asked Questions About Cricket Betting on Lotus365</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                {
-                  q: 'Is cricket betting legal on Lotus365 in India?',
-                  a: 'Lotus365 operates under legitimate international gaming licenses in compliance with online service provisions. We provide a 100% encrypted, secure web platform enabling skill-based sports trading and peer-to-peer cricket exchange matching for consenting adults aged 18 and above.',
-                },
-                {
-                  q: 'What is the minimum deposit required to start betting on cricket?',
-                  a: 'You can start cricket betting on Lotus365 with as little as ₹100. Deposits are processed instantaneously via UPI (Google Pay, PhonePe, Paytm, BHIM) and IMPS Net Banking with zero convenience charges or hidden administrative fees.',
-                },
-                {
-                  q: 'How does session betting work in live cricket matches?',
-                  a: 'Session betting (also called Fancy or Khado betting) allows you to wager on whether the batting team will score more or less than a specified number of runs within a set over bracket (such as 6 overs powerplay, 10 overs, 15 overs, or 20 overs). Lotus365 updates session benchmarks ball-by-ball with live settlement as soon as the final ball of the session is bowled.',
-                },
-                {
-                  q: 'How fast will I receive my cricket winnings when I withdraw?',
-                  a: 'Lotus365 prides itself on India\'s fastest withdrawal processing time. When you submit a withdrawal request via our 24/7 WhatsApp desk, funds are credited directly to your registered UPI ID or IMPS bank account in an average of 1 minute 45 seconds (guaranteed under 2 minutes).',
-                },
-                {
-                  q: 'Can I bet on live cricket matches directly from my phone?',
-                  a: 'Yes, absolutely! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting with zero storage needed.',
-                },
-                {
-                  q: 'Can I claim a welcome bonus on my first cricket deposit?',
-                  a: 'Yes! First-time depositors on Lotus365 are eligible for our exclusive new-member welcome bonus. Simply ask your WhatsApp relationship manager about the active deposit match promotion when you register your ID to receive bonus betting credits.',
-                },
-              ].map((item, idx) => (
+              {cricketFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
-                    <span>{item.q}</span>
+                    <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

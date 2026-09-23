@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Smartphone, ShieldCheck, Zap, MessageCircle, ArrowRight, CheckCircle2, Award, Sparkles } from 'lucide-react';
+import { Smartphone, ShieldCheck, Zap, MessageCircle, ArrowRight, CheckCircle2, Sparkles } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface MobileAppProps {

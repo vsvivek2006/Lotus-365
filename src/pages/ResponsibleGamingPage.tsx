@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -21,6 +22,33 @@ const related = [
   { href: '/safe-betting-guide', label: 'Safe Betting Guide', description: 'Responsible bankroll management' },
 ];
 
+const responsibleGamingFaqs = [
+  {
+    q: 'How do I activate self-exclusion on my Lotus365 account?',
+    a: 'Simply send a WhatsApp message to our 24/7 support desk (wa.link/880088) stating: "Activate Self-Exclusion" along with your username and desired duration. Our team will immediately disable your login.'
+  },
+  {
+    q: 'Can I withdraw my remaining balance before self-excluding?',
+    a: 'Yes! Our financial desk will disburse 100% of your remaining withdrawable cash balance to your registered UPI or bank account prior to closing the account.'
+  },
+  {
+    q: 'Can I reverse a self-exclusion request if I change my mind?',
+    a: 'No. To protect players from impulsive decisions, self-exclusion periods are strictly irrevocable until the chosen timeframe has fully elapsed.'
+  },
+  {
+    q: 'Can family members request an account lock on behalf of a player?',
+    a: 'Yes. If a family member can verify relation and provide evidence of compulsive gambling distress, our compliance board will conduct a safety audit and suspend the account.'
+  },
+  {
+    q: 'Does Lotus365 notify players who have played continuously for long hours?',
+    a: 'Yes, our platform includes automated session reality-check reminders notifying you of the duration of your active gaming session.'
+  },
+  {
+    q: 'Can I restrict myself from specific game categories like Casino while keeping Sports?',
+    a: 'Yes! You can contact WhatsApp customer care to apply custom product-level locks, restricting live casino access while maintaining sports exchange functionality.'
+  },
+];
+
 export const ResponsibleGamingPage: React.FC = () => (
   <>
     <SEOHead
@@ -28,6 +56,7 @@ export const ResponsibleGamingPage: React.FC = () => (
       description="Lotus365 is committed to safe, responsible gaming. Explore our player protection tools, deposit limits, self-exclusion policy, and strict 18+ verification rules."
       canonical="/responsible-gaming"
       keywords="responsible gambling india, lotus365 responsible gaming, safe betting india, problem gambling support, deposit limits betting, self exclusion betting india"
+      faqItems={responsibleGamingFaqs}
     />
     <Layout>
       <PageHero
@@ -58,7 +87,7 @@ export const ResponsibleGamingPage: React.FC = () => (
               Strict 18+ Age Verification & Minor Protection
             </h2>
             <p className="mb-4">
-              Underage gambling is strictly prohibited on <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>. We enforce zero-tolerance policies regarding minors participating in any real-money sports betting or casino gaming activity.
+              Underage gambling is strictly prohibited on <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>. We enforce zero-tolerance policies regarding minors participating in any real-money sports betting or casino gaming activity.
             </p>
             <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
               <div className="flex items-center gap-2 text-rose-300 font-bold text-base">
@@ -238,7 +267,7 @@ export const ResponsibleGamingPage: React.FC = () => (
               Detailed 3-Step Self-Exclusion Procedure
             </h3>
             <ol className="list-decimal pl-5 space-y-2 text-xs text-white/80">
-              <li><strong>Contact Welfare Desk:</strong> Send a message on WhatsApp to <a href="/contact" className="text-[#F0C419] underline">wa.link/880088</a> requesting voluntary temporary or permanent self-exclusion.</li>
+              <li><strong>Contact Welfare Desk:</strong> Send a message on WhatsApp to <Link to="/contact" className="text-[#F0C419] underline">wa.link/880088</Link> requesting voluntary temporary or permanent self-exclusion.</li>
               <li><strong>Confirm Account Details:</strong> State your username and confirm whether you prefer a cooling-off timeout (24h to 30 days) or complete multi-year exclusion.</li>
               <li><strong>Balance Settlement:</strong> Our financial desk will immediately audit your wallet balance and remit all remaining unpledged funds to your verified UPI/IMPS account before locking login access.</li>
             </ol>
@@ -251,32 +280,7 @@ export const ResponsibleGamingPage: React.FC = () => (
               Frequently Asked Questions About Responsible Gaming
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'How do I activate self-exclusion on my Lotus365 account?',
-                  a: 'Simply send a WhatsApp message to our 24/7 support desk (wa.link/880088) stating: "Activate Self-Exclusion" along with your username and desired duration. Our team will immediately disable your login.'
-                },
-                {
-                  q: 'Can I withdraw my remaining balance before self-excluding?',
-                  a: 'Yes! Our financial desk will disburse 100% of your remaining withdrawable cash balance to your registered UPI or bank account prior to closing the account.'
-                },
-                {
-                  q: 'Can I reverse a self-exclusion request if I change my mind?',
-                  a: 'No. To protect players from impulsive decisions, self-exclusion periods are strictly irrevocable until the chosen timeframe has fully elapsed.'
-                },
-                {
-                  q: 'Can family members request an account lock on behalf of a player?',
-                  a: 'Yes. If a family member can verify relation and provide evidence of compulsive gambling distress, our compliance board will conduct a safety audit and suspend the account.'
-                },
-                {
-                  q: 'Does Lotus365 notify players who have played continuously for long hours?',
-                  a: 'Yes, our platform includes automated session reality-check reminders notifying you of the duration of your active gaming session.'
-                },
-                {
-                  q: 'Can I restrict myself from specific game categories like Casino while keeping Sports?',
-                  a: 'Yes! You can contact WhatsApp customer care to apply custom product-level locks, restricting live casino access while maintaining sports exchange functionality.'
-                },
-              ].map((faq, idx) => (
+              {responsibleGamingFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

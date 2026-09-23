@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -25,6 +26,33 @@ const related = [
   { href: '/responsible-gaming', label: 'Responsible Gaming', description: 'Play safely within your limits' },
 ];
 
+const contactFaqs = [
+  {
+    q: 'Is Lotus365 customer support available late at night?',
+    a: 'Yes! Our support desk operates 24 hours a day, 7 days a week, 365 days a year. Whether it is 3:00 PM or 3:00 AM on Sunday, agents respond within 60 seconds.'
+  },
+  {
+    q: 'Can I speak with a customer care representative in Hindi?',
+    a: 'Yes. All our customer concierge agents are bilingual and can communicate fluently in both Hindi and English based on your preference.'
+  },
+  {
+    q: 'What should I do if my WhatsApp message doesn’t deliver?',
+    a: 'Check your internet connection or ensure you are clicking the direct official link: wa.link/880088. You can also re-launch the chat from lotus365officialid.com.'
+  },
+  {
+    q: 'Does Lotus365 provide phone call support?',
+    a: 'VIP and Black Card members receive dedicated voice call and private phone concierge privileges through their assigned Senior Account Directors.'
+  },
+  {
+    q: 'How do I submit an escalation if my deposit is delayed past 15 minutes?',
+    a: 'Simply ask your frontline WhatsApp agent to "Escalate to Finance Shift Manager" and provide the 12-digit UTR. A senior lead will take over the chat within 120 seconds.'
+  },
+  {
+    q: 'Will customer care ever request my bank account password or UPI MPIN?',
+    a: 'Never! Our staff will never request your banking passwords, ATM PINs, or UPI MPINs. Any party requesting these is an unauthorized impostor.'
+  },
+];
+
 export const ContactPage: React.FC = () => {
   const handleWhatsApp = () => window.open(OFFICIAL_WHATSAPP_URL, '_blank', 'noopener,noreferrer');
 
@@ -35,6 +63,7 @@ export const ContactPage: React.FC = () => {
         description="Need help with your Lotus365 ID, deposit, or withdrawal? Contact our verified 24/7 WhatsApp customer support desk for instant human assistance in 30 seconds."
         canonical="/contact"
         keywords="lotus365 contact, lotus365 whatsapp support, lotus365 customer care number, lotus365 helpline, lotus365 official whatsapp, lotus365 support desk india"
+        faqItems={contactFaqs}
       />
       <Layout>
         <PageHero
@@ -72,7 +101,7 @@ export const ContactPage: React.FC = () => {
                 Why Lotus365 Chooses WhatsApp for Customer Care
               </h2>
               <p className="mb-4">
-                At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we believe customer support should be immediate, personal, and respectful of your time. Traditional foreign bookmakers force Indian players through clunky, automated chatbots that loop through generic scripted answers, or email ticketing desks that take 24 to 48 hours to resolve urgent withdrawal inquiries.
+                At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe customer support should be immediate, personal, and respectful of your time. Traditional foreign bookmakers force Indian players through clunky, automated chatbots that loop through generic scripted answers, or email ticketing desks that take 24 to 48 hours to resolve urgent withdrawal inquiries.
               </p>
               <p className="mb-4">
                 By integrating our entire operations infrastructure directly into <strong>WhatsApp</strong>, we connect you straight to real, senior operations staff. Whether you need a fresh betting ID during a live IPL over, require an instant UPI deposit QR code, or want your winning cashout disbursed in 120 seconds, your personal WhatsApp concierge executes your request immediately without delay.
@@ -249,7 +278,7 @@ export const ContactPage: React.FC = () => {
                 Before sending funds or requesting payouts, please review these 3 golden verification rules:
               </p>
               <ul className="list-disc pl-5 space-y-1.5 text-xs text-white/70">
-                <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <a href="/" className="text-[#F0C419] underline">lotus365officialid.com</a>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
+                <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link to="/" className="text-[#F0C419] underline">lotus365officialid.com</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
                 <li><strong className="text-white">Confirmed UPI Merchant VPA:</strong> Legitimate Lotus365 deposit accounts will always display confirmed merchant names verified by our desk, and your personal account manager will provide dynamic deposit references matching your exact username.</li>
                 <li><strong className="text-white">No Sensitive Disclosures:</strong> We will never ask you to click third-party remote screen-sharing tools like AnyDesk or TeamViewer, nor will we ever prompt you to enter your bank ATM PIN or OTP.</li>
               </ul>
@@ -262,32 +291,7 @@ export const ContactPage: React.FC = () => {
                 Frequently Asked Questions About Customer Support
               </h2>
               <div className="space-y-4">
-                {[
-                  {
-                    q: 'Is Lotus365 customer support available late at night?',
-                    a: 'Yes! Our support desk operates 24 hours a day, 7 days a week, 365 days a year. Whether it is 3:00 PM or 3:00 AM on Sunday, agents respond within 60 seconds.'
-                  },
-                  {
-                    q: 'Can I speak with a customer care representative in Hindi?',
-                    a: 'Yes. All our customer concierge agents are bilingual and can communicate fluently in both Hindi and English based on your preference.'
-                  },
-                  {
-                    q: 'What should I do if my WhatsApp message doesn’t deliver?',
-                    a: 'Check your internet connection or ensure you are clicking the direct official link: wa.link/880088. You can also re-launch the chat from lotus365officialid.com.'
-                  },
-                  {
-                    q: 'Does Lotus365 provide phone call support?',
-                    a: 'VIP and Black Card members receive dedicated voice call and private phone concierge privileges through their assigned Senior Account Directors.'
-                  },
-                  {
-                    q: 'How do I submit an escalation if my deposit is delayed past 15 minutes?',
-                    a: 'Simply ask your frontline WhatsApp agent to "Escalate to Finance Shift Manager" and provide the 12-digit UTR. A senior lead will take over the chat within 120 seconds.'
-                  },
-                  {
-                    q: 'Will customer care ever request my bank account password or UPI MPIN?',
-                    a: 'Never! Our staff will never request your banking passwords, ATM PINs, or UPI MPINs. Any party requesting these is an unauthorized impostor.'
-                  },
-                ].map((faq, idx) => (
+                {contactFaqs.map((faq, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                     <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

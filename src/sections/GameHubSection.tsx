@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { POPULAR_GAMES } from '../data/landingData';
 import { GameItem } from '../types';
-import { Flame, Users, Sparkles, ArrowRight, Dices, Plane, Trophy, Crown, Play } from 'lucide-react';
+import { Flame, Users, Sparkles, ArrowRight, Dices, Plane, Trophy, Crown } from 'lucide-react';
 
 interface GameHubProps {
   onOpenAuth: (mode: 'login' | 'register') => void;
@@ -101,10 +101,6 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
               <div
                 className={`h-28 sm:h-36 bg-gradient-to-tr ${game.gradient} p-3 sm:p-4 relative flex items-center justify-center overflow-hidden`}
               >
-                {/* Decorative Circles */}
-                <div className="absolute -right-6 -bottom-6 w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-white/10 blur-sm pointer-events-none" />
-                <div className="absolute -left-6 -top-6 w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-black/20 pointer-events-none" />
-
                 {/* Badge */}
                 {game.badge && (
                   <span className="absolute top-2 left-2 sm:top-3 sm:left-3 text-[9px] sm:text-[10px] font-black px-1.5 sm:px-2 py-0.5 rounded-full bg-black/60 text-white backdrop-blur-md border border-white/20 shadow-md">
@@ -120,17 +116,6 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                 {/* Center Icon Graphic */}
                 <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-black/25 backdrop-blur-sm border border-white/20 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-xl">
                   {getGameIcon(game.iconType)}
-                </div>
-
-                {/* Quick Play Hover Overlay Button */}
-                <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <button
-                    onClick={() => onOpenAuth('register')}
-                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#F0C419] text-[#14614C] flex items-center justify-center shadow-lg transform scale-75 group-hover:scale-100 transition-transform cursor-pointer"
-                    aria-label={`Play ${game.title}`}
-                  >
-                    <Play className="w-5 h-5 sm:w-6 sm:h-6 fill-current ml-0.5" />
-                  </button>
                 </div>
               </div>
 

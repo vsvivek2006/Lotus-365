@@ -18,7 +18,7 @@ import { FinalCtaSection } from '../sections/FinalCtaSection';
 import { Footer } from '../components/Footer';
 import { MobileBottomNav } from '../components/MobileBottomNav';
 import { FloatingActions } from '../components/FloatingActions';
-import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
+import { FAQ_DATA, OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 const homeSchema = {
   '@context': 'https://schema.org',
@@ -52,6 +52,19 @@ const homeSchema = {
         priceCurrency: 'INR',
         availability: 'https://schema.org/InStock',
       },
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://lotus365officialid.com/#faq',
+      name: 'Lotus365 Frequently Asked Questions',
+      mainEntity: FAQ_DATA.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
     },
   ],
 };

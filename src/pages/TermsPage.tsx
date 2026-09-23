@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -16,6 +17,33 @@ const related = [
   { href: '/faq', label: 'FAQ', description: 'Frequently asked questions' },
 ];
 
+const termsFaqs = [
+  {
+    q: 'Can I withdraw my deposit immediately without placing any bets?',
+    a: 'Under standard international anti-money laundering regulations, all deposited funds must be wagered at least once (1x turnover) before withdrawal to prevent illicit banking churn.'
+  },
+  {
+    q: 'What happens if a cricket match is interrupted by rain?',
+    a: 'If a match concludes with an official DLS result, bets stand. If a match is abandoned with no official winner declared, all match-winner bets are voided and 100% of stakes are refunded.'
+  },
+  {
+    q: 'Can I change my registered withdrawal bank account?',
+    a: 'Yes. You can update your registered bank details or UPI ID at any time by messaging our 24/7 WhatsApp verification desk from your primary phone number.'
+  },
+  {
+    q: 'What should I do if I suspect unauthorized access to my ID?',
+    a: 'Message our WhatsApp security desk immediately to freeze active sessions, update your password, and protect your wallet balance.'
+  },
+  {
+    q: 'What is the policy regarding dead heat settlements in horse racing or golf?',
+    a: 'In the event of a dead heat where two competitors tie for first place, the stake is divided proportionately across the winning selections in accordance with international exchange rules.'
+  },
+  {
+    q: 'How does Lotus365 prevent fraudulent syndicate betting?',
+    a: 'Our algorithmic risk monitoring tracks IP clusters, transaction timing, and correlated market stakes to ensure that all exchange liquidity represents independent player trading.'
+  },
+];
+
 export const TermsPage: React.FC = () => (
   <>
     <SEOHead
@@ -23,6 +51,7 @@ export const TermsPage: React.FC = () => (
       description="Review official Terms & Conditions for Lotus365. Read our exchange wagering rules, 2-minute cashout guidelines, account security, and fair-play standards."
       canonical="/terms"
       keywords="lotus365 terms conditions, lotus365 rules, lotus365 terms of service, betting rules india, exchange betting terms, lotus365 legal agreement"
+      faqItems={termsFaqs}
     />
     <Layout>
       <PageHero 
@@ -85,7 +114,7 @@ export const TermsPage: React.FC = () => (
             <div>
               <h2 className="text-xl font-extrabold text-[#F0C419] mb-3">4. Cricket Exchange Wagering & Market Settlement Rules</h2>
               <p className="mb-2">
-                Bets placed on the <a href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</a> represent peer-to-peer contracts between participating members.
+                Bets placed on the <Link to="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link> represent peer-to-peer contracts between participating members.
               </p>
               <ul className="list-disc list-inside space-y-1 text-xs text-white/80">
                 <li><strong>Matched Bets:</strong> A bet is only binding once fully or partially "Matched" by an opposing player. Unmatched bets can be cancelled at any time prior to match commencement.</li>
@@ -170,32 +199,7 @@ export const TermsPage: React.FC = () => (
               Frequently Asked Questions About Platform Terms
             </h2>
             <div className="space-y-4">
-              {[
-                {
-                  q: 'Can I withdraw my deposit immediately without placing any bets?',
-                  a: 'Under standard international anti-money laundering regulations, all deposited funds must be wagered at least once (1x turnover) before withdrawal to prevent illicit banking churn.'
-                },
-                {
-                  q: 'What happens if a cricket match is interrupted by rain?',
-                  a: 'If a match concludes with an official DLS result, bets stand. If a match is abandoned with no official winner declared, all match-winner bets are voided and 100% of stakes are refunded.'
-                },
-                {
-                  q: 'Can I change my registered withdrawal bank account?',
-                  a: 'Yes. You can update your registered bank details or UPI ID at any time by messaging our 24/7 WhatsApp verification desk from your primary phone number.'
-                },
-                {
-                  q: 'What should I do if I suspect unauthorized access to my ID?',
-                  a: 'Message our WhatsApp security desk immediately to freeze active sessions, update your password, and protect your wallet balance.'
-                },
-                {
-                  q: 'What is the policy regarding dead heat settlements in horse racing or golf?',
-                  a: 'In the event of a dead heat where two competitors tie for first place, the stake is divided proportionately across the winning selections in accordance with international exchange rules.'
-                },
-                {
-                  q: 'How does Lotus365 prevent fraudulent syndicate betting?',
-                  a: 'Our algorithmic risk monitoring tracks IP clusters, transaction timing, and correlated market stakes to ensure that all exchange liquidity represents independent player trading.'
-                },
-              ].map((faq, idx) => (
+              {termsFaqs.map((faq, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                   <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                   <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { writeSitemap } from './generate-sitemap.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -61,7 +62,63 @@ const routes = [
   '/safe-betting-guide',
   '/mobile-web-app-guide',
   '/faq',
-  '/how-it-works'
+  '/how-it-works',
+  // Tier 8: Tournament & Leagues (10)
+  '/wpl-betting',
+  '/psl-betting',
+  '/bbl-betting',
+  '/cpl-betting',
+  '/asia-cup-betting',
+  '/icc-odi-world-cup',
+  '/test-cricket-betting',
+  '/live-cricket-score-odds',
+  '/cricket-session-betting',
+  '/cricket-toss-prediction',
+  // Tier 9: Exchange Guides & Trading (8)
+  '/back-and-lay-betting',
+  '/exchange-commission-rates',
+  '/betting-exchange-vs-sportsbook',
+  '/bookmaker-market',
+  '/in-play-cashout-guide',
+  '/match-odds-trading',
+  '/tied-match-rules',
+  '/bet-slip-guide',
+  // Tier 10: Asian & Live Casino (10)
+  '/lucky-7-game',
+  '/32-cards-casino',
+  '/super-over-game',
+  '/muflis-teen-patti',
+  '/ak47-teen-patti',
+  '/joker-teen-patti',
+  '/roulette-strategies',
+  '/live-dealer-games',
+  '/crazy-time',
+  '/mega-wheel',
+  // Tier 11: Wallet & Banking (8)
+  '/phonepe-deposit',
+  '/google-pay-deposit',
+  '/paytm-deposit',
+  '/bank-transfer-neft-rtgs',
+  '/crypto-deposit-usdt',
+  '/withdrawal-proof-times',
+  '/kyc-verification-guide',
+  '/account-security-tips',
+  // Tier 12: Regional Indian Cricket (6)
+  '/cricket-betting-delhi',
+  '/cricket-betting-mumbai',
+  '/cricket-betting-punjab',
+  '/cricket-betting-bangalore',
+  '/cricket-betting-hyderabad',
+  '/cricket-betting-kolkata',
+  // Tier 13: Strategy & Calculators (8)
+  '/betting-odds-calculator',
+  '/dutching-calculator-guide',
+  '/ipl-teams-betting-odds',
+  '/cricket-betting-glossary',
+  '/lotus365-blue',
+  '/lotus365-partner-program',
+  '/complaints-resolution',
+  '/responsible-gambling-tools'
 ];
 
 async function prerender() {
@@ -114,6 +171,11 @@ async function prerender() {
       html = html.replace(/<title>.*?<\/title>/i, '');
       html = html.replace(/<meta name="description" content=".*?" \/>/i, '');
 
+      // On subpages, strip homepage-specific modulepreloads
+      if (route !== '/') {
+        html = html.replace(/<link rel="modulepreload"[^>]*href="[^"]*(landing-sections|pg-homepage)[^"]*"[^>]*>/gi, '');
+      }
+
       // Inject app-html into root div
       html = html.replace('<!--app-html-->', appHtml);
 
@@ -154,6 +216,7 @@ async function prerender() {
   }
 
   console.log(`[SSG Prerender] Successfully generated ${successCount}/${routes.length} static HTML pages!`);
+  writeSitemap();
 }
 
 prerender().catch((err) => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
@@ -24,6 +25,33 @@ const accountRelated = [
   { href: '/how-it-works', label: 'How It Works', description: 'Full onboarding walkthrough' },
 ];
 
+const registerFaqs = [
+  {
+    q: 'Is registration on Lotus365 100% free?',
+    a: 'Yes, creating your Lotus365 ID is completely free. We do not charge any registration fees, activation dues, or recurring maintenance charges. You only deposit the funds you wish to wager.'
+  },
+  {
+    q: 'What details do I need to provide when creating an ID on WhatsApp?',
+    a: 'No paperwork or identity card scans are required. You only need an active WhatsApp number from which to message us. Our team will issue your username and initial password immediately.'
+  },
+  {
+    q: 'How long does it take to receive my ID credentials?',
+    a: 'Under standard operating conditions, our 24/7 WhatsApp concierge delivers your active login details within 30 to 60 seconds of your request.'
+  },
+  {
+    q: 'Can I change my password after logging in for the first time?',
+    a: 'Yes, we strongly recommend updating your initial password upon your first successful login via the account profile tab at lotus365officialid.com.'
+  },
+  {
+    q: 'Can I register multiple accounts on Lotus365?',
+    a: 'No. To maintain fair play, platform integrity, and bonus compliance, each player is permitted only one active Lotus365 account tied to their primary WhatsApp number.'
+  },
+  {
+    q: 'How do I claim my welcome bonus after registering?',
+    a: 'Inform your WhatsApp concierge when making your first deposit. They will instantly credit your 100% matching welcome bonus up to ₹5,00,000 directly into your game balance.'
+  },
+];
+
 export const RegisterPage: React.FC = () => {
   const handleWA = () => window.open(OFFICIAL_WHATSAPP_URL, '_blank', 'noopener,noreferrer');
   
@@ -34,6 +62,7 @@ export const RegisterPage: React.FC = () => {
         description="Create your official Lotus365 ID in 30 seconds via WhatsApp. No document KYC forms, instant UPI deposits, 100% welcome bonus, and 24/7 dedicated support." 
         canonical="/register" 
         keywords="lotus365 register, lotus365 sign up, lotus365 new account, lotus365 whatsapp id, lotus365 registration free, create lotus365 id online, lotus365 id provider" 
+        faqItems={registerFaqs}
       />
       <Layout>
         <PageHero 
@@ -89,7 +118,7 @@ export const RegisterPage: React.FC = () => {
                 Why WhatsApp Registration is Superior for Indian Bettors
               </h2>
               <p className="mb-4">
-                Conventional international betting portals force Indian customers to endure cumbersome registration flows: submitting passport or Aadhaar scans, waiting 24 to 48 hours for manual KYC approval, and trusting foreign databases with sensitive personal identity files. At <a href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</a>, we have completely transformed this model.
+                Conventional international betting portals force Indian customers to endure cumbersome registration flows: submitting passport or Aadhaar scans, waiting 24 to 48 hours for manual KYC approval, and trusting foreign databases with sensitive personal identity files. At <Link to="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we have completely transformed this model.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
                 <div className="p-4 rounded-xl bg-black/20 border border-white/10 text-center">
@@ -164,11 +193,11 @@ export const RegisterPage: React.FC = () => {
                 Your single Lotus365 login unlocks our entire digital entertainment ecosystem with a shared wallet balance:
               </p>
               <ul className="list-disc list-inside space-y-2 text-xs sm:text-sm text-white/80">
-                <li><strong className="text-white"><a href="/cricket-betting" className="text-[#F0C419] hover:underline">Cricket Betting Hub:</a></strong> Live match odds, over/under session runs, bowler wickets, and player boundaries on IPL, World Cups, BBL, and PSL.</li>
-                <li><strong className="text-white"><a href="/cricket-exchange" className="text-[#F0C419] hover:underline">Betting Exchange:</a></strong> Back and Lay selections against other players with industry-best 0% commission on select markets.</li>
-                <li><strong className="text-white"><a href="/live-casino" className="text-[#F0C419] hover:underline">Live Casino & Indian Card Games:</a></strong> Real dealers hosting <a href="/teen-patti" className="text-[#F0C419] hover:underline">Teen Patti</a>, <a href="/andar-bahar" className="text-[#F0C419] hover:underline">Andar Bahar</a>, Lightning Roulette, and Speed Baccarat.</li>
-                <li><strong className="text-white"><a href="/aviator-game" className="text-[#F0C419] hover:underline">Crash Games & Aviator:</a></strong> Provably fair multiplier curves with up to 98.5% RTP and instant cashouts.</li>
-                <li><strong className="text-white"><a href="/color-prediction" className="text-[#F0C419] hover:underline">Color Prediction Arena:</a></strong> 30-second rapid draws with up to 9x single-number payouts.</li>
+                <li><strong className="text-white"><Link to="/cricket-betting" className="text-[#F0C419] hover:underline">Cricket Betting Hub:</Link></strong> Live match odds, over/under session runs, bowler wickets, and player boundaries on IPL, World Cups, BBL, and PSL.</li>
+                <li><strong className="text-white"><Link to="/cricket-exchange" className="text-[#F0C419] hover:underline">Betting Exchange:</Link></strong> Back and Lay selections against other players with industry-best 0% commission on select markets.</li>
+                <li><strong className="text-white"><Link to="/live-casino" className="text-[#F0C419] hover:underline">Live Casino & Indian Card Games:</Link></strong> Real dealers hosting <Link to="/teen-patti" className="text-[#F0C419] hover:underline">Teen Patti</Link>, <Link to="/andar-bahar" className="text-[#F0C419] hover:underline">Andar Bahar</Link>, Lightning Roulette, and Speed Baccarat.</li>
+                <li><strong className="text-white"><Link to="/aviator-game" className="text-[#F0C419] hover:underline">Crash Games & Aviator:</Link></strong> Provably fair multiplier curves with up to 98.5% RTP and instant cashouts.</li>
+                <li><strong className="text-white"><Link to="/color-prediction" className="text-[#F0C419] hover:underline">Color Prediction Arena:</Link></strong> 30-second rapid draws with up to 9x single-number payouts.</li>
               </ul>
             </div>
 
@@ -264,32 +293,7 @@ export const RegisterPage: React.FC = () => {
                 Frequently Asked Questions About Lotus365 Registration
               </h2>
               <div className="space-y-4">
-                {[
-                  {
-                    q: 'Is registration on Lotus365 100% free?',
-                    a: 'Yes, creating your Lotus365 ID is completely free. We do not charge any registration fees, activation dues, or recurring maintenance charges. You only deposit the funds you wish to wager.'
-                  },
-                  {
-                    q: 'What details do I need to provide when creating an ID on WhatsApp?',
-                    a: 'No paperwork or identity card scans are required. You only need an active WhatsApp number from which to message us. Our team will issue your username and initial password immediately.'
-                  },
-                  {
-                    q: 'How long does it take to receive my ID credentials?',
-                    a: 'Under standard operating conditions, our 24/7 WhatsApp concierge delivers your active login details within 30 to 60 seconds of your request.'
-                  },
-                  {
-                    q: 'Can I change my password after logging in for the first time?',
-                    a: 'Yes, we strongly recommend updating your initial password upon your first successful login via the account profile tab at lotus365officialid.com.'
-                  },
-                  {
-                    q: 'Can I register multiple accounts on Lotus365?',
-                    a: 'No. To maintain fair play, platform integrity, and bonus compliance, each player is permitted only one active Lotus365 account tied to their primary WhatsApp number.'
-                  },
-                  {
-                    q: 'How do I claim my welcome bonus after registering?',
-                    a: 'Inform your WhatsApp concierge when making your first deposit. They will instantly credit your 100% matching welcome bonus up to ₹5,000 directly into your game balance.'
-                  },
-                ].map((faq, idx) => (
+                {registerFaqs.map((faq, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                     <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
@@ -312,6 +316,33 @@ export const RegisterPage: React.FC = () => {
   );
 };
 
+const loginFaqs = [
+  {
+    q: 'What is the official login URL for Lotus365?',
+    a: 'The only official login destination is https://lotus365officialid.com. Do not attempt logging into secondary unverified domains that mimic our brand styling.'
+  },
+  {
+    q: 'Can I log in using my mobile phone?',
+    a: 'Yes! Lotus365 is 100% optimized for mobile. Simply visit lotus365officialid.com on mobile Chrome or Safari to access your account instantly with smooth 60 FPS gameplay.'
+  },
+  {
+    q: 'Is my login connection encrypted and secure?',
+    a: 'Yes. All data transmissions between your browser and our servers are protected by enterprise-grade 256-bit TLS/SSL encryption, guaranteeing complete protection of your sensitive financial and gaming activity.'
+  },
+  {
+    q: 'Can I stay logged into my account permanently?',
+    a: 'Yes, on your personal smartphone you can check "Remember Me" to stay logged in across sessions. However, for security, sessions automatically refresh after extended periods of inactivity.'
+  },
+  {
+    q: 'What should I do if my account is locked due to incorrect password attempts?',
+    a: 'Simply message our WhatsApp support desk at wa.link/880088 with your registered username. Our human support agents will verify your identity and unlock your account in under 60 seconds.'
+  },
+  {
+    q: 'Can I access my balance from both my laptop and mobile phone simultaneously?',
+    a: 'Your account balance is synchronized in real time across the cloud. You can seamlessly switch between desktop and mobile devices without losing your bets, bonuses, or wallet balance.'
+  },
+];
+
 export const LoginPage: React.FC = () => {
   const handleWA = () => window.open(OFFICIAL_WHATSAPP_URL, '_blank', 'noopener,noreferrer');
 
@@ -322,6 +353,7 @@ export const LoginPage: React.FC = () => {
         description="Official Lotus365 login portal. Securely access your sports exchange account on mobile or desktop with 24/7 WhatsApp password reset and instant support." 
         canonical="/login" 
         keywords="lotus365 login, lotus365 log in, lotus365 account login, lotus365 official login, lotus365 id login, lotus365 password reset, lotus365 login link" 
+        faqItems={loginFaqs}
       />
       <Layout>
         <PageHero 
@@ -554,32 +586,7 @@ export const LoginPage: React.FC = () => {
                 Frequently Asked Questions About Lotus365 Login
               </h2>
               <div className="space-y-4">
-                {[
-                  {
-                    q: 'What is the official login URL for Lotus365?',
-                    a: 'The only official login destination is https://lotus365officialid.com. Do not attempt logging into secondary unverified domains that mimic our brand styling.'
-                  },
-                  {
-                    q: 'Can I log in using my mobile phone?',
-                    a: 'Yes! Lotus365 is 100% optimized for mobile. Simply visit lotus365officialid.com on mobile Chrome or Safari to access your account instantly with smooth 60 FPS gameplay.'
-                  },
-                  {
-                    q: 'Is my login connection encrypted and secure?',
-                    a: 'Yes. All data transmissions between your browser and our servers are protected by enterprise-grade 256-bit TLS/SSL encryption, guaranteeing complete protection of your sensitive financial and gaming activity.'
-                  },
-                  {
-                    q: 'Can I stay logged into my account permanently?',
-                    a: 'Yes, on your personal smartphone you can check "Remember Me" to stay logged in across sessions. However, for security, sessions automatically refresh after extended periods of inactivity.'
-                  },
-                  {
-                    q: 'What should I do if my account is locked due to incorrect password attempts?',
-                    a: 'Simply message our WhatsApp support desk at wa.link/880088 with your registered username. Our human support agents will verify your identity and unlock your account in under 60 seconds.'
-                  },
-                  {
-                    q: 'Can I access my balance from both my laptop and mobile phone simultaneously?',
-                    a: 'Your account balance is synchronized in real time across the cloud. You can seamlessly switch between desktop and mobile devices without losing your bets, bonuses, or wallet balance.'
-                  },
-                ].map((faq, idx) => (
+                {loginFaqs.map((faq, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
                     <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
                     <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>

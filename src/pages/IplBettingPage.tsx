@@ -4,6 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { Link } from 'react-router-dom';
 import { HelpCircle, Zap } from 'lucide-react';
 
 const related = [
@@ -15,6 +16,33 @@ const related = [
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI withdrawal of winnings' },
 ];
 
+const iplFaqs = [
+  {
+    question: 'Can I bet on IPL 2026 matches live ball-by-ball on Lotus365?',
+    answer: 'Yes! Lotus365 provides sub-second latency ball-by-ball in-play markets on all 74 IPL matches. You can bet on every single ball outcome, over runs, fallen wickets, and live boundary tallies as the bowler delivers the ball.',
+  },
+  {
+    question: 'What is the Orange Cap and Purple Cap betting market?',
+    answer: 'Orange Cap refers to the outright wager on the batsman who scores the most runs across the entire IPL season, while Purple Cap is the bowler who takes the most wickets. These tournament outrights are available pre-tournament and continue trading live throughout the season on Lotus365.',
+  },
+  {
+    question: 'Is there a limit on how much I can win on an IPL match?',
+    answer: 'Lotus365 offers India\'s highest betting limits. Standard accounts can wager up to ₹5,00,000 per market, while members of our exclusive VIP Club and Black Card program enjoy elevated daily limits of up to ₹50,00,000 with zero restriction on payouts.',
+  },
+  {
+    question: 'How does dew affect IPL match odds during second innings?',
+    answer: 'Heavy evening dew makes the cricket ball slick, reducing spinners\' grip and pacers\' seam control. As a result, teams batting second in night matches enjoy a marked statistical advantage. Lotus365 exchange traders frequently back the chasing team at the innings break to capitalize on dew conditions.',
+  },
+  {
+    question: 'Can I bet on IPL live matches on my smartphone?',
+    answer: 'Yes! Lotus365 runs smoothly on Chrome and Safari across all Android and iOS smartphones. Simply visit lotus365officialid.com or bookmark it to your home screen for instant 60 FPS in-play cricket odds.',
+  },
+  {
+    question: 'How do I claim an IPL welcome bonus on my first deposit?',
+    answer: 'When you register your account with our 24/7 WhatsApp desk, inform your agent that you are depositing for IPL. They will automatically credit our exclusive new-member welcome bonus to your account balance.',
+  },
+];
+
 export const IplBettingPage: React.FC = () => (
   <>
     <SEOHead
@@ -22,6 +50,7 @@ export const IplBettingPage: React.FC = () => (
       description="Bet on IPL 2026 matches live with Lotus365. Get top match odds, toss predictions, session runs (Khado/Lambi), and instant UPI payouts on every Indian match."
       canonical="/ipl-betting"
       keywords="ipl betting, ipl betting 2026, ipl online betting india, ipl match odds, ipl live betting, ipl session runs, ipl exchange odds, ipl winner odds 2026"
+      faqItems={iplFaqs}
     />
     <Layout>
       <PageHero
@@ -39,10 +68,10 @@ export const IplBettingPage: React.FC = () => (
               The Ultimate IPL 2026 Betting Experience on Lotus365
             </h2>
             <p>
-              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
+              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
             </p>
             <p>
-              By leveraging our peer-to-peer <a href="/cricket-exchange" className="text-[#F0C419] hover:underline">cricket exchange</a>, you bypass bookmaker margins and trade back and lay positions on match odds, session totals, player milestones, and over-by-over dynamics without a rupee cut in platform commission.
+              By leveraging our peer-to-peer <Link to="/cricket-exchange" className="text-[#F0C419] hover:underline">cricket exchange</Link>, you bypass bookmaker margins and trade back and lay positions on match odds, session totals, player milestones, and over-by-over dynamics without a rupee cut in platform commission.
             </p>
           </div>
 
@@ -228,7 +257,7 @@ export const IplBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-2xl font-black text-[#F0C419] mb-1">04</div>
                 <div className="font-bold text-white mb-1">Instant Cashout</div>
-                <p className="text-white/70">Withdraw winnings with our guaranteed <a href="/2-minute-cashout" className="text-[#F0C419] hover:underline">2-minute cashout SLA</a> directly to your bank account.</p>
+                <p className="text-white/70">Withdraw winnings with our guaranteed <Link to="/2-minute-cashout" className="text-[#F0C419] hover:underline">2-minute cashout SLA</Link> directly to your bank account.</p>
               </div>
             </div>
           </div>
@@ -240,38 +269,13 @@ export const IplBettingPage: React.FC = () => (
               <span>IPL 2026 Betting Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                {
-                  q: 'Can I bet on IPL 2026 matches live ball-by-ball on Lotus365?',
-                  a: 'Yes! Lotus365 provides sub-second latency ball-by-ball in-play markets on all 74 IPL matches. You can bet on every single ball outcome, over runs, fallen wickets, and live boundary tallies as the bowler delivers the ball.',
-                },
-                {
-                  q: 'What is the Orange Cap and Purple Cap betting market?',
-                  a: 'Orange Cap refers to the outright wager on the batsman who scores the most runs across the entire IPL season, while Purple Cap is the bowler who takes the most wickets. These tournament outrights are available pre-tournament and continue trading live throughout the season on Lotus365.',
-                },
-                {
-                  q: 'Is there a limit on how much I can win on an IPL match?',
-                  a: 'Lotus365 offers India\'s highest betting limits. Standard accounts can wager up to ₹5,00,000 per market, while members of our exclusive VIP Club and Black Card program enjoy elevated daily limits of up to ₹50,00,000 with zero restriction on payouts.',
-                },
-                {
-                  q: 'How does dew affect IPL match odds during second innings?',
-                  a: 'Heavy evening dew makes the cricket ball slick, reducing spinners\' grip and pacers\' seam control. As a result, teams batting second in night matches enjoy a marked statistical advantage. Lotus365 exchange traders frequently back the chasing team at the innings break to capitalize on dew conditions.',
-                },
-                {
-                  q: 'Can I bet on IPL live matches on my smartphone?',
-                  a: 'Yes! Lotus365 runs smoothly on Chrome and Safari across all Android and iOS smartphones. Simply visit lotus365officialid.com or bookmark it to your home screen for instant 60 FPS in-play cricket odds.'
-                },
-                {
-                  q: 'How do I claim an IPL welcome bonus on my first deposit?',
-                  a: 'When you register your account with our 24/7 WhatsApp desk, inform your agent that you are depositing for IPL. They will automatically credit our exclusive new-member welcome bonus to your account balance.',
-                },
-              ].map((item, idx) => (
+              {iplFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
-                    <span>{item.q}</span>
+                    <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

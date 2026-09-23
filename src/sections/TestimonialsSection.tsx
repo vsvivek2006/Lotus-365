@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Star, ShieldCheck, CheckCircle2, MessageCircle, ArrowRight, Trophy, Zap, HeartHandshake, Award } from 'lucide-react';
+import { Star, ShieldCheck, MessageCircle, ArrowRight, Trophy, Zap, Award } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface TestimonialsProps {
@@ -189,7 +189,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
-          {filtered.map((t, idx) => (
+          {(activeTab === 'all' ? filtered.slice(0, 3) : filtered).map((t, idx) => (
             <div
               key={idx}
               className="p-5 sm:p-6 rounded-2xl bg-black/25 border border-white/15 hover:border-[#F0C419]/40 transition-all flex flex-col justify-between group shadow-lg backdrop-blur-sm"
@@ -197,10 +197,9 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
               <div>
                 {/* Header with Rating Stars and Win Badge */}
                 <div className="flex items-center justify-between gap-2 mb-3">
-                  <div className="flex items-center gap-1">
-                    {[...Array(t.rating)].map((_, i) => (
-                      <Star key={i} className="w-3.5 h-3.5 fill-[#F0C419] text-[#F0C419]" />
-                    ))}
+                  <div className="flex items-center gap-1 text-[#F0C419] text-xs font-black">
+                    <Star className="w-3.5 h-3.5 fill-current text-[#F0C419]" />
+                    <span className="tracking-widest">★★★★★</span>
                   </div>
                   {t.winAmount && (
                     <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">

@@ -4,6 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { Link } from 'react-router-dom';
 import { Star, HelpCircle } from 'lucide-react';
 
 const relatedFootball = [
@@ -22,6 +23,68 @@ const relatedTennis = [
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Instant UPI deposit guide' },
 ];
 
+const footballFaqs = [
+  {
+    question: 'Does Lotus365 offer Indian Super League (ISL) betting?',
+    answer: 'Yes! We provide complete pre-match and in-play live betting coverage on all ISL fixtures, including match odds, goal totals, half-time results, and corner handicaps.',
+  },
+  {
+    question: 'What happens to my football bet if a match goes into extra time?',
+    answer: 'Standard 1X2 and match-winner markets are settled on the regular 90 minutes plus stoppage time (injury time). If you wish to bet on extra time or penalty shootout progression, look for the designated "To Qualify" or "To Lift the Trophy" markets.',
+  },
+  {
+    question: 'What is Asian Handicap in football betting?',
+    answer: 'Asian Handicap is a wagering method that eliminates the draw by giving one team a virtual head start or deficit (e.g. -0.5 or +1.5 goals). If you back a favorite at -1.5 goals, they must win by 2 or more clear goals for your bet to succeed.',
+  },
+  {
+    question: 'How fast are football bet settlements and cashouts?',
+    answer: 'All football markets are settled automatically within 60 seconds of the referee\'s final whistle. You can withdraw your winnings immediately via UPI with our 2-minute cashout guarantee.',
+  },
+  {
+    question: 'Can I combine multiple football matches into an accumulator (parlay)?',
+    answer: 'Yes! Our sportsbook allows you to combine multiple football selections from Premier League, Champions League, and ISL matches into multi-leg accumulator slips for exponential payout multiples.',
+  },
+  {
+    question: 'What is the minimum stake for live football betting on Lotus365?',
+    answer: 'You can begin wagering on live football with as little as ₹100 per market, making Lotus365 accessible for casual fans while accommodating high-stakes VIP wagers up to ₹10,00,000.',
+  },
+  {
+    question: 'Can I cash out my football accumulator before all matches finish?',
+    answer: 'Yes! If four legs of your 5-fold accumulator have already won, our live cashout slider lets you claim your partial winnings before the final evening match kicks off.',
+  },
+];
+
+const tennisFaqs = [
+  {
+    question: 'What happens to my tennis bet if a player retires injured mid-match?',
+    answer: 'On Lotus365, if a player retires before the completion of the first set, all match winner bets are voided and your stake is refunded in full. If the retirement occurs after the first set is completed, the player progressing to the next round is settled as the match winner.',
+  },
+  {
+    question: 'Can I bet on individual games and break points live?',
+    answer: 'Yes! Lotus365 provides granular game-by-game in-play markets on all ATP and WTA matches. You can bet on who wins the next service game, whether a break point will be converted, and whether the game reaches deuce.',
+  },
+  {
+    question: 'How does court surface affect tennis betting odds?',
+    answer: 'Court surfaces heavily dictate player performance. Clay courts slow the ball down, favoring defensive counter-punchers and creating more breaks of serve. Fast grass courts reward dominant servers and feature far fewer break opportunities, driving up tiebreak probabilities.',
+  },
+  {
+    question: 'Does Lotus365 cover ATP Challenger and ITF events?',
+    answer: 'Yes, in addition to the four Grand Slams and ATP/WTA Tour 1000, 500, and 250 tournaments, Lotus365 offers comprehensive in-play coverage of worldwide ATP Challenger and ITF qualifying circuits.',
+  },
+  {
+    question: 'How do I withdraw tennis betting profits?',
+    answer: 'You can withdraw winnings anytime directly via our 24/7 WhatsApp desk. Funds are disbursed via instant UPI or IMPS within 2 minutes with zero platform fees.',
+  },
+  {
+    question: 'What is "Greening Up" in tennis exchange betting?',
+    answer: 'Greening up is the mathematical process of hedging your open back and lay positions so you lock in an equal, guaranteed cash profit across all possible match outcomes before the final point is concluded.',
+  },
+  {
+    question: 'What is the minimum deposit to start betting on tennis?',
+    answer: 'The minimum deposit on Lotus365 is only ₹100 via instant UPI (PhonePe, GPay, Paytm). Simply send a WhatsApp message to wa.link/880088 to fund your account and begin trading ATP/WTA markets.',
+  },
+];
+
 export const FootballBettingPage: React.FC = () => (
   <>
     <SEOHead
@@ -29,6 +92,7 @@ export const FootballBettingPage: React.FC = () => (
       description="Bet on international football, UEFA Champions League, and ISL matches at Lotus365. Live Asian handicap, goal totals, and instant 2-minute UPI cashouts."
       canonical="/football-betting"
       keywords="football betting india, online football betting, premier league betting india, champions league betting, isl betting, both teams to score odds, asian handicap india"
+      faqItems={footballFaqs}
     />
     <Layout>
       <PageHero
@@ -46,7 +110,7 @@ export const FootballBettingPage: React.FC = () => (
               The Ultimate Football Betting Experience in India
             </h2>
             <p>
-              Football is the undisputed heavyweight of global sports betting. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), we deliver coverage of over 500 domestic leagues and international tournaments spanning Europe, Asia, the Americas, and Africa. Whether backing Real Madrid in the UEFA Champions League, Manchester City in the Premier League, or Mohun Bagan in the Indian Super League (ISL), our live market engine delivers sub-second odds updates with 0% commission on your winning tickets.
+              Football is the undisputed heavyweight of global sports betting. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we deliver coverage of over 500 domestic leagues and international tournaments spanning Europe, Asia, the Americas, and Africa. Whether backing Real Madrid in the UEFA Champions League, Manchester City in the Premier League, or Mohun Bagan in the Indian Super League (ISL), our live market engine delivers sub-second odds updates with 0% commission on your winning tickets.
             </p>
           </div>
 
@@ -205,42 +269,13 @@ export const FootballBettingPage: React.FC = () => (
               <span>Football Betting Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                {
-                  q: 'Does Lotus365 offer Indian Super League (ISL) betting?',
-                  a: 'Yes! We provide complete pre-match and in-play live betting coverage on all ISL fixtures, including match odds, goal totals, half-time results, and corner handicaps.',
-                },
-                {
-                  q: 'What happens to my football bet if a match goes into extra time?',
-                  a: 'Standard 1X2 and match-winner markets are settled on the regular 90 minutes plus stoppage time (injury time). If you wish to bet on extra time or penalty shootout progression, look for the designated "To Qualify" or "To Lift the Trophy" markets.',
-                },
-                {
-                  q: 'What is Asian Handicap in football betting?',
-                  a: 'Asian Handicap is a wagering method that eliminates the draw by giving one team a virtual head start or deficit (e.g. -0.5 or +1.5 goals). If you back a favorite at -1.5 goals, they must win by 2 or more clear goals for your bet to succeed.',
-                },
-                {
-                  q: 'How fast are football bet settlements and cashouts?',
-                  a: 'All football markets are settled automatically within 60 seconds of the referee\'s final whistle. You can withdraw your winnings immediately via UPI with our 2-minute cashout guarantee.',
-                },
-                {
-                  q: 'Can I combine multiple football matches into an accumulator (parlay)?',
-                  a: 'Yes! Our sportsbook allows you to combine multiple football selections from Premier League, Champions League, and ISL matches into multi-leg accumulator slips for exponential payout multiples.',
-                },
-                {
-                  q: 'What is the minimum stake for live football betting on Lotus365?',
-                  a: 'You can begin wagering on live football with as little as ₹100 per market, making Lotus365 accessible for casual fans while accommodating high-stakes VIP wagers up to ₹10,00,000.',
-                },
-                {
-                  q: 'Can I cash out my football accumulator before all matches finish?',
-                  a: 'Yes! If four legs of your 5-fold accumulator have already won, our live cashout slider lets you claim your partial winnings before the final evening match kicks off.',
-                },
-              ].map((item, idx) => (
+              {footballFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
-                    <span>{item.q}</span>
+                    <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>
@@ -261,6 +296,7 @@ export const TennisBettingPage: React.FC = () => (
       description="Bet live on Wimbledon, US Open, ATP, and WTA tennis circuits. Enjoy real-time set winner odds, game handicap markets, and fast payouts on Lotus365."
       canonical="/tennis-betting"
       keywords="tennis betting india, atp tennis betting, wimbledon betting india, grand slam odds, live tennis betting, set betting tennis, us open tennis odds"
+      faqItems={tennisFaqs}
     />
     <Layout>
       <PageHero
@@ -278,7 +314,7 @@ export const TennisBettingPage: React.FC = () => (
               Point-by-Point Tennis Trading on Lotus365
             </h2>
             <p>
-              Tennis is one of the most profitable sports for exchange trading because match momentum can turn on a single break of serve. On <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), tennis bettors can trade live odds as every ace, rally, and break point occurs. With sub-second in-play data feeds and deep market liquidity, you can back players when they drop a set and lay them when they break back, securing guaranteed cash profits before match point.
+              Tennis is one of the most profitable sports for exchange trading because match momentum can turn on a single break of serve. On <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), tennis bettors can trade live odds as every ace, rally, and break point occurs. With sub-second in-play data feeds and deep market liquidity, you can back players when they drop a set and lay them when they break back, securing guaranteed cash profits before match point.
             </p>
           </div>
 
@@ -451,42 +487,13 @@ export const TennisBettingPage: React.FC = () => (
               <span>Tennis Betting Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                {
-                  q: 'What happens to my tennis bet if a player retires injured mid-match?',
-                  a: 'On Lotus365, if a player retires before the completion of the first set, all match winner bets are voided and your stake is refunded in full. If the retirement occurs after the first set is completed, the player progressing to the next round is settled as the match winner.',
-                },
-                {
-                  q: 'Can I bet on individual games and break points live?',
-                  a: 'Yes! Lotus365 provides granular game-by-game in-play markets on all ATP and WTA matches. You can bet on who wins the next service game, whether a break point will be converted, and whether the game reaches deuce.',
-                },
-                {
-                  q: 'How does court surface affect tennis betting odds?',
-                  a: 'Court surfaces heavily dictate player performance. Clay courts slow the ball down, favoring defensive counter-punchers and creating more breaks of serve. Fast grass courts reward dominant servers and feature far fewer break opportunities, driving up tiebreak probabilities.',
-                },
-                {
-                  q: 'Does Lotus365 cover ATP Challenger and ITF events?',
-                  a: 'Yes, in addition to the four Grand Slams and ATP/WTA Tour 1000, 500, and 250 tournaments, Lotus365 offers comprehensive in-play coverage of worldwide ATP Challenger and ITF qualifying circuits.',
-                },
-                {
-                  q: 'How do I withdraw tennis betting profits?',
-                  a: 'You can withdraw winnings anytime directly via our 24/7 WhatsApp desk. Funds are disbursed via instant UPI or IMPS within 2 minutes with zero platform fees.',
-                },
-                {
-                  q: 'What is "Greening Up" in tennis exchange betting?',
-                  a: 'Greening up is the mathematical process of hedging your open back and lay positions so you lock in an equal, guaranteed cash profit across all possible match outcomes before the final point is concluded.',
-                },
-                {
-                  q: 'What is the minimum deposit to start betting on tennis?',
-                  a: 'The minimum deposit on Lotus365 is only ₹100 via instant UPI (PhonePe, GPay, Paytm). Simply send a WhatsApp message to wa.link/880088 to fund your account and begin trading ATP/WTA markets.',
-                },
-              ].map((item, idx) => (
+              {tennisFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
-                    <span>{item.q}</span>
+                    <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

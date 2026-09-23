@@ -35,10 +35,10 @@ let match;
 while ((match = locRegex.exec(sitemapContent)) !== null) {
   sitemapUrls.push(match[1]);
 }
-console.log(`- Total URLs in sitemap: ${sitemapUrls.length} (Expected: 54)`);
+console.log(`- Total URLs in sitemap: ${sitemapUrls.length} (Expected: 104)`);
 
-// 3. Audit all 54 routes across all metrics
-console.log('\n--- 3. AUDITING ALL 54 PAGES IN DIST ---');
+// 3. Audit all 104 routes across all metrics
+console.log('\n--- 3. AUDITING ALL 104 PAGES IN DIST ---');
 
 const routes = [
   '/',
@@ -94,7 +94,63 @@ const routes = [
   '/safe-betting-guide',
   '/mobile-web-app-guide',
   '/faq',
-  '/how-it-works'
+  '/how-it-works',
+  // Tier 8: Tournament & Leagues (10)
+  '/wpl-betting',
+  '/psl-betting',
+  '/bbl-betting',
+  '/cpl-betting',
+  '/asia-cup-betting',
+  '/icc-odi-world-cup',
+  '/test-cricket-betting',
+  '/live-cricket-score-odds',
+  '/cricket-session-betting',
+  '/cricket-toss-prediction',
+  // Tier 9: Exchange Guides & Trading (8)
+  '/back-and-lay-betting',
+  '/exchange-commission-rates',
+  '/betting-exchange-vs-sportsbook',
+  '/bookmaker-market',
+  '/in-play-cashout-guide',
+  '/match-odds-trading',
+  '/tied-match-rules',
+  '/bet-slip-guide',
+  // Tier 10: Asian & Live Casino (10)
+  '/lucky-7-game',
+  '/32-cards-casino',
+  '/super-over-game',
+  '/muflis-teen-patti',
+  '/ak47-teen-patti',
+  '/joker-teen-patti',
+  '/roulette-strategies',
+  '/live-dealer-games',
+  '/crazy-time',
+  '/mega-wheel',
+  // Tier 11: Wallet & Banking (8)
+  '/phonepe-deposit',
+  '/google-pay-deposit',
+  '/paytm-deposit',
+  '/bank-transfer-neft-rtgs',
+  '/crypto-deposit-usdt',
+  '/withdrawal-proof-times',
+  '/kyc-verification-guide',
+  '/account-security-tips',
+  // Tier 12: Regional Indian Cricket (6)
+  '/cricket-betting-delhi',
+  '/cricket-betting-mumbai',
+  '/cricket-betting-punjab',
+  '/cricket-betting-bangalore',
+  '/cricket-betting-hyderabad',
+  '/cricket-betting-kolkata',
+  // Tier 13: Strategy & Calculators (8)
+  '/betting-odds-calculator',
+  '/dutching-calculator-guide',
+  '/ipl-teams-betting-odds',
+  '/cricket-betting-glossary',
+  '/lotus365-blue',
+  '/lotus365-partner-program',
+  '/complaints-resolution',
+  '/responsible-gambling-tools'
 ];
 
 let issues = [];
@@ -216,15 +272,15 @@ for (const r of routes) {
 
 console.log('--------------------------------------------------');
 if (issues.length === 0) {
-  console.log('ALL 54 PAGES PASSED ALL CHECKS:');
-  console.log('- Exact Canonical Tags: 54/54 PASS');
-  console.log('- Title Length & Keywords: 54/54 PASS');
-  console.log('- Meta Descriptions: 54/54 PASS');
-  console.log('- Exactly One H1 Tag: 54/54 PASS');
-  console.log('- Content Depth (>1,000 words): 54/54 PASS');
-  console.log('- JSON-LD Schema Valid: 54/54 PASS');
-  console.log('- Zero Broken Internal Links: 54/54 PASS');
-  console.log('- Image Alt Attributes: 54/54 PASS');
+  console.log(`ALL ${routes.length} PAGES PASSED ALL CHECKS:`);
+  console.log(`- Exact Canonical Tags: ${routes.length}/${routes.length} PASS`);
+  console.log(`- Title Length & Keywords: ${routes.length}/${routes.length} PASS`);
+  console.log(`- Meta Descriptions: ${routes.length}/${routes.length} PASS`);
+  console.log(`- Exactly One H1 Tag: ${routes.length}/${routes.length} PASS`);
+  console.log(`- Content Depth (>1,000 words): ${routes.length}/${routes.length} PASS`);
+  console.log(`- JSON-LD Schema Valid: ${routes.length}/${routes.length} PASS`);
+  console.log(`- Zero Broken Internal Links: ${routes.length}/${routes.length} PASS`);
+  console.log(`- Image Alt Attributes: ${routes.length}/${routes.length} PASS`);
 } else {
   console.error(`Found ${issues.length} issue(s):`);
   issues.forEach(i => console.error('  *', i));

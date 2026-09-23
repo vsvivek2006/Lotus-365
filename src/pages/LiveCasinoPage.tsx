@@ -4,6 +4,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { Link } from 'react-router-dom';
 import { Star, HelpCircle } from 'lucide-react';
 
 const casinoRelated = [
@@ -15,6 +16,41 @@ const casinoRelated = [
   { href: '/baccarat', label: 'Live Baccarat', description: 'Speed baccarat and no-commission tables' },
 ];
 
+const liveCasinoFaqs = [
+  {
+    question: 'Are live casino games on Lotus365 rigged or automated?',
+    answer: 'No! Unlike computer-generated animated games that rely on RNG software, our Live Casino features real physical cards dealt by licensed dealers and physical roulette wheels spun on live camera. All studios are independently audited by eCOGRA for mathematical fairness.',
+  },
+  {
+    question: 'What is the minimum and maximum bet on live casino tables?',
+    answer: 'We accommodate all budget levels. Minimum bets start as low as ₹10 on Roulette and Teen Patti, while high-roller VIP tables in our VIP Club accommodate maximum single-hand stakes of ₹5,00,000 to ₹10,00,000.',
+  },
+  {
+    question: 'Can I chat with the live dealers during the game?',
+    answer: 'Yes! Every live table includes an interactive chat window where you can communicate with dealers in English or Hindi. Dealers respond verbally through their live audio microphones.',
+  },
+  {
+    question: 'Do I need a high-speed internet connection to play live casino?',
+    answer: 'Our video stream automatically adjusts between 480p, 720p, and 1080p HD based on your mobile network speed. It runs smoothly on standard 4G and 5G connections without buffering.',
+  },
+  {
+    question: 'How do I claim a casino welcome bonus on my first deposit?',
+    answer: 'Simply connect with our 24/7 WhatsApp desk, request your ID, and mention that you want the casino welcome bonus when depositing via UPI. Your bonus credits are activated instantly.',
+  },
+  {
+    question: 'How fast can I withdraw my live casino winnings?',
+    answer: 'All casino winnings are added directly to your unified balance. You can withdraw 100% of your balance via instant UPI in under 2 minutes at any time of day or night.',
+  },
+  {
+    question: 'Are Hindi-speaking dealers available on Indian tables?',
+    answer: 'Yes! Our Teen Patti and Andar Bahar studios feature native Hindi-speaking croupiers who celebrate winning hands and converse fluently with Indian players.',
+  },
+  {
+    question: 'Can I play live casino tables on my smartphone?',
+    answer: 'Yes! Lotus365 is 100% mobile-optimized. Simply open lotus365officialid.com on Mobile Chrome or Safari, tap your favorite game, and begin playing in fullscreen landscape or portrait mode immediately.'
+  },
+];
+
 export const LiveCasinoPage: React.FC = () => (
   <>
     <SEOHead
@@ -22,6 +58,7 @@ export const LiveCasinoPage: React.FC = () => (
       description="Play at India's top live casino on Lotus365. Enjoy Teen Patti, Andar Bahar, Roulette, and Blackjack with Hindi-speaking dealers and instant 2-minute payouts."
       canonical="/live-casino"
       keywords="live casino india, online casino india, live dealer casino, teen patti online, andar bahar live, lightning roulette india, live blackjack india, best casino platform india"
+      faqItems={liveCasinoFaqs}
     />
     <Layout>
       <PageHero
@@ -39,10 +76,10 @@ export const LiveCasinoPage: React.FC = () => (
               World-Class Live Casino Streaming Directly to Your Mobile Screen
             </h2>
             <p>
-              Forget static computer graphics. At <strong className="text-white">Lotus365</strong> (<a href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</a>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
+              Forget static computer graphics. At <strong className="text-white">Lotus365</strong> (<Link to="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
             </p>
             <p>
-              Whether you are an enthusiast of traditional Indian heritage card games like <a href="/teen-patti" className="text-[#F0C419] hover:underline font-semibold">Teen Patti</a> and <a href="/andar-bahar" className="text-[#F0C419] hover:underline font-semibold">Andar Bahar</a>, or high-stakes European classics like <a href="/roulette" className="text-[#F0C419] hover:underline font-semibold">Roulette</a> and <a href="/blackjack" className="text-[#F0C419] hover:underline font-semibold">Blackjack</a>, Lotus365 provides transparent dealing with zero RNG doubts.
+              Whether you are an enthusiast of traditional Indian heritage card games like <Link to="/teen-patti" className="text-[#F0C419] hover:underline font-semibold">Teen Patti</Link> and <Link to="/andar-bahar" className="text-[#F0C419] hover:underline font-semibold">Andar Bahar</Link>, or high-stakes European classics like <Link to="/roulette" className="text-[#F0C419] hover:underline font-semibold">Roulette</Link> and <Link to="/blackjack" className="text-[#F0C419] hover:underline font-semibold">Blackjack</Link>, Lotus365 provides transparent dealing with zero RNG doubts.
             </p>
           </div>
 
@@ -145,7 +182,7 @@ export const LiveCasinoPage: React.FC = () => (
               <span>Casino Pro Tip: The Stop-Loss & Target Profit Rule</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <a href="/2-minute-cashout" className="text-[#F0C419] underline font-semibold">2-minute cashout desk</a> to lock in your real-money gains!
+              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link to="/2-minute-cashout" className="text-[#F0C419] underline font-semibold">2-minute cashout desk</Link> to lock in your real-money gains!
             </p>
           </div>
 
@@ -190,46 +227,13 @@ export const LiveCasinoPage: React.FC = () => (
               <span>Live Casino Frequently Asked Questions</span>
             </h2>
             <div className="space-y-4 text-sm">
-              {[
-                {
-                  q: 'Are live casino games on Lotus365 rigged or automated?',
-                  a: 'No! Unlike computer-generated animated games that rely on RNG software, our Live Casino features real physical cards dealt by licensed dealers and physical roulette wheels spun on live camera. All studios are independently audited by eCOGRA for mathematical fairness.',
-                },
-                {
-                  q: 'What is the minimum and maximum bet on live casino tables?',
-                  a: 'We accommodate all budget levels. Minimum bets start as low as ₹10 on Roulette and Teen Patti, while high-roller VIP tables in our VIP Club accommodate maximum single-hand stakes of ₹5,00,000 to ₹10,00,000.',
-                },
-                {
-                  q: 'Can I chat with the live dealers during the game?',
-                  a: 'Yes! Every live table includes an interactive chat window where you can communicate with dealers in English or Hindi. Dealers respond verbally through their live audio microphones.',
-                },
-                {
-                  q: 'Do I need a high-speed internet connection to play live casino?',
-                  a: 'Our video stream automatically adjusts between 480p, 720p, and 1080p HD based on your mobile network speed. It runs smoothly on standard 4G and 5G connections without buffering.',
-                },
-                {
-                  q: 'How do I claim a casino welcome bonus on my first deposit?',
-                  a: 'Simply connect with our 24/7 WhatsApp desk, request your ID, and mention that you want the casino welcome bonus when depositing via UPI. Your bonus credits are activated instantly.',
-                },
-                {
-                  q: 'How fast can I withdraw my live casino winnings?',
-                  a: 'All casino winnings are added directly to your unified balance. You can withdraw 100% of your balance via instant UPI in under 2 minutes at any time of day or night.',
-                },
-                {
-                  q: 'Are Hindi-speaking dealers available on Indian tables?',
-                  a: 'Yes! Our Teen Patti and Andar Bahar studios feature native Hindi-speaking croupiers who celebrate winning hands and converse fluently with Indian players.',
-                },
-                {
-                  q: 'Can I play live casino tables on my smartphone?',
-                  a: 'Yes! Lotus365 is 100% mobile-optimized. Simply open lotus365officialid.com on Mobile Chrome or Safari, tap your favorite game, and begin playing in fullscreen landscape or portrait mode immediately.'
-                },
-              ].map((item, idx) => (
+              {liveCasinoFaqs.map((item, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
                   <h3 className="font-bold text-white text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
-                    <span>{item.q}</span>
+                    <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.a}</p>
+                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>
