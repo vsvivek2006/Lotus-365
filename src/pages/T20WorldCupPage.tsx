@@ -18,8 +18,8 @@ const related = [
 export const T20WorldCupPage: React.FC = () => (
   <>
     <SEOHead
-      title="T20 World Cup Betting 2026 — Live Odds, Group Matches & Final"
-      description="Bet on the ICC T20 World Cup 2026 with Lotus365. Enjoy best international cricket odds, ball-by-ball in-play session markets, 0% commission, and instant 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="T20 World Cup Betting 2026 | Live Odds & Match Trading"
+      description="Wager on ICC T20 World Cup 2026 with Lotus365. Enjoy outright tournament odds, live ball-by-ball in-play markets, and zero-commission peer-to-peer betting."
       canonical="/t20-world-cup-betting"
       keywords="t20 world cup betting, t20 betting india, t20 world cup 2026 odds, cricket world cup betting, icc t20 world cup live odds, t20 tournament winner betting"
     />

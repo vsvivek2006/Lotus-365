@@ -25,8 +25,8 @@ const relatedTennis = [
 export const FootballBettingPage: React.FC = () => (
   <>
     <SEOHead
-      title="Football Betting India — Premier League, Champions League & ISL Odds"
-      description="Bet on live football with Lotus365 India. Enjoy top odds on Premier League, UEFA Champions League, La Liga, and Indian Super League (ISL). Asian Handicap, Both Teams to Score, 0% commission, and 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Football Betting India | Premier League & ISL Match Odds"
+      description="Bet on international football, UEFA Champions League, and ISL matches at Lotus365. Live Asian handicap, goal totals, and instant 2-minute UPI cashouts."
       canonical="/football-betting"
       keywords="football betting india, online football betting, premier league betting india, champions league betting, isl betting, both teams to score odds, asian handicap india"
     />
@@ -257,8 +257,8 @@ export const FootballBettingPage: React.FC = () => (
 export const TennisBettingPage: React.FC = () => (
   <>
     <SEOHead
-      title="Tennis Betting India — ATP, WTA, Wimbledon & Grand Slam Odds"
-      description="Bet on live tennis with Lotus365 India. Best odds on Wimbledon, US Open, Australian Open, Roland Garros, ATP Tour & WTA. Game-by-game live betting, set handicaps, 0% commission, and 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Tennis Betting India | ATP, WTA & Grand Slam Live Odds"
+      description="Bet live on Wimbledon, US Open, ATP, and WTA tennis circuits. Enjoy real-time set winner odds, game handicap markets, and fast payouts on Lotus365."
       canonical="/tennis-betting"
       keywords="tennis betting india, atp tennis betting, wimbledon betting india, grand slam odds, live tennis betting, set betting tennis, us open tennis odds"
     />

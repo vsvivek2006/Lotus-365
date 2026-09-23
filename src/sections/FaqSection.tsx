@@ -117,11 +117,13 @@ export const FaqSection: React.FC<FaqProps> = ({ onOpenAuth }) => {
                     </div>
                   </button>
 
-                  {isOpen && (
-                    <div className="px-4 pb-5 sm:px-5 text-xs sm:text-sm text-white/85 leading-relaxed border-t border-white/10 pt-3">
-                      <p>{faq.answer}</p>
-                    </div>
-                  )}
+                  <div
+                    className={`px-4 pb-5 sm:px-5 text-xs sm:text-sm text-white/85 leading-relaxed border-t border-white/10 pt-3 ${
+                      isOpen ? 'block' : 'hidden'
+                    }`}
+                  >
+                    <p>{faq.answer}</p>
+                  </div>
                 </div>
               );
             })

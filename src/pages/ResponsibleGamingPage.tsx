@@ -24,8 +24,8 @@ const related = [
 export const ResponsibleGamingPage: React.FC = () => (
   <>
     <SEOHead
-      title="Responsible Gaming Policy — Lotus365 Player Protection & Welfare"
-      description="Lotus365 is committed to safe, responsible entertainment. Learn about our strict 18+ age verification, deposit limits, self-exclusion tools, and problem gambling support resources in India."
+      title="Responsible Gaming Policy | Lotus365 Player Safety"
+      description="Lotus365 is committed to safe, responsible gaming. Explore our player protection tools, deposit limits, self-exclusion policy, and strict 18+ verification rules."
       canonical="/responsible-gaming"
       keywords="responsible gambling india, lotus365 responsible gaming, safe betting india, problem gambling support, deposit limits betting, self exclusion betting india"
     />

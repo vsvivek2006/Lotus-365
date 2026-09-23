@@ -19,8 +19,8 @@ const related = [
 export const TermsPage: React.FC = () => (
   <>
     <SEOHead
-      title="Terms & Conditions — Lotus365 Official Platform Operating Rules"
-      description="Official Terms and Conditions for Lotus365 India. Comprehensive operating rules covering account eligibility, 18+ age mandate, 2-minute cashout protocols, exchange trading, and fair play standards."
+      title="Terms & Conditions | Official Lotus365 Platform Rules"
+      description="Review official Terms & Conditions for Lotus365. Read our exchange wagering rules, 2-minute cashout guidelines, account security, and fair-play standards."
       canonical="/terms"
       keywords="lotus365 terms conditions, lotus365 rules, lotus365 terms of service, betting rules india, exchange betting terms, lotus365 legal agreement"
     />

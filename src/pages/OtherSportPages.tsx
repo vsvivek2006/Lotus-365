@@ -19,8 +19,8 @@ const relatedSports = [
 export const KabaddiBettingPage: React.FC = () => (
   <>
     <SEOHead
-      title="Pro Kabaddi League Betting India — PKL Live Odds & Markets"
-      description="Bet on Pro Kabaddi League (PKL) with Lotus365. Enjoy live raid-by-raid betting, tackle points, handicap spreads, 0% commission, and 2-minute UPI payouts. Get your free WhatsApp ID today!"
+      title="Pro Kabaddi Betting India | PKL Live Odds & Markets"
+      description="Bet on Pro Kabaddi League (PKL) matches on Lotus365. Live raid points, tackle counts, match winners, and instant UPI withdrawals 24/7 across India."
       canonical="/kabaddi-betting"
       keywords="kabaddi betting india, pkl betting, pro kabaddi betting, kabaddi online betting, pkl live odds, raid points betting, tackle points pkl"
     />
@@ -217,8 +217,8 @@ export const KabaddiBettingPage: React.FC = () => (
 export const BasketballBettingPage: React.FC = () => (
   <>
     <SEOHead
-      title="Basketball Betting India — NBA, EuroLeague & FIBA Live Odds"
-      description="Bet on NBA and EuroLeague basketball with Lotus365 India. Point spreads, over/under point totals, player props, 0% commission, and instant 2-minute UPI payouts. Get your free WhatsApp ID!"
+      title="Basketball Betting India | NBA & EuroLeague Live Odds"
+      description="Wager on NBA, EuroLeague, and FIBA basketball tournaments. Spread betting, over/under point totals, player props, and 2-minute UPI cashouts on Lotus365."
       canonical="/basketball-betting"
       keywords="basketball betting india, nba betting india, online basketball betting, nba odds india, point spread basketball, euroleague betting"
     />
@@ -413,8 +413,8 @@ export const BasketballBettingPage: React.FC = () => (
 export const HorseRacingPage: React.FC = () => (
   <>
     <SEOHead
-      title="Horse Racing Betting India — Mumbai, Pune, Bangalore Derby Odds"
-      description="Bet on Indian thoroughbred horse racing with Lotus365. RWITC Mumbai, Pune, Bangalore, and Chennai race meetings. Win, Place, Each-Way, and Forecast odds with instant 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Horse Racing Betting India | Mumbai & Pune Derby Odds"
+      description="Bet on live Indian horse racing in Mumbai, Pune, Bangalore, and Kolkata. Win, Place, and Forecast pool betting with instant race settlement on Lotus365."
       canonical="/horse-racing-betting"
       keywords="horse racing betting india, indian derby betting, rwitc mumbai odds, pune horse racing, bangalore turf club betting, thoroughbred odds india"
     />
@@ -622,8 +622,8 @@ export const HorseRacingPage: React.FC = () => (
 export const SportsbookPage: React.FC = () => (
   <>
     <SEOHead
-      title="Online Sportsbook India — 40+ Sports Betting Markets & Exchange"
-      description="Lotus365 is India's premier online sportsbook and exchange covering 40+ sports disciplines. Cricket, football, tennis, kabaddi, horse racing, basketball, 0% commission, and 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Online Sportsbook India | 40+ Sports Betting Markets"
+      description="Explore India's leading sportsbook covering cricket, football, tennis, kabaddi, and esports. Zero commission exchange options and fast UPI settlements."
       canonical="/sportsbook"
       keywords="online sportsbook india, sports betting india, best sportsbook india, all sports betting, lotus365 sports, p2p sports exchange"
     />

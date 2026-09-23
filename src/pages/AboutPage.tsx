@@ -28,8 +28,8 @@ const related = [
 export const AboutPage: React.FC = () => (
   <>
     <SEOHead
-      title="About Lotus365 — India's Most Trusted Betting Exchange & Live Casino"
-      description="Learn about Lotus365 — India's premier peer-to-peer sports betting exchange and licensed live casino platform. Operating since 2019 with over 1.5 million active players, guaranteed 2-minute cashouts, and 0% exchange commission."
+      title="About Lotus365 | India's Trusted Betting Exchange"
+      description="Learn about Lotus365, India's leading sports betting exchange since 2019. Discover our 0% commission model, 2-minute cashouts, and 1.5M+ active player base."
       canonical="/about"
       keywords="about lotus365, lotus365 official platform, lotus365 company history, lotus365 trusted, lotus365 license, lotus365 owner, best betting exchange india"
     />

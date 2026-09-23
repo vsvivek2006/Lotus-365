@@ -30,8 +30,8 @@ export const RegisterPage: React.FC = () => {
   return (
     <>
       <SEOHead 
-        title="Register on Lotus365 Free — Get Your Official WhatsApp Betting ID" 
-        description="Create your official Lotus365 ID in under 60 seconds via WhatsApp. Zero registration fees, no intrusive document KYC forms, instant UPI deposits, and immediate access to cricket betting and live casino." 
+        title="Register on Lotus365 Free | Get Official WhatsApp ID" 
+        description="Create your official Lotus365 ID in 30 seconds via WhatsApp. No document KYC forms, instant UPI deposits, 100% welcome bonus, and 24/7 dedicated support." 
         canonical="/register" 
         keywords="lotus365 register, lotus365 sign up, lotus365 new account, lotus365 whatsapp id, lotus365 registration free, create lotus365 id online, lotus365 id provider" 
       />
@@ -318,8 +318,8 @@ export const LoginPage: React.FC = () => {
   return (
     <>
       <SEOHead 
-        title="Lotus365 Login — Official Portal & Account Access Guide" 
-        description="Official Lotus365 login instructions. Access your account on lotus365officialid.com securely on any mobile or desktop browser. Instant WhatsApp password reset and 24/7 login support." 
+        title="Lotus365 Login | Official Portal & Account Access" 
+        description="Official Lotus365 login portal. Securely access your sports exchange account on mobile or desktop with 24/7 WhatsApp password reset and instant support." 
         canonical="/login" 
         keywords="lotus365 login, lotus365 log in, lotus365 account login, lotus365 official login, lotus365 id login, lotus365 password reset, lotus365 login link" 
       />

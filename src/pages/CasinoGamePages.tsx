@@ -18,8 +18,8 @@ const casinoLinks = [
 export const RoulettePage: React.FC = () => (
   <>
     <SEOHead
-      title="Roulette Online India — Live European, American & French Roulette"
-      description="Play live roulette online at Lotus365 India. Real human dealers, European single-zero wheels with 97.3% RTP, inside/outside bets from ₹10, and 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Roulette Online India | Live European & French Tables"
+      description="Play European and French Roulette live with crystal-clear 4K streams. Place inside/outside bets with high table limits and instant 2-minute cashouts."
       canonical="/roulette"
       keywords="roulette online india, live roulette india, european roulette india, play roulette online, roulette real money india, roulette wheel odds"
     />
@@ -224,8 +224,8 @@ export const RoulettePage: React.FC = () => (
 export const BlackjackPage: React.FC = () => (
   <>
     <SEOHead
-      title="Live Blackjack India — Real Dealer 21 Online with 99.5% RTP"
-      description="Play live dealer blackjack online at Lotus365 India. Classic 21, Infinite Blackjack, Perfect Pairs, 21+3 side bets, 99.5% RTP, and 2-minute UPI withdrawals. Register free on WhatsApp!"
+      title="Live Blackjack India | Real Dealer 21 with 99.5% RTP"
+      description="Play real money Blackjack 21 online with 99.5% RTP. Enjoy side bets like Perfect Pairs and 21+3 with professional live dealers and fast UPI settlements."
       canonical="/blackjack"
       keywords="blackjack online india, live blackjack india, play blackjack 21, real money blackjack, online 21 card game, blackjack strategy india"
     />
@@ -417,8 +417,8 @@ export const BlackjackPage: React.FC = () => (
 export const BaccaratPage: React.FC = () => (
   <>
     <SEOHead
-      title="Live Baccarat Online India — Real Money Punto Banco & Speed Baccarat"
-      description="Play live Baccarat online at Lotus365 India. Bet Banker with 1.06% house edge, 0% commission Baccarat, Speed Baccarat, Squeeze tables, and instant 2-minute UPI withdrawals. Register on WhatsApp!"
+      title="Live Baccarat Online India | Real Money Punto Banco"
+      description="Wager on Player, Banker, or Tie with low 1.06% house edge. Experience high-limit VIP tables, squeeze cards, and lightning-fast UPI bank withdrawals."
       canonical="/baccarat"
       keywords="baccarat online india, live baccarat india, punto banco online, speed baccarat, baccarat strategy india, play baccarat real money"
     />
@@ -604,8 +604,8 @@ export const BaccaratPage: React.FC = () => (
 export const DragonTigerPage: React.FC = () => (
   <>
     <SEOHead
-      title="Live Dragon Tiger Online India — Fast 2-Card Casino Game"
-      description="Play live Dragon Tiger online for real money at Lotus365 India. Real human dealers, 15-second fast rounds, 11:1 Tie odds, 50:1 Suited Tie, and 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Live Dragon Tiger Online | Fast 2-Card Real Money Game"
+      description="Play live Dragon Tiger on Lotus365. Enjoy 25-second rapid betting rounds, tie side bets with 11:1 odds, and guaranteed 2-minute instant UPI cashouts."
       canonical="/dragon-tiger"
       keywords="dragon tiger online, live dragon tiger india, dragon tiger real cash, play dragon tiger, dragon tiger tricks, dragon vs tiger game"
     />
@@ -798,8 +798,8 @@ export const DragonTigerPage: React.FC = () => (
 export const SpeedBaccaratPage: React.FC = () => (
   <>
     <SEOHead
-      title="Speed Baccarat Real Money India — 27-Second Live Baccarat Rounds"
-      description="Play live Speed Baccarat at Lotus365 India. Ultra-fast 27-second rounds, real human dealers, 1.06% Banker house edge, no waiting, and instant 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Speed Baccarat Real Money | 27-Second Live Game Rounds"
+      description="Looking for high-speed card action? Play Speed Baccarat with 27-second rounds, instant hand resolutions, and sub-2-minute UPI bank cashouts on Lotus365."
       canonical="/speed-baccarat"
       keywords="speed baccarat online, live speed baccarat india, fast baccarat real money, evolution speed baccarat, baccarat fast rounds india"
     />
@@ -1008,8 +1008,8 @@ export const SpeedBaccaratPage: React.FC = () => (
 export const LightningRoulettePage: React.FC = () => (
   <>
     <SEOHead
-      title="Lightning Roulette Real Money India — 500x Multipliers Live Online"
-      description="Play Lightning Roulette live at Lotus365 India. Experience high-voltage 500x multipliers, real croupiers, European single-zero wheels, and guaranteed 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Lightning Roulette India | Live 500x Multiplier Table"
+      description="Win up to 500x on single straight-up numbers in Evolution Lightning Roulette. High-energy gameplay, electrifying multipliers, and instant UPI payouts."
       canonical="/lightning-roulette"
       keywords="lightning roulette online, live lightning roulette india, 500x multiplier roulette, evolution lightning roulette, lightning roulette tricks india"
     />
@@ -1210,8 +1210,8 @@ export const LightningRoulettePage: React.FC = () => (
 export const CasinoSlotsPage: React.FC = () => (
   <>
     <SEOHead
-      title="Online Casino Slots India — 500+ Video Slots, Megaways & Jackpots"
-      description="Play 500+ online casino slots at Lotus365 India. Megaways, Pragmatic Play Sweet Bonanza, Gates of Olympus, high RTP, free spins, and instant 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Online Casino Slots India | 500+ Megaways & Jackpots"
+      description="Spin 500+ real money video slots on Lotus365. Enjoy Pragmatic Play, Megaways, progressive jackpots, high RTP slot machines, and instant 2-minute cashouts."
       canonical="/casino-slots"
       keywords="online slots india, casino slots real money, megaways slots india, gates of olympus lotus365, sweet bonanza india, best online slots india"
     />

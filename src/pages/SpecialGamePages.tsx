@@ -40,8 +40,8 @@ export const AviatorGamePage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Aviator Game Online India — 98.5% RTP Crash Game on Lotus365"
-        description="Play Spribe Aviator crash game on Lotus365 India. Experience 98.5% RTP, real-time Provably Fair multipliers, dual-bet cashout, and 2-minute UPI cashouts. Claim your WhatsApp ID today!"
+        title="Aviator Game Online India | 98.5% RTP Crash Game"
+        description="Play official Spribe Aviator crash game on Lotus365. Cash out before the plane flies away with 98.5% RTP, dual bets, auto-cashout, and instant UPI payouts."
         canonical="/aviator-game"
         keywords="aviator game india, aviator online india, aviator crash game, spribe aviator india, aviator betting india, aviator tricks, aviator cashout strategy"
       />
@@ -321,8 +321,8 @@ export const AviatorGamePage: React.FC = () => {
 export const CrashGamesPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Crash Games Online India — Aviator, JetX, Spaceman on Lotus365" 
-      description="Explore the best online crash games in India on Lotus365. Compare Aviator, JetX, Spaceman, and Cricket X with certified 98%+ RTP, instant UPI payouts, and complete strategy guides." 
+      title="Crash Games Online India | Aviator, JetX & Spaceman" 
+      description="Explore high-multiplier crash games on Lotus365. Play Aviator, JetX, and Spaceman with provably fair cryptographic verification and 2-minute bank cashouts." 
       canonical="/crash-games" 
       keywords="crash games india, aviator crash, jetx game india, spaceman pragmatic, crash betting india, online crash games, provably fair games" 
     />
@@ -572,8 +572,8 @@ export const CrashGamesPage: React.FC = () => (
 export const ColorPredictionPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Color Prediction Game Online India — Colour Wiz & Fast Parity on Lotus365" 
-      description="Play online Color Prediction games in India on Lotus365. Enjoy Colour Wiz, Wingo, and Fast Parity with 2x and 9x payouts, instant results, and 2-minute UPI cashouts." 
+      title="Color Prediction Game India | Fast Parity & Colour Wiz" 
+      description="Predict Red, Green, or Violet in 30-second color prediction games on Lotus365. High payout multipliers, zero lag, and instant UPI cashouts 24/7." 
       canonical="/color-prediction" 
       keywords="color prediction game india, colour prediction game, colour wiz india, colour betting game online, fast parity game, win go color game, daman game alternative" 
     />
@@ -818,8 +818,8 @@ export const ColorPredictionPage: React.FC = () => (
 export const VirtualSportsPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Virtual Sports Betting India — 24/7 Cricket, Football & Racing on Lotus365" 
-      description="Bet on virtual cricket, virtual football, and virtual horse racing 24/7 on Lotus365 India. Ultra-HD simulations, certified RNG outcomes, and instant 2-minute UPI payouts." 
+      title="Virtual Sports Betting India | 24/7 Cricket & Football" 
+      description="Never wait for match day! Bet on 24/7 virtual cricket, virtual football leagues, and greyhound racing with rapid 3-minute match resolutions on Lotus365." 
       canonical="/virtual-sports" 
       keywords="virtual sports betting india, virtual cricket betting, virtual football india, virtual horse racing india, rng sports betting, betradar virtuals" 
     />

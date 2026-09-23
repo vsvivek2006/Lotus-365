@@ -18,8 +18,8 @@ const casinoRelated = [
 export const LiveCasinoPage: React.FC = () => (
   <>
     <SEOHead
-      title="Live Casino India — 1000+ Games, Real Dealers & High RTP Tables"
-      description="Play 1000+ live casino games at Lotus365 India. Real human dealers, Teen Patti, Andar Bahar, Lightning Roulette, Blackjack, Baccarat & Aviator. 0% withdrawal fees, instant 2-min UPI payouts. Register free on WhatsApp!"
+      title="Live Casino India | 1000+ Real Dealer Casino Tables"
+      description="Play at India's top live casino on Lotus365. Enjoy Teen Patti, Andar Bahar, Roulette, and Blackjack with Hindi-speaking dealers and instant 2-minute payouts."
       canonical="/live-casino"
       keywords="live casino india, online casino india, live dealer casino, teen patti online, andar bahar live, lightning roulette india, live blackjack india, best casino platform india"
     />

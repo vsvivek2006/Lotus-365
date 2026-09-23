@@ -46,7 +46,7 @@ const RootLayout: React.FC = () => (
   </>
 );
 
-const router = createBrowserRouter([
+export const routes = [
   {
     element: <RootLayout />,
     children: [
@@ -121,8 +121,13 @@ const router = createBrowserRouter([
   { path: '/how-it-works', element: <HowItWorksPage /> },
     ],
   },
-]);
+];
 
-export const App: React.FC = () => <RouterProvider router={router} />;
+const router = typeof window !== 'undefined' ? createBrowserRouter(routes) : null;
+
+export const App: React.FC = () => {
+  if (!router) return null;
+  return <RouterProvider router={router} />;
+};
 
 export default App;

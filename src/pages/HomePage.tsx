@@ -46,13 +46,6 @@ const homeSchema = {
       logo: 'https://lotus365officialid.com/lotus-logo.png',
       image: 'https://lotus365officialid.com/og-banner.webp',
       description: "India's premier cricket betting exchange, live casino, and instant UPI cashout platform with 24/7 WhatsApp concierge.",
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '4.9',
-        ratingCount: '18450',
-        bestRating: '5',
-        worstRating: '1',
-      },
       offers: {
         '@type': 'Offer',
         price: '0',
@@ -71,8 +64,8 @@ export const HomePage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Lotus365 — India's #1 Cricket Betting Exchange & Live Casino"
-        description="Lotus365 is India's most trusted online betting platform. Get instant WhatsApp ID, bet on live cricket, IPL, Teen Patti & 1000+ games. 2-minute UPI cashout. Register free!"
+        title="Lotus365 Official — Cricket Betting Exchange & Live Casino"
+        description="Join Lotus365, India's trusted sports exchange & live casino. Get an instant WhatsApp ID, 0% commission cricket odds, and guaranteed 2-minute UPI cashouts."
         canonical="/"
         keywords="lotus365, lotus365 login, lotus365 sign up, cricket betting, live casino india, online betting india"
         schema={homeSchema}

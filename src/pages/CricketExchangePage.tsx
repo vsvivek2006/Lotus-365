@@ -18,8 +18,8 @@ const related = [
 export const CricketExchangePage: React.FC = () => (
   <>
     <SEOHead
-      title="Cricket Exchange Online India — 0% Commission Peer-to-Peer Betting"
-      description="Trade on India's #1 cricket exchange at Lotus365. Enjoy 0% commission, peer-to-peer back & lay trading, ball-by-ball in-play liquidity, and instant 2-minute cashouts via UPI. Get your free exchange ID on WhatsApp!"
+      title="Cricket Exchange India | 0% Commission Back & Lay Odds"
+      description="Experience true peer-to-peer cricket trading on Lotus365 Exchange. Back and lay live match outcomes with 0% commission, deep liquidity, and 2-minute cashouts."
       canonical="/cricket-exchange"
       keywords="cricket exchange online, cricket exchange india, p2p cricket betting, back and lay cricket, best cricket exchange, 0 commission cricket exchange, cricket trading india"
     />

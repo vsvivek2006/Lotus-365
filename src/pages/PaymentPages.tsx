@@ -27,8 +27,8 @@ const paymentRelated = [
 export const HowToDepositPage: React.FC = () => (
   <>
     <SEOHead 
-      title="How to Deposit on Lotus365 — Instant UPI & IMPS Funding Guide" 
-      description="Step-by-step guide to depositing money on Lotus365 India. Instant UPI funding via PhonePe, Google Pay, and Paytm. Minimum ₹100, zero transaction fees, instant wallet credit." 
+      title="How to Deposit on Lotus365 | Instant UPI & IMPS Guide" 
+      description="Step-by-step guide to depositing funds on Lotus365 via PhonePe, Google Pay, Paytm, and IMPS. Enjoy 0% deposit fees and instant balance crediting in 30 seconds." 
       canonical="/how-to-deposit" 
       keywords="lotus365 deposit, how to deposit lotus365, lotus365 upi deposit, lotus365 add money, lotus365 fund account, lotus365 payment, instant betting deposit india" 
     />
@@ -285,8 +285,8 @@ export const HowToDepositPage: React.FC = () => (
 export const HowToWithdrawPage: React.FC = () => (
   <>
     <SEOHead 
-      title="How to Withdraw from Lotus365 — Instant 2-Minute UPI & IMPS Cashout Guide" 
-      description="Withdraw your Lotus365 winnings instantly to any Indian bank account via UPI or IMPS. Guaranteed 2-minute processing, zero deductions, minimum ₹200 cashout." 
+      title="How to Withdraw from Lotus365 | 2-Minute Cashout Guide" 
+      description="Learn how to withdraw winnings from Lotus365 in under 2 minutes. Direct UPI disbursements to PhonePe, GPay, Paytm, and IMPS bank accounts with zero fees." 
       canonical="/how-to-withdraw" 
       keywords="lotus365 withdrawal, lotus365 cashout, how to withdraw lotus365, lotus365 payout guide, lotus365 2 minute withdrawal, instant betting cashout india" 
     />
@@ -579,8 +579,8 @@ export const HowToWithdrawPage: React.FC = () => (
 export const UpiDepositPage: React.FC = () => (
   <>
     <SEOHead 
-      title="UPI Betting Deposit India — Instant PhonePe, GPay & Paytm on Lotus365" 
-      description="Deposit money on Lotus365 using any Indian UPI app. Google Pay, PhonePe, Paytm, and BHIM supported with 30-second balance credit, zero fees, and minimum ₹100." 
+      title="UPI Betting Deposit India | PhonePe, GPay & Paytm Guide" 
+      description="Deposit funds instantly using any Indian UPI app: PhonePe, Google Pay, or Paytm. Enjoy instant wallet updates and zero transaction charges on Lotus365." 
       canonical="/upi-deposit" 
       keywords="upi deposit betting, upi betting india, google pay betting deposit, phonepe betting deposit, paytm betting india, bhim upi betting, instant upi deposit lotus365" 
     />
@@ -838,8 +838,8 @@ export const UpiDepositPage: React.FC = () => (
 export const ImpsWithdrawalPage: React.FC = () => (
   <>
     <SEOHead 
-      title="IMPS Withdrawal India — 24/7 Direct Bank Transfer on Lotus365" 
-      description="Withdraw betting winnings directly to any Indian bank account via IMPS on Lotus365. 24/7 processing including holidays, minimum ₹500, under 10 minutes settlement." 
+      title="IMPS Bank Withdrawal India | 24/7 Transfers on Lotus365" 
+      description="Withdraw large gaming winnings directly to any Indian bank account via 24/7 IMPS. High transaction limits, bank-grade encryption, and zero hidden fees." 
       canonical="/imps-withdrawal" 
       keywords="imps withdrawal betting, imps payout india, imps betting withdrawal, instant bank transfer betting india, netbanking betting withdrawal, lotus365 imps cashout" 
     />
@@ -1106,8 +1106,8 @@ export const ImpsWithdrawalPage: React.FC = () => (
 export const PaymentMethodsPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 Payment Methods — UPI, IMPS, Net Banking & Crypto Directory" 
-      description="Complete overview of all supported payment methods on Lotus365 India. Instant UPI deposits, 2-minute cashouts, IMPS bank transfers, and zero transaction fees." 
+      title="Lotus365 Payment Methods | UPI, IMPS & Net Banking" 
+      description="Explore all accepted payment methods on Lotus365: UPI (GPay, PhonePe, Paytm), IMPS NetBanking, and Crypto. Fast deposits and sub-2-minute cashouts 24/7." 
       canonical="/payment-methods" 
       keywords="lotus365 payment methods, lotus365 deposit options, lotus365 withdrawal methods, upi imps betting india, crypto betting india, fastest betting payments" 
     />
@@ -1399,8 +1399,8 @@ export const PaymentMethodsPage: React.FC = () => (
 export const TwoMinuteCashoutPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 2-Minute Cashout Guarantee — India's Fastest Betting Withdrawal" 
-      description="Experience the legendary Lotus365 2-minute cashout guarantee. Instant UPI and IMPS payouts directly to your bank account with zero waiting and zero deductions." 
+      title="Lotus365 2-Minute Cashout | Fast UPI Withdrawals" 
+      description="Learn about Lotus365's industry-first 2-minute cashout guarantee. Fast automated payouts directly to your UPI ID or Indian bank account without delay." 
       canonical="/2-minute-cashout" 
       keywords="2 minute cashout india, fastest withdrawal betting india, instant withdrawal betting, lotus365 cashout guarantee, 120 second betting withdrawal, instant upi cashout" 
     />

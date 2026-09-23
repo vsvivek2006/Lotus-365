@@ -25,8 +25,8 @@ import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 export const ReviewPage: React.FC = () => (
   <>
     <SEOHead
-      title="Lotus365 Review 2026 — Is It Legit & Safe? In-Depth Platform Analysis"
-      description="Comprehensive Lotus365 review 2026. Is Lotus365 legit? We examine sports exchange odds, live casino games, 2-minute cashouts, WhatsApp support, and security. Read our expert audit before joining!"
+      title="Lotus365 Review 2026 | Is It Legit & Safe to Bet?"
+      description="Honest, expert Lotus365 review for 2026. We audit betting odds, live casino fairness, 2-minute cashout reliability, and WhatsApp customer support quality."
       canonical="/lotus365-review"
       keywords="lotus365 review, lotus365 review 2026, is lotus365 legit, lotus365 safe, lotus365 trustworthy, lotus365 honest review india"
     />
@@ -257,8 +257,8 @@ export const ReviewPage: React.FC = () => (
 export const VsCompetitorsPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 vs Competitors 2026 — Betway, 1xBet, Parimatch & Dream11 Compared" 
-      description="Detailed side-by-side comparison of Lotus365 vs Betway, 1xBet, Parimatch, and Dream11. Compare commission rates, 2-minute UPI cashouts, WhatsApp ID ease, and game variety." 
+      title="Lotus365 vs Other Sites | Platform Comparison 2026" 
+      description="Compare Lotus365 against traditional bookmakers. Discover why our 0% exchange commission and guaranteed 2-minute cashouts rank us #1 among Indian players." 
       canonical="/lotus365-vs-competitors" 
       keywords="lotus365 vs betway, lotus365 vs 1xbet, lotus365 vs parimatch, lotus365 comparison india, best betting site india 2026, betting exchange vs sportsbook" 
     />
@@ -464,8 +464,8 @@ export const VsCompetitorsPage: React.FC = () => (
 export const BettingTipsPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Cricket Betting Tips India 2026 — Expert Strategy & Pitch Analysis Guide" 
-      description="Professional cricket betting tips for 2026. Master pitch analysis, exchange greening-up hedging mathematics, session fancy betting, and bankroll discipline on Lotus365." 
+      title="Cricket Betting Tips 2026 | Expert Match Strategies" 
+      description="Improve your cricket betting win rate with professional tips on pitch analysis, weather conditions, back & lay exchange hedging, and bankroll discipline." 
       canonical="/betting-tips" 
       keywords="cricket betting tips india, betting tips 2026, online betting strategy india, cricket betting guide, ipl betting tips, cricket exchange trading strategy" 
     />
@@ -642,8 +642,8 @@ export const BettingTipsPage: React.FC = () => (
 export const IplPredictionsPage: React.FC = () => (
   <>
     <SEOHead 
-      title="IPL 2026 Predictions & Betting Analysis — Team Form, Odds & Outright Tips" 
-      description="Expert IPL 2026 betting predictions on Lotus365. Comprehensive team analysis for all 10 franchises, venue impact, powerplay trends, Orange Cap contenders, and championship odds." 
+      title="IPL 2026 Predictions | Live Match Form & Odds Tips" 
+      description="Get daily expert IPL 2026 match predictions, head-to-head records, toss analysis, and player prop picks with the best live betting odds on Lotus365." 
       canonical="/ipl-predictions" 
       keywords="ipl 2026 predictions, ipl betting predictions, ipl winner 2026, ipl analysis 2026, ipl tips india, ipl exchange odds lotus365" 
     />
@@ -824,8 +824,8 @@ export const IplPredictionsPage: React.FC = () => (
 export const OnlineCasinoGuidePage: React.FC = () => (
   <>
     <SEOHead 
-      title="Online Casino Guide India 2026 — Beginner to Expert Rules & RTP Strategies" 
-      description="The definitive online casino guide for India in 2026. Discover game mechanics, house edge math, Teen Patti, Andar Bahar, European Roulette, and instant 2-minute UPI cashouts on Lotus365." 
+      title="Online Casino Guide 2026 | Rules & RTP Strategies" 
+      description="Master live casino gaming with our complete 2026 guide. Learn optimal strategies for Teen Patti, Andar Bahar, Roulette, and Aviator to maximize your payouts." 
       canonical="/online-casino-guide" 
       keywords="online casino guide india, how to play casino india, casino guide beginner india, best online casino india 2026, live casino strategy india, house edge casino math" 
     />
@@ -1034,8 +1034,8 @@ export const OnlineCasinoGuidePage: React.FC = () => (
 export const SafeBettingGuidePage: React.FC = () => (
   <>
     <SEOHead 
-      title="Safe & Responsible Betting Guide India — Bankroll & Risk Management" 
-      description="The definitive safe betting and responsible gambling guide for Indian players on Lotus365. Bankroll control, stop-loss limits, cognitive bias defense, and 24/7 help." 
+      title="Safe Betting Guide India | Bankroll & Risk Control" 
+      description="Learn how to protect your funds and bet responsibly. Explore proven bankroll management strategies, loss-limit discipline, and safe online betting practices." 
       canonical="/safe-betting-guide" 
       keywords="safe betting india, responsible gambling india, betting limits india, safe online gambling guide, stop loss betting, bankroll management" 
     />
@@ -1211,8 +1211,8 @@ export const SafeBettingGuidePage: React.FC = () => (
 export const MobileWebAppGuidePage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 Mobile Gaming Guide — Fast & Smooth Play on Android & iOS" 
-      description="Learn how to enjoy Lotus365 smoothly on any Android or iPhone. Fast 60 FPS mobile cricket betting, live casino tables, and 2-minute UPI cashouts with 1-tap home screen access." 
+      title="Lotus365 Mobile Gaming Guide | Android & iOS Access" 
+      description="Learn how to add Lotus365 to your Android or iPhone home screen as an instant web app. Zero APK installation hazards, instant launch, and 60 FPS live odds." 
       canonical="/mobile-web-app-guide" 
       keywords="lotus365 mobile guide, lotus365 on mobile, play lotus365 on phone, lotus365 browser guide, lotus365 mobile betting, lotus365 ios safari, lotus365 android chrome" 
     />
@@ -1517,13 +1517,27 @@ export const FaqPage: React.FC = () => {
     },
   ];
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: comprehensiveFaqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.a,
+      },
+    })),
+  };
+
   return (
     <>
       <SEOHead
-        title="Lotus365 FAQ — Complete Knowledge Base & Player Assistance"
-        description="Comprehensive Lotus365 FAQ: Step-by-step guidance on WhatsApp ID registration, 2-minute UPI cashouts, cricket exchange rules, casino games, and 24/7 support."
+        title="Lotus365 FAQ | Complete Questions & Answers Hub"
+        description="Get instant answers to all frequent questions about Lotus365: account creation, login troubleshooting, deposit rules, 2-minute cashouts, and VIP benefits."
         canonical="/faq"
         keywords="lotus365 faq, lotus365 questions, lotus365 help, lotus365 common questions, lotus365 withdrawal faq, lotus365 deposit guide"
+        schema={faqSchema}
       />
       <Layout>
         <PageHero 
@@ -1534,10 +1548,13 @@ export const FaqPage: React.FC = () => {
         />
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
           <div className="max-w-4xl mx-auto space-y-8">
-            <div className="p-6 rounded-2xl bg-black/25 border border-[#F0C419]/30 text-white/85 text-xs sm:text-sm leading-relaxed space-y-2">
+            <div className="p-6 rounded-2xl bg-black/25 border border-[#F0C419]/30 text-white/85 text-xs sm:text-sm leading-relaxed space-y-3">
               <h2 className="text-xl font-bold text-[#F0C419]">Search Engine Knowledge Repository & Help Center</h2>
               <p>
                 Browse through our verified collection of frequently asked questions below. Whether you are a beginner looking to create your first free betting ID or a high-volume sports trader seeking details on exchange liquidity and 2-minute IMPS bank cashouts, our documentation provides comprehensive, transparent guidance.
+              </p>
+              <p>
+                Lotus365 is committed to complete operational transparency. Unlike offshore sportsbooks with hidden fees or unverified algorithms, our peer-to-peer exchange rules, payment turnaround SLAs, and account verification standards are fully documented below.
               </p>
             </div>
 
@@ -1558,13 +1575,44 @@ export const FaqPage: React.FC = () => {
                       <ChevronDown className="w-5 h-5 text-white/60 shrink-0" />
                     )}
                   </button>
-                  {open === i && (
-                    <div className="px-5 pb-5 text-xs sm:text-sm text-white/75 leading-relaxed border-t border-white/10 pt-4 bg-black/10">
-                      {faq.a}
-                    </div>
-                  )}
+                  <div className={`px-5 pb-5 text-xs sm:text-sm text-white/75 leading-relaxed border-t border-white/10 pt-4 bg-black/10 ${open === i ? 'block' : 'hidden'}`}>
+                    {faq.a}
+                  </div>
                 </div>
               ))}
+            </div>
+
+            {/* Deep Knowledge Explanatory Guides */}
+            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-6 text-white/85 text-xs sm:text-sm leading-relaxed">
+              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+                Lotus365 Account Security & Banking SLA Standards
+              </h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-base font-bold text-white mb-1">1. How We Protect Your Financial Transactions</h3>
+                  <p className="text-white/75">
+                    Every deposit and withdrawal transaction is routed through direct peer-to-merchant banking APIs using NPCI-certified UPI protocols. By avoiding third-party credit card processors and unverified payment gateways, your funds move directly between your personal Indian bank account and Lotus365's segregated reserve escrow.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-white mb-1">2. Understanding the 2-Minute Cashout Protocol</h3>
+                  <p className="text-white/75">
+                    Our proprietary automated cashout system maintains liquidity pools across leading tier-1 Indian banks. When your withdrawal request is submitted to your WhatsApp concierge, the system runs an automated risk check, validates your winning market settlement, and executes an instant IMPS or UPI transfer within 120 seconds.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-white mb-1">3. Exchange Commission Model vs Bookmaker Margins</h3>
+                  <p className="text-white/75">
+                    Traditional online sportsbooks incorporate a 5% to 8% margin into their odds, skewing probabilities against players. Lotus365 operates as a transparent betting exchange charging 0% to 2% commission only on net winning bets. If you back a cricket team and lay off your risk as the match progresses, you lock in green book profits with zero hidden deductions.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-white mb-1">4. Responsible Gaming Tools & Self-Exclusion</h3>
+                  <p className="text-white/75">
+                    Lotus365 provides full player protection options including daily deposit limits, session cooling-off timeouts, and voluntary self-exclusion. If you ever feel your wagering habits require boundaries, contact our 24/7 WhatsApp desk to activate account controls instantly.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="p-6 rounded-2xl bg-[#0b3b2d]/50 border border-white/10 text-center space-y-3">
@@ -1596,8 +1644,8 @@ export const HowItWorksPage: React.FC = () => {
   return (
     <>
       <SEOHead 
-        title="How Lotus365 Works — 4-Minute Onboarding from Registration to First Payout" 
-        description="Learn how Lotus365 works in 4 simple steps: WhatsApp ID creation, instant UPI funding, betting on cricket exchange or live casino, and guaranteed 2-minute cashouts." 
+        title="How Lotus365 Works | Complete Onboarding Guide" 
+        description="Follow our 4-minute onboarding guide to get your Lotus365 ID on WhatsApp, deposit funds with UPI, place live cricket bets, and cash out winnings in 2 minutes." 
         canonical="/how-it-works" 
         keywords="how lotus365 works, lotus365 process, how to use lotus365, lotus365 step by step, lotus365 whatsapp id process, lotus365 onboarding" 
       />

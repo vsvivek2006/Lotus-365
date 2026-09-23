@@ -23,19 +23,31 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   ogImage = DEFAULT_OG_IMAGE,
   schema,
 }) => {
-  const fullTitle = `${title} | ${SITE_NAME}`;
-  const fullCanonical = `${SITE_URL}${canonical}`;
+  // Ensure title stays under 60 chars for Google SERP
+  let fullTitle = title;
+  if (!title.toLowerCase().includes('lotus365')) {
+    if (title.length + 11 <= 60) {
+      fullTitle = `${title} | Lotus365`;
+    } else if (title.length + 19 <= 60) {
+      fullTitle = `${title} | ${SITE_NAME}`;
+    }
+  }
+
+  // Canonical normalization: exact slash on root, no trailing slash on subpaths
+  const cleanPath = canonical === '/' ? '/' : `/${canonical.replace(/^\/|\/$/g, '')}`;
+  const fullCanonical = `${SITE_URL}${cleanPath}`;
 
   const defaultSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: title,
+    name: fullTitle,
     description,
     url: fullCanonical,
     publisher: {
       '@type': 'Organization',
       name: SITE_NAME,
       url: SITE_URL,
+      logo: `${SITE_URL}/lotus-logo.png`,
     },
   };
 
@@ -47,11 +59,6 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={fullCanonical} />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-      <link rel="shortcut icon" href="/favicon.ico" />
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />

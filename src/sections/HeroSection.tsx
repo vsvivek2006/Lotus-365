@@ -75,7 +75,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
 
             {/* Display Headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-[3.1rem] font-black text-white leading-[1.12] mb-3.5 tracking-tight">
-              India's Most Trusted{' '}
+              Lotus365 Official — India's Most Trusted{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFF066] via-[#F0C419] to-[#E5A800] drop-shadow-[0_2px_18px_rgba(240,196,25,0.35)]">
                 Cricket Exchange
               </span>

@@ -30,8 +30,8 @@ const bonusRelated = [
 export const WelcomeBonusPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 Welcome Bonus — 100% First Deposit Match up to ₹5,000" 
-      description="Claim the official Lotus365 Welcome Bonus. 100% matching bonus on your first deposit up to ₹5,000 for cricket betting, live casino, and Aviator. Register free on WhatsApp!" 
+      title="Lotus365 Welcome Bonus | 100% First Deposit Match" 
+      description="Claim your 100% Welcome Bonus up to ₹5,000 on Lotus365! Instant bonus crediting upon first deposit, fair wagering requirements, and 2-minute UPI cashouts." 
       canonical="/welcome-bonus" 
       keywords="lotus365 welcome bonus, lotus365 new member bonus, lotus365 first deposit bonus, lotus365 bonus offer india, betting welcome bonus india, 100% deposit bonus" 
     />
@@ -299,8 +299,8 @@ export const WelcomeBonusPage: React.FC = () => (
 export const FirstDepositBonusPage: React.FC = () => (
   <>
     <SEOHead 
-      title="First Deposit Bonus India — Boost Your First Lotus365 Deposit" 
-      description="Maximize your first deposit on Lotus365 India. Enjoy tiered deposit match offers, free bet credits for cricket, and VIP starter perks. Register free via WhatsApp!" 
+      title="First Deposit Bonus India | Boost Your Bankroll Online" 
+      description="Double your starting balance on Lotus365 with our First Deposit Bonus. Valid on all sports exchange markets, live casino games, and Aviator crash rounds." 
       canonical="/first-deposit-bonus" 
       keywords="first deposit bonus india, lotus365 first deposit, lotus365 deposit bonus, first bet bonus india, cricket first deposit offer, sign up bonus betting" 
     />
@@ -540,8 +540,8 @@ export const FirstDepositBonusPage: React.FC = () => (
 export const ReferralBonusPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 Referral Program — Earn Real Cash by Inviting Friends" 
-      description="Earn unlimited passive income with the Lotus365 Referral Program. Get flat cash bonuses and lifetime turnover commissions when your friends join and play. Register free!" 
+      title="Lotus365 Referral Program | Refer & Earn Real Cash" 
+      description="Earn unlimited real cash bonuses by referring friends to Lotus365! Get cash rewards for every active referral with instant withdrawal eligibility via UPI." 
       canonical="/referral-bonus" 
       keywords="lotus365 referral bonus, lotus365 refer a friend, lotus365 affiliate, invite friends betting india, earn money betting referral, betting affiliate program india" 
     />
@@ -795,8 +795,8 @@ export const ReferralBonusPage: React.FC = () => (
 export const CashbackOffersPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Weekly Betting Cashback India — Up to 15% Loss Protection on Lotus365" 
-      description="Enjoy up to 15% weekly cashback on your sports and live casino betting at Lotus365 India. Automatic Monday payouts, zero rollover, real cash protection." 
+      title="Weekly Betting Cashback | Up to 15% Loss Protection" 
+      description="Play with confidence on Lotus365. Enjoy up to 15% weekly loss cashback credited automatically to your account every Monday with zero turnover hurdles." 
       canonical="/cashback-offers" 
       keywords="cashback betting india, lotus365 cashback, weekly cashback betting, cricket cashback offer india, casino loss rebate, betting insurance india" 
     />
@@ -1054,8 +1054,8 @@ export const CashbackOffersPage: React.FC = () => (
 export const VipClubPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 VIP Club — Elite High-Roller Rewards & Concierge Service" 
-      description="Join India's most prestigious betting club. Lotus365 VIP members enjoy dedicated WhatsApp account managers, enhanced cashback, custom limits, and priority payouts." 
+      title="Lotus365 VIP Club | Elite Rewards & Personal Manager" 
+      description="Join the exclusive Lotus365 VIP Club. Enjoy dedicated 24/7 WhatsApp relationship managers, sub-60-second priority cashouts, and luxury high-roller perks." 
       canonical="/vip-club" 
       keywords="lotus365 vip club, lotus365 vip, lotus365 premium membership, vip betting india, vip casino india, high roller betting india" 
     />
@@ -1293,8 +1293,8 @@ export const VipClubPage: React.FC = () => (
 export const VipBlackCardPage: React.FC = () => (
   <>
     <SEOHead 
-      title="Lotus365 VIP Black Card — Ultra-Exclusive High-Roller Membership" 
-      description="The Lotus365 VIP Black Card is India's most prestigious betting membership. By invitation only — unlimited withdrawals, 15% uncapped cashback, private account director." 
+      title="Lotus365 VIP Black Card | Ultra-Exclusive Membership" 
+      description="Experience the peak of sports trading luxury with the Lotus365 VIP Black Card. 0% exchange fees, unlimited daily transaction volumes, and private concierge." 
       canonical="/vip-black-card" 
       keywords="lotus365 vip black card, lotus365 black card, lotus365 elite membership, vip black card india betting, high stakes cricket betting, ultra luxury betting" 
     />

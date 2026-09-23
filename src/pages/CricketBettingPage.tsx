@@ -27,8 +27,8 @@ const features = [
 export const CricketBettingPage: React.FC = () => (
   <>
     <SEOHead
-      title="Cricket Betting India — Live Cricket Odds, IPL & Match Exchange"
-      description="Bet on live cricket matches with India's #1 cricket exchange Lotus365. Enjoy 0% commission, ball-by-ball in-play markets, instant UPI cashout in 2 minutes, and IPL 2026 odds. Register free on WhatsApp today!"
+      title="Cricket Betting India | Live Match Odds & IPL Betting"
+      description="Bet on live cricket matches with Lotus365 India. Enjoy 0% commission, ball-by-ball odds, session markets, and instant 2-minute UPI cashouts. Register now!"
       canonical="/cricket-betting"
       keywords="cricket betting india, online cricket betting, cricket exchange live, best cricket odds, ipl betting 2026, session runs betting, live cricket match odds india"
     />

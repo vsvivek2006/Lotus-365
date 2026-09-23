@@ -37,9 +37,18 @@ export const PageHero: React.FC<PageHeroProps> = ({
 
         {/* H1 */}
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight mb-5">
-          {parts[0]}
-          {highlight && <span className="text-[#F0C419]">{highlight}</span>}
-          {parts[1]}
+          {highlight && title.includes(highlight) ? (
+            <>
+              {parts[0]}
+              <span className="text-[#F0C419]">{highlight}</span>
+              {parts[1] || ''}
+            </>
+          ) : (
+            <>
+              {title}
+              {highlight && <span className="text-[#F0C419]">{highlight}</span>}
+            </>
+          )}
         </h1>
 
         <p className="text-base sm:text-xl text-white/75 leading-relaxed max-w-2xl mx-auto mb-8">

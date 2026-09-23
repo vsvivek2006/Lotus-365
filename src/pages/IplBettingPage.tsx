@@ -18,8 +18,8 @@ const related = [
 export const IplBettingPage: React.FC = () => (
   <>
     <SEOHead
-      title="IPL Betting 2026 — Live Indian Premier League Odds & Exchange"
-      description="Bet on IPL 2026 with Lotus365 India's #1 cricket exchange. Ball-by-ball in-play markets, session runs, Orange & Purple Cap outrights, 0% commission, and 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="IPL Betting 2026 | Live Indian Premier League Odds"
+      description="Bet on IPL 2026 matches live with Lotus365. Get top match odds, toss predictions, session runs (Khado/Lambi), and instant UPI payouts on every Indian match."
       canonical="/ipl-betting"
       keywords="ipl betting, ipl betting 2026, ipl online betting india, ipl match odds, ipl live betting, ipl session runs, ipl exchange odds, ipl winner odds 2026"
     />

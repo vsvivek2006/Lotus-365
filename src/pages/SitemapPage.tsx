@@ -80,8 +80,8 @@ const sitemapData = [
 export const SitemapPage: React.FC = () => (
   <>
     <SEOHead
-      title="Sitemap — Complete Directory of All Lotus365 Pages & Guides"
-      description="Complete structural sitemap of Lotus365. Explore all 54 official pages across cricket betting, live casino tables, crash games, payment guides, VIP perks, and tutorials."
+      title="HTML Sitemap | Complete Directory of Lotus365 Pages"
+      description="Navigate the complete directory of Lotus365 pages. Find quick links to cricket betting, live casino, Aviator crash games, bonuses, and banking guides."
       canonical="/sitemap"
       keywords="lotus365 sitemap, all lotus365 pages, lotus365 directory, lotus365 navigation, betting site sitemap india"
     />

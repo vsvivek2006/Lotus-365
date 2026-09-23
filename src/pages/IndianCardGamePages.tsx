@@ -27,8 +27,8 @@ const andarLinks = [
 export const TeenPattiPage: React.FC = () => (
   <>
     <SEOHead
-      title="Teen Patti Online Real Money — Play Live 3 Patti Cash Games India"
-      description="Play Teen Patti online for real cash on Lotus365. Real human dealers, 20-20 Teen Patti, Muflis, Pair Plus side bets, minimum ₹10 bets, and instant 2-minute UPI cashouts. Register free on WhatsApp!"
+      title="Teen Patti Real Money | Play Live 3 Patti Cash Games"
+      description="Play Teen Patti cash games online with real human dealers. Low entry limits, high-roller VIP tables, fast UPI cashouts, and 100% fair RNG certified card play."
       canonical="/teen-patti"
       keywords="teen patti online, teen patti real money, live teen patti india, 3 patti cash, play teen patti online, 3 patti real cash game, teen patti rules"
     />
@@ -280,8 +280,8 @@ export const TeenPattiPage: React.FC = () => (
 export const AndarBaharPage: React.FC = () => (
   <>
     <SEOHead
-      title="Andar Bahar Online Real Cash — Live Dealer Andar Bahar Game India"
-      description="Play Andar Bahar online for real money at Lotus365. Enjoy live dealers, Turbo Andar Bahar, 120x side bet multipliers, low house edge, and 2-minute UPI cashouts. Register free on WhatsApp now!"
+      title="Andar Bahar Online Real Cash | Live Dealer Card Game"
+      description="Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7."
       canonical="/andar-bahar"
       keywords="andar bahar online, live andar bahar india, andar bahar real money, play andar bahar online, andar bahar game online, katti card game, andar bahar winning tricks"
     />

@@ -21,8 +21,8 @@ const related = [
 export const PrivacyPolicyPage: React.FC = () => (
   <>
     <SEOHead
-      title="Privacy Policy — How Lotus365 Protects User Data & Financial Security"
-      description="Learn how Lotus365 safeguards user privacy with 256-bit encryption. Strict zero-document data policy, secure WhatsApp communication, and zero third-party data sharing."
+      title="Privacy Policy | Lotus365 Data Protection & Security"
+      description="Read the Lotus365 Privacy Policy. Discover how we protect your personal credentials, UPI details, and transaction history using 256-bit bank-grade SSL encryption."
       canonical="/privacy-policy"
       keywords="lotus365 privacy policy, lotus365 data protection, lotus365 user data security, betting privacy india, dpdp act compliance, encrypted betting platform"
     />
