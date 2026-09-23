@@ -3,6 +3,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/https\\:/lotus365officialid.com/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/https\\:/:path*sitemap:suffix*",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
@@ -16,7 +26,7 @@
   ],
   "headers": [
     {
-      "source": "/sitemap.xml",
+      "source": "/(sitemap\\.xml|sitemap_index\\.xml|.*\\.xml)",
       "headers": [
         {
           "key": "Content-Type",
@@ -25,6 +35,14 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "all"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     },
@@ -38,6 +56,14 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "all"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     },

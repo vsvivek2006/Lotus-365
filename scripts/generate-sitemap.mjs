@@ -159,21 +159,34 @@ ${urlEntries}
 `;
 }
 
+export function generateSitemapIndexXml() {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>${BASE_URL}/sitemap.xml</loc>
+    <lastmod>${today}</lastmod>
+  </sitemap>
+</sitemapindex>
+`;
+}
+
 export function writeSitemap() {
-  const xml = generateSitemapXml();
+  const sitemapXml = generateSitemapXml();
+  const sitemapIndexXml = generateSitemapIndexXml();
 
-  // 1. Write to public/sitemap.xml
-  const publicPath = path.join(rootDir, 'public', 'sitemap.xml');
-  fs.writeFileSync(publicPath, xml, 'utf8');
+  // 1. Write to public/
+  const publicDir = path.join(rootDir, 'public');
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapXml, 'utf8');
+  fs.writeFileSync(path.join(publicDir, 'sitemap_index.xml'), sitemapIndexXml, 'utf8');
 
-  // 2. Write to dist/sitemap.xml if dist directory exists
+  // 2. Write to dist/ if it exists
   const distDir = path.join(rootDir, 'dist');
   if (fs.existsSync(distDir)) {
-    const distPath = path.join(distDir, 'sitemap.xml');
-    fs.writeFileSync(distPath, xml, 'utf8');
+    fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml, 'utf8');
+    fs.writeFileSync(path.join(distDir, 'sitemap_index.xml'), sitemapIndexXml, 'utf8');
   }
 
-  // Also ensure robots.txt is properly synchronized
+  // 3. Synchronize robots.txt with dual sitemaps and clean directives
   const robotsTxt = `User-agent: *
 Allow: /
 Disallow: /api/
@@ -184,18 +197,19 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Host: ${BASE_URL}
 Sitemap: ${BASE_URL}/sitemap.xml
+Sitemap: ${BASE_URL}/sitemap_index.xml
 `;
-  fs.writeFileSync(path.join(rootDir, 'public', 'robots.txt'), robotsTxt, 'utf8');
+  fs.writeFileSync(path.join(publicDir, 'robots.txt'), robotsTxt, 'utf8');
   if (fs.existsSync(distDir)) {
     fs.writeFileSync(path.join(distDir, 'robots.txt'), robotsTxt, 'utf8');
   }
 
-  console.log(`[Automatic Sitemap] Successfully generated sitemap.xml with ${routesConfig.length} URLs (lastmod: ${today})`);
+  console.log(`[Automatic Sitemap] Successfully generated sitemap.xml (${routesConfig.length} URLs) and sitemap_index.xml (lastmod: ${today})`);
 }
 
 // If executed directly via CLI
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   writeSitemap();
 }
+

@@ -17,25 +17,47 @@ if (!fs.existsSync(robotsPath)) {
   const hasGooglebot = robots.includes('User-agent: Googlebot');
   const hasBingbot = robots.includes('User-agent: Bingbot');
   const hasSitemap = robots.includes('Sitemap: https://lotus365officialid.com/sitemap.xml');
-  const hasHost = robots.includes('Host: https://lotus365officialid.com');
+  const hasSitemapIndex = robots.includes('Sitemap: https://lotus365officialid.com/sitemap_index.xml');
   const blocksWellKnown = robots.includes('/.well-known/');
   console.log(`- Googlebot directive: ${hasGooglebot ? 'PASS' : 'FAIL'}`);
   console.log(`- Bingbot directive: ${hasBingbot ? 'PASS' : 'FAIL'}`);
-  console.log(`- Sitemap reference: ${hasSitemap ? 'PASS' : 'FAIL'}`);
-  console.log(`- Host reference: ${hasHost ? 'PASS' : 'FAIL'}`);
+  console.log(`- sitemap.xml reference: ${hasSitemap ? 'PASS' : 'FAIL'}`);
+  console.log(`- sitemap_index.xml reference: ${hasSitemapIndex ? 'PASS' : 'FAIL'}`);
   console.log(`- Blocks /.well-known/: ${blocksWellKnown ? 'FAIL (BLOCKED)' : 'PASS (ALLOWED)'}`);
 }
 
-// 2. Check sitemap.xml
-console.log('\n--- 2. AUDITING SITEMAP.XML ---');
-const sitemapContent = fs.readFileSync(sitemapPath, 'utf8');
+// 2. Check sitemap.xml & sitemap_index.xml
+console.log('\n--- 2. AUDITING SITEMAP.XML & SITEMAP_INDEX.XML ---');
+const sitemapIndexPath = path.join(rootDir, 'public', 'sitemap_index.xml');
+
+// sitemap.xml checks
+const sitemapBuffer = fs.readFileSync(sitemapPath);
+const sitemapHasBom = sitemapBuffer[0] === 0xEF && sitemapBuffer[1] === 0xBB && sitemapBuffer[2] === 0xBF;
+const sitemapStartsWithXml = sitemapBuffer.toString('utf8').startsWith('<?xml');
+const sitemapContent = sitemapBuffer.toString('utf8');
 const sitemapUrls = [];
 const locRegex = /<loc>(https:\/\/lotus365officialid\.com[^<]*)<\/loc>/g;
 let match;
 while ((match = locRegex.exec(sitemapContent)) !== null) {
   sitemapUrls.push(match[1]);
 }
+console.log(`- sitemap.xml byte 0 clean (No BOM): ${!sitemapHasBom ? 'PASS' : 'FAIL'}`);
+console.log(`- sitemap.xml starts with <?xml: ${sitemapStartsWithXml ? 'PASS' : 'FAIL'}`);
 console.log(`- Total URLs in sitemap: ${sitemapUrls.length} (Expected: 104)`);
+
+// sitemap_index.xml checks
+if (fs.existsSync(sitemapIndexPath)) {
+  const indexBuf = fs.readFileSync(sitemapIndexPath);
+  const indexHasBom = indexBuf[0] === 0xEF && indexBuf[1] === 0xBB && indexBuf[2] === 0xBF;
+  const indexStartsWithXml = indexBuf.toString('utf8').startsWith('<?xml');
+  const hasChildSitemap = indexBuf.toString('utf8').includes('https://lotus365officialid.com/sitemap.xml');
+  console.log(`- sitemap_index.xml exists: PASS`);
+  console.log(`- sitemap_index.xml byte 0 clean (No BOM): ${!indexHasBom ? 'PASS' : 'FAIL'}`);
+  console.log(`- sitemap_index.xml starts with <?xml: ${indexStartsWithXml ? 'PASS' : 'FAIL'}`);
+  console.log(`- sitemap_index.xml child loc verified: ${hasChildSitemap ? 'PASS' : 'FAIL'}`);
+} else {
+  console.error('- sitemap_index.xml exists: FAIL (NOT FOUND)');
+}
 
 // 3. Audit all 104 routes across all metrics
 console.log('\n--- 3. AUDITING ALL 104 PAGES IN DIST ---');

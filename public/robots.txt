@@ -8,5 +8,5 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Host: https://lotus365officialid.com
 Sitemap: https://lotus365officialid.com/sitemap.xml
+Sitemap: https://lotus365officialid.com/sitemap_index.xml
