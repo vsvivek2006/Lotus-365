@@ -80,13 +80,13 @@ export const HowToDepositPage: React.FC = () => (
               Fast, Seamless & Zero-Fee Deposits on Lotus365
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we understand that when a high-voltage IPL match or an intense live casino table is underway, you cannot afford to wait 30 minutes for your deposit to reflect. That is why our proprietary payment routing network is directly integrated with India’s Unified Payments Interface (UPI) and NPCI banking rails, guaranteeing that 99.4% of deposits reflect in your wallet balance in under 60 seconds.
+              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we understand that when a high-voltage IPL match or an intense live casino table is underway, you cannot afford to wait 30 minutes for your deposit to reflect. That is why our proprietary payment routing network is directly integrated with India’s Unified Payments Interface (UPI) and NPCI banking rails, guaranteeing that 99.4% of deposits reflect in your wallet balance in under 60 seconds.
             </p>
             <p className="mb-4">
               Whether you prefer depositing via <strong>PhonePe, Google Pay, Paytm, BHIM, CRED UPI</strong>, or instant <strong>IMPS net banking</strong>, our process eliminates confusing third-party payment gateways that trigger bank declines. Lotus365 charges exactly 0% in deposit fees, meaning 100% of your hard-earned rupees go straight toward your betting bankroll.
             </p>
             <p>
-              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/welcome-bonus" className="text-[#F0C419] font-semibold hover:underline">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,000!
+              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/welcome-bonus" className="text-[#F0C419] font-semibold hover:underline" title="100% First Deposit Welcome Bonus">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,000!
             </p>
           </div>
 
@@ -344,7 +344,7 @@ export const HowToWithdrawPage: React.FC = () => (
               The true hallmark of a trusted online betting exchange is not how smoothly it accepts deposits, but how swiftly and respectfully it honors customer payouts. Offshore betting sites frequently delay player withdrawals by 48 to 72 hours, demanding repetitive passport scans, notarized documents, and imposing hidden rollover penalties.
             </p>
             <p className="mb-4">
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we operate on a strict <Link href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline">2-Minute Cashout Guarantee</Link>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
+              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we operate on a strict <Link href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
             </p>
             <p>
               Best of all, there are <strong>zero transaction deductions or withdrawal service fees</strong>. Every single rupee you cash out arrives intact in your bank balance.
@@ -644,7 +644,7 @@ export const UpiDepositPage: React.FC = () => (
               Unlike debit cards, credit cards, or international e-wallets, UPI never forces you to expose your 16-digit card number, CVV code, or online banking passwords to third-party web portals. Every transaction is authenticated locally inside your smartphone using your secret 4-digit or 6-digit UPI MPIN, backed by two-factor device binding.
             </p>
             <p>
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we have optimized our payment gateways to interface natively with the UPI architecture, providing instant balance credits within 30 seconds of completing your payment.
+              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we have optimized our payment gateways to interface natively with the UPI architecture, providing instant balance credits within 30 seconds of completing your payment.
             </p>
           </div>
 
@@ -906,7 +906,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
               For Lotus365 players withdrawing substantial sums—particularly balances between ₹50,000 and ₹5,00,000—IMPS is the preferred mechanism over UPI because it bypasses daily VPA limits imposed by retail apps like Google Pay. Payouts sent via IMPS land directly in your core bank account balance, ready for immediate ATM withdrawal, card spending, or personal transfers.
             </p>
             <p>
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, our automated treasury disburses IMPS transfers within 5 to 10 minutes of confirmation with zero deduction fees.
+              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our automated treasury disburses IMPS transfers within 5 to 10 minutes of confirmation with zero deduction fees.
             </p>
           </div>
 
@@ -1171,7 +1171,7 @@ export const PaymentMethodsPage: React.FC = () => (
               Comprehensive Financial Gateway for Indian Players
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe financial flexibility and payment transparency are the cornerstones of a world-class gaming experience. We have tailored our payment infrastructure specifically for the Indian market, eliminating foreign conversion fees, frustrating credit card international blockades, and lengthy verification delays.
+              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe financial flexibility and payment transparency are the cornerstones of a world-class gaming experience. We have tailored our payment infrastructure specifically for the Indian market, eliminating foreign conversion fees, frustrating credit card international blockades, and lengthy verification delays.
             </p>
             <p className="mb-4">
               Every payment rail featured on our platform is governed by three strict commitments: <strong>instant execution, 0% commission fees, and 24/7 human WhatsApp customer assistance</strong>.
@@ -1470,7 +1470,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
               In the fast-moving world of online sports betting and live casino gaming, nothing matters more than the speed and reliability of your withdrawals. While many platforms brag about flashy odds and massive welcome banners, their true colors show when a player requests a cashout: lengthy verification hurdles, arbitrary account freezes, and frustrating 48-to-72-hour waiting periods.
             </p>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we dismantled this outdated model by pioneering the <strong>2-Minute Cashout Guarantee</strong>. When you place a winning bet on an IPL match or strike a massive multiplier in <Link href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline">Aviator</Link>, your money is disbursed within 120 seconds of submitting your request on WhatsApp.
+              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we dismantled this outdated model by pioneering the <strong>2-Minute Cashout Guarantee</strong>. When you place a winning bet on an IPL match or strike a massive multiplier in <Link href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline" title="Aviator">Aviator</Link>, your money is disbursed within 120 seconds of submitting your request on WhatsApp.
             </p>
             <p>
               We maintain dedicated liquidity reserves across India’s primary banking partners (HDFC, ICICI, SBI, and Axis Bank), ensuring that whether your cashout is ₹500 or ₹5,00,000, our automated disbursement gateway processes it immediately.

@@ -233,7 +233,7 @@ export const CricketExchangePage: React.FC = () => (
               <span>Exchange Rule of Thumb: Never Chase Losses on Khado</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              If a session run bet fails because of an unexpected maiden over or a double-wicket maiden, never double your stake on the following session out of frustration. Stick strictly to flat 2% to 4% bankroll allocations per market as explained in our <Link href="/betting-tips" className="text-[#F0C419] underline font-semibold">cricket betting tips guide</Link>.
+              If a session run bet fails because of an unexpected maiden over or a double-wicket maiden, never double your stake on the following session out of frustration. Stick strictly to flat 2% to 4% bankroll allocations per market as explained in our <Link href="/betting-tips" className="text-[#F0C419] underline font-semibold" title="cricket betting tips guide">cricket betting tips guide</Link>.
             </p>
           </div>
 

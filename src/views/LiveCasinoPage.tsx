@@ -77,10 +77,10 @@ export const LiveCasinoPage: React.FC = () => (
               World-Class Live Casino Streaming Directly to Your Mobile Screen
             </h2>
             <p>
-              Forget static computer graphics. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
+              Forget static computer graphics. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
             </p>
             <p>
-              Whether you are an enthusiast of traditional Indian heritage card games like <Link href="/teen-patti" className="text-[#F0C419] hover:underline font-semibold">Teen Patti</Link> and <Link href="/andar-bahar" className="text-[#F0C419] hover:underline font-semibold">Andar Bahar</Link>, or high-stakes European classics like <Link href="/roulette" className="text-[#F0C419] hover:underline font-semibold">Roulette</Link> and <Link href="/blackjack" className="text-[#F0C419] hover:underline font-semibold">Blackjack</Link>, Lotus365 provides transparent dealing with zero RNG doubts.
+              Whether you are an enthusiast of traditional Indian heritage card games like <Link href="/teen-patti" className="text-[#F0C419] hover:underline font-semibold" title="Teen Patti">Teen Patti</Link> and <Link href="/andar-bahar" className="text-[#F0C419] hover:underline font-semibold" title="Andar Bahar">Andar Bahar</Link>, or high-stakes European classics like <Link href="/roulette" className="text-[#F0C419] hover:underline font-semibold" title="Roulette">Roulette</Link> and <Link href="/blackjack" className="text-[#F0C419] hover:underline font-semibold" title="Blackjack">Blackjack</Link>, Lotus365 provides transparent dealing with zero RNG doubts.
             </p>
           </div>
 
@@ -186,7 +186,7 @@ export const LiveCasinoPage: React.FC = () => (
               <span>Casino Pro Tip: The Stop-Loss & Target Profit Rule</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link href="/2-minute-cashout" className="text-[#F0C419] underline font-semibold">2-minute cashout desk</Link> to lock in your real-money gains!
+              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link href="/2-minute-cashout" className="text-[#F0C419] underline font-semibold" title="2-minute cashout desk">2-minute cashout desk</Link> to lock in your real-money gains!
             </p>
           </div>
 

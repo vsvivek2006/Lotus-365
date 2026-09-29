@@ -89,7 +89,7 @@ export const PhonePeDepositPage: React.FC = () => (
               Always request fresh payment details from your official WhatsApp concierge before initiating each new deposit. Never reuse old QR codes or save VPAs in your PhonePe favorites, as corporate banking channels rotate periodically for account security and anti-fraud compliance.
             </p>
             <p>
-              Explore other fast UPI methods at <Link href="/google-pay-deposit" className="text-[#F0C419] underline font-semibold">Google Pay Deposit Guide</Link> and <Link href="/paytm-deposit" className="text-[#F0C419] underline font-semibold">Paytm Deposit Guide</Link>.
+              Explore other fast UPI methods at <Link href="/google-pay-deposit" className="text-[#F0C419] underline font-semibold" title="Google Pay Deposit Guide">Google Pay Deposit Guide</Link> and <Link href="/paytm-deposit" className="text-[#F0C419] underline font-semibold" title="Paytm Deposit Guide">Paytm Deposit Guide</Link>.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ export const GooglePayDepositPage: React.FC = () => (
               After completing the transfer in Google Pay, scroll down the receipt screen to locate the <strong className="text-white">UPI transaction ID</strong> (a 12-digit number beginning with the current year or month). Copy this number and paste it into your WhatsApp concierge chat for instant verification.
             </p>
             <p>
-              Learn about our complete payout process at <Link href="/how-to-withdraw" className="text-[#F0C419] underline font-semibold">How to Withdraw on Lotus365</Link>.
+              Learn about our complete payout process at <Link href="/how-to-withdraw" className="text-[#F0C419] underline font-semibold" title="How to Withdraw on Lotus365">How to Withdraw on Lotus365</Link>.
             </p>
           </div>
 
@@ -335,7 +335,7 @@ export const PaytmDepositPage: React.FC = () => (
               Once your payment completes successfully in Paytm, open the receipt and locate the line labeled <strong className="text-white">UPI Ref No.</strong> (e.g., 4256XXXXXXXX). Copy this exact 12-digit sequence and share it with your WhatsApp agent.
             </p>
             <p>
-              Review all banking avenues at <Link href="/payment-methods" className="text-[#F0C419] underline font-semibold">Payment Methods Overview</Link>.
+              Review all banking avenues at <Link href="/payment-methods" className="text-[#F0C419] underline font-semibold" title="Payment Methods Overview">Payment Methods Overview</Link>.
             </p>
           </div>
 
@@ -461,7 +461,7 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
               Contact our exclusive VIP desk via WhatsApp and mention your intended transfer amount. Your concierge will issue a dedicated Current Account number, Beneficiary Name, and IFSC code. Once you execute the wire from your net banking portal, submit the bank confirmation receipt for rapid credit.
             </p>
             <p>
-              Discover all exclusive VIP privileges at our <Link href="/vip-black-card" className="text-[#F0C419] underline font-semibold">VIP Black Card Portal</Link>.
+              Discover all exclusive VIP privileges at our <Link href="/vip-black-card" className="text-[#F0C419] underline font-semibold" title="VIP Black Card Portal">VIP Black Card Portal</Link>.
             </p>
           </div>
 
@@ -584,7 +584,7 @@ export const CryptoDepositUsdtPage: React.FC = () => (
               Connect with your WhatsApp concierge and request the active USDT TRC20 or BEP20 wallet address. Send the desired amount from Binance, WazirX, CoinDCX, or Trust Wallet, and share the Transaction Hash (TxID). Once confirmed on TronScan or BscScan, your INR balance updates automatically.
             </p>
             <p>
-              Learn more about account safety at <Link href="/account-security-tips" className="text-[#F0C419] underline font-semibold">Account Security Tips</Link>.
+              Learn more about account safety at <Link href="/account-security-tips" className="text-[#F0C419] underline font-semibold" title="Account Security Tips">Account Security Tips</Link>.
             </p>
           </div>
 
@@ -735,7 +735,7 @@ export const WithdrawalProofTimesPage: React.FC = () => (
               </table>
             </div>
             <p>
-              Read more on our payout policies at <Link href="/2-minute-cashout" className="text-[#F0C419] underline font-semibold">2-Minute Cashout Guarantee</Link>.
+              Read more on our payout policies at <Link href="/2-minute-cashout" className="text-[#F0C419] underline font-semibold" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>.
             </p>
           </div>
 
@@ -861,7 +861,7 @@ export const KycVerificationGuidePage: React.FC = () => (
               If you ever need to change your registered withdrawal UPI handle or bank details, message our official WhatsApp concierge from your registered phone number. A senior supervisor will confirm your recent deposit reference (UTR) to ensure you are the genuine account owner before updating your payout profile.
             </p>
             <p>
-              Read our full privacy commitments at <Link href="/privacy-policy" className="text-[#F0C419] underline font-semibold">Lotus365 Privacy Policy</Link>.
+              Read our full privacy commitments at <Link href="/privacy-policy" className="text-[#F0C419] underline font-semibold" title="Lotus365 Privacy Policy">Lotus365 Privacy Policy</Link>.
             </p>
           </div>
 
@@ -987,7 +987,7 @@ export const AccountSecurityTipsPage: React.FC = () => (
               If you ever forget your password or suspect unauthorized access, our 24/7 security concierge on WhatsApp provides rapid identity restoration. Contact us from your registered mobile number; our team will terminate all active sessions and issue new encrypted credentials in under two minutes.
             </p>
             <p>
-              Review our login guidelines at <Link href="/login" className="text-[#F0C419] underline font-semibold">Lotus365 Official Login Portal</Link>.
+              Review our login guidelines at <Link href="/login" className="text-[#F0C419] underline font-semibold" title="Lotus365 Official Login Portal">Lotus365 Official Login Portal</Link>.
             </p>
           </div>
 

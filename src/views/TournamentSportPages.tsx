@@ -88,7 +88,7 @@ export const WplBettingPage: React.FC = () => (
               How to Trade WPL Matches on Lotus365
             </h2>
             <p>
-              Getting started on WPL match markets takes less than two minutes. Create your private account credential via our 24/7 WhatsApp concierge desk, transfer funds using any Indian banking handle, and navigate to the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link> portal. Select the active WPL fixture to view depth charts, market volumes, and live matching order slips.
+              Getting started on WPL match markets takes less than two minutes. Create your private account credential via our 24/7 WhatsApp concierge desk, transfer funds using any Indian banking handle, and navigate to the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link> portal. Select the active WPL fixture to view depth charts, market volumes, and live matching order slips.
             </p>
             <p>
               Smart cricket traders monitor pitch reports from Mumbai's Brabourne Stadium or DY Patil Stadium to anticipate whether dew will impact the second innings. By executing green-and-red cashouts prior to high-pressure death overs, you lock in mathematically assured profits regardless of which team secures victory.
@@ -214,7 +214,7 @@ export const PslBettingPage: React.FC = () => (
               To succeed in PSL trading, combine live television broadcast observation with our rapid data feed. Placing a pre-match wager on an outright winner often carries unnecessary variance; instead, our traders favor waiting until the first 3 overs unfold to gauge swing before backing the chasing side or laying a top-order collapse.
             </p>
             <p>
-              Explore our comprehensive <Link href="/cricket-session-betting" className="text-[#F0C419] underline font-semibold">Cricket Session Betting Guide</Link> to learn the nuances of lambi pari and over-by-over trading strategies designed specifically for franchise T20 tournaments.
+              Explore our comprehensive <Link href="/cricket-session-betting" className="text-[#F0C419] underline font-semibold" title="Cricket Session Betting Guide">Cricket Session Betting Guide</Link> to learn the nuances of lambi pari and over-by-over trading strategies designed specifically for franchise T20 tournaments.
             </p>
           </div>
 
@@ -337,7 +337,7 @@ export const BblBettingPage: React.FC = () => (
               BBL grounds vary significantly in size and bounce. The Melbourne Cricket Ground (MCG) features massive boundaries where singles and doubles dominate, whereas Adelaide Oval's short square boundaries invite heavy six-hitting. Factoring ground dimensions into session run forecasts delivers a clear statistical edge over casual bettors.
             </p>
             <p>
-              To discover how exchange mechanics provide superior value compared to static odds books, read our <Link href="/betting-exchange-vs-sportsbook" className="text-[#F0C419] underline font-semibold">Betting Exchange vs Sportsbook Comparison</Link>.
+              To discover how exchange mechanics provide superior value compared to static odds books, read our <Link href="/betting-exchange-vs-sportsbook" className="text-[#F0C419] underline font-semibold" title="Betting Exchange vs Sportsbook Comparison">Betting Exchange vs Sportsbook Comparison</Link>.
             </p>
           </div>
 
@@ -460,7 +460,7 @@ export const CplBettingPage: React.FC = () => (
               Pitches across the Caribbean often slow down as tournaments progress, favoring skilled spinners and cutters over pure pace. Traders who recognize when a pitch begins gripping can profit significantly by laying batting session totals or backing low-scoring defense scenarios.
             </p>
             <p>
-              For additional strategies on managing risk and reading pitch behavior, check our detailed <Link href="/betting-tips" className="text-[#F0C419] underline font-semibold">Cricket Betting Tips Guide</Link>.
+              For additional strategies on managing risk and reading pitch behavior, check our detailed <Link href="/betting-tips" className="text-[#F0C419] underline font-semibold" title="Cricket Betting Tips Guide">Cricket Betting Tips Guide</Link>.
             </p>
           </div>
 
@@ -583,7 +583,7 @@ export const AsiaCupBettingPage: React.FC = () => (
               Subcontinental tournaments often hinge on spinner dominance and toss advantages. Day-night matches at venues like Dubai International Stadium frequently exhibit heavy second-innings dew, skewing win probabilities toward the chasing team. Successful exchange participants monitor conditions closely and trade swings rather than placing static pre-match bets.
             </p>
             <p>
-              Learn more about how coin toss outcomes influence subcontinental cricket markets in our dedicated <Link href="/cricket-toss-prediction" className="text-[#F0C419] underline font-semibold">Cricket Toss Prediction Guide</Link>.
+              Learn more about how coin toss outcomes influence subcontinental cricket markets in our dedicated <Link href="/cricket-toss-prediction" className="text-[#F0C419] underline font-semibold" title="Cricket Toss Prediction Guide">Cricket Toss Prediction Guide</Link>.
             </p>
           </div>
 
@@ -706,7 +706,7 @@ export const IccOdiWorldCupPage: React.FC = () => (
               In modern 50-over cricket, the middle overs (overs 11 to 40) define tournament outcomes. Teams that preserve wickets in this phase frequently accelerate aggressively in the final 10 overs, adding 100+ runs. Traders who monitor batting depth rather than current run rate often identify undervalued session lines before bookmaker models adjust.
             </p>
             <p>
-              Review our <Link href="/cricket-betting" className="text-[#F0C419] underline font-semibold">Cricket Betting Overview</Link> to master exchange slips, unmatched bets, and margin calculations.
+              Review our <Link href="/cricket-betting" className="text-[#F0C419] underline font-semibold" title="Cricket Betting Overview">Cricket Betting Overview</Link> to master exchange slips, unmatched bets, and margin calculations.
             </p>
           </div>
 
@@ -829,7 +829,7 @@ export const TestCricketBettingPage: React.FC = () => (
               On Day 1 of a Test match in India, flat red soil or black clay often produces heavy batting totals. By Day 4 and Day 5, footmarks outside the right-hander's off-stump become explosive turning zones for spinners. Traders who track day-by-day weather forecasts and surface degradation gain an immense edge over the market.
             </p>
             <p>
-              Read our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange Tutorial</Link> to understand how back and lay spreads function in multi-day cricket.
+              Read our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange Tutorial">Cricket Exchange Tutorial</Link> to understand how back and lay spreads function in multi-day cricket.
             </p>
           </div>
 
@@ -952,7 +952,7 @@ export const LiveCricketScoreOddsPage: React.FC = () => (
               Exchange odds represent decimal payout multipliers. An odds value of <strong className="text-[#F0C419]">1.90</strong> means a ₹1,000 winning stake returns ₹1,900 total (₹900 net profit). Blue columns denote <strong className="text-blue-400">Back</strong> prices (betting on an event to occur), while pink columns denote <strong className="text-rose-400">Lay</strong> prices (betting against the event).
             </p>
             <p>
-              Explore our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange Tutorial</Link> to master order matching, unmatched slips, and partial fillings.
+              Explore our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange Tutorial">Cricket Exchange Tutorial</Link> to master order matching, unmatched slips, and partial fillings.
             </p>
           </div>
 
@@ -1075,7 +1075,7 @@ export const CricketSessionBettingPage: React.FC = () => (
               Professional fancy traders avoid emotional bias and focus on objective variables: bowler match-ups, field placement adjustments, wind direction, and pitch pace. For example, if a world-class death bowler has two overs remaining, session run projections for overs 18 to 20 are frequently overestimated by recreational bettors, creating valuable <strong className="text-rose-400">NO</strong> opportunities.
             </p>
             <p>
-              Check out our complete <Link href="/cricket-betting-glossary" className="text-[#F0C419] underline font-semibold">Cricket Betting Terminology Glossary</Link> for an in-depth breakdown of Khai, Lagai, Dabba, and Back-Lay formulas.
+              Check out our complete <Link href="/cricket-betting-glossary" className="text-[#F0C419] underline font-semibold" title="Cricket Betting Terminology Glossary">Cricket Betting Terminology Glossary</Link> for an in-depth breakdown of Khai, Lagai, Dabba, and Back-Lay formulas.
             </p>
           </div>
 
@@ -1198,7 +1198,7 @@ export const CricketTossPredictionPage: React.FC = () => (
               Before placing a match-winner wager, wait for the toss announcement and verify whether key team selections have changed. A captain opting to bowl first on a green seaming surface under cloudy conditions signals an immediate opportunity to back opening bowler wicket propositions or lay top-order run lines.
             </p>
             <p>
-              Review our live scoring portal at <Link href="/live-cricket-score-odds" className="text-[#F0C419] underline font-semibold">Live Cricket Score & Odds</Link> to observe how odds fluctuate the instant the coin hits the turf.
+              Review our live scoring portal at <Link href="/live-cricket-score-odds" className="text-[#F0C419] underline font-semibold" title="Live Cricket Score & Odds">Live Cricket Score & Odds</Link> to observe how odds fluctuate the instant the coin hits the turf.
             </p>
           </div>
 

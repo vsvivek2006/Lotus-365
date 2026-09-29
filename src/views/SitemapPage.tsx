@@ -200,10 +200,10 @@ export const SitemapPage: React.FC = () => (
               How Lotus365's Unified Ecosystem Operates
             </h2>
             <p>
-              Every endpoint documented in this sitemap connects into our unified cloud-based account ledger. When you generate an account via WhatsApp at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline">WhatsApp Support</a>, that single login unlocks access to all 54 gaming verticals, betting exchanges, live dealer suites, and payment channels without needing to register separate accounts.
+              Every endpoint documented in this sitemap connects into our unified cloud-based account ledger. When you generate an account via WhatsApp at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline" title="WhatsApp Support">WhatsApp Support</a>, that single login unlocks access to all 54 gaming verticals, betting exchanges, live dealer suites, and payment channels without needing to register separate accounts.
             </p>
             <p>
-              Whether you are hedging match positions on the <Link href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link>, riding multiplier curves in <Link href="/aviator-game" className="text-[#F0C419] underline">Spribe Aviator</Link>, or requesting a 2-minute instant UPI cashout to your bank account, Lotus365 delivers zero-friction, state-of-the-art gaming performance.
+              Whether you are hedging match positions on the <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link>, riding multiplier curves in <Link href="/aviator-game" className="text-[#F0C419] underline" title="Spribe Aviator">Spribe Aviator</Link>, or requesting a 2-minute instant UPI cashout to your bank account, Lotus365 delivers zero-friction, state-of-the-art gaming performance.
             </p>
           </div>
 

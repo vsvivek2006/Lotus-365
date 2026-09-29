@@ -115,7 +115,7 @@ export const TermsPage: React.FC = () => (
             <div>
               <h2 className="text-xl font-extrabold text-[#F0C419] mb-3">4. Cricket Exchange Wagering & Market Settlement Rules</h2>
               <p className="mb-2">
-                Bets placed on the <Link href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link> represent peer-to-peer contracts between participating members.
+                Bets placed on the <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link> represent peer-to-peer contracts between participating members.
               </p>
               <ul className="list-disc list-inside space-y-1 text-xs text-white/80">
                 <li><strong>Matched Bets:</strong> A bet is only binding once fully or partially "Matched" by an opposing player. Unmatched bets can be cancelled at any time prior to match commencement.</li>

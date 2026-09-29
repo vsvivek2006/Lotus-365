@@ -69,10 +69,10 @@ export const IplBettingPage: React.FC = () => (
               The Ultimate IPL 2026 Betting Experience on Lotus365
             </h2>
             <p>
-              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
+              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
             </p>
             <p>
-              By leveraging our peer-to-peer <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline">cricket exchange</Link>, you bypass bookmaker margins and trade back and lay positions on match odds, session totals, player milestones, and over-by-over dynamics without a rupee cut in platform commission.
+              By leveraging our peer-to-peer <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline" title="cricket exchange">cricket exchange</Link>, you bypass bookmaker margins and trade back and lay positions on match odds, session totals, player milestones, and over-by-over dynamics without a rupee cut in platform commission.
             </p>
           </div>
 
@@ -258,7 +258,7 @@ export const IplBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-2xl font-black text-[#F0C419] mb-1">04</div>
                 <div className="font-bold text-white mb-1">Instant Cashout</div>
-                <p className="text-white/70">Withdraw winnings with our guaranteed <Link href="/2-minute-cashout" className="text-[#F0C419] hover:underline">2-minute cashout SLA</Link> directly to your bank account.</p>
+                <p className="text-white/70">Withdraw winnings with our guaranteed <Link href="/2-minute-cashout" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link> directly to your bank account.</p>
               </div>
             </div>
           </div>

@@ -53,7 +53,7 @@ export const RoulettePage: React.FC = () => (
               The Elegance of Live European Roulette on Lotus365
             </h2>
             <p>
-              Roulette is celebrated worldwide as the Queen of Casino Games. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), our Live Roulette brings authentic physical mahogany wheels spun by certified human croupiers directly to your screen. With HD multi-angle camera feeds from Evolution Gaming and Pragmatic Play Live studios, you witness the ivory ball decelerate and settle into the winning pocket in real-time.
+              Roulette is celebrated worldwide as the Queen of Casino Games. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), our Live Roulette brings authentic physical mahogany wheels spun by certified human croupiers directly to your screen. With HD multi-angle camera feeds from Evolution Gaming and Pragmatic Play Live studios, you witness the ivory ball decelerate and settle into the winning pocket in real-time.
             </p>
             <p>
               We prioritize <strong className="text-white">European Roulette</strong> tables featuring a single green zero (0), offering a player-friendly house edge of just 2.70% (97.30% RTP). This stands in stark contrast to American roulette wheels that feature both a single zero (0) and double zero (00), which jacks the house edge up to a brutal 5.26%. By playing single-zero roulette on Lotus365, you instantly cut the mathematical house edge in half.
@@ -265,7 +265,7 @@ export const BlackjackPage: React.FC = () => (
               Unlike purely luck-based casino games, <strong className="text-white">Blackjack</strong> is a game of skill and mathematics where player decisions directly dictate the outcome. By applying strict basic strategy, you can depress the casino house edge to a miniscule 0.50%—translating to an extraordinary <strong className="text-[#F0C419]">99.50% Return to Player (RTP)</strong>, the highest in the entire live casino industry.
             </p>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can choose from standard 7-seat classic tables, Infinite Blackjack (where unlimited players share the same hand), Speed Blackjack, and VIP high-roller salons with stakes ranging from ₹50 to ₹5,00,000 per hand.
+              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you can choose from standard 7-seat classic tables, Infinite Blackjack (where unlimited players share the same hand), Speed Blackjack, and VIP high-roller salons with stakes ranging from ₹50 to ₹5,00,000 per hand.
             </p>
           </div>
 
@@ -458,7 +458,7 @@ export const BaccaratPage: React.FC = () => (
               The High-Roller's Game of Choice: Baccarat on Lotus365
             </h2>
             <p>
-              Baccarat has long reigned as the undisputed king of Asian casino floors in Macau, Singapore, and Manila. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can experience this prestigious game with real human dealers dealing from physical multi-deck shoes.
+              Baccarat has long reigned as the undisputed king of Asian casino floors in Macau, Singapore, and Manila. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you can experience this prestigious game with real human dealers dealing from physical multi-deck shoes.
             </p>
             <p>
               Baccarat features three core betting positions: <strong className="text-white">Player</strong>, <strong className="text-white">Banker</strong>, and <strong className="text-white">Tie</strong>. The objective is to predict which hand will total closest to 9. Tens and face cards (J, Q, K) count as zero, Aces count as one, and all other cards retain their face value. If a hand total exceeds 9, the first digit is dropped (e.g. 7 + 8 = 15, which becomes a 5).
@@ -651,7 +651,7 @@ export const DragonTigerPage: React.FC = () => (
               Often described as a simplified two-card variation of Baccarat, <strong className="text-white">Dragon Tiger</strong> is the fastest table game in the live casino world. There are no complex third-card drawing rules, no hand combinations, and no mathematical additions.
             </p>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), the dealer deals exactly one card face-up to the <strong className="text-[#F0C419]">Dragon</strong> position and one card to the <strong className="text-rose-400">Tiger</strong> position. The position that receives the higher rank card wins! Aces are strictly the lowest card (value 1), while Kings are the highest card (value 13).
+              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), the dealer deals exactly one card face-up to the <strong className="text-[#F0C419]">Dragon</strong> position and one card to the <strong className="text-rose-400">Tiger</strong> position. The position that receives the higher rank card wins! Aces are strictly the lowest card (value 1), while Kings are the highest card (value 13).
             </p>
           </div>
 
@@ -845,7 +845,7 @@ export const SpeedBaccaratPage: React.FC = () => (
               Maximum Velocity: Live Speed Baccarat on Lotus365
             </h2>
             <p>
-              In traditional baccarat and baccarat squeeze tables, a single round can stretch past 60 to 75 seconds while cards are slowly revealed. For high-volume traders and seasoned players, <strong className="text-white">Speed Baccarat</strong> eliminates all delay. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), cards are dealt face-up instantly, cutting the complete round cycle to just <strong className="text-[#F0C419]">27 seconds</strong>.
+              In traditional baccarat and baccarat squeeze tables, a single round can stretch past 60 to 75 seconds while cards are slowly revealed. For high-volume traders and seasoned players, <strong className="text-white">Speed Baccarat</strong> eliminates all delay. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), cards are dealt face-up instantly, cutting the complete round cycle to just <strong className="text-[#F0C419]">27 seconds</strong>.
             </p>
             <p>
               This allows you to play more than double the number of hands per hour, maximizing your turnover rate to clear promotional bonuses rapidly or capitalize on hot shoe streaks without waiting between deals.
@@ -1263,7 +1263,7 @@ export const CasinoSlotsPage: React.FC = () => (
               500+ Premium Online Slots on Lotus365
             </h2>
             <p>
-              Online video slots have transformed from simple three-reel fruit machines into cinematic digital spectacles packed with cascading reels, expanding wilds, Megaways payline expansions, and colossal progressive jackpots. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can explore a curated library of over 500 top-tier slots from world-renowned software titans like Pragmatic Play, NetEnt, Play'n GO, and Microgaming.
+              Online video slots have transformed from simple three-reel fruit machines into cinematic digital spectacles packed with cascading reels, expanding wilds, Megaways payline expansions, and colossal progressive jackpots. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you can explore a curated library of over 500 top-tier slots from world-renowned software titans like Pragmatic Play, NetEnt, Play'n GO, and Microgaming.
             </p>
             <p>
               From iconic viral hits like <strong className="text-white">Gates of Olympus</strong> and <strong className="text-white">Sweet Bonanza</strong> to high-octane Egyptian adventures like <strong className="text-white">Book of Dead</strong>, all games are verified for mathematical randomness by independent testing agencies like BMM Testlabs and GLI.

@@ -87,10 +87,10 @@ export const CricketBettingDelhiPage: React.FC = () => (
               How Delhi Traders Master Kotla Pitch Conditions
             </h2>
             <p>
-              Arun Jaitley Stadium is known for its compact boundary dimensions and surfaces that often begin slow before turning into batting paradises under lights. Delhi traders who analyze dew accumulation during the evening innings gain a major statistical edge by backing the chasing side on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>.
+              Arun Jaitley Stadium is known for its compact boundary dimensions and surfaces that often begin slow before turning into batting paradises under lights. Delhi traders who analyze dew accumulation during the evening innings gain a major statistical edge by backing the chasing side on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>.
             </p>
             <p>
-              Explore our tactical tournament guides at <Link href="/ipl-betting" className="text-[#F0C419] underline font-semibold">IPL Betting Portal</Link>.
+              Explore our tactical tournament guides at <Link href="/ipl-betting" className="text-[#F0C419] underline font-semibold" title="IPL Betting Portal">IPL Betting Portal</Link>.
             </p>
           </div>
 
@@ -210,7 +210,7 @@ export const CricketBettingMumbaiPage: React.FC = () => (
               Trading Tactics for Wankhede Fixtures
             </h2>
             <p>
-              Wankhede's red soil surface produces steep bounce and rapid outfield value. Chasing teams historically achieve a 62%+ win rate here because dew coats the grass after 8:30 PM, neutralizing spin bowling. Savvy Mumbai traders wait for the toss and back second-innings run chases on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>.
+              Wankhede's red soil surface produces steep bounce and rapid outfield value. Chasing teams historically achieve a 62%+ win rate here because dew coats the grass after 8:30 PM, neutralizing spin bowling. Savvy Mumbai traders wait for the toss and back second-innings run chases on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>.
             </p>
           </div>
 
@@ -333,7 +333,7 @@ export const CricketBettingPunjabPage: React.FC = () => (
               Kabaddi and Cricket Combined on One Dashboard
             </h2>
             <p>
-              Punjab players enjoy our unified multi-sport wallet. You can trade 6-over cricket sessions in the afternoon, transition to live Pro Kabaddi raid points in the evening, and test your luck on <Link href="/teen-patti" className="text-[#F0C419] underline font-semibold">Live Teen Patti</Link> at night without moving balances between accounts.
+              Punjab players enjoy our unified multi-sport wallet. You can trade 6-over cricket sessions in the afternoon, transition to live Pro Kabaddi raid points in the evening, and test your luck on <Link href="/teen-patti" className="text-[#F0C419] underline font-semibold" title="Live Teen Patti">Live Teen Patti</Link> at night without moving balances between accounts.
             </p>
           </div>
 
@@ -456,7 +456,7 @@ export const CricketBettingBangalorePage: React.FC = () => (
               How to Trade High-Scoring Bangalore Fixtures
             </h2>
             <p>
-              At Chinnaswamy, even totals of 210+ are frequently chased down. Bangalore traders excel by laying defending sides when early wickets fall, anticipating that the short boundaries will allow middle-order power hitters to stage dramatic comebacks on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>.
+              At Chinnaswamy, even totals of 210+ are frequently chased down. Bangalore traders excel by laying defending sides when early wickets fall, anticipating that the short boundaries will allow middle-order power hitters to stage dramatic comebacks on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>.
             </p>
           </div>
 
@@ -579,7 +579,7 @@ export const CricketBettingHyderabadPage: React.FC = () => (
               How to Trade Uppal Stadium Fixtures
             </h2>
             <p>
-              When SRH bats first on a fresh Uppal pitch, traditional 6-over powerplay run projections of 48-52 runs are shattered within the first 3 overs. Astute Hyderabad traders capitalize on this dynamic by taking early <strong className="text-emerald-400">YES</strong> positions on session lines on the <Link href="/cricket-session-betting" className="text-[#F0C419] underline font-semibold">Cricket Session Betting Center</Link>.
+              When SRH bats first on a fresh Uppal pitch, traditional 6-over powerplay run projections of 48-52 runs are shattered within the first 3 overs. Astute Hyderabad traders capitalize on this dynamic by taking early <strong className="text-emerald-400">YES</strong> positions on session lines on the <Link href="/cricket-session-betting" className="text-[#F0C419] underline font-semibold" title="Cricket Session Betting Center">Cricket Session Betting Center</Link>.
             </p>
           </div>
 
@@ -702,7 +702,7 @@ export const CricketBettingKolkataPage: React.FC = () => (
               Strategic Insights for Eden Gardens Encounters
             </h2>
             <p>
-              Eden Gardens features a quick outfield and consistent bounce, making strokeplay effortless once batsmen adjust to early swing. Kolkata traders often wait for the conclusion of the powerplay to assess whether spin will grip before placing middle-over session trades on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>.
+              Eden Gardens features a quick outfield and consistent bounce, making strokeplay effortless once batsmen adjust to early swing. Kolkata traders often wait for the conclusion of the powerplay to assess whether spin will grip before placing middle-over session trades on the <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>.
             </p>
           </div>
 

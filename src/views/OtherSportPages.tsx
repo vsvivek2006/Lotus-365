@@ -53,7 +53,7 @@ export const KabaddiBettingPage: React.FC = () => (
               The Rapid Rise of Kabaddi Betting in India
             </h2>
             <p>
-              Kabaddi is rooted in Indian soil, carrying centuries of martial discipline and athletic prowess. Since the inception of the Pro Kabaddi League (PKL), this traditional sport has transformed into India's second most-watched sporting phenomenon, attracting millions of passionate supporters every winter. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we have engineered a dedicated kabaddi wagering infrastructure featuring raid-by-raid live pricing, total team points over/unders, super tackle multiplier markets, and individual raider milestones.
+              Kabaddi is rooted in Indian soil, carrying centuries of martial discipline and athletic prowess. Since the inception of the Pro Kabaddi League (PKL), this traditional sport has transformed into India's second most-watched sporting phenomenon, attracting millions of passionate supporters every winter. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we have engineered a dedicated kabaddi wagering infrastructure featuring raid-by-raid live pricing, total team points over/unders, super tackle multiplier markets, and individual raider milestones.
             </p>
             <p>
               Traditional overseas bookmakers treat kabaddi as an afterthought, often offering delayed odds or closing markets prematurely mid-contest. In contrast, Lotus365 operates dedicated courtside feeds for every PKL fixture, allowing Indian punters to wager on rapid 30-second raid cycles with 0% net commission and guaranteed 2-minute cashouts via UPI.
@@ -256,7 +256,7 @@ export const BasketballBettingPage: React.FC = () => (
               Fast-Paced Basketball Action on Lotus365
             </h2>
             <p>
-              With non-stop scoring runs, dynamic pace of play, and frequent lead changes, basketball offers some of the most liquid and lucrative wagering markets in global sports. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you gain direct access to all 82 regular-season games per NBA franchise, the NBA Play-In tournament, the NBA Playoffs, NBA Finals, EuroLeague, and FIBA international championships.
+              With non-stop scoring runs, dynamic pace of play, and frequent lead changes, basketball offers some of the most liquid and lucrative wagering markets in global sports. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you gain direct access to all 82 regular-season games per NBA franchise, the NBA Play-In tournament, the NBA Playoffs, NBA Finals, EuroLeague, and FIBA international championships.
             </p>
             <p>
               Whether you are analyzing Stephen Curry's three-point shooting prop in San Francisco or backing the Boston Celtics on a -5.5 point spread at TD Garden, our live odds visualizer delivers instantaneous in-play updates with zero lag and 0% commission on winning slips.
@@ -454,7 +454,7 @@ export const HorseRacingPage: React.FC = () => (
               India's Rich Horse Racing Heritage on Lotus365
             </h2>
             <p>
-              Thoroughbred horse racing has been a premier equestrian sport in India since 1777, governed by historic turf authorities like the Royal Western India Turf Club (RWITC). On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), racing enthusiasts can place Win, Place, Each-Way, and Forecast bets on prestigious race meetings across Mahalaxmi (Mumbai), Pune, Guindy (Chennai), Hyderabad, Kolkata, and Bangalore, as well as international Grade 1 fixtures like the Dubai World Cup and Royal Ascot.
+              Thoroughbred horse racing has been a premier equestrian sport in India since 1777, governed by historic turf authorities like the Royal Western India Turf Club (RWITC). On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), racing enthusiasts can place Win, Place, Each-Way, and Forecast bets on prestigious race meetings across Mahalaxmi (Mumbai), Pune, Guindy (Chennai), Hyderabad, Kolkata, and Bangalore, as well as international Grade 1 fixtures like the Dubai World Cup and Royal Ascot.
             </p>
             <p>
               Whether you are an experienced turf punter analyzing past performance sheets and pedigree records or a newcomer experiencing the adrenaline of the Indian Derby, Lotus365 provides authentic fixed odds, comprehensive jockey metrics, and rapid 2-minute UPI disbursements.
@@ -666,10 +666,10 @@ export const SportsbookPage: React.FC = () => (
               The All-in-One Sportsbook Built for Indian Sports Punters
             </h2>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you are never constrained to a single sporting code. Our unified sportsbook platform gives you single-wallet access to over 40 global sports disciplines, ranging from high-liquidity cricket exchanges to premier football leagues, grand slam tennis, pro kabaddi, horse racing, and Olympic sports.
+              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you are never constrained to a single sporting code. Our unified sportsbook platform gives you single-wallet access to over 40 global sports disciplines, ranging from high-liquidity cricket exchanges to premier football leagues, grand slam tennis, pro kabaddi, horse racing, and Olympic sports.
             </p>
             <p>
-              We have eliminated the friction of managing multiple accounts across fragmented websites. A single WhatsApp account registration at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline font-bold">Official WhatsApp</a> allows you to trade match odds, session totals, point spreads, and high-paying accumulator parlays with zero transaction fees and guaranteed 2-minute cashouts.
+              We have eliminated the friction of managing multiple accounts across fragmented websites. A single WhatsApp account registration at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline font-bold" title="Official WhatsApp">Official WhatsApp</a> allows you to trade match odds, session totals, point spreads, and high-paying accumulator parlays with zero transaction fees and guaranteed 2-minute cashouts.
             </p>
           </div>
 

@@ -120,7 +120,7 @@ export const RegisterPage: React.FC = () => {
                 Why WhatsApp Registration is Superior for Indian Bettors
               </h2>
               <p className="mb-4">
-                Conventional international betting portals force Indian customers to endure cumbersome registration flows: submitting passport or Aadhaar scans, waiting 24 to 48 hours for manual KYC approval, and trusting foreign databases with sensitive personal identity files. At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we have completely transformed this model.
+                Conventional international betting portals force Indian customers to endure cumbersome registration flows: submitting passport or Aadhaar scans, waiting 24 to 48 hours for manual KYC approval, and trusting foreign databases with sensitive personal identity files. At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we have completely transformed this model.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
                 <div className="p-4 rounded-xl bg-black/20 border border-white/10 text-center">
@@ -195,11 +195,11 @@ export const RegisterPage: React.FC = () => {
                 Your single Lotus365 login unlocks our entire digital entertainment ecosystem with a shared wallet balance:
               </p>
               <ul className="list-disc list-inside space-y-2 text-xs sm:text-sm text-white/80">
-                <li><strong className="text-white"><Link href="/cricket-betting" className="text-[#F0C419] hover:underline">Cricket Betting Hub:</Link></strong> Live match odds, over/under session runs, bowler wickets, and player boundaries on IPL, World Cups, BBL, and PSL.</li>
-                <li><strong className="text-white"><Link href="/cricket-exchange" className="text-[#F0C419] hover:underline">Betting Exchange:</Link></strong> Back and Lay selections against other players with industry-best 0% commission on select markets.</li>
-                <li><strong className="text-white"><Link href="/live-casino" className="text-[#F0C419] hover:underline">Live Casino & Indian Card Games:</Link></strong> Real dealers hosting <Link href="/teen-patti" className="text-[#F0C419] hover:underline">Teen Patti</Link>, <Link href="/andar-bahar" className="text-[#F0C419] hover:underline">Andar Bahar</Link>, Lightning Roulette, and Speed Baccarat.</li>
-                <li><strong className="text-white"><Link href="/aviator-game" className="text-[#F0C419] hover:underline">Crash Games & Aviator:</Link></strong> Provably fair multiplier curves with up to 98.5% RTP and instant cashouts.</li>
-                <li><strong className="text-white"><Link href="/color-prediction" className="text-[#F0C419] hover:underline">Color Prediction Arena:</Link></strong> 30-second rapid draws with up to 9x single-number payouts.</li>
+                <li><strong className="text-white"><Link href="/cricket-betting" className="text-[#F0C419] hover:underline" title="Cricket Betting Hub:">Cricket Betting Hub:</Link></strong> Live match odds, over/under session runs, bowler wickets, and player boundaries on IPL, World Cups, BBL, and PSL.</li>
+                <li><strong className="text-white"><Link href="/cricket-exchange" className="text-[#F0C419] hover:underline" title="Betting Exchange:">Betting Exchange:</Link></strong> Back and Lay selections against other players with industry-best 0% commission on select markets.</li>
+                <li><strong className="text-white"><Link href="/live-casino" className="text-[#F0C419] hover:underline" title="Live Casino & Indian Card Games:">Live Casino & Indian Card Games:</Link></strong> Real dealers hosting <Link href="/teen-patti" className="text-[#F0C419] hover:underline" title="Teen Patti">Teen Patti</Link>, <Link href="/andar-bahar" className="text-[#F0C419] hover:underline" title="Andar Bahar">Andar Bahar</Link>, Lightning Roulette, and Speed Baccarat.</li>
+                <li><strong className="text-white"><Link href="/aviator-game" className="text-[#F0C419] hover:underline" title="Crash Games & Aviator:">Crash Games & Aviator:</Link></strong> Provably fair multiplier curves with up to 98.5% RTP and instant cashouts.</li>
+                <li><strong className="text-white"><Link href="/color-prediction" className="text-[#F0C419] hover:underline" title="Color Prediction Arena:">Color Prediction Arena:</Link></strong> 30-second rapid draws with up to 9x single-number payouts.</li>
               </ul>
             </div>
 

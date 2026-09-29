@@ -111,7 +111,7 @@ export const FootballBettingPage: React.FC = () => (
               The Ultimate Football Betting Experience in India
             </h2>
             <p>
-              Football is the undisputed heavyweight of global sports betting. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we deliver coverage of over 500 domestic leagues and international tournaments spanning Europe, Asia, the Americas, and Africa. Whether backing Real Madrid in the UEFA Champions League, Manchester City in the Premier League, or Mohun Bagan in the Indian Super League (ISL), our live market engine delivers sub-second odds updates with 0% commission on your winning tickets.
+              Football is the undisputed heavyweight of global sports betting. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we deliver coverage of over 500 domestic leagues and international tournaments spanning Europe, Asia, the Americas, and Africa. Whether backing Real Madrid in the UEFA Champions League, Manchester City in the Premier League, or Mohun Bagan in the Indian Super League (ISL), our live market engine delivers sub-second odds updates with 0% commission on your winning tickets.
             </p>
           </div>
 
@@ -315,7 +315,7 @@ export const TennisBettingPage: React.FC = () => (
               Point-by-Point Tennis Trading on Lotus365
             </h2>
             <p>
-              Tennis is one of the most profitable sports for exchange trading because match momentum can turn on a single break of serve. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), tennis bettors can trade live odds as every ace, rally, and break point occurs. With sub-second in-play data feeds and deep market liquidity, you can back players when they drop a set and lay them when they break back, securing guaranteed cash profits before match point.
+              Tennis is one of the most profitable sports for exchange trading because match momentum can turn on a single break of serve. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), tennis bettors can trade live odds as every ace, rally, and break point occurs. With sub-second in-play data feeds and deep market liquidity, you can back players when they drop a set and lay them when they break back, securing guaranteed cash profits before match point.
             </p>
           </div>
 

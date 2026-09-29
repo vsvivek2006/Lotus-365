@@ -103,7 +103,7 @@ export const ContactPage: React.FC = () => {
                 Why Lotus365 Chooses WhatsApp for Customer Care
               </h2>
               <p className="mb-4">
-                At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe customer support should be immediate, personal, and respectful of your time. Traditional foreign bookmakers force Indian players through clunky, automated chatbots that loop through generic scripted answers, or email ticketing desks that take 24 to 48 hours to resolve urgent withdrawal inquiries.
+                At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe customer support should be immediate, personal, and respectful of your time. Traditional foreign bookmakers force Indian players through clunky, automated chatbots that loop through generic scripted answers, or email ticketing desks that take 24 to 48 hours to resolve urgent withdrawal inquiries.
               </p>
               <p className="mb-4">
                 By integrating our entire operations infrastructure directly into <strong>WhatsApp</strong>, we connect you straight to real, senior operations staff. Whether you need a fresh betting ID during a live IPL over, require an instant UPI deposit QR code, or want your winning cashout disbursed in 120 seconds, your personal WhatsApp concierge executes your request immediately without delay.
@@ -280,7 +280,7 @@ export const ContactPage: React.FC = () => {
                 Before sending funds or requesting payouts, please review these 3 golden verification rules:
               </p>
               <ul className="list-disc pl-5 space-y-1.5 text-xs text-white/70">
-                <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link href="/" className="text-[#F0C419] underline">lotus365officialid.com</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
+                <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link href="/" className="text-[#F0C419] underline" title="lotus365officialid.com">lotus365officialid.com</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
                 <li><strong className="text-white">Confirmed UPI Merchant VPA:</strong> Legitimate Lotus365 deposit accounts will always display confirmed merchant names verified by our desk, and your personal account manager will provide dynamic deposit references matching your exact username.</li>
                 <li><strong className="text-white">No Sensitive Disclosures:</strong> We will never ask you to click third-party remote screen-sharing tools like AnyDesk or TeamViewer, nor will we ever prompt you to enter your bank ATM PIN or OTP.</li>
               </ul>

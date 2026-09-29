@@ -73,7 +73,7 @@ export const TeenPattiPage: React.FC = () => (
               The King of Indian Card Games: Teen Patti on Lotus365
             </h2>
             <p>
-              Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
+              Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
             </p>
           </div>
 
@@ -318,7 +318,7 @@ export const AndarBaharPage: React.FC = () => (
               The Magic of Andar Bahar: Simple, Fast & Electrifying
             </h2>
             <p>
-              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
+              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
             </p>
           </div>
 

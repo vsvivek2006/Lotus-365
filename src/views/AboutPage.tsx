@@ -118,7 +118,7 @@ export const AboutPage: React.FC = () => (
                   <Award className="w-5 h-5 text-[#F0C419]" /> 1. Peer-to-Peer Exchange Integrity
                 </h3>
                 <p className="text-xs text-white/70">
-                  Unlike traditional sportsbooks that profit when you lose, our <Link href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link> is a true marketplace where players trade against one another. We simply provide the secure matching engine and charge our industry-low 0% to 2% commission.
+                  Unlike traditional sportsbooks that profit when you lose, our <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link> is a true marketplace where players trade against one another. We simply provide the secure matching engine and charge our industry-low 0% to 2% commission.
                 </p>
               </div>
 
@@ -202,7 +202,7 @@ export const AboutPage: React.FC = () => (
               Commitment to Fair Play & Responsible Entertainment
             </h2>
             <p className="mb-4">
-              We hold the view that a healthy gaming ecosystem depends on customer welfare. Lotus365 enforces strict age verification (18+ only), certified cryptographic Random Number Generators (RNG) for all virtual games, and proactive responsible gambling tools. Players may at any time request cooling-off breaks, deposit ceilings, or account self-exclusion through our dedicated <Link href="/responsible-gaming" className="text-[#F0C419] font-semibold hover:underline">Responsible Gaming Desk</Link>.
+              We hold the view that a healthy gaming ecosystem depends on customer welfare. Lotus365 enforces strict age verification (18+ only), certified cryptographic Random Number Generators (RNG) for all virtual games, and proactive responsible gambling tools. Players may at any time request cooling-off breaks, deposit ceilings, or account self-exclusion through our dedicated <Link href="/responsible-gaming" className="text-[#F0C419] font-semibold hover:underline" title="Responsible Gaming Desk">Responsible Gaming Desk</Link>.
             </p>
           </div>
 

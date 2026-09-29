@@ -220,7 +220,7 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
               </div>
             </div>
             <p>
-              Compare this to a conventional bookmaker where unfair initial odds would have reduced your baseline payout by over ₹2,500. Learn more about VIP perks at <Link href="/vip-club" className="text-[#F0C419] underline font-semibold">Lotus365 VIP Club</Link>.
+              Compare this to a conventional bookmaker where unfair initial odds would have reduced your baseline payout by over ₹2,500. Learn more about VIP perks at <Link href="/vip-club" className="text-[#F0C419] underline font-semibold" title="Lotus365 VIP Club">Lotus365 VIP Club</Link>.
             </p>
           </div>
 
@@ -358,7 +358,7 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
               Whether you are hedging your exposure on the final over of an IPL match or backing a tournament outsider months in advance, exchange trading gives you institutional-grade freedom. You can set your own desired odds and wait for other market participants to match your position.
             </p>
             <p>
-              For a detailed guide on how to place matched exchange orders, visit our <Link href="/bet-slip-guide" className="text-[#F0C419] underline font-semibold">Bet Slip & Order Routing Guide</Link>.
+              For a detailed guide on how to place matched exchange orders, visit our <Link href="/bet-slip-guide" className="text-[#F0C419] underline font-semibold" title="Bet Slip & Order Routing Guide">Bet Slip & Order Routing Guide</Link>.
             </p>
           </div>
 
@@ -478,7 +478,7 @@ export const BookmakerMarketPage: React.FC = () => (
               When to Use Bookmaker Markets vs the Exchange
             </h2>
             <p>
-              Tactical players utilize both interfaces strategically. During the quiet middle overs of an ODI or Test match, the standard <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link> provides superior value for setting limit orders and swing trading. However, during high-velocity death overs or sudden wicket clusters, switching to the Bookmaker Market ensures your bet executes before odds swing drastically.
+              Tactical players utilize both interfaces strategically. During the quiet middle overs of an ODI or Test match, the standard <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link> provides superior value for setting limit orders and swing trading. However, during high-velocity death overs or sudden wicket clusters, switching to the Bookmaker Market ensures your bet executes before odds swing drastically.
             </p>
           </div>
 
@@ -604,7 +604,7 @@ export const InPlayCashoutGuidePage: React.FC = () => (
               Cashout is not merely a tool for locking in profits—it is an essential instrument for bankroll preservation. If you back a team and their premier strike bowler sustains an injury or concedes three consecutive boundaries in the first over, exercising a disciplined early cashout saves 70%+ of your initial stake.
             </p>
             <p>
-              For advanced multi-outcome hedging tactics, read our <Link href="/dutching-calculator-guide" className="text-[#F0C419] underline font-semibold">Dutching & Hedging Strategy Guide</Link>.
+              For advanced multi-outcome hedging tactics, read our <Link href="/dutching-calculator-guide" className="text-[#F0C419] underline font-semibold" title="Dutching & Hedging Strategy Guide">Dutching & Hedging Strategy Guide</Link>.
             </p>
           </div>
 
@@ -727,7 +727,7 @@ export const MatchOddsTradingPage: React.FC = () => (
               The defining attribute of a profitable exchange trader is the absence of fandom. Never trade based on which team you support emotionally. If the data, pitch condition, and run rate indicate that laying your favorite franchise offers positive expected value (+EV), executing the lay is the disciplined, professional choice.
             </p>
             <p>
-              Inspect our comprehensive odds conversion formulas in our <Link href="/betting-odds-calculator" className="text-[#F0C419] underline font-semibold">Betting Odds Calculator Guide</Link>.
+              Inspect our comprehensive odds conversion formulas in our <Link href="/betting-odds-calculator" className="text-[#F0C419] underline font-semibold" title="Betting Odds Calculator Guide">Betting Odds Calculator Guide</Link>.
             </p>
           </div>
 
@@ -850,7 +850,7 @@ export const TiedMatchRulesPage: React.FC = () => (
               A Dead Heat occurs when two or more participants finish in an exact tie for a position (e.g. two batsmen both finishing the tournament on exactly 650 runs). In such scenarios, your original stake is divided equally by the total number of tied winners, and full market odds are paid on that divided stake.
             </p>
             <p>
-              For general platform policies, terms of service, and dispute escalations, review our <Link href="/terms" className="text-[#F0C419] underline font-semibold">Terms & Conditions</Link>.
+              For general platform policies, terms of service, and dispute escalations, review our <Link href="/terms" className="text-[#F0C419] underline font-semibold" title="Terms & Conditions">Terms & Conditions</Link>.
             </p>
           </div>
 
@@ -973,7 +973,7 @@ export const BetSlipGuidePage: React.FC = () => (
               When placing pre-match limit orders, you have the option to enable the <strong className="text-[#F0C419]">Keep In-Play</strong> checkbox. By default, unmatched bets cancel when the umpire calls "Play" to protect you from sudden team news. Activating "Keep In-Play" instructs the engine to keep your queued limit order active as the match unfolds into live overs.
             </p>
             <p>
-              To learn how backing and laying interplay across your bet slip, read our foundational <Link href="/back-and-lay-betting" className="text-[#F0C419] underline font-semibold">Back & Lay Betting Masterclass</Link>.
+              To learn how backing and laying interplay across your bet slip, read our foundational <Link href="/back-and-lay-betting" className="text-[#F0C419] underline font-semibold" title="Back & Lay Betting Masterclass">Back & Lay Betting Masterclass</Link>.
             </p>
           </div>
 

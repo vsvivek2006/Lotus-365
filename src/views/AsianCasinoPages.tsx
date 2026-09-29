@@ -90,7 +90,7 @@ export const Lucky7GamePage: React.FC = () => (
               Smart Lucky 7 players leverage side bets to hedge their main positions. Placing a conservative wager on Red or Black alongside a 7 Up or 7 Down pick smooths out session volatility. Because 8-deck shoes are used, tracking recent shoe history on our integrated roadmaps helps identify card streaks and balance swings.
             </p>
             <p>
-              Discover more traditional Indian card tables at our <Link href="/teen-patti" className="text-[#F0C419] underline font-semibold">Teen Patti Live Casino</Link> and <Link href="/andar-bahar" className="text-[#F0C419] underline font-semibold">Andar Bahar Real Cash Hub</Link>.
+              Discover more traditional Indian card tables at our <Link href="/teen-patti" className="text-[#F0C419] underline font-semibold" title="Teen Patti Live Casino">Teen Patti Live Casino</Link> and <Link href="/andar-bahar" className="text-[#F0C419] underline font-semibold" title="Andar Bahar Real Cash Hub">Andar Bahar Real Cash Hub</Link>.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ export const ThirtyTwoCardsCasinoPage: React.FC = () => (
               Card values correspond directly to numerical face value: 6=6, 7=7, 8=8, 9=9, 10=10. Picture cards carry designated values: Jack=11, Queen=12, King=13. If Player 8 receives a King (13), their total score is 8 + 13 = 21. If no other hand reaches 21, Player 8 wins the round, rewarding backers with an 11x payout.
             </p>
             <p>
-              Check our full live dealer suite at <Link href="/live-casino" className="text-[#F0C419] underline font-semibold">Live Casino Hub</Link>.
+              Check our full live dealer suite at <Link href="/live-casino" className="text-[#F0C419] underline font-semibold" title="Live Casino Hub">Live Casino Hub</Link>.
             </p>
           </div>
 
@@ -335,7 +335,7 @@ export const SuperOverGamePage: React.FC = () => (
               Whether you are waiting for an IPL match to start or enjoying an evening break, Super Over delivers rapid entertainment. You can choose to cash out partial winnings after the 3rd or 4th ball if early boundaries land, locking in profits before risking the remaining deliveries.
             </p>
             <p>
-              Explore our other high-velocity crash and multiplier games at <Link href="/aviator-game" className="text-[#F0C419] underline font-semibold">Aviator Crash Game Hub</Link>.
+              Explore our other high-velocity crash and multiplier games at <Link href="/aviator-game" className="text-[#F0C419] underline font-semibold" title="Aviator Crash Game Hub">Aviator Crash Game Hub</Link>.
             </p>
           </div>
 
@@ -458,7 +458,7 @@ export const MuflisTeenPattiPage: React.FC = () => (
               To succeed at Muflis, remember that hand comparisons work in exact reverse: High Card beats Pair, Pair beats Color (Flush), Color beats Sequence, Sequence beats Pure Sequence, and Pure Sequence beats Trio. Furthermore, within high card hands, lower values dominate (e.g. 8-6-4 beats 9-5-3).
             </p>
             <p>
-              Compare Muflis with our standard live game at <Link href="/teen-patti" className="text-[#F0C419] underline font-semibold">Teen Patti Live Casino</Link>.
+              Compare Muflis with our standard live game at <Link href="/teen-patti" className="text-[#F0C419] underline font-semibold" title="Teen Patti Live Casino">Teen Patti Live Casino</Link>.
             </p>
           </div>
 
@@ -581,7 +581,7 @@ export const Ak47TeenPattiPage: React.FC = () => (
               In AK47, holding even a single wild card significantly elevates your hand equity. If you hold an Ace and a 10 of Hearts, that Ace can become a King, Queen, or another 10 to establish a Pure Sequence or Pair. When playing on Lotus365, focus on tables with favorable side-bet multipliers for maximum value.
             </p>
             <p>
-              Read our full guide to variations at <Link href="/joker-teen-patti" className="text-[#F0C419] underline font-semibold">Joker Teen Patti Rules</Link>.
+              Read our full guide to variations at <Link href="/joker-teen-patti" className="text-[#F0C419] underline font-semibold" title="Joker Teen Patti Rules">Joker Teen Patti Rules</Link>.
             </p>
           </div>
 
@@ -704,7 +704,7 @@ export const JokerTeenPattiPage: React.FC = () => (
               When evaluating tied hand ranks, natural hands (formed without wild cards) break ties over identical combinations formed using a Joker. For example, a natural 8-8-8 Trio beats an 8-8-Joker Trio. Understanding tie-break nuances gives you the confidence to navigate large pots during live play.
             </p>
             <p>
-              Discover all casino rules in our <Link href="/online-casino-guide" className="text-[#F0C419] underline font-semibold">Online Casino Guide</Link>.
+              Discover all casino rules in our <Link href="/online-casino-guide" className="text-[#F0C419] underline font-semibold" title="Online Casino Guide">Online Casino Guide</Link>.
             </p>
           </div>
 
@@ -827,7 +827,7 @@ export const RouletteStrategiesPage: React.FC = () => (
               The defining factor in long-term roulette success is disciplined exit timing. Determine a clear session win ceiling (e.g. +30% of your starting bankroll) and a strict stop-loss limit (e.g. -25%). The moment either threshold is reached, withdraw your balance via our 2-minute UPI gateway and return another day.
             </p>
             <p>
-              Experience live tables now at <Link href="/roulette" className="text-[#F0C419] underline font-semibold">Live Roulette Hub</Link> and <Link href="/lightning-roulette" className="text-[#F0C419] underline font-semibold">Lightning Roulette Multipliers</Link>.
+              Experience live tables now at <Link href="/roulette" className="text-[#F0C419] underline font-semibold" title="Live Roulette Hub">Live Roulette Hub</Link> and <Link href="/lightning-roulette" className="text-[#F0C419] underline font-semibold" title="Lightning Roulette Multipliers">Lightning Roulette Multipliers</Link>.
             </p>
           </div>
 
@@ -947,7 +947,7 @@ export const LiveDealerGamesPage: React.FC = () => (
               Explore the Diverse Live Table Selection
             </h2>
             <p>
-              Our lobby caters to all gaming preferences. Classic table enthusiasts can enjoy <Link href="/blackjack" className="text-[#F0C419] underline font-semibold">Live Blackjack</Link> and <Link href="/baccarat" className="text-[#F0C419] underline font-semibold">Live Baccarat</Link>, while action seekers can jump into multi-camera games like <Link href="/dragon-tiger" className="text-[#F0C419] underline font-semibold">Dragon Tiger</Link>.
+              Our lobby caters to all gaming preferences. Classic table enthusiasts can enjoy <Link href="/blackjack" className="text-[#F0C419] underline font-semibold" title="Live Blackjack">Live Blackjack</Link> and <Link href="/baccarat" className="text-[#F0C419] underline font-semibold" title="Live Baccarat">Live Baccarat</Link>, while action seekers can jump into multi-camera games like <Link href="/dragon-tiger" className="text-[#F0C419] underline font-semibold" title="Dragon Tiger">Dragon Tiger</Link>.
             </p>
           </div>
 
@@ -1072,7 +1072,7 @@ export const CrazyTimePage: React.FC = () => (
               Because bonus rounds trigger approximately once every 6 spins, seasoned Crazy Time players often place modest, balanced bets across all four bonus segments while hedging on number 1 or 2 to maintain steady bankroll balance between feature triggers.
             </p>
             <p>
-              Explore another premier multiplier wheel game at <Link href="/mega-wheel" className="text-[#F0C419] underline font-semibold">Pragmatic Play Mega Wheel</Link>.
+              Explore another premier multiplier wheel game at <Link href="/mega-wheel" className="text-[#F0C419] underline font-semibold" title="Pragmatic Play Mega Wheel">Pragmatic Play Mega Wheel</Link>.
             </p>
           </div>
 
@@ -1195,7 +1195,7 @@ export const MegaWheelPage: React.FC = () => (
               A proven tactical approach is the "Multi-Cover" strategy: place small stakes on high-paying numbers (15, 20, 30, 40) where the 500x boost can strike, while covering number 1 or 2 with slightly larger base stakes to keep your session funded.
             </p>
             <p>
-              Check out all game show options at <Link href="/live-casino" className="text-[#F0C419] underline font-semibold">Live Casino Lobby</Link>.
+              Check out all game show options at <Link href="/live-casino" className="text-[#F0C419] underline font-semibold" title="Live Casino Lobby">Live Casino Lobby</Link>.
             </p>
           </div>
 

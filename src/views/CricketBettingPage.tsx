@@ -78,7 +78,7 @@ export const CricketBettingPage: React.FC = () => (
               Why Lotus365 Is India's Undisputed Leader in Cricket Betting
             </h2>
             <p className="text-center text-white/80 max-w-3xl mx-auto text-sm sm:text-base mb-8 leading-relaxed">
-              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
+              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {features.map((f, i) => (
@@ -97,7 +97,7 @@ export const CricketBettingPage: React.FC = () => (
               Comprehensive Cricket Betting Markets Covered on Lotus365
             </h2>
             <p>
-              Unlike traditional sportsbooks that limit you to basic match-winner outcomes, Lotus365 offers an exhaustive array of over 60 micro-markets for every televised match. Whether you are following international Test fixtures, bilateral ODIs, or high-intensity franchise tournaments like the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-semibold">Indian Premier League (IPL)</Link>, our live board keeps you in complete control.
+              Unlike traditional sportsbooks that limit you to basic match-winner outcomes, Lotus365 offers an exhaustive array of over 60 micro-markets for every televised match. Whether you are following international Test fixtures, bilateral ODIs, or high-intensity franchise tournaments like the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-semibold" title="Indian Premier League (IPL)">Indian Premier League (IPL)</Link>, our live board keeps you in complete control.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
@@ -105,7 +105,7 @@ export const CricketBettingPage: React.FC = () => (
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                   <h3 className="text-base font-bold text-[#F0C419] mb-1">1. Match Winner & Outright Series Odds</h3>
                   <p className="text-xs text-white/75 leading-relaxed">
-                    Back your favoured team to win the match, or lay against outcomes on the <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline">cricket exchange</Link>. Odds fluctuate live from the opening toss through the final over based on real-time pitch behavior and wicket casualties.
+                    Back your favoured team to win the match, or lay against outcomes on the <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline" title="cricket exchange">cricket exchange</Link>. Odds fluctuate live from the opening toss through the final over based on real-time pitch behavior and wicket casualties.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl bg-white/5 border border-white/10">
@@ -200,7 +200,7 @@ export const CricketBettingPage: React.FC = () => (
               <span>Lotus365 Cricket Pro Tip: The "Greening Up" Strategy</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              On Lotus365's <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>, you can back a team at high pre-match odds (e.g., 2.20) and lay them during the match when they take early wickets and their odds drop to 1.30. By trading both positions, you lock in a guaranteed green profit before the match even finishes, regardless of who eventually wins!
+              On Lotus365's <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, you can back a team at high pre-match odds (e.g., 2.20) and lay them during the match when they take early wickets and their odds drop to 1.30. By trading both positions, you lock in a guaranteed green profit before the match even finishes, regardless of who eventually wins!
             </p>
           </div>
 
@@ -240,12 +240,12 @@ export const CricketBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 01</div>
                 <h3 className="font-bold text-white mb-1">Request Your Login ID</h3>
-                <p className="text-xs text-white/70">Connect with our 24/7 WhatsApp verification desk at <Link href="/contact" className="text-[#F0C419] hover:underline">contact support</Link> and send a message requesting a new Lotus365 Cricket ID.</p>
+                <p className="text-xs text-white/70">Connect with our 24/7 WhatsApp verification desk at <Link href="/contact" className="text-[#F0C419] hover:underline" title="contact support">contact support</Link> and send a message requesting a new Lotus365 Cricket ID.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 02</div>
                 <h3 className="font-bold text-white mb-1">Deposit Funds via UPI</h3>
-                <p className="text-xs text-white/70">Deposit as little as ₹100 using PhonePe, Google Pay, or Paytm. Follow our <Link href="/how-to-deposit" className="text-[#F0C419] hover:underline">deposit guide</Link> for 30-second balance updates.</p>
+                <p className="text-xs text-white/70">Deposit as little as ₹100 using PhonePe, Google Pay, or Paytm. Follow our <Link href="/how-to-deposit" className="text-[#F0C419] hover:underline" title="deposit guide">deposit guide</Link> for 30-second balance updates.</p>
               </div>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 03</div>
@@ -255,7 +255,7 @@ export const CricketBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 04</div>
                 <h3 className="font-bold text-white mb-1">Instant 2-Minute Cashout</h3>
-                <p className="text-xs text-white/70">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <Link href="/2-minute-cashout" className="text-[#F0C419] hover:underline">2-minute cashout SLA</Link>.</p>
+                <p className="text-xs text-white/70">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <Link href="/2-minute-cashout" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link>.</p>
               </div>
             </div>
           </div>

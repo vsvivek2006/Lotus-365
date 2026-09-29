@@ -125,7 +125,7 @@ export const BettingOddsCalculatorPage: React.FC = () => (
               </table>
             </div>
             <p>
-              To apply these formulas to multi-selection hedging, read our <Link href="/dutching-calculator-guide" className="text-[#F0C419] underline font-semibold">Dutching Strategy Guide</Link>.
+              To apply these formulas to multi-selection hedging, read our <Link href="/dutching-calculator-guide" className="text-[#F0C419] underline font-semibold" title="Dutching Strategy Guide">Dutching Strategy Guide</Link>.
             </p>
           </div>
 
@@ -264,7 +264,7 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
               If either CSK or MI wins the trophy, your return is ₹18,666.67. Subtracting your ₹10,000 total outlay leaves you with a <strong className="text-emerald-400">clean guaranteed profit of ₹8,666.67</strong>!
             </p>
             <p>
-              Learn how to execute trades on live exchange books at <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange Tutorial</Link>.
+              Learn how to execute trades on live exchange books at <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange Tutorial">Cricket Exchange Tutorial</Link>.
             </p>
           </div>
 
@@ -416,7 +416,7 @@ export const IplTeamsBettingOddsPage: React.FC = () => (
               IPL outright winner markets fluctuate dramatically after the first three weeks of matches. A top contender that suffers two early defeats often drifts from 3.50 to 6.50 in odds, presenting an ideal backing window before they regain form. Conversely, you can Lay overhyped teams whose bowling lineups lack depth.
             </p>
             <p>
-              Discover daily match betting strategies at <Link href="/ipl-betting" className="text-[#F0C419] underline font-semibold">IPL Betting Guide 2026</Link>.
+              Discover daily match betting strategies at <Link href="/ipl-betting" className="text-[#F0C419] underline font-semibold" title="IPL Betting Guide 2026">IPL Betting Guide 2026</Link>.
             </p>
           </div>
 
@@ -539,7 +539,7 @@ export const CricketBettingGlossaryPage: React.FC = () => (
               Applying Vocabulary to Real Exchange Trading
             </h2>
             <p>
-              Once you understand the distinction between Khai and Lagai, you can navigate live match order books without hesitation. Review our practical guide at <Link href="/cricket-session-betting" className="text-[#F0C419] underline font-semibold">Cricket Session Betting Guide</Link>.
+              Once you understand the distinction between Khai and Lagai, you can navigate live match order books without hesitation. Review our practical guide at <Link href="/cricket-session-betting" className="text-[#F0C419] underline font-semibold" title="Cricket Session Betting Guide">Cricket Session Betting Guide</Link>.
             </p>
           </div>
 
@@ -665,7 +665,7 @@ export const Lotus365BluePage: React.FC = () => (
               No new registration or verification is required. Message our WhatsApp support desk requesting the Blue edition link, log in with your existing username and password, and begin trading with zero friction.
             </p>
             <p>
-              Review our login portal guide at <Link href="/login" className="text-[#F0C419] underline font-semibold">Official Login Guide</Link>.
+              Review our login portal guide at <Link href="/login" className="text-[#F0C419] underline font-semibold" title="Official Login Guide">Official Login Guide</Link>.
             </p>
           </div>
 
@@ -794,7 +794,7 @@ export const Lotus365PartnerProgramPage: React.FC = () => (
               Getting onboarded takes less than ten minutes. Message our official WhatsApp business desk, describe your channel or traffic source, and receive your customized referral links. Once your referred players begin trading, your commission ledger updates in real time.
             </p>
             <p>
-              For platform credentials and brand background, read our <Link href="/about" className="text-[#F0C419] underline font-semibold">About Lotus365</Link> dossier.
+              For platform credentials and brand background, read our <Link href="/about" className="text-[#F0C419] underline font-semibold" title="About Lotus365">About Lotus365</Link> dossier.
             </p>
           </div>
 
@@ -920,7 +920,7 @@ export const ComplaintsResolutionPage: React.FC = () => (
               Open your WhatsApp chat with our verified concierge desk. Send a message stating <strong className="text-white">"Dispute Escalation"</strong> followed by your username and the relevant Bet ID or Banking UTR. Our system flags your ticket with high priority for immediate supervisor intervention.
             </p>
             <p>
-              Contact support directly via our <Link href="/contact" className="text-[#F0C419] underline font-semibold">24/7 Contact Portal</Link>.
+              Contact support directly via our <Link href="/contact" className="text-[#F0C419] underline font-semibold" title="24/7 Contact Portal">24/7 Contact Portal</Link>.
             </p>
           </div>
 
@@ -1046,7 +1046,7 @@ export const ResponsibleGamblingToolsPage: React.FC = () => (
               Always establish strict session budgets before placing your first wager. Never view sports betting as a shortcut to wealth or a method to repay debts. Never chase losses after an unsuccessful session. If you ever feel that gaming is causing emotional distress, contact our welfare team immediately.
             </p>
             <p>
-              Review our complete welfare policy at <Link href="/responsible-gaming" className="text-[#F0C419] underline font-semibold">Responsible Gaming Policy</Link>.
+              Review our complete welfare policy at <Link href="/responsible-gaming" className="text-[#F0C419] underline font-semibold" title="Responsible Gaming Policy">Responsible Gaming Policy</Link>.
             </p>
           </div>
 

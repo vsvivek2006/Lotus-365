@@ -101,7 +101,7 @@ export const WelcomeBonusPage: React.FC = () => (
               Starting your online sports betting or live casino journey should be backed by real value, not deceptive marketing gimmicks. Many offshore bookmakers advertise enormous bonus figures like "300% up to ₹50,000," only to trap players with predatory 40x wagering hurdles, unrealistic 3-day deadlines, and hidden withdrawal caps that make cashing out winnings virtually impossible.
             </p>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe in straightforward, player-first hospitality. Our <strong>100% Welcome Bonus</strong> is designed to provide you with meaningful, playable bankroll leverage. Whether you intend to back your favorite IPL franchise on our <Link href="/cricket-exchange" className="text-[#F0C419] font-semibold hover:underline">Cricket Exchange</Link>, try high-RTP <Link href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline">Aviator crash rounds</Link>, or play hands of <Link href="/teen-patti" className="text-[#F0C419] font-semibold hover:underline">Live Teen Patti</Link>, our welcome credits give you an immediate competitive edge.
+              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe in straightforward, player-first hospitality. Our <strong>100% Welcome Bonus</strong> is designed to provide you with meaningful, playable bankroll leverage. Whether you intend to back your favorite IPL franchise on our <Link href="/cricket-exchange" className="text-[#F0C419] font-semibold hover:underline" title="Cricket Exchange">Cricket Exchange</Link>, try high-RTP <Link href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline" title="Aviator crash rounds">Aviator crash rounds</Link>, or play hands of <Link href="/teen-patti" className="text-[#F0C419] font-semibold hover:underline" title="Live Teen Patti">Live Teen Patti</Link>, our welcome credits give you an immediate competitive edge.
             </p>
           </div>
 
@@ -360,10 +360,10 @@ export const FirstDepositBonusPage: React.FC = () => (
               Unlock Maximum Value from Your Opening Deposit
             </h2>
             <p className="mb-4">
-              Your initial deposit on <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> is more than just funding your account; it is your gateway to our elite loyalty ecosystem. We offer a progressive, tiered <strong>First Deposit Booster</strong> that rewards both cautious beginners and high-stakes veterans with tailored promotional balances.
+              Your initial deposit on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is more than just funding your account; it is your gateway to our elite loyalty ecosystem. We offer a progressive, tiered <strong>First Deposit Booster</strong> that rewards both cautious beginners and high-stakes veterans with tailored promotional balances.
             </p>
             <p className="mb-4">
-              By aligning your first deposit with the right tier bracket, you can unlock up to <strong>150% in matching bonus credits</strong>, complimentary free bets for high-profile IPL matches, and automatic fast-track entry into the Lotus365 <Link href="/vip-club" className="text-[#F0C419] font-semibold hover:underline">VIP Club</Link>.
+              By aligning your first deposit with the right tier bracket, you can unlock up to <strong>150% in matching bonus credits</strong>, complimentary free bets for high-profile IPL matches, and automatic fast-track entry into the Lotus365 <Link href="/vip-club" className="text-[#F0C419] font-semibold hover:underline" title="VIP Club">VIP Club</Link>.
             </p>
           </div>
 
@@ -421,7 +421,7 @@ export const FirstDepositBonusPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
                 <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Leverage the Cricket Exchange Back/Lay Advantage</h3>
                 <p className="text-xs text-white/80">
-                  Fulfill your turnover requirements on our <Link href="/cricket-exchange" className="text-[#F0C419] underline">Cricket Exchange</Link> by backing solid favorites or laying overpriced longshots with tight spreads, preserving your core principal while steadily chipping away at the turnover target.
+                  Fulfill your turnover requirements on our <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link> by backing solid favorites or laying overpriced longshots with tight spreads, preserving your core principal while steadily chipping away at the turnover target.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-black/20 border border-white/10">
@@ -850,7 +850,7 @@ export const CashbackOffersPage: React.FC = () => (
               Real Cash Rebates: Because Every Bettor Deserves a Second Chance
             </h2>
             <p className="mb-4">
-              In sports betting and casino games, variance is an inescapable reality. Even the most seasoned cricket analysts occasionally suffer an unlucky over or an unexpected batting collapse. At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe true customer loyalty means standing by our players during downswings.
+              In sports betting and casino games, variance is an inescapable reality. Even the most seasoned cricket analysts occasionally suffer an unlucky over or an unexpected batting collapse. At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe true customer loyalty means standing by our players during downswings.
             </p>
             <p className="mb-4">
               Our <strong>Weekly Cashback Program</strong> functions as an automatic financial cushion. Every Monday at 12:00 PM IST, our automated ledger calculates your net activity across all sports and casino games for the preceding seven days. A healthy percentage of your net losses is returned straight to your wallet as real, playable, and withdrawable cash.
@@ -1112,7 +1112,7 @@ export const VipClubPage: React.FC = () => (
               Bespoke Gaming Luxury for Discerning Indian High Rollers
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, high-volume players are not treated like algorithmic numbers in a database. The <strong>Lotus365 VIP Club</strong> is an invitation-tier loyalty program crafted to deliver the white-glove treatment you would expect from the world's premier casinos in Macau, London, or Las Vegas.
+              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, high-volume players are not treated like algorithmic numbers in a database. The <strong>Lotus365 VIP Club</strong> is an invitation-tier loyalty program crafted to deliver the white-glove treatment you would expect from the world's premier casinos in Macau, London, or Las Vegas.
             </p>
             <p className="mb-4">
               From the moment you ascend to VIP status, you receive a direct private WhatsApp communication channel with a dedicated Senior Account Director who oversees your deposits, facilitates custom betting limits on cricket matches, and coordinates priority IMPS payouts in under 60 seconds.
@@ -1417,7 +1417,7 @@ export const VipBlackCardPage: React.FC = () => (
             </p>
             <div className="p-5 rounded-2xl bg-black/20 border border-[#F0C419]/30 space-y-3">
               <p className="text-xs text-white/85">
-                Contact our VIP desk via WhatsApp at <a href={getWhatsAppUrl("Black Card Confidential Inscription Request")} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] font-bold underline">Official VIP WhatsApp</a> and state: <em>"Black Card Confidential Inscription Request"</em>. A Senior Director will review your betting turnover and provide a custom onboarding package within two hours.
+                Contact our VIP desk via WhatsApp at <a href={getWhatsAppUrl("Black Card Confidential Inscription Request")} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] font-bold underline" title="Official VIP WhatsApp">Official VIP WhatsApp</a> and state: <em>"Black Card Confidential Inscription Request"</em>. A Senior Director will review your betting turnover and provide a custom onboarding package within two hours.
               </p>
             </div>
           </div>

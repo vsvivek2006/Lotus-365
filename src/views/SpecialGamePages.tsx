@@ -112,7 +112,7 @@ export const AviatorGamePage: React.FC = () => {
                 Your core gameplay objective is deceptively simple yet psychologically captivating: place one or two bets before takeoff and tap the <strong>"Cash Out"</strong> button before the lucky plane flies away off the radar screen. Cash out in time, and your stake is multiplied by the exact coefficient frozen at that millisecond. Fail to hit cash out before the departure crash, and your round stake is forfeited.
               </p>
               <p>
-                What makes Aviator the premier choice on <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <Link href="/upi-deposit" className="text-[#F0C419] font-semibold hover:underline">UPI deposit</Link> and withdrawal account.
+                What makes Aviator the premier choice on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <Link href="/upi-deposit" className="text-[#F0C419] font-semibold hover:underline" title="UPI deposit">UPI deposit</Link> and withdrawal account.
               </p>
             </div>
 
@@ -259,7 +259,7 @@ export const AviatorGamePage: React.FC = () => {
               <div>
                 <strong className="text-[#F0C419] block text-sm mb-1">Expert Pro Tip: Avoid Fake Aviator "Signals" & Prediction Apps</strong>
                 <p className="text-xs text-white/80">
-                  Never pay for Telegram groups, WhatsApp channels, or third-party software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <Link href="/" className="text-[#F0C419] underline">Lotus365</Link> portal.
+                  Never pay for Telegram groups, WhatsApp channels, or third-party software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <Link href="/" className="text-[#F0C419] underline" title="Lotus365">Lotus365</Link> portal.
                 </p>
               </div>
             </div>
@@ -307,7 +307,7 @@ export const AviatorGamePage: React.FC = () => {
             <div className="p-4 rounded-xl bg-black/30 border border-white/10 text-xs text-white/80 space-y-2">
               <span className="text-[#F0C419] font-bold uppercase tracking-wider block">Explore Complementary Lotus365 Portals</span>
               <p>
-                Interested in testing other real-money gaming verticals? Discover our high-speed <Link href="/crash-games" className="text-[#F0C419] hover:underline font-medium">Crash Games Directory</Link>, try fast-paced <Link href="/color-prediction" className="text-[#F0C419] hover:underline font-medium">Color Prediction</Link>, check live action at the <Link href="/live-casino" className="text-[#F0C419] hover:underline font-medium">Live Casino Lobby</Link>, or place match bets on the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-medium">IPL Cricket Betting Exchange</Link>.
+                Interested in testing other real-money gaming verticals? Discover our high-speed <Link href="/crash-games" className="text-[#F0C419] hover:underline font-medium" title="Crash Games Directory">Crash Games Directory</Link>, try fast-paced <Link href="/color-prediction" className="text-[#F0C419] hover:underline font-medium" title="Color Prediction">Color Prediction</Link>, check live action at the <Link href="/live-casino" className="text-[#F0C419] hover:underline font-medium" title="Live Casino Lobby">Live Casino Lobby</Link>, or place match bets on the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-medium" title="IPL Cricket Betting Exchange">IPL Cricket Betting Exchange</Link>.
               </p>
             </div>
 
@@ -383,7 +383,7 @@ export const CrashGamesPage: React.FC = () => (
               In a crash game, every round starts at a 1.00× multiplier coefficient that increases dynamically along an upward mathematical curve. As the multiplier ascends, players retain complete agency: you decide precisely when to hit the <strong>Cash Out</strong> trigger. If you cash out before the crash event occurs, you pocket your initial wager multiplied by the exact real-time figure. However, if the multiplier crashes before you take profit, your stake is lost.
             </p>
             <p>
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we host the most comprehensive suite of crash games licensed by international auditing authorities, featuring titles by Spribe, SmartSoft Gaming, Pragmatic Play, and Evolution Gaming.
+              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we host the most comprehensive suite of crash games licensed by international auditing authorities, featuring titles by Spribe, SmartSoft Gaming, Pragmatic Play, and Evolution Gaming.
             </p>
           </div>
 
@@ -406,7 +406,7 @@ export const CrashGamesPage: React.FC = () => (
                 <tbody className="divide-y divide-white/10 bg-black/20">
                   <tr>
                     <td className="p-3.5 font-bold text-white">
-                      <Link href="/aviator-game" className="text-[#F0C419] hover:underline">Aviator</Link>
+                      <Link href="/aviator-game" className="text-[#F0C419] hover:underline" title="Aviator">Aviator</Link>
                     </td>
                     <td className="p-3.5">Spribe</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">98.50%</td>
@@ -642,7 +642,7 @@ export const ColorPredictionPage: React.FC = () => (
               <strong>Color Prediction</strong> (frequently termed <em>Colour Wiz, Fast Parity, or Wingo</em>) has captivated millions of Indian players due to its unmatched simplicity, lightning-fast round frequency, and immediate real-money gratification. Operating on short 30-second, 1-minute, or 3-minute timers, the game asks players to forecast which color hue or numeric outcome will emerge from a certified digital draw.
             </p>
             <p className="mb-4">
-              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified shady websites.
+              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified shady websites.
             </p>
             <p>
               Whether you are staking ₹20 on a primary color or targeting a 9:1 payout on an exact single number, Lotus365 guarantees lightning-fast credit of winnings and instant 2-minute withdrawals straight to your UPI or bank account.
@@ -891,10 +891,10 @@ export const VirtualSportsPage: React.FC = () => (
               <strong>Virtual Sports</strong> represent the perfect marriage of sports betting intuition and state-of-the-art computer-generated graphics. Powered by sophisticated Random Number Generators (RNG) and 3D visual engines developed by global leaders like <em>Betradar</em> and <em>Kiron Interactive</em>, virtual sports deliver photorealistic simulations of live athletic competitions around the clock.
             </p>
             <p className="mb-4">
-              While real-world international cricket fixtures and football derbies depend on schedules, weather, and time zones, virtual sports on <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> operate 24 hours a day, 365 days a year. Every 3 minutes, a new fixture kicks off with full match markets, live statistical previews, simulated video highlights, and instantaneous settlement of all placed bets.
+              While real-world international cricket fixtures and football derbies depend on schedules, weather, and time zones, virtual sports on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> operate 24 hours a day, 365 days a year. Every 3 minutes, a new fixture kicks off with full match markets, live statistical previews, simulated video highlights, and instantaneous settlement of all placed bets.
             </p>
             <p>
-              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <Link href="/payment-methods" className="text-[#F0C419] font-semibold hover:underline">UPI payouts</Link> on Lotus365.
+              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <Link href="/payment-methods" className="text-[#F0C419] font-semibold hover:underline" title="UPI payouts">UPI payouts</Link> on Lotus365.
             </p>
           </div>
 
@@ -1079,7 +1079,7 @@ export const VirtualSportsPage: React.FC = () => (
           <div className="p-4 rounded-xl bg-black/30 border border-white/10 text-xs text-white/80 space-y-2">
             <span className="text-[#F0C419] font-bold uppercase tracking-wider block">More Sports & Gaming on Lotus365</span>
             <p>
-              Prefer real-world sporting events? Jump into our <Link href="/cricket-betting" className="text-[#F0C419] hover:underline font-semibold">Cricket Betting Hub</Link>, explore the <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline font-semibold">Betting Exchange</Link>, or bet on world football at our <Link href="/football-betting" className="text-[#F0C419] hover:underline font-semibold">Football Sportsbook</Link>.
+              Prefer real-world sporting events? Jump into our <Link href="/cricket-betting" className="text-[#F0C419] hover:underline font-semibold" title="Cricket Betting Hub">Cricket Betting Hub</Link>, explore the <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline font-semibold" title="Betting Exchange">Betting Exchange</Link>, or bet on world football at our <Link href="/football-betting" className="text-[#F0C419] hover:underline font-semibold" title="Football Sportsbook">Football Sportsbook</Link>.
             </p>
           </div>
 

@@ -98,7 +98,7 @@ export const ReviewPage: React.FC = () => (
               Established in 2019, <strong>Lotus365</strong> has grown into the undisputed market leader in online sports betting and live casino entertainment across India. Operating exclusively via its official web domain <strong className="text-white">lotus365officialid.com</strong>, the platform serves over 1.5 million active accounts by solving the two greatest frustrations Indian players historically faced with offshore foreign bookmakers: complicated registration hurdles and excruciatingly slow withdrawal times.
             </p>
             <p className="mb-4">
-              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
+              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
             </p>
           </div>
 
@@ -513,7 +513,7 @@ export const BettingTipsPage: React.FC = () => (
               The overwhelming majority of casual cricket bettors lose money over time because they bet with their hearts rather than with mathematical probability. They back their favorite franchise or celebrated superstars regardless of pitch deterioration, weather shifts, or unfavourable market pricing.
             </p>
             <p className="mb-4">
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, professional cricket traders view every fixture as an evolving financial market. By mastering pitch variables, statistical venue averages, and in-play exchange hedging ("greening up"), you can systematically tilt the odds in your favor. Below is the master blueprint developed by our senior cricket analysts.
+              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, professional cricket traders view every fixture as an evolving financial market. By mastering pitch variables, statistical venue averages, and in-play exchange hedging ("greening up"), you can systematically tilt the odds in your favor. Below is the master blueprint developed by our senior cricket analysts.
             </p>
           </div>
 
@@ -694,7 +694,7 @@ export const IplPredictionsPage: React.FC = () => (
               The Indian Premier League remains the absolute pinnacle of franchise cricket, commanding over ₹2,500 Crores in daily digital betting liquidity across India. The 2026 season introduces updated squad compositions following the mega-auctions, refined tactical adaptations to the <strong>Impact Player rule</strong>, and enhanced pitch dynamics across 12 host venues.
             </p>
             <p className="mb-4">
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, our <Link href="/ipl-betting" className="text-[#F0C419] font-semibold hover:underline">IPL Betting Hub</Link> and Cricket Exchange deliver ball-by-ball micro-markets, session runs, highest opening partnerships, and tournament outright winner lines with 0% commission on select marquee clashes.
+              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our <Link href="/ipl-betting" className="text-[#F0C419] font-semibold hover:underline" title="IPL Betting Hub">IPL Betting Hub</Link> and Cricket Exchange deliver ball-by-ball micro-markets, session runs, highest opening partnerships, and tournament outright winner lines with 0% commission on select marquee clashes.
             </p>
           </div>
 
@@ -876,7 +876,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
               Mastering Real-Money Casino Gaming: Knowledge Over Luck
             </h2>
             <p className="mb-4">
-              Online casino gaming in India has undergone a massive renaissance. Gone are the days of pixelated, computer-generated digital card tables. Today, on <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, you connect directly to ultra-high-definition live dealer studios operated by global giants like Evolution Gaming, Ezugi, and Pragmatic Play Live.
+              Online casino gaming in India has undergone a massive renaissance. Gone are the days of pixelated, computer-generated digital card tables. Today, on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, you connect directly to ultra-high-definition live dealer studios operated by global giants like Evolution Gaming, Ezugi, and Pragmatic Play Live.
             </p>
             <p className="mb-4">
               However, entering the live casino lobby without understanding the mathematical foundations—specifically <strong>Return to Player (RTP)</strong> and <strong>House Edge</strong>—is the quickest way to deplete your capital. This guide equips you with the statistical knowledge necessary to choose high-value games, deploy disciplined staking, and secure consistent profits.
@@ -1089,7 +1089,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               The Philosophy of Sustainable & Safe Wagering
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>, we believe our long-term success is directly connected to the well-being and safety of our player community. Online sports betting and live casino entertainment must never be viewed as an emergency income solution or a method to resolve financial hardship.
+              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe our long-term success is directly connected to the well-being and safety of our player community. Online sports betting and live casino entertainment must never be viewed as an emergency income solution or a method to resolve financial hardship.
             </p>
             <p className="mb-4">
               When approached with disciplined bankroll management and clear stop-loss limits, betting enhances the thrill of sports. However, when players succumb to emotional tilt or chase previous losses, entertainment can transform into a liability. This guide details practical protocols to keep your gaming healthy, enjoyable, and sustainable.
@@ -1269,10 +1269,10 @@ export const MobileWebAppGuidePage: React.FC = () => (
               Smooth, Instant Mobile Gaming on Lotus365
             </h2>
             <p className="mb-4">
-              When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
+              When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
             </p>
             <p className="mb-4">
-              Simply open <strong className="text-white">lotus365officialid.com</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">Cricket Exchange</Link>, <Link href="/live-casino" className="text-[#F0C419] underline font-semibold">Live Casino</Link>, and <Link href="/aviator-game" className="text-[#F0C419] underline font-semibold">Aviator Crash</Link> games with silky 60 FPS graphics and instant balance updates.
+              Simply open <strong className="text-white">lotus365officialid.com</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, <Link href="/live-casino" className="text-[#F0C419] underline font-semibold" title="Live Casino">Live Casino</Link>, and <Link href="/aviator-game" className="text-[#F0C419] underline font-semibold" title="Aviator Crash">Aviator Crash</Link> games with silky 60 FPS graphics and instant balance updates.
             </p>
           </div>
 

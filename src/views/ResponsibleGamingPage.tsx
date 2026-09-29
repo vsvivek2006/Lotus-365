@@ -88,7 +88,7 @@ export const ResponsibleGamingPage: React.FC = () => (
               Strict 18+ Age Verification & Minor Protection
             </h2>
             <p className="mb-4">
-              Underage gambling is strictly prohibited on <Link href="/" className="text-[#F0C419] font-semibold hover:underline">Lotus365</Link>. We enforce zero-tolerance policies regarding minors participating in any real-money sports betting or casino gaming activity.
+              Underage gambling is strictly prohibited on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>. We enforce zero-tolerance policies regarding minors participating in any real-money sports betting or casino gaming activity.
             </p>
             <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
               <div className="flex items-center gap-2 text-rose-300 font-bold text-base">
@@ -268,7 +268,7 @@ export const ResponsibleGamingPage: React.FC = () => (
               Detailed 3-Step Self-Exclusion Procedure
             </h3>
             <ol className="list-decimal pl-5 space-y-2 text-xs text-white/80">
-              <li><strong>Contact Welfare Desk:</strong> Send a message on WhatsApp to <Link href="/contact" className="text-[#F0C419] underline">wa.link/880088</Link> requesting voluntary temporary or permanent self-exclusion.</li>
+              <li><strong>Contact Welfare Desk:</strong> Send a message on WhatsApp to <Link href="/contact" className="text-[#F0C419] underline" title="wa.link/880088">wa.link/880088</Link> requesting voluntary temporary or permanent self-exclusion.</li>
               <li><strong>Confirm Account Details:</strong> State your username and confirm whether you prefer a cooling-off timeout (24h to 30 days) or complete multi-year exclusion.</li>
               <li><strong>Balance Settlement:</strong> Our financial desk will immediately audit your wallet balance and remit all remaining unpledged funds to your verified UPI/IMPS account before locking login access.</li>
             </ol>

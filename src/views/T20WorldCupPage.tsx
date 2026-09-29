@@ -69,7 +69,7 @@ export const T20WorldCupPage: React.FC = () => (
               The ICC T20 World Cup: International Cricket's Greatest Spectacle
             </h2>
             <p>
-              The ICC Men's T20 World Cup represents the zenith of international Twenty20 cricket, bringing together 20 of the world's most formidable cricketing nations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold">lotus365officialid.com</Link>), we provide an institutional-grade sports exchange where Indian bettors can back and lay international cricket outcomes with unmatched market liquidity.
+              The ICC Men's T20 World Cup represents the zenith of international Twenty20 cricket, bringing together 20 of the world's most formidable cricketing nations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we provide an institutional-grade sports exchange where Indian bettors can back and lay international cricket outcomes with unmatched market liquidity.
             </p>
             <p>
               Unlike traditional bookmakers who slash your profit margins with a 10% platform vig, Lotus365 operates with a pure peer-to-peer exchange structure. That means when you back Team India to lift the World Cup trophy or lay an opposing favorite during a tense chase, you retain 100% of your net profits.
@@ -169,7 +169,7 @@ export const T20WorldCupPage: React.FC = () => (
               <span>Pro Tip: Trading Rain Interruptions & DLS Revisions</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              In tournament cricket where rain delays can occur, the Duckworth-Lewis-Stern (DLS) method systematically rewards teams that have wickets in hand when rain pauses play. On the Lotus365 <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold">cricket exchange</Link>, observant traders watch radar weather feeds: if clouds gather and a team is batting conservatively without losing wickets, laying the bowling team before rain hits generates instant price arbitrage when the revised par score drops significantly in the batting team's favor!
+              In tournament cricket where rain delays can occur, the Duckworth-Lewis-Stern (DLS) method systematically rewards teams that have wickets in hand when rain pauses play. On the Lotus365 <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="cricket exchange">cricket exchange</Link>, observant traders watch radar weather feeds: if clouds gather and a team is batting conservatively without losing wickets, laying the bowling team before rain hits generates instant price arbitrage when the revised par score drops significantly in the batting team's favor!
             </p>
           </div>
 
