@@ -53,7 +53,7 @@ export const TopBar: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 font-bold text-brand-emerald hover:text-white transition-colors"
-          >
+           title="WhatsApp Online">
             <MessageCircle className="w-3.5 h-3.5 fill-current" />
             <span>WhatsApp Online</span>
           </a>

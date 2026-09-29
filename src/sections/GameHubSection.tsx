@@ -175,7 +175,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
             <Link
               href="/aviator-game"
               className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm flex items-center justify-center gap-2 border border-white/20 transition-colors"
-            >
+             title="Aviator Game Rules">
               <span>Aviator Game Rules</span>
             </Link>
           </div>
@@ -184,22 +184,22 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
         {/* Category Navigation Pills for Interlinking */}
         <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-2.5 text-xs">
           <span className="text-white/60 font-medium">Explore Hubs:</span>
-          <Link href="/cricket-exchange" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+          <Link href="/cricket-exchange" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🏏 Cricket Exchange">
             🏏 Cricket Exchange
           </Link>
-          <Link href="/live-casino" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+          <Link href="/live-casino" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🎰 Live Casino">
             🎰 Live Casino
           </Link>
-          <Link href="/teen-patti" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+          <Link href="/teen-patti" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🎴 Teen Patti">
             🎴 Teen Patti
           </Link>
-          <Link href="/ipl-betting" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+          <Link href="/ipl-betting" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🏆 IPL Betting">
             🏆 IPL Betting
           </Link>
-          <Link href="/vip-club" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+          <Link href="/vip-club" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="👑 VIP Club">
             👑 VIP Club
           </Link>
-          <Link href="/how-it-works" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold">
+          <Link href="/how-it-works" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="📖 How It Works">
             📖 How It Works
           </Link>
         </div>

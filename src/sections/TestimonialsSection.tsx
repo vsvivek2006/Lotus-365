@@ -261,7 +261,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
             <Link
               href="/how-it-works"
               className="cta-button-outline py-3 px-5 text-xs font-bold"
-            >
+             title="See How It Works">
               <span>See How It Works</span>
               <ArrowRight className="w-3.5 h-3.5 ml-1" />
             </Link>
@@ -269,7 +269,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
             <Link
               href="/cricket-exchange"
               className="cta-button-outline py-3 px-5 text-xs font-bold"
-            >
+             title="Explore Cricket Exchange">
               <span>Explore Cricket Exchange</span>
             </Link>
           </div>

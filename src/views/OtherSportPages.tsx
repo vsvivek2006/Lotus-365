@@ -697,7 +697,7 @@ export const SportsbookPage: React.FC = () => (
                 { name: 'Snooker & Pool', path: '/sportsbook' },
                 { name: 'Virtual Sports 24/7', path: '/virtual-sports' },
               ].map((s) => (
-                <Link key={s.name} href={s.path} className="p-3 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419] hover:text-[#F0C419] text-white font-semibold transition-all text-center">
+                <Link key={s.name} href={s.path} className="p-3 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419] hover:text-[#F0C419] text-white font-semibold transition-all text-center" title="S.path">
                   {s.name}
                 </Link>
               ))}

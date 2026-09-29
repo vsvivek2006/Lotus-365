@@ -1642,7 +1642,7 @@ export const FaqPage: React.FC = () => {
             <div className="p-6 rounded-2xl bg-[#0b3b2d]/50 border border-white/10 text-center space-y-3">
               <h3 className="text-lg font-bold text-white">Still Have Questions?</h3>
               <p className="text-xs text-white/70">Our dedicated human WhatsApp customer desk operates 24 hours a day, 7 days a week, 365 days a year with sub-30 second response times.</p>
-              <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="cta-button py-3 px-8 text-sm font-black inline-flex items-center gap-2">
+              <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="cta-button py-3 px-8 text-sm font-black inline-flex items-center gap-2" title="Chat With Senior Support On WhatsApp">
                 <MessageCircle className="w-4 h-4 fill-current" />
                 <span>Chat with Senior Support on WhatsApp</span>
               </a>

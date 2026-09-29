@@ -183,7 +183,7 @@ export const SitemapPage: React.FC = () => (
                       <Link 
                         href={p.href} 
                         className="text-xs sm:text-sm text-white/80 hover:text-[#F0C419] transition-colors flex items-center gap-2 py-1 group"
-                      >
+                       title="P.href">
                         <span className="text-[#F0C419] font-bold group-hover:translate-x-1 transition-transform">›</span> 
                         <span className="group-hover:underline">{p.label}</span>
                       </Link>

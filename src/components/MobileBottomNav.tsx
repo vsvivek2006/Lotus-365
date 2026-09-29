@@ -28,7 +28,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
         <Link
           href="/"
           className="flex flex-col items-center justify-center py-1 px-3 text-white/70 active:text-[#F0C419] hover:text-[#F0C419] transition-colors"
-        >
+         title="Home">
           <Home className="w-5 h-5" />
           <span className="text-[10px] font-bold mt-0.5">Home</span>
         </Link>
@@ -37,7 +37,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
         <Link
           href="/cricket-betting"
           className="flex flex-col items-center justify-center py-1 px-3 text-white/70 active:text-[#F0C419] hover:text-[#F0C419] transition-colors relative"
-        >
+         title="Sports">
           <Trophy className="w-5 h-5" />
           <span className="text-[10px] font-bold mt-0.5">Sports</span>
           <span className="absolute top-1 right-2.5 w-2 h-2 bg-red-500 rounded-full animate-ping"></span>
@@ -63,7 +63,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
         <Link
           href="/live-casino"
           className="flex flex-col items-center justify-center py-1 px-2 text-white/70 hover:text-[#F0C419] transition-colors"
-        >
+         title="Casino">
           <Dices className="w-5 h-5" />
           <span className="text-[10px] font-bold mt-0.5">Casino</span>
         </Link>

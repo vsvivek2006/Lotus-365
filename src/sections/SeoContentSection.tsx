@@ -44,22 +44,22 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs font-semibold">
-            <a href="#about-lotus365" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <a href="#about-lotus365" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="01. What Is Lotus365 & Why Is It India's #1 Exchange?">
               <span className="text-brand-gold font-mono">01.</span> What is Lotus365 & Why is it India's #1 Exchange?
             </a>
-            <a href="#how-to-login" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <a href="#how-to-login" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="02. How To Complete Lotus365 Login & Mobile Setup">
               <span className="text-brand-gold font-mono">02.</span> How to Complete Lotus365 Login & Mobile Setup
             </a>
-            <a href="#cricket-id-setup" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <a href="#cricket-id-setup" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="03. 30-Second WhatsApp Cricket ID Registration">
               <span className="text-brand-gold font-mono">03.</span> 30-Second WhatsApp Cricket ID Registration
             </a>
-            <a href="#lotus365-blue-features" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <a href="#lotus365-blue-features" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="04. Lotus365 Blue: Speed, Latency & 2026 Upgrades">
               <span className="text-brand-gold font-mono">04.</span> Lotus365 Blue: Speed, Latency & 2026 Upgrades
             </a>
-            <a href="#vip-privileges" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <a href="#vip-privileges" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="05. Lotus365 VIP Login & Exclusive High-Roller Perks">
               <span className="text-brand-gold font-mono">05.</span> Lotus365 VIP Login & Exclusive High-Roller Perks
             </a>
-            <a href="#withdrawal-banking" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors">
+            <a href="#withdrawal-banking" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="06. Instant Banking: UPI, Paytm, IMPS & Payout Speeds">
               <span className="text-brand-gold font-mono">06.</span> Instant Banking: UPI, Paytm, IMPS & Payout Speeds
             </a>
           </div>
@@ -267,7 +267,7 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
             <a
               href="/cricket-exchange"
               className="cta-button-outline py-3 px-6 text-xs font-bold"
-            >
+             title="Explore Cricket Exchange">
               <Smartphone className="w-4 h-4 mr-1.5 text-[#F0C419]" />
               <span>Explore Cricket Exchange</span>
             </a>

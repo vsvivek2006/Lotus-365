@@ -94,7 +94,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
               <Link
                 href="/cricket-exchange"
                 className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
-              >
+               title="Live Cricket Exchange">
                 <span>Live Cricket Exchange</span>
                 <ArrowRight className="w-3.5 h-3.5 ml-1" />
               </Link>
@@ -102,7 +102,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
               <Link
                 href="/live-casino"
                 className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
-              >
+               title="Live Casino Tables">
                 <span>Live Casino Tables</span>
               </Link>
             </div>

@@ -72,7 +72,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Col 1: Brand & Official Badges */}
           <div>
-            <Link href="/" className="flex items-center gap-3 mb-3 group">
+            <Link href="/" className="flex items-center gap-3 mb-3 group" title="LOTUS365">
               <div className="w-10 h-10 rounded-xl bg-[#14614C] p-1 border border-[#F0C419]/40 flex items-center justify-center shadow-lg">
                 <span className="text-xl">🪷</span>
               </div>
@@ -104,7 +104,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-3.5 py-1.5 rounded-lg bg-white/15 hover:bg-white/20 text-white text-xs font-bold transition-colors"
-              >
+               title="24/7 WhatsApp Desk">
                 24/7 WhatsApp Desk
               </a>
             </div>

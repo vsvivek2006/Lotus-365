@@ -173,16 +173,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
             {/* Quick Redirect Interlinks for Players */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-4 text-[11px] sm:text-xs">
               <span className="text-white/60">Explore Games:</span>
-              <Link href="/cricket-exchange" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-[#F0C419] border border-[#F0C419]/30 transition-all font-semibold">
+              <Link href="/cricket-exchange" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-[#F0C419] border border-[#F0C419]/30 transition-all font-semibold" title="🏏 Cricket Exchange">
                 🏏 Cricket Exchange
               </Link>
-              <Link href="/live-casino" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-emerald-300 border border-emerald-500/30 transition-all font-semibold">
+              <Link href="/live-casino" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-emerald-300 border border-emerald-500/30 transition-all font-semibold" title="🎰 Live Casino">
                 🎰 Live Casino
               </Link>
-              <Link href="/aviator-game" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-sky-300 border border-sky-500/30 transition-all font-semibold">
+              <Link href="/aviator-game" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-sky-300 border border-sky-500/30 transition-all font-semibold" title="✈️ Aviator">
                 ✈️ Aviator
               </Link>
-              <Link href="/vip-club" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-amber-300 border border-amber-500/30 transition-all font-semibold">
+              <Link href="/vip-club" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-amber-300 border border-amber-500/30 transition-all font-semibold" title="👑 VIP Club">
                 👑 VIP Club
               </Link>
             </div>

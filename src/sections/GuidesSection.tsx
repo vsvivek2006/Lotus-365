@@ -81,7 +81,7 @@ export const GuidesSection: React.FC<GuidesProps> = ({ onOpenAuth }) => {
                 <Link
                   href={getGuideHref(article.slug)}
                   className="text-xs font-bold text-[#F0C419] hover:underline flex items-center gap-1"
-                >
+                 title="Read Guide">
                   <span>Read Guide</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                 </Link>

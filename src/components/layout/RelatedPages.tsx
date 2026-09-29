@@ -28,7 +28,7 @@ export const RelatedPages: React.FC<RelatedPagesProps> = ({
               key={page.href}
               href={page.href}
               className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419]/40 hover:bg-white/10 transition-all"
-            >
+             title="Page.href">
               <div className="flex items-center justify-between mb-1.5">
                 <span className="text-sm font-bold text-white group-hover:text-[#F0C419] transition-colors">
                   {page.label}

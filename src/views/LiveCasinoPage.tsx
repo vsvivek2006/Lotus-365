@@ -101,7 +101,7 @@ export const LiveCasinoPage: React.FC = () => (
                 { icon: '🎰', name: 'Casino Slots', href: '/casino-slots', desc: '500+ premium video slots featuring Megaways, cascading reels, progressive jackpots, and bonus buy.' },
                 { icon: '🎯', name: 'Color Prediction', href: '/color-prediction', desc: 'Fast-paced colour selection rounds (Red, Green, Violet) with instant mathematical prize multipliers.' },
               ].map((g) => (
-                <Link key={g.name} href={g.href} className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419] hover:bg-black/30 transition-all group block">
+                <Link key={g.name} href={g.href} className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419] hover:bg-black/30 transition-all group block" title="G.href">
                   <div className="text-base font-bold text-white group-hover:text-[#F0C419] mb-1.5">
                     <span className="mr-2" aria-hidden="true">{g.icon}</span>
                     {g.name}

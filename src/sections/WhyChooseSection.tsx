@@ -97,7 +97,7 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
                   <Link
                     href={item.linkHref}
                     className="text-xs font-bold text-[#F0C419] hover:underline inline-flex items-center gap-1"
-                  >
+                   title="Item.linkHref">
                     <span>{item.linkText}</span>
                   </Link>
                 </div>
