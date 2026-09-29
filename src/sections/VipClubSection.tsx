@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { VIP_TIERS } from '../data/landingData';
 import { Crown, CheckCircle2, ArrowRight, MessageCircle } from 'lucide-react';

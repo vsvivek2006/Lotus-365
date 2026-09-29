@@ -1,5 +1,7 @@
+"use client";
+import Link from 'next/link';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 import { Star, ShieldCheck, MessageCircle, ArrowRight, Trophy, Zap, Award } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -257,7 +259,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
             </button>
 
             <Link
-              to="/how-it-works"
+              href="/how-it-works"
               className="cta-button-outline py-3 px-5 text-xs font-bold"
             >
               <span>See How It Works</span>
@@ -265,7 +267,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
             </Link>
 
             <Link
-              to="/cricket-exchange"
+              href="/cricket-exchange"
               className="cta-button-outline py-3 px-5 text-xs font-bold"
             >
               <span>Explore Cricket Exchange</span>

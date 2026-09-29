@@ -1,5 +1,7 @@
+"use client";
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { Smartphone, ShieldCheck, Zap, MessageCircle, ArrowRight, CheckCircle2, Sparkles } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -90,7 +92,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
               </button>
 
               <Link
-                to="/cricket-exchange"
+                href="/cricket-exchange"
                 className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
               >
                 <span>Live Cricket Exchange</span>
@@ -98,7 +100,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
               </Link>
 
               <Link
-                to="/live-casino"
+                href="/live-casino"
                 className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
               >
                 <span>Live Casino Tables</span>

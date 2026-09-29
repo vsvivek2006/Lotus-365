@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { MessageCircle, Sparkles, ShieldCheck, Zap } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../../data/landingData';

@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { BookOpen, CheckCircle2, ShieldCheck, Zap, ArrowRight, MessageCircle, Lock, Trophy, Smartphone } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';

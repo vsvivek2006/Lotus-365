@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { FAQ_DATA, OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 import { ChevronDown, Search, MessageCircle, HelpCircle } from 'lucide-react';

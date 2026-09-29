@@ -1,5 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { KEY_FEATURES } from '../data/landingData';
 import { Zap, TrendingUp, ShieldCheck, MessageCircle, ArrowRight, CheckCircle2, Award } from 'lucide-react';
 
@@ -94,7 +95,7 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
                     {item.description}
                   </p>
                   <Link
-                    to={item.linkHref}
+                    href={item.linkHref}
                     className="text-xs font-bold text-[#F0C419] hover:underline inline-flex items-center gap-1"
                   >
                     <span>{item.linkText}</span>

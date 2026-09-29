@@ -1,5 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { ArrowRight } from 'lucide-react';
 
 interface RelatedPage {
@@ -25,7 +26,7 @@ export const RelatedPages: React.FC<RelatedPagesProps> = ({
           {pages.map((page) => (
             <Link
               key={page.href}
-              to={page.href}
+              href={page.href}
               className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419]/40 hover:bg-white/10 transition-all"
             >
               <div className="flex items-center justify-between mb-1.5">

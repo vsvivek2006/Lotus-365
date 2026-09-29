@@ -37,8 +37,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["'Poppins'", '-apple-system', 'BlinkMacSystemFont', 'Arial', 'sans-serif'],
-        display: ["'Poppins'", 'sans-serif'],
+        sans: ['var(--font-poppins)', 'BlinkMacSystemFont', 'Arial', 'sans-serif'],
+        display: ['var(--font-outfit)', 'sans-serif'],
       },
       boxShadow: {
         'gold-glow': '0 0 25px -2px rgba(255, 208, 0, 0.45)',

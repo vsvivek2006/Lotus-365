@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { Sparkles } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../../data/landingData';

@@ -1,5 +1,7 @@
+"use client";
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { Home, Trophy, Dices, MessageCircle, PhoneCall } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -24,7 +26,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
       <div className="flex items-center justify-around max-w-md mx-auto">
         {/* Home */}
         <Link
-          to="/"
+          href="/"
           className="flex flex-col items-center justify-center py-1 px-3 text-white/70 active:text-[#F0C419] hover:text-[#F0C419] transition-colors"
         >
           <Home className="w-5 h-5" />
@@ -33,7 +35,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
 
         {/* Sports */}
         <Link
-          to="/cricket-betting"
+          href="/cricket-betting"
           className="flex flex-col items-center justify-center py-1 px-3 text-white/70 active:text-[#F0C419] hover:text-[#F0C419] transition-colors relative"
         >
           <Trophy className="w-5 h-5" />
@@ -59,7 +61,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
 
         {/* Casino */}
         <Link
-          to="/live-casino"
+          href="/live-casino"
           className="flex flex-col items-center justify-center py-1 px-2 text-white/70 hover:text-[#F0C419] transition-colors"
         >
           <Dices className="w-5 h-5" />

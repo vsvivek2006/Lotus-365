@@ -1,5 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import { GUIDE_ARTICLES } from '../data/landingData';
 import { BookOpen, ArrowRight, Clock } from 'lucide-react';
 
@@ -78,7 +79,7 @@ export const GuidesSection: React.FC<GuidesProps> = ({ onOpenAuth }) => {
               <div className="pt-4 border-t border-white/10 flex items-center justify-between">
                 <span className="text-[11px] text-white/60 font-semibold">Lotus365 Academy</span>
                 <Link
-                  to={getGuideHref(article.slug)}
+                  href={getGuideHref(article.slug)}
                   className="text-xs font-bold text-[#F0C419] hover:underline flex items-center gap-1"
                 >
                   <span>Read Guide</span>

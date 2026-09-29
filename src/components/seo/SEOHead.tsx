@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+
 
 export interface FAQItem {
   question?: string;
@@ -96,41 +96,9 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   const jsonLd = schema ?? defaultSchema;
 
   return (
-    <Helmet>
-      <title>{fullTitle}</title>
-      <meta name="description" content={description} />
-      {keywords && <meta name="keywords" content={keywords} />}
-      <meta name="author" content="Lotus365 Official" />
-      <meta name="geo.region" content="IN" />
-      <meta name="geo.placename" content="India" />
-      <meta name="language" content="English" />
-      <link rel="canonical" href={fullCanonical} />
-      <link rel="alternate" hrefLang="en-IN" href={fullCanonical} />
-      <link rel="alternate" hrefLang="x-default" href={fullCanonical} />
-
-      {/* Open Graph */}
-      <meta property="og:type" content="website" />
-      <meta property="og:locale" content="en_IN" />
-      <meta property="og:title" content={fullTitle} />
-      <meta property="og:description" content={description} />
-      <meta property="og:url" content={fullCanonical} />
-      <meta property="og:image" content={ogImage} />
-      <meta property="og:site_name" content={SITE_NAME} />
-
-      {/* Twitter Card */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@lotus365official" />
-      <meta name="twitter:creator" content="@lotus365official" />
-      <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={ogImage} />
-      <meta name="twitter:image:alt" content={fullTitle} />
-
-      {/* Robots */}
-      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-
-      {/* JSON-LD Schema */}
-      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-    </Helmet>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
   );
 };
