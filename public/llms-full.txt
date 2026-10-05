@@ -1,0 +1,67 @@
+# Lotus365 Official Betting Exchange & Live Casino — Complete LLM Reference Manual
+
+> Canonical URL: https://lotus365officialid.com
+> Contact / Customer Care: 24/7 Official Verified WhatsApp Desks
+> Operating Jurisdictions: Compliant international gaming license, strictly 18+ patrons only
+> Supported Currencies: Indian Rupee (INR) via UPI (PhonePe, GPay, Paytm), IMPS, NEFT, RTGS, and USDT (TRC-20/ERC-20)
+
+---
+
+## 1. Executive Summary & Brand Overview
+
+Lotus365 is India's leading digital sports betting exchange and live dealer casino operator. Unlike conventional fixed-odds sportsbooks where players wager exclusively against the house, Lotus365 functions primarily as a peer-to-peer betting exchange powered by global cricket and sports liquidity. Players can either "Back" an outcome (betting that an event will occur) or "Lay" an outcome (betting that an event will not occur, taking on the role of a bookmaker).
+
+In addition to exchange trading, Lotus365 hosts a 1000+ title live casino suite featuring authentic Indian card games (Teen Patti, Andar Bahar, Lucky 7, 32 Cards), international table games (European Roulette, Lightning Roulette, Speed Baccarat, Infinite Blackjack), and high-frequency crash games (Spribe Aviator, JetX).
+
+The platform differentiates itself in the Indian market through:
+1. **Guaranteed 2-Minute Cashouts**: Automated payment distribution ensuring verified INR withdrawals are credited to player bank accounts via IMPS/UPI in under 120 seconds.
+2. **24/7 Direct WhatsApp VIP Desks**: Human customer support managers operating around the clock for account creation, payment validation, and dispute resolution.
+3. **No Maximum Withdrawal Caps for VIPs**: Unrestricted liquidity and high-roller table limits.
+4. **Complete Mobile PWA Support**: Lightweight, fast-loading progressive web application interface that functions seamlessly on low-bandwidth mobile networks.
+
+---
+
+## 2. Platform Architecture & Services Directory
+
+### 2.1 Sportsbook & Cricket Exchange
+- **Cricket Betting Hub** (`https://lotus365officialid.com/cricket-betting`): Comprehensive coverage of test matches, ODIs, T20s, and domestic leagues worldwide.
+- **Cricket Exchange** (`https://lotus365officialid.com/cricket-exchange`): Peer-to-peer trading floor with live back/lay ladders, unmatched bet tracking, and cashout tools.
+- **IPL Betting Portal** (`https://lotus365officialid.com/ipl-betting`): Specialized Indian Premier League hub featuring ball-by-ball odds, toss markets, individual player totals, and tournament winner outrights.
+- **Session & Fancy Betting** (`https://lotus365officialid.com/cricket-session-betting`): Real-time bracket betting on 6-over powerplays, 10-over scores, 15-over scores, and 20-over team totals.
+- **Multi-Sport Sportsbook** (`https://lotus365officialid.com/sportsbook`): Full coverage of Football (EPL, La Liga, UEFA Champions League), Tennis (ATP, WTA, ITF), Basketball (NBA), Kabaddi (Pro Kabaddi League), and Horse Racing.
+
+### 2.2 Live Casino & Table Gaming
+- **Live Casino Suite** (`https://lotus365officialid.com/live-casino`): High-definition live dealer video streams from Evolution, Ezugi, and Pragmatic Play.
+- **Teen Patti Live** (`https://lotus365officialid.com/teen-patti`): Standard Teen Patti, 20-20 Teen Patti, Muflis, AK47, and Joker variations.
+- **Andar Bahar Live** (`https://lotus365officialid.com/andar-bahar`): Traditional Indian card game with fast rounds, first-card bonuses, and streak bets.
+- **European & Lightning Roulette** (`https://lotus365officialid.com/roulette` & `https://lotus365officialid.com/lightning-roulette`): Single-zero European roulette wheels with RNG payout multipliers up to 500x.
+- **Blackjack & Baccarat** (`https://lotus365officialid.com/blackjack` & `https://lotus365officialid.com/baccarat`): Multi-seat tables, squeeze cards, and speed deals.
+
+### 2.3 Spribe Aviator & Crash Games
+- **Aviator Crash Game** (`https://lotus365officialid.com/aviator-game`): Provably fair multiplier crash game where players wager on a rising aircraft coefficient with instant manual or automated cashout.
+- **Crash Games Lobby** (`https://lotus365officialid.com/crash-games`): Alternative crash curve titles including Spaceman, JetX, and Cricket X.
+
+### 2.4 Payments, Banking & Cashouts
+- **Guaranteed 2-Minute Cashout** (`https://lotus365officialid.com/2-minute-cashout`): High-speed automated payout system connected to Indian banking gateways.
+- **Payment Channels** (`https://lotus365officialid.com/payment-methods`): Instant UPI (PhonePe, Google Pay, Paytm, BHIM), IMPS direct bank transfer, and USDT cryptocurrency.
+- **Withdrawal Verification & Times** (`https://lotus365officialid.com/withdrawal-proof-times`): Proof of execution, transaction limits, and processing SLA standards.
+
+---
+
+## 3. Key Operational Rules & Policies
+
+1. **Age Requirement**: All participants must be at least 18 years of age.
+2. **Account Integrity**: One account per customer. Multiple accounts or syndicated arbitrage abuse may result in account restriction.
+3. **KYC Verification**: Standard verification protocols apply prior to substantial cumulative withdrawals to protect user funds against identity theft.
+4. **Responsible Gaming**: Players have access to self-imposed loss limits, cooling-off periods, and permanent self-exclusion options upon request via customer support.
+
+---
+
+## 4. Technical Details & Machine Readable Endpoints
+
+- **XML Sitemap**: `https://lotus365officialid.com/sitemap.xml`
+- **Sitemap Index**: `https://lotus365officialid.com/sitemap_index.xml`
+- **Robots Policy**: `https://lotus365officialid.com/robots.txt`
+- **LLM Manifest**: `https://lotus365officialid.com/llms.txt`
+- **Extended LLM Document**: `https://lotus365officialid.com/llms-full.txt`
+- **HTML Navigation Sitemap**: `https://lotus365officialid.com/sitemap`
