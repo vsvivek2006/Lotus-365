@@ -5,8 +5,21 @@ export const metadata: Metadata = {
   description: "Bet on cricket in Delhi NCR on Lotus365. Live Delhi Capitals IPL odds, session runs at Arun Jaitley Stadium, Hindi support, and 2-minute UPI cashouts.",
   keywords: "cricket betting delhi, delhi capitals betting, ipl betting delhi ncr, online cricket betting delhi, lotus365 delhi, arun jaitley stadium betting",
   alternates: {
-    canonical: "https://lotus365officialid.com/cricket-betting-delhi"
-  }
+    canonical: "https://lotus365officialid.com/cricket-betting-delhi",
+  },
+  openGraph: {
+    title: "Cricket Betting Delhi NCR | Delhi Capitals Odds & UPI",
+    description: "Bet on cricket in Delhi NCR on Lotus365. Live Delhi Capitals IPL odds, session runs at Arun Jaitley Stadium, Hindi support, and 2-minute UPI cashouts.",
+    url: "https://lotus365officialid.com/cricket-betting-delhi",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cricket Betting Delhi NCR | Delhi Capitals Odds & UPI",
+    description: "Bet on cricket in Delhi NCR on Lotus365. Live Delhi Capitals IPL odds, session runs at Arun Jaitley Stadium, Hindi support, and 2-minute UPI cashouts.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

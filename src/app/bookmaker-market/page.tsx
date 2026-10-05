@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Back and Lay Betting Guide | Master Exchange Trading",
-  description: "Learn Back and Lay betting on Lotus365. Master exchange mechanics, calculate lay liability, green up profits risk-free, and cash out via UPI in 2 minutes.",
-  keywords: "back and lay betting, how to lay a bet, exchange trading guide, lay liability calculation, greening up betting, back lay cricket",
+  title: "Bookmaker Market Guide | Instant Liquidity & Zero Delay",
+  description: "Master the Bookmaker Market on Lotus365. Enjoy instant order execution, 100% guaranteed liquidity, tight 2% margins, and sub-2-minute UPI cashouts.",
+  keywords: "bookmaker market betting, bookmaker odds cricket, instant matching betting, bookmaker vs exchange, lotus365 bookmaker market",
   alternates: {
-    canonical: "https://lotus365officialid.com/back-and-lay-betting"
-  }
+    canonical: "https://lotus365officialid.com/bookmaker-market",
+  },
+  openGraph: {
+    title: "Bookmaker Market Guide | Instant Liquidity & Zero Delay",
+    description: "Master the Bookmaker Market on Lotus365. Enjoy instant order execution, 100% guaranteed liquidity, tight 2% margins, and sub-2-minute UPI cashouts.",
+    url: "https://lotus365officialid.com/bookmaker-market",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bookmaker Market Guide | Instant Liquidity & Zero Delay",
+    description: "Master the Bookmaker Market on Lotus365. Enjoy instant order execution, 100% guaranteed liquidity, tight 2% margins, and sub-2-minute UPI cashouts.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

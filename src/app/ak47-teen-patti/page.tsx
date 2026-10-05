@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lucky 7 Live Casino Game | 7 Up 7 Down Real Cash",
-  description: "Play Lucky 7 live card game on Lotus365. Enjoy real cash 7 Up, 7 Down, exact 7 bets, fast 25-second rounds, and guaranteed 2-minute UPI withdrawals.",
-  keywords: "lucky 7 game, 7 up 7 down real cash, lucky 7 casino, live lucky 7 online, 7 down 7 up card game, lotus365 lucky 7",
+  title: "AK47 Teen Patti Live | Wild Card Rules & Real Cash",
+  description: "Play AK47 Teen Patti on Lotus365. Master wild card rules where Aces, Kings, 4s, and 7s are Jokers, enjoy live dealer action, and 2-minute UPI cashouts.",
+  keywords: "ak47 teen patti, ak47 card game rules, wild card teen patti, ak47 joker rules, teen patti ak47 real cash, lotus365 ak47",
   alternates: {
-    canonical: "https://lotus365officialid.com/lucky-7-game"
-  }
+    canonical: "https://lotus365officialid.com/ak47-teen-patti",
+  },
+  openGraph: {
+    title: "AK47 Teen Patti Live | Wild Card Rules & Real Cash",
+    description: "Play AK47 Teen Patti on Lotus365. Master wild card rules where Aces, Kings, 4s, and 7s are Jokers, enjoy live dealer action, and 2-minute UPI cashouts.",
+    url: "https://lotus365officialid.com/ak47-teen-patti",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AK47 Teen Patti Live | Wild Card Rules & Real Cash",
+    description: "Play AK47 Teen Patti on Lotus365. Master wild card rules where Aces, Kings, 4s, and 7s are Jokers, enjoy live dealer action, and 2-minute UPI cashouts.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

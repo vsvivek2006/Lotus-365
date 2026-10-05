@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lucky 7 Live Casino Game | 7 Up 7 Down Real Cash",
-  description: "Play Lucky 7 live card game on Lotus365. Enjoy real cash 7 Up, 7 Down, exact 7 bets, fast 25-second rounds, and guaranteed 2-minute UPI withdrawals.",
-  keywords: "lucky 7 game, 7 up 7 down real cash, lucky 7 casino, live lucky 7 online, 7 down 7 up card game, lotus365 lucky 7",
+  title: "Joker Teen Patti Live | Wild Card Rules & Real Cash",
+  description: "Play Joker Teen Patti online on Lotus365. Learn Open Joker rules, wild card hand calculations, live dealer tables, and enjoy fast 2-minute UPI cashouts.",
+  keywords: "joker teen patti, wild card teen patti, open joker rules, joker card poker india, teen patti joker real cash, lotus365 joker teen patti",
   alternates: {
-    canonical: "https://lotus365officialid.com/lucky-7-game"
-  }
+    canonical: "https://lotus365officialid.com/joker-teen-patti",
+  },
+  openGraph: {
+    title: "Joker Teen Patti Live | Wild Card Rules & Real Cash",
+    description: "Play Joker Teen Patti online on Lotus365. Learn Open Joker rules, wild card hand calculations, live dealer tables, and enjoy fast 2-minute UPI cashouts.",
+    url: "https://lotus365officialid.com/joker-teen-patti",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Joker Teen Patti Live | Wild Card Rules & Real Cash",
+    description: "Play Joker Teen Patti online on Lotus365. Learn Open Joker rules, wild card hand calculations, live dealer tables, and enjoy fast 2-minute UPI cashouts.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

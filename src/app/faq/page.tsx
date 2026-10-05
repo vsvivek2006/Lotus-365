@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lotus365 Review 2026 | Is It Legit & Safe to Bet?",
-  description: "Honest, expert Lotus365 review for 2026. We audit betting odds, live casino fairness, 2-minute cashout reliability, and WhatsApp customer support quality.",
-  keywords: "lotus365 review, lotus365 review 2026, is lotus365 legit, lotus365 safe, lotus365 trustworthy, lotus365 honest review india",
+  title: "Lotus365 FAQ | Complete Questions & Answers Hub",
+  description: "Get instant answers to all frequent questions about Lotus365: account creation, login troubleshooting, deposit rules, 2-minute cashouts, and VIP benefits.",
+  keywords: "lotus365 faq, lotus365 questions, lotus365 help, lotus365 common questions, lotus365 withdrawal faq, lotus365 deposit guide",
   alternates: {
-    canonical: "https://lotus365officialid.com/lotus365-review"
-  }
+    canonical: "https://lotus365officialid.com/faq",
+  },
+  openGraph: {
+    title: "Lotus365 FAQ | Complete Questions & Answers Hub",
+    description: "Get instant answers to all frequent questions about Lotus365: account creation, login troubleshooting, deposit rules, 2-minute cashouts, and VIP benefits.",
+    url: "https://lotus365officialid.com/faq",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lotus365 FAQ | Complete Questions & Answers Hub",
+    description: "Get instant answers to all frequent questions about Lotus365: account creation, login troubleshooting, deposit rules, 2-minute cashouts, and VIP benefits.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

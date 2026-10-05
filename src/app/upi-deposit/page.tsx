@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "How to Deposit on Lotus365 | Instant UPI & IMPS Guide",
-  description: "Step-by-step guide to depositing funds on Lotus365 via PhonePe, Google Pay, Paytm, and IMPS. Enjoy 0% deposit fees and instant balance crediting in 30 seconds.",
-  keywords: "lotus365 deposit, how to deposit lotus365, lotus365 upi deposit, lotus365 add money, lotus365 fund account, lotus365 payment, instant betting deposit india",
+  title: "UPI Betting Deposit India | PhonePe, GPay & Paytm Guide",
+  description: "Deposit funds instantly using any Indian UPI app: PhonePe, Google Pay, or Paytm. Enjoy instant wallet updates and zero transaction charges on Lotus365.",
+  keywords: "upi deposit betting, upi betting india, google pay betting deposit, phonepe betting deposit, paytm betting india, bhim upi betting, instant upi deposit lotus365",
   alternates: {
-    canonical: "https://lotus365officialid.com/how-to-deposit"
-  }
+    canonical: "https://lotus365officialid.com/upi-deposit",
+  },
+  openGraph: {
+    title: "UPI Betting Deposit India | PhonePe, GPay & Paytm Guide",
+    description: "Deposit funds instantly using any Indian UPI app: PhonePe, Google Pay, or Paytm. Enjoy instant wallet updates and zero transaction charges on Lotus365.",
+    url: "https://lotus365officialid.com/upi-deposit",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UPI Betting Deposit India | PhonePe, GPay & Paytm Guide",
+    description: "Deposit funds instantly using any Indian UPI app: PhonePe, Google Pay, or Paytm. Enjoy instant wallet updates and zero transaction charges on Lotus365.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

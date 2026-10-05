@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lucky 7 Live Casino Game | 7 Up 7 Down Real Cash",
-  description: "Play Lucky 7 live card game on Lotus365. Enjoy real cash 7 Up, 7 Down, exact 7 bets, fast 25-second rounds, and guaranteed 2-minute UPI withdrawals.",
-  keywords: "lucky 7 game, 7 up 7 down real cash, lucky 7 casino, live lucky 7 online, 7 down 7 up card game, lotus365 lucky 7",
+  title: "32 Cards Live Casino | Fast Asian Card Game Odds",
+  description: "Play 32 Cards live casino game on Lotus365. Compete with Player 8, 9, 10, and 11 hands, enjoy fast 30s rounds, and get guaranteed 2-minute UPI withdrawals.",
+  keywords: "32 cards casino, 32 cards live game, player 8 9 10 11 card game, 32 cards rules, fast asian card game, lotus365 32 cards",
   alternates: {
-    canonical: "https://lotus365officialid.com/lucky-7-game"
-  }
+    canonical: "https://lotus365officialid.com/32-cards-casino",
+  },
+  openGraph: {
+    title: "32 Cards Live Casino | Fast Asian Card Game Odds",
+    description: "Play 32 Cards live casino game on Lotus365. Compete with Player 8, 9, 10, and 11 hands, enjoy fast 30s rounds, and get guaranteed 2-minute UPI withdrawals.",
+    url: "https://lotus365officialid.com/32-cards-casino",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "32 Cards Live Casino | Fast Asian Card Game Odds",
+    description: "Play 32 Cards live casino game on Lotus365. Compete with Player 8, 9, 10, and 11 hands, enjoy fast 30s rounds, and get guaranteed 2-minute UPI withdrawals.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

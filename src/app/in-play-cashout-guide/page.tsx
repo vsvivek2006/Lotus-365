@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Back and Lay Betting Guide | Master Exchange Trading",
-  description: "Learn Back and Lay betting on Lotus365. Master exchange mechanics, calculate lay liability, green up profits risk-free, and cash out via UPI in 2 minutes.",
-  keywords: "back and lay betting, how to lay a bet, exchange trading guide, lay liability calculation, greening up betting, back lay cricket",
+  title: "In-Play Cashout Guide | Lock Profits & Hedge Risk",
+  description: "Master in-play cashouts on Lotus365. Learn how to green up profits, execute partial cashouts, hedge live cricket matches, and withdraw in under 2 minutes.",
+  keywords: "in play cashout guide, how to cashout betting, hedging cricket bets, green up cashout, partial cashout lotus365, early cashout betting",
   alternates: {
-    canonical: "https://lotus365officialid.com/back-and-lay-betting"
-  }
+    canonical: "https://lotus365officialid.com/in-play-cashout-guide",
+  },
+  openGraph: {
+    title: "In-Play Cashout Guide | Lock Profits & Hedge Risk",
+    description: "Master in-play cashouts on Lotus365. Learn how to green up profits, execute partial cashouts, hedge live cricket matches, and withdraw in under 2 minutes.",
+    url: "https://lotus365officialid.com/in-play-cashout-guide",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "In-Play Cashout Guide | Lock Profits & Hedge Risk",
+    description: "Master in-play cashouts on Lotus365. Learn how to green up profits, execute partial cashouts, hedge live cricket matches, and withdraw in under 2 minutes.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

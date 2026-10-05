@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Betting Odds Calculator | Decimal, Fractional & Payouts",
-  description: "Convert betting odds and calculate exact payouts on Lotus365. Decimal vs fractional vs American odds formulas, implied probability, and 2-minute cashouts.",
-  keywords: "betting odds calculator, decimal odds converter, how to calculate betting payouts, implied probability calculator, cricket odds math, lotus365 calculator",
+  title: "Lotus365 Partner Program | Affiliate Revenue Share 2026",
+  description: "Join the official Lotus365 Partner & Affiliate Program. Earn up to 35% weekly revenue share, enjoy dedicated manager support, and weekly UPI payouts.",
+  keywords: "lotus365 partner program, lotus365 affiliate, cricket betting affiliate india, betting revenue share program, master agent lotus365",
   alternates: {
-    canonical: "https://lotus365officialid.com/betting-odds-calculator"
-  }
+    canonical: "https://lotus365officialid.com/lotus365-partner-program",
+  },
+  openGraph: {
+    title: "Lotus365 Partner Program | Affiliate Revenue Share 2026",
+    description: "Join the official Lotus365 Partner & Affiliate Program. Earn up to 35% weekly revenue share, enjoy dedicated manager support, and weekly UPI payouts.",
+    url: "https://lotus365officialid.com/lotus365-partner-program",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lotus365 Partner Program | Affiliate Revenue Share 2026",
+    description: "Join the official Lotus365 Partner & Affiliate Program. Earn up to 35% weekly revenue share, enjoy dedicated manager support, and weekly UPI payouts.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

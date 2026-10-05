@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Betting Odds Calculator | Decimal, Fractional & Payouts",
-  description: "Convert betting odds and calculate exact payouts on Lotus365. Decimal vs fractional vs American odds formulas, implied probability, and 2-minute cashouts.",
-  keywords: "betting odds calculator, decimal odds converter, how to calculate betting payouts, implied probability calculator, cricket odds math, lotus365 calculator",
+  title: "Cricket Betting Glossary A-Z | Khai, Lagai, Lambi Terms",
+  description: "Master Indian cricket betting terminology on Lotus365. Comprehensive A-Z definitions: Khai, Lagai, Lambi, Session, Back, Lay, and DLS rules explained.",
+  keywords: "cricket betting glossary, khai lagai meaning, lambi pari definition, cricket betting terms a-z, dabba rate cricket, betting exchange terminology",
   alternates: {
-    canonical: "https://lotus365officialid.com/betting-odds-calculator"
-  }
+    canonical: "https://lotus365officialid.com/cricket-betting-glossary",
+  },
+  openGraph: {
+    title: "Cricket Betting Glossary A-Z | Khai, Lagai, Lambi Terms",
+    description: "Master Indian cricket betting terminology on Lotus365. Comprehensive A-Z definitions: Khai, Lagai, Lambi, Session, Back, Lay, and DLS rules explained.",
+    url: "https://lotus365officialid.com/cricket-betting-glossary",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cricket Betting Glossary A-Z | Khai, Lagai, Lambi Terms",
+    description: "Master Indian cricket betting terminology on Lotus365. Comprehensive A-Z definitions: Khai, Lagai, Lambi, Session, Back, Lay, and DLS rules explained.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

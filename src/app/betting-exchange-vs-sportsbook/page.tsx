@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Back and Lay Betting Guide | Master Exchange Trading",
-  description: "Learn Back and Lay betting on Lotus365. Master exchange mechanics, calculate lay liability, green up profits risk-free, and cash out via UPI in 2 minutes.",
-  keywords: "back and lay betting, how to lay a bet, exchange trading guide, lay liability calculation, greening up betting, back lay cricket",
+  title: "Betting Exchange vs Sportsbook | Key Differences 2026",
+  description: "Compare Betting Exchanges vs Traditional Sportsbooks on Lotus365. Discover why exchanges offer superior odds, no stake limits on winners, and lay betting freedom.",
+  keywords: "betting exchange vs sportsbook, difference exchange sportsbook, why betting exchanges are better, lay betting vs bookmaker, lotus365 exchange advantages",
   alternates: {
-    canonical: "https://lotus365officialid.com/back-and-lay-betting"
-  }
+    canonical: "https://lotus365officialid.com/betting-exchange-vs-sportsbook",
+  },
+  openGraph: {
+    title: "Betting Exchange vs Sportsbook | Key Differences 2026",
+    description: "Compare Betting Exchanges vs Traditional Sportsbooks on Lotus365. Discover why exchanges offer superior odds, no stake limits on winners, and lay betting freedom.",
+    url: "https://lotus365officialid.com/betting-exchange-vs-sportsbook",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Betting Exchange vs Sportsbook | Key Differences 2026",
+    description: "Compare Betting Exchanges vs Traditional Sportsbooks on Lotus365. Discover why exchanges offer superior odds, no stake limits on winners, and lay betting freedom.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

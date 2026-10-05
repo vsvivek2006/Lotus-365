@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Pro Kabaddi Betting India | PKL Live Odds & Markets",
-  description: "Bet on Pro Kabaddi League (PKL) matches on Lotus365. Live raid points, tackle counts, match winners, and instant UPI withdrawals 24/7 across India.",
-  keywords: "kabaddi betting india, pkl betting, pro kabaddi betting, kabaddi online betting, pkl live odds, raid points betting, tackle points pkl",
+  title: "Horse Racing Betting India | Mumbai & Pune Derby Odds",
+  description: "Bet on live Indian horse racing in Mumbai, Pune, Bangalore, and Kolkata. Win, Place, and Forecast pool betting with instant race settlement on Lotus365.",
+  keywords: "horse racing betting india, indian derby betting, rwitc mumbai odds, pune horse racing, bangalore turf club betting, thoroughbred odds india",
   alternates: {
-    canonical: "https://lotus365officialid.com/kabaddi-betting"
-  }
+    canonical: "https://lotus365officialid.com/horse-racing-betting",
+  },
+  openGraph: {
+    title: "Horse Racing Betting India | Mumbai & Pune Derby Odds",
+    description: "Bet on live Indian horse racing in Mumbai, Pune, Bangalore, and Kolkata. Win, Place, and Forecast pool betting with instant race settlement on Lotus365.",
+    url: "https://lotus365officialid.com/horse-racing-betting",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Horse Racing Betting India | Mumbai & Pune Derby Odds",
+    description: "Bet on live Indian horse racing in Mumbai, Pune, Bangalore, and Kolkata. Win, Place, and Forecast pool betting with instant race settlement on Lotus365.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

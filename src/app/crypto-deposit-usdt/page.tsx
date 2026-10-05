@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "PhonePe Deposit Guide | Fast UPI Payments & 60s Credit",
-  description: "Deposit money using PhonePe on Lotus365. Instant QR code payments, 0% fees, 60-second wallet credit, and guaranteed 2-minute UPI cashouts.",
-  keywords: "phonepe deposit, phonepe betting deposit, phonepe upi payment lotus365, how to deposit via phonepe, instant phonepe betting",
+  title: "USDT Crypto Deposits | Fast TRC20 & BEP20 Transfers",
+  description: "Deposit and withdraw USDT cryptocurrency on Lotus365. Enjoy TRC20 speed, near-zero gas fees, maximum financial privacy, and 2-minute withdrawals.",
+  keywords: "usdt betting deposit, crypto betting india, tether trc20 betting, usdt deposit lotus365, bitcoin betting exchange, crypto sports betting",
   alternates: {
-    canonical: "https://lotus365officialid.com/phonepe-deposit"
-  }
+    canonical: "https://lotus365officialid.com/crypto-deposit-usdt",
+  },
+  openGraph: {
+    title: "USDT Crypto Deposits | Fast TRC20 & BEP20 Transfers",
+    description: "Deposit and withdraw USDT cryptocurrency on Lotus365. Enjoy TRC20 speed, near-zero gas fees, maximum financial privacy, and 2-minute withdrawals.",
+    url: "https://lotus365officialid.com/crypto-deposit-usdt",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "USDT Crypto Deposits | Fast TRC20 & BEP20 Transfers",
+    description: "Deposit and withdraw USDT cryptocurrency on Lotus365. Enjoy TRC20 speed, near-zero gas fees, maximum financial privacy, and 2-minute withdrawals.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

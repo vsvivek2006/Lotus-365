@@ -5,15 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
-  LayoutDashboard,
   FileText,
   Sparkles,
   LogOut,
   Loader2,
   X,
-  PlusCircle,
   ExternalLink,
-  ShieldCheck,
   Globe,
 } from "lucide-react";
 import { toast } from "sonner";
@@ -24,14 +21,13 @@ import { LotusBrandLogo } from "@/components/brand/LotusBrandLogo";
 export interface NavItem {
   label: string;
   href: string;
-  icon: typeof LayoutDashboard;
+  icon: typeof FileText;
   exact?: boolean;
 }
 
 export const navItems: NavItem[] = [
-  { label: "Dashboard", href: "/admin", icon: LayoutDashboard, exact: true },
   { label: "All Articles", href: "/admin/blog", icon: FileText },
-  { label: "AI Auto-Writer", href: "/admin/blog/new?mode=ai", icon: Sparkles },
+  { label: "Write Article", href: "/admin/blog/new?mode=ai", icon: Sparkles },
 ];
 
 interface SidebarProps {
@@ -92,7 +88,7 @@ export function Sidebar({
           size="sm"
           subtitle="Admin Studio"
           badge="PORTAL"
-          href="/admin"
+          href="/admin/blog"
         />
         {onClose && (
           <button

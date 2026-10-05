@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Betting Odds Calculator | Decimal, Fractional & Payouts",
-  description: "Convert betting odds and calculate exact payouts on Lotus365. Decimal vs fractional vs American odds formulas, implied probability, and 2-minute cashouts.",
-  keywords: "betting odds calculator, decimal odds converter, how to calculate betting payouts, implied probability calculator, cricket odds math, lotus365 calculator",
+  title: "Complaints & Dispute Resolution | Official Support Desk",
+  description: "Official Lotus365 complaints and dispute resolution desk. Rapid 60-second response, senior supervisor escalation, and fair settlement guarantees.",
+  keywords: "lotus365 complaints, dispute resolution betting, lotus365 customer redressal, betting settlement dispute, lotus365 support escalation",
   alternates: {
-    canonical: "https://lotus365officialid.com/betting-odds-calculator"
-  }
+    canonical: "https://lotus365officialid.com/complaints-resolution",
+  },
+  openGraph: {
+    title: "Complaints & Dispute Resolution | Official Support Desk",
+    description: "Official Lotus365 complaints and dispute resolution desk. Rapid 60-second response, senior supervisor escalation, and fair settlement guarantees.",
+    url: "https://lotus365officialid.com/complaints-resolution",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Complaints & Dispute Resolution | Official Support Desk",
+    description: "Official Lotus365 complaints and dispute resolution desk. Rapid 60-second response, senior supervisor escalation, and fair settlement guarantees.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

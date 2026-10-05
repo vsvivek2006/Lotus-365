@@ -1,12 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Teen Patti Real Money | Play Live 3 Patti Cash Games",
-  description: "Play Teen Patti cash games online with real human dealers. Low entry limits, high-roller VIP tables, fast UPI cashouts, and 100% fair RNG certified card play.",
-  keywords: "teen patti online, teen patti real money, live teen patti india, 3 patti cash, play teen patti online, 3 patti real cash game, teen patti rules",
+  title: "Andar Bahar Online Real Cash | Live Dealer Card Game",
+  description: "Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7.",
+  keywords: "andar bahar online, live andar bahar india, andar bahar real money, play andar bahar online, andar bahar game online, katti card game, andar bahar winning tricks",
   alternates: {
-    canonical: "https://lotus365officialid.com/teen-patti"
-  }
+    canonical: "https://lotus365officialid.com/andar-bahar",
+  },
+  openGraph: {
+    title: "Andar Bahar Online Real Cash | Live Dealer Card Game",
+    description: "Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7.",
+    url: "https://lotus365officialid.com/andar-bahar",
+    type: "website",
+    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Andar Bahar Online Real Cash | Live Dealer Card Game",
+    description: "Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7.",
+    images: ["https://lotus365officialid.com/og-banner.webp"],
+  },
 };
 
 import React from 'react';

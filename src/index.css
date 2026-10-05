@@ -327,3 +327,138 @@ footer {
   perspective: 1000px;
 }
 
+/* === Blog Article & Editor Typography Hierarchy (Tailored for Lotus365) === */
+.article-content,
+.tiptap-editor-surface {
+  color: #e2e8f0;
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.article-content h2,
+.tiptap-editor-surface h2 {
+  color: #ffffff;
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-top: 2.75rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1rem;
+  border-left: 4px solid #F0C419;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 640px) {
+  .article-content h2,
+  .tiptap-editor-surface h2 {
+    font-size: 2.125rem;
+  }
+}
+
+.article-content h3,
+.tiptap-editor-surface h3 {
+  color: #F0C419;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  letter-spacing: -0.01em;
+}
+
+.article-content p,
+.tiptap-editor-surface p {
+  margin-bottom: 1.5rem;
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.article-content a,
+.tiptap-editor-surface a {
+  color: #34D399;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(52, 211, 153, 0.7);
+  text-underline-offset: 4px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.article-content a:hover,
+.tiptap-editor-surface a:hover {
+  color: #F0C419;
+  text-decoration-color: #F0C419;
+}
+
+.article-content ul,
+.tiptap-editor-surface ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-content ol,
+.tiptap-editor-surface ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-content li,
+.tiptap-editor-surface li {
+  margin-bottom: 0.5rem;
+  color: #cbd5e1;
+}
+
+.article-content li::marker,
+.tiptap-editor-surface li::marker {
+  color: #F0C419;
+}
+
+.article-content blockquote,
+.tiptap-editor-surface blockquote {
+  border-left: 4px solid #F0C419;
+  background: rgba(20, 97, 76, 0.35);
+  padding: 1rem 1.5rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  margin: 1.75rem 0;
+  font-style: italic;
+  color: #FFFAE5;
+}
+
+.article-content blockquote p,
+.tiptap-editor-surface blockquote p {
+  margin-bottom: 0;
+  color: #FFFAE5;
+}
+
+.article-content strong,
+.tiptap-editor-surface strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.article-content em,
+.tiptap-editor-surface em {
+  color: #fef08a;
+}
+
+.article-content img,
+.tiptap-editor-surface img {
+  border-radius: 0.75rem;
+  margin: 2rem 0;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(240, 196, 25, 0.25);
+}
+
+.article-content hr,
+.tiptap-editor-surface hr {
+  border-color: rgba(255, 255, 255, 0.15);
+  margin: 2.5rem 0;
+}
+
+
