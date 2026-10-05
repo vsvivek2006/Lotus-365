@@ -1,4 +1,6 @@
 {
+  "framework": "nextjs",
+  "buildCommand": "next build",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
@@ -92,12 +94,6 @@
           "value": "strict-origin-when-cross-origin"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/((?!assets/|.*\\..*).*)",
-      "destination": "/index.html"
     }
   ]
 }
