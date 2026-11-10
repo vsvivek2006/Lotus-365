@@ -70,10 +70,15 @@ export const AboutPage: React.FC = () => (
         title="India's Most Trusted "
         highlight="Betting Exchange"
         subtitle="Founded in 2019, Lotus365 has redefined digital sports betting and live gaming in India. Built on the principles of peer-to-peer fairness, cryptographic transparency, and guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="About Lotus365 Official Platform"
+        breadcrumbs={[
+          { label: 'About Us' },
+        ]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Executive Stats Banner */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

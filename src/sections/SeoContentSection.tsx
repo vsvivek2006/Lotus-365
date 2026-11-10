@@ -17,7 +17,7 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
   };
 
   return (
-    <article id="seo-guide" className="py-20 bg-[#14614C] border-t border-white/15 relative overflow-hidden text-white/90">
+    <article id="seo-guide" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden text-white/90">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Semantic SEO Article Header */}

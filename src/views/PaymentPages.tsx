@@ -7,6 +7,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { BankingStepsStepper } from '../components/banking/BankingStepsStepper';
 import { 
   Zap, 
   ShieldCheck, 
@@ -69,10 +70,13 @@ export const HowToDepositPage: React.FC = () => (
         title="Deposit on " 
         highlight="Lotus365" 
         subtitle="Add funds to your Lotus365 balance in under 60 seconds using UPI, PhonePe, Google Pay, Paytm, or direct IMPS bank transfer. Minimum deposit is just ₹100 with zero transaction fees." 
+        imageSrc="/images/payments/upi.svg"
+        imageAlt="How to Deposit on Lotus365 via UPI"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'How to Deposit' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -86,9 +90,12 @@ export const HowToDepositPage: React.FC = () => (
               Whether you prefer depositing via <strong>PhonePe, Google Pay, Paytm, BHIM, CRED UPI</strong>, or instant <strong>IMPS net banking</strong>, our process eliminates confusing third-party payment gateways that trigger bank declines. Lotus365 charges exactly 0% in deposit fees, meaning 100% of your hard-earned rupees go straight toward your betting bankroll.
             </p>
             <p>
-              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/welcome-bonus" className="text-[#F0C419] font-semibold hover:underline" title="100% First Deposit Welcome Bonus">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,000!
+              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/welcome-bonus" className="text-[#F0C419] font-semibold hover:underline" title="100% First Deposit Welcome Bonus">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,00,000!
             </p>
           </div>
+
+          {/* Interactive Banking Steps Stepper */}
+          <BankingStepsStepper />
 
           {/* Quick Method Cards */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -330,10 +337,13 @@ export const HowToWithdrawPage: React.FC = () => (
         title="Lotus365 " 
         highlight="Withdrawal Guide" 
         subtitle="Enjoy the fastest withdrawal execution in the Indian betting industry. Cash out your sports and casino winnings to your UPI ID or bank account in under 2 minutes with zero withdrawal fees." 
+        imageSrc="/images/payments/imps.svg"
+        imageAlt="How to Withdraw from Lotus365 in 2 Minutes"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'How to Withdraw' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -350,6 +360,9 @@ export const HowToWithdrawPage: React.FC = () => (
               Best of all, there are <strong>zero transaction deductions or withdrawal service fees</strong>. Every single rupee you cash out arrives intact in your bank balance.
             </p>
           </div>
+
+          {/* Interactive Banking Steps Stepper */}
+          <BankingStepsStepper />
 
           {/* Quick Metrics */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -627,10 +640,13 @@ export const UpiDepositPage: React.FC = () => (
         title="Instant " 
         highlight="UPI Deposit" 
         subtitle="Experience the gold standard in Indian sports betting payments. Fund your Lotus365 wallet in 30 seconds using Google Pay, PhonePe, Paytm, BHIM, or CRED UPI with zero fees and minimum ₹100." 
+        imageSrc="/images/payments/upi.svg"
+        imageAlt="Instant UPI Deposit India"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'UPI Deposit' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -647,6 +663,9 @@ export const UpiDepositPage: React.FC = () => (
               On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we have optimized our payment gateways to interface natively with the UPI architecture, providing instant balance credits within 30 seconds of completing your payment.
             </p>
           </div>
+
+          {/* Interactive Banking Steps Stepper */}
+          <BankingStepsStepper />
 
           {/* Supported Apps Grid */}
           <div>
@@ -889,10 +908,13 @@ export const ImpsWithdrawalPage: React.FC = () => (
         title="IMPS " 
         highlight="Instant Withdrawal" 
         subtitle="Direct interbank transfers to State Bank of India, HDFC, ICICI, Axis, PNB, and over 140+ Indian scheduled commercial banks. Instant settlement around the clock with zero processing fees." 
+        imageSrc="/images/payments/imps.svg"
+        imageAlt="IMPS Direct Bank Withdrawal India"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'IMPS Withdrawal' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -909,6 +931,9 @@ export const ImpsWithdrawalPage: React.FC = () => (
               On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our automated treasury disburses IMPS transfers within 5 to 10 minutes of confirmation with zero deduction fees.
             </p>
           </div>
+
+          {/* Interactive Banking Steps Stepper */}
+          <BankingStepsStepper />
 
           {/* Key Advantages */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -1160,10 +1185,13 @@ export const PaymentMethodsPage: React.FC = () => (
         title="All " 
         highlight="Payment Methods" 
         subtitle="Discover the wide array of zero-fee deposit and withdrawal options supported on Lotus365. Enjoy instant UPI top-ups, guaranteed 2-minute cashouts, direct IMPS bank transfers, and secure USDT crypto." 
+        imageSrc="/images/payments/upi.svg"
+        imageAlt="Lotus365 Accepted Payment Methods"
+        breadcrumbs={[{ label: 'Payments' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -1177,6 +1205,9 @@ export const PaymentMethodsPage: React.FC = () => (
               Every payment rail featured on our platform is governed by three strict commitments: <strong>instant execution, 0% commission fees, and 24/7 human WhatsApp customer assistance</strong>.
             </p>
           </div>
+
+          {/* Interactive Banking Steps Stepper */}
+          <BankingStepsStepper />
 
           {/* Master Comparison Table */}
           <div>
@@ -1456,10 +1487,13 @@ export const TwoMinuteCashoutPage: React.FC = () => (
         title="India's Fastest " 
         highlight="2-Minute Cashout" 
         subtitle="Lotus365 guarantees your withdrawal request is executed and dispatched within 120 seconds via UPI or IMPS. No delays, no excuses, and zero transaction fees — your winnings in your pocket instantly." 
+        imageSrc="/images/payments/imps.svg"
+        imageAlt="Lotus365 Guaranteed 2-Minute Cashout"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: '2-Minute Cashout' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -1476,6 +1510,9 @@ export const TwoMinuteCashoutPage: React.FC = () => (
               We maintain dedicated liquidity reserves across India’s primary banking partners (HDFC, ICICI, SBI, and Axis Bank), ensuring that whether your cashout is ₹500 or ₹5,00,000, our automated disbursement gateway processes it immediately.
             </p>
           </div>
+
+          {/* Interactive Banking Steps Stepper */}
+          <BankingStepsStepper />
 
           {/* Speed Comparison Table */}
           <div>

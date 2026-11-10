@@ -6,6 +6,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { CasinoTableShowcase } from '../components/casino/CasinoTableShowcase';
 import { Sparkles, HelpCircle, ShieldCheck, Zap, Dices, PlayCircle, Star, Award, AlertCircle, Scale } from 'lucide-react';
 
 const casinoRelated = [
@@ -43,9 +44,12 @@ export const Lucky7GamePage: React.FC = () => (
         title="Lucky 7 Live Card Game: "
         highlight="7 Up, 7 Down & Exact 7"
         subtitle="Experience India's most beloved live dealer card prediction game. Bet on 7 Up, 7 Down, Red/Black, and Odd/Even with ultra-fast 25-second rounds."
+        imageSrc="/images/games/lucky-7.svg"
+        imageAlt="Lucky 7 Live Card Game"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Lucky 7' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Simplicity and Thrill of Live Lucky 7
@@ -57,6 +61,9 @@ export const Lucky7GamePage: React.FC = () => (
               Hosted by charismatic professional dealers streamed in crystal-clear 1080p 60 FPS from state-of-the-art live studios, Lucky 7 on <strong className="text-[#F0C419]">Lotus365</strong> delivers genuine casino atmosphere straight to your mobile screen with sub-2-minute UPI cashouts.
             </p>
           </div>
+
+          {/* Interactive Live Indian Tables Showcase */}
+          <CasinoTableShowcase initialCategory="indian" />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -166,8 +173,11 @@ export const ThirtyTwoCardsCasinoPage: React.FC = () => (
         title="32 Cards Live Casino: "
         highlight="Player 8, 9, 10 & 11"
         subtitle="Experience Asia's rapid-fire numbers card game. Back high-multiplier underdog hands or safe favorites with dynamic 30-second live dealer rounds."
+        imageSrc="/images/games/thirty-two-cards.svg"
+        imageAlt="32 Cards Live Casino"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: '32 Cards' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -288,8 +298,11 @@ export const SuperOverGamePage: React.FC = () => (
         title="Super Over Casino Game: "
         highlight="6 Balls, Massive Multipliers"
         subtitle="Love cricket but don't want to wait 4 hours? Experience instant 6-ball Super Over thrill with multipliers up to 500x and 2-minute instant cashouts."
+        imageSrc="/images/games/super-over.svg"
+        imageAlt="Super Over Cricket Casino Game"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Super Over' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -411,8 +424,11 @@ export const MuflisTeenPattiPage: React.FC = () => (
         title="Muflis Teen Patti: "
         highlight="The Low Card Masterclass"
         subtitle="Turn conventional card rules upside down. In Muflis, the lowest hand triumphs: 5-3-2 destroys Triple Aces. Play live with professional dealers and 2-minute cashouts."
+        imageSrc="/images/games/teen-patti.svg"
+        imageAlt="Muflis Teen Patti Low Card Game"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Muflis Teen Patti' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -534,8 +550,11 @@ export const Ak47TeenPattiPage: React.FC = () => (
         title="AK47 Teen Patti Live: "
         highlight="Aces, Kings, 4s & 7s Wild"
         subtitle="Unleash explosive hand potential. With Aces, Kings, 4s, and 7s functioning as universal wild Jokers, high-ranking trails and pure sequences occur in every round."
+        imageSrc="/images/games/teen-patti.svg"
+        imageAlt="AK47 Teen Patti Wild Card Game"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'AK47 Teen Patti' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -657,8 +676,11 @@ export const JokerTeenPattiPage: React.FC = () => (
         title="Joker Teen Patti Live: "
         highlight="Wild Card Strategy & Rules"
         subtitle="Enjoy dynamic wild-card hand creation. Form pure sequences and unbeatable trails using Open and Hidden Jokers on India's premier live casino tables."
+        imageSrc="/images/games/teen-patti.svg"
+        imageAlt="Joker Teen Patti Wild Card Game"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Joker Teen Patti' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -780,8 +802,11 @@ export const RouletteStrategiesPage: React.FC = () => (
         title="Live Roulette Strategies: "
         highlight="Martingale, Fibonacci & Systems"
         subtitle="Elevate your roulette gameplay. Master disciplined staking systems, single-zero European wheel advantages, and lightning multiplier management."
+        imageSrc="/images/games/roulette.svg"
+        imageAlt="Live Roulette Strategies and Systems"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Roulette Strategies' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -903,8 +928,11 @@ export const LiveDealerGamesPage: React.FC = () => (
         title="Live Dealer Casino Games: "
         highlight="Evolution, Ezugi & Hindi Tables"
         subtitle="Step onto the real casino floor from anywhere in India. Stream live Blackjack, Roulette, Teen Patti, and Baccarat with native Hindi dealers and instant cashouts."
+        imageSrc="/images/dealers/dealer-hindi.svg"
+        imageAlt="Live Dealer Casino Games Evolution Ezugi Hindi Tables"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Live Dealer Games' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -1026,9 +1054,12 @@ export const CrazyTimePage: React.FC = () => (
         title="Crazy Time Live: "
         highlight="Giant Wheels & 25,000x Multipliers"
         subtitle="Step into the world's most popular live game show. Trigger Coin Flip, Pachinko, Cash Hunt, and Crazy Time bonus rounds with massive multipliers."
+        imageSrc="/images/games/crazy-time.svg"
+        imageAlt="Crazy Time Live Game Show"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Crazy Time' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Global Phenomenon: Crazy Time on Lotus365
@@ -1040,6 +1071,9 @@ export const CrazyTimePage: React.FC = () => (
               On <strong className="text-[#F0C419]">Lotus365</strong>, Crazy Time is streamed in stunning 4K definition. Before every spin, the Top Slot generates random multiplier boosts that apply to numbers (1, 2, 5, 10) or one of the four legendary bonus games: <strong className="text-[#F0C419]">Cash Hunt, Pachinko, Coin Flip, and Crazy Time</strong>.
             </p>
           </div>
+
+          {/* Interactive Game Show Table Showcase */}
+          <CasinoTableShowcase initialCategory="shows" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
@@ -1148,8 +1182,11 @@ export const MegaWheelPage: React.FC = () => (
         title="Mega Wheel Live: "
         highlight="500x Multiplier Game Show"
         subtitle="Spin the wheel of fortune with Pragmatic Play. Every single round awards random Mega Lucky Number boosts up to 500x with sub-2-minute cashouts."
+        imageSrc="/images/games/mega-wheel.svg"
+        imageAlt="Mega Wheel Live Pragmatic Play 500x Multipliers"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Mega Wheel' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">

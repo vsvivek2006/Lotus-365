@@ -69,10 +69,16 @@ export const PrivacyPolicyPage: React.FC = () => (
         highlight="100% Protected" 
         subtitle="At Lotus365, your personal confidentiality and financial privacy are non-negotiable. Learn how our zero-document data architecture, 256-bit TLS encryption, and secure WhatsApp rails protect your gaming activity." 
         ctaLabel="Contact Privacy Officer" 
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Lotus365 Privacy Policy and Data Security"
+        breadcrumbs={[
+          { label: 'Legal' },
+          { label: 'Privacy Policy' },
+        ]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Privacy Guarantee Header */}
           <div className="p-6 sm:p-8 rounded-3xl bg-black/25 border border-[#F0C419]/30 flex flex-col sm:flex-row items-center gap-6">

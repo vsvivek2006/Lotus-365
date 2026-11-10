@@ -30,6 +30,8 @@ export interface GameItem {
   badge?: 'HOT' | 'NEW' | 'LIVE' | 'JACKPOT';
   gradient: string;
   iconType: 'dice' | 'cards' | 'plane' | 'cricket' | 'wheel' | 'crown';
+  imageSrc?: string;
+  href?: string;
 }
 
 export interface FeatureItem {

@@ -6,6 +6,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { BankingStepsStepper } from '../components/banking/BankingStepsStepper';
 import { Smartphone, HelpCircle, ShieldCheck, Zap, Lock, CreditCard, Clock, CheckCircle2 } from 'lucide-react';
 
 const bankingRelated = [
@@ -43,9 +44,12 @@ export const PhonePeDepositPage: React.FC = () => (
         title="PhonePe Deposit Guide: "
         highlight="Fast, Secure & 0% Fees"
         subtitle="Fund your Lotus365 account in under 60 seconds using India's most popular UPI app. Zero extra fees, instant QR scanning, and 2-minute cashouts."
+        imageSrc="/images/payments/phonepe.svg"
+        imageAlt="PhonePe Deposit Guide for Lotus365"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'PhonePe Deposit' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Seamless PhonePe Deposits on Lotus365
@@ -165,9 +169,12 @@ export const GooglePayDepositPage: React.FC = () => (
         title="Google Pay Deposit Guide: "
         highlight="Zero Fees & Instant Crediting"
         subtitle="Enjoy seamless, bank-grade UPI payments with Google Pay. Scan, pay, submit your 12-digit UTR, and start trading on India's premier exchange in 60 seconds."
+        imageSrc="/images/payments/gpay.svg"
+        imageAlt="Google Pay Deposit Guide for Lotus365"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Google Pay Deposit' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Fast and Encrypted Google Pay Deposits
@@ -288,9 +295,12 @@ export const PaytmDepositPage: React.FC = () => (
         title="Paytm Deposit Guide: "
         highlight="Instant UPI Payments & 0% Fees"
         subtitle="Fund your Lotus365 account using Paytm UPI. Enjoy fast QR scanning, instant balance credit in under 60 seconds, and 2-minute UPI cashouts."
+        imageSrc="/images/payments/paytm.svg"
+        imageAlt="Paytm Deposit Guide for Lotus365"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Paytm Deposit' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Fast and Frictionless Paytm Deposits
@@ -414,9 +424,12 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
         title="NEFT & RTGS Bank Transfers: "
         highlight="High Limits & VIP Escrow"
         subtitle="Designed for serious sports traders and high-volume VIP players. Move large capital securely with dedicated corporate bank accounts and zero transaction ceilings."
+        imageSrc="/images/payments/imps.svg"
+        imageAlt="NEFT and RTGS Bank Transfers for Lotus365"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'NEFT & RTGS' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Institutional Banking for High-Turnover Traders
@@ -537,9 +550,12 @@ export const CryptoDepositUsdtPage: React.FC = () => (
         title="USDT Crypto Deposits: "
         highlight="Private, Fast & High Limits"
         subtitle="Fund your gaming balance using USDT on TRC20 and BEP20 networks. Enjoy unmatched privacy, negligible network fees, and instant blockchain settlements."
+        imageSrc="/images/payments/usdt-crypto.svg"
+        imageAlt="USDT Crypto Deposits on Lotus365"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Crypto USDT' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Next-Generation Financial Privacy with USDT
@@ -551,6 +567,9 @@ export const CryptoDepositUsdtPage: React.FC = () => (
               On <strong className="text-[#F0C419]">Lotus365</strong>, we support USDT on the <strong className="text-[#F0C419]">TRC20 (Tron)</strong> and <strong className="text-[#F0C419]">BEP20 (BNB Chain)</strong> networks, where transaction confirmations execute within 60 to 90 seconds for just pennies in network gas fees.
             </p>
           </div>
+
+          {/* Interactive Banking Steps Stepper */}
+          <BankingStepsStepper />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -663,9 +682,12 @@ export const WithdrawalProofTimesPage: React.FC = () => (
         title="Withdrawal Proofs & SLA Times: "
         highlight="Average 105 Seconds"
         subtitle="We don't just promise fast payouts—we prove it. Transparent withdrawal settlement telemetry, 24/7 automated UPI rails, and 100% payout guarantees."
+        imageSrc="/images/payments/imps.svg"
+        imageAlt="Withdrawal Proofs and SLA Times Average 105 Seconds"
+        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Withdrawal Proofs' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Gold Standard of Payout Speed in India
@@ -814,9 +836,12 @@ export const KycVerificationGuidePage: React.FC = () => (
         title="KYC Verification Guide: "
         highlight="Hassle-Free & Paperless"
         subtitle="Enjoy seamless gaming without endless paperwork. Discover our rapid, paperless verification process designed to protect your funds and privacy."
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Hassle-Free KYC Verification Guide"
+        breadcrumbs={[{ label: 'Security & Policy', href: '/responsible-gaming' }, { label: 'KYC Verification' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Player-First Verification Philosophy
@@ -940,9 +965,12 @@ export const AccountSecurityTipsPage: React.FC = () => (
         title="Account Security Tips: "
         highlight="Protect Your Funds & Privacy"
         subtitle="Keep your balance completely safe. Learn the golden rules of credential privacy, phishing defense, and verified banking security on Lotus365."
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Account Security Tips for Lotus365"
+        breadcrumbs={[{ label: 'Security & Policy', href: '/responsible-gaming' }, { label: 'Account Security' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Enterprise-Grade Protection for Every Player

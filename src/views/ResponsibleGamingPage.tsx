@@ -20,7 +20,7 @@ const related = [
   { href: '/faq', label: 'FAQ', description: 'Common questions about Lotus365' },
   { href: '/contact', label: 'Contact Support', description: '24/7 WhatsApp customer support' },
   { href: '/about', label: 'About Lotus365', description: 'Learn about our platform' },
-  { href: '/safe-betting-guide', label: 'Safe Betting Guide', description: 'Responsible bankroll management' },
+  { href: '/how-it-works', label: 'How It Works', description: 'Platform onboarding guide' },
 ];
 
 const responsibleGamingFaqs = [
@@ -66,10 +66,16 @@ export const ResponsibleGamingPage: React.FC = () => (
         highlight="Play Responsibly"
         subtitle="At Lotus365, your safety, financial health, and peace of mind come first. We enforce strict 18+ age verification and provide comprehensive self-regulation tools to ensure sports betting and gaming remain purely entertaining."
         ctaLabel="Contact Welfare Desk on WhatsApp"
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Responsible Gaming Charter and Player Safety on Lotus365"
+        breadcrumbs={[
+          { label: 'Player Welfare' },
+          { label: 'Responsible Gaming' },
+        ]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Commitment Banner */}
           <div className="p-6 sm:p-8 rounded-3xl bg-black/25 border border-emerald-400/30 flex flex-col sm:flex-row items-center gap-6">

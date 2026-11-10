@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vipTier_SILVER" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="24" fill="url(#vipTier_SILVER)" stroke="#cbd5e1" stroke-width="4" />
+  
+  <circle cx="80" cy="70" r="26" fill="#cbd5e1" opacity="0.3" />
+  <text x="120" y="78" font-family="'Poppins', Arial" font-weight="900" font-size="24" fill="#ffffff">LOTUS365</text>
+  <text x="510" y="78" font-family="'Outfit', Arial" font-weight="900" font-size="18" fill="#cbd5e1" text-anchor="end">SILVER TIER</text>
+
+  <rect x="70" y="140" width="60" height="45" rx="8" fill="#F0C419" opacity="0.8" />
+  <line x1="85" y1="140" x2="85" y2="185" stroke="#78350f" stroke-width="1.5" />
+  <line x1="100" y1="140" x2="100" y2="185" stroke="#78350f" stroke-width="1.5" />
+  <line x1="115" y1="140" x2="115" y2="185" stroke="#78350f" stroke-width="1.5" />
+
+  <text x="70" y="240" font-family="monospace" font-size="26" fill="#ffffff" letter-spacing="4">**** **** **** 3650</text>
+  <text x="70" y="295" font-family="'Poppins', Arial" font-size="13" fill="#ffffff" opacity="0.7">OFFICIAL VIP PRIVILEGE</text>
+  <text x="70" y="325" font-family="'Poppins', Arial" font-weight="800" font-size="16" fill="#cbd5e1">INSTANT CASH PRIVILEGES</text>
+</svg>

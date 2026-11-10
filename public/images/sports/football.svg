@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sportBg_football" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1d2e" /><stop offset="100%" stop-color="#14614C" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="24" fill="url(#sportBg_football)" />
+  <rect x="4" y="4" width="592" height="392" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2" />
+
+  <!-- Badge -->
+  <rect x="30" y="30" width="110" height="32" rx="16" fill="#0284c7" />
+  <text x="85" y="51" font-family="'Poppins', Arial, sans-serif" font-weight="900" font-size="13" fill="#ffffff" text-anchor="middle">SOCCER</text>
+
+  <!-- Center Graphic -->
+  <g transform="translate(300, 180)">
+    <circle cx="0" cy="0" r="55" fill="#ffffff" stroke="#111" stroke-width="3"/>
+   <polygon points="0,-20 18,-6 11,18 -11,18 -18,-6" fill="#111111"/>
+  </g>
+
+  <!-- Titles -->
+  <rect x="0" y="290" width="600" height="110" rx="20" fill="#041611" opacity="0.9" />
+  <text x="30" y="335" font-family="'Poppins', Arial, sans-serif" font-weight="800" font-size="26" fill="#ffffff">Football & Premier League</text>
+  <text x="30" y="370" font-family="'Poppins', Arial, sans-serif" font-weight="600" font-size="16" fill="#F0C419">Match Odds, Over/Under & Asian Handicap</text>
+
+  <!-- Trade Button -->
+  <circle cx="540" cy="345" r="26" fill="#F0C419" />
+  <path d="M 534 333 L 552 345 L 534 357 Z" fill="#14614C" />
+</svg>

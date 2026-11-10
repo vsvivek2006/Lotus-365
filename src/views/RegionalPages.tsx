@@ -43,9 +43,12 @@ export const CricketBettingDelhiPage: React.FC = () => (
         title="Cricket Betting in Delhi NCR: "
         highlight="Delhi Capitals & Live Odds"
         subtitle="The preferred cricket exchange for passionate sports fans across Delhi, Noida, and Gurgaon. Back the Capitals, trade session runs, and cash out in 2 minutes."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Delhi NCR Cricket Betting and Delhi Capitals Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Delhi NCR' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Delhi NCR's Premier Cricket Exchange Destination
@@ -166,9 +169,12 @@ export const CricketBettingMumbaiPage: React.FC = () => (
         title="Cricket Betting in Mumbai: "
         highlight="Wankhede Thrills & MI Odds"
         subtitle="Trade cricket in India's commercial heartbeat. Experience maximum exchange liquidity on Mumbai Indians fixtures with sub-2-minute UPI cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Mumbai Cricket Betting and Mumbai Indians Wankhede Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Mumbai' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Heart of Indian Cricket: Mumbai on Lotus365
@@ -289,9 +295,12 @@ export const CricketBettingPunjabPage: React.FC = () => (
         title="Cricket & Kabaddi Betting in Punjab: "
         highlight="Punjab Kings & Live Odds"
         subtitle="Unleash genuine Punjabi sports spirit. Back Punjab Kings, trade Pro Kabaddi League clashes, and enjoy guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Punjab Cricket and Kabaddi Betting Markets"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Punjab' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Punjab's Favorite Sports Exchange & Casino
@@ -412,9 +421,12 @@ export const CricketBettingBangalorePage: React.FC = () => (
         title="Cricket Betting in Bangalore: "
         highlight="RCB Passion & Sixes Markets"
         subtitle="Experience high-octane T20 trading. Back Royal Challengers Bangalore, trade boundary-heavy Chinnaswamy games, and cash out in 2 minutes."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Bangalore Cricket Betting and RCB Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Bangalore' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Tech-Powered Cricket Exchange for Bangalore Traders
@@ -535,9 +547,12 @@ export const CricketBettingHyderabadPage: React.FC = () => (
         title="Cricket Betting in Hyderabad: "
         highlight="SRH Fireworks & Uppal Odds"
         subtitle="Feel the heat of the Orange Army. Trade record-breaking run rates at Uppal Stadium with transparent exchange odds and guaranteed 2-minute cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Hyderabad Cricket Betting and SRH Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Hyderabad' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Hyderabad's High-Scoring Exchange Revolution
@@ -658,9 +673,12 @@ export const CricketBettingKolkataPage: React.FC = () => (
         title="Cricket Betting in Kolkata: "
         highlight="Eden Gardens & KKR Odds"
         subtitle="Feel the electric pulse of Eden Gardens. Back Kolkata Knight Riders, trade high-intensity IPL matches, and enjoy guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Kolkata Cricket Betting and KKR Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Kolkata' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Colosseum of Indian Cricket: Kolkata on Lotus365

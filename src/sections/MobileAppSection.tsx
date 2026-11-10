@@ -15,7 +15,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
   };
 
   return (
-    <section id="mobile-play" className="py-20 bg-[#14614C] border-t border-white/15 relative overflow-hidden">
+    <section id="mobile-play" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 right-10 w-[450px] h-[450px] bg-[#F0C419]/10 blur-[140px] rounded-full pointer-events-none" />
 
@@ -117,7 +117,7 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
               </div>
 
               {/* Screen Content */}
-              <div className="flex-1 rounded-[32px] bg-[#14614C] p-3.5 flex flex-col justify-between overflow-hidden border border-white/10 relative">
+              <div className="flex-1 rounded-[32px] bg-[#05120d] p-3.5 flex flex-col justify-between overflow-hidden border border-white/10 relative">
                 {/* Header */}
                 <div>
                   <div className="flex items-center justify-between pb-2 border-b border-white/10 mb-3">

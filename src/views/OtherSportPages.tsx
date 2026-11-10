@@ -8,6 +8,7 @@ import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
 import { HelpCircle, Star, ShieldCheck, Trophy, Zap, Clock } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
+import { ExchangeOddsWidget } from '../components/exchange/ExchangeOddsWidget';
 
 const relatedSports = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'India\'s largest sports trading market' },
@@ -44,10 +45,13 @@ export const KabaddiBettingPage: React.FC = () => (
         title="India's #1 "
         highlight="Kabaddi Betting Platform"
         subtitle="Experience live raid-by-raid wagering on the Pro Kabaddi League (PKL). Bet on match outcomes, total raid points, super tackles, and outright champions with 2-minute UPI cashouts."
+        imageSrc="/images/sports/kabaddi.svg"
+        imageAlt="Pro Kabaddi League PKL Betting"
+        breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Kabaddi Betting' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Rapid Rise of Kabaddi Betting in India
@@ -247,10 +251,13 @@ export const BasketballBettingPage: React.FC = () => (
         title="NBA & Global "
         highlight="Basketball Betting"
         subtitle="Wager on NBA, EuroLeague, and FIBA basketball with high-liquidity point spreads, moneyline odds, quarter-by-quarter markets, and instant 2-minute UPI cashouts."
+        imageSrc="/images/sports/basketball.svg"
+        imageAlt="NBA and Global Basketball Betting"
+        breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Basketball Betting' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Fast-Paced Basketball Action on Lotus365
@@ -445,10 +452,13 @@ export const HorseRacingPage: React.FC = () => (
         title="Premier "
         highlight="Horse Racing Betting India"
         subtitle="Wager on thoroughbred horse racing across the Royal Western India Turf Club (Mumbai), Pune, Bangalore, Chennai, and Dubai World Cup with India's best live odds."
+        imageSrc="/images/sports/horse-racing.svg"
+        imageAlt="Indian and Global Horse Racing Betting"
+        breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Horse Racing' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               India's Rich Horse Racing Heritage on Lotus365
@@ -657,10 +667,13 @@ export const SportsbookPage: React.FC = () => (
         title="India's Complete "
         highlight="Online Sportsbook"
         subtitle="Over 40 sporting codes, 500+ global leagues, and 1,000+ live in-play events every day. Trade with 0% net commission and guaranteed 2-minute UPI withdrawals."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="India's Complete Online Sportsbook"
+        breadcrumbs={[{ label: 'Sportsbook' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The All-in-One Sportsbook Built for Indian Sports Punters
@@ -671,6 +684,23 @@ export const SportsbookPage: React.FC = () => (
             <p>
               We have eliminated the friction of managing multiple accounts across fragmented websites. A single WhatsApp account registration at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline font-bold" title="Official WhatsApp">Official WhatsApp</a> allows you to trade match odds, session totals, point spreads, and high-paying accumulator parlays with zero transaction fees and guaranteed 2-minute cashouts.
             </p>
+          </div>
+
+          {/* Interactive Multi-Sport In-Play Odds Widget */}
+          <div className="space-y-4">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+              <div>
+                <span className="text-[#F0C419] text-xs font-black uppercase tracking-wider">Live Multisport Feed</span>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">Featured In-Play Market Radar</h2>
+              </div>
+              <p className="text-xs text-white/60">Live liquidity directly powered by the Lotus365 low-latency exchange engine</p>
+            </div>
+            <ExchangeOddsWidget
+              title="ICC Champions Trophy / Global Sportsbook"
+              tournament="Live Multi-Sport Featured Market"
+              status="LIVE IN-PLAY"
+              score="Overround: 100.8% | Zero Margin"
+            />
           </div>
 
           {/* Full Directory */}

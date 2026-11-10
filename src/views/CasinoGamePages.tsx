@@ -7,11 +7,12 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { CasinoTableShowcase } from '../components/casino/CasinoTableShowcase';
 import { Star, HelpCircle } from 'lucide-react';
 
 const casinoLinks = [
   { href: '/live-casino', label: 'Live Casino Lobby', description: '1000+ games with real dealers' },
-  { href: '/lightning-roulette', label: 'Lightning Roulette', description: 'Up to 500x multiplier roulette' },
+  { href: '/roulette', label: 'European & Lightning Roulette', description: 'Up to 500x multiplier roulette' },
   { href: '/blackjack', label: 'Blackjack', description: 'Live dealer blackjack tables' },
   { href: '/baccarat', label: 'Baccarat', description: 'Speed and classic baccarat' },
   { href: '/teen-patti', label: 'Teen Patti', description: 'India\'s favourite card game' },
@@ -44,10 +45,13 @@ export const RoulettePage: React.FC = () => (
         title="India's Best "
         highlight="Live Roulette Tables"
         subtitle="Spin authentic live European roulette wheels streaming in 1080p HD. Enjoy 97.3% RTP, single-zero wheels, neighbor betting tracks, and guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/games/roulette.svg"
+        imageAlt="Live European Roulette Online India"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Roulette' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Elegance of Live European Roulette on Lotus365
@@ -59,6 +63,9 @@ export const RoulettePage: React.FC = () => (
               We prioritize <strong className="text-white">European Roulette</strong> tables featuring a single green zero (0), offering a player-friendly house edge of just 2.70% (97.30% RTP). This stands in stark contrast to American roulette wheels that feature both a single zero (0) and double zero (00), which jacks the house edge up to a brutal 5.26%. By playing single-zero roulette on Lotus365, you instantly cut the mathematical house edge in half.
             </p>
           </div>
+
+          {/* Interactive Live Roulette Tables */}
+          <CasinoTableShowcase initialCategory="roulette" />
 
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -253,10 +260,13 @@ export const BlackjackPage: React.FC = () => (
         title="India's Premier "
         highlight="Live Blackjack Tables"
         subtitle="Test your skill against professional dealers at 50+ live blackjack tables. Enjoy 99.50% RTP, Infinite Blackjack, Perfect Pairs, and guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/games/blackjack.svg"
+        imageAlt="Live Blackjack 21 Real Money"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Blackjack' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Ultimate Skill Game: Live Blackjack (21) on Lotus365
@@ -268,6 +278,9 @@ export const BlackjackPage: React.FC = () => (
               On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you can choose from standard 7-seat classic tables, Infinite Blackjack (where unlimited players share the same hand), Speed Blackjack, and VIP high-roller salons with stakes ranging from ₹50 to ₹5,00,000 per hand.
             </p>
           </div>
+
+          {/* Interactive Live Blackjack Tables */}
+          <CasinoTableShowcase initialCategory="blackjack" />
 
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -449,10 +462,13 @@ export const BaccaratPage: React.FC = () => (
         title="Asia's High-Roller "
         highlight="Live Baccarat Tables"
         subtitle="Step into VIP Macau-style baccarat salons streaming 24/7. Enjoy Banker 1.06% house edge, Speed Baccarat, No Commission tables, and guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/games/baccarat.svg"
+        imageAlt="Live Baccarat Real Money Punto Banco"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Baccarat' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The High-Roller's Game of Choice: Baccarat on Lotus365
@@ -464,6 +480,9 @@ export const BaccaratPage: React.FC = () => (
               Baccarat features three core betting positions: <strong className="text-white">Player</strong>, <strong className="text-white">Banker</strong>, and <strong className="text-white">Tie</strong>. The objective is to predict which hand will total closest to 9. Tens and face cards (J, Q, K) count as zero, Aces count as one, and all other cards retain their face value. If a hand total exceeds 9, the first digit is dropped (e.g. 7 + 8 = 15, which becomes a 5).
             </p>
           </div>
+
+          {/* Interactive Live Baccarat Tables */}
+          <CasinoTableShowcase initialCategory="baccarat" />
 
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -639,10 +658,13 @@ export const DragonTigerPage: React.FC = () => (
         title="High-Speed "
         highlight="Live Dragon Tiger"
         subtitle="Experience Asia's fastest live card game. A single card to Dragon, a single card to Tiger — highest card wins. 15-second rounds and 2-minute UPI cashouts on Lotus365."
+        imageSrc="/images/games/dragon-tiger.svg"
+        imageAlt="Live Dragon Tiger Two Card Showdown"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Dragon Tiger' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Ultimate Two-Card Showdown: Dragon Tiger on Lotus365
@@ -654,6 +676,9 @@ export const DragonTigerPage: React.FC = () => (
               On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), the dealer deals exactly one card face-up to the <strong className="text-[#F0C419]">Dragon</strong> position and one card to the <strong className="text-rose-400">Tiger</strong> position. The position that receives the higher rank card wins! Aces are strictly the lowest card (value 1), while Kings are the highest card (value 13).
             </p>
           </div>
+
+          {/* Interactive Live Speed Duel Showcase */}
+          <CasinoTableShowcase initialCategory="baccarat" />
 
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -836,10 +861,13 @@ export const SpeedBaccaratPage: React.FC = () => (
         title="High-Velocity "
         highlight="Live Speed Baccarat"
         subtitle="For players who value pure tempo. Cards are dealt face-up immediately, cutting round durations to just 27 seconds with zero downtime and guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/games/baccarat.svg"
+        imageAlt="Live Speed Baccarat Fast Rounds"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Speed Baccarat' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Maximum Velocity: Live Speed Baccarat on Lotus365
@@ -1049,10 +1077,13 @@ export const LightningRoulettePage: React.FC = () => (
         title="Electrifying "
         highlight="Live Lightning Roulette"
         subtitle="Experience the world's most exhilarating live roulette game. In every round, 1 to 5 Lucky Numbers are struck by lightning, boosting straight-up payouts from 50x up to a monumental 500x!"
+        imageSrc="/images/games/lightning-roulette.svg"
+        imageAlt="Live Lightning Roulette 500x Multipliers"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Lightning Roulette' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               High-Voltage Electrifying Action: Lightning Roulette on Lotus365
@@ -1254,10 +1285,13 @@ export const CasinoSlotsPage: React.FC = () => (
         title="India's Top "
         highlight="Online Casino Slots"
         subtitle="Spin 500+ premium video slots from Pragmatic Play, NetEnt, and Red Tiger. Megaways mechanics, tumbling reels, bonus buy features, and guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/games/casino-slots.svg"
+        imageAlt="Online Casino Slots Megaways Jackpots"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Casino Slots' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               500+ Premium Online Slots on Lotus365
@@ -1269,6 +1303,9 @@ export const CasinoSlotsPage: React.FC = () => (
               From iconic viral hits like <strong className="text-white">Gates of Olympus</strong> and <strong className="text-white">Sweet Bonanza</strong> to high-octane Egyptian adventures like <strong className="text-white">Book of Dead</strong>, all games are verified for mathematical randomness by independent testing agencies like BMM Testlabs and GLI.
             </p>
           </div>
+
+          {/* Interactive Casino Suite Showcase */}
+          <CasinoTableShowcase initialCategory="all" />
 
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">

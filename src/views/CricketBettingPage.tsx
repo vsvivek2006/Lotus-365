@@ -5,6 +5,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { ExchangeOddsWidget } from '../components/exchange/ExchangeOddsWidget';
 
 import { Trophy, Zap, Star, ShieldCheck, TrendingUp, Target, CheckCircle2, HelpCircle } from 'lucide-react';
 
@@ -12,7 +13,7 @@ const related = [
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: 'P2P live match odds with 0% commission' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'Bet on every IPL match live with top odds' },
   { href: '/t20-world-cup-betting', label: 'T20 World Cup Betting', description: 'International T20 betting markets' },
-  { href: '/betting-tips', label: 'Cricket Betting Tips', description: 'Proven strategy & pitch analysis' },
+  { href: '/back-and-lay-betting', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Instant UPI & IMPS deposit guide' },
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Lightning-fast UPI withdrawals' },
 ];
@@ -68,32 +69,53 @@ export const CricketBettingPage: React.FC = () => (
         title="India's Premier "
         highlight="Cricket Betting Exchange"
         subtitle="Experience high-liquidity cricket betting with 0% commission. Bet on IPL 2026, ICC Champions Trophy, Test match sessions, and global T20 leagues with guaranteed 2-minute UPI cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="India vs Australia Cricket Betting Exchange Match"
+        breadcrumbs={[{ label: 'Cricket Betting' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16">
+          {/* Live Interactive Exchange Odds Board Widget */}
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
+                  Live Market Order Book
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                  Real-Time Cricket Exchange Board
+                </h2>
+              </div>
+              <span className="text-xs text-slate-400 font-mono hidden sm:inline-block">
+                Sub-50ms Liquidity Matching
+              </span>
+            </div>
+            <ExchangeOddsWidget />
+          </div>
+
           {/* Feature Highlights Grid */}
           <div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4 text-center">
+            <h2 className="text-2xl sm:text-3xl font-black text-white mb-4 text-center">
               Why Lotus365 Is India's Undisputed Leader in Cricket Betting
             </h2>
-            <p className="text-center text-white/80 max-w-3xl mx-auto text-sm sm:text-base mb-8 leading-relaxed">
+            <p className="text-center text-slate-300 max-w-3xl mx-auto text-sm sm:text-base mb-10 leading-relaxed font-normal">
               For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {features.map((f, i) => (
-                <div key={i} className="p-5 rounded-2xl bg-black/25 border border-white/10 hover:border-[#F0C419]/40 transition-colors">
-                  <div className="w-10 h-10 rounded-xl bg-[#F0C419]/20 flex items-center justify-center text-[#F0C419] mb-3">{f.icon}</div>
-                  <h3 className="text-base font-bold text-white mb-1.5">{f.title}</h3>
-                  <p className="text-xs text-white/75 leading-relaxed">{f.desc}</p>
+                <div key={i} className="p-6 rounded-2xl bg-[#081a13]/80 border border-white/10 hover:border-[#F0C419]/40 hover:bg-[#0c281e] transition-all">
+                  <div className="w-11 h-11 rounded-xl bg-[#F0C419]/15 border border-[#F0C419]/30 flex items-center justify-center text-[#F0C419] mb-4">{f.icon}</div>
+                  <h3 className="text-base font-extrabold text-white mb-2">{f.title}</h3>
+                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{f.desc}</p>
                 </div>
               ))}
             </div>
           </div>
 
           {/* Deep-Dive: Comprehensive Cricket Markets */}
-          <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6 text-white/85 text-sm sm:text-base leading-relaxed">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-6 text-slate-200 text-sm sm:text-base leading-relaxed">
+            <h2 className="text-2xl sm:text-3xl font-black text-white">
               Comprehensive Cricket Betting Markets Covered on Lotus365
             </h2>
             <p>

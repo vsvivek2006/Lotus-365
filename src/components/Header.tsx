@@ -18,7 +18,7 @@ const navLinks = [
   { label: 'Live Casino',      href: '/live-casino',       icon: Star },
   { label: 'Aviator Crash',   href: '/aviator-game',      badge: 'HOT', badgeType: 'hot' as const, icon: Trophy },
   { label: 'VIP Club',        href: '/vip-club',           icon: Star },
-  { label: 'Betting Tips',    href: '/betting-tips',       icon: Info },
+  { label: '2-Min Cashout',   href: '/2-minute-cashout',   icon: CreditCard },
   { label: 'How It Works',    href: '/how-it-works',       icon: Info },
   { label: 'FAQs',            href: '/faq',                icon: HelpCircle },
 ];
@@ -64,14 +64,14 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
   return (
     <>
       {/* ═══════════════════════════════════════════════
-          MAIN HEADER BAR
+          MAIN HEADER BAR (Floating Luxury Glass)
       ════════════════════════════════════════════════ */}
       <header
         className={`
           sticky top-0 z-50 transition-all duration-300
           ${isScrolled
-            ? 'py-1.5 bg-[#0f4e3c]/98 shadow-[0_4px_30px_rgba(0,0,0,0.45)] backdrop-blur-xl border-b border-white/8'
-            : 'py-2.5 bg-[#14614C] border-b border-white/10'
+            ? 'py-2 bg-[#05120d]/95 shadow-2xl shadow-black/60 backdrop-blur-xl border-b border-white/10'
+            : 'py-3.5 bg-[#05120d]/80 backdrop-blur-md border-b border-white/10'
           }
         `}
       >

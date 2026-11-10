@@ -5,14 +5,15 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { ExchangeOddsWidget } from '../components/exchange/ExchangeOddsWidget';
 
-import { HelpCircle, DollarSign, BarChart3 } from 'lucide-react';
+import { HelpCircle, DollarSign, BarChart3, ShieldCheck, Zap, ArrowLeftRight } from 'lucide-react';
 
 const related = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'Complete live cricket match coverage' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'High-liquidity IPL exchange markets' },
   { href: '/t20-world-cup-betting', label: 'T20 World Cup', description: 'International T20 tournament odds' },
-  { href: '/betting-tips', label: 'Cricket Betting Tips', description: 'Exchange trading strategies & formulas' },
+  { href: '/back-and-lay-betting', label: 'Back & Lay Masterclass', description: 'Exchange trading strategies & formulas' },
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Guaranteed instant UPI withdrawals' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'UPI & IMPS deposit guide' },
 ];
@@ -59,13 +60,39 @@ export const CricketExchangePage: React.FC = () => (
         title="India's Most Liquid "
         highlight="Cricket Exchange Platform"
         subtitle="Trade cricket odds with 0% net commission. Back teams to win, lay teams to lose, lock in guaranteed green profits mid-match, and withdraw winnings in 2 minutes via UPI."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Lotus365 Live Cricket Betting Exchange Stadium"
+        breadcrumbs={[{ label: 'Cricket Exchange' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
-          {/* Executive Overview */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+          {/* Interactive Live Exchange Board */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
+                  Interactive Order Ladder
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                  Live Peer-to-Peer Cricket Exchange Terminal
+                </h2>
+              </div>
+              <span className="text-xs text-slate-400 font-mono hidden sm:inline-block">
+                0% Net Commission Engine
+              </span>
+            </div>
+            <ExchangeOddsWidget
+              title="Mumbai Indians vs Chennai Super Kings — IPL 2026"
+              tournament="Indian Premier League • Match 28"
+              status="LIVE • 16.4 OVERS"
+              score="MI: 168/4 (RR: 10.1) • CSK Needs 32 Off 20 Balls"
+            />
+          </div>
+
+          {/* Executive Overview */}
+          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-white">
               What Is a Cricket Betting Exchange and How Does It Work?
             </h2>
             <p>

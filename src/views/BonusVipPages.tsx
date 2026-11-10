@@ -7,6 +7,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { VipTierShowcase } from '../components/vip/VipTierShowcase';
 import { 
   Crown, 
   Gift, 
@@ -24,7 +25,7 @@ import {
 import { getWhatsAppUrl } from '../data/landingData';
 
 const bonusRelated = [
-  { href: '/register', label: 'Register Free', description: 'Get your WhatsApp ID in 2 minutes' },
+  { href: '/how-it-works', label: 'How It Works', description: 'Get your WhatsApp ID in 2 minutes' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Fund your account via UPI' },
   { href: '/vip-club', label: 'VIP Club', description: 'Exclusive member rewards' },
   { href: '/referral-bonus', label: 'Referral Bonus', description: 'Earn by inviting friends' },
@@ -73,10 +74,13 @@ export const WelcomeBonusPage: React.FC = () => (
         highlight="Welcome Bonus" 
         subtitle="Double your starting bankroll on India's premier betting exchange. Receive an instant 100% matching bonus up to ₹5,000 on your first deposit via WhatsApp with transparent, player-friendly rollover terms." 
         ctaLabel="Claim Bonus via WhatsApp" 
+        imageSrc="/images/vip/card-gold.svg"
+        imageAlt="New Member Welcome Bonus Package"
+        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'Welcome Bonus' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Welcome Promo Banner */}
           <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-black/40 to-black/20 border border-[#F0C419]/40 text-center space-y-3">
@@ -91,6 +95,9 @@ export const WelcomeBonusPage: React.FC = () => (
               <span className="flex items-center gap-1"><CheckCircle2 className="w-4 h-4" /> Valid on Cricket & Casino</span>
             </div>
           </div>
+
+          {/* Interactive VIP & Bonus Tier Showcase */}
+          <VipTierShowcase />
 
           {/* Overview */}
           <div>
@@ -349,10 +356,13 @@ export const FirstDepositBonusPage: React.FC = () => (
         highlight="Deposit Bonus" 
         subtitle="Turn your very first Lotus365 deposit into maximum betting power. Explore our tiered first deposit brackets and discover how to optimize your opening bankroll for cricket, casino, and crash gaming." 
         ctaLabel="Claim First Deposit Bonus" 
+        imageSrc="/images/vip/card-silver.svg"
+        imageAlt="First Deposit Bonus Booster"
+        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'First Deposit Bonus' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -585,10 +595,13 @@ export const ReferralBonusPage: React.FC = () => (
         highlight="Referral Bonus" 
         subtitle="Turn your social network into recurring passive earnings. Introduce friends and followers to Lotus365 via WhatsApp and earn instant cash rewards plus lifetime commission on their betting turnover." 
         ctaLabel="Get Your Referral Link on WhatsApp" 
+        imageSrc="/images/vip/card-bronze.svg"
+        imageAlt="Referral and Affiliate Rewards Program"
+        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'Referral Bonus' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -839,11 +852,17 @@ export const CashbackOffersPage: React.FC = () => (
         highlight="Cashback Offers" 
         subtitle="Bet with complete peace of mind. Lotus365 returns up to 15% of your weekly net losses as real cash directly into your account every Monday. No complicated rollover traps." 
         ctaLabel="Learn More on WhatsApp" 
+        imageSrc="/images/vip/card-platinum.svg"
+        imageAlt="Weekly Loss Cashback Offers"
+        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'Cashback Offers' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
+          {/* Interactive Tier & Cashback Dial Showcase */}
+          <VipTierShowcase />
+
           {/* Overview */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
@@ -1101,11 +1120,17 @@ export const VipClubPage: React.FC = () => (
         highlight="VIP Club" 
         subtitle="Step into India’s most exclusive betting sanctuary. Experience bespoke luxury with dedicated WhatsApp account directors, uncapped cashouts, elevated market limits, and private live dealer suites." 
         ctaLabel="Inquire About VIP Status" 
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Lotus365 VIP Club Sanctuary"
+        breadcrumbs={[{ label: 'VIP Club' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
+          {/* Interactive VIP Club Tier Showcase */}
+          <VipTierShowcase />
+
           {/* Overview */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
@@ -1343,11 +1368,17 @@ export const VipBlackCardPage: React.FC = () => (
         highlight="VIP Black Card" 
         subtitle="The zenith of Indian betting excellence. Reserved exclusively for elite high-stakes players, the Black Card delivers limitless liquidity, uncapped 15% weekly cashback, and bespoke concierge hospitality." 
         ctaLabel="Inquire About Black Card via WhatsApp" 
+        imageSrc="/images/vip/card-black.svg"
+        imageAlt="Lotus365 VIP Black Card Program"
+        breadcrumbs={[{ label: 'VIP Club', href: '/vip-club' }, { label: 'VIP Black Card' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
+          {/* Interactive VIP Black Card Showcase */}
+          <VipTierShowcase />
+
           {/* Elite Black Card Header Banner */}
           <div className="p-8 rounded-3xl bg-gradient-to-br from-[#0e0e17] via-[#161b26] to-[#0b1017] border-2 border-[#F0C419]/60 text-center space-y-4 shadow-2xl relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-[#F0C419]/10 rounded-full blur-3xl" />

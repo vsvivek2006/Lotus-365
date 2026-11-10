@@ -73,10 +73,13 @@ export const RegisterPage: React.FC = () => {
           highlight="Lotus365 ID" 
           subtitle="Skip endless document upload forms and invasive verification queues. Message our official 24/7 WhatsApp desk and receive your private login credentials in under 60 seconds — 100% free with zero registration fees." 
           ctaLabel="Register via WhatsApp Now" 
+          imageSrc="/images/banners/hero-cricket-stadium.svg"
+          imageAlt="Lotus365 Official Registration WhatsApp ID"
+          breadcrumbs={[{ label: 'Register Free ID' }]}
         />
 
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-          <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+          <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
             
             {/* Step Cards */}
             <div>
@@ -364,10 +367,13 @@ export const LoginPage: React.FC = () => {
           highlight="Login Guide" 
           subtitle="Complete step-by-step instructions for logging into your Lotus365 account on mobile and desktop. Access 50+ betting markets, live casino games, and instant 2-minute UPI cashouts." 
           ctaLabel="Get 24/7 Login Support on WhatsApp" 
+          imageSrc="/images/banners/hero-casino-luxury.svg"
+          imageAlt="Lotus365 Official Account Login"
+          breadcrumbs={[{ label: 'Member Login' }]}
         />
 
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-          <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+          <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
             
             {/* Step-by-Step Login Procedure */}
             <div>

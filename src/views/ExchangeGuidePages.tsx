@@ -6,12 +6,14 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { ExchangeOddsWidget } from '../components/exchange/ExchangeOddsWidget';
+import { InteractiveOddsCalculator } from '../components/tools/InteractiveOddsCalculator';
 import { ArrowLeftRight, HelpCircle, ShieldCheck, Zap, Percent, Scale, Clock, AlertCircle } from 'lucide-react';
 
 const exchangeRelated = [
   { href: '/cricket-exchange', label: 'Cricket Exchange Hub', description: 'Peer-to-peer live matching order engine' },
   { href: '/cricket-betting', label: 'Cricket Betting', description: 'Live match odds and tournament schedules' },
-  { href: '/betting-tips', label: 'Betting Tips & Strategies', description: 'Professional risk management and analysis' },
+  { href: '/betting-odds-calculator', label: 'Odds Calculator', description: 'Interactive back & lay profit simulator' },
   { href: '/how-to-withdraw', label: 'Fast Withdrawals', description: '2-minute UPI cashout walkthrough' },
   { href: '/vip-club', label: 'VIP Club', description: 'Higher exchange limits and dedicated hosts' },
   { href: '/faq', label: 'General FAQ', description: 'All platform questions answered' },
@@ -43,9 +45,15 @@ export const BackAndLayBettingPage: React.FC = () => (
         title="Back & Lay Betting Guide: "
         highlight="Trade Like a Bookmaker"
         subtitle="Demystify peer-to-peer sports trading. Learn how to back outcomes to win, lay selections to lose, calculate exact liabilities, and engineer risk-free profits."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Back and Lay Betting on Lotus365 Cricket Exchange"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'Back & Lay Betting' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Core Mechanics of Back and Lay Trading
@@ -56,6 +64,23 @@ export const BackAndLayBettingPage: React.FC = () => (
             <p>
               This architectural breakthrough introduces the concept of <strong className="text-[#F0C419]">Laying</strong>. When you place a <strong className="text-blue-400">Back Bet</strong> (highlighted in blue), you are betting that a team or player will win. When you place a <strong className="text-rose-400">Lay Bet</strong> (highlighted in pink), you are betting that they will NOT win. In essence, laying turns you into the bookmaker—you collect the backer's stake if their pick loses, and you pay out if their pick wins.
             </p>
+          </div>
+
+          {/* Live Back and Lay Depth Ladder Interactive Simulator */}
+          <div className="space-y-4">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+              <div>
+                <span className="text-[#F0C419] text-xs font-black uppercase tracking-wider">Interactive Order Engine</span>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">Live Back (Blue) vs Lay (Pink) Execution</h2>
+              </div>
+              <p className="text-xs text-white/60">Click any odds block below to simulate order matching & liability calculation</p>
+            </div>
+            <ExchangeOddsWidget
+              title="India vs Australia • T20 World Cup Super 8"
+              tournament="Live Peer-to-Peer Exchange Order Book"
+              status="IN-PLAY TRADING"
+              score="Over 14.3 • Match Odds"
+            />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -159,9 +184,15 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
         title="Lotus365 Exchange "
         highlight="Commission Rates & Fees"
         subtitle="Keep what you win. Discover our transparent 0% to 2% net winnings commission structure, 0% deposit deductions, and zero withdrawal fees."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Transparent 0-2% Exchange Commission on Lotus365"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'Commission Rates' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Transparent, Fair, and Player-First Commission Structure
@@ -173,6 +204,9 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
               <strong className="text-[#F0C419]">Lotus365</strong> operates on a pure peer-to-peer exchange model. Because we do not take risk against our players, we charge a modest, transparent commission strictly on your <strong className="text-emerald-400">Net Winning Markets</strong>. If you place a wager and the outcome is unsuccessful, your commission is precisely ₹0.
             </p>
           </div>
+
+          {/* Interactive Odds & Commission Simulator */}
+          <InteractiveOddsCalculator />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -296,9 +330,15 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
         title="Betting Exchange vs Sportsbook: "
         highlight="Why Exchanges Win"
         subtitle="Analyze the mathematical and strategic advantages of peer-to-peer betting exchanges over traditional bookmakers. Better odds, no restrictions, and complete control."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Betting Exchange vs Sportsbook Comparison Lotus365"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'Exchange vs Sportsbook' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Decisive Advantage: Exchange vs Traditional Sportsbook
@@ -310,6 +350,9 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
               On <strong className="text-[#F0C419]">Lotus365</strong>, the business model is flipped. As a pure exchange, we simply facilitate trades between users. If you back a team, another real user is laying that exact team. Because Lotus365 earns a tiny commission on net winning markets regardless of who triumphs, <strong className="text-[#F0C419]">we never restrict or penalize profitable players</strong>.
             </p>
           </div>
+
+          {/* Interactive Calculator: Compare Exchange Returns vs Bookmaker Overround */}
+          <InteractiveOddsCalculator />
 
           <div className="overflow-x-auto rounded-2xl border border-white/10">
             <table className="w-full text-left text-xs sm:text-sm">
@@ -434,9 +477,15 @@ export const BookmakerMarketPage: React.FC = () => (
         title="Bookmaker Market on Lotus365: "
         highlight="Instant Guaranteed Liquidity"
         subtitle="Experience instant order confirmation with zero matching wait times. Discover why the Bookmaker Market is the preferred choice for high-tempo in-play cricket betting."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Zero-Delay Bookmaker Market on Lotus365"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'Bookmaker Market' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Instant Execution: The Power of Bookmaker Markets
@@ -448,6 +497,14 @@ export const BookmakerMarketPage: React.FC = () => (
               Operating directly within our unified cricket dashboard, the Bookmaker market provides immediate, guaranteed order absorption. When you tap a price during a tense last-over IPL chase, your bet confirms within 10 milliseconds, completely eliminating the frustration of price suspensions or partial matches.
             </p>
           </div>
+
+          {/* Interactive Live Bookmaker Order Radar */}
+          <ExchangeOddsWidget
+            title="CSK vs MI • TATA IPL 2026 Bookmaker"
+            tournament="Instant Guaranteed Liquidity Engine"
+            status="ZERO DELAY"
+            score="Over 19.1 • Match Odds"
+          />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -557,9 +614,15 @@ export const InPlayCashoutGuidePage: React.FC = () => (
         title="In-Play Cashout Guide: "
         highlight="Lock Profits Before the Final Ball"
         subtitle="Take full command of your active trades. Master 1-click cashouts, partial profit withdrawals, and strategic hedging to eliminate last-over heartbreaks."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="In-Play Cashout and Profit Greening on Lotus365"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'In-Play Cashout' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Mathematics and Strategy of In-Play Cashouts
@@ -571,6 +634,14 @@ export const InPlayCashoutGuidePage: React.FC = () => (
               Our proprietary <strong className="text-[#F0C419]">In-Play Cashout Engine</strong> continuously calculates the fair value of your position against live exchange books. With a single tap, you can close out your wager, secure your profit, and watch the remainder of the match completely stress-free.
             </p>
           </div>
+
+          {/* Interactive In-Play Hedging Radar */}
+          <ExchangeOddsWidget
+            title="India vs Pakistan • T20 Asia Cup Super 4"
+            tournament="Live In-Play Hedging & Cashout Engine"
+            status="IN-PLAY CASHOUT"
+            score="Over 16.4 • Odds Scalping"
+          />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -680,9 +751,15 @@ export const MatchOddsTradingPage: React.FC = () => (
         title="Cricket Match Odds Trading: "
         highlight="Scalping & Swing Strategies"
         subtitle="Transform sports betting into financial trading. Master market volatility, capture rapid price swings, and execute scalping trades on India's deepest exchange books."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Cricket Match Odds Scalping and Swing Trading on Lotus365"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'Match Odds Trading' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Approaching Cricket Markets Like Financial Securities
@@ -694,6 +771,14 @@ export const MatchOddsTradingPage: React.FC = () => (
               Because T20 and ODI cricket feature constant momentum swings—wickets, sixes, dot ball clusters, bowling changes—odds fluctuate vigorously. By mastering <strong className="text-[#F0C419]">Scalping</strong> (taking fast 3-5 tick profits over single overs) and <strong className="text-[#F0C419]">Swing Trading</strong> (riding multi-over trends), traders construct steady, predictable profit curves.
             </p>
           </div>
+
+          {/* Interactive Match Odds Scalping Engine */}
+          <ExchangeOddsWidget
+            title="England vs Australia • The Ashes 5th Test"
+            tournament="Live Multi-Day Match Odds Scalping Engine"
+            status="MARKET DEPTH 50ms"
+            score="Session 2 • Day 3"
+          />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -803,9 +888,15 @@ export const TiedMatchRulesPage: React.FC = () => (
         title="Tied Match, Super Over & "
         highlight="Dead Heat Settlement Rules"
         subtitle="Complete transparency on how Lotus365 settles extraordinary match conclusions: Super Overs, rain-shortened DLS fixtures, and multi-player Dead Heats."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Tied Match, Super Over and Dead Heat Settlement Rules"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'Tied Match Rules' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Clear, Auditable Match Settlement Protocols
@@ -926,9 +1017,15 @@ export const BetSlipGuidePage: React.FC = () => (
         title="Exchange Bet Slip & "
         highlight="Order Routing Guide"
         subtitle="Take full control of your trading execution. Master matched orders, unmatched queues, limit price placement, and instant order cancellation."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Exchange Bet Slip and Order Routing Guide on Lotus365"
+        breadcrumbs={[
+          { label: 'Exchange Hub', href: '/cricket-exchange' },
+          { label: 'Bet Slip Guide' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               How the Lotus365 Order Slip Engine Works

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { VIP_TIERS } from '../data/landingData';
 import { Crown, CheckCircle2, ArrowRight, MessageCircle } from 'lucide-react';
+import { AdaptiveImage } from '../components/common/AdaptiveImage';
 
 
 interface VipClubProps {
@@ -14,7 +15,7 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
   const selectedTier = VIP_TIERS.find((t) => t.id === selectedTierId) || VIP_TIERS[2];
 
   return (
-    <section id="vip" className="py-20 bg-[#14614C] border-t border-white/15 relative overflow-hidden">
+    <section id="vip" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
       {/* Glow */}
       <div className="absolute top-1/3 right-1/4 w-[500px] h-[500px] bg-[#F0C419]/10 blur-[150px] rounded-full pointer-events-none" />
 
@@ -68,34 +69,17 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
-              {/* Left Column: Black Card Visualization */}
+              {/* Left Column: VIP Card Visualization */}
               <div className="lg:col-span-5">
-                <div className="w-full aspect-[1.6/1] rounded-2xl bg-gradient-to-br from-[#241F14] via-[#151719] to-[#0A0C0E] p-5 border border-brand-gold/50 shadow-2xl flex flex-col justify-between relative overflow-hidden">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="text-xl">🪷</span>
-                      <span className="font-display font-extrabold text-sm text-white tracking-widest">
-                        LOTUS<span className="text-brand-gold">365</span>
-                      </span>
-                    </div>
-                    <span className="text-[10px] font-mono tracking-widest text-brand-gold uppercase font-bold">
-                      {selectedTier.level}
-                    </span>
-                  </div>
-
-                  <div className="my-auto">
-                    <div className="font-display font-black text-xl text-white tracking-wider">
-                      {selectedTier.name}
-                    </div>
-                    <div className="text-[10px] text-slate-400 mt-0.5">
-                      {selectedTier.tagline}
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-between text-[11px] font-mono text-slate-400 pt-2 border-t border-white/10">
-                    <span>VIP ID: LT-8849-XXXX</span>
-                    <span className="text-brand-emerald font-bold">ACTIVE STATUS</span>
-                  </div>
+                <div className="relative group rounded-2xl overflow-hidden shadow-2xl border border-white/20 hover:border-[#F0C419]/50 transition-all">
+                  <AdaptiveImage
+                    src={`/images/vip/card-${selectedTierId}.svg`}
+                    alt={`Lotus365 VIP ${selectedTier.name} Card`}
+                    aspectRatio="16/10"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    containerClassName="w-full"
+                    overlayBadge={`${selectedTier.level} STATUS`}
+                  />
                 </div>
               </div>
 

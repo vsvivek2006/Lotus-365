@@ -61,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en-IN" suppressHydrationWarning className={`dark scroll-smooth ${poppins.variable} ${outfit.variable}`}>
       <head>
-        <meta name="theme-color" content="#14614C" />
+        <meta name="theme-color" content="#05120d" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="alternate icon" href="/favicon.ico" />

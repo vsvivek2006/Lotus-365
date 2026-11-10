@@ -5,14 +5,15 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { ExchangeOddsWidget } from '../components/exchange/ExchangeOddsWidget';
 
-import { HelpCircle, Zap } from 'lucide-react';
+import { HelpCircle, Zap, Trophy, ShieldCheck, TrendingUp, Star } from 'lucide-react';
 
 const related = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'Live cricket odds across all formats' },
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: '0% commission P2P cricket trading' },
-  { href: '/ipl-predictions', label: 'IPL 2026 Predictions', description: 'Match-by-match analytical forecasts' },
-  { href: '/betting-tips', label: 'Betting Tips & Strategy', description: 'Professional cricket betting systems' },
+  { href: '/t20-world-cup-betting', label: 'T20 World Cup', description: 'International T20 tournament odds' },
+  { href: '/back-and-lay-betting', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
   { href: '/welcome-bonus', label: 'IPL Welcome Bonus', description: 'First deposit bonus offer on IPL' },
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI withdrawal of winnings' },
 ];
@@ -59,13 +60,39 @@ export const IplBettingPage: React.FC = () => (
         title="India's #1 Rated "
         highlight="IPL 2026 Betting Platform"
         subtitle="Trade on all 74 IPL matches with India's deepest exchange liquidity, 0% net commission, ball-by-ball micro-markets, and guaranteed 2-minute UPI cashouts directly to your bank."
+        imageSrc="/images/sports/ipl.svg"
+        imageAlt="IPL 2026 Championship Trophy & Match Markets"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'IPL Betting 2026' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
-          {/* Section 1: The IPL Betting Phenomenon */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+          {/* Live IPL Exchange Widget */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
+                  IPL 2026 Live Trading
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                  Live Match Odds &amp; In-Play Markets
+                </h2>
+              </div>
+              <span className="text-xs text-slate-400 font-mono hidden sm:inline-block">
+                All 10 Franchises Covered
+              </span>
+            </div>
+            <ExchangeOddsWidget
+              title="Chennai Super Kings vs Royal Challengers Bengaluru"
+              tournament="IPL 2026 • Match 01 Opening Fixture"
+              status="LIVE • 14.3 OVERS"
+              score="CSK: 142/2 (RR: 9.8) • RCB Needs 184"
+            />
+          </div>
+
+          {/* Section 1: The IPL Betting Phenomenon */}
+          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-white">
               The Ultimate IPL 2026 Betting Experience on Lotus365
             </h2>
             <p>

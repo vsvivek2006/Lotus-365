@@ -21,7 +21,6 @@ import {
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 const related = [
-  { href: '/register', label: 'Register Free', description: 'Get your instant WhatsApp ID in 2 minutes' },
   { href: '/how-it-works', label: 'How It Works', description: 'Step-by-step guide to getting started' },
   { href: '/payment-methods', label: 'Payment Methods', description: 'UPI, IMPS, and other deposit options' },
   { href: '/faq', label: 'FAQ', description: 'Frequently asked questions about Lotus365' },
@@ -74,10 +73,16 @@ export const ContactPage: React.FC = () => {
           highlight="WhatsApp Support"
           subtitle="Experience white-glove customer assistance. Our dedicated team of human account managers is available round the clock, 365 days a year, delivering sub-60-second responses via secure WhatsApp chat."
           ctaLabel="Open WhatsApp Support Now"
+          imageSrc="/images/banners/hero-vip-lounge.svg"
+          imageAlt="24/7 Official WhatsApp Helpline Lotus365"
+          breadcrumbs={[
+            { label: 'Support' },
+            { label: 'Contact Us' },
+          ]}
         />
 
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-          <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+          <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
             
             {/* Direct WhatsApp Callout Banner */}
             <div className="text-center p-8 rounded-3xl bg-gradient-to-br from-[#0c382b] to-[#08261d] border border-[#25D366]/40 shadow-xl space-y-4">

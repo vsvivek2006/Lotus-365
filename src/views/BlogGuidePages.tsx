@@ -7,6 +7,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { BankingStepsStepper } from '../components/banking/BankingStepsStepper';
 import { 
   CheckCircle2, 
   XCircle, 
@@ -67,9 +68,15 @@ export const ReviewPage: React.FC = () => (
         title="Lotus365 Review " 
         highlight="2026" 
         subtitle="Is Lotus365 genuinely India's #1 sports betting exchange and live casino platform? Our in-depth, unbiased review examines betting liquidity, 0% commission structures, cashout integrity, and overall user trust." 
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Comprehensive Lotus365 Platform Review 2026"
+        breadcrumbs={[
+          { label: 'Guides' },
+          { label: 'Lotus365 Review' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Executive Rating Card */}
           <div className="p-6 sm:p-8 rounded-2xl bg-black/25 border border-[#F0C419]/40 flex flex-col sm:flex-row items-center justify-between gap-6">
@@ -290,9 +297,15 @@ export const VsCompetitorsPage: React.FC = () => (
         title="Lotus365 vs " 
         highlight="Competitors" 
         subtitle="How does Lotus365 compare to international bookmakers and fantasy apps? Review our side-by-side breakdown across payout speed, exchange commission, mobile convenience, and customer support." 
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Lotus365 vs Competitors Platform Comparison"
+        breadcrumbs={[
+          { label: 'Guides' },
+          { label: 'Lotus365 vs Competitors' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -500,9 +513,15 @@ export const BettingTipsPage: React.FC = () => (
         title="Cricket " 
         highlight="Betting Tips & Strategy" 
         subtitle="Transform your cricket knowledge into consistent, disciplined profitability. Learn the mathematical frameworks, pitch-reading formulas, and in-play exchange trading tactics used by professional traders on Lotus365." 
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Cricket Betting Tips and Trading Strategies 2026"
+        breadcrumbs={[
+          { label: 'Guides' },
+          { label: 'Betting Tips' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -681,9 +700,15 @@ export const IplPredictionsPage: React.FC = () => (
         title="IPL 2026 " 
         highlight="Expert Predictions & Odds" 
         subtitle="In-depth analytical preview of the Indian Premier League 2026. Squad evaluations, franchise strengths, venue dynamics, and tactical insights across all 10 teams on Lotus365." 
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="IPL 2026 Expert Predictions and Odds"
+        breadcrumbs={[
+          { label: 'IPL Betting', href: '/ipl-betting' },
+          { label: 'IPL Predictions' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -866,9 +891,15 @@ export const OnlineCasinoGuidePage: React.FC = () => (
         title="Complete " 
         highlight="Online Casino Guide" 
         subtitle="Everything you need to master real-money online casino games in India. Understand game math, house edge percentages, optimal strategies for Teen Patti and Blackjack, and instant cashout mechanics on Lotus365." 
+        imageSrc="/images/games/live-casino-lobby.svg"
+        imageAlt="Complete Online Casino Guide and RTP Rules"
+        breadcrumbs={[
+          { label: 'Live Casino', href: '/live-casino' },
+          { label: 'Online Casino Guide' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -1079,9 +1110,15 @@ export const SafeBettingGuidePage: React.FC = () => (
         title="Safe & Responsible " 
         highlight="Betting Guide" 
         subtitle="Online sports betting and gaming should always remain an exciting, controlled form of entertainment. Master our risk-management principles, bankroll defense strategies, and self-discipline frameworks." 
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Safe and Responsible Betting Guide India"
+        breadcrumbs={[
+          { label: 'Guides' },
+          { label: 'Safe Betting Guide' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -1259,9 +1296,15 @@ export const MobileWebAppGuidePage: React.FC = () => (
         title="Lotus365 on " 
         highlight="Any Smartphone" 
         subtitle="Enjoy fast, high-speed cricket trading and live casino tables directly on your Android or iPhone. Discover how to add 1-tap instant access to your home screen and withdraw winnings in 2 minutes." 
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Lotus365 Smartphone Web App Guide"
+        breadcrumbs={[
+          { label: 'Guides' },
+          { label: 'Mobile Gaming Guide' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -1569,9 +1612,15 @@ export const FaqPage: React.FC = () => {
           title="Lotus365 " 
           highlight="Frequently Asked Questions" 
           subtitle="Definitive answers regarding WhatsApp ID registration, guaranteed 2-minute UPI cashouts, cricket betting exchange rules, live dealer games, and security protocols." 
+          imageSrc="/images/banners/hero-cricket-stadium.svg"
+          imageAlt="Lotus365 Frequently Asked Questions Hub"
+          breadcrumbs={[
+            { label: 'Help' },
+            { label: 'FAQ' },
+          ]}
         />
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-          <div className="max-w-4xl mx-auto space-y-8">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+          <div className="max-w-6xl mx-auto space-y-16">
             <div className="p-6 rounded-2xl bg-black/25 border border-[#F0C419]/30 text-white/85 text-xs sm:text-sm leading-relaxed space-y-3">
               <h2 className="text-xl font-bold text-[#F0C419]">Search Engine Knowledge Repository & Help Center</h2>
               <p>
@@ -1679,10 +1728,19 @@ export const HowItWorksPage: React.FC = () => {
           title="How " 
           highlight="Lotus365 Works" 
           subtitle="From your first WhatsApp message to placing your first cricket bet in under 4 minutes. Experience India's smoothest, most friction-free sports exchange and live casino onboarding." 
+          imageSrc="/images/banners/hero-cricket-stadium.svg"
+          imageAlt="How Lotus365 Works Step-by-Step Onboarding Guide"
+          breadcrumbs={[
+            { label: 'Help' },
+            { label: 'How It Works' },
+          ]}
         />
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-          <div className="max-w-4xl mx-auto space-y-12">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+          <div className="max-w-6xl mx-auto space-y-16">
             
+            {/* Interactive Banking Steps Stepper */}
+            <BankingStepsStepper />
+
             {/* Steps Timeline */}
             <div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-8 text-center">

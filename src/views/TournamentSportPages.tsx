@@ -44,9 +44,12 @@ export const WplBettingPage: React.FC = () => (
         title="WPL Cricket Betting & "
         highlight="Live Exchange Odds"
         subtitle="Trade on every boundary, powerplay over, and match winner in the Women's Premier League. Back your favorite franchise with genuine exchange liquidity and 2-minute cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Women's Premier League Cricket Betting"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'WPL Betting' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Comprehensive Women's Premier League (WPL) Exchange Trading
@@ -167,9 +170,12 @@ export const PslBettingPage: React.FC = () => (
         title="PSL Cricket Betting & "
         highlight="T20 Exchange Markets"
         subtitle="Trade every ball of the Pakistan Super League with deep liquidity, 0% deposit deductions, and live in-play trading on Lahore, Karachi, Islamabad, and Multan fixtures."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Pakistan Super League T20 Cricket Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'PSL Betting' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               High-Velocity Pakistan Super League (PSL) Trading
@@ -290,9 +296,12 @@ export const BblBettingPage: React.FC = () => (
         title="BBL Cricket Betting & "
         highlight="Australian T20 Exchange"
         subtitle="Enjoy afternoon cricket trading on Australia's premier T20 tournament. Trade on Power Surge runs, match winners, and top run scorers with real-time cashout execution."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Big Bash League BBL Cricket Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'BBL Betting' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Australian Big Bash League (BBL) Betting on Lotus365
@@ -413,9 +422,12 @@ export const CplBettingPage: React.FC = () => (
         title="CPL Cricket Betting & "
         highlight="West Indies T20 Odds"
         subtitle="Feel the Caribbean carnival rhythm with live in-play trading on the CPL. Back heavy hitters, trade total match sixes, and cash out instantly on India's premier exchange."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Caribbean Premier League CPL T20 Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'CPL Betting' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Caribbean Premier League (CPL) Power-Hitting Markets
@@ -536,9 +548,12 @@ export const AsiaCupBettingPage: React.FC = () => (
         title="Asia Cup Betting & "
         highlight="Continental Championship Odds"
         subtitle="Experience high-stakes Asian cricket rivalry. Trade India vs Pakistan, Sri Lanka, and Bangladesh fixtures with massive exchange liquidity and 2-minute cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Asia Cup Cricket Championship Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Asia Cup Betting' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Elite Continental Rivalries: Asia Cup Exchange Markets
@@ -659,9 +674,12 @@ export const IccOdiWorldCupPage: React.FC = () => (
         title="ICC ODI World Cup & "
         highlight="50-Over Cricket Exchange"
         subtitle="Trade the pinnacle of international 50-over cricket. Back tournament outright winners, trade 10-over session milestones, and cash out with sub-2-minute UPI speed."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="ICC Cricket 50-Over ODI World Cup"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'ICC ODI World Cup' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Ultimate Stage: ICC 50-Over World Cup Betting
@@ -782,9 +800,12 @@ export const TestCricketBettingPage: React.FC = () => (
         title="Test Cricket Betting & "
         highlight="5-Day Exchange Trading"
         subtitle="Master the purist format of cricket. Trade 5-day momentum shifts, morning session runs, and draw-no-bet markets with transparent peer-to-peer liquidity."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="ICC World Test Championship Cricket Betting"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Test Cricket' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Strategic Test Match Trading Across 15 Sessions
@@ -905,9 +926,12 @@ export const LiveCricketScoreOddsPage: React.FC = () => (
         title="Live Cricket Scores & "
         highlight="Sub-Second Match Odds"
         subtitle="Stay ahead of satellite TV delays. Monitor real-time ball-by-ball scorecards, inspect order book depth, and place in-play wagers with sub-second execution."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Live Cricket Scores and Sub-Second Match Odds"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Live Cricket Score & Odds' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Low-Latency Cricket Data Infrastructure
@@ -1028,9 +1052,12 @@ export const CricketSessionBettingPage: React.FC = () => (
         title="Cricket Session Betting & "
         highlight="Fancy Market Rules"
         subtitle="Learn how to trade micro-events like 6-over powerplays, Lambi Pari, and Khai-Lagai. Understand over-by-over lines and profit from match momentum."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Cricket Session Betting and Fancy Rules"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Session Betting' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Understanding Cricket Session (Fancy) Markets
@@ -1151,9 +1178,12 @@ export const CricketTossPredictionPage: React.FC = () => (
         title="Cricket Toss Prediction & "
         highlight="Pitch Factor Analytics"
         subtitle="Uncover how coin toss decisions, atmospheric humidity, and pitch surface conditions shift match probabilities. Trade the toss with 2-minute UPI cashouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Cricket Toss Prediction and Pitch Factor Analytics"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Toss Prediction' }]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Decisive Role of the Coin Toss in Modern Cricket

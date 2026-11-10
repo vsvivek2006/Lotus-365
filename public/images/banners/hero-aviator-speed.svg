@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aviatorBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f0a14" />
+      <stop offset="60%" stop-color="#0a1924" />
+      <stop offset="100%" stop-color="#073024" />
+    </linearGradient>
+    <linearGradient id="curveGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#F0C419" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#aviatorBg)" />
+
+  <!-- Multiplier Curve Grid -->
+  <path d="M 100 500 L 1100 500" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2" />
+  <path d="M 100 100 L 100 500" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2" />
+  <path d="M 100 500 Q 550 480 850 200" fill="none" stroke="url(#curveGrad)" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Airplane Icon at 850, 200 -->
+  <g transform="translate(850, 200) rotate(-35)">
+    <path d="M -30 0 L 30 0 L 40 -10 L 0 -8 L -15 -30 L -25 -30 L -18 -8 L -40 -8 L -48 -18 L -55 -18 L -50 0 L -55 18 L -48 18 L -40 8 L -18 8 L -25 30 L -15 30 L 0 8 L 40 10 Z" fill="#e11d48" stroke="#F0C419" stroke-width="3" />
+    <circle cx="45" cy="0" r="6" fill="#F0C419" />
+  </g>
+
+  <!-- Giant Multiplier text -->
+  <text x="500" y="270" font-family="'Outfit', Arial, sans-serif" font-weight="900" font-size="110" fill="#ffffff" text-anchor="middle">
+    98.75<tspan fill="#e11d48">x</tspan>
+  </text>
+  <text x="500" y="340" font-family="'Poppins', Arial, sans-serif" font-weight="900" font-size="34" fill="#F0C419" text-anchor="middle" letter-spacing="3">
+    AVIATOR CRASH PRO — OFFICIAL SPRIBE
+  </text>
+  <text x="500" y="380" font-family="'Poppins', Arial, sans-serif" font-weight="600" font-size="18" fill="#ffffff" opacity="0.85" text-anchor="middle">
+    Provably Fair • Auto Cashout • Dual Wager Systems • 97.0% Verified RTP
+  </text>
+</svg>

@@ -6,10 +6,11 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { InteractiveOddsCalculator } from '../components/tools/InteractiveOddsCalculator';
 import { Calculator, HelpCircle, ShieldCheck, Zap, HeartHandshake, ShieldAlert, Award, Scale, Trophy } from 'lucide-react';
 
 const strategyRelated = [
-  { href: '/betting-tips', label: 'Cricket Betting Tips', description: 'Expert match analysis and trading strategies' },
+  { href: '/cricket-betting', label: 'Cricket Betting Tips', description: 'Expert match analysis and trading strategies' },
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: 'Peer-to-peer back & lay trading platform' },
   { href: '/back-and-lay-betting', label: 'Back & Lay Guide', description: 'Master exchange trading mechanics' },
   { href: '/how-it-works', label: 'How It Works', description: 'Complete platform onboarding guide' },
@@ -43,9 +44,15 @@ export const BettingOddsCalculatorPage: React.FC = () => (
         title="Betting Odds Calculator: "
         highlight="Decimal, Fractional & Implied Odds"
         subtitle="Master the mathematics of sports betting. Understand decimal payout multipliers, convert international formats, and calculate exact return on investment."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Betting Odds Calculator on Lotus365"
+        breadcrumbs={[
+          { label: 'Resources' },
+          { label: 'Odds Calculator' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Mathematical Foundation of Sports Trading
@@ -57,6 +64,9 @@ export const BettingOddsCalculatorPage: React.FC = () => (
               Decimal odds are intuitive: multiplying your stake by the decimal price shows your exact total payout. However, understanding how decimal odds correspond to fractional UK odds, American moneyline values, and implied win probability empowers you to identify undervalued value bets (+EV) across live cricket markets.
             </p>
           </div>
+
+          {/* Interactive Decimal & Exchange Odds Calculator */}
+          <InteractiveOddsCalculator />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -204,9 +214,15 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
         title="Dutching Calculator Guide: "
         highlight="Multi-Selection Risk Hedging"
         subtitle="Eliminate single-selection heartbreak. Learn how to distribute your capital across multiple outcomes to secure equal profit regardless of which selection wins."
+        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageAlt="Dutching Calculator and Multi-Runner Hedging on Lotus365"
+        breadcrumbs={[
+          { label: 'Resources' },
+          { label: 'Dutching Calculator' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Power of Multi-Selection Dutching
@@ -218,6 +234,9 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
               On <strong className="text-[#F0C419]">Lotus365</strong>, Dutching is widely utilized by experienced cricket exchange traders in markets with multiple competitors—such as the <strong className="text-[#F0C419]">IPL Outright Winner</strong> or <strong className="text-[#F0C419]">Top Match Batsman</strong>. Instead of stressing over whether Rohit Sharma or Suryakumar Yadav top-scores, you can cover both players simultaneously with mathematically balanced stakes.
             </p>
           </div>
+
+          {/* Interactive Staking & Odds Calculator */}
+          <InteractiveOddsCalculator />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
@@ -340,9 +359,15 @@ export const IplTeamsBettingOddsPage: React.FC = () => (
         title="IPL Teams Betting Odds: "
         highlight="Championship Futures & Top 4"
         subtitle="Track live outright championship odds for all 10 IPL franchises. Back title contenders, lay failing squads, and trade playoff qualification futures."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="IPL Teams Betting Odds 2026 on Lotus365"
+        breadcrumbs={[
+          { label: 'IPL Betting', href: '/ipl-betting' },
+          { label: 'IPL Teams Odds' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Complete 10-Franchise IPL 2026 Odds Directory
@@ -495,9 +520,15 @@ export const CricketBettingGlossaryPage: React.FC = () => (
         title="Cricket Betting Glossary: "
         highlight="A-Z Terminology & Rules"
         subtitle="Decode subcontinental sports trading language. Master essential terms from Khai-Lagai and Lambi Pari to Dead Heats, Overrounds, and Hedging."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="Cricket Betting Glossary A-Z Terminology"
+        breadcrumbs={[
+          { label: 'Resources' },
+          { label: 'Cricket Glossary' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Essential Dictionary for Indian Cricket Traders
@@ -618,9 +649,15 @@ export const Lotus365BluePage: React.FC = () => (
         title="Lotus365 Blue: "
         highlight="High-Speed Exchange Engine"
         subtitle="Designed for high-frequency sports traders. Experience ultra-low data consumption, sleek midnight blue aesthetics, and sub-50ms order execution."
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Lotus365 Blue Edition High-Performance Exchange"
+        breadcrumbs={[
+          { label: 'VIP Club', href: '/vip-club' },
+          { label: 'Lotus365 Blue' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Engineered for Speed: The Lotus365 Blue Edition
@@ -747,9 +784,15 @@ export const Lotus365PartnerProgramPage: React.FC = () => (
         title="Lotus365 Partner Program: "
         highlight="Up to 35% Weekly Revenue Share"
         subtitle="Partner with India's #1 cricket exchange and gaming platform. Earn substantial passive income with weekly automated settlements and dedicated account support."
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Lotus365 Partner and Affiliate Revenue Share Program"
+        breadcrumbs={[
+          { label: 'About Us', href: '/about' },
+          { label: 'Partner Program' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Grow Your Business with India's Premier Sports Brand
@@ -873,9 +916,15 @@ export const ComplaintsResolutionPage: React.FC = () => (
         title="Complaints & Dispute Resolution: "
         highlight="Fair, Rapid & Accountable"
         subtitle="Your satisfaction and financial security are our highest priority. Discover our rapid, transparent dispute resolution protocols and escalation channels."
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Complaints and Dispute Resolution Desk Lotus365"
+        breadcrumbs={[
+          { label: 'Support', href: '/contact' },
+          { label: 'Complaints Resolution' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Accountability and Fair Play Commitment
@@ -999,9 +1048,15 @@ export const ResponsibleGamblingToolsPage: React.FC = () => (
         title="Responsible Gambling Tools: "
         highlight="Play Safe, Stay in Control"
         subtitle="Gaming should always remain fun, disciplined entertainment. Discover our suite of player welfare tools: deposit ceilings, timeout breaks, and self-exclusion."
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Responsible Gambling Tools and Deposit Ceilings Lotus365"
+        breadcrumbs={[
+          { label: 'Responsible Gaming', href: '/responsible-gaming' },
+          { label: 'Gambling Tools' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Our Uncompromising Commitment to Player Welfare

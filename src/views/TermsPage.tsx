@@ -61,9 +61,15 @@ export const TermsPage: React.FC = () => (
         highlight="Terms & Conditions" 
         subtitle="Please review these operational terms and conditions carefully before accessing lotus365officialid.com. By generating an account ID via WhatsApp or wagering on our platform, you agree to be bound by these provisions." 
         ctaLabel="Contact Legal Desk on WhatsApp" 
+        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageAlt="Lotus365 Terms and Conditions Charter"
+        breadcrumbs={[
+          { label: 'Legal' },
+          { label: 'Terms & Conditions' },
+        ]}
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Header Notice */}
           <div className="p-6 rounded-2xl bg-black/25 border border-white/10 flex items-center gap-4">

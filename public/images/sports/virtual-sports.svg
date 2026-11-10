@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sportBg_virtual-sports" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#092026" /><stop offset="100%" stop-color="#14614C" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="24" fill="url(#sportBg_virtual-sports)" />
+  <rect x="4" y="4" width="592" height="392" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2" />
+
+  <!-- Badge -->
+  <rect x="30" y="30" width="110" height="32" rx="16" fill="#06b6d4" />
+  <text x="85" y="51" font-family="'Poppins', Arial, sans-serif" font-weight="900" font-size="13" fill="#ffffff" text-anchor="middle">INSTANT</text>
+
+  <!-- Center Graphic -->
+  <g transform="translate(300, 180)">
+    <circle cx="0" cy="0" r="50" fill="#0891b2" stroke="#fff" stroke-width="3"/>
+   <text x="0" y="8" font-family="'Outfit', Arial" font-weight="900" font-size="28" fill="#F0C419" text-anchor="middle">3D</text>
+  </g>
+
+  <!-- Titles -->
+  <rect x="0" y="290" width="600" height="110" rx="20" fill="#041611" opacity="0.9" />
+  <text x="30" y="335" font-family="'Poppins', Arial, sans-serif" font-weight="800" font-size="26" fill="#ffffff">Virtual Sports 24/7</text>
+  <text x="30" y="370" font-family="'Poppins', Arial, sans-serif" font-weight="600" font-size="16" fill="#F0C419">Continuous Virtual Cricket & Football</text>
+
+  <!-- Trade Button -->
+  <circle cx="540" cy="345" r="26" fill="#F0C419" />
+  <path d="M 534 333 L 552 345 L 534 357 Z" fill="#14614C" />
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg_teen-patti" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2a1e" /><stop offset="100%" stop-color="#0d4939" />
+    </linearGradient>
+    <radialGradient id="cardGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" rx="24" fill="url(#cardBg_teen-patti)" />
+  <rect width="600" height="400" rx="24" fill="url(#cardGlow)" />
+  <rect x="4" y="4" width="592" height="392" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2" />
+
+  <!-- Badge -->
+  <rect x="30" y="30" width="100" height="32" rx="16" fill="#F0C419" />
+  <text x="80" y="51" font-family="'Poppins', Arial, sans-serif" font-weight="900" font-size="13" fill="#ffffff" text-anchor="middle">POPULAR</text>
+
+  <!-- Center Graphic -->
+  <g transform="translate(300, 180)">
+    <rect x="-60" y="-50" width="55" height="85" rx="6" fill="#fff" stroke="#F0C419" stroke-width="2" transform="rotate(-18 -32 -7)"/>
+   <text x="-48" y="-15" font-family="Arial" font-weight="900" font-size="20" fill="#d9383a">A♥</text>
+   <rect x="-27" y="-55" width="55" height="85" rx="6" fill="#fff" stroke="#F0C419" stroke-width="2"/>
+   <text x="-12" y="-20" font-family="Arial" font-weight="900" font-size="20" fill="#111">A♠</text>
+   <rect x="5" y="-50" width="55" height="85" rx="6" fill="#fff" stroke="#F0C419" stroke-width="2" transform="rotate(18 32 -7)"/>
+   <text x="20" y="-15" font-family="Arial" font-weight="900" font-size="20" fill="#d9383a">A♦</text>
+  </g>
+
+  <!-- Titles -->
+  <rect x="0" y="290" width="600" height="110" rx="20" fill="#051a14" opacity="0.9" />
+  <text x="30" y="335" font-family="'Poppins', Arial, sans-serif" font-weight="800" font-size="26" fill="#ffffff">Live Teen Patti Cash</text>
+  <text x="30" y="370" font-family="'Poppins', Arial, sans-serif" font-weight="600" font-size="16" fill="#F0C419">Indian 3 Patti • Hindi Dealers • 1000x</text>
+
+  <!-- Play Arrow Button -->
+  <circle cx="540" cy="345" r="26" fill="#F0C419" />
+  <path d="M 534 333 L 552 345 L 534 357 Z" fill="#14614C" />
+</svg>

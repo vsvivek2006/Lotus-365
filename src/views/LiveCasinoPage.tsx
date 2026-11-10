@@ -5,13 +5,14 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { CasinoTableShowcase } from '../components/casino/CasinoTableShowcase';
 
 import { Star, HelpCircle } from 'lucide-react';
 
 const casinoRelated = [
   { href: '/teen-patti', label: 'Teen Patti Cash', description: 'India\'s favourite 3-card poker live' },
   { href: '/andar-bahar', label: 'Andar Bahar Live', description: 'Fast-paced Indian card game online' },
-  { href: '/lightning-roulette', label: 'Lightning Roulette', description: 'Up to 500x multiplier payouts' },
+  { href: '/roulette', label: 'European & Lightning Roulette', description: 'Up to 500x multiplier payouts' },
   { href: '/aviator-game', label: 'Aviator Crash Game', description: '98.5% RTP crash game with instant cashout' },
   { href: '/blackjack', label: 'Live Blackjack', description: '50+ real dealer blackjack tables' },
   { href: '/baccarat', label: 'Live Baccarat', description: 'Speed baccarat and no-commission tables' },
@@ -67,10 +68,13 @@ export const LiveCasinoPage: React.FC = () => (
         title="India's Premier "
         highlight="Live Casino Experience"
         subtitle="Immerse yourself in high-definition live dealer action streaming 24/7 from world-class studios. Teen Patti, Andar Bahar, Roulette, Blackjack, and Aviator with instant 2-minute UPI cashouts."
+        imageSrc="/images/banners/hero-casino-luxury.svg"
+        imageAlt="Lotus365 Live Casino Studio Suite"
+        breadcrumbs={[{ label: 'Live Casino' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           {/* Executive Overview */}
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -84,6 +88,9 @@ export const LiveCasinoPage: React.FC = () => (
             </p>
           </div>
 
+          {/* Interactive Live Casino Table Showcase */}
+          <CasinoTableShowcase initialCategory="all" />
+
           {/* Game Library Directory Grid */}
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -93,7 +100,7 @@ export const LiveCasinoPage: React.FC = () => (
               {[
                 { icon: '🃏', name: 'Live Teen Patti', href: '/teen-patti', desc: 'Real money 3-card poker with side bets like Pair Plus and 6-Card Bonus. Stakes from ₹10 to ₹1,00,000.' },
                 { icon: '🎴', name: 'Live Andar Bahar', href: '/andar-bahar', desc: 'The beloved Indian classic. Bet on which side the matching card lands with rapid 20-second deal cycles.' },
-                { icon: '🎡', name: 'Lightning Roulette', href: '/lightning-roulette', desc: 'Random high-voltage RNG lightning strikes boost straight-up numbers with 50x to 500x payout multipliers.' },
+                { icon: '🎡', name: 'Lightning Roulette', href: '/roulette', desc: 'Random high-voltage RNG lightning strikes boost straight-up numbers with 50x to 500x payout multipliers.' },
                 { icon: '♠️', name: 'Live Blackjack', href: '/blackjack', desc: 'Over 50 live tables including Infinite Blackjack, Perfect Pairs, and 21+3 side bets with 99.5% RTP.' },
                 { icon: '🎲', name: 'Live Baccarat', href: '/baccarat', desc: 'Squeeze and Speed Baccarat tables. Bet Banker at 1.06% house edge with 0% commission variants.' },
                 { icon: '🐉', name: 'Dragon Tiger', href: '/dragon-tiger', desc: 'The two-card speed duel: Dragon vs Tiger. Pure intuition with lightning-fast 15-second betting rounds.' },

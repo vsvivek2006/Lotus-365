@@ -5,14 +5,15 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { ExchangeOddsWidget } from '../components/exchange/ExchangeOddsWidget';
 
-import { HelpCircle, Star } from 'lucide-react';
+import { HelpCircle, Star, Trophy, ShieldCheck, Zap } from 'lucide-react';
 
 const related = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'Live cricket odds across all formats' },
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: '0% commission P2P cricket trading' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'Indian Premier League match markets' },
-  { href: '/betting-tips', label: 'Cricket Betting Tips', description: 'Expert cricket betting strategy' },
+  { href: '/back-and-lay-betting', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
   { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim your first deposit bonus' },
   { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Guaranteed 2-minute UPI cashouts' },
 ];
@@ -59,13 +60,39 @@ export const T20WorldCupPage: React.FC = () => (
         title="Official "
         highlight="T20 World Cup Betting"
         subtitle="Experience elite international T20 cricket wagering. Bet on all group matches, Super 8 clashes, semi-finals, and the grand final with 0% net commission and instant UPI payouts."
+        imageSrc="/images/sports/cricket.svg"
+        imageAlt="ICC T20 World Cup 2026 International Cricket Betting"
+        breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'T20 World Cup Betting' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
-          {/* Section 1: Overview */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+          {/* Live T20 World Cup Exchange Widget */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
+                  ICC World Cup Terminal
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                  Live International Match Trading
+                </h2>
+              </div>
+              <span className="text-xs text-slate-400 font-mono hidden sm:inline-block">
+                Sub-50ms Global Order Matching
+              </span>
+            </div>
+            <ExchangeOddsWidget
+              title="India vs England — T20 World Cup Semi-Final"
+              tournament="ICC Men's T20 World Cup 2026"
+              status="LIVE • 15.2 OVERS"
+              score="IND: 154/3 (RR: 10.0) • ENG Needs 178"
+            />
+          </div>
+
+          {/* Section 1: Overview */}
+          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-white">
               The ICC T20 World Cup: International Cricket's Greatest Spectacle
             </h2>
             <p>

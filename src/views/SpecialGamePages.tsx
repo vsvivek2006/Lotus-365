@@ -7,6 +7,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { AviatorFlightRadar } from '../components/aviator/AviatorFlightRadar';
 import { 
   TrendingUp, 
   Plane, 
@@ -82,23 +83,20 @@ export const AviatorGamePage: React.FC = () => {
           title="Play " 
           highlight="Aviator" 
           subtitle="India's #1 Spribe crash game with industry-topping 98.5% RTP. Watch the red airplane ascend, observe real-time multiplier curves, and cash out before the craft flies away. Instant 24/7 UPI withdrawals on Lotus365." 
+          imageSrc="/images/games/aviator.svg"
+          imageAlt="Play Spribe Aviator Crash Game Online"
+          breadcrumbs={[{ label: 'Crash Games', href: '/crash-games' }, { label: 'Aviator Crash Pro' }]}
         />
 
-        {/* Live Multiplier Demo Banner */}
-        <section className="py-10 px-4 bg-[#0b3b2d] border-y border-white/10">
-          <div className="max-w-xl mx-auto text-center">
-            <p className="text-white/60 text-xs font-semibold uppercase tracking-wider mb-2">Simulated Live Multiplier</p>
-            <div className="text-7xl font-extrabold text-[#F0C419] tracking-tight animate-pulse mb-3">{multiplier}</div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-medium">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-              Round Active • 98.50% Certified RTP
-            </div>
-            <p className="text-white/50 text-xs mt-3">Interactive demonstration. Sign up via WhatsApp to play with real INR balances.</p>
+        {/* Bespoke Interactive Aviator Flight Radar Simulator */}
+        <section className="py-12 px-4 sm:px-6 lg:px-8 bg-[#05120d] border-b border-white/10">
+          <div className="max-w-6xl mx-auto">
+            <AviatorFlightRadar />
           </div>
         </section>
 
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-          <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+          <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
             
             {/* Overview */}
             <div>
@@ -366,11 +364,26 @@ export const CrashGamesPage: React.FC = () => (
         title="Best " 
         highlight="Crash Games" 
         subtitle="Experience high-octane crash games including Aviator, JetX, Spaceman, and Cricket X. Watch exponential multiplier curves, manage your risk-reward ratio, and cash out before the inevitable crash." 
+        imageSrc="/images/banners/hero-aviator-speed.svg"
+        imageAlt="Crash Games Online India Hub"
+        breadcrumbs={[{ label: 'Crash Games' }]}
       />
       
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
+          {/* Interactive Live Crash Radar Simulator */}
+          <div className="space-y-4">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+              <div>
+                <span className="text-[#F0C419] text-xs font-black uppercase tracking-wider">Provably Fair Radar</span>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">Live Crash Trajectory & Multiplier Engine</h2>
+              </div>
+              <p className="text-xs text-white/60">Simulated 98.50% certified Spribe aerodynamic algorithm</p>
+            </div>
+            <AviatorFlightRadar />
+          </div>
+
           {/* Introduction */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
@@ -628,10 +641,13 @@ export const ColorPredictionPage: React.FC = () => (
         title="Fast " 
         highlight="Color Prediction" 
         subtitle="Predict Red, Green, or Violet and multiply your balance in 30-second rapid rounds. Experience fair RNG draws, 9x single-number payouts, and instant 2-minute UPI cashouts on Lotus365." 
+        imageSrc="/images/games/color-prediction.svg"
+        imageAlt="Fast Color Prediction Game India"
+        breadcrumbs={[{ label: 'Crash Games', href: '/crash-games' }, { label: 'Color Prediction' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>
@@ -877,10 +893,13 @@ export const VirtualSportsPage: React.FC = () => (
         title="24/7 " 
         highlight="Virtual Sports" 
         subtitle="Never wait for live fixtures again. Bet on simulated T20 cricket, Premier League football, greyhounds, and thoroughbred horse racing with new matches starting every 3 minutes." 
+        imageSrc="/images/sports/virtual-sports.svg"
+        imageAlt="24/7 Virtual Sports Betting India"
+        breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Virtual Sports' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-4xl mx-auto space-y-10 text-white/85 text-sm leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           
           {/* Overview */}
           <div>

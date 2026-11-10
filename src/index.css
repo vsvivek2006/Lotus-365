@@ -5,11 +5,15 @@
 @layer base {
   :root {
     color-scheme: dark;
+    --lotus-bg: #05120d;
+    --lotus-surface: #0a2218;
+    --lotus-surface-elevated: #0f3023;
     --lotus-green: #14614C;
     --lotus-green-dark: #0D4939;
     --lotus-green-deep: #09382B;
     --lotus-yellow: #F0C419;
     --lotus-yellow-bright: #FFD000;
+    --lotus-gold-gradient: linear-gradient(135deg, #F0C419 0%, #FFE78A 50%, #D4A30B 100%);
     --lotus-offwhite: #FFFAE5;
     --lotus-white: #FFFFFF;
   }
@@ -19,27 +23,33 @@
     -webkit-tap-highlight-color: transparent;
   }
 
-  /* Exact https://lottuss365.co/ Theme: Signature Lotus Green #14614C */
+  /* Luxury Obsidian Emerald Atmosphere */
   body {
-    background-color: #14614C;
-    color: #FFFFFF;
+    background-color: #05120d;
+    color: #F1F5F9;
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     line-height: 1.65;
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(20, 97, 76, 0.25), transparent),
+      radial-gradient(circle at 100% 30%, rgba(240, 196, 25, 0.05), transparent 40%);
+    background-attachment: fixed;
+    min-height: 100vh;
   }
 
-  /* Custom scrollbar in Lotus Yellow & Green */
+  /* Custom scrollbar in Lotus Gold & Emerald */
   ::-webkit-scrollbar {
     width: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: #0D4939;
+    background: #05120d;
   }
   ::-webkit-scrollbar-thumb {
-    background: #F0C419;
+    background: #103325;
     border-radius: 4px;
+    border: 1px solid rgba(240, 196, 25, 0.2);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #FFD000;
+    background: #F0C419;
   }
 }
 
@@ -47,7 +57,7 @@
   /* Reference Site CTA Button Style */
   .cta-button {
     background-color: #F0C419;
-    color: #14614C;
+    color: #05120d;
     padding: 14px 34px;
     border: 2px solid #F0C419;
     border-radius: 8px;
@@ -99,17 +109,20 @@
     transform: translateY(-2px);
   }
 
-  /* Section Card in Lotus Green with subtle dark overlay */
+  /* Section Card with Luxury Glass Aesthetic */
   .lotus-card {
-    background-color: rgba(0, 0, 0, 0.22);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 12px;
-    transition: all 0.3s ease;
+    background-color: rgba(10, 34, 24, 0.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .lotus-card:hover {
-    border-color: #F0C419;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border-color: rgba(240, 196, 25, 0.4);
+    box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(240, 196, 25, 0.1);
+    transform: translateY(-2px);
   }
 
   /* Reference Pro-Tip Alert Box */
@@ -138,35 +151,74 @@
 
   /* Section Styles matching https://lottuss365.co/ */
   .welcome-section {
-    background-color: #14614C;
+    background-color: #05120d;
     color: #FFFFFF;
   }
 
   .best-option-section {
-    background-color: #14614C;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #05120d;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .quick-guide-section {
-    background-color: #14614C;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #05120d;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .cta-section-bold {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
   .cta-section-bold h2 {
     color: #F0C419;
   }
 
   .lotus365-faq-section {
-    background-color: #14614C;
+    background-color: #05120d;
   }
   .lotus365-faq-section h2 {
     color: #F0C419;
+  }
+
+  /* Betting Exchange Standard Odds Colors */
+  .exchange-back {
+    background-color: #72bbef;
+    color: #0b3154;
+    font-weight: 800;
+    transition: all 0.2s ease;
+  }
+  .exchange-back:hover {
+    background-color: #5bb0ed;
+    transform: scale(1.02);
+  }
+
+  .exchange-lay {
+    background-color: #faa9ba;
+    color: #5e1122;
+    font-weight: 800;
+    transition: all 0.2s ease;
+  }
+  .exchange-lay:hover {
+    background-color: #f792a7;
+    transform: scale(1.02);
+  }
+
+  /* Glassmorphism Luxury Card */
+  .luxury-glass-card {
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .luxury-glass-card:hover {
+    border-color: rgba(240, 196, 25, 0.45);
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 20px -2px rgba(240, 196, 25, 0.2);
+    transform: translateY(-2px);
   }
 }
 

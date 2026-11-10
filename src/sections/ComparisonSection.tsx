@@ -8,7 +8,7 @@ interface ComparisonProps {
 
 export const ComparisonSection: React.FC<ComparisonProps> = ({ onOpenAuth }) => {
   return (
-    <section id="comparison" className="py-20 bg-[#14614C] border-t border-white/15 relative overflow-hidden">
+    <section id="comparison" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">

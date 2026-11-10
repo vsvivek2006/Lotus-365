@@ -24,8 +24,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  // 1. Filesystem Static Routes (excluding admin, api, login, register, and dynamic route brackets)
-  const EXCLUDED_ROUTES = new Set(['admin', 'api', 'login', 'register']);
+  // 1. Filesystem Static Routes (excluding admin, api, and dynamic route brackets)
+  const EXCLUDED_ROUTES = new Set(['admin', 'api']);
 
   try {
     const items = fs.readdirSync(appDir, { withFileTypes: true });
@@ -51,7 +51,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           '2-minute-cashout',
           'blog',
           'sportsbook',
-          'withdrawal-proof-times',
         ].includes(route)
       ) {
         priority = 0.9;

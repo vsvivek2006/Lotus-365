@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/admin', '/admin/*', '/api/*', '/login', '/register'],
+        disallow: ['/admin', '/admin/*', '/api/*'],
       },
       {
         userAgent: [
@@ -21,7 +21,7 @@ export default function robots(): MetadataRoute.Robots {
           'Applebot-Extended',
         ],
         allow: '/',
-        disallow: ['/admin', '/admin/*', '/api/*', '/login', '/register'],
+        disallow: ['/admin', '/admin/*', '/api/*'],
       },
     ],
     sitemap: [

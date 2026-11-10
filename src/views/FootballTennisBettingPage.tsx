@@ -5,8 +5,9 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { ExchangeOddsWidget } from '../components/exchange/ExchangeOddsWidget';
 
-import { Star, HelpCircle } from 'lucide-react';
+import { Star, HelpCircle, Trophy, ShieldCheck, Zap } from 'lucide-react';
 
 const relatedFootball = [
   { href: '/sportsbook', label: 'Full Sportsbook', description: 'All sports markets in one hub' },
@@ -101,13 +102,39 @@ export const FootballBettingPage: React.FC = () => (
         title="Premier League & "
         highlight="Football Betting India"
         subtitle="Wager on over 500 global football leagues. From the English Premier League and UEFA Champions League to the Indian Super League (ISL), trade with 0% net commission and 2-minute cashouts."
+        imageSrc="/images/sports/football.svg"
+        imageAlt="Premier League and Football Betting India"
+        breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Football Betting' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
-          {/* Overview */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+          {/* Live Football Exchange Widget */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
+                  Live In-Play Order Board
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                  Real-Time Football Exchange Markets
+                </h2>
+              </div>
+              <span className="text-xs text-slate-400 font-mono hidden sm:inline-block">
+                Sub-50ms Match Odds Execution
+              </span>
+            </div>
+            <ExchangeOddsWidget
+              title="Manchester City vs Real Madrid — Champions League"
+              tournament="UEFA Champions League • Semi-Final 2nd Leg"
+              status="LIVE • 68' MIN"
+              score="MCI 2 - 1 RMA (Agg: 4 - 3) • 0% Overround Margin"
+            />
+          </div>
+
+          {/* Overview */}
+          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-white">
               The Ultimate Football Betting Experience in India
             </h2>
             <p>
@@ -305,13 +332,39 @@ export const TennisBettingPage: React.FC = () => (
         title="ATP, WTA & "
         highlight="Grand Slam Tennis Odds"
         subtitle="Experience point-by-point live tennis betting on Lotus365. Trade on Wimbledon, Roland Garros, US Open, Australian Open, and year-round ATP/WTA 1000 tournaments with 0% net commission."
+        imageSrc="/images/sports/tennis.svg"
+        imageAlt="ATP WTA and Grand Slam Tennis Odds"
+        breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Tennis Betting' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
-          {/* Overview */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+          {/* Live Tennis Exchange Widget */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
+                  Point-by-Point In-Play
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                  Grand Slam &amp; ATP Live Exchange Board
+                </h2>
+              </div>
+              <span className="text-xs text-slate-400 font-mono hidden sm:inline-block">
+                Sub-Second Service Game Liquidity
+              </span>
+            </div>
+            <ExchangeOddsWidget
+              title="Carlos Alcaraz vs Jannik Sinner — Wimbledon Men's Final"
+              tournament="The Championships, Wimbledon • Centre Court"
+              status="LIVE • SET 4"
+              score="ALC 6-4, 4-6, 7-6, 3-2 • SIN Serving (30-40)"
+            />
+          </div>
+
+          {/* Overview */}
+          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-white">
               Point-by-Point Tennis Trading on Lotus365
             </h2>
             <p>

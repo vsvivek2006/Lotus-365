@@ -50,7 +50,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
           aria-label="Get Instant WhatsApp ID"
         >
           <div className="w-14 h-14 rounded-full bg-[#F0C419] p-0.5 shadow-lg flex items-center justify-center transform active:scale-95 group-hover:scale-105 transition-transform">
-            <div className="w-full h-full rounded-full bg-[#14614C] flex items-center justify-center border border-[#F0C419]/40">
+            <div className="w-full h-full rounded-full bg-[#05120d] flex items-center justify-center border border-[#F0C419]/40">
               <MessageCircle className="w-6 h-6 text-[#F0C419] fill-[#F0C419]/25 animate-pulse" />
             </div>
           </div>

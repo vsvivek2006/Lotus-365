@@ -17,7 +17,7 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenAuth }) => {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C] relative overflow-hidden">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
       {/* Exact Bold CTA Card from https://lottuss365.co/ */}
       <div className="cta-section-bold max-w-5xl mx-auto p-8 sm:p-12 text-center relative z-10 border border-white/20 shadow-2xl">
         {/* Eyebrow Badge */}

@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 
 import { POPULAR_GAMES } from '../data/landingData';
 import { GameItem } from '../types';
-import { Flame, Users, Sparkles, ArrowRight, Dices, Plane, Trophy, Crown } from 'lucide-react';
+import { Flame, Users, Sparkles, ArrowRight, Dices, Plane, Trophy, Crown, Play } from 'lucide-react';
+import { AdaptiveImage } from '../components/common/AdaptiveImage';
 
 interface GameHubProps {
   onOpenAuth: (mode: 'login' | 'register') => void;
@@ -45,7 +46,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
   };
 
   return (
-    <section id="games" className="py-20 bg-[#14614C] border-t border-white/15 relative overflow-hidden">
+    <section id="games" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
@@ -97,52 +98,72 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
           {filteredGames.map((game) => (
             <div
               key={game.id}
-              className="bg-black/25 rounded-2xl overflow-hidden border border-white/15 hover:border-[#F0C419]/50 group flex flex-col justify-between transition-all"
+              className="luxury-glass-card overflow-hidden group flex flex-col justify-between"
             >
               {/* Card Banner / Art Visual */}
-              <div
-                className={`h-28 sm:h-36 bg-gradient-to-tr ${game.gradient} p-3 sm:p-4 relative flex items-center justify-center overflow-hidden`}
-              >
-                {/* Badge */}
-                {game.badge && (
-                  <span className="absolute top-2 left-2 sm:top-3 sm:left-3 text-[9px] sm:text-[10px] font-black px-1.5 sm:px-2 py-0.5 rounded-full bg-black/60 text-white backdrop-blur-md border border-white/20 shadow-md">
-                    {game.badge}
-                  </span>
+              <div className="relative aspect-[16/10] overflow-hidden bg-black/40">
+                {game.imageSrc ? (
+                  <AdaptiveImage
+                    src={game.imageSrc}
+                    alt={game.title}
+                    aspectRatio="16/9"
+                    className="group-hover:scale-108 transition-transform duration-300"
+                    containerClassName="h-full w-full rounded-none"
+                    overlayBadge={game.badge}
+                  />
+                ) : (
+                  <div className={`h-full w-full bg-gradient-to-tr ${game.gradient} p-3 flex items-center justify-center`}>
+                    <div className="w-12 h-12 rounded-xl bg-black/30 border border-white/20 flex items-center justify-center">
+                      {getGameIcon(game.iconType)}
+                    </div>
+                  </div>
                 )}
 
                 {/* Provider Pill */}
-                <span className="hidden sm:inline-block absolute top-3 right-3 text-[10px] font-medium px-2 py-0.5 rounded bg-black/40 text-white/80 backdrop-blur-sm">
+                <span className="absolute top-2.5 right-2.5 text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-black/70 text-white/90 backdrop-blur-sm border border-white/20 z-10">
                   {game.provider}
                 </span>
-
-                {/* Center Icon Graphic */}
-                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-black/25 backdrop-blur-sm border border-white/20 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-xl">
-                  {getGameIcon(game.iconType)}
-                </div>
               </div>
 
               {/* Card Info */}
-              <div className="p-3 sm:p-5 flex-1 flex flex-col justify-between">
+              <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-bold text-xs sm:text-base text-white group-hover:text-[#F0C419] transition-colors mb-1 truncate">
-                    {game.title}
+                  <h3 className="font-extrabold text-xs sm:text-base text-white group-hover:text-[#F0C419] transition-colors mb-1 truncate">
+                    {game.href ? (
+                      <Link href={game.href} title={game.title} className="hover:underline">
+                        {game.title}
+                      </Link>
+                    ) : (
+                      game.title
+                    )}
                   </h3>
                   <div className="flex items-center justify-between text-[10px] sm:text-xs text-white/75 mb-3">
                     <span className="text-[#F0C419] font-bold">RTP: {game.rtp}</span>
-                    <span className="hidden sm:flex items-center gap-1">
+                    <span className="flex items-center gap-1">
                       <Users className="w-3 h-3 text-white/50" />
                       {game.playersOnline.toLocaleString()}
                     </span>
                   </div>
                 </div>
 
-                <button
-                  onClick={() => onOpenAuth('register')}
-                  className="w-full py-2 sm:py-2 rounded-xl bg-white/10 hover:bg-[#F0C419] hover:text-[#14614C] text-white text-[11px] sm:text-xs font-bold transition-all border border-white/10 flex items-center justify-center gap-1 cursor-pointer"
-                >
-                  <span>Play ID</span>
-                  <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-                </button>
+                <div className="flex items-center gap-1.5">
+                  <button
+                    onClick={() => onOpenAuth('register')}
+                    className="flex-1 py-2 rounded-xl bg-[#F0C419] hover:bg-[#FFD000] text-[#14614C] text-[11px] sm:text-xs font-black transition-all shadow-sm flex items-center justify-center gap-1 cursor-pointer"
+                  >
+                    <Play className="w-3 h-3 fill-current" />
+                    <span>Play ID</span>
+                  </button>
+                  {game.href && (
+                    <Link
+                      href={game.href}
+                      className="px-2.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-[11px] font-bold transition-all border border-white/15"
+                      title="Rules & Guide"
+                    >
+                      Rules
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
           ))}

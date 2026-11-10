@@ -5,6 +5,7 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { PageHero } from '../components/layout/PageHero';
 import { PageCTA } from '../components/layout/PageCTA';
 import { RelatedPages } from '../components/layout/RelatedPages';
+import { CasinoTableShowcase } from '../components/casino/CasinoTableShowcase';
 
 import { Star, HelpCircle } from 'lucide-react';
 
@@ -63,10 +64,13 @@ export const TeenPattiPage: React.FC = () => (
         title="India's Most Loved "
         highlight="Teen Patti Real Money"
         subtitle="Play live 3 Patti with beautiful human dealers streaming in Full HD. Enjoy 20-20 Teen Patti, One-Day rules, Pair Plus side bets paying up to 1000x, and 2-minute UPI cashouts."
+        imageSrc="/images/games/teen-patti.svg"
+        imageAlt="Teen Patti Real Money Live 3 Patti Cash Games"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Teen Patti' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           {/* Overview */}
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -76,6 +80,9 @@ export const TeenPattiPage: React.FC = () => (
               Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
             </p>
           </div>
+
+          {/* Interactive Live Indian Tables Showcase */}
+          <CasinoTableShowcase initialCategory="indian" />
 
           {/* Hand Rankings */}
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
@@ -308,10 +315,13 @@ export const AndarBaharPage: React.FC = () => (
         title="India's Classic "
         highlight="Andar Bahar Live"
         subtitle="Experience India's most straightforward and thrilling heritage card game. Bet on Andar or Bahar with live human dealers, side bet multipliers up to 120x, and 2-minute cashouts."
+        imageSrc="/images/games/andar-bahar.svg"
+        imageAlt="Andar Bahar Real Money Live Card Game"
+        breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Andar Bahar' }]}
       />
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#14614C]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
           {/* Overview */}
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -321,6 +331,9 @@ export const AndarBaharPage: React.FC = () => (
               Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
             </p>
           </div>
+
+          {/* Interactive Live Indian Tables Showcase */}
+          <CasinoTableShowcase initialCategory="indian" />
 
           {/* Mathematical Probability */}
           <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
