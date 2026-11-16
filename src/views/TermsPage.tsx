@@ -15,7 +15,7 @@ const related = [
   { href: '/privacy-policy', label: 'Privacy Policy', description: 'How we protect your personal data' },
   { href: '/responsible-gaming', label: 'Responsible Gaming', description: 'Our safe gaming commitment' },
   { href: '/contact', label: 'Contact Support', description: '24/7 WhatsApp support desk' },
-  { href: '/faq', label: 'FAQ', description: 'Frequently asked questions' },
+  { href: '/how-it-works', label: 'FAQ', description: 'Frequently asked questions' },
 ];
 
 const termsFaqs = [

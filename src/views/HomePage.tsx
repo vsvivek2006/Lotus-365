@@ -4,6 +4,8 @@ import { SEOHead } from '../components/seo/SEOHead';
 import { TopBar } from '../sections/TopBar';
 import { Header } from '../components/Header';
 import { HeroSection } from '../sections/HeroSection';
+import { PopularSectionsBar } from '../components/navigation/PopularSectionsBar';
+import { MatchCentreWidget } from '../components/cricket/MatchCentreWidget';
 import { LiveTickerSection } from '../sections/LiveTickerSection';
 import { WhyChooseSection } from '../sections/WhyChooseSection';
 import { GameHubSection } from '../sections/GameHubSection';
@@ -84,11 +86,17 @@ export const HomePage: React.FC = () => {
         keywords="lotus365, lotus365 login, lotus365 sign up, cricket betting, live casino india, online betting india"
         schema={homeSchema}
       />
-      <div className="min-h-screen bg-brand-dark text-slate-100 flex flex-col selection:bg-brand-gold selection:text-black">
+      <div className="min-h-screen bg-white text-slate-900 flex flex-col selection:bg-emerald-600 selection:text-white">
         <TopBar />
         <Header onOpenAuth={handleOpenAuth} />
         <main className="flex-1 pb-16 md:pb-0">
           <HeroSection onOpenAuth={handleOpenAuth} />
+          <PopularSectionsBar onOpenAuth={handleOpenAuth} />
+          <div className="bg-[#042a1c] py-10 border-b border-emerald-900/50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <MatchCentreWidget onOpenAuth={handleOpenAuth} />
+            </div>
+          </div>
           <LiveTickerSection onOpenAuth={handleOpenAuth} />
           <WhyChooseSection onOpenAuth={handleOpenAuth} />
           <GameHubSection onOpenAuth={handleOpenAuth} />

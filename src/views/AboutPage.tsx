@@ -20,7 +20,7 @@ import {
 
 
 const related = [
-  { href: '/lotus365-review', label: 'Lotus365 Review 2026', description: 'Full honest review of the Lotus365 platform' },
+  { href: '/about', label: 'Lotus365 Review 2026', description: 'Full honest review of the Lotus365 platform' },
   { href: '/cricket-betting', label: 'Cricket Betting', description: 'Bet on live IPL and T20 cricket matches' },
   { href: '/live-casino', label: 'Live Casino', description: 'Teen Patti, Roulette, Blackjack & more' },
   { href: '/vip-club', label: 'VIP Club', description: 'Exclusive rewards for high-value members' },

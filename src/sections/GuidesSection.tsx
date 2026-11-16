@@ -12,13 +12,13 @@ export const GuidesSection: React.FC<GuidesProps> = ({ onOpenAuth }) => {
   const getGuideHref = (slug: string) => {
     switch (slug) {
       case 'lotus365-blue-comparison':
-        return '/lotus365-vs-competitors';
+        return '/about';
       case 'cricket-exchange-guide':
         return '/cricket-exchange';
       case 'vip-perks-guide':
         return '/vip-club';
       default:
-        return '/betting-tips';
+        return '/blog';
     }
   };
 

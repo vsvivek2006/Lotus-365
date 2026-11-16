@@ -12,10 +12,10 @@ import { HelpCircle, Zap, Trophy, ShieldCheck, TrendingUp, Star } from 'lucide-r
 const related = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'Live cricket odds across all formats' },
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: '0% commission P2P cricket trading' },
-  { href: '/t20-world-cup-betting', label: 'T20 World Cup', description: 'International T20 tournament odds' },
-  { href: '/back-and-lay-betting', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
-  { href: '/welcome-bonus', label: 'IPL Welcome Bonus', description: 'First deposit bonus offer on IPL' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI withdrawal of winnings' },
+  { href: '/cricket-betting', label: 'T20 World Cup', description: 'International T20 tournament odds' },
+  { href: '/cricket-exchange', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
+  { href: '/vip-club', label: 'IPL Welcome Bonus', description: 'First deposit bonus offer on IPL' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Instant UPI withdrawal of winnings' },
 ];
 
 const iplFaqs = [
@@ -285,7 +285,7 @@ export const IplBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-2xl font-black text-[#F0C419] mb-1">04</div>
                 <div className="font-bold text-white mb-1">Instant Cashout</div>
-                <p className="text-white/70">Withdraw winnings with our guaranteed <Link href="/2-minute-cashout" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link> directly to your bank account.</p>
+                <p className="text-white/70">Withdraw winnings with our guaranteed <Link href="/how-to-withdraw" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link> directly to your bank account.</p>
               </div>
             </div>
           </div>

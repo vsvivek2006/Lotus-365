@@ -12,14 +12,14 @@ import { Calculator, HelpCircle, ShieldCheck, Zap, HeartHandshake, ShieldAlert, 
 const strategyRelated = [
   { href: '/cricket-betting', label: 'Cricket Betting Tips', description: 'Expert match analysis and trading strategies' },
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: 'Peer-to-peer back & lay trading platform' },
-  { href: '/back-and-lay-betting', label: 'Back & Lay Guide', description: 'Master exchange trading mechanics' },
+  { href: '/cricket-exchange', label: 'Back & Lay Guide', description: 'Master exchange trading mechanics' },
   { href: '/how-it-works', label: 'How It Works', description: 'Complete platform onboarding guide' },
   { href: '/responsible-gaming', label: 'Responsible Gaming', description: 'Player protection tools and limits' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant automated UPI withdrawal guarantee' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Instant automated UPI withdrawal guarantee' },
 ];
 
 // ==========================================
-// 43. BETTING ODDS CALCULATOR PAGE (/betting-odds-calculator)
+// 43. BETTING ODDS CALCULATOR PAGE (/cricket-exchange)
 // ==========================================
 const oddsCalcFaqs = [
   { q: 'How do decimal betting odds work on Lotus365?', a: 'Decimal odds represent the total payout per unit staked (Stake × Decimal Odds). For example, a ₹1,000 stake at 2.50 odds returns ₹2,500 total (₹1,500 net profit + ₹1,000 stake).' },
@@ -34,7 +34,7 @@ export const BettingOddsCalculatorPage: React.FC = () => (
     <SEOHead
       title="Betting Odds Calculator | Decimal, Fractional & Payouts"
       description="Convert betting odds and calculate exact payouts on Lotus365. Decimal vs fractional vs American odds formulas, implied probability, and 2-minute cashouts."
-      canonical="/betting-odds-calculator"
+      canonical="/cricket-exchange"
       keywords="betting odds calculator, decimal odds converter, how to calculate betting payouts, implied probability calculator, cricket odds math, lotus365 calculator"
       faqItems={oddsCalcFaqs}
     />
@@ -135,7 +135,7 @@ export const BettingOddsCalculatorPage: React.FC = () => (
               </table>
             </div>
             <p>
-              To apply these formulas to multi-selection hedging, read our <Link href="/dutching-calculator-guide" className="text-[#F0C419] underline font-semibold" title="Dutching Strategy Guide">Dutching Strategy Guide</Link>.
+              To apply these formulas to multi-selection hedging, read our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Dutching Strategy Guide">Dutching Strategy Guide</Link>.
             </p>
           </div>
 
@@ -189,7 +189,7 @@ export const BettingOddsCalculatorPage: React.FC = () => (
 );
 
 // ==========================================
-// 44. DUTCHING CALCULATOR GUIDE PAGE (/dutching-calculator-guide)
+// 44. DUTCHING CALCULATOR GUIDE PAGE (/cricket-exchange)
 // ==========================================
 const dutchingFaqs = [
   { q: 'What is Dutching in sports betting?', a: 'Dutching is a risk-hedging technique where you split your total stake across multiple selections in the same event so that you make the exact same net profit regardless of which selection wins.' },
@@ -204,7 +204,7 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
     <SEOHead
       title="Dutching Calculator Guide | Multi-Runner Hedging Tactics"
       description="Master Dutching betting on Lotus365. Learn how to divide stakes across multiple cricket selections for guaranteed identical profit and 2-minute cashouts."
-      canonical="/dutching-calculator-guide"
+      canonical="/cricket-exchange"
       keywords="dutching calculator, dutching betting guide, how to dutch bet cricket, multi runner hedging, dutching formula, risk free dutching betting"
       faqItems={dutchingFaqs}
     />
@@ -495,7 +495,7 @@ export const IplTeamsBettingOddsPage: React.FC = () => (
 );
 
 // ==========================================
-// 46. CRICKET BETTING GLOSSARY PAGE (/cricket-betting-glossary)
+// 46. CRICKET BETTING GLOSSARY PAGE (/cricket-betting)
 // ==========================================
 const glossaryFaqs = [
   { q: 'What does "Khai" and "Lagai" mean in Indian cricket betting?', a: 'Lagai means betting FOR a team to win (Back), while Khai means betting AGAINST a team (Lay/Sell). They are foundational Hindi exchange terms.' },
@@ -510,7 +510,7 @@ export const CricketBettingGlossaryPage: React.FC = () => (
     <SEOHead
       title="Cricket Betting Glossary A-Z | Khai, Lagai, Lambi Terms"
       description="Master Indian cricket betting terminology on Lotus365. Comprehensive A-Z definitions: Khai, Lagai, Lambi, Session, Back, Lay, and DLS rules explained."
-      canonical="/cricket-betting-glossary"
+      canonical="/cricket-betting"
       keywords="cricket betting glossary, khai lagai meaning, lambi pari definition, cricket betting terms a-z, dabba rate cricket, betting exchange terminology"
       faqItems={glossaryFaqs}
     />

@@ -103,7 +103,7 @@ export const LiveCasinoPage: React.FC = () => (
                 { icon: '🎡', name: 'Lightning Roulette', href: '/roulette', desc: 'Random high-voltage RNG lightning strikes boost straight-up numbers with 50x to 500x payout multipliers.' },
                 { icon: '♠️', name: 'Live Blackjack', href: '/blackjack', desc: 'Over 50 live tables including Infinite Blackjack, Perfect Pairs, and 21+3 side bets with 99.5% RTP.' },
                 { icon: '🎲', name: 'Live Baccarat', href: '/baccarat', desc: 'Squeeze and Speed Baccarat tables. Bet Banker at 1.06% house edge with 0% commission variants.' },
-                { icon: '🐉', name: 'Dragon Tiger', href: '/dragon-tiger', desc: 'The two-card speed duel: Dragon vs Tiger. Pure intuition with lightning-fast 15-second betting rounds.' },
+                { icon: '🐉', name: 'Dragon Tiger', href: '/baccarat', desc: 'The two-card speed duel: Dragon vs Tiger. Pure intuition with lightning-fast 15-second betting rounds.' },
                 { icon: '✈️', name: 'Aviator Crash', href: '/aviator-game', desc: 'India\'s #1 crash game by Spribe. 98.5% RTP provably fair multiplier action with instant manual cashout.' },
                 { icon: '🎰', name: 'Casino Slots', href: '/casino-slots', desc: '500+ premium video slots featuring Megaways, cascading reels, progressive jackpots, and bonus buy.' },
                 { icon: '🎯', name: 'Color Prediction', href: '/color-prediction', desc: 'Fast-paced colour selection rounds (Red, Green, Violet) with instant mathematical prize multipliers.' },
@@ -193,7 +193,7 @@ export const LiveCasinoPage: React.FC = () => (
               <span>Casino Pro Tip: The Stop-Loss & Target Profit Rule</span>
             </div>
             <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
-              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link href="/2-minute-cashout" className="text-[#F0C419] underline font-semibold" title="2-minute cashout desk">2-minute cashout desk</Link> to lock in your real-money gains!
+              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link href="/how-to-withdraw" className="text-[#F0C419] underline font-semibold" title="2-minute cashout desk">2-minute cashout desk</Link> to lock in your real-money gains!
             </p>
           </div>
 

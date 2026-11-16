@@ -22,8 +22,8 @@ import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 const related = [
   { href: '/how-it-works', label: 'How It Works', description: 'Step-by-step guide to getting started' },
-  { href: '/payment-methods', label: 'Payment Methods', description: 'UPI, IMPS, and other deposit options' },
-  { href: '/faq', label: 'FAQ', description: 'Frequently asked questions about Lotus365' },
+  { href: '/how-to-deposit', label: 'Payment Methods', description: 'UPI, IMPS, and other deposit options' },
+  { href: '/how-it-works', label: 'FAQ', description: 'Frequently asked questions about Lotus365' },
   { href: '/responsible-gaming', label: 'Responsible Gaming', description: 'Play safely within your limits' },
 ];
 

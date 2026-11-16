@@ -12,10 +12,10 @@ import { Smartphone, HelpCircle, ShieldCheck, Zap, Lock, CreditCard, Clock, Chec
 const bankingRelated = [
   { href: '/how-to-deposit', label: 'Deposit Overview', description: 'Complete step-by-step deposit guide' },
   { href: '/how-to-withdraw', label: 'Withdrawal Guide', description: 'Instant cashout instructions' },
-  { href: '/upi-deposit', label: 'UPI Fast Deposit', description: 'QR code and UPI VPA payment methods' },
-  { href: '/imps-withdrawal', label: 'IMPS Bank Transfer', description: 'Direct 24/7 bank account settlement' },
-  { href: '/payment-methods', label: 'All Payment Methods', description: 'Comparison of all supported channels' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Our fast payout guarantee and proofs' },
+  { href: '/how-to-deposit', label: 'UPI Fast Deposit', description: 'QR code and UPI VPA payment methods' },
+  { href: '/how-to-withdraw', label: 'IMPS Bank Transfer', description: 'Direct 24/7 bank account settlement' },
+  { href: '/how-to-deposit', label: 'All Payment Methods', description: 'Comparison of all supported channels' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Our fast payout guarantee and proofs' },
 ];
 
 // ==========================================
@@ -46,7 +46,7 @@ export const PhonePeDepositPage: React.FC = () => (
         subtitle="Fund your Lotus365 account in under 60 seconds using India's most popular UPI app. Zero extra fees, instant QR scanning, and 2-minute cashouts."
         imageSrc="/images/payments/phonepe.svg"
         imageAlt="PhonePe Deposit Guide for Lotus365"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'PhonePe Deposit' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'PhonePe Deposit' }]}
       />
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
@@ -171,7 +171,7 @@ export const GooglePayDepositPage: React.FC = () => (
         subtitle="Enjoy seamless, bank-grade UPI payments with Google Pay. Scan, pay, submit your 12-digit UTR, and start trading on India's premier exchange in 60 seconds."
         imageSrc="/images/payments/gpay.svg"
         imageAlt="Google Pay Deposit Guide for Lotus365"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Google Pay Deposit' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Google Pay Deposit' }]}
       />
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
@@ -297,7 +297,7 @@ export const PaytmDepositPage: React.FC = () => (
         subtitle="Fund your Lotus365 account using Paytm UPI. Enjoy fast QR scanning, instant balance credit in under 60 seconds, and 2-minute UPI cashouts."
         imageSrc="/images/payments/paytm.svg"
         imageAlt="Paytm Deposit Guide for Lotus365"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Paytm Deposit' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Paytm Deposit' }]}
       />
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
@@ -345,7 +345,7 @@ export const PaytmDepositPage: React.FC = () => (
               Once your payment completes successfully in Paytm, open the receipt and locate the line labeled <strong className="text-white">UPI Ref No.</strong> (e.g., 4256XXXXXXXX). Copy this exact 12-digit sequence and share it with your WhatsApp agent.
             </p>
             <p>
-              Review all banking avenues at <Link href="/payment-methods" className="text-[#F0C419] underline font-semibold" title="Payment Methods Overview">Payment Methods Overview</Link>.
+              Review all banking avenues at <Link href="/how-to-deposit" className="text-[#F0C419] underline font-semibold" title="Payment Methods Overview">Payment Methods Overview</Link>.
             </p>
           </div>
 
@@ -426,7 +426,7 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
         subtitle="Designed for serious sports traders and high-volume VIP players. Move large capital securely with dedicated corporate bank accounts and zero transaction ceilings."
         imageSrc="/images/payments/imps.svg"
         imageAlt="NEFT and RTGS Bank Transfers for Lotus365"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'NEFT & RTGS' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'NEFT & RTGS' }]}
       />
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
@@ -474,7 +474,7 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
               Contact our exclusive VIP desk via WhatsApp and mention your intended transfer amount. Your concierge will issue a dedicated Current Account number, Beneficiary Name, and IFSC code. Once you execute the wire from your net banking portal, submit the bank confirmation receipt for rapid credit.
             </p>
             <p>
-              Discover all exclusive VIP privileges at our <Link href="/vip-black-card" className="text-[#F0C419] underline font-semibold" title="VIP Black Card Portal">VIP Black Card Portal</Link>.
+              Discover all exclusive VIP privileges at our <Link href="/vip-club" className="text-[#F0C419] underline font-semibold" title="VIP Black Card Portal">VIP Black Card Portal</Link>.
             </p>
           </div>
 
@@ -525,7 +525,7 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
 );
 
 // ==========================================
-// 33. CRYPTO DEPOSIT USDT PAGE (/crypto-deposit-usdt)
+// 33. CRYPTO DEPOSIT USDT PAGE (/how-to-deposit)
 // ==========================================
 const cryptoFaqs = [
   { q: 'Can I deposit cryptocurrency on Lotus365?', a: 'Yes! Lotus365 supports USDT (Tether) deposits on both TRC20 (Tron) and BEP20 (Binance Smart Chain) networks for maximum speed and near-zero network gas fees.' },
@@ -540,7 +540,7 @@ export const CryptoDepositUsdtPage: React.FC = () => (
     <SEOHead
       title="USDT Crypto Deposits | Fast TRC20 & BEP20 Transfers"
       description="Deposit and withdraw USDT cryptocurrency on Lotus365. Enjoy TRC20 speed, near-zero gas fees, maximum financial privacy, and 2-minute withdrawals."
-      canonical="/crypto-deposit-usdt"
+      canonical="/how-to-deposit"
       keywords="usdt betting deposit, crypto betting india, tether trc20 betting, usdt deposit lotus365, bitcoin betting exchange, crypto sports betting"
       faqItems={cryptoFaqs}
     />
@@ -552,7 +552,7 @@ export const CryptoDepositUsdtPage: React.FC = () => (
         subtitle="Fund your gaming balance using USDT on TRC20 and BEP20 networks. Enjoy unmatched privacy, negligible network fees, and instant blockchain settlements."
         imageSrc="/images/payments/usdt-crypto.svg"
         imageAlt="USDT Crypto Deposits on Lotus365"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Crypto USDT' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Crypto USDT' }]}
       />
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
@@ -684,7 +684,7 @@ export const WithdrawalProofTimesPage: React.FC = () => (
         subtitle="We don't just promise fast payouts—we prove it. Transparent withdrawal settlement telemetry, 24/7 automated UPI rails, and 100% payout guarantees."
         imageSrc="/images/payments/imps.svg"
         imageAlt="Withdrawal Proofs and SLA Times Average 105 Seconds"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'Withdrawal Proofs' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Withdrawal Proofs' }]}
       />
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
         <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
@@ -757,7 +757,7 @@ export const WithdrawalProofTimesPage: React.FC = () => (
               </table>
             </div>
             <p>
-              Read more on our payout policies at <Link href="/2-minute-cashout" className="text-[#F0C419] underline font-semibold" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>.
+              Read more on our payout policies at <Link href="/how-to-withdraw" className="text-[#F0C419] underline font-semibold" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>.
             </p>
           </div>
 

@@ -28,7 +28,7 @@ const bonusRelated = [
   { href: '/how-it-works', label: 'How It Works', description: 'Get your WhatsApp ID in 2 minutes' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Fund your account via UPI' },
   { href: '/vip-club', label: 'VIP Club', description: 'Exclusive member rewards' },
-  { href: '/referral-bonus', label: 'Referral Bonus', description: 'Earn by inviting friends' },
+  { href: '/vip-club', label: 'Referral Bonus', description: 'Earn by inviting friends' },
 ];
 
 const welcomeBonusFaqs = [
@@ -63,7 +63,7 @@ export const WelcomeBonusPage: React.FC = () => (
     <SEOHead 
       title="Lotus365 Welcome Bonus | 100% First Deposit Match" 
       description="Claim your 100% Welcome Bonus up to ₹5,000 on Lotus365! Instant bonus crediting upon first deposit, fair wagering requirements, and 2-minute UPI cashouts." 
-      canonical="/welcome-bonus" 
+      canonical="/vip-club" 
       keywords="lotus365 welcome bonus, lotus365 new member bonus, lotus365 first deposit bonus, lotus365 bonus offer india, betting welcome bonus india, 100% deposit bonus" 
       faqItems={welcomeBonusFaqs}
     />
@@ -76,7 +76,7 @@ export const WelcomeBonusPage: React.FC = () => (
         ctaLabel="Claim Bonus via WhatsApp" 
         imageSrc="/images/vip/card-gold.svg"
         imageAlt="New Member Welcome Bonus Package"
-        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'Welcome Bonus' }]}
+        breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'Welcome Bonus' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -358,7 +358,7 @@ export const FirstDepositBonusPage: React.FC = () => (
         ctaLabel="Claim First Deposit Bonus" 
         imageSrc="/images/vip/card-silver.svg"
         imageAlt="First Deposit Bonus Booster"
-        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'First Deposit Bonus' }]}
+        breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'First Deposit Bonus' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -584,7 +584,7 @@ export const ReferralBonusPage: React.FC = () => (
     <SEOHead 
       title="Lotus365 Referral Program | Refer & Earn Real Cash" 
       description="Earn unlimited real cash bonuses by referring friends to Lotus365! Get cash rewards for every active referral with instant withdrawal eligibility via UPI." 
-      canonical="/referral-bonus" 
+      canonical="/vip-club" 
       keywords="lotus365 referral bonus, lotus365 refer a friend, lotus365 affiliate, invite friends betting india, earn money betting referral, betting affiliate program india" 
       faqItems={referralBonusFaqs}
     />
@@ -597,7 +597,7 @@ export const ReferralBonusPage: React.FC = () => (
         ctaLabel="Get Your Referral Link on WhatsApp" 
         imageSrc="/images/vip/card-bronze.svg"
         imageAlt="Referral and Affiliate Rewards Program"
-        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'Referral Bonus' }]}
+        breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'Referral Bonus' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -841,7 +841,7 @@ export const CashbackOffersPage: React.FC = () => (
     <SEOHead 
       title="Weekly Betting Cashback | Up to 15% Loss Protection" 
       description="Play with confidence on Lotus365. Enjoy up to 15% weekly loss cashback credited automatically to your account every Monday with zero turnover hurdles." 
-      canonical="/cashback-offers" 
+      canonical="/vip-club" 
       keywords="cashback betting india, lotus365 cashback, weekly cashback betting, cricket cashback offer india, casino loss rebate, betting insurance india" 
       faqItems={cashbackOffersFaqs}
     />
@@ -854,7 +854,7 @@ export const CashbackOffersPage: React.FC = () => (
         ctaLabel="Learn More on WhatsApp" 
         imageSrc="/images/vip/card-platinum.svg"
         imageAlt="Weekly Loss Cashback Offers"
-        breadcrumbs={[{ label: 'Promotions', href: '/welcome-bonus' }, { label: 'Cashback Offers' }]}
+        breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'Cashback Offers' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -1318,8 +1318,8 @@ export const VipClubPage: React.FC = () => (
       </section>
 
       <RelatedPages pages={[
-        { href: '/vip-black-card', label: 'VIP Black Card', description: 'The ultimate Lotus365 membership' },
-        { href: '/cashback-offers', label: 'Cashback Offers', description: 'Weekly cashback for all members' },
+        { href: '/vip-club', label: 'VIP Black Card', description: 'The ultimate Lotus365 membership' },
+        { href: '/vip-club', label: 'Cashback Offers', description: 'Weekly cashback for all members' },
         { href: '/cricket-betting', label: 'Cricket Betting', description: 'VIP tables and higher limits' },
         { href: '/live-casino', label: 'Live Casino', description: 'Exclusive VIP casino tables' },
       ]} />
@@ -1357,7 +1357,7 @@ export const VipBlackCardPage: React.FC = () => (
     <SEOHead 
       title="Lotus365 VIP Black Card | Ultra-Exclusive Membership" 
       description="Experience the peak of sports trading luxury with the Lotus365 VIP Black Card. 0% exchange fees, unlimited daily transaction volumes, and private concierge." 
-      canonical="/vip-black-card" 
+      canonical="/vip-club" 
       keywords="lotus365 vip black card, lotus365 black card, lotus365 elite membership, vip black card india betting, high stakes cricket betting, ultra luxury betting" 
       faqItems={vipBlackCardFaqs}
     />
@@ -1560,7 +1560,7 @@ export const VipBlackCardPage: React.FC = () => (
 
       <RelatedPages pages={[
         { href: '/vip-club', label: 'VIP Club', description: 'Standard VIP membership levels' },
-        { href: '/cashback-offers', label: 'Cashback Offers', description: 'Weekly cashback program' },
+        { href: '/vip-club', label: 'Cashback Offers', description: 'Weekly cashback program' },
         { href: '/contact', label: 'Contact VIP Desk', description: 'Apply for Black Card status' },
         { href: '/cricket-betting', label: 'Cricket Betting', description: 'Bet with maximum limits' },
       ]} />

@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
 import { Lock, MessageCircle, Crown, Zap, ShieldCheck, Sparkles } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -19,7 +20,18 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenAuth }) => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
       {/* Exact Bold CTA Card from https://lottuss365.co/ */}
-      <div className="cta-section-bold max-w-5xl mx-auto p-8 sm:p-12 text-center relative z-10 border border-white/20 shadow-2xl">
+      <div className="cta-section-bold max-w-5xl mx-auto p-8 sm:p-12 text-center relative z-10 border border-white/20 shadow-2xl overflow-hidden">
+        {/* Soft Dissolved Stadium Atmosphere */}
+        <div className="absolute inset-0 opacity-20 mix-blend-screen pointer-events-none rounded-3xl overflow-hidden">
+          <Image
+            src="/images/banners/team_huddle_clean.jpg"
+            alt="Cricket Action"
+            fill
+            className="object-cover object-center scale-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#05120d] via-transparent to-[#05120d]" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#05120d] via-transparent to-[#05120d]" />
+        </div>
         {/* Eyebrow Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/25 border border-[#F0C419]/30 text-xs font-extrabold text-[#F0C419] uppercase tracking-wider mb-6">
           <Sparkles className="w-4 h-4 text-[#F0C419]" />

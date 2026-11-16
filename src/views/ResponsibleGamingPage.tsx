@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 
 const related = [
-  { href: '/faq', label: 'FAQ', description: 'Common questions about Lotus365' },
+  { href: '/how-it-works', label: 'FAQ', description: 'Common questions about Lotus365' },
   { href: '/contact', label: 'Contact Support', description: '24/7 WhatsApp customer support' },
   { href: '/about', label: 'About Lotus365', description: 'Learn about our platform' },
   { href: '/how-it-works', label: 'How It Works', description: 'Platform onboarding guide' },

@@ -5,16 +5,17 @@
 @layer base {
   :root {
     color-scheme: dark;
-    --lotus-bg: #05120d;
-    --lotus-surface: #0a2218;
-    --lotus-surface-elevated: #0f3023;
-    --lotus-green: #14614C;
-    --lotus-green-dark: #0D4939;
-    --lotus-green-deep: #09382B;
+    --lotus-bg: #022319;
+    --lotus-surface: #063d2c;
+    --lotus-surface-elevated: #0a4f3a;
+    --lotus-emerald-primary: #059669;
+    --lotus-emerald-light: #10b981;
+    --lotus-emerald-dark: #044e37;
+    --lotus-emerald-deep: #022319;
     --lotus-yellow: #F0C419;
     --lotus-yellow-bright: #FFD000;
     --lotus-gold-gradient: linear-gradient(135deg, #F0C419 0%, #FFE78A 50%, #D4A30B 100%);
-    --lotus-offwhite: #FFFAE5;
+    --lotus-offwhite: #F8FAFC;
     --lotus-white: #FFFFFF;
   }
   
@@ -23,37 +24,123 @@
     -webkit-tap-highlight-color: transparent;
   }
 
-  /* Luxury Obsidian Emerald Atmosphere */
+  /* Luxury Emerald Stadium Atmosphere (Matching Mockup Reference) */
   body {
-    background-color: #05120d;
+    background-color: #022319;
     color: #F1F5F9;
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     line-height: 1.65;
     background-image: 
-      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(20, 97, 76, 0.25), transparent),
-      radial-gradient(circle at 100% 30%, rgba(240, 196, 25, 0.05), transparent 40%);
+      radial-gradient(ellipse 90% 60% at 50% -15%, rgba(16, 185, 129, 0.28), transparent),
+      radial-gradient(circle at 100% 25%, rgba(5, 150, 105, 0.15), transparent 50%),
+      radial-gradient(circle at 0% 75%, rgba(240, 196, 25, 0.04), transparent 45%);
     background-attachment: fixed;
     min-height: 100vh;
   }
 
-  /* Custom scrollbar in Lotus Gold & Emerald */
+  /* Custom scrollbar in Lotus Emerald & Gold */
   ::-webkit-scrollbar {
     width: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: #05120d;
+    background: #022319;
   }
   ::-webkit-scrollbar-thumb {
-    background: #103325;
+    background: #0a4f3a;
     border-radius: 4px;
-    border: 1px solid rgba(240, 196, 25, 0.2);
+    border: 1px solid rgba(16, 185, 129, 0.3);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #F0C419;
+    background: #10b981;
   }
 }
 
 @layer components {
+  /* Fade-in animation for dropdowns */
+  .animate-fadeIn {
+    animation: fadeInDown 0.18s ease-out forwards;
+  }
+
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Emerald Green Pill Button (Direct from ChatGPT Mockup Reference) */
+  .emerald-pill-btn {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    color: #FFFFFF;
+    padding: 12px 28px;
+    border-radius: 9999px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 4px 18px rgba(5, 150, 105, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+  }
+
+  .emerald-pill-btn:hover {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(16, 185, 129, 0.5);
+  }
+
+  /* WhatsApp Emerald Pill Button */
+  .whatsapp-pill-btn {
+    background-color: #25D366;
+    color: #FFFFFF;
+    padding: 12px 28px;
+    border-radius: 9999px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+  }
+
+  .whatsapp-pill-btn:hover {
+    background-color: #20ba5a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(37, 211, 102, 0.5);
+  }
+
+  /* VIP Gold Pill Button */
+  .gold-pill-btn {
+    background: linear-gradient(135deg, #F0C419 0%, #D4A30B 100%);
+    color: #022319;
+    padding: 10px 24px;
+    border-radius: 9999px;
+    font-size: 0.9rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: 0 4px 15px rgba(240, 196, 25, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+  }
+
+  .gold-pill-btn:hover {
+    background: linear-gradient(135deg, #FFD000 0%, #F0C419 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(240, 196, 25, 0.5);
+  }
+
   /* Reference Site CTA Button Style */
   .cta-button {
     background-color: #F0C419;

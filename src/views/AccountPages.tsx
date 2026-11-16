@@ -23,7 +23,7 @@ import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 const accountRelated = [
   { href: '/login', label: 'How to Login', description: 'Step-by-step login guide' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'UPI and IMPS deposit guide' },
-  { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim your registration bonus' },
+  { href: '/vip-club', label: 'Welcome Bonus', description: 'Claim your registration bonus' },
   { href: '/how-it-works', label: 'How It Works', description: 'Full onboarding walkthrough' },
 ];
 

@@ -13,15 +13,15 @@ const relatedFootball = [
   { href: '/sportsbook', label: 'Full Sportsbook', description: 'All sports markets in one hub' },
   { href: '/cricket-betting', label: 'Cricket Betting', description: 'Live cricket odds & IPL exchange' },
   { href: '/tennis-betting', label: 'Tennis Betting', description: 'ATP, WTA & Grand Slam live odds' },
-  { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'First deposit bonus for new members' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI cashout of winnings' },
+  { href: '/vip-club', label: 'Welcome Bonus', description: 'First deposit bonus for new members' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Instant UPI cashout of winnings' },
 ];
 
 const relatedTennis = [
   { href: '/football-betting', label: 'Football Betting', description: 'Premier League & Champions League' },
   { href: '/sportsbook', label: 'Full Sportsbook', description: 'Explore all 40+ sporting disciplines' },
   { href: '/cricket-betting', label: 'Cricket Betting', description: 'India\'s #1 cricket exchange' },
-  { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim your deposit match bonus' },
+  { href: '/vip-club', label: 'Welcome Bonus', description: 'Claim your deposit match bonus' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Instant UPI deposit guide' },
 ];
 

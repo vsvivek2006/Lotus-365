@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 
 import { KEY_FEATURES } from '../data/landingData';
@@ -39,8 +40,8 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
     {
       title: 'Guaranteed Fund Security & Fast Payouts',
       description: 'We safeguard every rupee with 256-bit SSL encryption. Your balance is 100% protected, and when you win, your cashout arrives in your UPI account in under 2 minutes.',
-      linkHref: '/faq',
-      linkText: 'View Safety & Payout FAQ →',
+      linkHref: '/how-to-withdraw',
+      linkText: 'View 2-Min Cashout Guarantee →',
     },
     {
       title: 'Lightning-Fast Play on Any Device',
@@ -107,7 +108,17 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
 
           {/* Right Column: Platform SLA Showcase */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="p-6 sm:p-8 rounded-3xl bg-black/30 border border-white/20 text-center relative overflow-hidden shadow-xl">
+            <div className="p-6 sm:p-8 rounded-3xl bg-black/40 border border-white/20 text-center relative overflow-hidden shadow-2xl">
+              {/* Soft Dissolved Sports Stars Artwork */}
+              <div className="absolute inset-0 opacity-15 mix-blend-screen pointer-events-none">
+                <Image
+                  src="/images/banners/hero_players_duo.jpg"
+                  alt="Sports Champions"
+                  fill
+                  className="object-cover object-center"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/80" />
+              </div>
               <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-[#F0C419] text-[#14614C] flex items-center justify-center shadow-lg font-black text-2xl">
                 365
               </div>

@@ -22,10 +22,10 @@ import {
 
 const paymentRelated = [
   { href: '/how-to-withdraw', label: 'How to Withdraw', description: '2-minute guaranteed cashout guide' },
-  { href: '/upi-deposit', label: 'UPI Deposit', description: 'Instant UPI deposit step-by-step' },
-  { href: '/imps-withdrawal', label: 'IMPS Withdrawal', description: 'IMPS bank transfer guide' },
-  { href: '/payment-methods', label: 'All Payment Methods', description: 'Full list of supported methods' },
-  { href: '/2-minute-cashout', label: '2-Min Cashout', description: 'Our guaranteed withdrawal speed' },
+  { href: '/how-to-deposit', label: 'UPI Deposit', description: 'Instant UPI deposit step-by-step' },
+  { href: '/how-to-withdraw', label: 'IMPS Withdrawal', description: 'IMPS bank transfer guide' },
+  { href: '/how-to-deposit', label: 'All Payment Methods', description: 'Full list of supported methods' },
+  { href: '/how-to-withdraw', label: '2-Min Cashout', description: 'Our guaranteed withdrawal speed' },
 ];
 
 const howToDepositFaqs = [
@@ -72,7 +72,7 @@ export const HowToDepositPage: React.FC = () => (
         subtitle="Add funds to your Lotus365 balance in under 60 seconds using UPI, PhonePe, Google Pay, Paytm, or direct IMPS bank transfer. Minimum deposit is just ₹100 with zero transaction fees." 
         imageSrc="/images/payments/upi.svg"
         imageAlt="How to Deposit on Lotus365 via UPI"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'How to Deposit' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'How to Deposit' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -90,7 +90,7 @@ export const HowToDepositPage: React.FC = () => (
               Whether you prefer depositing via <strong>PhonePe, Google Pay, Paytm, BHIM, CRED UPI</strong>, or instant <strong>IMPS net banking</strong>, our process eliminates confusing third-party payment gateways that trigger bank declines. Lotus365 charges exactly 0% in deposit fees, meaning 100% of your hard-earned rupees go straight toward your betting bankroll.
             </p>
             <p>
-              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/welcome-bonus" className="text-[#F0C419] font-semibold hover:underline" title="100% First Deposit Welcome Bonus">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,00,000!
+              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/vip-club" className="text-[#F0C419] font-semibold hover:underline" title="100% First Deposit Welcome Bonus">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,00,000!
             </p>
           </div>
 
@@ -339,7 +339,7 @@ export const HowToWithdrawPage: React.FC = () => (
         subtitle="Enjoy the fastest withdrawal execution in the Indian betting industry. Cash out your sports and casino winnings to your UPI ID or bank account in under 2 minutes with zero withdrawal fees." 
         imageSrc="/images/payments/imps.svg"
         imageAlt="How to Withdraw from Lotus365 in 2 Minutes"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'How to Withdraw' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'How to Withdraw' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -354,7 +354,7 @@ export const HowToWithdrawPage: React.FC = () => (
               The true hallmark of a trusted online betting exchange is not how smoothly it accepts deposits, but how swiftly and respectfully it honors customer payouts. Offshore betting sites frequently delay player withdrawals by 48 to 72 hours, demanding repetitive passport scans, notarized documents, and imposing hidden rollover penalties.
             </p>
             <p className="mb-4">
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we operate on a strict <Link href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
+              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we operate on a strict <Link href="/how-to-withdraw" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
             </p>
             <p>
               Best of all, there are <strong>zero transaction deductions or withdrawal service fees</strong>. Every single rupee you cash out arrives intact in your bank balance.
@@ -630,7 +630,7 @@ export const UpiDepositPage: React.FC = () => (
     <SEOHead 
       title="UPI Betting Deposit India | PhonePe, GPay & Paytm Guide" 
       description="Deposit funds instantly using any Indian UPI app: PhonePe, Google Pay, or Paytm. Enjoy instant wallet updates and zero transaction charges on Lotus365." 
-      canonical="/upi-deposit" 
+      canonical="/how-to-deposit" 
       keywords="upi deposit betting, upi betting india, google pay betting deposit, phonepe betting deposit, paytm betting india, bhim upi betting, instant upi deposit lotus365" 
       faqItems={upiDepositFaqs}
     />
@@ -642,7 +642,7 @@ export const UpiDepositPage: React.FC = () => (
         subtitle="Experience the gold standard in Indian sports betting payments. Fund your Lotus365 wallet in 30 seconds using Google Pay, PhonePe, Paytm, BHIM, or CRED UPI with zero fees and minimum ₹100." 
         imageSrc="/images/payments/upi.svg"
         imageAlt="Instant UPI Deposit India"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'UPI Deposit' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'UPI Deposit' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -898,7 +898,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
     <SEOHead 
       title="IMPS Bank Withdrawal India | 24/7 Transfers on Lotus365" 
       description="Withdraw large gaming winnings directly to any Indian bank account via 24/7 IMPS. High transaction limits, bank-grade encryption, and zero hidden fees." 
-      canonical="/imps-withdrawal" 
+      canonical="/how-to-withdraw" 
       keywords="imps withdrawal betting, imps payout india, imps betting withdrawal, instant bank transfer betting india, netbanking betting withdrawal, lotus365 imps cashout" 
       faqItems={impsWithdrawalFaqs}
     />
@@ -910,7 +910,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
         subtitle="Direct interbank transfers to State Bank of India, HDFC, ICICI, Axis, PNB, and over 140+ Indian scheduled commercial banks. Instant settlement around the clock with zero processing fees." 
         imageSrc="/images/payments/imps.svg"
         imageAlt="IMPS Direct Bank Withdrawal India"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: 'IMPS Withdrawal' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'IMPS Withdrawal' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -1175,7 +1175,7 @@ export const PaymentMethodsPage: React.FC = () => (
     <SEOHead 
       title="Lotus365 Payment Methods | UPI, IMPS & Net Banking" 
       description="Explore all accepted payment methods on Lotus365: UPI (GPay, PhonePe, Paytm), IMPS NetBanking, and Crypto. Fast deposits and sub-2-minute cashouts 24/7." 
-      canonical="/payment-methods" 
+      canonical="/how-to-deposit" 
       keywords="lotus365 payment methods, lotus365 deposit options, lotus365 withdrawal methods, upi imps betting india, crypto betting india, fastest betting payments" 
       faqItems={paymentMethodsFaqs}
     />
@@ -1477,7 +1477,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
     <SEOHead 
       title="Lotus365 2-Minute Cashout | Fast UPI Withdrawals" 
       description="Learn about Lotus365's industry-first 2-minute cashout guarantee. Fast automated payouts directly to your UPI ID or Indian bank account without delay." 
-      canonical="/2-minute-cashout" 
+      canonical="/how-to-withdraw" 
       keywords="2 minute cashout india, fastest withdrawal betting india, instant withdrawal betting, lotus365 cashout guarantee, 120 second betting withdrawal, instant upi cashout" 
       faqItems={twoMinuteCashoutFaqs}
     />
@@ -1489,7 +1489,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
         subtitle="Lotus365 guarantees your withdrawal request is executed and dispatched within 120 seconds via UPI or IMPS. No delays, no excuses, and zero transaction fees — your winnings in your pocket instantly." 
         imageSrc="/images/payments/imps.svg"
         imageAlt="Lotus365 Guaranteed 2-Minute Cashout"
-        breadcrumbs={[{ label: 'Payments', href: '/payment-methods' }, { label: '2-Minute Cashout' }]}
+        breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: '2-Minute Cashout' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">

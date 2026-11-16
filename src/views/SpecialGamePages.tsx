@@ -54,7 +54,7 @@ const crashRelated = [
   { href: '/live-casino', label: 'Live Casino Lobby', description: '1000+ games with real dealers' },
   { href: '/casino-slots', label: 'Casino Slots', description: '500+ premium slot games' },
   { href: '/color-prediction', label: 'Color Prediction', description: 'Fast-paced colour betting game' },
-  { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim your bonus to play Aviator' },
+  { href: '/vip-club', label: 'Welcome Bonus', description: 'Claim your bonus to play Aviator' },
 ];
 
 export const AviatorGamePage: React.FC = () => {
@@ -85,7 +85,7 @@ export const AviatorGamePage: React.FC = () => {
           subtitle="India's #1 Spribe crash game with industry-topping 98.5% RTP. Watch the red airplane ascend, observe real-time multiplier curves, and cash out before the craft flies away. Instant 24/7 UPI withdrawals on Lotus365." 
           imageSrc="/images/games/aviator.svg"
           imageAlt="Play Spribe Aviator Crash Game Online"
-          breadcrumbs={[{ label: 'Crash Games', href: '/crash-games' }, { label: 'Aviator Crash Pro' }]}
+          breadcrumbs={[{ label: 'Crash Games', href: '/aviator-game' }, { label: 'Aviator Crash Pro' }]}
         />
 
         {/* Bespoke Interactive Aviator Flight Radar Simulator */}
@@ -110,7 +110,7 @@ export const AviatorGamePage: React.FC = () => {
                 Your core gameplay objective is deceptively simple yet psychologically captivating: place one or two bets before takeoff and tap the <strong>"Cash Out"</strong> button before the lucky plane flies away off the radar screen. Cash out in time, and your stake is multiplied by the exact coefficient frozen at that millisecond. Fail to hit cash out before the departure crash, and your round stake is forfeited.
               </p>
               <p>
-                What makes Aviator the premier choice on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <Link href="/upi-deposit" className="text-[#F0C419] font-semibold hover:underline" title="UPI deposit">UPI deposit</Link> and withdrawal account.
+                What makes Aviator the premier choice on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <Link href="/how-to-deposit" className="text-[#F0C419] font-semibold hover:underline" title="UPI deposit">UPI deposit</Link> and withdrawal account.
               </p>
             </div>
 
@@ -305,7 +305,7 @@ export const AviatorGamePage: React.FC = () => {
             <div className="p-4 rounded-xl bg-black/30 border border-white/10 text-xs text-white/80 space-y-2">
               <span className="text-[#F0C419] font-bold uppercase tracking-wider block">Explore Complementary Lotus365 Portals</span>
               <p>
-                Interested in testing other real-money gaming verticals? Discover our high-speed <Link href="/crash-games" className="text-[#F0C419] hover:underline font-medium" title="Crash Games Directory">Crash Games Directory</Link>, try fast-paced <Link href="/color-prediction" className="text-[#F0C419] hover:underline font-medium" title="Color Prediction">Color Prediction</Link>, check live action at the <Link href="/live-casino" className="text-[#F0C419] hover:underline font-medium" title="Live Casino Lobby">Live Casino Lobby</Link>, or place match bets on the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-medium" title="IPL Cricket Betting Exchange">IPL Cricket Betting Exchange</Link>.
+                Interested in testing other real-money gaming verticals? Discover our high-speed <Link href="/aviator-game" className="text-[#F0C419] hover:underline font-medium" title="Crash Games Directory">Crash Games Directory</Link>, try fast-paced <Link href="/color-prediction" className="text-[#F0C419] hover:underline font-medium" title="Color Prediction">Color Prediction</Link>, check live action at the <Link href="/live-casino" className="text-[#F0C419] hover:underline font-medium" title="Live Casino Lobby">Live Casino Lobby</Link>, or place match bets on the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-medium" title="IPL Cricket Betting Exchange">IPL Cricket Betting Exchange</Link>.
               </p>
             </div>
 
@@ -354,7 +354,7 @@ export const CrashGamesPage: React.FC = () => (
     <SEOHead 
       title="Crash Games Online India | Aviator, JetX & Spaceman" 
       description="Explore high-multiplier crash games on Lotus365. Play Aviator, JetX, and Spaceman with provably fair cryptographic verification and 2-minute bank cashouts." 
-      canonical="/crash-games" 
+      canonical="/aviator-game" 
       keywords="crash games india, aviator crash, jetx game india, spaceman pragmatic, crash betting india, online crash games, provably fair games" 
       faqItems={crashFaqs}
     />
@@ -643,7 +643,7 @@ export const ColorPredictionPage: React.FC = () => (
         subtitle="Predict Red, Green, or Violet and multiply your balance in 30-second rapid rounds. Experience fair RNG draws, 9x single-number payouts, and instant 2-minute UPI cashouts on Lotus365." 
         imageSrc="/images/games/color-prediction.svg"
         imageAlt="Fast Color Prediction Game India"
-        breadcrumbs={[{ label: 'Crash Games', href: '/crash-games' }, { label: 'Color Prediction' }]}
+        breadcrumbs={[{ label: 'Crash Games', href: '/aviator-game' }, { label: 'Color Prediction' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
@@ -913,7 +913,7 @@ export const VirtualSportsPage: React.FC = () => (
               While real-world international cricket fixtures and football derbies depend on schedules, weather, and time zones, virtual sports on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> operate 24 hours a day, 365 days a year. Every 3 minutes, a new fixture kicks off with full match markets, live statistical previews, simulated video highlights, and instantaneous settlement of all placed bets.
             </p>
             <p>
-              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <Link href="/payment-methods" className="text-[#F0C419] font-semibold hover:underline" title="UPI payouts">UPI payouts</Link> on Lotus365.
+              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <Link href="/how-to-deposit" className="text-[#F0C419] font-semibold hover:underline" title="UPI payouts">UPI payouts</Link> on Lotus365.
             </p>
           </div>
 
@@ -1108,7 +1108,7 @@ export const VirtualSportsPage: React.FC = () => (
       <RelatedPages pages={[
         { href: '/sportsbook', label: 'Full Sportsbook', description: 'Bet on real live sports events' },
         { href: '/cricket-betting', label: 'Cricket Betting', description: 'Live IPL and T20 betting' },
-        { href: '/crash-games', label: 'Crash Games', description: 'Fast-paced multiplier games' },
+        { href: '/aviator-game', label: 'Crash Games', description: 'Fast-paced multiplier games' },
         { href: '/live-casino', label: 'Live Casino', description: '1000+ games with real dealers' },
       ]} />
       

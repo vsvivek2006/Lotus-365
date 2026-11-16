@@ -58,7 +58,7 @@ export const ReviewPage: React.FC = () => (
     <SEOHead
       title="Lotus365 Review 2026 | Is It Legit & Safe to Bet?"
       description="Honest, expert Lotus365 review for 2026. We audit betting odds, live casino fairness, 2-minute cashout reliability, and WhatsApp customer support quality."
-      canonical="/lotus365-review"
+      canonical="/about"
       keywords="lotus365 review, lotus365 review 2026, is lotus365 legit, lotus365 safe, lotus365 trustworthy, lotus365 honest review india"
       faqItems={reviewFaqs}
       />
@@ -105,7 +105,7 @@ export const ReviewPage: React.FC = () => (
               Established in 2019, <strong>Lotus365</strong> has grown into the undisputed market leader in online sports betting and live casino entertainment across India. Operating exclusively via its official web domain <strong className="text-white">lotus365officialid.com</strong>, the platform serves over 1.5 million active accounts by solving the two greatest frustrations Indian players historically faced with offshore foreign bookmakers: complicated registration hurdles and excruciatingly slow withdrawal times.
             </p>
             <p className="mb-4">
-              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link href="/2-minute-cashout" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
+              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link href="/how-to-withdraw" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
             </p>
           </div>
 
@@ -472,10 +472,10 @@ export const VsCompetitorsPage: React.FC = () => (
       </section>
 
       <RelatedPages pages={[
-        { href: '/lotus365-review', label: 'Full Lotus365 Review', description: 'In-depth platform analysis' },
+        { href: '/about', label: 'Full Lotus365 Review', description: 'In-depth platform analysis' },
         { href: '/cricket-exchange', label: 'Cricket Exchange', description: '0% commission exchange' },
         { href: '/register', label: 'Register Free', description: 'Join in 2 minutes' },
-        { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim your first deposit offer' },
+        { href: '/vip-club', label: 'Welcome Bonus', description: 'Claim your first deposit offer' },
       ]} />
       <PageCTA headline="Switch to India's #1 Betting Exchange Today" />
     </Layout>
@@ -853,7 +853,7 @@ export const IplPredictionsPage: React.FC = () => (
         { href: '/ipl-betting', label: 'IPL Betting', description: 'All IPL 2026 markets' },
         { href: '/betting-tips', label: 'Betting Tips', description: 'Expert cricket strategy guide' },
         { href: '/cricket-exchange', label: 'Cricket Exchange', description: '0% commission on IPL' },
-        { href: '/welcome-bonus', label: 'IPL Bonus', description: 'Claim your IPL deposit bonus' },
+        { href: '/vip-club', label: 'IPL Bonus', description: 'Claim your IPL deposit bonus' },
       ]} />
       <PageCTA headline="Bet on IPL 2026 with Expert Insights on Lotus365" />
     </Layout>
@@ -1258,7 +1258,7 @@ export const SafeBettingGuidePage: React.FC = () => (
         { href: '/responsible-gaming', label: 'Responsible Gaming', description: 'Our official safe play policy' },
         { href: '/betting-tips', label: 'Betting Tips', description: 'Smarter cricket betting strategy' },
         { href: '/contact', label: 'Set Deposit Limits', description: 'Contact us to set limits' },
-        { href: '/faq', label: 'FAQ', description: 'Common questions answered' },
+        { href: '/how-it-works', label: 'FAQ', description: 'Common questions answered' },
       ]} />
       <PageCTA headline="Play Responsibly on India's Safest Platform" ctaLabel="Contact Support on WhatsApp" />
     </Layout>
@@ -1460,7 +1460,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
       <RelatedPages pages={[
         { href: '/register', label: 'Register Free', description: 'Get your mobile account in 2 mins' },
         { href: '/how-to-deposit', label: 'How to Deposit', description: 'UPI deposit from your phone' },
-        { href: '/faq', label: 'FAQ', description: 'Mobile and technical FAQs' },
+        { href: '/how-it-works', label: 'FAQ', description: 'Mobile and technical FAQs' },
         { href: '/cricket-betting', label: 'Cricket Betting', description: 'Bet on cricket from your phone' },
       ]} />
       <PageCTA headline="Play Lotus365 on Any Smartphone with instant mobile play" ctaLabel="Register via WhatsApp Now" />
@@ -1602,7 +1602,7 @@ export const FaqPage: React.FC = () => {
       <SEOHead
         title="Lotus365 FAQ | Complete Questions & Answers Hub"
         description="Get instant answers to all frequent questions about Lotus365: account creation, login troubleshooting, deposit rules, 2-minute cashouts, and VIP benefits."
-        canonical="/faq"
+        canonical="/how-it-works"
         keywords="lotus365 faq, lotus365 questions, lotus365 help, lotus365 common questions, lotus365 withdrawal faq, lotus365 deposit guide"
         schema={faqSchema}
       />
@@ -1702,7 +1702,7 @@ export const FaqPage: React.FC = () => {
           { href: '/register', label: 'Register Free', description: 'Get your WhatsApp ID' },
           { href: '/contact', label: 'Contact Support', description: '24/7 WhatsApp help desk' },
           { href: '/how-it-works', label: 'How It Works', description: 'Full onboarding guide' },
-          { href: '/payment-methods', label: 'Payment Methods', description: 'All deposit & withdrawal options' },
+          { href: '/how-to-deposit', label: 'Payment Methods', description: 'All deposit & withdrawal options' },
         ]} />
         <PageCTA headline="Have a Question Not Answered Here?" ctaLabel="Chat with Support on WhatsApp" />
       </Layout>
@@ -1937,7 +1937,7 @@ export const HowItWorksPage: React.FC = () => {
           { href: '/register', label: 'Register Free', description: 'Start the WhatsApp registration' },
           { href: '/how-to-deposit', label: 'How to Deposit', description: 'UPI deposit step-by-step' },
           { href: '/mobile-web-app-guide', label: 'Mobile Guide', description: 'Use Lotus365 on any phone' },
-          { href: '/faq', label: 'FAQ', description: 'All common questions answered' },
+          { href: '/how-it-works', label: 'FAQ', description: 'All common questions answered' },
         ]} />
         <PageCTA headline="Start Your Lotus365 Journey in Under 4 Minutes" />
       </Layout>

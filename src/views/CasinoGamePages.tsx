@@ -16,7 +16,7 @@ const casinoLinks = [
   { href: '/blackjack', label: 'Blackjack', description: 'Live dealer blackjack tables' },
   { href: '/baccarat', label: 'Baccarat', description: 'Speed and classic baccarat' },
   { href: '/teen-patti', label: 'Teen Patti', description: 'India\'s favourite card game' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
 ];
 
 const rouletteFaqs = [
@@ -648,7 +648,7 @@ export const DragonTigerPage: React.FC = () => (
     <SEOHead
       title="Live Dragon Tiger Online | Fast 2-Card Real Money Game"
       description="Play live Dragon Tiger on Lotus365. Enjoy 25-second rapid betting rounds, tie side bets with 11:1 odds, and guaranteed 2-minute instant UPI cashouts."
-      canonical="/dragon-tiger"
+      canonical="/baccarat"
       keywords="dragon tiger online, live dragon tiger india, dragon tiger real cash, play dragon tiger, dragon tiger tricks, dragon vs tiger game"
           faqItems={dragonTigerFaqs}
     />
@@ -658,7 +658,7 @@ export const DragonTigerPage: React.FC = () => (
         title="High-Speed "
         highlight="Live Dragon Tiger"
         subtitle="Experience Asia's fastest live card game. A single card to Dragon, a single card to Tiger — highest card wins. 15-second rounds and 2-minute UPI cashouts on Lotus365."
-        imageSrc="/images/games/dragon-tiger.svg"
+        imageSrc="/images/games/baccarat.svg"
         imageAlt="Live Dragon Tiger Two Card Showdown"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Dragon Tiger' }]}
       />

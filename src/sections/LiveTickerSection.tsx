@@ -8,7 +8,7 @@ interface LiveTickerProps {
 
 export const LiveTickerSection: React.FC<LiveTickerProps> = ({ onOpenAuth }) => {
   return (
-    <div id="exchange" className="relative py-6 bg-black/15 border-y border-white/15 overflow-hidden">
+    <div id="exchange" className="relative py-6 bg-[#042a1c] border-y border-emerald-800/50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-[#F0C419]/20 border border-[#F0C419]/40 text-[#F0C419]">

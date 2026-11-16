@@ -13,7 +13,7 @@ const regionalRelated = [
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: 'Peer-to-peer back and lay order books' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'Franchise match odds and outright futures' },
   { href: '/how-to-deposit', label: 'Instant Deposit', description: 'Deposit via PhonePe, GPay, Paytm UPI' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Fast automated UPI withdrawal settlements' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Fast automated UPI withdrawal settlements' },
   { href: '/vip-club', label: 'VIP Club', description: 'Exclusive rewards for high-volume members' },
 ];
 

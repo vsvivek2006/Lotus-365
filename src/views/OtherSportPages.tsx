@@ -15,8 +15,8 @@ const relatedSports = [
   { href: '/football-betting', label: 'Football Betting', description: 'Premier League and Champions League' },
   { href: '/tennis-betting', label: 'Tennis Betting', description: 'ATP, WTA and Grand Slam live odds' },
   { href: '/sportsbook', label: 'Full Sportsbook', description: 'All sports disciplines in one directory' },
-  { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim new member deposit bonus' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
+  { href: '/vip-club', label: 'Welcome Bonus', description: 'Claim new member deposit bonus' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
 ];
 
 const kabaddiFaqs = [
@@ -442,7 +442,7 @@ export const HorseRacingPage: React.FC = () => (
     <SEOHead
       title="Horse Racing Betting India | Mumbai & Pune Derby Odds"
       description="Bet on live Indian horse racing in Mumbai, Pune, Bangalore, and Kolkata. Win, Place, and Forecast pool betting with instant race settlement on Lotus365."
-      canonical="/horse-racing-betting"
+      canonical="/sportsbook"
       keywords="horse racing betting india, indian derby betting, rwitc mumbai odds, pune horse racing, bangalore turf club betting, thoroughbred odds india"
       faqItems={horseRacingFaqs}
     />
@@ -716,7 +716,7 @@ export const SportsbookPage: React.FC = () => (
                 { name: 'Football (EPL/ISL)', path: '/football-betting' },
                 { name: 'Tennis (ATP/WTA)', path: '/tennis-betting' },
                 { name: 'Pro Kabaddi (PKL)', path: '/kabaddi-betting' },
-                { name: 'Horse Racing', path: '/horse-racing-betting' },
+                { name: 'Horse Racing', path: '/sportsbook' },
                 { name: 'Basketball (NBA)', path: '/basketball-betting' },
                 { name: 'Table Tennis Live', path: '/sportsbook' },
                 { name: 'Badminton BWF', path: '/sportsbook' },

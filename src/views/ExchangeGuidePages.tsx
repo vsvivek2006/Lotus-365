@@ -13,14 +13,14 @@ import { ArrowLeftRight, HelpCircle, ShieldCheck, Zap, Percent, Scale, Clock, Al
 const exchangeRelated = [
   { href: '/cricket-exchange', label: 'Cricket Exchange Hub', description: 'Peer-to-peer live matching order engine' },
   { href: '/cricket-betting', label: 'Cricket Betting', description: 'Live match odds and tournament schedules' },
-  { href: '/betting-odds-calculator', label: 'Odds Calculator', description: 'Interactive back & lay profit simulator' },
+  { href: '/cricket-exchange', label: 'Odds Calculator', description: 'Interactive back & lay profit simulator' },
   { href: '/how-to-withdraw', label: 'Fast Withdrawals', description: '2-minute UPI cashout walkthrough' },
   { href: '/vip-club', label: 'VIP Club', description: 'Higher exchange limits and dedicated hosts' },
-  { href: '/faq', label: 'General FAQ', description: 'All platform questions answered' },
+  { href: '/how-it-works', label: 'General FAQ', description: 'All platform questions answered' },
 ];
 
 // ==========================================
-// 11. BACK AND LAY BETTING PAGE (/back-and-lay-betting)
+// 11. BACK AND LAY BETTING PAGE (/cricket-exchange)
 // ==========================================
 const backLayFaqs = [
   { q: 'What is the fundamental difference between Backing and Laying?', a: 'Backing means betting FOR an outcome to happen (e.g., India to win). Laying means betting AGAINST an outcome to happen (e.g., India NOT to win), effectively playing the role of the bookmaker.' },
@@ -35,7 +35,7 @@ export const BackAndLayBettingPage: React.FC = () => (
     <SEOHead
       title="Back and Lay Betting Guide | Master Exchange Trading"
       description="Learn Back and Lay betting on Lotus365. Master exchange mechanics, calculate lay liability, green up profits risk-free, and cash out via UPI in 2 minutes."
-      canonical="/back-and-lay-betting"
+      canonical="/cricket-exchange"
       keywords="back and lay betting, how to lay a bet, exchange trading guide, lay liability calculation, greening up betting, back lay cricket"
       faqItems={backLayFaqs}
     />
@@ -159,7 +159,7 @@ export const BackAndLayBettingPage: React.FC = () => (
 );
 
 // ==========================================
-// 12. EXCHANGE COMMISSION RATES PAGE (/exchange-commission-rates)
+// 12. EXCHANGE COMMISSION RATES PAGE (/cricket-exchange)
 // ==========================================
 const commissionFaqs = [
   { q: 'What commission does Lotus365 charge on exchange bets?', a: 'Lotus365 charges an ultra-low net commission between 0% and 2% strictly on net winning markets. Losing bets are NEVER charged any commission.' },
@@ -174,7 +174,7 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
     <SEOHead
       title="Exchange Commission Rates | Transparent 0-2% Pricing"
       description="Understand Lotus365 exchange commission rates. Pay only 0% to 2% on net winnings, 0% on losses, 0% on deposits and withdrawals, with instant UPI cashouts."
-      canonical="/exchange-commission-rates"
+      canonical="/cricket-exchange"
       keywords="exchange commission rates, lotus365 commission, betting exchange fees, low commission cricket betting, net winnings commission, zero fee deposit betting"
       faqItems={commissionFaqs}
     />
@@ -305,7 +305,7 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
 );
 
 // ==========================================
-// 13. BETTING EXCHANGE VS SPORTSBOOK PAGE (/betting-exchange-vs-sportsbook)
+// 13. BETTING EXCHANGE VS SPORTSBOOK PAGE (/cricket-exchange)
 // ==========================================
 const vsSportsbookFaqs = [
   { q: 'Why are odds better on an exchange compared to a traditional sportsbook?', a: 'Exchanges operate without bookmaker margins (overrounds). Odds are determined by free peer-to-peer supply and demand, consistently delivering 10% to 20% higher returns.' },
@@ -320,7 +320,7 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
     <SEOHead
       title="Betting Exchange vs Sportsbook | Key Differences 2026"
       description="Compare Betting Exchanges vs Traditional Sportsbooks on Lotus365. Discover why exchanges offer superior odds, no stake limits on winners, and lay betting freedom."
-      canonical="/betting-exchange-vs-sportsbook"
+      canonical="/cricket-exchange"
       keywords="betting exchange vs sportsbook, difference exchange sportsbook, why betting exchanges are better, lay betting vs bookmaker, lotus365 exchange advantages"
       faqItems={vsSportsbookFaqs}
     />
@@ -452,7 +452,7 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
 );
 
 // ==========================================
-// 14. BOOKMAKER MARKET PAGE (/bookmaker-market)
+// 14. BOOKMAKER MARKET PAGE (/cricket-exchange)
 // ==========================================
 const bookmakerFaqs = [
   { q: 'What is a "Bookmaker Market" on Lotus365?', a: 'A Bookmaker Market is an internal fixed-odds market tailored specifically for Indian cricket, offering zero-delay execution and instant acceptance without waiting for peer matching.' },
@@ -467,7 +467,7 @@ export const BookmakerMarketPage: React.FC = () => (
     <SEOHead
       title="Bookmaker Market Guide | Instant Liquidity & Zero Delay"
       description="Master the Bookmaker Market on Lotus365. Enjoy instant order execution, 100% guaranteed liquidity, tight 2% margins, and sub-2-minute UPI cashouts."
-      canonical="/bookmaker-market"
+      canonical="/cricket-exchange"
       keywords="bookmaker market betting, bookmaker odds cricket, instant matching betting, bookmaker vs exchange, lotus365 bookmaker market"
       faqItems={bookmakerFaqs}
     />
@@ -589,7 +589,7 @@ export const BookmakerMarketPage: React.FC = () => (
 );
 
 // ==========================================
-// 15. IN-PLAY CASHOUT GUIDE PAGE (/in-play-cashout-guide)
+// 15. IN-PLAY CASHOUT GUIDE PAGE (/cricket-exchange)
 // ==========================================
 const cashoutGuideFaqs = [
   { q: 'What is In-Play Cashout on Lotus365?', a: 'In-play cashout allows you to settle your active bet before the match concludes, locking in an assured profit or cutting potential losses based on live market odds.' },
@@ -604,7 +604,7 @@ export const InPlayCashoutGuidePage: React.FC = () => (
     <SEOHead
       title="In-Play Cashout Guide | Lock Profits & Hedge Risk"
       description="Master in-play cashouts on Lotus365. Learn how to green up profits, execute partial cashouts, hedge live cricket matches, and withdraw in under 2 minutes."
-      canonical="/in-play-cashout-guide"
+      canonical="/cricket-exchange"
       keywords="in play cashout guide, how to cashout betting, hedging cricket bets, green up cashout, partial cashout lotus365, early cashout betting"
       faqItems={cashoutGuideFaqs}
     />
@@ -675,7 +675,7 @@ export const InPlayCashoutGuidePage: React.FC = () => (
               Cashout is not merely a tool for locking in profits—it is an essential instrument for bankroll preservation. If you back a team and their premier strike bowler sustains an injury or concedes three consecutive boundaries in the first over, exercising a disciplined early cashout saves 70%+ of your initial stake.
             </p>
             <p>
-              For advanced multi-outcome hedging tactics, read our <Link href="/dutching-calculator-guide" className="text-[#F0C419] underline font-semibold" title="Dutching & Hedging Strategy Guide">Dutching & Hedging Strategy Guide</Link>.
+              For advanced multi-outcome hedging tactics, read our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Dutching & Hedging Strategy Guide">Dutching & Hedging Strategy Guide</Link>.
             </p>
           </div>
 
@@ -726,7 +726,7 @@ export const InPlayCashoutGuidePage: React.FC = () => (
 );
 
 // ==========================================
-// 16. MATCH ODDS TRADING PAGE (/match-odds-trading)
+// 16. MATCH ODDS TRADING PAGE (/cricket-exchange)
 // ==========================================
 const matchOddsFaqs = [
   { q: 'What is Match Odds Trading on a cricket exchange?', a: 'Match Odds Trading involves buying and selling match odds contracts as prices fluctuate throughout a cricket match, profiting from market price movements rather than pure match winners.' },
@@ -741,7 +741,7 @@ export const MatchOddsTradingPage: React.FC = () => (
     <SEOHead
       title="Match Odds Trading | Cricket Exchange Scalping & Swings"
       description="Learn professional Match Odds Trading on Lotus365. Master scalping, swing trading cricket matches, placing limit orders, and fast 2-minute cashouts."
-      canonical="/match-odds-trading"
+      canonical="/cricket-exchange"
       keywords="match odds trading, cricket scalping guide, swing trading cricket, exchange order book trading, cricket price movements, cricket trading strategies"
       faqItems={matchOddsFaqs}
     />
@@ -812,7 +812,7 @@ export const MatchOddsTradingPage: React.FC = () => (
               The defining attribute of a profitable exchange trader is the absence of fandom. Never trade based on which team you support emotionally. If the data, pitch condition, and run rate indicate that laying your favorite franchise offers positive expected value (+EV), executing the lay is the disciplined, professional choice.
             </p>
             <p>
-              Inspect our comprehensive odds conversion formulas in our <Link href="/betting-odds-calculator" className="text-[#F0C419] underline font-semibold" title="Betting Odds Calculator Guide">Betting Odds Calculator Guide</Link>.
+              Inspect our comprehensive odds conversion formulas in our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Betting Odds Calculator Guide">Betting Odds Calculator Guide</Link>.
             </p>
           </div>
 
@@ -1070,7 +1070,7 @@ export const BetSlipGuidePage: React.FC = () => (
               When placing pre-match limit orders, you have the option to enable the <strong className="text-[#F0C419]">Keep In-Play</strong> checkbox. By default, unmatched bets cancel when the umpire calls "Play" to protect you from sudden team news. Activating "Keep In-Play" instructs the engine to keep your queued limit order active as the match unfolds into live overs.
             </p>
             <p>
-              To learn how backing and laying interplay across your bet slip, read our foundational <Link href="/back-and-lay-betting" className="text-[#F0C419] underline font-semibold" title="Back & Lay Betting Masterclass">Back & Lay Betting Masterclass</Link>.
+              To learn how backing and laying interplay across your bet slip, read our foundational <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Back & Lay Betting Masterclass">Back & Lay Betting Masterclass</Link>.
             </p>
           </div>
 

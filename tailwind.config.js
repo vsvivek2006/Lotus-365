@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         brand: {
-          // Iconic Lotus365 Emerald Greens (https://lottuss365.co/)
-          emerald: '#14614C',
-          emeraldLight: '#1E8A6C',
-          emeraldDark: '#0D4939',
-          emeraldDeep: '#093628',
-          emeraldSurface: 'rgba(0, 0, 0, 0.2)',
+          // Iconic Lotus365 Emerald Greens (Matching Mockup Reference)
+          emerald: '#059669',
+          emeraldLight: '#10B981',
+          emeraldDark: '#044E37',
+          emeraldDeep: '#022319',
+          emeraldSurface: 'rgba(5, 150, 105, 0.15)',
           
           // Iconic Lotus365 Gold / Yellow
           gold: '#F0C419',
@@ -28,12 +28,12 @@ export default {
           blueLight: '#38BDF8',
           
           // Surfaces & Neutrals
-          dark: '#14614C', // Exact reference site background
-          deepDark: '#0D4435',
-          surface: 'rgba(0, 0, 0, 0.20)',
-          card: 'rgba(0, 0, 0, 0.25)',
-          cardHover: 'rgba(0, 0, 0, 0.35)',
-          border: 'rgba(255, 255, 255, 0.2)',
+          dark: '#022319', // Deep luxury emerald background
+          deepDark: '#011710',
+          surface: 'rgba(6, 61, 44, 0.65)',
+          card: 'rgba(4, 46, 33, 0.85)',
+          cardHover: 'rgba(6, 61, 44, 0.95)',
+          border: 'rgba(16, 185, 129, 0.25)',
         },
       },
       fontFamily: {

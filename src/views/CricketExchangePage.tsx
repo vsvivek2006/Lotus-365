@@ -12,9 +12,9 @@ import { HelpCircle, DollarSign, BarChart3, ShieldCheck, Zap, ArrowLeftRight } f
 const related = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'Complete live cricket match coverage' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'High-liquidity IPL exchange markets' },
-  { href: '/t20-world-cup-betting', label: 'T20 World Cup', description: 'International T20 tournament odds' },
-  { href: '/back-and-lay-betting', label: 'Back & Lay Masterclass', description: 'Exchange trading strategies & formulas' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Guaranteed instant UPI withdrawals' },
+  { href: '/cricket-betting', label: 'T20 World Cup', description: 'International T20 tournament odds' },
+  { href: '/cricket-exchange', label: 'Back & Lay Masterclass', description: 'Exchange trading strategies & formulas' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Guaranteed instant UPI withdrawals' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'UPI & IMPS deposit guide' },
 ];
 

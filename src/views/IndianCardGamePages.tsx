@@ -15,15 +15,15 @@ const casinoLinks = [
   { href: '/roulette', label: 'European Roulette', description: 'Classic & Lightning roulette wheels' },
   { href: '/blackjack', label: 'Live Blackjack', description: '50+ tables with 99.5% RTP' },
   { href: '/aviator-game', label: 'Aviator Crash', description: '98.5% RTP crash game with multipliers' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Instant UPI cashout guarantee' },
 ];
 
 const andarLinks = [
   { href: '/live-casino', label: 'Live Casino Lobby', description: '1000+ games with live dealers' },
   { href: '/teen-patti', label: 'Teen Patti Cash', description: 'India\'s favourite 3-card poker game' },
-  { href: '/dragon-tiger', label: 'Dragon Tiger Live', description: 'Fast-paced two card showdown' },
+  { href: '/baccarat', label: 'Dragon Tiger Live', description: 'Fast-paced two card showdown' },
   { href: '/baccarat', label: 'Live Baccarat', description: 'Speed baccarat with 1.06% house edge' },
-  { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim new member deposit bonus' },
+  { href: '/vip-club', label: 'Welcome Bonus', description: 'Claim new member deposit bonus' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Instant UPI & IMPS deposit guide' },
 ];
 

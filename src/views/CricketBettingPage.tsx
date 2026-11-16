@@ -12,10 +12,10 @@ import { Trophy, Zap, Star, ShieldCheck, TrendingUp, Target, CheckCircle2, HelpC
 const related = [
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: 'P2P live match odds with 0% commission' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'Bet on every IPL match live with top odds' },
-  { href: '/t20-world-cup-betting', label: 'T20 World Cup Betting', description: 'International T20 betting markets' },
-  { href: '/back-and-lay-betting', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
+  { href: '/cricket-betting', label: 'T20 World Cup Betting', description: 'International T20 betting markets' },
+  { href: '/cricket-exchange', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
   { href: '/how-to-deposit', label: 'How to Deposit', description: 'Instant UPI & IMPS deposit guide' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Lightning-fast UPI withdrawals' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Lightning-fast UPI withdrawals' },
 ];
 
 const cricketFaqs = [
@@ -277,7 +277,7 @@ export const CricketBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white/5 border border-white/10">
                 <div className="text-xl font-black text-[#F0C419] mb-1">Step 04</div>
                 <h3 className="font-bold text-white mb-1">Instant 2-Minute Cashout</h3>
-                <p className="text-xs text-white/70">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <Link href="/2-minute-cashout" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link>.</p>
+                <p className="text-xs text-white/70">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <Link href="/how-to-withdraw" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link>.</p>
               </div>
             </div>
           </div>

@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 680" width="520" height="680">
+  <defs>
+    <!-- Radial glow behind player -->
+    <radialGradient id="playerGlow" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#16a34a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#022319" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Jersey gradient -->
+    <linearGradient id="jerseyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a5cd7"/>
+      <stop offset="100%" stop-color="#0d3c9c"/>
+    </linearGradient>
+    <!-- Bat gradient -->
+    <linearGradient id="batGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8a96e"/>
+      <stop offset="100%" stop-color="#9b7a40"/>
+    </linearGradient>
+    <!-- Green field glow -->
+    <radialGradient id="fieldGlow" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#16a34a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#022319" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Clip path -->
+    <clipPath id="heroClip">
+      <rect width="520" height="680"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background atmosphere -->
+  <rect width="520" height="680" fill="transparent"/>
+
+  <!-- Field glow at bottom -->
+  <ellipse cx="260" cy="640" rx="260" ry="120" fill="url(#fieldGlow)"/>
+
+  <!-- Player glow aura -->
+  <ellipse cx="260" cy="380" rx="200" ry="240" fill="url(#playerGlow)"/>
+
+  <!-- === BATTER SILHOUETTE (India Blue Jersey) === -->
+  <!-- Shadow on ground -->
+  <ellipse cx="260" cy="635" rx="90" ry="22" fill="#000" opacity="0.3"/>
+
+  <!-- Feet / shoes -->
+  <rect x="208" y="618" width="48" height="22" rx="10" fill="#111"/>
+  <rect x="265" y="612" width="52" height="20" rx="10" fill="#111"/>
+
+  <!-- Legs / trousers -->
+  <path d="M218 530 L240 620 L258 620 L260 540 Z" fill="#e8e8e8"/>
+  <path d="M300 530 L318 614 L302 616 L288 540 Z" fill="#e8e8e8"/>
+
+  <!-- Pads on legs -->
+  <rect x="216" y="540" width="38" height="80" rx="10" fill="#f5f5f5" stroke="#ddd" stroke-width="1.5"/>
+  <rect x="285" y="535" width="36" height="78" rx="10" fill="#f5f5f5" stroke="#ddd" stroke-width="1.5"/>
+  <!-- Pad straps -->
+  <line x1="216" y1="560" x2="254" y2="560" stroke="#ccc" stroke-width="2"/>
+  <line x1="216" y1="580" x2="254" y2="580" stroke="#ccc" stroke-width="2"/>
+  <line x1="285" y1="556" x2="321" y2="556" stroke="#ccc" stroke-width="2"/>
+  <line x1="285" y1="576" x2="321" y2="576" stroke="#ccc" stroke-width="2"/>
+
+  <!-- Main body / jersey -->
+  <path d="M195 300 C190 420 200 490 220 530 L302 530 C318 490 328 420 326 300 Z" fill="url(#jerseyGrad)"/>
+
+  <!-- Jersey INDIA text -->
+  <text x="260" y="430" font-family="Arial, sans-serif" font-weight="900" font-size="22" fill="#fff" text-anchor="middle" letter-spacing="3" opacity="0.9">INDIA</text>
+
+  <!-- Jersey number -->
+  <text x="260" y="470" font-family="Arial, sans-serif" font-weight="900" font-size="30" fill="#fff" text-anchor="middle" opacity="0.8">18</text>
+
+  <!-- Jersey collar and details -->
+  <path d="M230 300 C240 310 260 315 280 310 L290 300 L260 285 Z" fill="#0d3c9c"/>
+  <path d="M230 300 L220 350" stroke="#fff" stroke-width="1" stroke-opacity="0.3"/>
+  <path d="M290 300 L302 350" stroke="#fff" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Gloves - left hand -->
+  <ellipse cx="192" cy="470" rx="22" ry="28" fill="#c8a030" transform="rotate(-15 192 470)"/>
+  <ellipse cx="183" cy="458" rx="10" ry="14" fill="#b8902a" transform="rotate(-15 183 458)"/>
+
+  <!-- Gloves - right hand holding bat grip -->
+  <ellipse cx="336" cy="380" rx="20" ry="26" fill="#c8a030" transform="rotate(20 336 380)"/>
+
+  <!-- === CRICKET BAT === -->
+  <!-- Bat handle -->
+  <rect x="330" y="260" width="14" height="140" rx="7" fill="#8B6914" transform="rotate(15 337 330)"/>
+  <!-- Bat blade -->
+  <path d="M310 350 L370 330 L385 480 L295 500 Z" fill="url(#batGrad)" rx="4"/>
+  <!-- Bat edge highlight -->
+  <path d="M310 350 L295 500" stroke="#e0c068" stroke-width="3" opacity="0.5"/>
+  <!-- Bat seam lines -->
+  <line x1="320" y1="380" x2="375" y2="362" stroke="#c8a030" stroke-width="1.5" opacity="0.4"/>
+  <line x1="316" y1="420" x2="372" y2="402" stroke="#c8a030" stroke-width="1.5" opacity="0.4"/>
+  <line x1="312" y1="460" x2="368" y2="445" stroke="#c8a030" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Arms -->
+  <!-- Left arm (down) -->
+  <path d="M195 320 C170 370 180 430 192 475" stroke="#1a5cd7" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <!-- Right arm (up holding bat) -->
+  <path d="M320 310 C340 300 350 310 338 370" stroke="#1a5cd7" stroke-width="28" stroke-linecap="round" fill="none"/>
+
+  <!-- === HEAD === -->
+  <!-- Neck -->
+  <rect x="246" y="258" width="28" height="35" rx="10" fill="#c8956c"/>
+
+  <!-- Head -->
+  <ellipse cx="260" cy="230" rx="52" ry="60" fill="#c8956c"/>
+
+  <!-- Helmet -->
+  <path d="M210 215 Q212 160 260 155 Q308 160 310 215 Z" fill="#1a1a1a"/>
+  <rect x="210" y="208" width="100" height="22" rx="8" fill="#222"/>
+  <!-- Helmet grill -->
+  <path d="M218 225 L218 258 C218 265 242 270 260 270 C278 270 302 265 302 258 L302 225" fill="none" stroke="#888" stroke-width="2.5"/>
+  <line x1="230" y1="225" x2="232" y2="262" stroke="#888" stroke-width="1.5"/>
+  <line x1="244" y1="225" x2="246" y2="268" stroke="#888" stroke-width="1.5"/>
+  <line x1="258" y1="225" x2="260" y2="270" stroke="#888" stroke-width="1.5"/>
+  <line x1="272" y1="225" x2="274" y2="268" stroke="#888" stroke-width="1.5"/>
+  <line x1="286" y1="225" x2="288" y2="262" stroke="#888" stroke-width="1.5"/>
+
+  <!-- India flag on helmet -->
+  <rect x="250" y="168" width="24" height="16" rx="2" fill="#ff6600"/>
+  <rect x="250" y="174" width="24" height="4" fill="#fff"/>
+  <rect x="250" y="178" width="24" height="6" rx="1" fill="#138808"/>
+  <!-- Ashoka chakra dot -->
+  <circle cx="262" cy="176" r="2" fill="#000080"/>
+
+  <!-- Face (subtle) -->
+  <!-- Eyes -->
+  <circle cx="244" cy="232" r="4" fill="#2d1b0e"/>
+  <circle cx="276" cy="232" r="4" fill="#2d1b0e"/>
+  <circle cx="246" cy="230" r="1.5" fill="#fff"/>
+  <circle cx="278" cy="230" r="1.5" fill="#fff"/>
+
+  <!-- Nose -->
+  <path d="M260 240 L255 250 L265 250" fill="none" stroke="#b07050" stroke-width="1.5"/>
+
+  <!-- Mouth -->
+  <path d="M252 258 Q260 264 268 258" fill="none" stroke="#8b5030" stroke-width="2"/>
+
+  <!-- === CRICKET BALL MOTION === -->
+  <!-- Ball flying in -->
+  <circle cx="420" cy="310" r="18" fill="#dc2626" stroke="#b91c1c" stroke-width="1.5"/>
+  <path d="M408 304 Q420 296 432 304" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="2 1"/>
+  <path d="M408 318 Q420 326 432 318" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="2 1"/>
+  <!-- Motion blur lines on ball -->
+  <line x1="445" y1="306" x2="470" y2="300" stroke="#dc2626" stroke-width="2" opacity="0.4"/>
+  <line x1="447" y1="315" x2="475" y2="315" stroke="#dc2626" stroke-width="2" opacity="0.3"/>
+  <line x1="445" y1="324" x2="470" y2="330" stroke="#dc2626" stroke-width="2" opacity="0.2"/>
+
+  <!-- Sparkle effects -->
+  <circle cx="150" cy="200" r="3" fill="#F0C419" opacity="0.8"/>
+  <circle cx="430" cy="200" r="2" fill="#F0C419" opacity="0.6"/>
+  <circle cx="380" cy="150" r="2.5" fill="#fff" opacity="0.5"/>
+  <circle cx="120" cy="350" r="2" fill="#10b981" opacity="0.7"/>
+  <circle cx="460" cy="460" r="2" fill="#10b981" opacity="0.5"/>
+
+  <!-- Gold star particles -->
+  <text x="400" y="180" font-size="16" opacity="0.6">⭐</text>
+  <text x="100" y="250" font-size="12" opacity="0.4">✨</text>
+  <text x="440" y="550" font-size="10" opacity="0.4">✨</text>
+</svg>

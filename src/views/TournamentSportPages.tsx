@@ -13,9 +13,9 @@ const tournamentRelated = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'Live match odds and ball-by-ball markets' },
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: 'Peer-to-peer back & lay trading platform' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'Indian Premier League match odds and outrights' },
-  { href: '/t20-world-cup-betting', label: 'T20 World Cup', description: 'International T20 championship trading' },
+  { href: '/cricket-betting', label: 'T20 World Cup', description: 'International T20 championship trading' },
   { href: '/how-to-deposit', label: 'Instant Deposit', description: 'Add funds via PhonePe, GPay, Paytm UPI' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Fast automated UPI withdrawal settlements' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Fast automated UPI withdrawal settlements' },
 ];
 
 // ==========================================
@@ -346,7 +346,7 @@ export const BblBettingPage: React.FC = () => (
               BBL grounds vary significantly in size and bounce. The Melbourne Cricket Ground (MCG) features massive boundaries where singles and doubles dominate, whereas Adelaide Oval's short square boundaries invite heavy six-hitting. Factoring ground dimensions into session run forecasts delivers a clear statistical edge over casual bettors.
             </p>
             <p>
-              To discover how exchange mechanics provide superior value compared to static odds books, read our <Link href="/betting-exchange-vs-sportsbook" className="text-[#F0C419] underline font-semibold" title="Betting Exchange vs Sportsbook Comparison">Betting Exchange vs Sportsbook Comparison</Link>.
+              To discover how exchange mechanics provide superior value compared to static odds books, read our <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Betting Exchange vs Sportsbook Comparison">Betting Exchange vs Sportsbook Comparison</Link>.
             </p>
           </div>
 
@@ -1102,7 +1102,7 @@ export const CricketSessionBettingPage: React.FC = () => (
               Professional fancy traders avoid emotional bias and focus on objective variables: bowler match-ups, field placement adjustments, wind direction, and pitch pace. For example, if a world-class death bowler has two overs remaining, session run projections for overs 18 to 20 are frequently overestimated by recreational bettors, creating valuable <strong className="text-rose-400">NO</strong> opportunities.
             </p>
             <p>
-              Check out our complete <Link href="/cricket-betting-glossary" className="text-[#F0C419] underline font-semibold" title="Cricket Betting Terminology Glossary">Cricket Betting Terminology Glossary</Link> for an in-depth breakdown of Khai, Lagai, Dabba, and Back-Lay formulas.
+              Check out our complete <Link href="/cricket-betting" className="text-[#F0C419] underline font-semibold" title="Cricket Betting Terminology Glossary">Cricket Betting Terminology Glossary</Link> for an in-depth breakdown of Khai, Lagai, Dabba, and Back-Lay formulas.
             </p>
           </div>
 

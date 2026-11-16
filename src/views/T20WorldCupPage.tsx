@@ -13,9 +13,9 @@ const related = [
   { href: '/cricket-betting', label: 'Cricket Betting Hub', description: 'Live cricket odds across all formats' },
   { href: '/cricket-exchange', label: 'Cricket Exchange', description: '0% commission P2P cricket trading' },
   { href: '/ipl-betting', label: 'IPL Betting 2026', description: 'Indian Premier League match markets' },
-  { href: '/back-and-lay-betting', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
-  { href: '/welcome-bonus', label: 'Welcome Bonus', description: 'Claim your first deposit bonus' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Guaranteed 2-minute UPI cashouts' },
+  { href: '/cricket-exchange', label: 'Back & Lay Trading', description: 'Master exchange trading mechanics' },
+  { href: '/vip-club', label: 'Welcome Bonus', description: 'Claim your first deposit bonus' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Guaranteed 2-minute UPI cashouts' },
 ];
 
 const t20Faqs = [
@@ -50,7 +50,7 @@ export const T20WorldCupPage: React.FC = () => (
     <SEOHead
       title="T20 World Cup Betting 2026 | Live Odds & Match Trading"
       description="Wager on ICC T20 World Cup 2026 with Lotus365. Enjoy outright tournament odds, live ball-by-ball in-play markets, and zero-commission peer-to-peer betting."
-      canonical="/t20-world-cup-betting"
+      canonical="/cricket-betting"
       keywords="t20 world cup betting, t20 betting india, t20 world cup 2026 odds, cricket world cup betting, icc t20 world cup live odds, t20 tournament winner betting"
       faqItems={t20Faqs}
     />

@@ -1,24 +1,28 @@
 "use client";
-import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
 
+import Link from 'next/link';
+import Image from 'next/image';
+import React from 'react';
 import {
   MessageCircle,
-  Sparkles,
-  ShieldCheck,
+  ArrowRight,
   Zap,
-  Flame,
-  Plane,
-  Lock,
-  Crown,
-  CheckCircle2,
-  Smartphone,
+  Trophy,
+  BookOpen,
+  Shield,
 } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface HeroSectionProps {
   onOpenAuth?: (mode: 'login' | 'register') => void;
 }
+
+const featurePills = [
+  { icon: Zap,     label: 'Live Scores',     sub: 'Real-Time Updates',      color: 'text-yellow-400' },
+  { icon: Trophy,  label: '1000+ Games',      sub: '& Activities',           color: 'text-amber-400' },
+  { icon: BookOpen,label: 'Expert Insights',  sub: 'Guides & Analysis',      color: 'text-sky-400'   },
+  { icon: Shield,  label: 'Trusted Platform', sub: 'Safe & Secure',          color: 'text-emerald-400'},
+];
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
   const handleWhatsApp = () => {
@@ -29,312 +33,217 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
     }
   };
 
-  // Simulated Aviator Rocket Multiplier
-  const [multiplier, setMultiplier] = useState(1.84);
-  const [isFlying, setIsFlying] = useState(true);
-  const [oddsSelected, setOddsSelected] = useState<'back' | 'lay' | null>(null);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setMultiplier((prev) => {
-        if (prev >= 6.8) {
-          setIsFlying(false);
-          setTimeout(() => {
-            setIsFlying(true);
-          }, 1500);
-          return 1.12;
-        }
-        return +(prev + 0.45).toFixed(2);
-      });
-    }, 1500);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
-    <section className="welcome-section relative pt-6 pb-10 lg:pt-10 lg:pb-16 overflow-hidden">
-      {/* Background Ambient Glows */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-brand-gold/10 blur-[130px] rounded-full pointer-events-none -z-10" />
+    <section className="relative overflow-hidden bg-[#063323]">
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
-          {/* Left Column: Authentic Reference Content & 4 Exact Action Buttons */}
-          <div className="lg:col-span-7 text-center lg:text-left">
-            {/* Status Eyebrow Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/30 border border-[#F0C419]/40 text-xs font-semibold mb-4 shadow-sm">
+      {/* ── BACKGROUND LAYERS ── */}
+      {/* Stadium field radial glow */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Deep green gradient base */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#063323] via-[#0a4230] to-[#042a1c]" />
+
+        {/* Floodlight top glow */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-gradient-radial from-emerald-400/20 via-emerald-600/8 to-transparent blur-[80px]" />
+
+        {/* Left warm glow */}
+        <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-gradient-radial from-emerald-500/15 to-transparent blur-[100px]" />
+
+        {/* Bottom field green */}
+        <div className="absolute bottom-0 left-0 right-0 h-[180px] bg-gradient-to-t from-[#031d12] to-transparent" />
+
+        {/* Stadium texture arcs */}
+        <svg
+          className="absolute bottom-0 left-0 right-0 w-full"
+          viewBox="0 0 1440 220"
+          preserveAspectRatio="none"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <ellipse cx="720" cy="260" rx="860" ry="200" fill="#052818" opacity="0.7"/>
+          <ellipse cx="720" cy="280" rx="560" ry="140" fill="#063e22" opacity="0.6"/>
+          <ellipse cx="720" cy="300" rx="320" ry="80" fill="#0a5e30" opacity="0.5" stroke="#16a34a" strokeWidth="1"/>
+          {/* Pitch strip */}
+          <rect x="668" y="260" width="104" height="80" rx="4" fill="#c8a96e" opacity="0.6"/>
+        </svg>
+
+        {/* Shimmer dots */}
+        <div className="absolute top-20 left-16 w-2 h-2 rounded-full bg-yellow-300/50 blur-[2px] animate-pulse" />
+        <div className="absolute top-32 right-24 w-1.5 h-1.5 rounded-full bg-emerald-300/60 blur-[2px] animate-pulse delay-700" />
+        <div className="absolute top-48 left-1/3 w-1 h-1 rounded-full bg-white/30 animate-pulse delay-300" />
+      </div>
+
+      {/* ── MAIN CONTENT ── */}
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center min-h-[520px] gap-0">
+
+          {/* ══ LEFT COLUMN: Typography + CTAs ══ */}
+          <div className="py-14 lg:py-20 text-center lg:text-left relative z-10">
+
+            {/* Eyebrow */}
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-5">
               <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#F0C419] opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#F0C419]"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
               </span>
-              <span className="text-[#F0C419] font-black uppercase tracking-wider text-[11px] sm:text-xs">
-                ⚡ India's #1 Cricket Exchange &amp; Live Casino
-              </span>
-              <span className="hidden sm:inline text-white/40">•</span>
-              <span className="hidden sm:inline text-emerald-300 font-bold text-xs flex items-center gap-1">
-                <CheckCircle2 className="w-3.5 h-3.5 inline text-emerald-400" /> 100% Verified
+              <span className="text-emerald-300 text-[11px] font-black uppercase tracking-widest">
+                Play · Learn · Enjoy
               </span>
             </div>
 
-            {/* Display Headline */}
-            <h1 className="text-3xl sm:text-4xl lg:text-[3.1rem] font-black text-white leading-[1.12] mb-3.5 tracking-tight">
-              Lotus365 Official — India's Most Trusted{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFF066] via-[#F0C419] to-[#E5A800] drop-shadow-[0_2px_18px_rgba(240,196,25,0.35)]">
-                Cricket Exchange
+            {/* Main headline — SEO-optimised, matching reference mockups */}
+            <h1 className="font-black text-white leading-[1.08] tracking-tight mb-5">
+              <span className="block text-3xl sm:text-4xl lg:text-[2.6rem] mb-1">
+                India's Premier
+              </span>
+              <span className="block text-4xl sm:text-5xl lg:text-[3.2rem] text-emerald-400">
+                Sports &amp; Gaming
+              </span>
+              <span className="block text-4xl sm:text-5xl lg:text-[3.2rem]">
+                Platform
               </span>
             </h1>
 
-            {/* High-Converting Value Proposition */}
-            <p className="text-white/85 text-sm sm:text-base leading-relaxed mb-5 max-w-2xl font-normal">
-              Real-time peer-to-peer cricket odds with <strong className="text-[#F0C419] font-bold">0% commission</strong>, live dealer Teen Patti, Roulette &amp; 1000+ casino games. Get your official WhatsApp ID in under 30 seconds!
+            {/* Sub-headline — SEO approved */}
+            <p className="text-white/75 text-sm sm:text-base leading-relaxed mb-8 max-w-lg mx-auto lg:mx-0">
+              Step into a premium world of sports and gaming, where excitement meets trust.
+              Live Scores, Expert Insights &amp; 1000+ Exciting Games — All in One Place.
             </p>
 
-            {/* Visual Feature Badges - Replacing Bulky Paragraphs */}
-            <div className="grid grid-cols-2 gap-2 sm:gap-2.5 max-w-xl mb-5">
-              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
-                <div className="w-7 h-7 rounded-lg bg-[#F0C419]/15 border border-[#F0C419]/30 flex items-center justify-center shrink-0">
-                  <Zap className="w-3.5 h-3.5 text-[#F0C419]" />
-                </div>
-                <div className="text-left">
-                  <div className="text-xs font-bold text-white">0% Commission</div>
-                  <div className="text-[10px] text-white/70">Top Cricket Matches</div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
-                <div className="w-7 h-7 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center shrink-0">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                </div>
-                <div className="text-left">
-                  <div className="text-xs font-bold text-white">2-Min UPI Cashout</div>
-                  <div className="text-[10px] text-white/70">PhonePe, GPay, Paytm</div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
-                <div className="w-7 h-7 rounded-lg bg-sky-500/15 border border-sky-500/30 flex items-center justify-center shrink-0">
-                  <Smartphone className="w-3.5 h-3.5 text-sky-400" />
-                </div>
-                <div className="text-left">
-                  <div className="text-xs font-bold text-white">Fast Mobile Gaming</div>
-                  <div className="text-[10px] text-white/70">Smooth On Any Phone</div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/10 backdrop-blur-sm">
-                <div className="w-7 h-7 rounded-lg bg-amber-500/15 border border-amber-500/30 flex items-center justify-center shrink-0">
-                  <Crown className="w-3.5 h-3.5 text-amber-400" />
-                </div>
-                <div className="text-left">
-                  <div className="text-xs font-bold text-white">Lotus365 VIP Club</div>
-                  <div className="text-[10px] text-white/70">Personal Host 24/7</div>
-                </div>
-              </div>
-            </div>
-
-            {/* The 4 Exact Primary Theme Buttons - 4-Column Grid on Desktop, 2x2 on Mobile */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5 mb-4 max-w-2xl">
+            {/* Primary CTA — WhatsApp Get ID (matching mockup green pill) */}
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 mb-10">
               <button
                 onClick={handleWhatsApp}
-                className="cta-button !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-black w-full shadow-md"
-                id="hero-login-btn"
+                id="hero-get-id-btn"
+                className="
+                  group flex items-center gap-2.5
+                  px-8 py-3.5 rounded-full
+                  bg-emerald-600 hover:bg-emerald-500
+                  text-white font-bold text-base
+                  shadow-[0_4px_24px_rgba(16,185,129,0.4)]
+                  hover:shadow-[0_6px_32px_rgba(16,185,129,0.55)]
+                  transition-all duration-250 cursor-pointer
+                  w-full sm:w-auto justify-center
+                "
               >
-                <Lock className="w-3.5 h-3.5 shrink-0" />
-                <span>Login Now</span>
+                <MessageCircle className="w-5 h-5 fill-current flex-shrink-0" />
+                <span>Get ID on WhatsApp</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
 
-              <button
-                onClick={handleWhatsApp}
-                className="cta-button !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-black w-full shadow-md"
-                id="hero-signup-btn"
+              <Link
+                href="/cricket-exchange"
+                className="
+                  flex items-center justify-center gap-2
+                  px-6 py-3.5 rounded-full
+                  bg-white/10 hover:bg-white/20 backdrop-blur-sm
+                  text-white font-semibold text-sm
+                  border border-white/25 hover:border-white/40
+                  transition-all duration-200
+                  w-full sm:w-auto
+                "
               >
-                <MessageCircle className="w-3.5 h-3.5 shrink-0" />
-                <span>Sign Up Free</span>
-              </button>
-
-              <button
-                onClick={handleWhatsApp}
-                className="cta-button-outline !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-bold w-full"
-                id="hero-vip-btn"
-              >
-                <Crown className="w-3.5 h-3.5 text-[#F0C419] shrink-0" />
-                <span>Lotus365 VIP</span>
-              </button>
-
-              <button
-                onClick={handleWhatsApp}
-                className="cta-button-outline !py-2.5 !px-3 !text-xs sm:!text-[13px] !font-bold w-full border-[#38BDF8]/40 hover:border-[#38BDF8]"
-                id="hero-blue-btn"
-              >
-                <Zap className="w-3.5 h-3.5 text-[#38BDF8] shrink-0" />
-                <span>Lotus365 Blue</span>
-              </button>
-            </div>
-
-            {/* Quick Redirect Interlinks for Players */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-4 text-[11px] sm:text-xs">
-              <span className="text-white/60">Explore Games:</span>
-              <Link href="/cricket-exchange" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-[#F0C419] border border-[#F0C419]/30 transition-all font-semibold" title="🏏 Cricket Exchange">
-                🏏 Cricket Exchange
-              </Link>
-              <Link href="/live-casino" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-emerald-300 border border-emerald-500/30 transition-all font-semibold" title="🎰 Live Casino">
-                🎰 Live Casino
-              </Link>
-              <Link href="/aviator-game" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-sky-300 border border-sky-500/30 transition-all font-semibold" title="✈️ Aviator">
-                ✈️ Aviator
-              </Link>
-              <Link href="/vip-club" className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-amber-300 border border-amber-500/30 transition-all font-semibold" title="👑 VIP Club">
-                👑 VIP Club
+                <Zap className="w-4 h-4 text-yellow-400 flex-shrink-0" />
+                <span>Explore Now</span>
               </Link>
             </div>
 
-            {/* Micro Badges */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs text-white/80 mb-5">
-              <span className="flex items-center gap-1.5">
-                <Flame className="w-3.5 h-3.5 text-[#F0C419]" />
-                <span>Min Deposit: <strong>₹100</strong></span>
-              </span>
-              <span className="text-white/30">•</span>
-              <span className="flex items-center gap-1.5">
-                <Zap className="w-3.5 h-3.5 text-[#F0C419]" />
-                <span>Direct UPI / IMPS / NetBanking</span>
-              </span>
-              <span className="text-white/30">•</span>
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-300" />
-                <span>Licensed &amp; 100% Verified</span>
-              </span>
-            </div>
-
-            {/* Floating Trust Metrics in Lotus Green Cards */}
-            <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-xl mx-auto lg:mx-0 pt-3.5 border-t border-white/15">
-              <div className="p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/15 text-center hover:border-[#F0C419]/40 transition-colors">
-                <div className="font-extrabold text-sm sm:text-base text-[#F0C419] flex items-center justify-center gap-1">
-                  <Zap className="w-3.5 h-3.5 text-[#F0C419]" />
-                  <span>2 Mins</span>
+            {/* Feature pills strip — matching reference mockup layout */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
+              {featurePills.map(({ icon: Icon, label, sub, color }) => (
+                <div
+                  key={label}
+                  className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-black/25 border border-white/12 backdrop-blur-sm"
+                >
+                  <Icon className={`w-4 h-4 ${color} flex-shrink-0`} />
+                  <div className="text-left">
+                    <div className="text-white text-[11px] font-bold leading-none">{label}</div>
+                    <div className="text-white/55 text-[10px] leading-none mt-0.5">{sub}</div>
+                  </div>
                 </div>
-                <div className="text-[10px] sm:text-xs text-white/80 font-medium mt-0.5">Instant Cashout</div>
-              </div>
-
-              <div className="p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/15 text-center hover:border-emerald-400/40 transition-colors">
-                <div className="font-extrabold text-sm sm:text-base text-emerald-300 flex items-center justify-center gap-1">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
-                  <span>100%</span>
-                </div>
-                <div className="text-[10px] sm:text-xs text-white/80 font-medium mt-0.5">Fund Protection</div>
-              </div>
-
-              <div className="p-2 sm:p-2.5 rounded-xl bg-black/25 border border-white/15 text-center hover:border-[#FFD000]/40 transition-colors">
-                <div className="font-extrabold text-sm sm:text-base text-[#FFD000] flex items-center justify-center gap-1">
-                  <Sparkles className="w-3.5 h-3.5 text-[#FFD000]" />
-                  <span>24/7</span>
-                </div>
-                <div className="text-[10px] sm:text-xs text-white/80 font-medium mt-0.5">WhatsApp Support</div>
-              </div>
+              ))}
             </div>
           </div>
 
-          {/* Right Column: High-Tech Live Sports & Aviator Simulation Card */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative mx-auto max-w-md lg:max-w-none">
-              {/* Main Card Container */}
-              <div className="relative rounded-2xl bg-black/25 border border-white/20 p-5 sm:p-6 shadow-2xl backdrop-blur-md">
-                {/* Header of Preview Box */}
-                <div className="flex items-center justify-between pb-3.5 border-b border-white/15 mb-4">
+          {/* ══ RIGHT COLUMN: Photorealistic Dissolved Cricket Action + Live Match card ══ */}
+          <div className="relative hidden lg:flex items-center justify-center h-[540px] xl:h-[580px] overflow-hidden rounded-3xl">
+            {/* Cinematic cricket player image with feathered dissolve into #063323 */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Image
+                src="/images/banners/hero-cricket-batsman.jpg"
+                alt="India Cricket Live Action — Lotus365"
+                fill
+                priority
+                className="object-cover object-center scale-105 select-none"
+              />
+              {/* Dissolve overlays: Feathered gradients so edges melt into background */}
+              <div className="absolute inset-0 bg-gradient-to-r from-[#063323] via-transparent to-[#063323]/60 pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#063323] via-transparent to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-b from-[#063323]/60 via-transparent to-transparent pointer-events-none" />
+              {/* Radial vignette mask effect */}
+              <div className="absolute inset-0 shadow-[inset_0_0_80px_rgba(6,51,35,0.9)] pointer-events-none" />
+            </div>
+
+            {/* Live Match floating card — top left of right column */}
+            <div className="absolute top-12 left-0 z-20 w-[220px]">
+              <div className="bg-white rounded-2xl shadow-2xl p-4 border border-gray-100">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-red-500 animate-ping" />
+                    <span className="text-[10px] font-black text-red-600 uppercase tracking-wide">LIVE</span>
+                  </div>
+                  <span className="text-[10px] text-slate-400 font-medium">3rd ODI · Mumbai</span>
+                </div>
+
+                {/* Score */}
+                <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center gap-2">
-                    <span className="relative flex h-2.5 w-2.5">
-                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                      <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
-                    </span>
-                    <span className="text-xs font-bold uppercase tracking-wider text-white">
-                      Live In-Play Exchange
-                    </span>
-                  </div>
-                  <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-black/40 text-[#F0C419] border border-[#F0C419]/30">
-                    MATCH #402
-                  </span>
-                </div>
-
-                {/* Match Card Simulation */}
-                <div className="p-4 rounded-xl bg-black/30 border border-white/15 mb-4">
-                  <div className="flex items-center justify-between mb-3 text-xs">
-                    <span className="font-bold text-white flex items-center gap-1.5">
-                      <span className="text-base">🏏</span> India vs Australia
-                    </span>
-                    <span className="text-[10px] text-emerald-300 font-bold bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-500/30">
-                      LIVE • 17.4 OV
-                    </span>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-2 text-center text-xs">
-                    {/* Back Option */}
-                    <button
-                      onClick={() => setOddsSelected('back')}
-                      className={`p-2.5 rounded-lg border transition-all cursor-pointer ${
-                        oddsSelected === 'back'
-                          ? 'bg-blue-600/30 border-blue-400 text-white ring-2 ring-blue-400'
-                          : 'bg-blue-900/30 border-blue-500/30 text-blue-200 hover:bg-blue-800/40'
-                      }`}
-                    >
-                      <div className="text-[10px] uppercase font-bold text-blue-300">Back (India)</div>
-                      <div className="text-base font-black text-white mt-0.5">1.94</div>
-                      <div className="text-[9px] text-blue-300/80">Vol: ₹1.4Cr</div>
-                    </button>
-
-                    {/* Lay Option */}
-                    <button
-                      onClick={() => setOddsSelected('lay')}
-                      className={`p-2.5 rounded-lg border transition-all cursor-pointer ${
-                        oddsSelected === 'lay'
-                          ? 'bg-pink-600/30 border-pink-400 text-white ring-2 ring-pink-400'
-                          : 'bg-pink-900/30 border-pink-500/30 text-pink-200 hover:bg-pink-800/40'
-                      }`}
-                    >
-                      <div className="text-[10px] uppercase font-bold text-pink-300">Lay (India)</div>
-                      <div className="text-base font-black text-white mt-0.5">1.96</div>
-                      <div className="text-[9px] text-pink-300/80">Vol: ₹85L</div>
-                    </button>
-                  </div>
-                </div>
-
-                {/* Aviator Live Multiplier Simulator */}
-                <div className="p-4 rounded-xl bg-black/30 border border-white/15 mb-5 relative overflow-hidden">
-                  <div className="flex items-center justify-between text-xs mb-2">
-                    <span className="text-white/80 font-bold flex items-center gap-1">
-                      <Plane className="w-3.5 h-3.5 text-red-400" />
-                      <span>Aviator Multiplier</span>
-                    </span>
-                    <span className="text-[10px] font-mono text-emerald-400 font-bold">CRASH GAME</span>
-                  </div>
-
-                  <div className="h-20 rounded-lg bg-black/40 border border-white/10 flex items-center justify-center relative overflow-hidden">
-                    <div className="text-center z-10">
-                      <div
-                        className={`font-mono font-black text-2xl sm:text-3xl transition-all ${
-                          isFlying ? 'text-[#F0C419]' : 'text-red-500 animate-bounce'
-                        }`}
-                      >
-                        {isFlying ? `${multiplier}x` : 'FLEW AWAY!'}
-                      </div>
-                      <div className="text-[10px] text-white/70">
-                        {isFlying ? 'Rocket climbing...' : 'Next round starts in 2s'}
-                      </div>
+                    <span className="text-xl">🇮🇳</span>
+                    <div>
+                      <div className="text-[11px] font-bold text-slate-900">India</div>
+                      <div className="text-sm font-black text-emerald-600 font-mono">278/4</div>
+                      <div className="text-[9px] text-slate-400">(48.2 ov)</div>
                     </div>
                   </div>
+                  <div className="text-xs font-bold text-slate-300">VS</div>
+                  <div className="flex items-center gap-2">
+                    <div className="text-right">
+                      <div className="text-[11px] font-bold text-slate-900">Australia</div>
+                      <div className="text-[9px] text-slate-400 mt-0.5">Yet to bat</div>
+                    </div>
+                    <span className="text-xl">🇦🇺</span>
+                  </div>
                 </div>
 
-                {/* Instant Action Button on the card */}
-                <button
-                  onClick={handleWhatsApp}
-                  className="w-full cta-button py-3 text-sm font-black"
-                >
-                  <MessageCircle className="w-4 h-4 mr-2" />
-                  <span>Get WhatsApp Demo ID Now</span>
-                </button>
+                {/* Odds pills */}
+                <div className="grid grid-cols-2 gap-1.5">
+                  <div className="bg-emerald-50 border border-emerald-200 rounded-lg px-2 py-1.5 text-center">
+                    <div className="text-[9px] text-emerald-700 font-semibold">India</div>
+                    <div className="text-sm font-black text-emerald-700 font-mono">1.62</div>
+                  </div>
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg px-2 py-1.5 text-center">
+                    <div className="text-[9px] text-slate-600 font-semibold">Australia</div>
+                    <div className="text-sm font-black text-slate-700 font-mono">2.25</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Stats badge — bottom right */}
+            <div className="absolute bottom-10 right-4 z-20">
+              <div className="bg-emerald-600 rounded-2xl px-4 py-3 shadow-xl text-white text-center">
+                <div className="text-[10px] font-semibold opacity-80 mb-0.5">Active Players</div>
+                <div className="text-xl font-black font-mono">12,842</div>
+                <div className="text-[9px] opacity-70">playing right now</div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
+
+      {/* ── BOTTOM FADE ── */}
+      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#042a1c]/80 to-transparent pointer-events-none" />
     </section>
   );
 };

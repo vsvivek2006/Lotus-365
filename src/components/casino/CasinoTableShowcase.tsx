@@ -81,7 +81,7 @@ const defaultTables: CasinoTable[] = [
     name: 'Crazy Time Game Show',
     provider: 'Evolution Gaming',
     category: 'shows',
-    imageSrc: '/images/games/crazy-time.svg',
+    imageSrc: '/images/games/live-casino.svg',
     minBet: 50,
     maxBet: 100000,
     activePlayers: 3200,

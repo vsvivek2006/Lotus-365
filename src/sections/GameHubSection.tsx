@@ -1,5 +1,6 @@
 "use client";
 import Link from 'next/link';
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 import { POPULAR_GAMES } from '../data/landingData';
@@ -46,16 +47,16 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
   };
 
   return (
-    <section id="games" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
+    <section id="games" className="py-20 bg-gradient-to-b from-[#022319] to-[#043324] border-t border-emerald-500/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/25 border border-white/20 text-xs font-bold text-[#F0C419] uppercase tracking-wider mb-3">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-500/40 text-xs font-bold text-emerald-300 uppercase tracking-wider mb-3">
               <span>Verified 1000+ Gaming Lobby</span>
             </div>
             <h2 className="font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
-              Play India’s Favorite <span className="text-[#F0C419]">Casino &amp; Exchange Games</span>
+              Play India’s Favorite <span className="text-emerald-400">Casino &amp; Exchange Games</span>
             </h2>
             <p className="text-white/80 text-sm mt-2 max-w-xl">
               High RTP rates, certified random number generators, zero lagging, and instantaneous win credits straight into your playable wallet balance.
@@ -64,11 +65,54 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
 
           <button
             onClick={() => onOpenAuth('register')}
-            className="cta-button py-2.5 px-5 text-xs font-black self-start md:self-auto"
+            className="emerald-pill-btn py-2.5 px-6 text-xs font-black self-start md:self-auto cursor-pointer shadow-lg"
           >
             <span>Instant Access Lobby</span>
             <ArrowRight className="w-4 h-4" />
           </button>
+        </div>
+
+        {/* 3D Free Games Spotlight Banner with dissolved edges (Direct from Mockups) */}
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#031d14] via-[#063b2a] to-[#031d14] border border-emerald-500/30 p-6 sm:p-8 mb-10 shadow-2xl">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+            <div className="md:col-span-7 z-10 text-center md:text-left">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-black uppercase mb-3">
+                <Sparkles className="w-3.5 h-3.5 text-yellow-400" /> Free to Play · Zero Wagering
+              </span>
+              <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight mb-2">
+                Play 1,000+ Free Games &amp; Skill Tournaments
+              </h3>
+              <p className="text-white/80 text-xs sm:text-sm leading-relaxed mb-6 max-w-lg">
+                Enjoy instant-play arcade games, sports quizzes, fantasy leagues, and crash games with zero wagering required. Perfect for practice and daily rewards!
+              </p>
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <button
+                  onClick={() => onOpenAuth('register')}
+                  className="emerald-pill-btn !py-2.5 !px-6 !text-xs font-black shadow-lg cursor-pointer"
+                >
+                  <Play className="w-3.5 h-3.5 fill-current" />
+                  <span>Play Instant Free Games</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Right: 3D Controller Image with dissolved edges */}
+            <div className="md:col-span-5 relative h-52 sm:h-60 flex items-center justify-center">
+              <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/banners/games-hub-3d.jpg"
+                  alt="3D Free Games Controller & Rewards"
+                  fill
+                  className="object-cover object-center scale-105"
+                />
+                {/* Dissolved edge masks */}
+                <div className="absolute inset-0 bg-gradient-to-r from-[#063b2a]/70 via-transparent to-transparent pointer-events-none md:block hidden" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#031d14] via-transparent to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-b from-[#031d14]/40 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute inset-0 shadow-[inset_0_0_40px_rgba(3,29,20,0.8)] pointer-events-none" />
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Filter Category Tabs */}
@@ -82,8 +126,8 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                 onClick={() => setActiveCategory(cat.id)}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all flex items-center gap-2 cursor-pointer ${
                   isSelected
-                    ? 'bg-[#F0C419] text-[#14614C] shadow-md'
-                    : 'bg-black/25 hover:bg-black/40 text-white/90 border border-white/15'
+                    ? 'bg-emerald-600 text-white shadow-md'
+                    : 'bg-[#03241b] hover:bg-emerald-900/40 text-white/90 border border-emerald-500/20'
                 }`}
               >
                 <Icon className="w-4 h-4" />

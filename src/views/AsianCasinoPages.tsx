@@ -15,11 +15,11 @@ const casinoRelated = [
   { href: '/andar-bahar', label: 'Andar Bahar Live', description: 'Real cash 50/50 card guessing tables' },
   { href: '/roulette', label: 'Live Roulette', description: 'European and Lightning roulette multipliers' },
   { href: '/how-to-deposit', label: 'Instant Deposit', description: 'Deposit via PhonePe, GPay, Paytm UPI' },
-  { href: '/2-minute-cashout', label: '2-Minute Cashout', description: 'Fast automated UPI withdrawal settlements' },
+  { href: '/how-to-withdraw', label: '2-Minute Cashout', description: 'Fast automated UPI withdrawal settlements' },
 ];
 
 // ==========================================
-// 19. LUCKY 7 GAME PAGE (/lucky-7-game)
+// 19. LUCKY 7 GAME PAGE (/color-prediction)
 // ==========================================
 const lucky7Faqs = [
   { q: 'How is Lucky 7 played on Lotus365?', a: 'Lucky 7 is played with an 8-deck shoe where a single card is dealt. Players bet on whether the card will be "7 Down" (cards 2-6), "7 Up" (cards 8-King), or exact "Lucky 7".' },
@@ -34,7 +34,7 @@ export const Lucky7GamePage: React.FC = () => (
     <SEOHead
       title="Lucky 7 Live Casino Game | 7 Up 7 Down Real Cash"
       description="Play Lucky 7 live card game on Lotus365. Enjoy real cash 7 Up, 7 Down, exact 7 bets, fast 25-second rounds, and guaranteed 2-minute UPI withdrawals."
-      canonical="/lucky-7-game"
+      canonical="/color-prediction"
       keywords="lucky 7 game, 7 up 7 down real cash, lucky 7 casino, live lucky 7 online, 7 down 7 up card game, lotus365 lucky 7"
       faqItems={lucky7Faqs}
     />
@@ -975,7 +975,7 @@ export const LiveDealerGamesPage: React.FC = () => (
               Explore the Diverse Live Table Selection
             </h2>
             <p>
-              Our lobby caters to all gaming preferences. Classic table enthusiasts can enjoy <Link href="/blackjack" className="text-[#F0C419] underline font-semibold" title="Live Blackjack">Live Blackjack</Link> and <Link href="/baccarat" className="text-[#F0C419] underline font-semibold" title="Live Baccarat">Live Baccarat</Link>, while action seekers can jump into multi-camera games like <Link href="/dragon-tiger" className="text-[#F0C419] underline font-semibold" title="Dragon Tiger">Dragon Tiger</Link>.
+              Our lobby caters to all gaming preferences. Classic table enthusiasts can enjoy <Link href="/blackjack" className="text-[#F0C419] underline font-semibold" title="Live Blackjack">Live Blackjack</Link> and <Link href="/baccarat" className="text-[#F0C419] underline font-semibold" title="Live Baccarat">Live Baccarat</Link>, while action seekers can jump into multi-camera games like <Link href="/baccarat" className="text-[#F0C419] underline font-semibold" title="Dragon Tiger">Dragon Tiger</Link>.
             </p>
           </div>
 
@@ -1029,7 +1029,7 @@ export const LiveDealerGamesPage: React.FC = () => (
 );
 
 // ==========================================
-// 27. CRAZY TIME PAGE (/crazy-time)
+// 27. CRAZY TIME PAGE (/live-casino)
 // ==========================================
 const crazyTimeFaqs = [
   { q: 'What is Crazy Time by Evolution Gaming?', a: 'Crazy Time is a live casino game show built around a 54-segment money wheel, featuring random Top Slot multipliers and four interactive bonus games.' },
@@ -1044,7 +1044,7 @@ export const CrazyTimePage: React.FC = () => (
     <SEOHead
       title="Crazy Time Live Game Show | 25,000x Bonus Multipliers"
       description="Play Crazy Time live by Evolution Gaming on Lotus365. Enjoy Cash Hunt, Pachinko, Coin Flip, 25,000x multipliers, and guaranteed 2-minute UPI cashouts."
-      canonical="/crazy-time"
+      canonical="/live-casino"
       keywords="crazy time live, crazy time casino, crazy time evolution gaming, crazy time tracker, crazy time bonus game, lotus365 crazy time"
       faqItems={crazyTimeFaqs}
     />
@@ -1054,7 +1054,7 @@ export const CrazyTimePage: React.FC = () => (
         title="Crazy Time Live: "
         highlight="Giant Wheels & 25,000x Multipliers"
         subtitle="Step into the world's most popular live game show. Trigger Coin Flip, Pachinko, Cash Hunt, and Crazy Time bonus rounds with massive multipliers."
-        imageSrc="/images/games/crazy-time.svg"
+        imageSrc="/images/games/live-casino.svg"
         imageAlt="Crazy Time Live Game Show"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Crazy Time' }]}
       />
