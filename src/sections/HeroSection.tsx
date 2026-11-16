@@ -1,8 +1,7 @@
 "use client";
 
-import Link from 'next/link';
 import Image from 'next/image';
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React from 'react';
 import {
   MessageCircle,
   ArrowRight,
@@ -11,160 +10,54 @@ import {
   ShieldCheck,
   Headphones,
   Crown,
-  ChevronLeft,
-  ChevronRight,
   Sparkles,
-  Play,
-  TrendingUp,
+  CheckCircle2,
 } from 'lucide-react';
-import { OFFICIAL_WHATSAPP_URL, getWhatsAppUrl } from '../data/landingData';
+import { getWhatsAppUrl } from '../data/landingData';
 
 interface HeroSectionProps {
   onOpenAuth?: (mode: 'login' | 'register') => void;
 }
-
-interface HeroSlide {
-  id: string;
-  badge: string;
-  eyebrow: string;
-  titlePrimary: string;
-  titleAccent: string;
-  subtitle: string;
-  description: string;
-  desktopImage: string;
-  mobileImage: string;
-  primaryCta: string;
-  secondaryCta: string;
-  secondaryActionType: 'demo' | 'link';
-  secondaryHref?: string;
-  floatingCard: {
-    tag: string;
-    tagColor: string;
-    title: string;
-    sub: string;
-    metric1Label: string;
-    metric1Val: string;
-    metric2Label: string;
-    metric2Val: string;
-  };
-}
-
-const slides: HeroSlide[] = [
-  {
-    id: 'sports-cricket',
-    badge: 'India Live Sports',
-    eyebrow: 'Play Bigger. Win Bigger.',
-    titlePrimary: "India's Premier",
-    titleAccent: 'Gaming Platform',
-    subtitle: 'Live Sports • 1,000+ Casino Games • Instant Play',
-    description:
-      'From live cricket exchange to 1,000+ casino games, Lotus365 delivers instant WhatsApp ID activation, 30-second deposits, and 2-minute withdrawals. More action. Less waiting.',
-    desktopImage: '/images/banners/hero_cricket_feathered_desktop.webp',
-    mobileImage: '/images/banners/hero_cricket_feathered_mobile.webp',
-    primaryCta: 'Get ID on WhatsApp',
-    secondaryCta: '2-Min Demo ID',
-    secondaryActionType: 'demo',
-    floatingCard: {
-      tag: 'LIVE IN-PLAY',
-      tagColor: 'bg-red-500 text-white',
-      title: 'IND vs AUS',
-      sub: '3rd ODI • Mumbai',
-      metric1Label: 'India',
-      metric1Val: '278/4 (48.2)',
-      metric2Label: 'Australia',
-      metric2Val: 'Yet to bat',
-    },
-  },
-  {
-    id: 'live-casino',
-    badge: '1,000+ Casino Tables',
-    eyebrow: 'High Definition Streaming',
-    titlePrimary: "India's Ultimate",
-    titleAccent: 'Live Casino & 3D Hub',
-    subtitle: 'Live Teen Patti • Roulette • Aviator Radar',
-    description:
-      'Immerse in crystal-clear live casino streams with certified dealers, instant multiplier cashouts, and round-the-clock VIP private concierge on WhatsApp.',
-    desktopImage: '/images/banners/hero_casino_feathered_desktop.webp',
-    mobileImage: '/images/banners/hero_casino_feathered_mobile.webp',
-    primaryCta: 'Get ID on WhatsApp',
-    secondaryCta: 'Play 1,000+ Games',
-    secondaryActionType: 'link',
-    secondaryHref: '/live-casino',
-    floatingCard: {
-      tag: 'HOT MULTIPLIER',
-      tagColor: 'bg-amber-500 text-white',
-      title: 'Aviator & Roulette',
-      sub: 'Live Multiplier Stream',
-      metric1Label: 'Aviator Radar',
-      metric1Val: '8.42x',
-      metric2Label: 'Roulette Table',
-      metric2Val: 'Live Dealer',
-    },
-  },
-];
 
 const fintechBadges = [
   {
     icon: Zap,
     title: 'Instant Access',
     subtitle: 'via WhatsApp',
-    iconColor: 'text-emerald-600',
-    iconBg: 'bg-emerald-50 border-emerald-100',
+    color: 'text-emerald-300',
+    bg: 'bg-emerald-500/20 border-emerald-400/30',
   },
   {
     icon: Clock,
     title: '30 Sec',
     subtitle: 'UPI Deposits',
-    iconColor: 'text-amber-600',
-    iconBg: 'bg-amber-50 border-amber-100',
+    color: 'text-amber-300',
+    bg: 'bg-amber-500/20 border-amber-400/30',
   },
   {
     icon: ShieldCheck,
     title: '2 Min',
     subtitle: 'Cashouts',
-    iconColor: 'text-emerald-600',
-    iconBg: 'bg-emerald-50 border-emerald-100',
+    color: 'text-teal-300',
+    bg: 'bg-teal-500/20 border-teal-400/30',
   },
   {
     icon: Headphones,
     title: '24/7',
-    subtitle: 'Human Support',
-    iconColor: 'text-teal-600',
-    iconBg: 'bg-teal-50 border-teal-100',
+    subtitle: 'Support',
+    color: 'text-emerald-200',
+    bg: 'bg-emerald-500/20 border-emerald-400/30',
   },
   {
     icon: Crown,
     title: 'VIP',
     subtitle: 'Benefits',
-    iconColor: 'text-amber-500',
-    iconBg: 'bg-amber-50 border-amber-100',
+    color: 'text-yellow-300',
+    bg: 'bg-yellow-500/20 border-yellow-400/30',
   },
 ];
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const slideCount = slides.length;
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
-
-  const nextSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev + 1) % slideCount);
-  }, [slideCount]);
-
-  const prevSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev - 1 + slideCount) % slideCount);
-  }, [slideCount]);
-
-  useEffect(() => {
-    if (isPaused) return;
-    timerRef.current = setInterval(() => {
-      nextSlide();
-    }, 6000);
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [isPaused, nextSlide]);
-
   const handleWhatsApp = () => {
     if (onOpenAuth) {
       onOpenAuth('register');
@@ -179,270 +72,198 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
 
   const handleDemoId = () => {
     window.open(
-      getWhatsAppUrl('Hi Lotus365, please give me a 2-minute Free Demo ID to test lotusplay365.shop'),
+      getWhatsAppUrl('Hi Lotus365, please provide a 2-minute Free Demo ID to test lotusplay365.shop'),
       '_blank',
       'noopener,noreferrer'
     );
   };
 
-  const slide = slides[currentSlide];
-
   return (
     <section
-      className="relative bg-[#F8FAFC] pt-3 sm:pt-4 pb-6"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-      aria-label="Lotus365 Hero Banner"
+      className="relative w-full overflow-hidden bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] text-white pt-8 pb-12 sm:pt-12 sm:pb-16 lg:pt-16 lg:pb-20"
+      aria-label="Lotus365 Official Hero"
     >
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-        
-        {/* ══ CURVED EMERALD STADIUM HERO CARD (Full-Bleed Luxury Banner) ══ */}
-        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] shadow-xl border border-emerald-600/30 text-white">
-          
-          {/* Ambient Stadium Lighting Glows (Lush Emerald & Gold Beam, Zero Black) */}
-          <div className="absolute inset-0 pointer-events-none overflow-hidden">
-            <div className="absolute top-0 right-1/4 w-[500px] h-[320px] bg-emerald-400/25 blur-[120px] rounded-full" />
-            <div className="absolute -top-16 -left-16 w-[360px] h-[360px] bg-teal-300/15 blur-[100px] rounded-full" />
-            <div className="absolute bottom-0 right-10 w-[400px] h-[250px] bg-amber-400/15 blur-[100px] rounded-full" />
+      {/* ══ FULL-WIDTH BACKGROUND IMAGE & STADIUM FLOODLIGHTS ══ */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {/* Full Bleed Stadium Backdrop */}
+        <Image
+          src="/images/banners/cricket_stadium_real.jpg"
+          alt="Lotus365 Floodlit Arena"
+          fill
+          priority
+          className="object-cover object-center opacity-25 mix-blend-overlay"
+        />
+
+        {/* Ambient Stadium Floodlight Beams & Golden Dust */}
+        <div className="absolute top-0 left-1/4 w-[600px] h-[400px] bg-emerald-400/30 blur-[140px] rounded-full" />
+        <div className="absolute top-10 right-1/4 w-[550px] h-[450px] bg-amber-400/20 blur-[130px] rounded-full" />
+        <div className="absolute -bottom-20 left-1/3 w-[700px] h-[350px] bg-teal-300/15 blur-[120px] rounded-full" />
+
+        {/* Smooth Top & Bottom Vignette (Zero Black, Pure Deep Emerald) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#064e3b]/90 via-transparent to-[#065f46]/95" />
+      </div>
+
+      {/* ══ INNER CONTENT WRAPPER ══ */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+
+          {/* ─────────────────────────────────────────────────────────────
+              LEFT COLUMN: High-Impact Headline, Pitch & Dual CTAs
+          ───────────────────────────────────────────────────────────── */}
+          <div className="lg:col-span-7 text-center lg:text-left">
             
-            {/* Subtle Stadium Turf Arch Line */}
-            <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#064e3b]/80 to-transparent" />
-          </div>
-
-          {/* Grid Layout: Left Content + Right High-Res Imagery */}
-          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 items-center min-h-[460px] lg:min-h-[500px] px-5 sm:px-8 lg:px-12 py-8 lg:py-10 gap-8">
-            
-            {/* ── LEFT COLUMN: Text, Value Proposition & Actions ── */}
-            <div className="lg:col-span-7 text-center lg:text-left">
-              
-              {/* Eyebrow Tagline Badge */}
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/15 border border-white/25 backdrop-blur-md mb-4 shadow-xs">
-                <span className="flex h-2 w-2 relative">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-300 opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-400" />
-                </span>
-                <span className="text-white text-xs font-black uppercase tracking-wider">
-                  {slide.eyebrow}
-                </span>
-                <span className="text-white/40">•</span>
-                <span className="text-emerald-100 text-xs font-semibold">
-                  {slide.badge}
-                </span>
-              </div>
-
-              {/* H1 Display Headline */}
-              <h1 className="font-black text-white tracking-tight leading-[1.08] mb-3">
-                <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem]">
-                  {slide.titlePrimary}
-                </span>
-                <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 drop-shadow-sm mt-0.5">
-                  {slide.titleAccent}
-                </span>
-              </h1>
-
-              {/* Sub-headline Pill / Bullet Line */}
-              <p className="text-emerald-100 font-semibold text-sm sm:text-base lg:text-lg mb-3">
-                {slide.subtitle}
-              </p>
-
-              {/* SEO Pitch Summary */}
-              <p className="text-emerald-50/90 text-xs sm:text-sm leading-relaxed mb-7 max-w-xl mx-auto lg:mx-0 font-normal">
-                {slide.description}
-              </p>
-
-              {/* Dual Action CTA Buttons (WhatsApp Green + Frosted Glass) */}
-              <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 mb-6">
-                
-                {/* Primary Button: WhatsApp Green */}
-                <button
-                  onClick={handleWhatsApp}
-                  id="hero-primary-whatsapp-btn"
-                  className="
-                    group flex items-center justify-center gap-2.5
-                    px-8 py-3.5 rounded-full
-                    bg-[#25D366] hover:bg-[#20ba5a]
-                    text-white font-extrabold text-base
-                    shadow-[0_4px_20px_rgba(37,211,102,0.45)]
-                    hover:shadow-[0_6px_28px_rgba(37,211,102,0.65)]
-                    transition-all duration-200 cursor-pointer
-                    w-full sm:w-auto border border-white/20
-                  "
-                >
-                  <MessageCircle className="w-5 h-5 fill-current" />
-                  <span>{slide.primaryCta}</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </button>
-
-                {/* Secondary Button: 2-Min Demo ID or Explore Link */}
-                {slide.secondaryActionType === 'demo' ? (
-                  <button
-                    onClick={handleDemoId}
-                    id="hero-demo-id-btn"
-                    className="
-                      flex items-center justify-center gap-2
-                      px-6 py-3.5 rounded-full
-                      bg-white/15 hover:bg-white/25 backdrop-blur-md
-                      text-white font-bold text-sm
-                      border border-white/30 hover:border-white/50
-                      transition-all duration-200 cursor-pointer
-                      w-full sm:w-auto
-                    "
-                  >
-                    <Zap className="w-4 h-4 text-yellow-300" />
-                    <span>{slide.secondaryCta}</span>
-                  </button>
-                ) : (
-                  <Link
-                    href={slide.secondaryHref || '/live-casino'}
-                    className="
-                      flex items-center justify-center gap-2
-                      px-6 py-3.5 rounded-full
-                      bg-white/15 hover:bg-white/25 backdrop-blur-md
-                      text-white font-bold text-sm
-                      border border-white/30 hover:border-white/50
-                      transition-all duration-200
-                      w-full sm:w-auto
-                    "
-                  >
-                    <Sparkles className="w-4 h-4 text-yellow-300" />
-                    <span>{slide.secondaryCta}</span>
-                  </Link>
-                )}
-              </div>
-
-              {/* Slider Dots Indicator */}
-              <div className="flex items-center justify-center lg:justify-start gap-2 pt-2">
-                {slides.map((s, idx) => (
-                  <button
-                    key={s.id}
-                    onClick={() => setCurrentSlide(idx)}
-                    className={`h-2 rounded-full transition-all cursor-pointer ${
-                      currentSlide === idx
-                        ? 'w-8 bg-yellow-400 shadow-xs'
-                        : 'w-2 bg-white/40 hover:bg-white/70'
-                    }`}
-                    aria-label={`Switch to slide ${idx + 1}`}
-                  />
-                ))}
-              </div>
-
+            {/* Tagline / Eyebrow Pill */}
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 backdrop-blur-md mb-5 shadow-sm">
+              <span className="flex h-2.5 w-2.5 relative">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-300 opacity-75" />
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-yellow-400" />
+              </span>
+              <span className="text-white text-xs sm:text-sm font-black uppercase tracking-wider">
+                Play Bigger. Win Bigger.
+              </span>
+              <span className="text-white/40">•</span>
+              <span className="text-emerald-100 text-xs sm:text-sm font-semibold">
+                Official Platform
+              </span>
             </div>
 
-            {/* ── RIGHT COLUMN: Responsive Visual with Dissolved Seamless Edges ── */}
-            <div className="lg:col-span-5 relative flex items-center justify-center">
-              
-              {/* Visual Card Frame */}
-              <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[440px] flex items-center justify-center">
-                
-                {/* Desktop Dissolved Image */}
-                <div className="hidden md:block absolute inset-0">
-                  <Image
-                    key={`desktop-${slide.id}`}
-                    src={slide.desktopImage}
-                    alt={slide.titlePrimary}
-                    fill
-                    priority
-                    className="object-contain object-right-bottom transition-opacity duration-500 drop-shadow-[0_15px_30px_rgba(0,0,0,0.25)]"
-                  />
-                </div>
+            {/* Display H1 Headline */}
+            <h1 className="font-black text-white tracking-tight leading-[1.08] mb-4">
+              <span className="block text-3xl sm:text-5xl lg:text-[3.5rem]">
+                India&apos;s Premier
+              </span>
+              <span className="block text-3xl sm:text-5xl lg:text-[3.5rem] text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 drop-shadow-sm mt-1">
+                Gaming Platform
+              </span>
+            </h1>
 
-                {/* Mobile Dissolved Image */}
-                <div className="block md:hidden absolute inset-0">
-                  <Image
-                    key={`mobile-${slide.id}`}
-                    src={slide.mobileImage}
-                    alt={slide.titlePrimary}
-                    fill
-                    priority
-                    className="object-contain object-bottom transition-opacity duration-500"
-                  />
-                </div>
+            {/* Sub-headline */}
+            <p className="text-emerald-100 font-bold text-base sm:text-xl mb-3">
+              Live Sports • 1,000+ Casino Games • Instant Play
+            </p>
 
-                {/* Floating Interactive Live Match / Multiplier Card (Mockup 3 Style) */}
-                <div className="absolute top-2 left-2 sm:top-4 sm:left-4 z-20 max-w-[210px] sm:max-w-[230px] bg-white/95 backdrop-blur-md text-slate-900 rounded-2xl shadow-xl p-3 border border-emerald-100">
-                  <div className="flex items-center justify-between mb-2 pb-1.5 border-b border-slate-100">
-                    <span
-                      className={`inline-flex items-center gap-1 text-[9px] font-black uppercase px-2 py-0.5 rounded-full ${slide.floatingCard.tagColor}`}
-                    >
-                      <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
-                      {slide.floatingCard.tag}
-                    </span>
-                    <span className="text-[10px] text-slate-400 font-semibold truncate ml-1">
-                      {slide.floatingCard.sub}
-                    </span>
-                  </div>
-                  
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="text-[11px] font-bold text-slate-700">
-                        {slide.floatingCard.metric1Label}
-                      </div>
-                      <div className="text-sm font-black text-emerald-600 font-mono">
-                        {slide.floatingCard.metric1Val}
-                      </div>
-                    </div>
-                    <div className="text-[10px] font-bold text-slate-300 px-1">VS</div>
-                    <div className="text-right">
-                      <div className="text-[11px] font-bold text-slate-700">
-                        {slide.floatingCard.metric2Label}
-                      </div>
-                      <div className="text-[11px] font-bold text-slate-500">
-                        {slide.floatingCard.metric2Val}
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            {/* Pitch Summary (BazaarLink SEO Validated) */}
+            <p className="text-emerald-50/90 text-sm sm:text-base leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 font-normal">
+              From live cricket exchange to 1,000+ casino games, Lotus365 delivers instant WhatsApp ID activation, 30-second deposits, and 2-minute withdrawals. More action. Less waiting.
+            </p>
 
-                {/* Slide Carousel Arrow Controls */}
-                <div className="absolute bottom-2 right-2 z-20 flex items-center gap-1.5">
-                  <button
-                    onClick={prevSlide}
-                    className="p-2 rounded-full bg-white/20 hover:bg-white/35 text-white backdrop-blur-md border border-white/30 transition-all cursor-pointer shadow-sm"
-                    aria-label="Previous Slide"
-                  >
-                    <ChevronLeft className="w-4 h-4" />
-                  </button>
-                  <button
-                    onClick={nextSlide}
-                    className="p-2 rounded-full bg-white/20 hover:bg-white/35 text-white backdrop-blur-md border border-white/30 transition-all cursor-pointer shadow-sm"
-                    aria-label="Next Slide"
-                  >
-                    <ChevronRight className="w-4 h-4" />
-                  </button>
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        {/* ══ 5 EXECUTIVE FINTECH BADGES (Mockup 3 Trust Strip, Zero Black, Pure Clean Canvas) ══ */}
-        <div className="mt-3 bg-white rounded-2xl p-3 sm:p-4 shadow-xs border border-slate-200/90">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-4">
-            {fintechBadges.map(({ icon: Icon, title, subtitle, iconColor, iconBg }) => (
-              <div
-                key={title}
-                className="flex items-center gap-3 p-2.5 sm:p-3 rounded-xl bg-slate-50/80 hover:bg-emerald-50/50 border border-slate-200/60 hover:border-emerald-200/80 transition-colors"
+            {/* Dual CTAs (WhatsApp Green + Frosted Glass 2-Min Demo) */}
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
+              {/* Primary: Get ID on WhatsApp */}
+              <button
+                onClick={handleWhatsApp}
+                id="hero-whatsapp-btn"
+                className="
+                  group flex items-center justify-center gap-3
+                  px-8 py-4 rounded-full
+                  bg-[#25D366] hover:bg-[#20ba5a]
+                  text-white font-extrabold text-base sm:text-lg
+                  shadow-[0_4px_24px_rgba(37,211,102,0.5)]
+                  hover:shadow-[0_6px_32px_rgba(37,211,102,0.7)]
+                  transition-all duration-200 cursor-pointer
+                  w-full sm:w-auto border border-white/20
+                "
               >
-                <div className={`p-2 rounded-xl border shrink-0 ${iconBg}`}>
-                  <Icon className={`w-4 h-4 sm:w-5 sm:h-5 ${iconColor}`} />
-                </div>
-                <div className="min-w-0">
-                  <div className="text-xs sm:text-sm font-extrabold text-slate-900 leading-tight truncate">
-                    {title}
-                  </div>
-                  <div className="text-[10px] sm:text-xs font-medium text-slate-500 leading-tight truncate mt-0.5">
-                    {subtitle}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+                <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 fill-current" />
+                <span>Get ID on WhatsApp</span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 transition-transform" />
+              </button>
 
+              {/* Secondary: 2-Min Demo ID */}
+              <button
+                onClick={handleDemoId}
+                id="hero-demo-id-btn"
+                className="
+                  flex items-center justify-center gap-2.5
+                  px-7 py-4 rounded-full
+                  bg-white/15 hover:bg-white/25 backdrop-blur-md
+                  text-white font-bold text-sm sm:text-base
+                  border border-white/30 hover:border-white/50
+                  transition-all duration-200 cursor-pointer
+                  w-full sm:w-auto shadow-sm
+                "
+              >
+                <Zap className="w-5 h-5 text-yellow-300" />
+                <span>2-Min Demo ID</span>
+              </button>
+            </div>
+
+            {/* 5 Executive Fintech Badges (Integrated Glass Pills) */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-3">
+              {fintechBadges.map(({ icon: Icon, title, subtitle, color, bg }) => (
+                <div
+                  key={title}
+                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 border border-white/20 backdrop-blur-md transition-all shadow-xs"
+                >
+                  <div className={`p-1.5 rounded-lg border ${bg} shrink-0`}>
+                    <Icon className={`w-4 h-4 ${color}`} />
+                  </div>
+                  <div className="text-left min-w-0">
+                    <div className="text-white text-xs font-black leading-tight truncate">
+                      {title}
+                    </div>
+                    <div className="text-emerald-100/70 text-[10px] font-medium leading-tight truncate mt-0.5">
+                      {subtitle}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
+
+          {/* ─────────────────────────────────────────────────────────────
+              RIGHT COLUMN: Seamlessly Dissolved Brand Ambassador Visual
+              (Zero Sharp Edges - Feathered Alpha Mask + Radial Glow)
+          ───────────────────────────────────────────────────────────── */}
+          <div className="lg:col-span-5 relative flex items-center justify-center">
+
+            {/* Visual Container */}
+            <div className="relative w-full max-w-[480px] lg:max-w-[540px] h-[380px] sm:h-[460px] lg:h-[520px] flex items-center justify-center">
+              
+              {/* Radial Stadium Glow behind the models */}
+              <div className="absolute inset-0 bg-gradient-radial from-emerald-400/30 via-teal-400/10 to-transparent blur-3xl -z-10 scale-110 pointer-events-none" />
+
+              {/* Floating Top Trust Pill */}
+              <div className="absolute top-2 left-4 sm:left-6 z-20 flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/95 text-slate-900 shadow-xl border border-emerald-100 backdrop-blur-md">
+                <span className="flex h-2 w-2 relative">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-600" />
+                </span>
+                <span className="text-[11px] font-black text-slate-900">
+                  Verified Lotus365 ID
+                </span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+              </div>
+
+              {/* Seamless Dissolved Brand Ambassador Image (Zero Sharp Edges) */}
+              <div className="relative w-full h-full">
+                <Image
+                  src="/images/banners/hero_models_pointing_dissolved.webp"
+                  alt="Lotus365 Official Brand Ambassadors showing verified mobile ID"
+                  fill
+                  priority
+                  className="object-contain object-bottom drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]"
+                />
+
+                {/* Additional CSS Edge Fades (Guarantee zero hard lines on any resolution) */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#065f46] via-transparent to-transparent h-16 bottom-0 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#064e3b]/80 via-transparent to-transparent w-20 left-0 pointer-events-none hidden lg:block" />
+              </div>
+
+              {/* Floating Bottom Trust Pill */}
+              <div className="absolute bottom-4 right-4 sm:right-6 z-20 flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/85 text-white shadow-xl border border-emerald-400/40 backdrop-blur-md">
+                <Sparkles className="w-3.5 h-3.5 text-yellow-300 shrink-0" />
+                <span className="text-[11px] font-extrabold text-white">
+                  30-Sec WhatsApp Activation
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
       </div>
     </section>
   );
