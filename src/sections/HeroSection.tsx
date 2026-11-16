@@ -10,8 +10,6 @@ import {
   ShieldCheck,
   Headphones,
   Crown,
-  Sparkles,
-  CheckCircle2,
 } from 'lucide-react';
 import { getWhatsAppUrl } from '../data/landingData';
 
@@ -80,10 +78,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
 
   return (
     <section
-      className="relative w-full overflow-hidden bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] text-white pt-8 pb-12 sm:pt-12 sm:pb-16 lg:pt-16 lg:pb-20"
+      className="relative w-full overflow-hidden bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] text-white pt-8 pb-10 sm:pt-12 sm:pb-14 lg:pt-16 lg:pb-16"
       aria-label="Lotus365 Official Hero"
     >
-      {/* ══ FULL-WIDTH BACKGROUND IMAGE & STADIUM FLOODLIGHTS ══ */}
+      {/* ══ FULL-WIDTH BACKGROUND STADIUM & AMBIENT FLOODLIGHTS ══ */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Full Bleed Stadium Backdrop */}
         <Image
@@ -94,21 +92,21 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
           className="object-cover object-center opacity-25 mix-blend-overlay"
         />
 
-        {/* Ambient Stadium Floodlight Beams & Golden Dust */}
-        <div className="absolute top-0 left-1/4 w-[600px] h-[400px] bg-emerald-400/30 blur-[140px] rounded-full" />
-        <div className="absolute top-10 right-1/4 w-[550px] h-[450px] bg-amber-400/20 blur-[130px] rounded-full" />
+        {/* Ambient Stadium Floodlight Glows (Zero Black, Lush Emerald & Gold) */}
+        <div className="absolute top-0 left-1/4 w-[600px] h-[380px] bg-emerald-400/25 blur-[140px] rounded-full" />
+        <div className="absolute top-6 right-1/4 w-[550px] h-[450px] bg-amber-400/15 blur-[130px] rounded-full" />
         <div className="absolute -bottom-20 left-1/3 w-[700px] h-[350px] bg-teal-300/15 blur-[120px] rounded-full" />
 
-        {/* Smooth Top & Bottom Vignette (Zero Black, Pure Deep Emerald) */}
+        {/* Smooth Top & Bottom Atmospheric Vignette */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#064e3b]/90 via-transparent to-[#065f46]/95" />
       </div>
 
       {/* ══ INNER CONTENT WRAPPER ══ */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
 
           {/* ─────────────────────────────────────────────────────────────
-              LEFT COLUMN: High-Impact Headline, Pitch & Dual CTAs
+              LEFT COLUMN: High-Impact Typography, SEO Pitch & Dual CTAs
           ───────────────────────────────────────────────────────────── */}
           <div className="lg:col-span-7 text-center lg:text-left">
             
@@ -213,50 +211,26 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
           </div>
 
           {/* ─────────────────────────────────────────────────────────────
-              RIGHT COLUMN: Seamlessly Dissolved Brand Ambassador Visual
-              (Zero Sharp Edges - Feathered Alpha Mask + Radial Glow)
+              RIGHT COLUMN: Brand Ambassador Visual (Transparent Cutout)
+              (Zero Background Box, Zero Sharp Edges, Flush Bottom Placement)
           ───────────────────────────────────────────────────────────── */}
-          <div className="lg:col-span-5 relative flex items-center justify-center">
+          <div className="lg:col-span-5 relative flex items-end justify-center self-end">
 
-            {/* Visual Container */}
-            <div className="relative w-full max-w-[480px] lg:max-w-[540px] h-[380px] sm:h-[460px] lg:h-[520px] flex items-center justify-center">
+            {/* Visual Container (Sitting Flush on Bottom) */}
+            <div className="relative w-full max-w-[460px] lg:max-w-[520px] h-[360px] sm:h-[440px] lg:h-[500px] flex items-end justify-center">
               
-              {/* Radial Stadium Glow behind the models */}
-              <div className="absolute inset-0 bg-gradient-radial from-emerald-400/30 via-teal-400/10 to-transparent blur-3xl -z-10 scale-110 pointer-events-none" />
+              {/* Radial Stadium Aura behind the models (Soft emerald glow) */}
+              <div className="absolute inset-0 bg-gradient-radial from-emerald-400/25 via-emerald-500/10 to-transparent blur-3xl -z-10 scale-110 pointer-events-none" />
 
-              {/* Floating Top Trust Pill */}
-              <div className="absolute top-2 left-4 sm:left-6 z-20 flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/95 text-slate-900 shadow-xl border border-emerald-100 backdrop-blur-md">
-                <span className="flex h-2 w-2 relative">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-600" />
-                </span>
-                <span className="text-[11px] font-black text-slate-900">
-                  Verified Lotus365 ID
-                </span>
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-              </div>
-
-              {/* Seamless Dissolved Brand Ambassador Image (Zero Sharp Edges) */}
+              {/* 100% Transparent Cutout of Brand Ambassadors holding phone */}
               <div className="relative w-full h-full">
                 <Image
-                  src="/images/banners/hero_models_pointing_dissolved.webp"
-                  alt="Lotus365 Official Brand Ambassadors showing verified mobile ID"
+                  src="/images/banners/hero_models_cutout_feathered.webp"
+                  alt="Lotus365 Official Brand Ambassadors holding smartphone with verified ID"
                   fill
                   priority
-                  className="object-contain object-bottom drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]"
+                  className="object-contain object-bottom select-none pointer-events-none drop-shadow-[0_20px_45px_rgba(0,0,0,0.4)]"
                 />
-
-                {/* Additional CSS Edge Fades (Guarantee zero hard lines on any resolution) */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#065f46] via-transparent to-transparent h-16 bottom-0 pointer-events-none" />
-                <div className="absolute inset-0 bg-gradient-to-r from-[#064e3b]/80 via-transparent to-transparent w-20 left-0 pointer-events-none hidden lg:block" />
-              </div>
-
-              {/* Floating Bottom Trust Pill */}
-              <div className="absolute bottom-4 right-4 sm:right-6 z-20 flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/85 text-white shadow-xl border border-emerald-400/40 backdrop-blur-md">
-                <Sparkles className="w-3.5 h-3.5 text-yellow-300 shrink-0" />
-                <span className="text-[11px] font-extrabold text-white">
-                  30-Sec WhatsApp Activation
-                </span>
               </div>
 
             </div>
