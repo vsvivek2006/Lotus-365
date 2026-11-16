@@ -122,11 +122,11 @@ export const CasinoTableShowcase: React.FC<CasinoTableShowcaseProps> = ({
       {/* Section Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#F0C419]/10 text-[#F0C419] border border-[#F0C419]/30 mb-2">
-            <Sparkles className="w-3.5 h-3.5" /> 1,000+ Live Tables Available 24/7
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-50 text-amber-900 border border-amber-200 mb-2">
+            <Sparkles className="w-3.5 h-3.5 text-amber-600" /> 1,000+ Live Tables Available 24/7
           </div>
-          <h2 className="text-2xl sm:text-3xl font-black text-white">{headline}</h2>
-          <p className="text-slate-300 text-xs sm:text-sm max-w-2xl mt-1">{subtext}</p>
+          <h2 className="text-2xl sm:text-3xl font-black text-slate-900">{headline}</h2>
+          <p className="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1">{subtext}</p>
         </div>
 
         {/* Category Filters */}
@@ -142,10 +142,10 @@ export const CasinoTableShowcase: React.FC<CasinoTableShowcaseProps> = ({
             <button
               key={cat.id}
               onClick={() => setFilter(cat.id)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
                 filter === cat.id
-                  ? 'bg-[#F0C419] text-[#05120d] shadow-md shadow-[#F0C419]/20'
-                  : 'bg-white/5 hover:bg-white/10 text-white/70 border border-white/10'
+                  ? 'bg-emerald-600 text-white shadow-xs font-black'
+                  : 'bg-white hover:bg-slate-50 text-slate-700 border border-slate-200'
               }`}
             >
               {cat.label}
@@ -159,11 +159,11 @@ export const CasinoTableShowcase: React.FC<CasinoTableShowcaseProps> = ({
         {filteredTables.map((table) => (
           <div
             key={table.id}
-            className="group rounded-2xl bg-[#081a13]/80 border border-white/10 overflow-hidden shadow-xl hover:border-[#F0C419]/40 hover:shadow-2xl hover:shadow-[#F0C419]/10 transition-all duration-300 flex flex-col justify-between"
+            className="group rounded-2xl bg-white border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500/50 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
           >
             <div>
               {/* Media Container with AdaptiveImage */}
-              <div className="relative aspect-video w-full overflow-hidden bg-slate-900">
+              <div className="relative aspect-video w-full overflow-hidden bg-slate-100">
                 <AdaptiveImage
                   src={table.imageSrc}
                   alt={table.name}
@@ -171,37 +171,37 @@ export const CasinoTableShowcase: React.FC<CasinoTableShowcaseProps> = ({
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 {table.tag && (
-                  <span className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-[#F0C419] text-[#05120d] shadow-md">
+                  <span className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-400 text-slate-950 shadow-xs">
                     {table.tag}
                   </span>
                 )}
-                <span className="absolute bottom-3 left-3 px-2 py-0.5 rounded-md text-[11px] font-bold bg-black/70 backdrop-blur-md text-emerald-400 border border-emerald-400/30 flex items-center gap-1.5">
+                <span className="absolute bottom-3 left-3 px-2 py-0.5 rounded-md text-[11px] font-bold bg-slate-900/80 backdrop-blur-md text-emerald-300 border border-emerald-400/30 flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
                   <span className="w-2 h-2 rounded-full bg-emerald-400" />
                   {table.activePlayers.toLocaleString('en-IN')} Live
                 </span>
-                <span className="absolute bottom-3 right-3 px-2 py-0.5 rounded-md text-[11px] font-bold bg-black/70 backdrop-blur-md text-white/80">
+                <span className="absolute bottom-3 right-3 px-2 py-0.5 rounded-md text-[11px] font-bold bg-slate-900/80 backdrop-blur-md text-white/90">
                   RTP {table.rtp}
                 </span>
               </div>
 
               {/* Table Info */}
               <div className="p-5 space-y-3">
-                <div className="flex items-center justify-between text-xs text-white/50">
+                <div className="flex items-center justify-between text-xs text-slate-500">
                   <span>{table.provider}</span>
-                  <span className="font-mono text-amber-300">HD Broadcast</span>
+                  <span className="font-mono text-amber-700 font-bold">HD Broadcast</span>
                 </div>
-                <h3 className="text-lg font-black text-white group-hover:text-[#F0C419] transition-colors">
+                <h3 className="text-lg font-black text-slate-900 group-hover:text-emerald-700 transition-colors">
                   {table.name}
                 </h3>
-                <div className="flex items-center justify-between p-2.5 rounded-xl bg-black/30 border border-white/5 text-xs">
+                <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs">
                   <div>
-                    <span className="text-white/40 block text-[10px] uppercase font-semibold">Min Bet</span>
-                    <span className="font-bold text-white">₹{table.minBet}</span>
+                    <span className="text-slate-500 block text-[10px] uppercase font-semibold">Min Bet</span>
+                    <span className="font-bold text-slate-900">₹{table.minBet}</span>
                   </div>
                   <div className="text-right">
-                    <span className="text-white/40 block text-[10px] uppercase font-semibold">Max Table</span>
-                    <span className="font-bold text-[#F0C419]">₹{table.maxBet.toLocaleString('en-IN')}</span>
+                    <span className="text-slate-500 block text-[10px] uppercase font-semibold">Max Table</span>
+                    <span className="font-bold text-amber-600">₹{table.maxBet.toLocaleString('en-IN')}</span>
                   </div>
                 </div>
               </div>
@@ -211,9 +211,9 @@ export const CasinoTableShowcase: React.FC<CasinoTableShowcaseProps> = ({
             <div className="p-5 pt-0">
               <button
                 onClick={() => handleLaunch(table.name)}
-                className="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-500 hover:to-emerald-600 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-emerald-900/30 flex items-center justify-center gap-2 transition-all group-hover:brightness-110"
+                className="emerald-pill-btn w-full !py-2.5 !px-4 text-xs sm:text-sm font-extrabold shadow-sm flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
-                <Play className="w-4 h-4 fill-current text-[#F0C419]" />
+                <Play className="w-4 h-4 fill-current text-amber-300" />
                 <span>Enter Live Table</span>
               </button>
             </div>

@@ -59,16 +59,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-IN" suppressHydrationWarning className={`dark scroll-smooth ${poppins.variable} ${outfit.variable}`}>
+    <html lang="en-IN" suppressHydrationWarning className={`scroll-smooth ${poppins.variable} ${outfit.variable}`}>
       <head>
-        <meta name="theme-color" content="#05120d" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="theme-color" content="#047857" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="alternate icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body suppressHydrationWarning className="selection:bg-brand-gold selection:text-brand-dark min-h-screen overflow-x-hidden font-sans antialiased">
+      <body suppressHydrationWarning className="bg-[#F8FAFC] text-slate-900 selection:bg-emerald-600 selection:text-white min-h-screen overflow-x-hidden font-sans antialiased">
         {children}
       </body>
     </html>

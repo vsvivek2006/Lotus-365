@@ -1,8 +1,7 @@
 "use client";
 import Link from 'next/link';
 import React from 'react';
-
-import { Smartphone, ShieldCheck, Zap, MessageCircle, ArrowRight, CheckCircle2, Sparkles } from 'lucide-react';
+import { Smartphone, ShieldCheck, Zap, MessageCircle, ArrowRight, CheckCircle2, Sparkles, Trophy, CreditCard } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
 interface MobileAppProps {
@@ -15,159 +14,157 @@ export const MobileAppSection: React.FC<MobileAppProps> = () => {
   };
 
   return (
-    <section id="mobile-play" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
-      {/* Background glow */}
-      <div className="absolute top-1/2 right-10 w-[450px] h-[450px] bg-[#F0C419]/10 blur-[140px] rounded-full pointer-events-none" />
-
+    <section id="mobile-play" className="py-20 bg-slate-50 border-t border-slate-200 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
           {/* Left Column: Seamless Mobile Experience & Direct WhatsApp Service */}
           <div className="lg:col-span-7">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-black/25 text-[#F0C419] border border-[#F0C419]/30 text-xs font-bold uppercase tracking-wider mb-4">
-              <Sparkles className="w-3.5 h-3.5" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold uppercase tracking-wider mb-4 shadow-sm">
+              <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
               <span>Smooth, Responsive &amp; Instant On Any Phone</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-4">
               Play Instantly on Your Smartphone –{' '}
-              <span className="text-[#F0C419]">Anytime, Anywhere</span>
+              <span className="text-emerald-700">Anytime, Anywhere</span>
             </h2>
 
-            <p className="text-white/85 text-sm sm:text-base leading-relaxed mb-8">
-              Whether you are following a live IPL match on the move or spinning the roulette wheel at home, Lotus365 delivers a fluid 60 FPS gaming experience tailored for your phone. Connect with your dedicated WhatsApp manager, manage your balance in seconds, and cash out within 2 minutes.
+            <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-8">
+              Whether you are following a live IPL match on the move or playing casino games at home, Lotus365 delivers a fluid 60 FPS mobile web experience. Connect with your dedicated WhatsApp manager, manage your balance in seconds, and cash out within 2 minutes.
             </p>
 
             {/* 4 Feature Badges */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-              <div className="p-3.5 rounded-xl bg-black/25 border border-white/15 flex items-start gap-3">
-                <div className="p-2 rounded-lg bg-emerald-500/20 text-emerald-300 shrink-0">
+              <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-start gap-3">
+                <div className="p-2 rounded-xl bg-emerald-50 text-emerald-700 shrink-0">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-xs font-bold text-white mb-0.5">Bank-Grade 256-Bit Security</h3>
-                  <p className="text-[11px] text-white/70">Your balance, bets, and personal details remain encrypted and fully protected 24/7.</p>
+                  <h3 className="text-xs font-bold text-slate-900 mb-0.5">Bank-Grade 256-Bit Security</h3>
+                  <p className="text-[11px] text-slate-500">Your balance, bets, and personal details remain encrypted and fully protected 24/7.</p>
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-black/25 border border-white/15 flex items-start gap-3">
-                <div className="p-2 rounded-lg bg-[#F0C419]/20 text-[#F0C419] shrink-0">
+              <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-start gap-3">
+                <div className="p-2 rounded-xl bg-emerald-50 text-emerald-700 shrink-0">
                   <MessageCircle className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-xs font-bold text-white mb-0.5">Instant WhatsApp ID</h3>
-                  <p className="text-[11px] text-white/70">Chat with our verified human support desk to create your account in under 30 seconds.</p>
+                  <h3 className="text-xs font-bold text-slate-900 mb-0.5">Instant WhatsApp ID</h3>
+                  <p className="text-[11px] text-slate-500">Chat with our verified human support desk to create your account in under 30 seconds.</p>
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-black/25 border border-white/15 flex items-start gap-3">
-                <div className="p-2 rounded-lg bg-blue-500/20 text-[#38BDF8] shrink-0">
+              <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-start gap-3">
+                <div className="p-2 rounded-xl bg-emerald-50 text-emerald-700 shrink-0">
                   <Zap className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-xs font-bold text-white mb-0.5">2-Minute Instant Cashouts</h3>
-                  <p className="text-[11px] text-white/70">Direct withdrawals to PhonePe, Google Pay, Paytm, and IMPS with zero fees.</p>
+                  <h3 className="text-xs font-bold text-slate-900 mb-0.5">2-Minute Direct Cashouts</h3>
+                  <p className="text-[11px] text-slate-500">Fast withdrawals straight to your UPI, Google Pay, PhonePe, or bank account.</p>
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-black/25 border border-white/15 flex items-start gap-3">
-                <div className="p-2 rounded-lg bg-purple-500/20 text-purple-300 shrink-0">
+              <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-start gap-3">
+                <div className="p-2 rounded-xl bg-emerald-50 text-emerald-700 shrink-0">
                   <Smartphone className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-xs font-bold text-white mb-0.5">Universal Device Compatibility</h3>
-                  <p className="text-[11px] text-white/70">Flawless performance on all Android devices, iPhones, iPads, and desktop computers.</p>
+                  <h3 className="text-xs font-bold text-slate-900 mb-0.5">1-Tap Home Screen Bookmark</h3>
+                  <p className="text-[11px] text-slate-500">Add Lotus365 directly to your home screen for instant one-touch access anytime.</p>
                 </div>
               </div>
             </div>
 
-            {/* Contextual Navigation / Redirect Links */}
-            <div className="flex flex-wrap items-center gap-3.5 pt-2">
+            <div className="flex flex-col sm:flex-row items-center gap-3">
               <button
                 onClick={handleOpenWhatsApp}
-                className="cta-button w-full sm:w-auto py-3 px-7 text-xs font-black"
-                id="mobile-section-whatsapp-btn"
+                className="w-full sm:w-auto emerald-pill-btn !py-3.5 !px-8 text-sm font-black shadow-md cursor-pointer"
               >
-                <MessageCircle className="w-4 h-4 mr-1.5" />
-                <span>Get Instant WhatsApp ID</span>
+                <MessageCircle className="w-4 h-4 fill-current" />
+                <span>Get WhatsApp ID for Mobile</span>
               </button>
 
               <Link
-                href="/cricket-exchange"
-                className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
-               title="Live Cricket Exchange">
-                <span>Live Cricket Exchange</span>
-                <ArrowRight className="w-3.5 h-3.5 ml-1" />
-              </Link>
-
-              <Link
-                href="/live-casino"
-                className="cta-button-outline w-full sm:w-auto py-3 px-5 text-xs font-bold"
-               title="Live Casino Tables">
-                <span>Live Casino Tables</span>
+                href="/how-it-works"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 text-sm font-bold transition-all text-center"
+              >
+                <span>Read Mobile Guide</span>
               </Link>
             </div>
           </div>
 
-          {/* Right Column: Sleek Smartphone Mockup with Real Gaming View */}
+          {/* Right Column: Sleek Modern Phone Mockup (Silver/White Aesthetic, Zero Black) */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-64 sm:w-72 aspect-[9/18.5] rounded-[42px] bg-[#0A1015] p-3 border-4 border-slate-700/60 shadow-[0_25px_60px_rgba(0,0,0,0.9)] flex flex-col justify-between overflow-hidden">
-              {/* Phone Dynamic Island */}
-              <div className="w-24 h-4.5 bg-black rounded-full mx-auto mb-2 shrink-0 z-20 flex items-center justify-center">
-                <div className="w-2.5 h-2.5 bg-slate-900 rounded-full ml-auto mr-2" />
+            <div className="relative w-[300px] sm:w-[320px] rounded-[48px] bg-slate-900 p-3 shadow-2xl border-4 border-slate-700">
+              
+              {/* Dynamic Island / Speaker Notch */}
+              <div className="w-24 h-4 bg-slate-800 rounded-full mx-auto mb-2 shrink-0 z-20 flex items-center justify-center">
+                <div className="w-2.5 h-2.5 rounded-full bg-slate-700 ml-auto mr-3" />
               </div>
 
-              {/* Screen Content */}
-              <div className="flex-1 rounded-[32px] bg-[#05120d] p-3.5 flex flex-col justify-between overflow-hidden border border-white/10 relative">
-                {/* Header */}
+              {/* Phone Inner Screen (White & Emerald Theme) */}
+              <div className="rounded-[36px] bg-white p-4 flex flex-col justify-between overflow-hidden border border-slate-100 min-h-[520px]">
+                
+                {/* Mini Top Bar */}
                 <div>
-                  <div className="flex items-center justify-between pb-2 border-b border-white/10 mb-3">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-sm">🪷</span>
-                      <span className="font-extrabold text-xs text-white">LOTUS365</span>
-                    </div>
-                    <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-[#F0C419] text-[#14614C]">
-                      LIVE
+                  <div className="flex items-center justify-between pb-2.5 border-b border-slate-100 mb-3">
+                    <span className="font-black text-sm text-slate-900">
+                      Lotus<span className="text-emerald-600">365</span>
+                    </span>
+                    <span className="text-[10px] font-black uppercase text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+                      LIVE IN-PLAY
                     </span>
                   </div>
 
-                  {/* WhatsApp Support Box Mock */}
-                  <div className="p-3 rounded-xl bg-black/30 border border-white/15 mb-3 text-center">
-                    <div className="w-10 h-10 mx-auto rounded-full bg-[#25D366] text-white flex items-center justify-center mb-1.5 shadow">
-                      <MessageCircle className="w-5 h-5 fill-current" />
+                  {/* Live Match Card */}
+                  <div className="p-3.5 rounded-2xl bg-emerald-50 border border-emerald-100 mb-3">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-[10px] font-bold text-emerald-800">ICC World Cup</span>
+                      <span className="text-[10px] font-black text-red-600 flex items-center gap-1">
+                        <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping" /> LIVE
+                      </span>
                     </div>
-                    <div className="text-[11px] font-bold text-white">Official 24/7 Desk</div>
-                    <div className="text-[10px] text-emerald-300 font-mono">Instant WhatsApp Service</div>
-                    <div className="text-[9px] text-white/70 mt-1">Get verified ID in 30 seconds</div>
+                    <div className="flex items-center justify-between font-extrabold text-xs text-slate-900">
+                      <span>India: 278/4 (48.2)</span>
+                      <span className="text-emerald-700 font-mono">1.62</span>
+                    </div>
+                    <div className="flex items-center justify-between text-[11px] text-slate-500 mt-1">
+                      <span>Australia: Yet to bat</span>
+                      <span className="text-slate-700 font-mono">2.25</span>
+                    </div>
                   </div>
 
-                  {/* Features Mini List */}
-                  <div className="space-y-1.5 text-[10px] text-white/80">
-                    <div className="flex items-center gap-1.5 p-1.5 rounded bg-black/20">
-                      <CheckCircle2 className="w-3 h-3 text-emerald-400" />
-                      <span>Instant 2-Minute Cashouts</span>
+                  {/* Quick Features */}
+                  <div className="grid grid-cols-2 gap-2 text-[11px] mb-3">
+                    <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-100 text-center">
+                      <div className="font-bold text-slate-900">Aviator Radar</div>
+                      <div className="font-mono font-black text-amber-500 text-xs">8.42x</div>
                     </div>
-                    <div className="flex items-center gap-1.5 p-1.5 rounded bg-black/20">
-                      <CheckCircle2 className="w-3 h-3 text-emerald-400" />
-                      <span>Direct UPI / QR Deposits</span>
-                    </div>
-                    <div className="flex items-center gap-1.5 p-1.5 rounded bg-black/20">
-                      <CheckCircle2 className="w-3 h-3 text-emerald-400" />
-                      <span>1000+ Sports &amp; Casino Tables</span>
+                    <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-100 text-center">
+                      <div className="font-bold text-slate-900">Live Casino</div>
+                      <div className="text-emerald-600 font-bold text-xs">1,000+ Tables</div>
                     </div>
                   </div>
                 </div>
 
-                {/* Instant WhatsApp Action Button on mockup */}
-                <button
-                  onClick={handleOpenWhatsApp}
-                  className="w-full py-2 rounded-xl bg-[#F0C419] text-[#14614C] text-[11px] font-black flex items-center justify-center gap-1 shadow-lg"
-                >
-                  <MessageCircle className="w-3.5 h-3.5" />
-                  <span>Connect on WhatsApp</span>
-                </button>
+                {/* Bottom App Actions */}
+                <div className="pt-3 border-t border-slate-100">
+                  <button
+                    onClick={handleOpenWhatsApp}
+                    className="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all"
+                  >
+                    <MessageCircle className="w-3.5 h-3.5 fill-current" />
+                    <span>Get Instant ID on WhatsApp</span>
+                  </button>
+                </div>
+
               </div>
+
             </div>
           </div>
+
         </div>
       </div>
     </section>

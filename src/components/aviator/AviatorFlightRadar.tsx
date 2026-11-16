@@ -40,10 +40,10 @@ export const AviatorFlightRadar: React.FC = () => {
   };
 
   return (
-    <div className="w-full rounded-2xl bg-[#081a13]/90 border border-white/10 overflow-hidden shadow-2xl backdrop-blur-xl">
+    <div className="w-full rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-xl text-slate-800">
       {/* Round Multiplier History Strip */}
-      <div className="p-3 bg-black/40 border-b border-white/10 flex items-center justify-between gap-2 overflow-x-auto">
-        <span className="text-[10px] uppercase font-bold text-white/40 whitespace-nowrap pl-2">
+      <div className="p-3 bg-slate-100 border-b border-slate-200 flex items-center justify-between gap-2 overflow-x-auto">
+        <span className="text-[10px] uppercase font-bold text-slate-500 whitespace-nowrap pl-2">
           Previous Flights:
         </span>
         <div className="flex items-center gap-1.5">
@@ -59,25 +59,25 @@ export const AviatorFlightRadar: React.FC = () => {
       </div>
 
       {/* Flight Radar Canvas Visual */}
-      <div className="relative h-64 sm:h-72 w-full bg-gradient-to-br from-[#0c2a1f] via-[#05140e] to-black p-6 flex flex-col justify-between overflow-hidden">
+      <div className="relative h-64 sm:h-72 w-full bg-gradient-to-br from-[#064e3b] via-[#043324] to-[#022c22] p-6 flex flex-col justify-between overflow-hidden text-white">
         {/* Animated Flight Path Lines */}
         <div className="absolute inset-0 opacity-20 pointer-events-none bg-[radial-gradient(#F0C419_1px,transparent_1px)] [background-size:16px_16px]" />
 
         {/* Top Badges */}
         <div className="relative z-10 flex items-center justify-between">
-          <span className="px-3 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-rose-500/20 text-rose-400 border border-rose-500/30 flex items-center gap-1.5">
+          <span className="px-3 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-rose-500/20 text-rose-300 border border-rose-500/30 flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-rose-500 animate-ping" />
             Live Flight Active
           </span>
-          <span className="text-xs text-white/60 font-mono">Provably Fair SHA-512</span>
+          <span className="text-xs text-emerald-100/70 font-mono">Provably Fair SHA-512</span>
         </div>
 
         {/* Center Escalating Multiplier */}
         <div className="relative z-10 text-center my-auto">
-          <div className="text-5xl sm:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#F0C419] via-amber-200 to-white tracking-tight animate-pulse">
+          <div className="text-5xl sm:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-200 to-white tracking-tight animate-pulse">
             {multiplier.toFixed(2)}x
           </div>
-          <span className="text-xs uppercase font-extrabold text-emerald-400 tracking-widest mt-1 block">
+          <span className="text-xs uppercase font-extrabold text-emerald-300 tracking-widest mt-1 block">
             Ascending Altitude • Cash Out Anytime
           </span>
         </div>
@@ -94,30 +94,30 @@ export const AviatorFlightRadar: React.FC = () => {
         </div>
 
         {/* Telemetry Footer */}
-        <div className="relative z-10 flex items-center justify-between text-xs text-white/50">
+        <div className="relative z-10 flex items-center justify-between text-xs text-emerald-100/60">
           <span>RTP: 98.5% (Spribe Certified)</span>
           <span>Dual Automatic Cashout System</span>
         </div>
       </div>
 
       {/* Interactive Simulator & Stake Controls */}
-      <div className="p-5 sm:p-6 bg-[#0a2319] border-t border-white/10 space-y-4">
+      <div className="p-5 sm:p-6 bg-slate-50 border-t border-slate-200 space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Bet Amount Control */}
-          <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
+          <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
             <div className="flex justify-between items-center text-xs">
-              <span className="text-white/60 font-semibold uppercase">Bet Stake</span>
-              <span className="font-mono font-bold text-white">₹{betAmount}</span>
+              <span className="text-slate-500 font-semibold uppercase">Bet Stake</span>
+              <span className="font-mono font-bold text-slate-900">₹{betAmount}</span>
             </div>
             <div className="flex gap-2">
               {[100, 500, 1000, 2500].map((amt) => (
                 <button
                   key={amt}
                   onClick={() => setBetAmount(amt)}
-                  className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                  className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                     betAmount === amt
-                      ? 'bg-[#F0C419] text-[#05120d]'
-                      : 'bg-white/5 hover:bg-white/10 text-white/80 border border-white/10'
+                      ? 'bg-emerald-600 text-white shadow-xs'
+                      : 'bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200'
                   }`}
                 >
                   ₹{amt}
@@ -127,20 +127,20 @@ export const AviatorFlightRadar: React.FC = () => {
           </div>
 
           {/* Auto Cashout Multiplier Control */}
-          <div className="p-4 rounded-xl bg-black/30 border border-white/10 space-y-2">
+          <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
             <div className="flex justify-between items-center text-xs">
-              <span className="text-white/60 font-semibold uppercase">Auto Cashout Multiplier</span>
-              <span className="font-mono font-bold text-[#F0C419]">{targetMultiplier.toFixed(2)}x</span>
+              <span className="text-slate-500 font-semibold uppercase">Auto Cashout Multiplier</span>
+              <span className="font-mono font-bold text-amber-600">{targetMultiplier.toFixed(2)}x</span>
             </div>
             <div className="flex gap-2">
               {[1.5, 2.0, 3.5, 5.0].map((mult) => (
                 <button
                   key={mult}
                   onClick={() => setTargetMultiplier(mult)}
-                  className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                  className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                     targetMultiplier === mult
-                      ? 'bg-[#F0C419] text-[#05120d]'
-                      : 'bg-white/5 hover:bg-white/10 text-white/80 border border-white/10'
+                      ? 'bg-amber-500 text-slate-950 shadow-xs font-black'
+                      : 'bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200'
                   }`}
                 >
                   {mult.toFixed(1)}x
@@ -151,12 +151,12 @@ export const AviatorFlightRadar: React.FC = () => {
         </div>
 
         {/* Projected Returns Bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 rounded-xl bg-gradient-to-r from-emerald-950/60 to-black/60 border border-emerald-500/30">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 rounded-xl bg-emerald-50 border border-emerald-200">
           <div>
-            <span className="text-xs text-slate-300 block">Projected Cashout Payout</span>
-            <span className="text-xl sm:text-2xl font-black text-emerald-400">
+            <span className="text-xs text-slate-600 block">Projected Cashout Payout</span>
+            <span className="text-xl sm:text-2xl font-black text-emerald-800">
               ₹{simulatedPayout.toLocaleString('en-IN')}{' '}
-              <span className="text-xs text-emerald-200/70 font-normal">
+              <span className="text-xs text-emerald-700 font-normal">
                 (+₹{simulatedProfit.toLocaleString('en-IN')} Profit)
               </span>
             </span>
@@ -164,9 +164,9 @@ export const AviatorFlightRadar: React.FC = () => {
 
           <button
             onClick={handleLaunchAviator}
-            className="w-full sm:w-auto py-3 px-8 rounded-xl bg-gradient-to-r from-[#F0C419] via-amber-400 to-[#E5B510] text-[#05120d] font-black text-sm hover:brightness-110 shadow-lg shadow-[#F0C419]/25 transition-all flex items-center justify-center gap-2"
+            className="w-full sm:w-auto py-3 px-8 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-black text-sm shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
-            <Zap className="w-4 h-4 fill-current" />
+            <Zap className="w-4 h-4 fill-current text-amber-300" />
             <span>Launch Aviator on Lotus365</span>
           </button>
         </div>

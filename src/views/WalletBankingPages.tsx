@@ -48,8 +48,8 @@ export const PhonePeDepositPage: React.FC = () => (
         imageAlt="PhonePe Deposit Guide for Lotus365"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'PhonePe Deposit' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Seamless PhonePe Deposits on Lotus365
@@ -63,25 +63,25 @@ export const PhonePeDepositPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="w-8 h-8 rounded-lg bg-[#F0C419]/20 text-[#F0C419] font-bold flex items-center justify-center text-sm">1</span>
-              <h3 className="font-bold text-white text-sm">Request QR / UPI ID</h3>
-              <p className="text-xs text-white/70">Connect with our 24/7 WhatsApp desk and request the active verified PhonePe transfer details.</p>
+              <h3 className="font-bold text-slate-900 text-sm">Request QR / UPI ID</h3>
+              <p className="text-xs text-slate-600">Connect with our 24/7 WhatsApp desk and request the active verified PhonePe transfer details.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="w-8 h-8 rounded-lg bg-[#F0C419]/20 text-[#F0C419] font-bold flex items-center justify-center text-sm">2</span>
-              <h3 className="font-bold text-white text-sm">Pay via PhonePe</h3>
-              <p className="text-xs text-white/70">Open your PhonePe app, scan the dynamic QR or enter the VPA, and authorize the transaction with your UPI PIN.</p>
+              <h3 className="font-bold text-slate-900 text-sm">Pay via PhonePe</h3>
+              <p className="text-xs text-slate-600">Open your PhonePe app, scan the dynamic QR or enter the VPA, and authorize the transaction with your UPI PIN.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="w-8 h-8 rounded-lg bg-[#F0C419]/20 text-[#F0C419] font-bold flex items-center justify-center text-sm">3</span>
-              <h3 className="font-bold text-white text-sm">Copy 12-Digit UTR</h3>
-              <p className="text-xs text-white/70">Navigate to the transaction details screen in PhonePe and copy the 12-digit numeric Bank Reference/UTR number.</p>
+              <h3 className="font-bold text-slate-900 text-sm">Copy 12-Digit UTR</h3>
+              <p className="text-xs text-slate-600">Navigate to the transaction details screen in PhonePe and copy the 12-digit numeric Bank Reference/UTR number.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-300 font-bold flex items-center justify-center text-sm">4</span>
-              <h3 className="font-bold text-white text-sm">60s Balance Credit</h3>
-              <p className="text-xs text-white/70">Paste the UTR into your WhatsApp chat; our automated ledger verifies it and updates your wallet within 60s.</p>
+              <h3 className="font-bold text-slate-900 text-sm">60s Balance Credit</h3>
+              <p className="text-xs text-slate-600">Paste the UTR into your WhatsApp chat; our automated ledger verifies it and updates your wallet within 60s.</p>
             </div>
           </div>
 
@@ -121,16 +121,16 @@ export const PhonePeDepositPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About PhonePe Deposits
             </h3>
             <div className="space-y-3">
               {phonepeFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -173,8 +173,8 @@ export const GooglePayDepositPage: React.FC = () => (
         imageAlt="Google Pay Deposit Guide for Lotus365"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Google Pay Deposit' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Fast and Encrypted Google Pay Deposits
@@ -188,24 +188,24 @@ export const GooglePayDepositPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Bank-Direct Security</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Bank-Direct Security</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Direct bank-to-bank settlement backed by NPCI UPI rails, eliminating card data storage risks or third-party exposure.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">60s Balance Update</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">60s Balance Update</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Share your 12-digit UPI transaction ID with our 24/7 WhatsApp desk for immediate ledger verification and balance credit.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Clock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">2-Minute Cashouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">2-Minute Cashouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Withdraw your winnings directly into your GPay-linked bank account within 120 seconds of submitting your request.
               </p>
             </div>
@@ -247,16 +247,16 @@ export const GooglePayDepositPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Google Pay Deposits
             </h3>
             <div className="space-y-3">
               {gpayFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -299,8 +299,8 @@ export const PaytmDepositPage: React.FC = () => (
         imageAlt="Paytm Deposit Guide for Lotus365"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Paytm Deposit' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Fast and Frictionless Paytm Deposits
@@ -314,24 +314,24 @@ export const PaytmDepositPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Smartphone className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Direct QR Code Scanning</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Direct QR Code Scanning</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Scan the dynamic QR code sent to your WhatsApp chat; amount and recipient populate automatically for error-free transfers.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">60-Second Wallet Top-Up</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">60-Second Wallet Top-Up</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Send the 12-digit UPI Ref No to your concierge to have your funds credited to your game balance within sixty seconds.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">2-Minute Cashouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">2-Minute Cashouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Fulfill withdrawals round-the-clock via automated UPI directly into your Paytm-linked Indian bank account.
               </p>
             </div>
@@ -376,16 +376,16 @@ export const PaytmDepositPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Paytm Deposits
             </h3>
             <div className="space-y-3">
               {paytmFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -428,8 +428,8 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
         imageAlt="NEFT and RTGS Bank Transfers for Lotus365"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'NEFT & RTGS' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Institutional Banking for High-Turnover Traders
@@ -443,24 +443,24 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <CreditCard className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">No Upper Limits</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">No Upper Limits</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Deposit ₹500,000, ₹1,000,000, or more in a single transaction using verified RTGS routing with zero artificial platform limits.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Dedicated VIP Escrow</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Dedicated VIP Escrow</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Your capital is held in segregated accounts backed by leading Indian banks, ensuring complete safety and instantaneous liquidity.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Clock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Rapid Verification</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Rapid Verification</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Senior shift supervisors verify your RTGS UTR within minutes, ensuring immediate balance availability for major sporting fixtures.
               </p>
             </div>
@@ -502,16 +502,16 @@ export const BankTransferNeftRtgsPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About NEFT & RTGS Transfers
             </h3>
             <div className="space-y-3">
               {bankTransferFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -554,8 +554,8 @@ export const CryptoDepositUsdtPage: React.FC = () => (
         imageAlt="USDT Crypto Deposits on Lotus365"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Crypto USDT' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Next-Generation Financial Privacy with USDT
@@ -572,24 +572,24 @@ export const CryptoDepositUsdtPage: React.FC = () => (
           <BankingStepsStepper />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Lock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Absolute Privacy</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Absolute Privacy</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Fund your account directly from your non-custodial Web3 wallet without exposing domestic bank account numbers or card data.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">TRC20 Speed</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">TRC20 Speed</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Transactions confirm across global blockchain nodes in under 2 minutes with near-zero network gas costs.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Fair P2P Rates</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Fair P2P Rates</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Conversion to Indian Rupees (INR) follows fair market P2P pricing with 0% platform exchange markup.
               </p>
             </div>
@@ -634,16 +634,16 @@ export const CryptoDepositUsdtPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About USDT Crypto Deposits
             </h3>
             <div className="space-y-3">
               {cryptoFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -686,8 +686,8 @@ export const WithdrawalProofTimesPage: React.FC = () => (
         imageAlt="Withdrawal Proofs and SLA Times Average 105 Seconds"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'Withdrawal Proofs' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Gold Standard of Payout Speed in India
@@ -701,24 +701,24 @@ export const WithdrawalProofTimesPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Clock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">105-Second Average</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">105-Second Average</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Audited payout telemetry demonstrates that 94% of all withdrawal requests complete into the user's bank account in under 2 minutes.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <CheckCircle2 className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">24/7/365 Operation</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">24/7/365 Operation</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Cash out at 2:00 AM on a Sunday or during Diwali. Our automated banking rails never sleep, pause, or queue.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">0% Deductions</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">0% Deductions</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 If you request a withdrawal of ₹50,000, exactly ₹50,000 lands in your bank statement with zero platform skimming.
               </p>
             </div>
@@ -728,28 +728,28 @@ export const WithdrawalProofTimesPage: React.FC = () => (
             <h2 className="text-2xl font-extrabold text-[#F0C419]">
               Live SLA Performance Breakdown
             </h2>
-            <div className="overflow-x-auto rounded-2xl border border-white/10">
+            <div className="overflow-x-auto rounded-2xl border border-slate-200">
               <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-[#0b3b2d] text-[#F0C419] font-bold uppercase tracking-wider">
+                <thead className="bg-slate-100 text-slate-900 font-bold uppercase tracking-wider">
                   <tr>
                     <th className="p-4">Payment Rail</th>
                     <th className="p-4">Average Settlement Time</th>
                     <th className="p-4">Success Rate</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
-                    <td className="p-4 font-bold text-white">UPI (PhonePe, GPay, Paytm)</td>
+                    <td className="p-4 font-bold text-slate-900">UPI (PhonePe, GPay, Paytm)</td>
                     <td className="p-4 text-emerald-400 font-bold">1 Min 30 Sec</td>
                     <td className="p-4 text-white/90">99.8%</td>
                   </tr>
                   <tr>
-                    <td className="p-4 font-bold text-white">IMPS Net Banking</td>
+                    <td className="p-4 font-bold text-slate-900">IMPS Net Banking</td>
                     <td className="p-4 text-emerald-400 font-bold">2 Min 15 Sec</td>
                     <td className="p-4 text-white/90">99.6%</td>
                   </tr>
                   <tr>
-                    <td className="p-4 font-bold text-white">USDT Crypto (TRC20)</td>
+                    <td className="p-4 font-bold text-slate-900">USDT Crypto (TRC20)</td>
                     <td className="p-4 text-emerald-400 font-bold">3 Min 00 Sec</td>
                     <td className="p-4 text-white/90">100.0%</td>
                   </tr>
@@ -788,16 +788,16 @@ export const WithdrawalProofTimesPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Withdrawal Speeds
             </h3>
             <div className="space-y-3">
               {proofTimesFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -840,8 +840,8 @@ export const KycVerificationGuidePage: React.FC = () => (
         imageAlt="Hassle-Free KYC Verification Guide"
         breadcrumbs={[{ label: 'Security & Policy', href: '/responsible-gaming' }, { label: 'KYC Verification' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Player-First Verification Philosophy
@@ -855,24 +855,24 @@ export const KycVerificationGuidePage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">60-Second Onboarding</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">60-Second Onboarding</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Register instantly using only your active WhatsApp mobile number; zero scans or identity card uploads required.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Bank Lock Protection</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Bank Lock Protection</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Withdrawals can only be sent to bank accounts matching your verified deposit history, preventing unauthorized theft.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Lock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">ISO 27001 Privacy</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">ISO 27001 Privacy</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Encrypted communications and strict zero-sharing policies ensure your gaming activity remains 100% confidential.
               </p>
             </div>
@@ -917,16 +917,16 @@ export const KycVerificationGuidePage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Verification
             </h3>
             <div className="space-y-3">
               {kycFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -969,8 +969,8 @@ export const AccountSecurityTipsPage: React.FC = () => (
         imageAlt="Account Security Tips for Lotus365"
         breadcrumbs={[{ label: 'Security & Policy', href: '/responsible-gaming' }, { label: 'Account Security' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Enterprise-Grade Protection for Every Player
@@ -984,24 +984,24 @@ export const AccountSecurityTipsPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Lock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Private Credentials</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Private Credentials</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Never share your password or banking OTP with anyone—including friends, family, or social media profiles claiming to be support agents.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Verify the Domain</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Verify the Domain</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Bookmark <strong className="text-[#F0C419]">lotus365officialid.com</strong>. Never enter your credentials on suspicious Telegram links or unverified mirror sites.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Log Out on Shared Devices</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Log Out on Shared Devices</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 If accessing the platform from an office computer or friend's device, always remember to tap "Log Out" at the conclusion of your session.
               </p>
             </div>
@@ -1046,16 +1046,16 @@ export const AccountSecurityTipsPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Account Security
             </h3>
             <div className="space-y-3">
               {securityTipsFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>

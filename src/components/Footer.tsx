@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
   ];
 
   return (
-    <footer className="bg-gradient-to-b from-[#022319] to-[#01140e] border-t border-emerald-500/25 text-white/90 pt-14 pb-24 md:pb-12 text-sm relative">
+    <footer className="bg-gradient-to-b from-[#064e3b] via-[#043d2c] to-[#032e22] border-t border-emerald-500/30 text-emerald-100 pt-14 pb-24 md:pb-12 text-sm relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Trust Badges Strip (Directly matching emerald theme) */}
@@ -88,14 +88,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
             {paymentBadges.map((badge) => (
               <div
                 key={badge.name}
-                className="h-14 rounded-2xl bg-[#03241b] border border-emerald-500/20 hover:border-emerald-400/50 transition-all flex items-center justify-center p-2 group shadow-inner"
+                className="h-14 rounded-2xl bg-white/10 border border-white/15 hover:border-emerald-300/50 hover:bg-white/15 transition-all flex items-center justify-center p-2 group shadow-sm"
               >
                 <div className="relative w-full h-full max-h-10">
                   <Image
                     src={badge.src}
                     alt={`${badge.name} payment method`}
                     fill
-                    className="object-contain filter brightness-95 group-hover:brightness-110 transition-all"
+                    className="object-contain filter brightness-105 group-hover:brightness-125 transition-all"
                   />
                 </div>
               </div>
@@ -108,22 +108,22 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
           {/* Col 1: Brand & Official Verification */}
           <div>
             <Link href="/" className="flex items-center gap-3 mb-3 group" title="Lotus365 Official">
-              <div className="w-10 h-10 rounded-2xl bg-[#032e22] p-1 border border-emerald-500/40 flex items-center justify-center shadow-lg">
+              <div className="w-10 h-10 rounded-2xl bg-emerald-700/80 p-1 border border-emerald-400/50 flex items-center justify-center shadow-lg">
                 <span className="text-xl">🪷</span>
               </div>
               <span className="font-extrabold text-2xl tracking-wider text-white">
-                LOTUS<span className="text-emerald-400">365</span>
+                LOTUS<span className="text-yellow-400">365</span>
               </span>
             </Link>
-            <p className="text-xs text-emerald-100/80 leading-relaxed mb-4">
+            <p className="text-xs text-emerald-100/90 leading-relaxed mb-4">
               Lotus365 is India's ultimate sports betting exchange and live casino destination. Engineered for ultra-low latency trading, verified liquidity, and guaranteed 2-minute cashouts.
             </p>
 
             <div className="flex flex-wrap gap-2 mb-5">
-              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-950/80 text-emerald-300 border border-emerald-500/30">24/7 Desk</span>
-              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-950/80 text-emerald-300 border border-emerald-500/30">Instant UPI</span>
-              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-950/80 text-emerald-300 border border-emerald-500/30">0% Commission</span>
-              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-amber-400/20 text-[#F0C419] border border-amber-400/40">18+ Only</span>
+              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-900/60 text-emerald-200 border border-emerald-500/30">24/7 Desk</span>
+              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-900/60 text-emerald-200 border border-emerald-500/30">Instant UPI</span>
+              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-900/60 text-emerald-200 border border-emerald-500/30">0% Commission</span>
+              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-amber-400/20 text-yellow-300 border border-amber-400/40">18+ Only</span>
             </div>
 
             <div className="flex items-center gap-2.5">
@@ -188,8 +188,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
         </div>
 
         {/* Responsible Gaming Notice Box */}
-        <div className="p-4 sm:p-5 rounded-2xl bg-black/40 border border-amber-500/30 text-xs text-white/70 space-y-2 mb-8">
-          <div className="flex items-center gap-2 font-bold text-amber-400">
+        <div className="p-4 sm:p-5 rounded-2xl bg-white/10 border border-amber-400/40 text-xs text-emerald-100/90 space-y-2 mb-8">
+          <div className="flex items-center gap-2 font-bold text-yellow-300">
             <AlertCircle className="w-4 h-4 shrink-0" />
             <span>Strict 18+ Responsible Gaming Notice</span>
           </div>

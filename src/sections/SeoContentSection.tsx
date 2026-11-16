@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 import { BookOpen, CheckCircle2, ShieldCheck, Zap, ArrowRight, MessageCircle, Lock, Trophy, Smartphone } from 'lucide-react';
 import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
 
@@ -17,41 +18,41 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
   };
 
   return (
-    <article id="seo-guide" className="py-20 bg-[#05120d] border-t border-white/10 relative overflow-hidden text-white/90">
+    <article id="seo-guide" className="py-20 bg-white border-t border-slate-200 relative overflow-hidden text-slate-800">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Semantic SEO Article Header */}
         <header className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/25 border border-white/20 text-xs font-bold text-[#F0C419] uppercase tracking-wider mb-3">
-            <BookOpen className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-bold text-emerald-800 uppercase tracking-wider mb-3 shadow-sm">
+            <BookOpen className="w-4 h-4 text-emerald-600" />
             <span>Complete 2026 Platform Authority Guide</span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
-            Lotus365 Official Website – <span className="text-[#F0C419]">Complete Guide to Login, ID &amp; Bonuses</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-4">
+            Lotus365 Official Website – <span className="text-emerald-700">Complete Guide to Login, ID &amp; Bonuses</span>
           </h2>
 
-          <p className="text-sm sm:text-base text-white/80 leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
             Everything Indian sports enthusiasts need to know about the official <strong>Lotus365</strong> platform, <strong>Lotus365 Blue</strong>, <strong>Cricket ID registration</strong>, instant WhatsApp support, and lightning-fast 2-minute cashouts.
           </p>
         </header>
 
         {/* Semantic Table of Contents for Google Sitelinks Ranking */}
-        <nav aria-label="Table of Contents" className="p-6 rounded-2xl bg-black/25 border border-white/20 shadow-xl mb-12">
-          <div className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-[#F0C419] mb-3">
-            <span className="w-2 h-2 rounded-full bg-[#F0C419] animate-ping" />
+        <nav aria-label="Table of Contents" className="p-6 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm mb-12">
+          <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-emerald-700 mb-3">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
             <span>Quick Navigation (Table of Contents)</span>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs font-semibold">
-            <a href="#about-lotus365" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="01. What Is Lotus365 & Why Is It India's #1 Exchange?">
-              <span className="text-brand-gold font-mono">01.</span> What is Lotus365 & Why is it India's #1 Exchange?
+            <a href="#about-lotus365" className="hover:text-emerald-700 flex items-center gap-1.5 transition-colors text-slate-700" title="01. What Is Lotus365 & Why Is It India's #1 Exchange?">
+              <span className="text-emerald-600 font-mono">01.</span> What is Lotus365 & Why is it India's #1 Exchange?
             </a>
-            <a href="#how-to-login" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="02. How To Complete Lotus365 Login & Mobile Setup">
-              <span className="text-brand-gold font-mono">02.</span> How to Complete Lotus365 Login & Mobile Setup
+            <a href="#how-to-login" className="hover:text-emerald-700 flex items-center gap-1.5 transition-colors text-slate-700" title="02. How To Complete Lotus365 Login & Mobile Setup">
+              <span className="text-emerald-600 font-mono">02.</span> How to Complete Lotus365 Login & Mobile Setup
             </a>
-            <a href="#cricket-id-setup" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="03. 30-Second WhatsApp Cricket ID Registration">
-              <span className="text-brand-gold font-mono">03.</span> 30-Second WhatsApp Cricket ID Registration
+            <a href="#cricket-id-setup" className="hover:text-emerald-700 flex items-center gap-1.5 transition-colors text-slate-700" title="03. 30-Second WhatsApp Cricket ID Registration">
+              <span className="text-emerald-600 font-mono">03.</span> 30-Second WhatsApp Cricket ID Registration
             </a>
             <a href="#lotus365-blue-features" className="hover:text-brand-gold flex items-center gap-1.5 transition-colors" title="04. Lotus365 Blue: Speed, Latency & 2026 Upgrades">
               <span className="text-brand-gold font-mono">04.</span> Lotus365 Blue: Speed, Latency & 2026 Upgrades
@@ -247,30 +248,30 @@ export const SeoContentSection: React.FC<SeoContentProps> = ({ onOpenAuth }) => 
         </section>
 
         {/* Closing Conversion Block */}
-        <div className="p-8 rounded-2xl bg-black/30 border border-white/20 text-center shadow-2xl">
-          <h3 className="font-extrabold text-2xl sm:text-3xl text-white mb-2">
+        <div className="p-8 rounded-3xl bg-gradient-to-r from-emerald-800 to-emerald-900 border border-emerald-700 text-center shadow-xl text-white">
+          <h3 className="font-black text-2xl sm:text-3xl text-white mb-2">
             Experience India's #1 Rated Gaming Platform Today
           </h3>
-          <p className="text-xs sm:text-sm text-white/80 mb-6 max-w-xl mx-auto">
+          <p className="text-xs sm:text-sm text-emerald-100 mb-6 max-w-xl mx-auto">
             Get your instant verified Lotus365 ID, unlock 100% first deposit bonus, and enjoy 2-minute instant UPI cashouts 24/7.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5">
             <button
               onClick={handleWhatsApp}
-              className="cta-button py-3 px-7 text-xs font-black"
+              className="emerald-pill-btn !py-3 !px-7 !text-xs font-black shadow-lg"
             >
-              <MessageCircle className="w-4 h-4 mr-1.5" />
+              <MessageCircle className="w-4 h-4 mr-1.5 fill-current" />
               <span>Get WhatsApp ID (30s)</span>
             </button>
 
-            <a
+            <Link
               href="/cricket-exchange"
-              className="cta-button-outline py-3 px-6 text-xs font-bold"
-             title="Explore Cricket Exchange">
-              <Smartphone className="w-4 h-4 mr-1.5 text-[#F0C419]" />
+              className="px-6 py-3 rounded-full bg-white/15 hover:bg-white/25 text-white font-bold text-xs border border-white/20 transition-all flex items-center gap-1.5"
+            >
+              <Smartphone className="w-4 h-4 text-yellow-300" />
               <span>Explore Cricket Exchange</span>
-            </a>
+            </Link>
           </div>
         </div>
 

@@ -107,7 +107,7 @@ export const FootballBettingPage: React.FC = () => (
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Football Betting' }]}
       />
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
           {/* Live Football Exchange Widget */}
           <div className="space-y-4">
@@ -116,7 +116,7 @@ export const FootballBettingPage: React.FC = () => (
                 <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
                   Live In-Play Order Board
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
                   Real-Time Football Exchange Markets
                 </h2>
               </div>
@@ -133,8 +133,8 @@ export const FootballBettingPage: React.FC = () => (
           </div>
 
           {/* Overview */}
-          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-black text-white">
+          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
               The Ultimate Football Betting Experience in India
             </h2>
             <p>
@@ -143,37 +143,37 @@ export const FootballBettingPage: React.FC = () => (
           </div>
 
           {/* Deep Market Breakdown */}
-          <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
+          <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Core Football Betting Markets Available on Lotus365
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-3">
-                <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h3 className="font-bold text-[#F0C419] mb-1">1X2 Match Result & Draw No Bet (DNB)</h3>
-                  <p className="text-xs text-white/70">Wager on a Home win (1), Draw (X), or Away win (2). Use Draw No Bet to eliminate the risk of a tie, returning your entire stake if the match concludes level after 90 minutes.</p>
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                  <h3 className="font-bold text-emerald-700 mb-1">1X2 Match Result & Draw No Bet (DNB)</h3>
+                  <p className="text-xs text-slate-600">Wager on a Home win (1), Draw (X), or Away win (2). Use Draw No Bet to eliminate the risk of a tie, returning your entire stake if the match concludes level after 90 minutes.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h3 className="font-bold text-[#F0C419] mb-1">Both Teams to Score (BTTS / GG)</h3>
-                  <p className="text-xs text-white/70">A favorite for attacking fixtures: bet Yes or No on whether both clubs will find the back of the net regardless of who ultimately wins.</p>
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                  <h3 className="font-bold text-emerald-700 mb-1">Both Teams to Score (BTTS / GG)</h3>
+                  <p className="text-xs text-slate-600">A favorite for attacking fixtures: bet Yes or No on whether both clubs will find the back of the net regardless of who ultimately wins.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h3 className="font-bold text-[#F0C419] mb-1">Over / Under Goal Lines (0.5 to 4.5 Goals)</h3>
-                  <p className="text-xs text-white/70">Predict total match scoring. Over 2.5 goals cashes whenever 3 or more goals are scored, ideal for high-tempo clashes between prolific attacks.</p>
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                  <h3 className="font-bold text-emerald-700 mb-1">Over / Under Goal Lines (0.5 to 4.5 Goals)</h3>
+                  <p className="text-xs text-slate-600">Predict total match scoring. Over 2.5 goals cashes whenever 3 or more goals are scored, ideal for high-tempo clashes between prolific attacks.</p>
                 </div>
               </div>
               <div className="space-y-3">
-                <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h3 className="font-bold text-[#F0C419] mb-1">Asian Handicap Trading</h3>
-                  <p className="text-xs text-white/70">Eliminate the draw bias by applying fractional goal handicaps (-0.5, -1.0, -1.5). Backing favorites on Asian lines offers superior value over traditional moneyline markets.</p>
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                  <h3 className="font-bold text-emerald-700 mb-1">Asian Handicap Trading</h3>
+                  <p className="text-xs text-slate-600">Eliminate the draw bias by applying fractional goal handicaps (-0.5, -1.0, -1.5). Backing favorites on Asian lines offers superior value over traditional moneyline markets.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h3 className="font-bold text-[#F0C419] mb-1">Correct Score & Half-Time / Full-Time</h3>
-                  <p className="text-xs text-white/70">High-yield markets offering odds upwards of 15.00 to 50.00 for pinpoint scoreline predictions (e.g. 2-1, 3-0) or lead reversals at half-time.</p>
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                  <h3 className="font-bold text-emerald-700 mb-1">Correct Score & Half-Time / Full-Time</h3>
+                  <p className="text-xs text-slate-600">High-yield markets offering odds upwards of 15.00 to 50.00 for pinpoint scoreline predictions (e.g. 2-1, 3-0) or lead reversals at half-time.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h3 className="font-bold text-[#F0C419] mb-1">Card, Corner & Player Props</h3>
-                  <p className="text-xs text-white/70">Wager on total corners, team yellow cards, or individual player anytime goalscorer bets for stars like Erling Haaland or Kylian Mbappé.</p>
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                  <h3 className="font-bold text-emerald-700 mb-1">Card, Corner & Player Props</h3>
+                  <p className="text-xs text-slate-600">Wager on total corners, team yellow cards, or individual player anytime goalscorer bets for stars like Erling Haaland or Kylian Mbappé.</p>
                 </div>
               </div>
             </div>
@@ -185,7 +185,7 @@ export const FootballBettingPage: React.FC = () => (
               <Star className="w-5 h-5 fill-current" />
               <span>Pro Tip: Exploiting Late-Game In-Play Momentum (70th to 90th Minute)</span>
             </div>
-            <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
+            <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
               Statistically, over 24% of all Premier League and Champions League goals are scored in the final 15 minutes of matches as defensive fatigue sets in. If an elite team is trailing by one goal at the 75th minute, odds on "Over 0.5 additional goals" often skyrocket to 2.30+. Trading these late-game spikes produces exceptional return-on-capital over the season.
             </p>
           </div>
@@ -198,34 +198,34 @@ export const FootballBettingPage: React.FC = () => (
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs sm:text-sm border-collapse rounded-xl overflow-hidden">
                 <thead>
-                  <tr className="bg-black/40 text-[#F0C419] border-b border-white/20">
+                  <tr className="bg-slate-50 border border-slate-200 text-[#F0C419] border-b border-slate-200">
                     <th className="p-3.5">Fixture / Market</th>
                     <th className="p-3.5">Lotus365 Odds</th>
                     <th className="p-3.5">Traditional Bookmaker</th>
                     <th className="p-3.5">Net Profit Difference (₹10,000 Wager)</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20 text-white/80">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Arsenal to Beat Chelsea</td>
+                    <td className="p-3.5 font-bold text-slate-900">Arsenal to Beat Chelsea</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">2.05</td>
-                    <td className="p-3.5 text-white/60">1.90</td>
+                    <td className="p-3.5 text-slate-500">1.90</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">+₹1,500 Extra Cash</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Real Madrid vs Bayern: Over 2.5 Goals</td>
+                    <td className="p-3.5 font-bold text-slate-900">Real Madrid vs Bayern: Over 2.5 Goals</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">1.82</td>
-                    <td className="p-3.5 text-white/60">1.70</td>
+                    <td className="p-3.5 text-slate-500">1.70</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">+₹1,200 Extra Cash</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">ISL Match: Both Teams to Score</td>
+                    <td className="p-3.5 font-bold text-slate-900">ISL Match: Both Teams to Score</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">1.95</td>
-                    <td className="p-3.5 text-white/60">1.80</td>
+                    <td className="p-3.5 text-slate-500">1.80</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">+₹1,500 Extra Cash</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Platform Commission</td>
+                    <td className="p-3.5 font-bold text-slate-900">Platform Commission</td>
                     <td className="p-3.5 text-emerald-400 font-bold">0% (Keep All)</td>
                     <td className="p-3.5 text-rose-400">Up to 8% margin cut</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">100% Payout Guaranteed</td>
@@ -244,21 +244,21 @@ export const FootballBettingPage: React.FC = () => (
               One of the greatest advantages of wagering on Lotus365 is the ability to trade dynamically as match conditions evolve. Unlike traditional static bookmakers that lock your money until full-time, our live football exchange allows you to green up and guarantee profits before the 90th minute:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419]">1. The 1-0 Lead Lock</h3>
-                <p className="text-white/70">
+                <p className="text-slate-600">
                   When your backed underdog takes an early 1-0 lead in the 25th minute, their odds plummet dramatically. You can lay the underdog or back the draw/favorite on the exchange to lock in guaranteed profit regardless of who ultimately wins.
                 </p>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419]">2. Over/Under Goal Scalping</h3>
-                <p className="text-white/70">
+                <p className="text-slate-600">
                   Backing "Over 2.5 Goals" in a cagey first half when odds are 2.20, then cashing out immediately after an explosive 50th-minute opening goal when odds sink to 1.35, securing a risk-free 60%+ return without sweating the remainder of the match.
                 </p>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419]">3. Red Card Value Reaction</h3>
-                <p className="text-white/70">
+                <p className="text-slate-600">
                   When a referee issues a red card, the market frequently overreacts in the first 3 minutes. Identifying disciplined defensive sides that organize into low blocks allows you to back the Under or the 10-man team’s Asian handicap at bloated prices.
                 </p>
               </div>
@@ -266,26 +266,26 @@ export const FootballBettingPage: React.FC = () => (
           </div>
 
           {/* Major Competitions Breakdown */}
-          <div className="p-6 rounded-2xl bg-black/20 border border-white/15 space-y-4">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419]">
               Major Football Competitions & Tactical Characteristics
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <span className="font-bold text-white text-base">English Premier League (EPL)</span>
-                <p className="text-white/70">Highest tactical tempo and physical intensity. High-scoring fixtures with prolific Over 2.5 and BTTS conversion rates among top-6 encounters.</p>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+                <span className="font-bold text-slate-900 text-base">English Premier League (EPL)</span>
+                <p className="text-slate-600">Highest tactical tempo and physical intensity. High-scoring fixtures with prolific Over 2.5 and BTTS conversion rates among top-6 encounters.</p>
               </div>
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <span className="font-bold text-white text-base">UEFA Champions League (UCL)</span>
-                <p className="text-white/70">Elite European knockout drama. Knockout second-legs feature aggressive away-goal hunting and high late-game corner volume.</p>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+                <span className="font-bold text-slate-900 text-base">UEFA Champions League (UCL)</span>
+                <p className="text-slate-600">Elite European knockout drama. Knockout second-legs feature aggressive away-goal hunting and high late-game corner volume.</p>
               </div>
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <span className="font-bold text-white text-base">Indian Super League (ISL)</span>
-                <p className="text-white/70">Fastest-growing domestic tournament in Asia. Heavy home-ground advantages in Kolkata, Kerala, and Goa with strong second-half goal tendencies.</p>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+                <span className="font-bold text-slate-900 text-base">Indian Super League (ISL)</span>
+                <p className="text-slate-600">Fastest-growing domestic tournament in Asia. Heavy home-ground advantages in Kolkata, Kerala, and Goa with strong second-half goal tendencies.</p>
               </div>
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
-                <span className="font-bold text-white text-base">Spanish La Liga & Italian Serie A</span>
-                <p className="text-white/70">High technical mastery and structured defensive pressing. Exceptional markets for Asian Handicap lines and Under 2.5 goal scalping.</p>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+                <span className="font-bold text-slate-900 text-base">Spanish La Liga & Italian Serie A</span>
+                <p className="text-slate-600">High technical mastery and structured defensive pressing. Exceptional markets for Asian Handicap lines and Under 2.5 goal scalping.</p>
               </div>
             </div>
           </div>
@@ -298,12 +298,12 @@ export const FootballBettingPage: React.FC = () => (
             </h2>
             <div className="space-y-4 text-sm">
               {footballFaqs.map((item, idx) => (
-                <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
-                  <h3 className="font-bold text-white text-base flex items-start gap-2">
+                <div key={idx} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                  <h3 className="font-bold text-slate-900 text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
                     <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>
@@ -337,7 +337,7 @@ export const TennisBettingPage: React.FC = () => (
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Tennis Betting' }]}
       />
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
           {/* Live Tennis Exchange Widget */}
           <div className="space-y-4">
@@ -346,7 +346,7 @@ export const TennisBettingPage: React.FC = () => (
                 <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
                   Point-by-Point In-Play
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
                   Grand Slam &amp; ATP Live Exchange Board
                 </h2>
               </div>
@@ -363,8 +363,8 @@ export const TennisBettingPage: React.FC = () => (
           </div>
 
           {/* Overview */}
-          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-black text-white">
+          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
               Point-by-Point Tennis Trading on Lotus365
             </h2>
             <p>
@@ -373,30 +373,30 @@ export const TennisBettingPage: React.FC = () => (
           </div>
 
           {/* Grand Slams & Tournaments */}
-          <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
+          <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The 4 Major Grand Slams & Year-Round Tour Coverage
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                 <div className="text-2xl font-black text-[#F0C419]">🇦🇺</div>
-                <div className="font-bold text-white text-base">Australian Open</div>
-                <p className="text-white/70">Hard courts, Melbourne. Blistering pace and extreme heat conditions favoring high-stamina baseline warriors.</p>
+                <div className="font-bold text-slate-900 text-base">Australian Open</div>
+                <p className="text-slate-600">Hard courts, Melbourne. Blistering pace and extreme heat conditions favoring high-stamina baseline warriors.</p>
               </div>
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                 <div className="text-2xl font-black text-[#F0C419]">🇫🇷</div>
-                <div className="font-bold text-white text-base">Roland Garros</div>
-                <p className="text-white/70">Red clay, Paris. Slow bouncing surface rewarding topspin specialists and lengthy tactical rallies.</p>
+                <div className="font-bold text-slate-900 text-base">Roland Garros</div>
+                <p className="text-slate-600">Red clay, Paris. Slow bouncing surface rewarding topspin specialists and lengthy tactical rallies.</p>
               </div>
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                 <div className="text-2xl font-black text-[#F0C419]">🇬🇧</div>
-                <div className="font-bold text-white text-base">Wimbledon</div>
-                <p className="text-white/70">Natural grass, London. Low bounce and lightning velocity heavily favoring big servers and aggressive net play.</p>
+                <div className="font-bold text-slate-900 text-base">Wimbledon</div>
+                <p className="text-slate-600">Natural grass, London. Low bounce and lightning velocity heavily favoring big servers and aggressive net play.</p>
               </div>
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                 <div className="text-2xl font-black text-[#F0C419]">🇺🇸</div>
-                <div className="font-bold text-white text-base">US Open</div>
-                <p className="text-white/70">DecoTurf hard court, New York. High night-session energy with explosive power hitting and electric tiebreaks.</p>
+                <div className="font-bold text-slate-900 text-base">US Open</div>
+                <p className="text-slate-600">DecoTurf hard court, New York. High night-session energy with explosive power hitting and electric tiebreaks.</p>
               </div>
             </div>
           </div>
@@ -407,9 +407,9 @@ export const TennisBettingPage: React.FC = () => (
               Comprehensive Tennis Betting Markets
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">Match & Set Betting</h3>
-                <ul className="text-white/70 space-y-1 list-disc list-inside">
+                <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Match Winner (Head-to-Head)</li>
                   <li>Set Betting (2-0, 2-1 in best of 3)</li>
                   <li>First Set Winner</li>
@@ -417,9 +417,9 @@ export const TennisBettingPage: React.FC = () => (
                   <li>To Win at Least One Set</li>
                 </ul>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">Games & Handicaps</h3>
-                <ul className="text-white/70 space-y-1 list-disc list-inside">
+                <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Game Handicap (+3.5, -3.5 games)</li>
                   <li>Total Match Games (Over/Under 21.5)</li>
                   <li>Tiebreak Played in Match (Yes/No)</li>
@@ -427,9 +427,9 @@ export const TennisBettingPage: React.FC = () => (
                   <li>Number of Aces Over/Under</li>
                 </ul>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">Micro In-Play Live</h3>
-                <ul className="text-white/70 space-y-1 list-disc list-inside">
+                <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Current Game Winner</li>
                   <li>Next Break of Serve</li>
                   <li>Score to Reach Deuce (Yes/No)</li>
@@ -446,7 +446,7 @@ export const TennisBettingPage: React.FC = () => (
               <Star className="w-5 h-5 fill-current" />
               <span>Tennis Strategy: The "First Set Drop" Recovery Trade</span>
             </div>
-            <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
+            <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
               When an elite top-5 player (like Novak Djokovic or Carlos Alcaraz) unexpectedly loses the first set 4-6 against an unseeded opponent, their match-winner odds often drift out from 1.15 to 1.85+. In best-of-5 Grand Slam formats, top champions stage comebacks in over 76% of such fixtures. Backing the favorite after they drop the opener and greening up when they win set two is one of the highest positive-EV strategies in sports wagering.
             </p>
           </div>
@@ -460,15 +460,15 @@ export const TennisBettingPage: React.FC = () => (
               Unlike traditional fixed-odds sportsbooks where you are restricted to predicting the final match winner, Lotus365 operates as a true peer-to-peer exchange. This allows astute tennis traders to profit from micro swings in match momentum:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419]">Laying the Server at 0-30</h3>
-                <p className="text-white/70">
+                <p className="text-slate-600">
                   When a server falls behind 0-30 or 15-40 in their service game, market odds on the returner plummet. Laying the server at short odds offers asymmetric risk/reward: if the returner breaks, you lock in a major profit; if the server fights back to deuce, you can green out with minimal tick losses.
                 </p>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419]">Tiebreak Momentum Reversals</h3>
-                <p className="text-white/70">
+                <p className="text-slate-600">
                   Tiebreaks are notoriously volatile. A single mini-break shifts odds by 30-50 ticks. By anticipating high-pressure unforced errors and entering positions at 3-3 or 4-4, traders can scalp 20-tick profit margins in under 90 seconds.
                 </p>
               </div>
@@ -483,31 +483,31 @@ export const TennisBettingPage: React.FC = () => (
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs sm:text-sm border-collapse rounded-xl overflow-hidden">
                 <thead>
-                  <tr className="bg-black/40 text-[#F0C419] border-b border-white/20">
+                  <tr className="bg-slate-50 border border-slate-200 text-[#F0C419] border-b border-slate-200">
                     <th className="p-3">Surface</th>
                     <th className="p-3">Court Pace</th>
                     <th className="p-3">Average Break %</th>
                     <th className="p-3">Optimal Betting Strategy</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20 text-white/80">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3 font-bold text-white">Grass (Wimbledon)</td>
+                    <td className="p-3 font-bold text-slate-900">Grass (Wimbledon)</td>
                     <td className="p-3 text-emerald-400 font-semibold">Fast / Low Bounce</td>
                     <td className="p-3 text-[#F0C419]">~14% (Lowest)</td>
-                    <td className="p-3 text-white/70">Backing Over Games, Over 0.5 Tiebreaks, and Big Servers (Isner/Hurkacz profile).</td>
+                    <td className="p-3 text-slate-600">Backing Over Games, Over 0.5 Tiebreaks, and Big Servers (Isner/Hurkacz profile).</td>
                   </tr>
                   <tr>
-                    <td className="p-3 font-bold text-white">Clay (Roland Garros)</td>
+                    <td className="p-3 font-bold text-slate-900">Clay (Roland Garros)</td>
                     <td className="p-3 text-amber-400 font-semibold">Slow / High Bounce</td>
                     <td className="p-3 text-[#F0C419]">~28% (Highest)</td>
-                    <td className="p-3 text-white/70">Laying the server at 15-30, backing heavy topspin baseline grinders (Alcaraz/Nadal style).</td>
+                    <td className="p-3 text-slate-600">Laying the server at 15-30, backing heavy topspin baseline grinders (Alcaraz/Nadal style).</td>
                   </tr>
                   <tr>
-                    <td className="p-3 font-bold text-white">Hard (Aus Open & US Open)</td>
+                    <td className="p-3 font-bold text-slate-900">Hard (Aus Open & US Open)</td>
                     <td className="p-3 text-sky-400 font-semibold">Medium-Fast True Bounce</td>
                     <td className="p-3 text-[#F0C419]">~21% (Balanced)</td>
-                    <td className="p-3 text-white/70">Set handicap trading, game total lines, and backing complete all-court tacticians (Sinner/Djokovic).</td>
+                    <td className="p-3 text-slate-600">Set handicap trading, game total lines, and backing complete all-court tacticians (Sinner/Djokovic).</td>
                   </tr>
                 </tbody>
               </table>
@@ -515,21 +515,21 @@ export const TennisBettingPage: React.FC = () => (
           </div>
 
           {/* Live Streaming & Courtside Data Latency */}
-          <div className="p-6 rounded-2xl bg-black/20 border border-white/15 space-y-3">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
             <h3 className="text-xl font-bold text-[#F0C419]">
               Low-Latency Courtside Live Data & Streaming Feeds
             </h3>
-            <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               Speed is paramount when betting on tennis. A delay of just 3 seconds can mean missing out on 2.50 odds after an unforced error. Lotus365 integrates direct satellite-grade radar feeds from official tournament umpires, delivering score changes and point-by-point updates with sub-200ms latency. Whether tracking Carlos Alcaraz on Arthur Ashe or Aryna Sabalenka on Centre Court, our real-time visualizer and instantaneous trade execution guarantee you stay steps ahead of conventional sportsbooks.
             </p>
           </div>
 
           {/* Tiebreak Trading Guide */}
-            <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <h3 className="text-xl font-extrabold text-[#F0C419]">
                 Tiebreak Hedging & Service Game Break Volatility in Live Tennis
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 Tennis trading provides extraordinary opportunities during set-deciding tiebreaks. A single mini-break can swing odds from 1.30 to 2.20 in seconds. By laying the leading server during high-pressure tiebreak moments and backing the returner, traders capture price swings with minimal downside. On Lotus365, all tennis exchange bets settle instantly upon point confirmation, providing maximum liquidity for your bankroll.
               </p>
             </div>
@@ -542,12 +542,12 @@ export const TennisBettingPage: React.FC = () => (
             </h2>
             <div className="space-y-4 text-sm">
               {tennisFaqs.map((item, idx) => (
-                <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
-                  <h3 className="font-bold text-white text-base flex items-start gap-2">
+                <div key={idx} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                  <h3 className="font-bold text-slate-900 text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
                     <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

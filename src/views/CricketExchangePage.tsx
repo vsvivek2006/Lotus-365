@@ -65,7 +65,7 @@ export const CricketExchangePage: React.FC = () => (
         breadcrumbs={[{ label: 'Cricket Exchange' }]}
       />
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
           {/* Interactive Live Exchange Board */}
           <div className="space-y-4">
@@ -74,7 +74,7 @@ export const CricketExchangePage: React.FC = () => (
                 <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
                   Interactive Order Ladder
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
                   Live Peer-to-Peer Cricket Exchange Terminal
                 </h2>
               </div>
@@ -91,8 +91,8 @@ export const CricketExchangePage: React.FC = () => (
           </div>
 
           {/* Executive Overview */}
-          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-black text-white">
+          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
               What Is a Cricket Betting Exchange and How Does It Work?
             </h2>
             <p>
@@ -110,10 +110,10 @@ export const CricketExchangePage: React.FC = () => (
                 <span className="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center">🔵</span>
                 <span>Backing a Team (Back / Lagai)</span>
               </div>
-              <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Backing means wagering that an event will happen. If you back Mumbai Indians at odds of 2.10 with a ₹5,000 stake:
               </p>
-              <ul className="text-xs text-white/70 space-y-1.5 list-disc list-inside">
+              <ul className="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
                 <li>If Mumbai Indians win: You receive ₹10,500 total (₹5,500 pure profit + ₹5,000 stake).</li>
                 <li>If Mumbai Indians lose: You lose only your ₹5,000 stake.</li>
               </ul>
@@ -124,10 +124,10 @@ export const CricketExchangePage: React.FC = () => (
                 <span className="w-8 h-8 rounded-lg bg-rose-500/20 flex items-center justify-center">🔴</span>
                 <span>Laying a Team (Lay / Khai)</span>
               </div>
-              <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Laying means betting against an outcome — acting like the bookmaker. If you lay Chennai Super Kings at odds of 1.80 for a ₹5,000 backer:
               </p>
-              <ul className="text-xs text-white/70 space-y-1.5 list-disc list-inside">
+              <ul className="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
                 <li>If CSK lose: You win the backer's ₹5,000 stake outright!</li>
                 <li>If CSK win: Your liability is ₹4,000 (₹5,000 × [1.80 - 1.00]).</li>
               </ul>
@@ -135,7 +135,7 @@ export const CricketExchangePage: React.FC = () => (
           </div>
 
           {/* Masterclass: Greening Up Arbitrage */}
-          <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
+          <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2.5">
               <DollarSign className="w-7 h-7 text-[#F0C419]" />
               <span>The "Green Up" Cashout Formula: Guaranteed Profit Before Match End</span>
@@ -144,9 +144,9 @@ export const CricketExchangePage: React.FC = () => (
               The most lucrative strategy used by professional cricket exchange traders is known as "Greening Up" or in-play trading arbitrage. Because cricket odds fluctuate violently with every boundary and fallen wicket, you can trade both sides of the market to guarantee a positive cash return regardless of which team wins.
             </p>
 
-            <div className="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-4">
-              <h3 className="font-bold text-white text-base">Practical In-Play Trading Walkthrough:</h3>
-              <ol className="space-y-3 text-xs sm:text-sm list-decimal list-inside text-white/80">
+            <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-4">
+              <h3 className="font-bold text-slate-900 text-base">Practical In-Play Trading Walkthrough:</h3>
+              <ol className="space-y-3 text-xs sm:text-sm list-decimal list-inside text-slate-700">
                 <li><strong className="text-white">Pre-Match:</strong> You Back India at odds of <strong className="text-[#F0C419]">2.20</strong> with a ₹10,000 stake (Potential return: ₹22,000; Net Profit: ₹12,000).</li>
                 <li><strong className="text-white">During In-Play:</strong> India's opening bowlers strike twice in the powerplay, taking 2 early wickets. India's odds plummet to <strong className="text-[#F0C419]">1.30</strong>.</li>
                 <li><strong className="text-white">The Lay Hedge:</strong> You now Lay India at 1.30 with a stake of ₹16,923. Your liability on this lay is ₹5,077 (₹16,923 × 0.30).</li>
@@ -164,7 +164,7 @@ export const CricketExchangePage: React.FC = () => (
                 </li>
               </ol>
             </div>
-            <p className="text-xs text-white/70">
+            <p className="text-xs text-slate-600">
               Notice that you walk away with a guaranteed ₹6,923 profit with 10 overs still remaining in the contest! No traditional sportsbook allows this level of dynamic flexibility.
             </p>
           </div>
@@ -174,49 +174,49 @@ export const CricketExchangePage: React.FC = () => (
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Exchange Comparison: Lotus365 vs Betfair vs Traditional Bookmakers
             </h2>
-            <p className="text-sm text-white/80">
+            <p className="text-sm text-slate-700">
               See how Lotus365 compares against international legacy exchanges and standard Indian sportsbooks:
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs sm:text-sm border-collapse rounded-xl overflow-hidden">
                 <thead>
-                  <tr className="bg-black/40 text-[#F0C419] border-b border-white/20">
+                  <tr className="bg-slate-50 border border-slate-200 text-[#F0C419] border-b border-slate-200">
                     <th className="p-3.5">Feature</th>
                     <th className="p-3.5">Lotus365 Cricket Exchange</th>
                     <th className="p-3.5">Betfair UK</th>
                     <th className="p-3.5">Traditional Bookmakers (Betway/1xBet)</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20 text-white/80">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3.5 font-semibold text-white">Net Commission Rate</td>
+                    <td className="p-3.5 font-semibold text-slate-900">Net Commission Rate</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">0% (Zero Commission)</td>
                     <td className="p-3.5 text-rose-400">5% to 7.5% per winning market</td>
                     <td className="p-3.5 text-rose-400">8% to 15% hidden margin</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-semibold text-white">India UPI & IMPS Payouts</td>
+                    <td className="p-3.5 font-semibold text-slate-900">India UPI & IMPS Payouts</td>
                     <td className="p-3.5 text-emerald-400 font-bold">Instant (Under 2 Minutes)</td>
-                    <td className="p-3.5 text-white/60">Not supported (Crypto/E-wallets only)</td>
-                    <td className="p-3.5 text-white/60">12 to 48 Hours with KYC friction</td>
+                    <td className="p-3.5 text-slate-500">Not supported (Crypto/E-wallets only)</td>
+                    <td className="p-3.5 text-slate-500">12 to 48 Hours with KYC friction</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-semibold text-white">Back & Lay on Session Runs</td>
+                    <td className="p-3.5 font-semibold text-slate-900">Back & Lay on Session Runs</td>
                     <td className="p-3.5 text-emerald-400 font-bold">Full Fancy & Session Trading</td>
-                    <td className="p-3.5 text-white/60">Limited session markets</td>
+                    <td className="p-3.5 text-slate-500">Limited session markets</td>
                     <td className="p-3.5 text-rose-400">No Laying Allowed (Back only)</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-semibold text-white">Access / VPN Requirement</td>
+                    <td className="p-3.5 font-semibold text-slate-900">Access / VPN Requirement</td>
                     <td className="p-3.5 text-emerald-400 font-bold">100% Direct Web (Zero VPN)</td>
                     <td className="p-3.5 text-rose-400">Blocked in India (Requires VPN)</td>
-                    <td className="p-3.5 text-white/60">Frequent ISP domain blocks</td>
+                    <td className="p-3.5 text-slate-500">Frequent ISP domain blocks</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-semibold text-white">Customer Service</td>
+                    <td className="p-3.5 font-semibold text-slate-900">Customer Service</td>
                     <td className="p-3.5 text-emerald-400 font-bold">24/7 Dedicated WhatsApp Desk</td>
-                    <td className="p-3.5 text-white/60">Email / Slow Bot Chat</td>
-                    <td className="p-3.5 text-white/60">Automated Bot Tickets</td>
+                    <td className="p-3.5 text-slate-500">Email / Slow Bot Chat</td>
+                    <td className="p-3.5 text-slate-500">Automated Bot Tickets</td>
                   </tr>
                 </tbody>
               </table>
@@ -232,21 +232,21 @@ export const CricketExchangePage: React.FC = () => (
               In India, thousands of punters prefer trading session markets over match winner odds. Sessions allow you to capitalise on specific 6-over powerplay or 10-over windows without needing to predict who wins the entire 40-over match:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h3 className="font-bold text-[#F0C419] mb-1">Powerplay Sessions (0-6 Overs)</h3>
-                <p className="text-white/70 leading-relaxed">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                <h3 className="font-bold text-emerald-700 mb-1">Powerplay Sessions (0-6 Overs)</h3>
+                <p className="text-slate-600 leading-relaxed">
                   Only 2 fielders outside the 30-yard circle. High boundary frequency makes batting conditions predictable. Benchmark typical ranges: 44-48 runs.
                 </p>
               </div>
-              <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h3 className="font-bold text-[#F0C419] mb-1">Middle Overs (7-15 Overs)</h3>
-                <p className="text-white/70 leading-relaxed">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                <h3 className="font-bold text-emerald-700 mb-1">Middle Overs (7-15 Overs)</h3>
+                <p className="text-slate-600 leading-relaxed">
                   Field spreads out with 5 fielders on boundary ropes. Spinners control run rate. Wickets in this phase cause massive session collapses.
                 </p>
               </div>
-              <div className="p-4 rounded-xl bg-black/30 border border-white/10">
-                <h3 className="font-bold text-[#F0C419] mb-1">Death Overs / Lambi (16-20 Overs)</h3>
-                <p className="text-white/70 leading-relaxed">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                <h3 className="font-bold text-emerald-700 mb-1">Death Overs / Lambi (16-20 Overs)</h3>
+                <p className="text-slate-600 leading-relaxed">
                   Maximum batting aggression. Expect 10 to 14 runs per over if specialist finishers are at the crease, or frequent wickets if yorkers hit the mark.
                 </p>
               </div>
@@ -259,7 +259,7 @@ export const CricketExchangePage: React.FC = () => (
               <BarChart3 className="w-5 h-5" />
               <span>Exchange Rule of Thumb: Never Chase Losses on Khado</span>
             </div>
-            <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
+            <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
               If a session run bet fails because of an unexpected maiden over or a double-wicket maiden, never double your stake on the following session out of frustration. Stick strictly to flat 2% to 4% bankroll allocations per market as explained in our <Link href="/betting-tips" className="text-[#F0C419] underline font-semibold" title="cricket betting tips guide">cricket betting tips guide</Link>.
             </p>
           </div>
@@ -272,12 +272,12 @@ export const CricketExchangePage: React.FC = () => (
             </h2>
             <div className="space-y-4 text-sm">
               {exchangeFaqs.map((item, idx) => (
-                <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
-                  <h3 className="font-bold text-white text-base flex items-start gap-2">
+                <div key={idx} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                  <h3 className="font-bold text-slate-900 text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
                     <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

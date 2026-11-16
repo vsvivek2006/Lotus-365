@@ -48,8 +48,8 @@ export const WplBettingPage: React.FC = () => (
         imageAlt="Women's Premier League Cricket Betting"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'WPL Betting' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Comprehensive Women's Premier League (WPL) Exchange Trading
@@ -63,24 +63,24 @@ export const WplBettingPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Trophy className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Full Franchise Coverage</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Full Franchise Coverage</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Continuous market coverage for Mumbai Indians, Royal Challengers Bangalore, Delhi Capitals, UP Warriorz, and Gujarat Giants across league stages and playoffs.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">In-Play Session Betting</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">In-Play Session Betting</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Trade on micro-events including 6-over powerplay totals, 10-over splits, individual player milestones, fall of wickets, and boundary frequencies.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Sub-2-Minute Settlements</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Sub-2-Minute Settlements</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Instant wallet credit as soon as the final wicket falls, backed by automated UPI cashouts directly into your PhonePe, Google Pay, or Paytm account.
               </p>
             </div>
@@ -122,16 +122,16 @@ export const WplBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About WPL Betting
             </h3>
             <div className="space-y-3">
               {wplFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -174,8 +174,8 @@ export const PslBettingPage: React.FC = () => (
         imageAlt="Pakistan Super League T20 Cricket Odds"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'PSL Betting' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               High-Velocity Pakistan Super League (PSL) Trading
@@ -189,24 +189,24 @@ export const PslBettingPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Flame className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Express Pace Death Overs</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Express Pace Death Overs</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Specialized in-play session markets for overs 16 to 20 where swing and reverse-swing create high volatility profit swings.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Full Liquidity Assurance</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Full Liquidity Assurance</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Our peer-to-peer exchange handles large volume matched bets with zero counterparty default risk or unexpected odds voiding.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Clock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">24/7 WhatsApp Concierge</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">24/7 WhatsApp Concierge</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Direct WhatsApp customer support for account top-ups, transaction confirmations, and instant credential renewals.
               </p>
             </div>
@@ -248,16 +248,16 @@ export const PslBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About PSL Betting
             </h3>
             <div className="space-y-3">
               {pslFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -300,8 +300,8 @@ export const BblBettingPage: React.FC = () => (
         imageAlt="Big Bash League BBL Cricket Odds"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'BBL Betting' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Australian Big Bash League (BBL) Betting on Lotus365
@@ -315,24 +315,24 @@ export const BblBettingPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Award className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Power Surge Micro-Markets</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Power Surge Micro-Markets</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Tailored session options designed specifically for the BBL 2-over fielding restriction surge, yielding sharp odds for tactical bettors.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Zero Deposit Friction</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Zero Deposit Friction</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Fund your ID within 30 seconds via WhatsApp using PhonePe, Google Pay, or Paytm QR code transfers with zero deduction fees.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Guaranteed Payout Security</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Guaranteed Payout Security</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 All settlements are protected by 256-bit SSL encryption and backed by corporate escrow reserves, guaranteeing 2-minute cashout settlements.
               </p>
             </div>
@@ -374,16 +374,16 @@ export const BblBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About BBL Betting
             </h3>
             <div className="space-y-3">
               {bblFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -426,8 +426,8 @@ export const CplBettingPage: React.FC = () => (
         imageAlt="Caribbean Premier League CPL T20 Odds"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'CPL Betting' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Caribbean Premier League (CPL) Power-Hitting Markets
@@ -441,24 +441,24 @@ export const CplBettingPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Flame className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Sixes & Boundary Props</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Sixes & Boundary Props</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Dedicated over/under markets on total sixes per match, powerplay boundaries, and longest hit distance specials.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Live In-Play Odds</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Live In-Play Odds</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Ball-by-ball exchange updating within 200 milliseconds, allowing you to react immediately to pitch slowdowns and batting collapses.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">120-Second Cashouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">120-Second Cashouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Round-the-clock withdrawal fulfillment directly into your verified bank account via automated UPI rails.
               </p>
             </div>
@@ -500,16 +500,16 @@ export const CplBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About CPL Betting
             </h3>
             <div className="space-y-3">
               {cplFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -552,8 +552,8 @@ export const AsiaCupBettingPage: React.FC = () => (
         imageAlt="Asia Cup Cricket Championship Odds"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Asia Cup Betting' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Elite Continental Rivalries: Asia Cup Exchange Markets
@@ -567,24 +567,24 @@ export const AsiaCupBettingPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Trophy className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">India vs Pak Deep Liquidity</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">India vs Pak Deep Liquidity</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Peak order book depth guaranteeing that even large 6-figure positions match smoothly at fair market prices without slippage.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Super Four & Finals</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Super Four & Finals</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Full schedule coverage from qualifying round-robin encounters through to high-pressure Super Four knockout matches and finals.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Instant UPI Settlements</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Instant UPI Settlements</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Direct payouts to your Indian bank account within 120 seconds of withdrawal initiation, with zero administrative deduction.
               </p>
             </div>
@@ -626,16 +626,16 @@ export const AsiaCupBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Asia Cup Betting
             </h3>
             <div className="space-y-3">
               {asiaCupFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -678,8 +678,8 @@ export const IccOdiWorldCupPage: React.FC = () => (
         imageAlt="ICC Cricket 50-Over ODI World Cup"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'ICC ODI World Cup' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Ultimate Stage: ICC 50-Over World Cup Betting
@@ -693,24 +693,24 @@ export const IccOdiWorldCupPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Trophy className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Outright Title Markets</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Outright Title Markets</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Long-term tournament winner, finalist prediction, and tournament top run-scorer / wicket-taker futures.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Segmented Sessions</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Segmented Sessions</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 10-over powerplay 1, 30-over middle phase, and 10-over death phase dedicated run proposition markets.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Institutional Escrow</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Institutional Escrow</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 All customer balances are maintained in segregated Indian bank reserves, guaranteeing complete liquidity on massive tournament wins.
               </p>
             </div>
@@ -752,16 +752,16 @@ export const IccOdiWorldCupPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About ODI World Cup Betting
             </h3>
             <div className="space-y-3">
               {odiWorldCupFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -804,8 +804,8 @@ export const TestCricketBettingPage: React.FC = () => (
         imageAlt="ICC World Test Championship Cricket Betting"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Test Cricket' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Strategic Test Match Trading Across 15 Sessions
@@ -819,24 +819,24 @@ export const TestCricketBettingPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Clock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Three Daily Sessions</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Three Daily Sessions</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Granular markets for Morning (1st), Afternoon (2nd), and Evening (3rd) sessions covering runs, wickets, and run rates.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Draw-No-Bet (DNB)</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Draw-No-Bet (DNB)</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Eliminate draw risk completely: your stake is returned in full if the five-day fixture concludes without an outright result.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Multi-Day Hedging</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Multi-Day Hedging</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Hold open bets across multiple days without overnight rollover fees or arbitrary position closures.
               </p>
             </div>
@@ -878,16 +878,16 @@ export const TestCricketBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Test Cricket Betting
             </h3>
             <div className="space-y-3">
               {testCricketFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -930,8 +930,8 @@ export const LiveCricketScoreOddsPage: React.FC = () => (
         imageAlt="Live Cricket Scores and Sub-Second Match Odds"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Live Cricket Score & Odds' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Low-Latency Cricket Data Infrastructure
@@ -945,24 +945,24 @@ export const LiveCricketScoreOddsPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">200ms Feed Refresh</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">200ms Feed Refresh</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Lightweight WebSocket protocol pushes every boundary, wicket, and dot ball instantaneously with zero page reloads.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Dynamic Depth Ladder</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Dynamic Depth Ladder</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Inspect available back and lay stakes across three tiers of pricing to ensure your volume gets matched without delay.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">One-Tap Order Routing</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">One-Tap Order Routing</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Execute trades in under 50 milliseconds with pre-configured quick stake buttons designed for rapid in-play execution.
               </p>
             </div>
@@ -1004,16 +1004,16 @@ export const LiveCricketScoreOddsPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Live Cricket Scores & Odds
             </h3>
             <div className="space-y-3">
               {liveScoreFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -1056,8 +1056,8 @@ export const CricketSessionBettingPage: React.FC = () => (
         imageAlt="Cricket Session Betting and Fancy Rules"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Session Betting' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Understanding Cricket Session (Fancy) Markets
@@ -1071,24 +1071,24 @@ export const CricketSessionBettingPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Powerplay (6 Overs)</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Powerplay (6 Overs)</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Wager on total runs scored with field restrictions in effect. Highly liquid and volatile based on early bowler movement.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Trophy className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Lambi Pari (Innings Total)</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Lambi Pari (Innings Total)</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Predict the final 20-over or 50-over innings aggregate. Updates dynamically with every boundary or middle-order wicket.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Player Proposition Lines</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Player Proposition Lines</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Over/under lines for individual batsman runs, total match boundaries, and highest opening partnership comparisons.
               </p>
             </div>
@@ -1130,16 +1130,16 @@ export const CricketSessionBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Cricket Session Betting
             </h3>
             <div className="space-y-3">
               {sessionBettingFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -1182,8 +1182,8 @@ export const CricketTossPredictionPage: React.FC = () => (
         imageAlt="Cricket Toss Prediction and Pitch Factor Analytics"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'Toss Prediction' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Decisive Role of the Coin Toss in Modern Cricket
@@ -1197,24 +1197,24 @@ export const CricketTossPredictionPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Flame className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">The Dew Factor</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">The Dew Factor</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 In day-night matches across India, heavy evening dew makes gripping the ball difficult for bowlers, giving chasing sides a 65%+ historical win rate.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Activity className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Pitch Deterioration</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Pitch Deterioration</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 In Test cricket, batting first on dry subcontinental pitches shields teams from fourth-innings target chases on rough, turning surfaces.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Instant 30s Settlements</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Instant 30s Settlements</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Toss market bets resolve thirty seconds following the referee's call, enabling instant reinvestment into 6-over powerplay session markets.
               </p>
             </div>
@@ -1256,16 +1256,16 @@ export const CricketTossPredictionPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Cricket Toss Predictions
             </h3>
             <div className="space-y-3">
               {tossPredictionFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>

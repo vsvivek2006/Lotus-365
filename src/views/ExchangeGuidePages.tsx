@@ -52,8 +52,8 @@ export const BackAndLayBettingPage: React.FC = () => (
           { label: 'Back & Lay Betting' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Core Mechanics of Back and Lay Trading
@@ -71,9 +71,9 @@ export const BackAndLayBettingPage: React.FC = () => (
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
               <div>
                 <span className="text-[#F0C419] text-xs font-black uppercase tracking-wider">Interactive Order Engine</span>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">Live Back (Blue) vs Lay (Pink) Execution</h2>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">Live Back (Blue) vs Lay (Pink) Execution</h2>
               </div>
-              <p className="text-xs text-white/60">Click any odds block below to simulate order matching & liability calculation</p>
+              <p className="text-xs text-slate-500">Click any odds block below to simulate order matching & liability calculation</p>
             </div>
             <ExchangeOddsWidget
               title="India vs Australia • T20 World Cup Super 8"
@@ -86,15 +86,15 @@ export const BackAndLayBettingPage: React.FC = () => (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-2xl bg-blue-950/40 border border-blue-500/30 space-y-3">
               <span className="px-3 py-1 rounded-md bg-blue-500 text-white font-bold text-xs uppercase">Back Bet (Blue)</span>
-              <h3 className="text-lg font-bold text-white">Betting FOR an Outcome</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Betting FOR an Outcome</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 You wager ₹1,000 on India at odds of 2.00. If India wins, you receive ₹2,000 total (₹1,000 profit + your ₹1,000 stake). If India loses, you lose only your ₹1,000 stake.
               </p>
             </div>
             <div className="p-6 rounded-2xl bg-rose-950/40 border border-rose-500/30 space-y-3">
               <span className="px-3 py-1 rounded-md bg-rose-500 text-white font-bold text-xs uppercase">Lay Bet (Pink)</span>
-              <h3 className="text-lg font-bold text-white">Betting AGAINST an Outcome</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Betting AGAINST an Outcome</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 You lay Australia for ₹1,000 at odds of 2.10. If Australia loses or draws, you win the ₹1,000 backer's stake. If Australia wins, you must pay out the liability of ₹1,100.
               </p>
             </div>
@@ -136,16 +136,16 @@ export const BackAndLayBettingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Back and Lay Betting
             </h3>
             <div className="space-y-3">
               {backLayFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -191,8 +191,8 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
           { label: 'Commission Rates' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Transparent, Fair, and Player-First Commission Structure
@@ -209,24 +209,24 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
           <InteractiveOddsCalculator />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Percent className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">0% to 2% Net Fee</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">0% to 2% Net Fee</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Commission is assessed strictly against net market profits. Losing trades are never subject to any fees or platform deductions.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">0% Banking Deductions</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">0% Banking Deductions</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Every rupee you deposit via UPI or IMPS reflects 100% in your gaming balance with zero processing cuts or gateway tolls.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">VIP Volume Rebates</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">VIP Volume Rebates</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 High-turnover traders automatically qualify for tiered commission reductions down to 0.5% through our VIP concierge desk.
               </p>
             </div>
@@ -239,12 +239,12 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
             <p>
               Imagine you trade an IPL match with multiple back and lay bets. At the conclusion of the game, your combined trading positions generate a net profit of ₹25,000 on the Match Odds market.
             </p>
-            <div className="p-6 rounded-2xl bg-black/30 border border-white/15 space-y-2 text-xs sm:text-sm">
-              <div className="flex justify-between border-b border-white/10 pb-2">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2 text-xs sm:text-sm">
+              <div className="flex justify-between border-b border-slate-200 pb-2">
                 <span>Gross Market Profit:</span>
                 <span className="font-bold text-emerald-400">₹25,000.00</span>
               </div>
-              <div className="flex justify-between border-b border-white/10 py-2">
+              <div className="flex justify-between border-b border-slate-200 py-2">
                 <span>Exchange Commission (2.0%):</span>
                 <span className="font-bold text-rose-400">-₹500.00</span>
               </div>
@@ -282,16 +282,16 @@ export const ExchangeCommissionRatesPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Commission Rates
             </h3>
             <div className="space-y-3">
               {commissionFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -337,8 +337,8 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
           { label: 'Exchange vs Sportsbook' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Decisive Advantage: Exchange vs Traditional Sportsbook
@@ -354,40 +354,40 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
           {/* Interactive Calculator: Compare Exchange Returns vs Bookmaker Overround */}
           <InteractiveOddsCalculator />
 
-          <div className="overflow-x-auto rounded-2xl border border-white/10">
+          <div className="overflow-x-auto rounded-2xl border border-slate-200">
             <table className="w-full text-left text-xs sm:text-sm">
-              <thead className="bg-[#0b3b2d] text-[#F0C419] font-bold uppercase tracking-wider">
+              <thead className="bg-slate-100 text-slate-900 font-bold uppercase tracking-wider">
                 <tr>
                   <th className="p-4">Feature</th>
                   <th className="p-4 text-emerald-400">Lotus365 Exchange</th>
                   <th className="p-4 text-rose-400">Traditional Sportsbook</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-white/10 bg-black/20">
+              <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                 <tr>
-                  <td className="p-4 font-bold text-white">Odds Value</td>
+                  <td className="p-4 font-bold text-slate-900">Odds Value</td>
                   <td className="p-4 text-white/90">Market-driven peer prices (10-20% higher returns)</td>
-                  <td className="p-4 text-white/70">Fixed with 7-15% bookmaker overround tax</td>
+                  <td className="p-4 text-slate-600">Fixed with 7-15% bookmaker overround tax</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-bold text-white">Lay Betting</td>
+                  <td className="p-4 font-bold text-slate-900">Lay Betting</td>
                   <td className="p-4 text-white/90">Fully supported (bet against any outcome)</td>
-                  <td className="p-4 text-white/70">Not available (back only)</td>
+                  <td className="p-4 text-slate-600">Not available (back only)</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-bold text-white">Winner Treatment</td>
+                  <td className="p-4 font-bold text-slate-900">Winner Treatment</td>
                   <td className="p-4 text-white/90">Winners welcomed with VIP reward perks</td>
-                  <td className="p-4 text-white/70">Account restrictions, limits, or bans</td>
+                  <td className="p-4 text-slate-600">Account restrictions, limits, or bans</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-bold text-white">In-Play Hedging</td>
+                  <td className="p-4 font-bold text-slate-900">In-Play Hedging</td>
                   <td className="p-4 text-white/90">Instant 1-click greening up across both teams</td>
-                  <td className="p-4 text-white/70">Clunky, delayed cashouts with steep penalties</td>
+                  <td className="p-4 text-slate-600">Clunky, delayed cashouts with steep penalties</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-bold text-white">Payout Speed</td>
+                  <td className="p-4 font-bold text-slate-900">Payout Speed</td>
                   <td className="p-4 text-white/90">Guaranteed sub-2-minute UPI cashouts</td>
-                  <td className="p-4 text-white/70">24-72 hours with tedious verification queues</td>
+                  <td className="p-4 text-slate-600">24-72 hours with tedious verification queues</td>
                 </tr>
               </tbody>
             </table>
@@ -429,16 +429,16 @@ export const BettingExchangeVsSportsbookPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions: Exchange vs Sportsbook
             </h3>
             <div className="space-y-3">
               {vsSportsbookFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -484,8 +484,8 @@ export const BookmakerMarketPage: React.FC = () => (
           { label: 'Bookmaker Market' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Instant Execution: The Power of Bookmaker Markets
@@ -507,24 +507,24 @@ export const BookmakerMarketPage: React.FC = () => (
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Zero Matching Delay</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Zero Matching Delay</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Instant confirmation at the clicked price. Perfect for volatile in-play death overs where seconds determine profit.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Tight 2% Spreads</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Tight 2% Spreads</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Unlike offshore bookies with 10% margins, our institutional pricing delivers razor-thin spreads for maximum player return.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Full Capital Guarantee</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Full Capital Guarantee</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Supported by our segregated banking reserves, ensuring that even 7-figure accumulator wins settle without friction.
               </p>
             </div>
@@ -566,16 +566,16 @@ export const BookmakerMarketPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Bookmaker Markets
             </h3>
             <div className="space-y-3">
               {bookmakerFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -621,8 +621,8 @@ export const InPlayCashoutGuidePage: React.FC = () => (
           { label: 'In-Play Cashout' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Mathematics and Strategy of In-Play Cashouts
@@ -644,24 +644,24 @@ export const InPlayCashoutGuidePage: React.FC = () => (
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">One-Click Execution</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">One-Click Execution</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Confirm your cashout in under 100 milliseconds with zero manual math or complicated counter-bet calculations.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Partial Cashout Slider</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Partial Cashout Slider</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Withdraw your initial investment into your bank account while leaving your free-money profits in play for maximum upside.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Instant Balance Credit</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Instant Balance Credit</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Proceeds credit immediately to your active wallet, ready for instant withdrawal via 2-minute UPI.
               </p>
             </div>
@@ -703,16 +703,16 @@ export const InPlayCashoutGuidePage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About In-Play Cashout
             </h3>
             <div className="space-y-3">
               {cashoutGuideFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -758,8 +758,8 @@ export const MatchOddsTradingPage: React.FC = () => (
           { label: 'Match Odds Trading' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Approaching Cricket Markets Like Financial Securities
@@ -781,24 +781,24 @@ export const MatchOddsTradingPage: React.FC = () => (
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ArrowLeftRight className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Tick Scalping</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Tick Scalping</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Back a team prior to an over bowled by a part-time spinner, lay them after two boundaries, and pocket 5 to 10 ticks in under three minutes.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Swing Position Trading</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Swing Position Trading</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Capitalize on market overreactions to early top-order wickets, backing premier batting units at inflated underdog odds before they recover.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Automated Limit Orders</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Automated Limit Orders</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Queue unmatched bets at your dream price; our engine automatically matches your trade when liquidity touches your level.
               </p>
             </div>
@@ -840,16 +840,16 @@ export const MatchOddsTradingPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Match Odds Trading
             </h3>
             <div className="space-y-3">
               {matchOddsFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -895,8 +895,8 @@ export const TiedMatchRulesPage: React.FC = () => (
           { label: 'Tied Match Rules' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Clear, Auditable Match Settlement Protocols
@@ -910,24 +910,24 @@ export const TiedMatchRulesPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <AlertCircle className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Super Over Settlement</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Super Over Settlement</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 In T20 knockout games, match outright wagers include the Super Over. The team officially crowned winner by tournament officials settles as the winning selection.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">DLS Rain Interruption</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">DLS Rain Interruption</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Provided the official minimum over threshold is reached, match bets settle on the revised DLS target score confirmed by the ICC or BCCI referee.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Instant Void Refunds</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Instant Void Refunds</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 If a fixture is abandoned without a ball bowled or before the minimum quota, all stakes automatically refund to your wallet within 60 seconds.
               </p>
             </div>
@@ -969,16 +969,16 @@ export const TiedMatchRulesPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Tied Match Rules
             </h3>
             <div className="space-y-3">
               {tiedMatchFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -1024,8 +1024,8 @@ export const BetSlipGuidePage: React.FC = () => (
           { label: 'Bet Slip Guide' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               How the Lotus365 Order Slip Engine Works
@@ -1039,24 +1039,24 @@ export const BetSlipGuidePage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Matched Orders</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Matched Orders</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Your requested odds were matched instantly against opposing liquidity. The wager is locked and settles when the market concludes.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Clock className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Unmatched Queues</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Unmatched Queues</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 You requested a price higher than currently available. Your order sits patiently in the depth ladder waiting for market movement.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">1-Tap Cancel</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">1-Tap Cancel</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Cancel any unmatched or remaining partial balance in under 50 milliseconds; your reserved funds immediately return to your balance.
               </p>
             </div>
@@ -1098,16 +1098,16 @@ export const BetSlipGuidePage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About the Exchange Bet Slip
             </h3>
             <div className="space-y-3">
               {betSlipFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>

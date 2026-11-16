@@ -77,8 +77,8 @@ export const AboutPage: React.FC = () => (
         ]}
       />
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           
           {/* Executive Stats Banner */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -88,17 +88,17 @@ export const AboutPage: React.FC = () => (
               { icon: <Trophy className="w-6 h-6 text-[#F0C419]" />, val: '0% Commission', label: 'On Select Cricket Markets' },
               { icon: <ShieldCheck className="w-6 h-6 text-[#F0C419]" />, val: '100% Licensed', label: 'B2B Fair Play Audited' },
             ].map((s) => (
-              <div key={s.label} className="p-4 rounded-xl bg-black/20 border border-white/10 text-center">
+              <div key={s.label} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                 <div className="flex justify-center mb-2">{s.icon}</div>
-                <div className="text-xl sm:text-2xl font-black text-white">{s.val}</div>
-                <div className="text-[11px] text-white/60 mt-0.5">{s.label}</div>
+                <div className="text-xl sm:text-2xl font-black text-slate-900">{s.val}</div>
+                <div className="text-[11px] text-slate-500 mt-0.5">{s.label}</div>
               </div>
             ))}
           </div>
 
           {/* Company History & Genesis */}
           <div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4">
               Our Journey: Solving the Broken Indian Online Betting Experience
             </h2>
             <p className="mb-4">
@@ -114,42 +114,42 @@ export const AboutPage: React.FC = () => (
 
           {/* Core Corporate Pillars */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               The 4 Foundational Pillars of Lotus365
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                   <Award className="w-5 h-5 text-[#F0C419]" /> 1. Peer-to-Peer Exchange Integrity
                 </h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Unlike traditional sportsbooks that profit when you lose, our <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link> is a true marketplace where players trade against one another. We simply provide the secure matching engine and charge our industry-low 0% to 2% commission.
                 </p>
               </div>
 
-              <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                   <Zap className="w-5 h-5 text-[#F0C419]" /> 2. Radical Cashout Velocity
                 </h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   We believe that holding player winnings hostage behind arbitrary verification checks is unacceptable. When you win on Lotus365, your balance is disbursed to your UPI ID or bank account within 120 seconds, guaranteed.
                 </p>
               </div>
 
-              <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                   <Lock className="w-5 h-5 text-[#F0C419]" /> 3. Absolute Privacy & Confidentiality
                 </h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   We maintain a strict zero-document onboarding protocol. By coordinating accounts through encrypted WhatsApp channels, your sensitive financial documents and identity cards remain completely confidential.
                 </p>
               </div>
 
-              <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                   <Globe className="w-5 h-5 text-[#F0C419]" /> 4. Instant Browser Performance
                 </h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Play smoothly on any smartphone with zero storage consumed. Lotus365 runs at fluid 60fps directly in your mobile browser with lightning response times.
                 </p>
               </div>
@@ -158,42 +158,42 @@ export const AboutPage: React.FC = () => (
 
           {/* Historical Growth Timeline */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               Historical Milestones: 2019 to 2026
             </h2>
-            <div className="overflow-x-auto rounded-xl border border-white/10">
+            <div className="overflow-x-auto rounded-xl border border-slate-200">
               <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-[#0b3b2d] text-[#F0C419] font-semibold uppercase tracking-wider">
+                <thead className="bg-slate-100 text-slate-900 font-semibold uppercase tracking-wider">
                   <tr>
                     <th className="p-3.5">Year</th>
                     <th className="p-3.5">Strategic Milestone</th>
                     <th className="p-3.5">Impact on Indian Players</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-[#F0C419]">2019</td>
-                    <td className="p-3.5 font-semibold text-white">Platform Launch</td>
-                    <td className="p-3.5 text-white/70">Introduced peer-to-peer cricket exchange trading with direct WhatsApp customer onboarding.</td>
+                    <td className="p-3.5 font-semibold text-slate-900">Platform Launch</td>
+                    <td className="p-3.5 text-slate-600">Introduced peer-to-peer cricket exchange trading with direct WhatsApp customer onboarding.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-[#F0C419]">2021</td>
-                    <td className="p-3.5 font-semibold text-white">Instant UPI Automation</td>
-                    <td className="p-3.5 text-white/70">Integrated NPCI banking rails, dropping average deposit confirmation time to under 30 seconds.</td>
+                    <td className="p-3.5 font-semibold text-slate-900">Instant UPI Automation</td>
+                    <td className="p-3.5 text-slate-600">Integrated NPCI banking rails, dropping average deposit confirmation time to under 30 seconds.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-[#F0C419]">2023</td>
-                    <td className="p-3.5 font-semibold text-white">Live Indian Gaming Suites</td>
-                    <td className="p-3.5 text-white/70">Partnered with Evolution Gaming and Ezugi to deploy authentic Hindi-speaking Teen Patti and Andar Bahar tables.</td>
+                    <td className="p-3.5 font-semibold text-slate-900">Live Indian Gaming Suites</td>
+                    <td className="p-3.5 text-slate-600">Partnered with Evolution Gaming and Ezugi to deploy authentic Hindi-speaking Teen Patti and Andar Bahar tables.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-[#F0C419]">2025</td>
-                    <td className="p-3.5 font-semibold text-white">2-Minute Cashout Guarantee</td>
-                    <td className="p-3.5 text-white/70">Established pre-funded corporate banking reserves, guaranteeing 120-second cashouts across India.</td>
+                    <td className="p-3.5 font-semibold text-slate-900">2-Minute Cashout Guarantee</td>
+                    <td className="p-3.5 text-slate-600">Established pre-funded corporate banking reserves, guaranteeing 120-second cashouts across India.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-[#F0C419]">2026</td>
-                    <td className="p-3.5 font-semibold text-white">1.5M+ Player Community</td>
+                    <td className="p-3.5 font-semibold text-slate-900">1.5M+ Player Community</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">Lotus365 solidifies position as India’s #1 trusted digital gaming destination.</td>
                   </tr>
                 </tbody>
@@ -203,7 +203,7 @@ export const AboutPage: React.FC = () => (
 
           {/* Responsible Corporate Commitment */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               Commitment to Fair Play & Responsible Entertainment
             </h2>
             <p className="mb-4">
@@ -236,20 +236,20 @@ export const AboutPage: React.FC = () => (
               At Lotus365, customer satisfaction is evaluated through concrete metrics, not hollow marketing slogans. We publish our binding customer service benchmarks openly for all members:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h3 className="font-bold text-white text-sm mb-1">WhatsApp Response Time</h3>
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                <h3 className="font-bold text-slate-900 text-sm mb-1">WhatsApp Response Time</h3>
                 <p className="text-emerald-400 font-extrabold text-lg">&lt; 30 Seconds</p>
-                <p className="text-xs text-white/60 mt-1">Live human concierge connects on WhatsApp 24 hours a day, 365 days a year with zero queue delays.</p>
+                <p className="text-xs text-slate-500 mt-1">Live human concierge connects on WhatsApp 24 hours a day, 365 days a year with zero queue delays.</p>
               </div>
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h3 className="font-bold text-white text-sm mb-1">Deposit Crediting Speed</h3>
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                <h3 className="font-bold text-slate-900 text-sm mb-1">Deposit Crediting Speed</h3>
                 <p className="text-[#F0C419] font-extrabold text-lg">Instant (&lt; 60s)</p>
-                <p className="text-xs text-white/60 mt-1">Funds are posted to your player wallet the moment your UPI 12-digit UTR confirmation is transmitted.</p>
+                <p className="text-xs text-slate-500 mt-1">Funds are posted to your player wallet the moment your UPI 12-digit UTR confirmation is transmitted.</p>
               </div>
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10">
-                <h3 className="font-bold text-white text-sm mb-1">Withdrawal Disbursement</h3>
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                <h3 className="font-bold text-slate-900 text-sm mb-1">Withdrawal Disbursement</h3>
                 <p className="text-emerald-400 font-extrabold text-lg">120 Seconds</p>
-                <p className="text-xs text-white/60 mt-1">Automated IMPS banking rails ensure net winnings reach your registered Indian bank account in 2 minutes.</p>
+                <p className="text-xs text-slate-500 mt-1">Automated IMPS banking rails ensure net winnings reach your registered Indian bank account in 2 minutes.</p>
               </div>
             </div>
           </div>
@@ -259,7 +259,7 @@ export const AboutPage: React.FC = () => (
             <h3 className="text-base font-black text-[#F0C419]">
               The Lotus365 Player-First Pledge
             </h3>
-            <p className="text-xs text-white/80 leading-relaxed">
+            <p className="text-xs text-slate-700 leading-relaxed">
               We operate under the firm conviction that Indian bettors deserve the highest tier of international sportsbook engineering combined with transparent local banking. We will never introduce predatory rollover traps, hidden transaction deductions, or deceptive software throttling. When you bet on Lotus365, you are trading on the most technologically advanced, mathematically fair, and financially secure platform in South Asia.
             </p>
           </div>
@@ -272,9 +272,9 @@ export const AboutPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               {aboutFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h3 className="font-bold text-white text-sm mb-2">{faq.question}</h3>
-                  <p className="text-xs text-white/70 leading-relaxed">{faq.answer}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h3 className="font-bold text-slate-900 text-sm mb-2">{faq.question}</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed">{faq.answer}</p>
                 </div>
               ))}
             </div>

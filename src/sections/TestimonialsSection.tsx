@@ -110,59 +110,56 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
   const filtered = activeTab === 'all' ? TESTIMONIALS : TESTIMONIALS.filter((t) => t.category === activeTab);
 
   return (
-    <section id="player-reviews" className="py-20 bg-[#0E4939] border-t border-white/15 relative overflow-hidden">
-      {/* Background ambient lighting */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-[#F0C419]/10 blur-[140px] rounded-full pointer-events-none -z-10" />
-
+    <section id="player-reviews" className="py-20 bg-slate-50 border-t border-slate-200 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/30 border border-[#F0C419]/40 text-xs font-bold text-[#F0C419] uppercase tracking-wider mb-4 shadow-sm">
-            <Award className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-xs font-bold text-amber-900 uppercase tracking-wider mb-4 shadow-xs">
+            <Award className="w-3.5 h-3.5 text-amber-600" />
             <span>4.9 / 5 Star Rating From 250,000+ Indian Players</span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
-            Loved by Players Across India – <span className="text-[#F0C419]">Real Stories &amp; Winnings</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-4">
+            Loved by Players Across India – <span className="text-emerald-700">Real Stories &amp; Winnings</span>
           </h2>
 
-          <p className="text-white/85 text-sm sm:text-base leading-relaxed">
+          <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
             See what everyday sports fans and casino enthusiasts say about our 2-minute cashouts, fair 0% commission cricket odds, and round-the-clock WhatsApp support.
           </p>
         </div>
 
         {/* 4 Trust Metrics Highlight Strip */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-4xl mx-auto mb-10">
-          <div className="p-3.5 rounded-2xl bg-black/25 border border-white/10 text-center backdrop-blur-sm">
-            <div className="text-xl sm:text-2xl font-black text-[#F0C419] flex items-center justify-center gap-1">
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 text-center shadow-xs">
+            <div className="text-xl sm:text-2xl font-black text-amber-500 flex items-center justify-center gap-1">
               <span>4.9</span>
-              <Star className="w-4 h-4 fill-[#F0C419] text-[#F0C419]" />
+              <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
             </div>
-            <div className="text-[11px] sm:text-xs text-white/75 mt-0.5 font-medium">Overall Trust Score</div>
+            <div className="text-[11px] sm:text-xs text-slate-600 mt-0.5 font-medium">Overall Trust Score</div>
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-black/25 border border-white/10 text-center backdrop-blur-sm">
-            <div className="text-xl sm:text-2xl font-black text-emerald-300 flex items-center justify-center gap-1">
-              <Zap className="w-4 h-4 text-emerald-300" />
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 text-center shadow-xs">
+            <div className="text-xl sm:text-2xl font-black text-emerald-600 flex items-center justify-center gap-1">
+              <Zap className="w-4 h-4 text-emerald-600" />
               <span>2 Mins</span>
             </div>
-            <div className="text-[11px] sm:text-xs text-white/75 mt-0.5 font-medium">Fastest UPI Cashout</div>
+            <div className="text-[11px] sm:text-xs text-slate-600 mt-0.5 font-medium">Fastest UPI Cashout</div>
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-black/25 border border-white/10 text-center backdrop-blur-sm">
-            <div className="text-xl sm:text-2xl font-black text-white flex items-center justify-center gap-1">
-              <Trophy className="w-4 h-4 text-[#F0C419]" />
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 text-center shadow-xs">
+            <div className="text-xl sm:text-2xl font-black text-slate-900 flex items-center justify-center gap-1">
+              <Trophy className="w-4 h-4 text-amber-500" />
               <span>₹12+ Cr</span>
             </div>
-            <div className="text-[11px] sm:text-xs text-white/75 mt-0.5 font-medium">Daily Winnings Paid</div>
+            <div className="text-[11px] sm:text-xs text-slate-600 mt-0.5 font-medium">Daily Winnings Paid</div>
           </div>
 
-          <div className="p-3.5 rounded-2xl bg-black/25 border border-white/10 text-center backdrop-blur-sm">
-            <div className="text-xl sm:text-2xl font-black text-sky-300 flex items-center justify-center gap-1">
-              <ShieldCheck className="w-4 h-4 text-sky-300" />
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 text-center shadow-xs">
+            <div className="text-xl sm:text-2xl font-black text-sky-600 flex items-center justify-center gap-1">
+              <ShieldCheck className="w-4 h-4 text-sky-600" />
               <span>100%</span>
             </div>
-            <div className="text-[11px] sm:text-xs text-white/75 mt-0.5 font-medium">Fund Safety Guaranteed</div>
+            <div className="text-[11px] sm:text-xs text-slate-600 mt-0.5 font-medium">Fund Safety Guaranteed</div>
           </div>
         </div>
 
@@ -178,10 +175,10 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id as typeof activeTab)}
-              className={`px-4 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+              className={`px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
                 activeTab === tab.id
-                  ? 'bg-[#F0C419] text-[#14614C] shadow-md'
-                  : 'bg-black/25 hover:bg-black/40 text-white/80 border border-white/10'
+                  ? 'bg-emerald-600 text-white shadow-sm font-black'
+                  : 'bg-white hover:bg-slate-100 text-slate-700 border border-slate-200'
               }`}
             >
               {tab.label}
@@ -194,44 +191,44 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
           {(activeTab === 'all' ? filtered.slice(0, 3) : filtered).map((t, idx) => (
             <div
               key={idx}
-              className="p-5 sm:p-6 rounded-2xl bg-black/25 border border-white/15 hover:border-[#F0C419]/40 transition-all flex flex-col justify-between group shadow-lg backdrop-blur-sm"
+              className="p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/90 hover:border-emerald-500/50 hover:shadow-md transition-all flex flex-col justify-between group shadow-xs"
             >
               <div>
                 {/* Header with Rating Stars and Win Badge */}
                 <div className="flex items-center justify-between gap-2 mb-3">
-                  <div className="flex items-center gap-1 text-[#F0C419] text-xs font-black">
-                    <Star className="w-3.5 h-3.5 fill-current text-[#F0C419]" />
+                  <div className="flex items-center gap-1 text-amber-500 text-xs font-black">
+                    <Star className="w-3.5 h-3.5 fill-current text-amber-500" />
                     <span className="tracking-widest">★★★★★</span>
                   </div>
                   {t.winAmount && (
-                    <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                    <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
                       {t.winAmount}
                     </span>
                   )}
                 </div>
 
                 {/* Testimonial Headline */}
-                <h3 className="font-bold text-sm sm:text-base text-white group-hover:text-[#F0C419] transition-colors mb-2 leading-snug">
+                <h3 className="font-bold text-sm sm:text-base text-slate-900 group-hover:text-emerald-700 transition-colors mb-2 leading-snug">
                   "{t.headline}"
                 </h3>
 
                 {/* Quote */}
-                <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-4">
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
                   {t.quote}
                 </p>
               </div>
 
               {/* Author Info */}
-              <div className="pt-3.5 border-t border-white/10 flex items-center justify-between text-xs">
+              <div className="pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs">
                 <div>
-                  <div className="font-bold text-white flex items-center gap-1.5">
+                  <div className="font-bold text-slate-900 flex items-center gap-1.5">
                     <span>{t.name}</span>
-                    <span className="text-[10px] text-emerald-400 font-medium">{t.badge}</span>
+                    <span className="text-[10px] text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded font-bold">{t.badge}</span>
                   </div>
-                  <div className="text-[11px] text-white/60">{t.location}</div>
+                  <div className="text-[11px] text-slate-500">{t.location}</div>
                 </div>
 
-                <span className="text-[10px] text-[#F0C419] font-mono bg-black/30 px-2 py-0.5 rounded border border-white/10">
+                <span className="text-[10px] text-slate-700 font-mono bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
                   {t.game}
                 </span>
               </div>
@@ -240,18 +237,18 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
         </div>
 
         {/* Conversational Call to Action Strip with Redirect Links */}
-        <div className="p-6 sm:p-8 rounded-3xl bg-black/35 border border-white/20 text-center max-w-4xl mx-auto shadow-2xl">
+        <div className="p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] border border-emerald-600/30 text-center max-w-4xl mx-auto shadow-xl text-white">
           <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
             Ready to Experience India's Most Trusted Gaming Platform?
           </h3>
-          <p className="text-xs sm:text-sm text-white/80 mb-5 max-w-xl mx-auto">
+          <p className="text-xs sm:text-sm text-emerald-50/90 mb-6 max-w-xl mx-auto">
             Get your verified WhatsApp ID in under 30 seconds. Start playing live cricket odds or casino games with a 100% welcome bonus today!
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">
             <button
               onClick={handleWhatsApp}
-              className="cta-button py-3 px-6 text-xs font-black"
+              className="gold-pill-btn !py-3.5 !px-8 text-xs sm:text-sm font-black shadow-lg cursor-pointer hover:scale-105 transition-all"
               id="testimonials-whatsapp-btn"
             >
               <MessageCircle className="w-4 h-4 mr-1.5" />
@@ -260,7 +257,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
 
             <Link
               href="/how-it-works"
-              className="cta-button-outline py-3 px-5 text-xs font-bold"
+              className="px-5 py-3.5 rounded-full bg-white/15 hover:bg-white/25 text-white text-xs sm:text-sm font-bold border border-white/20 transition-all"
              title="See How It Works">
               <span>See How It Works</span>
               <ArrowRight className="w-3.5 h-3.5 ml-1" />
@@ -268,7 +265,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
 
             <Link
               href="/cricket-exchange"
-              className="cta-button-outline py-3 px-5 text-xs font-bold"
+              className="px-5 py-3.5 rounded-full bg-white/15 hover:bg-white/25 text-white text-xs sm:text-sm font-bold border border-white/20 transition-all"
              title="Explore Cricket Exchange">
               <span>Explore Cricket Exchange</span>
             </Link>

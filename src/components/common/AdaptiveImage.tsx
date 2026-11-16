@@ -46,7 +46,7 @@ export const AdaptiveImage: React.FC<AdaptiveImageProps> = ({
 
   return (
     <div
-      className={`relative overflow-hidden rounded-xl bg-[#07241c] ${aspectClass} ${containerClassName}`}
+      className={`relative overflow-hidden rounded-xl bg-slate-100 ${aspectClass} ${containerClassName}`}
     >
       <Image
         src={imgSrc}
@@ -59,7 +59,7 @@ export const AdaptiveImage: React.FC<AdaptiveImageProps> = ({
         {...props}
       />
       {overlayBadge && (
-        <div className="absolute top-3 left-3 z-10 px-2.5 py-0.5 rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-[#F0C419] font-black text-[10px] tracking-wider uppercase">
+        <div className="absolute top-3 left-3 z-10 px-2.5 py-0.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/20 text-[#F0C419] font-black text-[10px] tracking-wider uppercase">
           {overlayBadge}
         </div>
       )}

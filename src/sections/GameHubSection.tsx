@@ -47,18 +47,18 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
   };
 
   return (
-    <section id="games" className="py-20 bg-gradient-to-b from-[#022319] to-[#043324] border-t border-emerald-500/20 relative overflow-hidden">
+    <section id="games" className="py-20 bg-slate-50 border-t border-slate-200 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-500/40 text-xs font-bold text-emerald-300 uppercase tracking-wider mb-3">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-bold text-emerald-800 uppercase tracking-wider mb-3">
               <span>Verified 1000+ Gaming Lobby</span>
             </div>
-            <h2 className="font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
-              Play India’s Favorite <span className="text-emerald-400">Casino &amp; Exchange Games</span>
+            <h2 className="font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">
+              Play India’s Favorite <span className="text-emerald-700">Casino &amp; Exchange Games</span>
             </h2>
-            <p className="text-white/80 text-sm mt-2 max-w-xl">
+            <p className="text-slate-600 text-sm mt-2 max-w-xl">
               High RTP rates, certified random number generators, zero lagging, and instantaneous win credits straight into your playable wallet balance.
             </p>
           </div>
@@ -73,22 +73,22 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
         </div>
 
         {/* 3D Free Games Spotlight Banner with dissolved edges (Direct from Mockups) */}
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#031d14] via-[#063b2a] to-[#031d14] border border-emerald-500/30 p-6 sm:p-8 mb-10 shadow-2xl">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] border border-emerald-600/30 p-6 sm:p-8 mb-10 shadow-xl text-white">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
             <div className="md:col-span-7 z-10 text-center md:text-left">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-black uppercase mb-3">
-                <Sparkles className="w-3.5 h-3.5 text-yellow-400" /> Free to Play · Zero Wagering
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 text-amber-300 border border-white/20 text-xs font-black uppercase mb-3">
+                <Sparkles className="w-3.5 h-3.5 text-amber-300" /> Free to Play · Zero Wagering
               </span>
               <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight mb-2">
                 Play 1,000+ Free Games &amp; Skill Tournaments
               </h3>
-              <p className="text-white/80 text-xs sm:text-sm leading-relaxed mb-6 max-w-lg">
+              <p className="text-emerald-50/90 text-xs sm:text-sm leading-relaxed mb-6 max-w-lg">
                 Enjoy instant-play arcade games, sports quizzes, fantasy leagues, and crash games with zero wagering required. Perfect for practice and daily rewards!
               </p>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
                 <button
                   onClick={() => onOpenAuth('register')}
-                  className="emerald-pill-btn !py-2.5 !px-6 !text-xs font-black shadow-lg cursor-pointer"
+                  className="gold-pill-btn !py-2.5 !px-6 !text-xs font-black shadow-lg cursor-pointer hover:scale-105 transition-all"
                 >
                   <Play className="w-3.5 h-3.5 fill-current" />
                   <span>Play Instant Free Games</span>
@@ -106,10 +106,8 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                   className="object-cover object-center scale-105"
                 />
                 {/* Dissolved edge masks */}
-                <div className="absolute inset-0 bg-gradient-to-r from-[#063b2a]/70 via-transparent to-transparent pointer-events-none md:block hidden" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#031d14] via-transparent to-transparent pointer-events-none" />
-                <div className="absolute inset-0 bg-gradient-to-b from-[#031d14]/40 via-transparent to-transparent pointer-events-none" />
-                <div className="absolute inset-0 shadow-[inset_0_0_40px_rgba(3,29,20,0.8)] pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#047857]/60 via-transparent to-transparent pointer-events-none md:block hidden" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#064e3b]/80 via-transparent to-transparent pointer-events-none" />
               </div>
             </div>
           </div>
@@ -126,8 +124,8 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                 onClick={() => setActiveCategory(cat.id)}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all flex items-center gap-2 cursor-pointer ${
                   isSelected
-                    ? 'bg-emerald-600 text-white shadow-md'
-                    : 'bg-[#03241b] hover:bg-emerald-900/40 text-white/90 border border-emerald-500/20'
+                    ? 'bg-emerald-600 text-white shadow-sm font-black'
+                    : 'bg-white hover:bg-slate-100 text-slate-700 border border-slate-200'
                 }`}
               >
                 <Icon className="w-4 h-4" />
@@ -142,10 +140,10 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
           {filteredGames.map((game) => (
             <div
               key={game.id}
-              className="luxury-glass-card overflow-hidden group flex flex-col justify-between"
+              className="bg-white rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-lg hover:border-emerald-500/50 transition-all overflow-hidden group flex flex-col justify-between"
             >
               {/* Card Banner / Art Visual */}
-              <div className="relative aspect-[16/10] overflow-hidden bg-black/40">
+              <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
                 {game.imageSrc ? (
                   <AdaptiveImage
                     src={game.imageSrc}
@@ -157,14 +155,14 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                   />
                 ) : (
                   <div className={`h-full w-full bg-gradient-to-tr ${game.gradient} p-3 flex items-center justify-center`}>
-                    <div className="w-12 h-12 rounded-xl bg-black/30 border border-white/20 flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-xl bg-white/20 border border-white/30 flex items-center justify-center">
                       {getGameIcon(game.iconType)}
                     </div>
                   </div>
                 )}
 
                 {/* Provider Pill */}
-                <span className="absolute top-2.5 right-2.5 text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-black/70 text-white/90 backdrop-blur-sm border border-white/20 z-10">
+                <span className="absolute top-2.5 right-2.5 text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-900/80 text-white/90 backdrop-blur-sm border border-white/20 z-10">
                   {game.provider}
                 </span>
               </div>
@@ -172,7 +170,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
               {/* Card Info */}
               <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-extrabold text-xs sm:text-base text-white group-hover:text-[#F0C419] transition-colors mb-1 truncate">
+                  <h3 className="font-extrabold text-xs sm:text-base text-slate-900 group-hover:text-emerald-700 transition-colors mb-1 truncate">
                     {game.href ? (
                       <Link href={game.href} title={game.title} className="hover:underline">
                         {game.title}
@@ -181,10 +179,10 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                       game.title
                     )}
                   </h3>
-                  <div className="flex items-center justify-between text-[10px] sm:text-xs text-white/75 mb-3">
-                    <span className="text-[#F0C419] font-bold">RTP: {game.rtp}</span>
+                  <div className="flex items-center justify-between text-[10px] sm:text-xs text-slate-500 mb-3">
+                    <span className="text-amber-600 font-bold">RTP: {game.rtp}</span>
                     <span className="flex items-center gap-1">
-                      <Users className="w-3 h-3 text-white/50" />
+                      <Users className="w-3 h-3 text-slate-400" />
                       {game.playersOnline.toLocaleString()}
                     </span>
                   </div>
@@ -193,15 +191,15 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                 <div className="flex items-center gap-1.5">
                   <button
                     onClick={() => onOpenAuth('register')}
-                    className="flex-1 py-2 rounded-xl bg-[#F0C419] hover:bg-[#FFD000] text-[#14614C] text-[11px] sm:text-xs font-black transition-all shadow-sm flex items-center justify-center gap-1 cursor-pointer"
+                    className="flex-1 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] sm:text-xs font-black transition-all shadow-xs flex items-center justify-center gap-1 cursor-pointer"
                   >
-                    <Play className="w-3 h-3 fill-current" />
+                    <Play className="w-3 h-3 fill-current text-amber-300" />
                     <span>Play ID</span>
                   </button>
                   {game.href && (
                     <Link
                       href={game.href}
-                      className="px-2.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-[11px] font-bold transition-all border border-white/15"
+                      className="px-2.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-bold transition-all border border-slate-200"
                       title="Rules & Guide"
                     >
                       Rules
@@ -215,16 +213,16 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
 
 
         {/* Aviator Deep Dive Feature Banner */}
-        <div className="mt-12 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#200A18] via-[#10192A] to-[#0A1A1E] border border-rose-500/30 relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-8">
+        <div className="mt-12 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#0f3a2c] border border-rose-500/30 relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-8 text-white shadow-xl">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30 text-xs font-bold uppercase mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 text-rose-300 border border-white/20 text-xs font-bold uppercase mb-3">
               <Plane className="w-3.5 h-3.5 transform rotate-45" />
               <span>Aviator Spribe Official Integration</span>
             </div>
             <h3 className="font-display font-black text-2xl sm:text-3xl text-white mb-2">
-              Fly High, Win Big with <span className="text-rose-400">Aviator Crash Pro</span>
+              Fly High, Win Big with <span className="text-rose-300">Aviator Crash Pro</span>
             </h3>
-            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            <p className="text-xs sm:text-sm text-emerald-50/90 leading-relaxed">
               Real-time provably fair algorithm, instant auto-cashout triggers, dual-bet placement, and round multipliers soaring past 100x every few minutes.
             </p>
           </div>
@@ -232,14 +230,14 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
           <div className="flex flex-col sm:flex-row items-center gap-3 w-full lg:w-auto">
             <button
               onClick={() => onOpenAuth('register')}
-              className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-rose-600 to-amber-500 hover:brightness-110 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-lg cursor-pointer"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-rose-500 to-amber-500 hover:brightness-110 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-lg cursor-pointer"
             >
               <span>Play Aviator Now</span>
               <ArrowRight className="w-4 h-4" />
             </button>
             <Link
               href="/aviator-game"
-              className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm flex items-center justify-center gap-2 border border-white/20 transition-colors"
+              className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-white/15 hover:bg-white/25 text-white font-bold text-sm flex items-center justify-center gap-2 border border-white/20 transition-colors"
              title="Aviator Game Rules">
               <span>Aviator Game Rules</span>
             </Link>
@@ -247,24 +245,24 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
         </div>
 
         {/* Category Navigation Pills for Interlinking */}
-        <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-2.5 text-xs">
-          <span className="text-white/60 font-medium">Explore Hubs:</span>
-          <Link href="/cricket-exchange" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🏏 Cricket Exchange">
+        <div className="mt-8 pt-6 border-t border-slate-200 flex flex-wrap items-center justify-center gap-2.5 text-xs">
+          <span className="text-slate-500 font-medium">Explore Hubs:</span>
+          <Link href="/cricket-exchange" className="px-3 py-1.5 rounded-full bg-white hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 border border-slate-200 shadow-xs transition-all font-semibold" title="🏏 Cricket Exchange">
             🏏 Cricket Exchange
           </Link>
-          <Link href="/live-casino" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🎰 Live Casino">
+          <Link href="/live-casino" className="px-3 py-1.5 rounded-full bg-white hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 border border-slate-200 shadow-xs transition-all font-semibold" title="🎰 Live Casino">
             🎰 Live Casino
           </Link>
-          <Link href="/teen-patti" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🎴 Teen Patti">
+          <Link href="/teen-patti" className="px-3 py-1.5 rounded-full bg-white hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 border border-slate-200 shadow-xs transition-all font-semibold" title="🎴 Teen Patti">
             🎴 Teen Patti
           </Link>
-          <Link href="/ipl-betting" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="🏆 IPL Betting">
+          <Link href="/ipl-betting" className="px-3 py-1.5 rounded-full bg-white hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 border border-slate-200 shadow-xs transition-all font-semibold" title="🏆 IPL Betting">
             🏆 IPL Betting
           </Link>
-          <Link href="/vip-club" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="👑 VIP Club">
+          <Link href="/vip-club" className="px-3 py-1.5 rounded-full bg-white hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 border border-slate-200 shadow-xs transition-all font-semibold" title="👑 VIP Club">
             👑 VIP Club
           </Link>
-          <Link href="/how-it-works" className="px-3 py-1.5 rounded-full bg-black/20 hover:bg-[#F0C419] hover:text-[#14614C] text-white/90 border border-white/10 transition-all font-semibold" title="📖 How It Works">
+          <Link href="/how-it-works" className="px-3 py-1.5 rounded-full bg-white hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 border border-slate-200 shadow-xs transition-all font-semibold" title="📖 How It Works">
             📖 How It Works
           </Link>
         </div>

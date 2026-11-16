@@ -220,42 +220,42 @@ export const SitemapPage: React.FC = () => (
           { label: 'HTML Sitemap' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16">
           {/* Architecture Summary Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3 items-center">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3 items-center">
               <Network className="w-6 h-6 text-[#F0C419] shrink-0" />
               <div>
                 <div className="text-white font-bold text-sm">{sitemapData.length} Thematic Clusters</div>
-                <div className="text-xs text-white/60">Organized topic authority silos</div>
+                <div className="text-xs text-slate-500">Organized topic authority silos</div>
               </div>
             </div>
-            <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3 items-center">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3 items-center">
               <Layers className="w-6 h-6 text-[#F0C419] shrink-0" />
               <div>
                 <div className="text-white font-bold text-sm">{totalPagesCount} Verified Endpoints</div>
-                <div className="text-xs text-white/60">100% crawlable internal links</div>
+                <div className="text-xs text-slate-500">100% crawlable internal links</div>
               </div>
             </div>
-            <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3 items-center">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3 items-center">
               <MapPin className="w-6 h-6 text-[#F0C419] shrink-0" />
               <div>
                 <div className="text-white font-bold text-sm">Instant WhatsApp Onboarding</div>
-                <div className="text-xs text-white/60">Unified wallet across all portals</div>
+                <div className="text-xs text-slate-500">Unified wallet across all portals</div>
               </div>
             </div>
           </div>
 
           {/* Comprehensive Architecture Overview */}
-          <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-4">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h2 className="text-2xl font-extrabold text-[#F0C419]">
               Full Information Architecture & Topic Cluster Index
             </h2>
-            <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               Our {totalPagesCount} platform routes are categorized into {sitemapData.length} core thematic silos to deliver an intuitive user experience and clear semantic signals to search engines. The Sports Betting exchange silo provides comprehensive market depth for cricket, IPL, football, tennis, and regional communities. The Live Casino cluster contains dedicated guides for Indian classics like Teen Patti and Andar Bahar alongside Evolution Gaming roulette, blackjack, and baccarat. The Banking hub covers step-by-step 2-minute UPI deposits and instant IMPS cashouts, while the VIP & Promotions directory details cashback tiers, referral bonuses, and high-roller privileges.
             </p>
-            <p className="text-xs sm:text-sm text-white/70 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
               Every page on lotus365officialid.com operates under HTTPS SSL encryption, complies with Google mobile-first indexing standards, and offers direct access to our 24/7 human WhatsApp concierge service at https://wa.link/880088 with direct 1-tap mobile access.
             </p>
           </div>
@@ -263,8 +263,8 @@ export const SitemapPage: React.FC = () => (
           {/* Categorized Link Grid */}
           <div className="space-y-10">
             {sitemapData.map((cat) => (
-              <div key={cat.category} className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
-                <h2 className="text-lg font-bold text-[#F0C419] border-b border-white/10 pb-2 flex items-center gap-2">
+              <div key={cat.category} className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
+                <h2 className="text-lg font-bold text-[#F0C419] border-b border-slate-200 pb-2 flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-[#F0C419]" />
                   {cat.category} ({cat.pages.length} Pages)
                 </h2>
@@ -273,7 +273,7 @@ export const SitemapPage: React.FC = () => (
                     <li key={p.href}>
                       <Link
                         href={p.href}
-                        className="text-xs sm:text-sm text-white/80 hover:text-[#F0C419] transition-colors flex items-center gap-2 py-1 group"
+                        className="text-xs sm:text-sm text-slate-700 hover:text-[#F0C419] transition-colors flex items-center gap-2 py-1 group"
                         title={p.label}
                       >
                         <span className="text-[#F0C419] font-bold group-hover:translate-x-1 transition-transform">›</span>
@@ -287,7 +287,7 @@ export const SitemapPage: React.FC = () => (
           </div>
 
           {/* Architectural Notes & Value */}
-          <div className="p-6 rounded-2xl bg-black/30 border border-white/10 space-y-4 text-xs sm:text-sm text-white/80 leading-relaxed">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed">
             <h2 className="text-lg font-bold text-[#F0C419]">
               How Lotus365's Unified Ecosystem Operates
             </h2>
@@ -312,7 +312,7 @@ export const SitemapPage: React.FC = () => (
           </div>
 
           {/* Detailed Topic Silo Strategy Breakdown */}
-          <div className="space-y-6 text-xs sm:text-sm text-white/80 leading-relaxed">
+          <div className="space-y-6 text-xs sm:text-sm text-slate-700 leading-relaxed">
             <h2 className="text-xl font-bold text-[#F0C419]">
               The Core Thematic Silos of Lotus365 Explained
             </h2>
@@ -321,59 +321,59 @@ export const SitemapPage: React.FC = () => (
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="text-[#F0C419] font-bold text-sm">Silo 1: Core Corporate & Legal Transparency</h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Houses our verified corporate history, international licensing disclosures, 24/7 customer care SLAs, strict 18+ minor protection charters, and digital personal data protection protocols.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="text-[#F0C419] font-bold text-sm">Silo 2: Sportsbook & Peer-to-Peer Exchange</h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Contains the analytical heart of Lotus365. Offers ball-by-ball cricket liquidity, back & lay exchange tutorials, IPL powerplay forecasting models, ICC tournament schedules, and regional community hubs.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="text-[#F0C419] font-bold text-sm">Silo 3: Authentic Indian & International Live Casino</h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Explores hundreds of real-time live video tables streamed in crystal-clear HD. Covers rules, side-bet mathematical odds, hand hierarchies, and strategy blueprints for Teen Patti, Andar Bahar, European Roulette, Blackjack 21, and Speed Baccarat.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="text-[#F0C419] font-bold text-sm">Silo 4: Provably Fair Crash & High-Velocity Games</h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Details next-generation cryptographic entertainment headlined by Spribe Aviator (98.5% RTP). Explains SHA-256 seed verification, dual-bet automated cashout configurations, JetX multipliers, and round-the-clock virtual cricket engines.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="text-[#F0C419] font-bold text-sm">Silo 5: Express Banking & 2-Minute Cashout Rails</h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Guides players through zero-fee UPI deposit transactions via PhonePe, Google Pay, and Paytm, as well as our automated 2-minute IMPS withdrawal rails.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="text-[#F0C419] font-bold text-sm">Silo 6: Promotional Bonus & VIP Prestige Tiers</h3>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-slate-600">
                   Outlines welcome matching incentives, rollover wagering formulas, recurring weekly turnover cashback rebates, lifetime referral commissions, and VIP Black Card perks.
                 </p>
               </div>
             </div>
 
-            <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-2">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <h3 className="text-[#F0C419] font-bold text-sm">Silo 7: Strategic Blog Guides & Technical Knowledge Base</h3>
-              <p className="text-xs text-white/70">
+              <p className="text-xs text-slate-600">
                 A rich educational library containing honest independent platform evaluations, head-to-head competitor comparisons, professional cricket exchange trading techniques, and bankroll preservation manuals.
               </p>
             </div>
           </div>
 
           {/* Semantic Internal Linking & SEO Cluster Architecture */}
-          <div className="space-y-3 text-xs sm:text-sm text-white/80 leading-relaxed">
+          <div className="space-y-3 text-xs sm:text-sm text-slate-700 leading-relaxed">
             <h2 className="text-lg font-bold text-[#F0C419]">
               Search Engine Optimization & Topic Cluster Hierarchy
             </h2>
@@ -386,29 +386,29 @@ export const SitemapPage: React.FC = () => (
           </div>
 
           {/* Navigation Protocols */}
-          <div className="p-6 rounded-2xl bg-[#0b3b2d]/40 border border-white/10 space-y-3">
+          <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200 space-y-3">
             <h2 className="text-xl font-extrabold text-[#F0C419]">
               Comprehensive Platform Navigation & Security Verification Protocols
             </h2>
-            <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               Navigating across Lotus365 is designed to be seamless across both mobile devices and desktop computers. Every link cataloged in this directory connects directly to our verified domain lotus365officialid.com. Players enjoy immediate, secure access directly on any smartphone, tablet, or PC.
             </p>
-            <p className="text-xs sm:text-sm text-white/70 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
               All financial deposits and cashouts are channeled through authorized WhatsApp verification desks with end-to-end encryption. Bookmark this sitemap as your permanent navigational compass for real-time cricket odds, live dealer tables, VIP reward tiers, and 2-minute UPI settlement guides.
             </p>
           </div>
 
           {/* FAQs */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-extrabold text-[#F0C419] mb-4 flex items-center gap-2">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 mb-4 flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Site Navigation
             </h2>
             <div className="space-y-3">
               {sitemapFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h3 className="font-bold text-white text-xs sm:text-sm mb-1">{faq.q}</h3>
-                  <p className="text-xs text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm mb-1">{faq.q}</h3>
+                  <p className="text-xs text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>

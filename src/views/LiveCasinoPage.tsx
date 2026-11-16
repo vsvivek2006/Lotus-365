@@ -73,8 +73,8 @@ export const LiveCasinoPage: React.FC = () => (
         breadcrumbs={[{ label: 'Live Casino' }]}
       />
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Executive Overview */}
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
@@ -92,7 +92,7 @@ export const LiveCasinoPage: React.FC = () => (
           <CasinoTableShowcase initialCategory="all" />
 
           {/* Game Library Directory Grid */}
-          <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
+          <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Explore Lotus365's Premier Live Casino Categories
             </h2>
@@ -108,12 +108,12 @@ export const LiveCasinoPage: React.FC = () => (
                 { icon: '🎰', name: 'Casino Slots', href: '/casino-slots', desc: '500+ premium video slots featuring Megaways, cascading reels, progressive jackpots, and bonus buy.' },
                 { icon: '🎯', name: 'Color Prediction', href: '/color-prediction', desc: 'Fast-paced colour selection rounds (Red, Green, Violet) with instant mathematical prize multipliers.' },
               ].map((g) => (
-                <Link key={g.name} href={g.href} className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F0C419] hover:bg-black/30 transition-all group block" title="G.href">
-                  <div className="text-base font-bold text-white group-hover:text-[#F0C419] mb-1.5">
+                <Link key={g.name} href={g.href} className="p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#F0C419] hover:bg-slate-50 border border-slate-200 transition-all group block" title="G.href">
+                  <div className="text-base font-bold text-slate-900 group-hover:text-emerald-700 mb-1.5">
                     <span className="mr-2" aria-hidden="true">{g.icon}</span>
                     {g.name}
                   </div>
-                  <p className="text-xs text-white/70 leading-relaxed">{g.desc}</p>
+                  <p className="text-xs text-slate-600 leading-relaxed">{g.desc}</p>
                 </Link>
               ))}
             </div>
@@ -124,13 +124,13 @@ export const LiveCasinoPage: React.FC = () => (
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Live Casino Math: RTP & House Edge Comparison
             </h2>
-            <p className="text-sm text-white/80">
+            <p className="text-sm text-slate-700">
               Understanding Return to Player (RTP) percentages and the built-in mathematical house edge allows you to select the games that maximize your long-term bankroll:
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs sm:text-sm border-collapse rounded-xl overflow-hidden">
                 <thead>
-                  <tr className="bg-black/40 text-[#F0C419] border-b border-white/20">
+                  <tr className="bg-slate-50 border border-slate-200 text-[#F0C419] border-b border-slate-200">
                     <th className="p-3.5">Game Category</th>
                     <th className="p-3.5">Theoretical RTP</th>
                     <th className="p-3.5">House Edge</th>
@@ -138,45 +138,45 @@ export const LiveCasinoPage: React.FC = () => (
                     <th className="p-3.5">Optimal Strategy Angle</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20 text-white/80">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Live Classic Blackjack</td>
+                    <td className="p-3.5 font-bold text-slate-900">Live Classic Blackjack</td>
                     <td className="p-3.5 text-emerald-400 font-bold">99.50%</td>
                     <td className="p-3.5 text-emerald-300">0.50%</td>
-                    <td className="p-3.5 text-white/70">Low</td>
+                    <td className="p-3.5 text-slate-600">Low</td>
                     <td className="p-3.5">Follow strict basic strategy charts on splitting & doubling</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Live Baccarat (Banker)</td>
+                    <td className="p-3.5 font-bold text-slate-900">Live Baccarat (Banker)</td>
                     <td className="p-3.5 text-emerald-400 font-bold">98.94%</td>
                     <td className="p-3.5 text-emerald-300">1.06%</td>
-                    <td className="p-3.5 text-white/70">Low</td>
+                    <td className="p-3.5 text-slate-600">Low</td>
                     <td className="p-3.5">Always back Banker; avoid the 14.4% house edge on Tie bets</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Aviator Crash Game</td>
+                    <td className="p-3.5 font-bold text-slate-900">Aviator Crash Game</td>
                     <td className="p-3.5 text-emerald-400 font-bold">98.50%</td>
                     <td className="p-3.5 text-emerald-300">1.50%</td>
                     <td className="p-3.5 text-yellow-400">Medium</td>
                     <td className="p-3.5">Use dual-bet auto-cashout at 1.40x to cover primary stake</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">European Roulette</td>
+                    <td className="p-3.5 font-bold text-slate-900">European Roulette</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">97.30%</td>
                     <td className="p-3.5 text-yellow-400">2.70%</td>
-                    <td className="p-3.5 text-white/70">Low / Medium</td>
+                    <td className="p-3.5 text-slate-600">Low / Medium</td>
                     <td className="p-3.5">Stick to outside even-money bets (Red/Black, Odd/Even)</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Live Teen Patti (Ante Bet)</td>
+                    <td className="p-3.5 font-bold text-slate-900">Live Teen Patti (Ante Bet)</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">96.50%</td>
                     <td className="p-3.5 text-yellow-400">3.50%</td>
                     <td className="p-3.5 text-yellow-400">Medium</td>
                     <td className="p-3.5">Play hands holding Q-6-4 or higher; fold lower ranks</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Lightning Roulette (Straight Up)</td>
-                    <td className="p-3.5 text-white/80 font-bold">97.10%</td>
+                    <td className="p-3.5 font-bold text-slate-900">Lightning Roulette (Straight Up)</td>
+                    <td className="p-3.5 text-slate-700 font-bold">97.10%</td>
                     <td className="p-3.5 text-yellow-400">2.90%</td>
                     <td className="p-3.5 text-rose-400">Very High</td>
                     <td className="p-3.5">Spread small straight-up stakes across 10-15 numbers for 500x</td>
@@ -192,7 +192,7 @@ export const LiveCasinoPage: React.FC = () => (
               <Star className="w-5 h-5 fill-current" />
               <span>Casino Pro Tip: The Stop-Loss & Target Profit Rule</span>
             </div>
-            <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
+            <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
               Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link href="/how-to-withdraw" className="text-[#F0C419] underline font-semibold" title="2-minute cashout desk">2-minute cashout desk</Link> to lock in your real-money gains!
             </p>
           </div>
@@ -206,27 +206,27 @@ export const LiveCasinoPage: React.FC = () => (
               How do you know the cards and roulette spins are 100% fair? Lotus365 partners exclusively with tier-1 international providers like Evolution Gaming and Ezugi whose studios are licensed and audited by eCOGRA and the UK Gambling Commission. 
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <h3 className="font-bold text-[#F0C419]">High-Speed OCR Scanners</h3>
-                <p className="text-white/70">Every card dealt across blackjack, baccarat, and teen patti is scanned via laser optical sensors, translating physical card values directly onto your screen with zero human manipulation.</p>
+                <p className="text-slate-600">Every card dealt across blackjack, baccarat, and teen patti is scanned via laser optical sensors, translating physical card values directly onto your screen with zero human manipulation.</p>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <h3 className="font-bold text-[#F0C419]">Multi-Angle HD Cameras</h3>
-                <p className="text-white/70">Roulette wheels and card shoes are captured by 3 independent high-speed camera angles simultaneously, including close-ups on the ball dropping into the wheel pocket.</p>
+                <p className="text-slate-600">Roulette wheels and card shoes are captured by 3 independent high-speed camera angles simultaneously, including close-ups on the ball dropping into the wheel pocket.</p>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <h3 className="font-bold text-[#F0C419]">Live Dealer Interaction</h3>
-                <p className="text-white/70">Chat live with dealers in Hindi and English. Dealers welcome you by your username, call out placed bets, and maintain total transparency during every shoe shuffle.</p>
+                <p className="text-slate-600">Chat live with dealers in Hindi and English. Dealers welcome you by your username, call out placed bets, and maintain total transparency during every shoe shuffle.</p>
               </div>
             </div>
           </div>
 
           {/* Multi-Camera Angle Studio Infrastructure */}
-          <div className="p-6 rounded-2xl bg-black/20 border border-white/15 space-y-3">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
             <h3 className="text-xl font-bold text-[#F0C419]">
               Multi-Camera Studio Infrastructure & Optical Card Recognition (OCR)
             </h3>
-            <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               Every table in the Lotus365 live casino suite operates on cutting-edge broadcast technology. HD cameras positioned overhead, front-facing, and at close-up 45-degree angles provide continuous visual confirmation of every physical card dealt and roulette wheel revolution. Proprietary Optical Card Recognition (OCR) micro-sensors instantly read the value and suit of each physical card as the dealer slides it from the shoe, instantly displaying the data on your interactive mobile UI with zero human error or scoring ambiguity.
             </p>
           </div>
@@ -239,12 +239,12 @@ export const LiveCasinoPage: React.FC = () => (
             </h2>
             <div className="space-y-4 text-sm">
               {liveCasinoFaqs.map((item, idx) => (
-                <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
-                  <h3 className="font-bold text-white text-base flex items-start gap-2">
+                <div key={idx} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                  <h3 className="font-bold text-slate-900 text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
                     <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>

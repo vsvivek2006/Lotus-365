@@ -81,14 +81,14 @@ export const ContactPage: React.FC = () => {
           ]}
         />
 
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-          <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+          <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
             
             {/* Direct WhatsApp Callout Banner */}
             <div className="text-center p-8 rounded-3xl bg-gradient-to-br from-[#0c382b] to-[#08261d] border border-[#25D366]/40 shadow-xl space-y-4">
               <Headset className="w-12 h-12 text-[#25D366] mx-auto animate-pulse" />
-              <h2 className="text-2xl sm:text-3xl font-black text-white">Official Lotus365 WhatsApp Helpdesk</h2>
-              <p className="text-white/80 text-xs sm:text-sm max-w-lg mx-auto">
+              <h2 className="text-2xl sm:text-3xl font-black text-slate-900">Official Lotus365 WhatsApp Helpdesk</h2>
+              <p className="text-slate-700 text-xs sm:text-sm max-w-lg mx-auto">
                 Direct, end-to-end encrypted connection to our central financial operations and member support team. Average response time: <strong>under 45 seconds</strong>.
               </p>
               <div className="pt-2">
@@ -97,14 +97,14 @@ export const ContactPage: React.FC = () => {
                   <span>Start WhatsApp Chat (wa.link/880088)</span>
                 </button>
               </div>
-              <p className="text-[11px] text-white/50">
+              <p className="text-[11px] text-slate-400">
                 100% Free • Multi-Lingual Support (Hindi & English) • Operational 24 Hours a Day
               </p>
             </div>
 
             {/* Overview */}
             <div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4">
                 Why Lotus365 Chooses WhatsApp for Customer Care
               </h2>
               <p className="mb-4">
@@ -117,10 +117,10 @@ export const ContactPage: React.FC = () => {
 
             {/* Department SLA Table */}
             <div>
-              <h3 className="text-xl font-bold text-white mb-3">Service Level Agreements (SLAs) by Department</h3>
-              <div className="overflow-x-auto rounded-xl border border-white/10">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Service Level Agreements (SLAs) by Department</h3>
+              <div className="overflow-x-auto rounded-xl border border-slate-200">
                 <table className="w-full text-left text-xs sm:text-sm">
-                  <thead className="bg-[#0b3b2d] text-[#F0C419] font-semibold uppercase tracking-wider">
+                  <thead className="bg-slate-100 text-slate-900 font-semibold uppercase tracking-wider">
                     <tr>
                       <th className="p-3.5">Department</th>
                       <th className="p-3.5">Typical Request</th>
@@ -128,34 +128,34 @@ export const ContactPage: React.FC = () => {
                       <th className="p-3.5">Resolution Window</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-white/10 bg-black/20">
+                  <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                     <tr>
-                      <td className="p-3.5 font-bold text-white">New ID Desk</td>
-                      <td className="p-3.5 text-white/80">Account registration & credential delivery</td>
+                      <td className="p-3.5 font-bold text-slate-900">New ID Desk</td>
+                      <td className="p-3.5 text-slate-700">Account registration & credential delivery</td>
                       <td className="p-3.5 text-emerald-400 font-bold">&lt; 30 Seconds</td>
                       <td className="p-3.5 text-emerald-400">Under 60 Seconds</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">Cashout Disbursement</td>
-                      <td className="p-3.5 text-white/80">UPI / IMPS withdrawal processing</td>
+                      <td className="p-3.5 font-bold text-slate-900">Cashout Disbursement</td>
+                      <td className="p-3.5 text-slate-700">UPI / IMPS withdrawal processing</td>
                       <td className="p-3.5 text-emerald-400 font-bold">&lt; 45 Seconds</td>
                       <td className="p-3.5 text-emerald-400">Under 120 Seconds</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">Deposit Reconciliation</td>
-                      <td className="p-3.5 text-white/80">UPI UTR verification & balance top-up</td>
+                      <td className="p-3.5 font-bold text-slate-900">Deposit Reconciliation</td>
+                      <td className="p-3.5 text-slate-700">UPI UTR verification & balance top-up</td>
                       <td className="p-3.5 text-emerald-400 font-bold">&lt; 30 Seconds</td>
                       <td className="p-3.5 text-emerald-400">30 – 60 Seconds</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">Security & Recovery</td>
-                      <td className="p-3.5 text-white/80">Password reset & locked account unlock</td>
+                      <td className="p-3.5 font-bold text-slate-900">Security & Recovery</td>
+                      <td className="p-3.5 text-slate-700">Password reset & locked account unlock</td>
                       <td className="p-3.5 text-emerald-400 font-bold">&lt; 60 Seconds</td>
                       <td className="p-3.5 text-emerald-400">Under 2 Minutes</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">VIP Concierge</td>
-                      <td className="p-3.5 text-white/80">High-stakes limits, RTGS & bespoke promos</td>
+                      <td className="p-3.5 font-bold text-slate-900">VIP Concierge</td>
+                      <td className="p-3.5 text-slate-700">High-stakes limits, RTGS & bespoke promos</td>
                       <td className="p-3.5 text-[#F0C419] font-bold">Instant Dedicated RM</td>
                       <td className="p-3.5 text-[#F0C419] font-bold">Immediate Priority</td>
                     </tr>
@@ -172,10 +172,10 @@ export const ContactPage: React.FC = () => {
                 { icon: <ShieldCheck className="w-6 h-6" />, title: 'End-to-End Encryption', desc: 'All conversations and transaction details are protected by WhatsApp’s military-grade 256-bit encryption.' },
                 { icon: <Phone className="w-6 h-6" />, title: 'Account & Password Recovery', desc: 'Forgot your login password? Send a message from your registered phone number for a 60-second reset.' },
               ].map((c, i) => (
-                <div key={i} className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
-                  <div className="w-10 h-10 rounded-xl bg-[#F0C419]/20 flex items-center justify-center text-[#F0C419] mb-2">{c.icon}</div>
-                  <h3 className="text-base font-bold text-white">{c.title}</h3>
-                  <p className="text-xs text-white/75 leading-relaxed">{c.desc}</p>
+                <div key={i} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                  <div className="w-10 h-10 rounded-xl bg-[#F0C419]/20 flex items-center justify-center text-slate-900 mb-2">{c.icon}</div>
+                  <h3 className="text-base font-bold text-slate-900">{c.title}</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed">{c.desc}</p>
                 </div>
               ))}
             </div>
@@ -185,7 +185,7 @@ export const ContactPage: React.FC = () => {
               <AlertTriangle className="w-6 h-6 text-[#F0C419] shrink-0 mt-0.5" />
               <div className="space-y-1 text-xs">
                 <strong className="text-[#F0C419] block text-sm">Critical Security Notice: Beware of Fake Impostor Channels</strong>
-                <p className="text-white/80 leading-relaxed">
+                <p className="text-slate-700 leading-relaxed">
                   Always initiate contact exclusively through the official links on <strong className="text-white">lotus365officialid.com</strong>. Beware of rogue Telegram groups or Facebook pages claiming to be "Lotus365 Customer Care." Legitimate Lotus365 representatives will <strong>never</strong> ask for your bank ATM PIN, UPI MPIN, or confidential bank passwords.
                 </p>
               </div>
@@ -193,29 +193,29 @@ export const ContactPage: React.FC = () => {
 
             {/* How to Prepare Your Query */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
                 How to Get the Fastest Support Response
               </h2>
               <div className="space-y-3">
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
                   <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-white text-sm block mb-0.5">Include Your Registered Username</strong>
-                    <p className="text-xs text-white/70">Mention your Lotus365 username in your opening message so the agent can load your account profile immediately.</p>
+                    <p className="text-xs text-slate-600">Mention your Lotus365 username in your opening message so the agent can load your account profile immediately.</p>
                   </div>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
                   <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-white text-sm block mb-0.5">Share 12-Digit UTR for Deposit Queries</strong>
-                    <p className="text-xs text-white/70">If inquiring about a deposit, attach the payment screenshot showing the 12-digit UTR number for 30-second balance credit.</p>
+                    <p className="text-xs text-slate-600">If inquiring about a deposit, attach the payment screenshot showing the 12-digit UTR number for 30-second balance credit.</p>
                   </div>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
                   <Zap className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-white text-sm block mb-0.5">State Your Withdrawal UPI Handle Clearly</strong>
-                    <p className="text-xs text-white/70">For cashouts, provide your exact PhonePe, Google Pay, or Paytm UPI VPA (e.g., yourname@okhdfcbank) to trigger our 2-minute payout API.</p>
+                    <p className="text-xs text-slate-600">For cashouts, provide your exact PhonePe, Google Pay, or Paytm UPI VPA (e.g., yourname@okhdfcbank) to trigger our 2-minute payout API.</p>
                   </div>
                 </div>
               </div>
@@ -230,17 +230,17 @@ export const ContactPage: React.FC = () => {
                 In the rare event of a transactional disagreement—such as an interbank UPI settlement delay or a contested dead-heat exchange settlement—Lotus365 provides a formal, transparent escalation ladder:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1.5">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Tier 1: Frontline Agent</span>
-                  <p className="text-white/70">Immediate ledger checks and bank UTR validations within 5 minutes of your initial notification.</p>
+                  <p className="text-slate-600">Immediate ledger checks and bank UTR validations within 5 minutes of your initial notification.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1.5">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Tier 2: Senior Finance Lead</span>
-                  <p className="text-white/70">Direct communication with our banking partner's node manager to verify NPCI clearing status within 30 minutes.</p>
+                  <p className="text-slate-600">Direct communication with our banking partner's node manager to verify NPCI clearing status within 30 minutes.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1.5">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Tier 3: Executive Board</span>
-                  <p className="text-white/70">Binding arbitration and balance compensation authorized directly by operations directors within 2 hours.</p>
+                  <p className="text-slate-600">Binding arbitration and balance compensation authorized directly by operations directors within 2 hours.</p>
                 </div>
               </div>
             </div>
@@ -254,37 +254,37 @@ export const ContactPage: React.FC = () => {
                 India is a multilingual subcontinent, and we firmly recognize that sports fans feel most confident discussing financial transactions and betting strategies in their mother tongue. Lotus365 deploys dedicated regional desk agents covering major Indian languages:
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
-                <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 text-center">
+                <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                   <div className="font-bold text-[#F0C419] text-sm">Hindi (हिन्दी)</div>
-                  <div className="text-white/60 text-[11px] mt-0.5">24/7 Primary Roster</div>
+                  <div className="text-slate-500 text-[11px] mt-0.5">24/7 Primary Roster</div>
                 </div>
-                <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 text-center">
+                <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                   <div className="font-bold text-[#F0C419] text-sm">English</div>
-                  <div className="text-white/60 text-[11px] mt-0.5">24/7 International Desk</div>
+                  <div className="text-slate-500 text-[11px] mt-0.5">24/7 International Desk</div>
                 </div>
-                <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 text-center">
+                <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                   <div className="font-bold text-[#F0C419] text-sm">Telugu & Tamil</div>
-                  <div className="text-white/60 text-[11px] mt-0.5">South India Desk</div>
+                  <div className="text-slate-500 text-[11px] mt-0.5">South India Desk</div>
                 </div>
-                <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 text-center">
+                <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                   <div className="font-bold text-[#F0C419] text-sm">Bengali & Marathi</div>
-                  <div className="text-white/60 text-[11px] mt-0.5">East & West Regional Desks</div>
+                  <div className="text-slate-500 text-[11px] mt-0.5">East & West Regional Desks</div>
                 </div>
               </div>
-              <p className="text-xs text-white/70">
+              <p className="text-xs text-slate-600">
                 To request assistance in a specific regional language, simply mention your preferred language in your opening message to the WhatsApp helpline, and our routing system will assign the appropriate team member within 60 seconds.
               </p>
             </div>
 
             {/* Verification Checklist */}
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <h3 className="text-base font-bold text-[#F0C419]">
                 Official Verification Checklist: How to Ensure You Are Speaking with Legitimate Staff
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 Before sending funds or requesting payouts, please review these 3 golden verification rules:
               </p>
-              <ul className="list-disc pl-5 space-y-1.5 text-xs text-white/70">
+              <ul className="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
                 <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link href="/" className="text-[#F0C419] underline" title="lotus365officialid.com">lotus365officialid.com</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
                 <li><strong className="text-white">Confirmed UPI Merchant VPA:</strong> Legitimate Lotus365 deposit accounts will always display confirmed merchant names verified by our desk, and your personal account manager will provide dynamic deposit references matching your exact username.</li>
                 <li><strong className="text-white">No Sensitive Disclosures:</strong> We will never ask you to click third-party remote screen-sharing tools like AnyDesk or TeamViewer, nor will we ever prompt you to enter your bank ATM PIN or OTP.</li>
@@ -299,9 +299,9 @@ export const ContactPage: React.FC = () => {
               </h2>
               <div className="space-y-4">
                 {contactFaqs.map((faq, idx) => (
-                  <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                    <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
-                    <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
+                  <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                    <h3 className="font-bold text-slate-900 text-sm mb-2">{faq.q}</h3>
+                    <p className="text-xs text-slate-600 leading-relaxed">{faq.a}</p>
                   </div>
                 ))}
               </div>

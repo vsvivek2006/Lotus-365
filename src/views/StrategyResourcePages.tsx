@@ -51,8 +51,8 @@ export const BettingOddsCalculatorPage: React.FC = () => (
           { label: 'Odds Calculator' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Mathematical Foundation of Sports Trading
@@ -69,24 +69,24 @@ export const BettingOddsCalculatorPage: React.FC = () => (
           <InteractiveOddsCalculator />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Calculator className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Decimal Multipliers</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Decimal Multipliers</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Formula: <code className="text-[#F0C419]">Stake × Odds = Return</code>. Example: ₹1,000 at 2.40 yields ₹2,400 total (₹1,400 profit).
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Implied Probability</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Implied Probability</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Formula: <code className="text-[#F0C419]">(1 / Odds) × 100</code>. Example: 1.50 odds represent a 66.6% statistical win probability.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Instant Profit Crediting</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Instant Profit Crediting</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 All winning returns credit immediately to your active wallet for instant cashout via automated 2-minute UPI.
               </p>
             </div>
@@ -96,9 +96,9 @@ export const BettingOddsCalculatorPage: React.FC = () => (
             <h2 className="text-2xl font-extrabold text-[#F0C419]">
               Odds Conversion Quick-Reference Table
             </h2>
-            <div className="overflow-x-auto rounded-2xl border border-white/10">
+            <div className="overflow-x-auto rounded-2xl border border-slate-200">
               <table className="w-full text-left text-xs sm:text-sm">
-                <thead className="bg-[#0b3b2d] text-[#F0C419] font-bold uppercase tracking-wider">
+                <thead className="bg-slate-100 text-slate-900 font-bold uppercase tracking-wider">
                   <tr>
                     <th className="p-4">Decimal (Lotus365)</th>
                     <th className="p-4">Fractional</th>
@@ -106,29 +106,29 @@ export const BettingOddsCalculatorPage: React.FC = () => (
                     <th className="p-4">Implied Probability</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
-                    <td className="p-4 font-bold text-white">1.50</td>
-                    <td className="p-4 text-white/80">1/2</td>
-                    <td className="p-4 text-white/80">-200</td>
+                    <td className="p-4 font-bold text-slate-900">1.50</td>
+                    <td className="p-4 text-slate-700">1/2</td>
+                    <td className="p-4 text-slate-700">-200</td>
                     <td className="p-4 text-emerald-400 font-bold">66.7%</td>
                   </tr>
                   <tr>
-                    <td className="p-4 font-bold text-white">2.00</td>
-                    <td className="p-4 text-white/80">1/1 (Evens)</td>
-                    <td className="p-4 text-white/80">+100</td>
+                    <td className="p-4 font-bold text-slate-900">2.00</td>
+                    <td className="p-4 text-slate-700">1/1 (Evens)</td>
+                    <td className="p-4 text-slate-700">+100</td>
                     <td className="p-4 text-emerald-400 font-bold">50.0%</td>
                   </tr>
                   <tr>
-                    <td className="p-4 font-bold text-white">2.50</td>
-                    <td className="p-4 text-white/80">6/4</td>
-                    <td className="p-4 text-white/80">+150</td>
+                    <td className="p-4 font-bold text-slate-900">2.50</td>
+                    <td className="p-4 text-slate-700">6/4</td>
+                    <td className="p-4 text-slate-700">+150</td>
                     <td className="p-4 text-emerald-400 font-bold">40.0%</td>
                   </tr>
                   <tr>
-                    <td className="p-4 font-bold text-white">3.00</td>
-                    <td className="p-4 text-white/80">2/1</td>
-                    <td className="p-4 text-white/80">+200</td>
+                    <td className="p-4 font-bold text-slate-900">3.00</td>
+                    <td className="p-4 text-slate-700">2/1</td>
+                    <td className="p-4 text-slate-700">+200</td>
                     <td className="p-4 text-emerald-400 font-bold">33.3%</td>
                   </tr>
                 </tbody>
@@ -166,16 +166,16 @@ export const BettingOddsCalculatorPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Odds Calculators
             </h3>
             <div className="space-y-3">
               {oddsCalcFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -221,8 +221,8 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
           { label: 'Dutching Calculator' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Power of Multi-Selection Dutching
@@ -239,24 +239,24 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
           <InteractiveOddsCalculator />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Equal Profit Distribution</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Equal Profit Distribution</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Stakes are mathematically apportioned so that whether Selection A or Selection B crosses the line, your payout is identical.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Reduced Variance</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Reduced Variance</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Drastically reduces the sting of near-miss second-place finishes by converting competitive multi-horse races into high-probability investments.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Instant Settlements</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Instant Settlements</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Payouts settle the moment official results are finalized, ready for immediate cashout via our 2-minute automated UPI gateway.
               </p>
             </div>
@@ -269,7 +269,7 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
             <p>
               Suppose you want to invest a total bankroll of <strong className="text-white">₹10,000</strong> on the IPL Winner market across two top favorites:
             </p>
-            <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-white/80">
+            <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-slate-700">
               <li><strong>Chennai Super Kings (CSK):</strong> Odds 3.50</li>
               <li><strong>Mumbai Indians (MI):</strong> Odds 4.00</li>
             </ul>
@@ -311,16 +311,16 @@ export const DutchingCalculatorGuidePage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Dutching
             </h3>
             <div className="space-y-3">
               {dutchingFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -366,8 +366,8 @@ export const IplTeamsBettingOddsPage: React.FC = () => (
           { label: 'IPL Teams Odds' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Complete 10-Franchise IPL 2026 Odds Directory
@@ -381,55 +381,55 @@ export const IplTeamsBettingOddsPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-[#F0C419] mx-auto" />
-              <h3 className="font-bold text-white text-sm">CSK</h3>
-              <p className="text-xs text-white/60">5-Time Champions</p>
+              <h3 className="font-bold text-slate-900 text-sm">CSK</h3>
+              <p className="text-xs text-slate-500">5-Time Champions</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-blue-400 mx-auto" />
-              <h3 className="font-bold text-white text-sm">MI</h3>
-              <p className="text-xs text-white/60">5-Time Champions</p>
+              <h3 className="font-bold text-slate-900 text-sm">MI</h3>
+              <p className="text-xs text-slate-500">5-Time Champions</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-purple-400 mx-auto" />
-              <h3 className="font-bold text-white text-sm">KKR</h3>
-              <p className="text-xs text-white/60">3-Time Champions</p>
+              <h3 className="font-bold text-slate-900 text-sm">KKR</h3>
+              <p className="text-xs text-slate-500">3-Time Champions</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-rose-400 mx-auto" />
-              <h3 className="font-bold text-white text-sm">RCB</h3>
-              <p className="text-xs text-white/60">Fan Favorites</p>
+              <h3 className="font-bold text-slate-900 text-sm">RCB</h3>
+              <p className="text-xs text-slate-500">Fan Favorites</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-emerald-400 mx-auto" />
-              <h3 className="font-bold text-white text-sm">GT</h3>
-              <p className="text-xs text-white/60">2022 Champions</p>
+              <h3 className="font-bold text-slate-900 text-sm">GT</h3>
+              <p className="text-xs text-slate-500">2022 Champions</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-pink-400 mx-auto" />
-              <h3 className="font-bold text-white text-sm">RR</h3>
-              <p className="text-xs text-white/60">Inaugural Champs</p>
+              <h3 className="font-bold text-slate-900 text-sm">RR</h3>
+              <p className="text-xs text-slate-500">Inaugural Champs</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-orange-400 mx-auto" />
-              <h3 className="font-bold text-white text-sm">SRH</h3>
-              <p className="text-xs text-white/60">2016 Champions</p>
+              <h3 className="font-bold text-slate-900 text-sm">SRH</h3>
+              <p className="text-xs text-slate-500">2016 Champions</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-cyan-400 mx-auto" />
-              <h3 className="font-bold text-white text-sm">LSG</h3>
-              <p className="text-xs text-white/60">Playoff Regulars</p>
+              <h3 className="font-bold text-slate-900 text-sm">LSG</h3>
+              <p className="text-xs text-slate-500">Playoff Regulars</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-blue-500 mx-auto" />
-              <h3 className="font-bold text-white text-sm">DC</h3>
-              <p className="text-xs text-white/60">Capital Contenders</p>
+              <h3 className="font-bold text-slate-900 text-sm">DC</h3>
+              <p className="text-xs text-slate-500">Capital Contenders</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 text-center space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center space-y-1">
               <Trophy className="w-6 h-6 text-red-500 mx-auto" />
-              <h3 className="font-bold text-white text-sm">PBKS</h3>
-              <p className="text-xs text-white/60">Power Hitters</p>
+              <h3 className="font-bold text-slate-900 text-sm">PBKS</h3>
+              <p className="text-xs text-slate-500">Power Hitters</p>
             </div>
           </div>
 
@@ -472,16 +472,16 @@ export const IplTeamsBettingOddsPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About IPL Teams Odds
             </h3>
             <div className="space-y-3">
               {iplTeamsFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -527,8 +527,8 @@ export const CricketBettingGlossaryPage: React.FC = () => (
           { label: 'Cricket Glossary' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Essential Dictionary for Indian Cricket Traders
@@ -539,29 +539,29 @@ export const CricketBettingGlossaryPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
               <strong className="text-[#F0C419] font-bold block text-sm">Lagai (Back)</strong>
-              <p className="text-white/70">Placing a bet on an outcome to occur. If you 'Lagai' on India, you win if India wins the match.</p>
+              <p className="text-slate-600">Placing a bet on an outcome to occur. If you 'Lagai' on India, you win if India wins the match.</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
               <strong className="text-[#F0C419] font-bold block text-sm">Khai (Lay)</strong>
-              <p className="text-white/70">Betting against an outcome. If you 'Khai' on Australia, you win if Australia loses or draws.</p>
+              <p className="text-slate-600">Betting against an outcome. If you 'Khai' on Australia, you win if Australia loses or draws.</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
               <strong className="text-[#F0C419] font-bold block text-sm">Lambi Pari (Innings Total)</strong>
-              <p className="text-white/70">Wagering on the final projected team score at the end of the full allotted 20 or 50 overs.</p>
+              <p className="text-slate-600">Wagering on the final projected team score at the end of the full allotted 20 or 50 overs.</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
               <strong className="text-[#F0C419] font-bold block text-sm">Fancy Betting (Session)</strong>
-              <p className="text-white/70">Micro-market proposition bets resolved within designated over intervals (e.g. 6-over powerplay score).</p>
+              <p className="text-slate-600">Micro-market proposition bets resolved within designated over intervals (e.g. 6-over powerplay score).</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
               <strong className="text-[#F0C419] font-bold block text-sm">Greening Up (Book Making)</strong>
-              <p className="text-white/70">Placing reciprocal back and lay bets to guarantee a net positive profit across all possible match outcomes.</p>
+              <p className="text-slate-600">Placing reciprocal back and lay bets to guarantee a net positive profit across all possible match outcomes.</p>
             </div>
-            <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1">
+            <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
               <strong className="text-[#F0C419] font-bold block text-sm">Overround (Vig / Juice)</strong>
-              <p className="text-white/70">The mathematical margin charged by traditional bookmakers. Minimized to near 0% on peer exchanges.</p>
+              <p className="text-slate-600">The mathematical margin charged by traditional bookmakers. Minimized to near 0% on peer exchanges.</p>
             </div>
           </div>
 
@@ -601,16 +601,16 @@ export const CricketBettingGlossaryPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Cricket Terminology
             </h3>
             <div className="space-y-3">
               {glossaryFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -656,8 +656,8 @@ export const Lotus365BluePage: React.FC = () => (
           { label: 'Lotus365 Blue' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Engineered for Speed: The Lotus365 Blue Edition
@@ -671,24 +671,24 @@ export const Lotus365BluePage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Sub-50ms Execution</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Sub-50ms Execution</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Direct WebSocket pipes ensure your back and lay clicks match instantly without buffering wheels or price shifts.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Unified Wallet Balance</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Unified Wallet Balance</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Single login access: deposit on our classic portal and trade on Blue without moving funds or juggling passwords.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">2-Minute Cashouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">2-Minute Cashouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Identical automated UPI cashouts fulfilled directly to PhonePe, Google Pay, and Paytm within 120 seconds.
               </p>
             </div>
@@ -736,16 +736,16 @@ export const Lotus365BluePage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Lotus365 Blue
             </h3>
             <div className="space-y-3">
               {blueFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -791,8 +791,8 @@ export const Lotus365PartnerProgramPage: React.FC = () => (
           { label: 'Partner Program' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Grow Your Business with India's Premier Sports Brand
@@ -806,24 +806,24 @@ export const Lotus365PartnerProgramPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Award className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Up to 35% RevShare</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Up to 35% RevShare</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Industry-leading tiered commission structures that scale directly with your player volume and monthly retention.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Weekly Monday Payouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Weekly Monday Payouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 No monthly waiting periods. Your earnings settle automatically every Monday morning via instant UPI or IMPS.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <HeartHandshake className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Dedicated Manager</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Dedicated Manager</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Direct WhatsApp contact with your personal partner manager for promotional bonuses and custom campaign creatives.
               </p>
             </div>
@@ -868,16 +868,16 @@ export const Lotus365PartnerProgramPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About the Partner Program
             </h3>
             <div className="space-y-3">
               {partnerFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -923,8 +923,8 @@ export const ComplaintsResolutionPage: React.FC = () => (
           { label: 'Complaints Resolution' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Accountability and Fair Play Commitment
@@ -938,24 +938,24 @@ export const ComplaintsResolutionPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Tier 1: 60s Human Response</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Tier 1: 60s Human Response</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Frontline WhatsApp customer support agents verify transaction logs and provide immediate balance updates within sixty seconds.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Tier 2: Shift Supervisor</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Tier 2: Shift Supervisor</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Complex market settlement disputes are escalated to technical shift supervisors with access to official match referee telemetric logs.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Award className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Tier 3: Executive Review</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Tier 3: Executive Review</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Director-level review for high-value transactions, guaranteeing fair, auditable outcomes according to certified exchange rules.
               </p>
             </div>
@@ -1000,16 +1000,16 @@ export const ComplaintsResolutionPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Dispute Resolution
             </h3>
             <div className="space-y-3">
               {complaintsFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -1055,8 +1055,8 @@ export const ResponsibleGamblingToolsPage: React.FC = () => (
           { label: 'Gambling Tools' },
         ]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Our Uncompromising Commitment to Player Welfare
@@ -1070,24 +1070,24 @@ export const ResponsibleGamblingToolsPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Deposit Ceilings</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Deposit Ceilings</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Set hard daily, weekly, or monthly deposit caps. Once reached, our system automatically blocks additional funding until the timer resets.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldAlert className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Cooling-Off Breaks</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Cooling-Off Breaks</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Request a temporary pause lasting 24 hours, 7 days, or 30 days to step back, clear your mind, and maintain healthy discipline.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Self-Exclusion</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Self-Exclusion</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Permanently close your account with immediate return of your remaining funds and automatic suppression from all marketing broadcasts.
               </p>
             </div>
@@ -1132,16 +1132,16 @@ export const ResponsibleGamblingToolsPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Player Protection Tools
             </h3>
             <div className="space-y-3">
               {toolsFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>

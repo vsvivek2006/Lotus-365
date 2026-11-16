@@ -1,9 +1,11 @@
+"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 
 import { KEY_FEATURES } from '../data/landingData';
-import { Zap, TrendingUp, ShieldCheck, MessageCircle, ArrowRight, CheckCircle2, Award } from 'lucide-react';
+import { Zap, TrendingUp, ShieldCheck, MessageCircle, ArrowRight, CheckCircle2, Award, Clock } from 'lucide-react';
 
 interface WhyChooseProps {
   onOpenAuth: (mode: 'login' | 'register') => void;
@@ -13,92 +15,88 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
   const getIcon = (iconName: string) => {
     switch (iconName) {
       case 'zap':
-        return <Zap className="w-6 h-6 text-[#F0C419]" />;
+        return <Zap className="w-6 h-6 text-emerald-600" />;
       case 'trending-up':
-        return <TrendingUp className="w-6 h-6 text-emerald-300" />;
+        return <TrendingUp className="w-6 h-6 text-emerald-600" />;
       case 'shield-check':
-        return <ShieldCheck className="w-6 h-6 text-blue-300" />;
+        return <ShieldCheck className="w-6 h-6 text-emerald-600" />;
       case 'message-circle':
       default:
-        return <MessageCircle className="w-6 h-6 text-[#F0C419]" />;
+        return <MessageCircle className="w-6 h-6 text-emerald-600" />;
     }
   };
 
   const BEST_OPTION_REASONS = [
     {
       title: 'Effortless 30-Second Access',
-      description: 'You never have to jump through frustrating hoops or fill out complex forms. Getting your verified player ID and logging in takes just 30 seconds directly on WhatsApp.',
+      description: 'Never jump through frustrating verification loops or complicated paperwork. Get your official verified WhatsApp ID in under 30 seconds.',
       linkHref: '/how-it-works',
       linkText: 'See How It Works →',
     },
     {
       title: 'India’s Largest Selection of Games',
-      description: 'From peer-to-peer cricket exchange trading and IPL match markets to live dealer Teen Patti, Roulette, and Aviator Crash, you always have thousands of exciting tables ready.',
+      description: 'Peer-to-peer cricket exchange trading, IPL match markets, live dealer Teen Patti, Roulette, and Aviator Crash with thousands of live tables.',
       linkHref: '/cricket-exchange',
       linkText: 'Explore Cricket Markets →',
     },
     {
       title: 'Guaranteed Fund Security & Fast Payouts',
-      description: 'We safeguard every rupee with 256-bit SSL encryption. Your balance is 100% protected, and when you win, your cashout arrives in your UPI account in under 2 minutes.',
+      description: 'All player wallets are protected with 256-bit bank-grade encryption. Enjoy lightning-fast 2-minute direct UPI and IMPS bank cashouts round the clock.',
       linkHref: '/how-to-withdraw',
-      linkText: 'View 2-Min Cashout Guarantee →',
-    },
-    {
-      title: 'Lightning-Fast Play on Any Device',
-      description: 'Enjoy fluid 60 FPS gameplay on any smartphone, tablet, or laptop. In-play exchange odds refresh in real-time with zero lag so you never miss a match moment.',
-      linkHref: '/live-casino',
-      linkText: 'Visit Live Casino Lobby →',
+      linkText: 'Withdrawal Guide →',
     },
     {
       title: 'Rewarding You Every Time You Play',
-      description: 'Unlock an instant 100% welcome bonus on your first deposit, along with weekly loss cashback and dedicated relationship managers in our VIP Club.',
+      description: 'Unlock 100% welcome bonus, weekly 10% loss cashback rebates every Monday, and dedicated 24/7 VIP relationship managers.',
       linkHref: '/vip-club',
       linkText: 'Discover VIP Club Perks →',
     },
   ];
 
   return (
-    <section id="why-us" className="best-option-section py-20 relative overflow-hidden">
+    <section id="why-us" className="py-20 bg-slate-50 border-t border-slate-200 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section Heading matching https://lottuss365.co/ */}
+        
+        {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-black/20 border border-white/20 text-xs font-bold text-[#F0C419] uppercase tracking-wider mb-4">
-            <Award className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-bold text-emerald-800 uppercase tracking-wider mb-4 shadow-sm">
+            <Award className="w-4 h-4 text-emerald-600" />
             <span>The Lotus365 Advantage</span>
           </div>
 
-          <h2 className="text-2xl sm:text-4xl lg:text-4xl font-extrabold text-white tracking-tight mb-4">
-            Why Players Across India Choose Lotus365
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight mb-4">
+            Why Players Across India Choose <span className="text-emerald-700">Lotus365</span>
           </h2>
 
-          <p className="text-white/85 text-sm sm:text-base leading-relaxed">
-            With so many gaming websites online, why do over 500,000 players trust <strong className="text-white">Lotus365</strong> every single day? It all comes down to trust, speed, and real rewards:
+          <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+            With hundreds of online platforms, why do over 500,000 players choose Lotus365 every single day? It all comes down to trust, lightning speed, and verified payouts:
           </p>
         </div>
 
-        {/* 2-Column Core Best Option Breakdown */}
+        {/* 2-Column Core Breakdown */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-16">
-          {/* Left Column: 5 Reasons from reference */}
+          
+          {/* Left Column: 4 Reasons in Clean White Cards */}
           <div className="lg:col-span-7 space-y-4">
             {BEST_OPTION_REASONS.map((item, idx) => (
               <div
                 key={idx}
-                className="p-4 sm:p-5 rounded-2xl bg-black/20 border border-white/15 hover:border-[#F0C419]/50 transition-all flex items-start gap-4 group"
+                className="p-5 sm:p-6 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-emerald-400 transition-all flex items-start gap-4 group"
               >
-                <div className="w-8 h-8 rounded-full bg-[#F0C419]/20 border border-[#F0C419]/40 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-[#F0C419] group-hover:text-[#14614C] transition-colors">
-                  <CheckCircle2 className="w-4 h-4 text-[#F0C419] group-hover:text-[#14614C]" />
+                <div className="w-9 h-9 rounded-full bg-emerald-50 border border-emerald-200 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                  <CheckCircle2 className="w-5 h-5 text-emerald-600 group-hover:text-white" />
                 </div>
                 <div>
-                  <h3 className="text-base sm:text-lg font-bold text-white mb-1 group-hover:text-[#F0C419] transition-colors">
+                  <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-1 group-hover:text-emerald-700 transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-2">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-2">
                     {item.description}
                   </p>
                   <Link
                     href={item.linkHref}
-                    className="text-xs font-bold text-[#F0C419] hover:underline inline-flex items-center gap-1"
-                   title="Item.linkHref">
+                    className="text-xs font-bold text-emerald-700 hover:text-emerald-800 inline-flex items-center gap-1"
+                  >
                     <span>{item.linkText}</span>
                   </Link>
                 </div>
@@ -106,89 +104,83 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
             ))}
           </div>
 
-          {/* Right Column: Platform SLA Showcase */}
+          {/* Right Column: Platform SLA Showcase (Vibrant Emerald Card, Zero Black) */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="p-6 sm:p-8 rounded-3xl bg-black/40 border border-white/20 text-center relative overflow-hidden shadow-2xl">
-              {/* Soft Dissolved Sports Stars Artwork */}
-              <div className="absolute inset-0 opacity-15 mix-blend-screen pointer-events-none">
-                <Image
-                  src="/images/banners/hero_players_duo.jpg"
-                  alt="Sports Champions"
-                  fill
-                  className="object-cover object-center"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/80" />
-              </div>
-              <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-[#F0C419] text-[#14614C] flex items-center justify-center shadow-lg font-black text-2xl">
+            <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-[#065f46] to-[#044e37] border border-emerald-500/40 text-center relative overflow-hidden shadow-xl text-white">
+              
+              <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-yellow-400 text-emerald-950 flex items-center justify-center shadow-lg font-black text-2xl">
                 365
               </div>
-              <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
+              <h3 className="text-xl sm:text-2xl font-black text-white mb-2">
                 India's Trusted Sports Exchange
               </h3>
-              <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-6">
+              <p className="text-xs sm:text-sm text-emerald-100/90 leading-relaxed mb-6">
                 Over 500,000 active players trust Lotus365 daily for transparent odds, instant withdrawals, and dedicated VIP support.
               </p>
 
               <div className="grid grid-cols-2 gap-3 mb-6">
-                <div className="p-3 rounded-xl bg-black/25 border border-white/10">
-                  <div className="text-xl font-extrabold text-[#F0C419]">0%</div>
-                  <div className="text-[10px] text-white/70 font-semibold">Betting Commission</div>
+                <div className="p-3.5 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm">
+                  <div className="text-2xl font-black text-yellow-300">0%</div>
+                  <div className="text-[10px] text-emerald-100 font-semibold uppercase tracking-wider">Betting Commission</div>
                 </div>
-                <div className="p-3 rounded-xl bg-black/25 border border-white/10">
-                  <div className="text-xl font-extrabold text-emerald-300">&lt; 120s</div>
-                  <div className="text-[10px] text-white/70 font-semibold">Direct Cashout</div>
+                <div className="p-3.5 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm">
+                  <div className="text-2xl font-black text-yellow-300">&lt; 120s</div>
+                  <div className="text-[10px] text-emerald-100 font-semibold uppercase tracking-wider">Direct UPI Cashout</div>
                 </div>
               </div>
 
               <button
                 onClick={() => onOpenAuth('register')}
-                className="w-full cta-button py-3 text-sm font-black"
+                className="w-full py-3.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white font-extrabold text-sm shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2"
               >
+                <MessageCircle className="w-4 h-4 fill-current" />
                 <span>Get Instant WhatsApp ID</span>
-                <ArrowRight className="w-4 h-4 ml-1.5" />
+                <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           </div>
+
         </div>
 
         {/* 4 Feature SLA Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
           {KEY_FEATURES.map((feature) => (
             <div
               key={feature.id}
-              className="p-6 rounded-2xl bg-black/25 border border-white/15 hover:border-[#F0C419]/40 transition-all flex flex-col justify-between group"
+              className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-lg hover:border-emerald-400 transition-all flex flex-col justify-between group"
             >
               <div>
-                <div className="flex items-center justify-between mb-5">
-                  <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/15 flex items-center justify-center group-hover:bg-[#F0C419]/20 group-hover:border-[#F0C419]/50 transition-colors">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
                     {getIcon(feature.icon)}
                   </div>
                   <div className="text-right">
-                    <div className="font-extrabold text-lg sm:text-xl text-white group-hover:text-[#F0C419] transition-colors">
+                    <div className="font-extrabold text-lg sm:text-xl text-emerald-700">
                       {feature.stat}
                     </div>
-                    <div className="text-[10px] text-white/70 font-semibold uppercase tracking-wider">
+                    <div className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">
                       {feature.statLabel}
                     </div>
                   </div>
                 </div>
 
-                <h3 className="font-bold text-base text-white mb-1.5 group-hover:text-[#F0C419] transition-colors">
+                <h3 className="font-bold text-base text-slate-900 mb-1.5 group-hover:text-emerald-700 transition-colors">
                   {feature.title}
                 </h3>
 
-                <p className="text-xs text-white/80 leading-relaxed mb-4">
+                <p className="text-xs text-slate-600 leading-relaxed mb-4">
                   {feature.description}
                 </p>
               </div>
 
-              <div className="pt-3 border-t border-white/10 flex items-center justify-between text-xs font-semibold text-white/80">
-                <span className="text-emerald-300">Verified SLA</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 text-[#F0C419] transition-all" />
+              <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-600">
+                <span className="text-emerald-700">Verified Guarantee</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 text-emerald-600 transition-all" />
               </div>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

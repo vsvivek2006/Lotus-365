@@ -48,8 +48,8 @@ export const Lucky7GamePage: React.FC = () => (
         imageAlt="Lucky 7 Live Card Game"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Lucky 7' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Simplicity and Thrill of Live Lucky 7
@@ -66,24 +66,24 @@ export const Lucky7GamePage: React.FC = () => (
           <CasinoTableShowcase initialCategory="indian" />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Dices className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">7 Down (Low)</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">7 Down (Low)</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Covers cards 2, 3, 4, 5, and 6. Pays 1:1 on your stake when a card valued below 7 is dealt by the live host.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Star className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Exact Lucky 7</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Exact Lucky 7</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Hit the exact 7 card of any suit to trigger a massive 11:1 or 12:1 payout multiplier, boosting your balance instantly.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Sparkles className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">7 Up (High)</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">7 Up (High)</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Covers cards 8, 9, 10, Jack, Queen, and King. Pays 1:1 on your stake when a high card appears.
               </p>
             </div>
@@ -125,16 +125,16 @@ export const Lucky7GamePage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Lucky 7
             </h3>
             <div className="space-y-3">
               {lucky7Faqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -177,8 +177,8 @@ export const ThirtyTwoCardsCasinoPage: React.FC = () => (
         imageAlt="32 Cards Live Casino"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: '32 Cards' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Fast-Paced Point Battles: 32 Cards Live
@@ -192,25 +192,25 @@ export const ThirtyTwoCardsCasinoPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-[#F0C419] font-bold text-xs uppercase">Player 8</span>
-              <h3 className="text-base font-bold text-white">11.0x Payout</h3>
-              <p className="text-xs text-white/70">Starts with 8 base points. Highest payout multiplier; rewards bold underdog predictions.</p>
+              <h3 className="text-base font-bold text-slate-900">11.0x Payout</h3>
+              <p className="text-xs text-slate-600">Starts with 8 base points. Highest payout multiplier; rewards bold underdog predictions.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-[#F0C419] font-bold text-xs uppercase">Player 9</span>
-              <h3 className="text-base font-bold text-white">5.5x Payout</h3>
-              <p className="text-xs text-white/70">Starts with 9 base points. Balanced medium-risk tier with substantial upside.</p>
+              <h3 className="text-base font-bold text-slate-900">5.5x Payout</h3>
+              <p className="text-xs text-slate-600">Starts with 9 base points. Balanced medium-risk tier with substantial upside.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-emerald-400 font-bold text-xs uppercase">Player 10</span>
-              <h3 className="text-base font-bold text-white">3.0x Payout</h3>
-              <p className="text-xs text-white/70">Starts with 10 base points. Solid competitive hand with triple-stake return.</p>
+              <h3 className="text-base font-bold text-slate-900">3.0x Payout</h3>
+              <p className="text-xs text-slate-600">Starts with 10 base points. Solid competitive hand with triple-stake return.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-emerald-400 font-bold text-xs uppercase">Player 11</span>
-              <h3 className="text-base font-bold text-white">1.95x Payout</h3>
-              <p className="text-xs text-white/70">Starts with 11 base points. The statistical favorite with near-even money consistency.</p>
+              <h3 className="text-base font-bold text-slate-900">1.95x Payout</h3>
+              <p className="text-xs text-slate-600">Starts with 11 base points. The statistical favorite with near-even money consistency.</p>
             </div>
           </div>
 
@@ -250,16 +250,16 @@ export const ThirtyTwoCardsCasinoPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About 32 Cards
             </h3>
             <div className="space-y-3">
               {thirtyTwoCardsFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -302,8 +302,8 @@ export const SuperOverGamePage: React.FC = () => (
         imageAlt="Super Over Cricket Casino Game"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Super Over' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Instant Cricket Thrills in 20 Seconds
@@ -317,24 +317,24 @@ export const SuperOverGamePage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">20-Second Rounds</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">20-Second Rounds</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Play an entire over from delivery 1 to 6 in under twenty seconds. Perfect for entertainment on mobile commutes.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Star className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">500x Max Multiplier</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">500x Max Multiplier</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Hit consecutive maximums or high-target chases to unlock exponential prize tiers with instant wallet credit.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Cryptographic RNG</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Cryptographic RNG</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Certified fair play with transparent seed verification, ensuring completely tamper-proof ball-by-ball outcomes.
               </p>
             </div>
@@ -376,16 +376,16 @@ export const SuperOverGamePage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Super Over
             </h3>
             <div className="space-y-3">
               {superOverFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -428,8 +428,8 @@ export const MuflisTeenPattiPage: React.FC = () => (
         imageAlt="Muflis Teen Patti Low Card Game"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Muflis Teen Patti' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Fascinating Psychology of Muflis (Low Card)
@@ -443,24 +443,24 @@ export const MuflisTeenPattiPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Dices className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">5-3-2 Unsuited (The Nuts)</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">5-3-2 Unsuited (The Nuts)</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 The lowest mathematically possible distinct unsuited combination, standing as the undisputed champion hand in Muflis.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <AlertCircle className="w-8 h-8 text-rose-400" />
-              <h3 className="text-lg font-bold text-white">Trio of Aces (Worst Hand)</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Trio of Aces (Worst Hand)</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 A-A-A, normally the highest hand in Teen Patti, becomes the dead last rank in Muflis, losing to any other combination.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Instant 2-Min Cashouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Instant 2-Min Cashouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 All winning hand chips settle instantly and transfer directly to your bank account via automated UPI.
               </p>
             </div>
@@ -502,16 +502,16 @@ export const MuflisTeenPattiPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Muflis Teen Patti
             </h3>
             <div className="space-y-3">
               {muflisFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -554,8 +554,8 @@ export const Ak47TeenPattiPage: React.FC = () => (
         imageAlt="AK47 Teen Patti Wild Card Game"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'AK47 Teen Patti' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               High-Caliber Action: The AK47 Variation
@@ -569,24 +569,24 @@ export const Ak47TeenPattiPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Sparkles className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">16 Wild Cards</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">16 Wild Cards</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 All four Aces, Kings, 4s, and 7s act as shape-shifting Jokers, automatically forming your highest possible hand rank.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Award className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Frequent Trails & Runs</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Frequent Trails & Runs</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Experience high-powered showdowns where Trails (Three of a Kind) and Pure Sequences land multiple times each session.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">2-Minute Withdrawals</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">2-Minute Withdrawals</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Cash out your table profits round-the-clock via automated UPI directly into your PhonePe, Google Pay, or Paytm account.
               </p>
             </div>
@@ -628,16 +628,16 @@ export const Ak47TeenPattiPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About AK47 Teen Patti
             </h3>
             <div className="space-y-3">
               {ak47Faqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -680,8 +680,8 @@ export const JokerTeenPattiPage: React.FC = () => (
         imageAlt="Joker Teen Patti Wild Card Game"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Joker Teen Patti' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Dynamic Versatility of Joker Teen Patti
@@ -695,24 +695,24 @@ export const JokerTeenPattiPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Dices className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Open Joker Reveal</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Open Joker Reveal</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 A single card is cut and revealed face up; all matching rank cards in every player's hand instantly become wild Jokers.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Sparkles className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">Automated Best Hand</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Automated Best Hand</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Our smart software identifies the optimal combination your Joker creates, ensuring you never miss a hidden Pure Sequence.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">2-Minute Cashouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">2-Minute Cashouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Transfer table profits directly to your PhonePe, Google Pay, or Paytm account in under 120 seconds.
               </p>
             </div>
@@ -754,16 +754,16 @@ export const JokerTeenPattiPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Joker Teen Patti
             </h3>
             <div className="space-y-3">
               {jokerFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -806,8 +806,8 @@ export const RouletteStrategiesPage: React.FC = () => (
         imageAlt="Live Roulette Strategies and Systems"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Roulette Strategies' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Mathematical Principles for Live European Roulette
@@ -821,24 +821,24 @@ export const RouletteStrategiesPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Dices className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">The Martingale System</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">The Martingale System</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Double your even-money stake (Red/Black, Odd/Even) after each loss. Ideal for capturing consistent 1-unit profits with a robust bankroll.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Scale className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">The D'Alembert Method</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">The D'Alembert Method</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Add 1 unit after a loss; subtract 1 unit after a win. A steady, conservative progression that shields you from catastrophic table maximum limits.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Sparkles className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Fibonacci Sequence</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Fibonacci Sequence</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Progress through the sequence (1, 1, 2, 3, 5, 8, 13...) following losses, and step back two numbers on wins to capitalize on hot streaks.
               </p>
             </div>
@@ -880,16 +880,16 @@ export const RouletteStrategiesPage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Roulette Strategies
             </h3>
             <div className="space-y-3">
               {rouletteStratFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -932,8 +932,8 @@ export const LiveDealerGamesPage: React.FC = () => (
         imageAlt="Live Dealer Casino Games Evolution Ezugi Hindi Tables"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Live Dealer Games' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Authentic Casino Floor Atmosphere in HD 60 FPS
@@ -947,24 +947,24 @@ export const LiveDealerGamesPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <PlayCircle className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">Native Hindi Dealers</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">Native Hindi Dealers</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Experience Teen Patti, Andar Bahar, and Roulette hosted in fluent Hindi with warm, engaging Indian cultural hospitality.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">GLI-Certified Fair Play</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">GLI-Certified Fair Play</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Every physical deck, automatic shuffler, and wheel undergoes rigorous certification by Gaming Laboratories International.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">2-Minute Instant UPI</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">2-Minute Instant UPI</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Withdraw your live casino profits round the clock with automated sub-120-second settlements directly to your bank account.
               </p>
             </div>
@@ -1006,16 +1006,16 @@ export const LiveDealerGamesPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Live Dealer Games
             </h3>
             <div className="space-y-3">
               {liveDealerFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -1058,8 +1058,8 @@ export const CrazyTimePage: React.FC = () => (
         imageAlt="Crazy Time Live Game Show"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Crazy Time' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               The Global Phenomenon: Crazy Time on Lotus365
@@ -1076,25 +1076,25 @@ export const CrazyTimePage: React.FC = () => (
           <CasinoTableShowcase initialCategory="shows" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-[#F0C419] font-bold text-xs uppercase">Coin Flip</span>
-              <h3 className="text-base font-bold text-white">Up to 100x</h3>
-              <p className="text-xs text-white/70">Red vs Blue coin flip with automated launcher; frequent, fast-action bonus resolution.</p>
+              <h3 className="text-base font-bold text-slate-900">Up to 100x</h3>
+              <p className="text-xs text-slate-600">Red vs Blue coin flip with automated launcher; frequent, fast-action bonus resolution.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-[#F0C419] font-bold text-xs uppercase">Cash Hunt</span>
-              <h3 className="text-base font-bold text-white">Up to 500x</h3>
-              <p className="text-xs text-white/70">Interactive shooting gallery with 108 hidden multiplier targets chosen by you.</p>
+              <h3 className="text-base font-bold text-slate-900">Up to 500x</h3>
+              <p className="text-xs text-slate-600">Interactive shooting gallery with 108 hidden multiplier targets chosen by you.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-emerald-400 font-bold text-xs uppercase">Pachinko</span>
-              <h3 className="text-base font-bold text-white">Up to 10,000x</h3>
-              <p className="text-xs text-white/70">Glowing puck drops down a peg wall into multiplier slots with Double trigger segments.</p>
+              <h3 className="text-base font-bold text-slate-900">Up to 10,000x</h3>
+              <p className="text-xs text-slate-600">Glowing puck drops down a peg wall into multiplier slots with Double trigger segments.</p>
             </div>
-            <div className="p-5 rounded-xl bg-black/25 border border-white/10 space-y-2">
+            <div className="p-5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
               <span className="text-[#F0C419] font-bold text-xs uppercase">Crazy Time</span>
-              <h3 className="text-base font-bold text-white">Up to 25,000x</h3>
-              <p className="text-xs text-white/70">Step through the red door to a giant 64-segment wheel with Flapper choices and mega multipliers.</p>
+              <h3 className="text-base font-bold text-slate-900">Up to 25,000x</h3>
+              <p className="text-xs text-slate-600">Step through the red door to a giant 64-segment wheel with Flapper choices and mega multipliers.</p>
             </div>
           </div>
 
@@ -1134,16 +1134,16 @@ export const CrazyTimePage: React.FC = () => (
             </p>
           </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Crazy Time
             </h3>
             <div className="space-y-3">
               {crazyTimeFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>
@@ -1186,8 +1186,8 @@ export const MegaWheelPage: React.FC = () => (
         imageAlt="Mega Wheel Live Pragmatic Play 500x Multipliers"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Mega Wheel' }]}
       />
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-5xl mx-auto space-y-12 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-5xl mx-auto space-y-12 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Electrifying Game Show Action with Pragmatic Play
@@ -1201,24 +1201,24 @@ export const MegaWheelPage: React.FC = () => (
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Star className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">500x Mega Multipliers</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">500x Mega Multipliers</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Random multiplier boosts apply on every single spin, turning simple number bets into massive balance windfalls.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Dices className="w-8 h-8 text-emerald-400" />
-              <h3 className="text-lg font-bold text-white">9 Number Options</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">9 Number Options</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Choose between high-frequency low numbers (1, 2, 5) or high-reward numbers (20, 30, 40) based on your risk profile.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-black/25 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <Zap className="w-8 h-8 text-[#F0C419]" />
-              <h3 className="text-lg font-bold text-white">2-Minute Cashouts</h3>
-              <p className="text-xs sm:text-sm text-white/70">
+              <h3 className="text-lg font-bold text-slate-900">2-Minute Cashouts</h3>
+              <p className="text-xs sm:text-sm text-slate-600">
                 Seamless automated withdrawals to all Indian bank accounts via PhonePe, Google Pay, and Paytm UPI.
               </p>
             </div>
@@ -1263,16 +1263,16 @@ export const MegaWheelPage: React.FC = () => (
             </p>
 </div>
 
-<div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-4">
+<div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
             <h3 className="text-xl font-bold text-[#F0C419] flex items-center gap-2">
               <HelpCircle className="w-5 h-5 text-[#F0C419]" />
               Frequently Asked Questions About Mega Wheel
             </h3>
             <div className="space-y-3">
               {megaWheelFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h4 className="font-bold text-white text-sm mb-1">{faq.q}</h4>
-                  <p className="text-xs sm:text-sm text-white/70">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h4 className="font-bold text-slate-900 text-sm mb-1">{faq.q}</h4>
+                  <p className="text-xs sm:text-sm text-slate-600">{faq.a}</p>
                 </div>
               ))}
             </div>

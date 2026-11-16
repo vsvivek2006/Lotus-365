@@ -92,7 +92,7 @@ export const HomePage: React.FC = () => {
         <main className="flex-1 pb-16 md:pb-0">
           <HeroSection onOpenAuth={handleOpenAuth} />
           <PopularSectionsBar onOpenAuth={handleOpenAuth} />
-          <div className="bg-[#042a1c] py-10 border-b border-emerald-900/50">
+          <div className="bg-slate-100 py-10 border-b border-slate-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <MatchCentreWidget onOpenAuth={handleOpenAuth} />
             </div>

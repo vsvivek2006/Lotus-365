@@ -51,16 +51,13 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
   ];
 
   return (
-    <section id="vip" className="py-16 sm:py-20 bg-gradient-to-b from-[#022319] via-[#043324] to-[#022319] border-t border-emerald-500/20 relative overflow-hidden text-white">
-      {/* Golden Radial Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-400/10 blur-[160px] rounded-full pointer-events-none" />
-
+    <section id="vip" className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200 relative overflow-hidden text-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* ── Top VIP Banner (Direct from Mockup 1 & 6) ── */}
-        <div className="p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#032318] via-[#074732] to-[#032318] border border-amber-400/30 shadow-2xl mb-12 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+        <div className="p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] border border-amber-400/40 shadow-xl mb-12 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden text-white">
           {/* Dissolved Luxury VIP Artwork Backdrop */}
-          <div className="absolute inset-0 opacity-25 mix-blend-screen pointer-events-none">
+          <div className="absolute inset-0 opacity-20 mix-blend-screen pointer-events-none">
             <Image
               src="/images/banners/vip_club_banner_feathered.jpg"
               alt="VIP Club Luxury Background"
@@ -71,7 +68,7 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
 
           <div className="flex items-center gap-5 relative z-10">
             {/* 3D Gold Crown Emblem */}
-            <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden shadow-xl border border-amber-400/50 shrink-0 bg-gradient-to-br from-[#03241b] to-[#021811]">
+            <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden shadow-xl border border-amber-400/50 shrink-0 bg-gradient-to-br from-[#064e3b] to-[#047857]">
               <Image
                 src="/images/vip/vip_crown_pure.jpg"
                 alt="VIP Crown"
@@ -82,14 +79,14 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
             </div>
 
             <div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-400/20 text-[#F0C419] border border-amber-400/40 text-[11px] font-black uppercase tracking-wider mb-1.5">
-                <Sparkles className="w-3 h-3 text-[#F0C419]" />
+              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-white/20 text-amber-300 border border-white/25 text-[11px] font-black uppercase tracking-wider mb-1.5">
+                <Sparkles className="w-3 h-3 text-amber-300" />
                 <span>Lotus365 VIP Club</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
-                More Play. <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-400">More Rewards.</span>
+                More Play. <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-yellow-300">More Rewards.</span>
               </h2>
-              <p className="text-xs sm:text-sm text-emerald-100/80 mt-1 max-w-xl">
+              <p className="text-xs sm:text-sm text-emerald-50/90 mt-1 max-w-xl">
                 Unlock exclusive perks, personal WhatsApp manager, 10% flat weekly cashback, and priority 2-minute cashouts.
               </p>
             </div>
@@ -110,12 +107,12 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
         <div className="mb-14">
           <div className="flex items-center justify-between gap-4 mb-6">
             <div>
-              <h3 className="text-lg sm:text-xl font-extrabold text-white">VIP Benefits &amp; Privileges</h3>
-              <p className="text-xs text-white/60">Structured for transparency and player satisfaction</p>
+              <h3 className="text-lg sm:text-xl font-extrabold text-slate-900">VIP Benefits &amp; Privileges</h3>
+              <p className="text-xs text-slate-500">Structured for transparency and player satisfaction</p>
             </div>
             <Link
               href="/vip-club"
-              className="text-xs font-bold text-amber-400 hover:text-white transition-colors flex items-center gap-1"
+              className="text-xs font-bold text-emerald-700 hover:text-emerald-800 transition-colors flex items-center gap-1"
             >
               <span>View All Tiers</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -126,7 +123,7 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
             {vipPillars.map((p, idx) => (
               <div
                 key={idx}
-                className="p-5 rounded-2xl bg-white text-slate-900 border border-slate-100 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
+                className="p-5 rounded-2xl bg-white text-slate-900 border border-slate-200/90 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between mb-3">
@@ -151,11 +148,11 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
         </div>
 
         {/* ── Interactive VIP Tier Inspector ── */}
-        <div className="p-6 sm:p-8 rounded-3xl bg-[#032318] border border-emerald-500/25 shadow-xl">
+        <div className="p-6 sm:p-8 rounded-3xl bg-white border border-slate-200/90 shadow-md">
           <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
             <div>
-              <div className="text-xs font-bold text-emerald-300 uppercase tracking-wider mb-1">Tier Breakdown</div>
-              <h3 className="text-lg sm:text-xl font-black text-white">Compare VIP Levels</h3>
+              <div className="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-1">Tier Breakdown</div>
+              <h3 className="text-lg sm:text-xl font-black text-slate-900">Compare VIP Levels</h3>
             </div>
 
             {/* Tier Switcher Pills */}
@@ -166,8 +163,8 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
                   onClick={() => setSelectedTierId(tier.id)}
                   className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
                     selectedTierId === tier.id
-                      ? 'bg-amber-400 text-slate-950 shadow-md font-black'
-                      : 'bg-white/5 hover:bg-white/10 text-white/70 border border-white/10'
+                      ? 'bg-emerald-600 text-white shadow-xs font-black'
+                      : 'bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200'
                   }`}
                 >
                   {tier.name}
@@ -177,27 +174,27 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center sm:text-left">
-            <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
-              <div className="text-[11px] text-white/60 mb-1">Weekly Cashback</div>
-              <div className="font-mono text-lg font-black text-[#F0C419]">{selectedTier.cashback}</div>
+            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+              <div className="text-[11px] text-slate-500 mb-1">Weekly Cashback</div>
+              <div className="font-mono text-lg font-black text-amber-600">{selectedTier.cashback}</div>
             </div>
-            <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
-              <div className="text-[11px] text-white/60 mb-1">Withdrawal Speed</div>
-              <div className="font-mono text-lg font-black text-emerald-300">{selectedTier.withdrawalSpeed}</div>
+            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+              <div className="text-[11px] text-slate-500 mb-1">Withdrawal Speed</div>
+              <div className="font-mono text-lg font-black text-emerald-700">{selectedTier.withdrawalSpeed}</div>
             </div>
-            <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
-              <div className="text-[11px] text-white/60 mb-1">Deposit Bonus</div>
-              <div className="font-bold text-sm text-white">{selectedTier.depositBonus}</div>
+            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+              <div className="text-[11px] text-slate-500 mb-1">Deposit Bonus</div>
+              <div className="font-bold text-sm text-slate-900">{selectedTier.depositBonus}</div>
             </div>
-            <div className="p-3.5 rounded-xl bg-black/30 border border-white/10">
-              <div className="text-[11px] text-white/60 mb-1">Table Limits</div>
-              <div className="font-bold text-sm text-white">{selectedTier.limits}</div>
+            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+              <div className="text-[11px] text-slate-500 mb-1">Table Limits</div>
+              <div className="font-bold text-sm text-slate-900">{selectedTier.limits}</div>
             </div>
           </div>
 
           {/* Join VIP Banner CTA */}
-          <div className="mt-6 pt-5 border-t border-emerald-500/20 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="text-xs text-white/70 text-center sm:text-left">
+          <div className="mt-6 pt-5 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="text-xs text-slate-600 text-center sm:text-left">
               Ready to elevate your gaming experience with Black Card status?
             </div>
             <button

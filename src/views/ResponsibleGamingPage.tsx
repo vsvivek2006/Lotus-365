@@ -74,15 +74,15 @@ export const ResponsibleGamingPage: React.FC = () => (
         ]}
       />
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-        <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           
           {/* Commitment Banner */}
-          <div className="p-6 sm:p-8 rounded-3xl bg-black/25 border border-emerald-400/30 flex flex-col sm:flex-row items-center gap-6">
+          <div className="p-6 sm:p-8 rounded-3xl bg-slate-50 border border-slate-200 border border-emerald-400/30 flex flex-col sm:flex-row items-center gap-6">
             <HeartHandshake className="w-16 h-16 text-[#F0C419] shrink-0" />
             <div className="space-y-2 text-center sm:text-left">
-              <h2 className="text-xl sm:text-2xl font-black text-white">Our Responsible Entertainment Charter</h2>
-              <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900">Our Responsible Entertainment Charter</h2>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Online sports betting and casino games must always be viewed as a leisure activity—never as a vehicle for debt resolution or financial enrichment. Lotus365 empowers every member with tools to manage time, spending, and emotional discipline.
               </p>
             </div>
@@ -90,17 +90,17 @@ export const ResponsibleGamingPage: React.FC = () => (
 
           {/* 18+ Age Policy */}
           <div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4">
               Strict 18+ Age Verification & Minor Protection
             </h2>
             <p className="mb-4">
               Underage gambling is strictly prohibited on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>. We enforce zero-tolerance policies regarding minors participating in any real-money sports betting or casino gaming activity.
             </p>
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <div className="flex items-center gap-2 text-rose-300 font-bold text-base">
                 <Lock className="w-5 h-5 text-rose-400" /> Mandatory Age Verification Protocols
               </div>
-              <ul className="space-y-1.5 text-xs text-white/80 list-disc list-inside">
+              <ul className="space-y-1.5 text-xs text-slate-700 list-disc list-inside">
                 <li>Every account applicant must be at least 18 years of age (or the legal age of majority in their jurisdiction).</li>
                 <li>Our compliance desk actively audits accounts for indicators of underage usage.</li>
                 <li>Any account discovered to be operated by an individual under 18 will be permanently terminated immediately, with all accumulated balances forfeited and funds returned to source.</li>
@@ -111,7 +111,7 @@ export const ResponsibleGamingPage: React.FC = () => (
 
           {/* Self-Regulation Tools */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               Lotus365 Self-Regulation & Player Control Tools
             </h2>
             <p className="mb-4">
@@ -119,26 +119,26 @@ export const ResponsibleGamingPage: React.FC = () => (
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <ShieldCheck className="w-6 h-6 text-[#F0C419]" />
-                <h3 className="font-bold text-white text-base">1. Deposit Ceilings</h3>
-                <p className="text-xs text-white/70">
+                <h3 className="font-bold text-slate-900 text-base">1. Deposit Ceilings</h3>
+                <p className="text-xs text-slate-600">
                   Set daily, weekly, or monthly deposit caps (e.g., maximum ₹5,000 per week). Once set, deposit ceilings cannot be increased without a mandatory 7-day cooling-off review.
                 </p>
               </div>
 
-              <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <Clock className="w-6 h-6 text-[#F0C419]" />
-                <h3 className="font-bold text-white text-base">2. Cooling-Off Breaks</h3>
-                <p className="text-xs text-white/70">
+                <h3 className="font-bold text-slate-900 text-base">2. Cooling-Off Breaks</h3>
+                <p className="text-xs text-slate-600">
                   Take a temporary, voluntary timeout from betting. Choose a cooling-off period of 24 hours, 7 days, or 30 days during which login access is completely suspended.
                 </p>
               </div>
 
-              <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <AlertTriangle className="w-6 h-6 text-[#F0C419]" />
-                <h3 className="font-bold text-white text-base">3. Self-Exclusion</h3>
-                <p className="text-xs text-white/70">
+                <h3 className="font-bold text-slate-900 text-base">3. Self-Exclusion</h3>
+                <p className="text-xs text-slate-600">
                   For players requiring extended detachment, we offer formal self-exclusion periods of 6 months, 1 year, or permanent lifetime account closure.
                 </p>
               </div>
@@ -147,14 +147,14 @@ export const ResponsibleGamingPage: React.FC = () => (
 
           {/* Diagnostic Questionnaire */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               Problem Gambling Self-Assessment Diagnostic
             </h2>
             <p className="mb-4">
               Take a moment to evaluate your relationship with betting by answering these diagnostic assessment questions honestly:
             </p>
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
-              <ul className="space-y-2 text-xs sm:text-sm text-white/80">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
+              <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#F0C419] shrink-0 mt-0.5" />
                   <span>Do you ever bet more money than you can comfortably afford to lose without affecting basic living expenses?</span>
@@ -184,31 +184,31 @@ export const ResponsibleGamingPage: React.FC = () => (
 
           {/* Professional Resources */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               Independent Support Organizations & Helplines in India
             </h2>
             <p className="mb-4">
               If you or a loved one is experiencing distress related to compulsive gambling, confidential, non-judgmental professional assistance is available:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <div className="text-white font-bold text-sm">Vandrevala Foundation Helpline</div>
-                <p className="text-xs text-white/70">24/7 free, confidential mental health and compulsive behavior counseling across India.</p>
+                <p className="text-xs text-slate-600">24/7 free, confidential mental health and compulsive behavior counseling across India.</p>
                 <div className="text-xs text-[#F0C419] font-mono">Helpline: +91 9999 666 555</div>
               </div>
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <div className="text-white font-bold text-sm">Hope Trust India</div>
-                <p className="text-xs text-white/70">Asia’s leading addiction and behavioral wellness treatment network.</p>
+                <p className="text-xs text-slate-600">Asia’s leading addiction and behavioral wellness treatment network.</p>
                 <div className="text-xs text-[#F0C419] font-mono">Website: hopetrustindia.com</div>
               </div>
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <div className="text-white font-bold text-sm">Gamblers Anonymous (GA) India</div>
-                <p className="text-xs text-white/70">Fellowship of men and women sharing experience and mutual strength to recover.</p>
+                <p className="text-xs text-slate-600">Fellowship of men and women sharing experience and mutual strength to recover.</p>
                 <div className="text-xs text-[#F0C419] font-mono">Website: gamblersanonymous.org</div>
               </div>
-              <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <div className="text-white font-bold text-sm">NIMHANS Behavioral Addiction Clinic</div>
-                <p className="text-xs text-white/70">National Institute of Mental Health & Neuro Sciences specialized clinical services.</p>
+                <p className="text-xs text-slate-600">National Institute of Mental Health & Neuro Sciences specialized clinical services.</p>
                 <div className="text-xs text-[#F0C419] font-mono">Helpline: 080-26995000</div>
               </div>
             </div>
@@ -219,7 +219,7 @@ export const ResponsibleGamingPage: React.FC = () => (
             <h2 className="text-2xl font-extrabold text-[#F0C419]">
               Family Budgeting & Household Financial Safeguards
             </h2>
-            <p className="text-xs sm:text-sm text-white/80">
+            <p className="text-xs sm:text-sm text-slate-700">
               Online entertainment should complement your lifestyle, not compromise family security. We urge all players to maintain completely segregated bank accounts for personal recreational expenditures. Never connect business payroll accounts or emergency family savings funds to online gaming platforms.
             </p>
           </div>
@@ -229,51 +229,51 @@ export const ResponsibleGamingPage: React.FC = () => (
             <h2 className="text-2xl font-extrabold text-[#F0C419]">
               The 10 Golden Rules of Sensible Bankroll Stewardship
             </h2>
-            <p className="text-xs text-white/80">
+            <p className="text-xs text-slate-700">
               Responsible betting is a systematic practice grounded in emotional poise and mathematical realism. Adopt these ten non-negotiable guidelines:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">1. Establish Fixed Monthly Bankrolls</span>
-                <p className="text-white/70">Wager only disposable income you have formally categorized as discretionary leisure entertainment.</p>
+                <p className="text-slate-600">Wager only disposable income you have formally categorized as discretionary leisure entertainment.</p>
               </div>
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">2. The 2% Stake Max Principle</span>
-                <p className="text-white/70">Never risk more than 1% to 2% of your total betting bankroll on any single cricket match or casino round.</p>
+                <p className="text-slate-600">Never risk more than 1% to 2% of your total betting bankroll on any single cricket match or casino round.</p>
               </div>
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">3. Never Chase Losses</span>
-                <p className="text-white/70">Chasing losses under emotional duress is the single greatest cause of catastrophic bankroll depletion.</p>
+                <p className="text-slate-600">Chasing losses under emotional duress is the single greatest cause of catastrophic bankroll depletion.</p>
               </div>
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">4. Avoid Wagering Under Substance Influence</span>
-                <p className="text-white/70">Alcohol and recreational substances impair cognitive risk assessment. Log out before social celebrations.</p>
+                <p className="text-slate-600">Alcohol and recreational substances impair cognitive risk assessment. Log out before social celebrations.</p>
               </div>
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">5. Track Every Transaction in a Ledger</span>
-                <p className="text-white/70">Maintain an accurate balance sheet of all deposits, withdrawals, turnover, and net profits across all sessions.</p>
+                <p className="text-slate-600">Maintain an accurate balance sheet of all deposits, withdrawals, turnover, and net profits across all sessions.</p>
               </div>
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">6. Set Strict Session Timers</span>
-                <p className="text-white/70">Cap your screen time to a maximum of 60 to 90 minutes per session to prevent mental fatigue.</p>
+                <p className="text-slate-600">Cap your screen time to a maximum of 60 to 90 minutes per session to prevent mental fatigue.</p>
               </div>
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">7. Treat Winnings as Bonuses, Not Regular Income</span>
-                <p className="text-white/70">Sports betting odds include variance. Never treat platform earnings as predictable monthly revenue.</p>
+                <p className="text-slate-600">Sports betting odds include variance. Never treat platform earnings as predictable monthly revenue.</p>
               </div>
-              <div className="p-3.5 rounded-xl bg-black/20 border border-white/10 space-y-1">
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <span className="font-bold text-[#F0C419]">8. Separate Recreation from Family Finances</span>
-                <p className="text-white/70">Keep online gaming funds strictly divorced from household groceries, medical insurance, and child education funds.</p>
+                <p className="text-slate-600">Keep online gaming funds strictly divorced from household groceries, medical insurance, and child education funds.</p>
               </div>
             </div>
           </div>
 
           {/* Step-by-Step Self-Exclusion Procedure */}
-          <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
+          <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
             <h3 className="text-base font-bold text-[#F0C419]">
               Detailed 3-Step Self-Exclusion Procedure
             </h3>
-            <ol className="list-decimal pl-5 space-y-2 text-xs text-white/80">
+            <ol className="list-decimal pl-5 space-y-2 text-xs text-slate-700">
               <li><strong>Contact Welfare Desk:</strong> Send a message on WhatsApp to <Link href="/contact" className="text-[#F0C419] underline" title="wa.link/880088">wa.link/880088</Link> requesting voluntary temporary or permanent self-exclusion.</li>
               <li><strong>Confirm Account Details:</strong> State your username and confirm whether you prefer a cooling-off timeout (24h to 30 days) or complete multi-year exclusion.</li>
               <li><strong>Balance Settlement:</strong> Our financial desk will immediately audit your wallet balance and remit all remaining unpledged funds to your verified UPI/IMPS account before locking login access.</li>
@@ -288,9 +288,9 @@ export const ResponsibleGamingPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               {responsibleGamingFaqs.map((faq, idx) => (
-                <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                  <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
-                  <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
+                <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                  <h3 className="font-bold text-slate-900 text-sm mb-2">{faq.q}</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed">{faq.a}</p>
                 </div>
               ))}
             </div>

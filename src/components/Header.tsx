@@ -271,7 +271,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
       <div
         onClick={() => setMobileMenuOpen(false)}
         className={`
-          fixed inset-0 z-40 bg-black/40 backdrop-blur-sm transition-opacity duration-300 lg:hidden
+          fixed inset-0 z-40 bg-slate-900/40 backdrop-blur-sm transition-opacity duration-300 lg:hidden
           ${mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}
         `}
         aria-hidden="true"

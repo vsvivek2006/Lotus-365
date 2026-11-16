@@ -79,7 +79,7 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
   ];
 
   return (
-    <div className={`w-full rounded-2xl bg-gradient-to-b from-[#063d2c]/95 to-[#022319]/95 border border-emerald-500/25 shadow-2xl backdrop-blur-md overflow-hidden text-white ${className}`}>
+    <div className={`w-full rounded-2xl bg-gradient-to-b from-[#064e3b] to-[#047857] border border-emerald-500/25 shadow-xl backdrop-blur-md overflow-hidden text-white ${className}`}>
       {/* ── Top Match Header ── */}
       <div className="p-4 sm:p-6 bg-gradient-to-r from-[#042f20] via-[#064e3b] to-[#042f20] border-b border-emerald-500/20 relative overflow-hidden">
         {/* Soft dissolved background */}
@@ -169,7 +169,7 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
         </div>
 
         {/* ── Live Match Odds Bar (Direct from Mockup) ── */}
-        <div className="mt-4 p-3 rounded-xl bg-[#022319] border border-emerald-500/30 flex flex-wrap items-center justify-between gap-3 shadow-inner">
+        <div className="mt-4 p-3 rounded-xl bg-emerald-950/70 border border-emerald-500/30 flex flex-wrap items-center justify-between gap-3 shadow-inner">
           <div className="flex items-center gap-2">
             <Zap className="w-4 h-4 text-[#F0C419]" />
             <span className="text-xs font-bold text-white uppercase tracking-wider">
@@ -207,15 +207,15 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
       </div>
 
       {/* ── Navigation Tabs ── */}
-      <div className="flex items-center border-b border-emerald-500/20 bg-[#03291d] px-4 pt-2 gap-2 overflow-x-auto scrollbar-none">
+      <div className="flex items-center border-b border-slate-200 bg-slate-100 px-4 pt-2 gap-2 overflow-x-auto scrollbar-none">
         {(['scorecard', 'commentary', 'ballbyball', 'stats'] as const).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
             className={`px-4 py-2.5 text-xs sm:text-sm font-bold uppercase tracking-wider border-b-2 transition-all cursor-pointer whitespace-nowrap ${
               activeTab === tab
-                ? 'border-[#F0C419] text-[#F0C419] bg-white/5 rounded-t-lg'
-                : 'border-transparent text-white/70 hover:text-white hover:bg-white/5 rounded-t-lg'
+                ? 'border-emerald-600 text-emerald-800 bg-white rounded-t-lg shadow-xs font-black'
+                : 'border-transparent text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-t-lg'
             }`}
           >
             {tab === 'ballbyball' ? 'Ball by Ball' : tab}
@@ -224,14 +224,14 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
       </div>
 
       {/* ── Tab Content Area ── */}
-      <div className="p-4 sm:p-6 bg-[#04281e]/60">
+      <div className="p-4 sm:p-6 bg-white text-slate-800">
         {activeTab === 'scorecard' && (
           <div className="space-y-6">
             {/* Scorecard Table */}
-            <div className="overflow-x-auto rounded-xl border border-emerald-500/20 bg-[#022319]/80 shadow">
+            <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-xs">
               <table className="w-full text-left text-xs sm:text-sm">
                 <thead>
-                  <tr className="bg-emerald-950/70 border-b border-emerald-500/20 text-emerald-300/90 font-bold uppercase text-[11px] tracking-wider">
+                  <tr className="bg-slate-50 border-b border-slate-200 text-slate-700 font-bold uppercase text-[11px] tracking-wider">
                     <th className="py-2.5 px-3 sm:px-4">India Innings</th>
                     <th className="py-2.5 px-2 text-right">R</th>
                     <th className="py-2.5 px-2 text-right">B</th>
@@ -240,23 +240,23 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
                     <th className="py-2.5 px-3 text-right">SR</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-emerald-500/10">
+                <tbody className="divide-y divide-slate-100">
                   {batsmen.map((b, idx) => (
-                    <tr key={idx} className="hover:bg-white/5 transition-colors">
+                    <tr key={idx} className="hover:bg-slate-50/70 transition-colors">
                       <td className="py-2.5 px-3 sm:px-4">
-                        <div className="font-bold text-white flex items-center gap-1.5">
+                        <div className="font-bold text-slate-900 flex items-center gap-1.5">
                           {b.name}
                           {b.status === 'not out' && (
-                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                           )}
                         </div>
-                        <div className="text-[11px] text-white/50">{b.status}</div>
+                        <div className="text-[11px] text-slate-500">{b.status}</div>
                       </td>
-                      <td className="py-2.5 px-2 text-right font-mono font-bold text-[#F0C419]">{b.runs}</td>
-                      <td className="py-2.5 px-2 text-right font-mono text-white/80">{b.balls}</td>
-                      <td className="py-2.5 px-2 text-right font-mono text-white/80">{b.fours}</td>
-                      <td className="py-2.5 px-2 text-right font-mono text-white/80">{b.sixes}</td>
-                      <td className="py-2.5 px-3 text-right font-mono font-semibold text-emerald-300">{b.sr}</td>
+                      <td className="py-2.5 px-2 text-right font-mono font-bold text-amber-600">{b.runs}</td>
+                      <td className="py-2.5 px-2 text-right font-mono text-slate-600">{b.balls}</td>
+                      <td className="py-2.5 px-2 text-right font-mono text-slate-600">{b.fours}</td>
+                      <td className="py-2.5 px-2 text-right font-mono text-slate-600">{b.sixes}</td>
+                      <td className="py-2.5 px-3 text-right font-mono font-semibold text-emerald-700">{b.sr}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -265,21 +265,21 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
 
             {/* Match Information Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
-              <div className="p-3 rounded-xl bg-black/25 border border-emerald-500/20">
-                <div className="text-white/60 mb-0.5">Toss</div>
-                <div className="font-bold text-white">India won & opted to bat</div>
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <div className="text-slate-500 mb-0.5">Toss</div>
+                <div className="font-bold text-slate-900">India won & opted to bat</div>
               </div>
-              <div className="p-3 rounded-xl bg-black/25 border border-emerald-500/20">
-                <div className="text-white/60 mb-0.5">Current Partnership</div>
-                <div className="font-bold text-[#F0C419]">57 runs (35 balls)</div>
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <div className="text-slate-500 mb-0.5">Current Partnership</div>
+                <div className="font-bold text-amber-600">57 runs (35 balls)</div>
               </div>
-              <div className="p-3 rounded-xl bg-black/25 border border-emerald-500/20">
-                <div className="text-white/60 mb-0.5">Projected Score</div>
-                <div className="font-bold text-white">292 - 305 runs</div>
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <div className="text-slate-500 mb-0.5">Projected Score</div>
+                <div className="font-bold text-slate-900">292 - 305 runs</div>
               </div>
-              <div className="p-3 rounded-xl bg-black/25 border border-emerald-500/20">
-                <div className="text-white/60 mb-0.5">Bowler on Attack</div>
-                <div className="font-bold text-emerald-300">Pat Cummins (2/52 in 9.2)</div>
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <div className="text-slate-500 mb-0.5">Bowler on Attack</div>
+                <div className="font-bold text-emerald-700">Pat Cummins (2/52 in 9.2)</div>
               </div>
             </div>
           </div>
@@ -288,20 +288,20 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
         {activeTab === 'commentary' && (
           <div className="space-y-4">
             {/* Recent Deliveries Strip */}
-            <div className="flex items-center gap-2 p-3 rounded-xl bg-[#022319] border border-emerald-500/25">
-              <span className="text-xs font-bold text-white/70 uppercase">Over 48:</span>
+            <div className="flex items-center gap-2 p-3 rounded-xl bg-slate-50 border border-slate-200">
+              <span className="text-xs font-bold text-slate-600 uppercase">Over 48:</span>
               <div className="flex items-center gap-1.5">
                 {recentBalls.map((r, i) => (
                   <span
                     key={i}
                     className={`w-7 h-7 rounded-full flex items-center justify-center font-mono font-bold text-xs ${
                       r.type === 'six'
-                        ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/30'
+                        ? 'bg-amber-400 text-slate-950 shadow-xs'
                         : r.type === 'boundary'
-                        ? 'bg-emerald-500 text-white'
+                        ? 'bg-emerald-600 text-white'
                         : r.type === 'dot'
-                        ? 'bg-white/10 text-white/60'
-                        : 'bg-white/20 text-white'
+                        ? 'bg-slate-200 text-slate-600'
+                        : 'bg-slate-100 text-slate-800 border border-slate-300'
                     }`}
                   >
                     {r.val}
@@ -317,17 +317,17 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
                   key={idx}
                   className={`p-3.5 rounded-xl border transition-all ${
                     c.highlight
-                      ? 'bg-emerald-950/40 border-emerald-500/40'
-                      : 'bg-black/20 border-white/5'
+                      ? 'bg-emerald-50/70 border-emerald-200'
+                      : 'bg-slate-50 border-slate-200'
                   }`}
                 >
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="font-mono text-xs font-black text-[#F0C419] px-2 py-0.5 rounded bg-black/40">
+                    <span className="font-mono text-xs font-black text-amber-700 px-2 py-0.5 rounded bg-amber-100">
                       {c.over}
                     </span>
-                    <span className="font-bold text-sm text-white">{c.title}</span>
+                    <span className="font-bold text-sm text-slate-900">{c.title}</span>
                   </div>
-                  <p className="text-xs text-white/80 leading-relaxed pl-1">{c.text}</p>
+                  <p className="text-xs text-slate-600 leading-relaxed pl-1">{c.text}</p>
                 </div>
               ))}
             </div>
@@ -336,24 +336,24 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
 
         {activeTab === 'ballbyball' && (
           <div className="space-y-3 text-xs">
-            <div className="p-4 rounded-xl bg-[#022319] border border-emerald-500/20 text-white/80">
-              <div className="font-bold text-sm text-white mb-2">Over-by-Over In-Play Trends</div>
+            <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-slate-700">
+              <div className="font-bold text-sm text-slate-900 mb-2">Over-by-Over In-Play Trends</div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <div className="p-2.5 rounded-lg bg-black/30 border border-white/10">
-                  <div className="text-white/60">Overs 41-45</div>
-                  <div className="font-mono font-bold text-[#F0C419] text-base">44 Runs (1 Wkt)</div>
+                <div className="p-2.5 rounded-lg bg-white border border-slate-200 shadow-xs">
+                  <div className="text-slate-500">Overs 41-45</div>
+                  <div className="font-mono font-bold text-amber-600 text-base">44 Runs (1 Wkt)</div>
                 </div>
-                <div className="p-2.5 rounded-lg bg-black/30 border border-white/10">
-                  <div className="text-white/60">Overs 31-40</div>
-                  <div className="font-mono font-bold text-white text-base">62 Runs (0 Wkt)</div>
+                <div className="p-2.5 rounded-lg bg-white border border-slate-200 shadow-xs">
+                  <div className="text-slate-500">Overs 31-40</div>
+                  <div className="font-mono font-bold text-slate-900 text-base">62 Runs (0 Wkt)</div>
                 </div>
-                <div className="p-2.5 rounded-lg bg-black/30 border border-white/10">
-                  <div className="text-white/60">Powerplay 1</div>
-                  <div className="font-mono font-bold text-emerald-300 text-base">61/0 (10 ov)</div>
+                <div className="p-2.5 rounded-lg bg-white border border-slate-200 shadow-xs">
+                  <div className="text-slate-500">Powerplay 1</div>
+                  <div className="font-mono font-bold text-emerald-700 text-base">61/0 (10 ov)</div>
                 </div>
-                <div className="p-2.5 rounded-lg bg-black/30 border border-white/10">
-                  <div className="text-white/60">Match Momentum</div>
-                  <div className="font-bold text-emerald-400 text-sm">India 68% Dominance</div>
+                <div className="p-2.5 rounded-lg bg-white border border-slate-200 shadow-xs">
+                  <div className="text-slate-500">Match Momentum</div>
+                  <div className="font-bold text-emerald-700 text-sm">India 68% Dominance</div>
                 </div>
               </div>
             </div>
@@ -362,20 +362,20 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
 
         {activeTab === 'stats' && (
           <div className="space-y-3 text-xs">
-            <div className="p-4 rounded-xl bg-[#022319] border border-emerald-500/20">
-              <div className="font-bold text-sm text-white mb-3">Head-to-Head &amp; Ground History</div>
+            <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+              <div className="font-bold text-sm text-slate-900 mb-3">Head-to-Head &amp; Ground History</div>
               <div className="space-y-2">
-                <div className="flex justify-between py-1.5 border-b border-white/10">
-                  <span className="text-white/70">Average 1st Innings at Wankhede:</span>
-                  <span className="font-bold text-white">284 Runs</span>
+                <div className="flex justify-between py-1.5 border-b border-slate-200">
+                  <span className="text-slate-600">Average 1st Innings at Wankhede:</span>
+                  <span className="font-bold text-slate-900">284 Runs</span>
                 </div>
-                <div className="flex justify-between py-1.5 border-b border-white/10">
-                  <span className="text-white/70">Toss Winner Win Percentage:</span>
-                  <span className="font-bold text-emerald-300">58.3% Batting First</span>
+                <div className="flex justify-between py-1.5 border-b border-slate-200">
+                  <span className="text-slate-600">Toss Winner Win Percentage:</span>
+                  <span className="font-bold text-emerald-700">58.3% Batting First</span>
                 </div>
-                <div className="flex justify-between py-1.5 border-b border-white/10">
-                  <span className="text-white/70">Last 5 ODI Encounters:</span>
-                  <span className="font-bold text-[#F0C419]">India 3 - 2 Australia</span>
+                <div className="flex justify-between py-1.5 border-b border-slate-200">
+                  <span className="text-slate-600">Last 5 ODI Encounters:</span>
+                  <span className="font-bold text-amber-600">India 3 - 2 Australia</span>
                 </div>
               </div>
             </div>
@@ -383,16 +383,16 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
         )}
 
         {/* ── Bottom Widget CTA ── */}
-        <div className="mt-6 pt-4 border-t border-emerald-500/20 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2 text-xs text-emerald-200/90 text-center sm:text-left">
-            <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+        <div className="mt-6 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-2 text-xs text-slate-600 text-center sm:text-left">
+            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
             <span>0% Commission peer-to-peer exchange available on all ODI bilateral matches</span>
           </div>
 
           <div className="flex items-center gap-3">
             <Link
               href="/cricket-betting"
-              className="text-xs font-bold text-emerald-300 hover:text-white transition-colors flex items-center gap-1"
+              className="text-xs font-bold text-emerald-700 hover:text-emerald-800 transition-colors flex items-center gap-1"
             >
               <span>View All Fixtures</span>
               <ArrowRight className="w-3.5 h-3.5" />

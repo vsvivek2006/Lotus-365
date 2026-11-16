@@ -18,103 +18,77 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenAuth }) => {
   };
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d] border-t border-white/10 relative overflow-hidden">
-      {/* Exact Bold CTA Card from https://lottuss365.co/ */}
-      <div className="cta-section-bold max-w-5xl mx-auto p-8 sm:p-12 text-center relative z-10 border border-white/20 shadow-2xl overflow-hidden">
-        {/* Soft Dissolved Stadium Atmosphere */}
-        <div className="absolute inset-0 opacity-20 mix-blend-screen pointer-events-none rounded-3xl overflow-hidden">
-          <Image
-            src="/images/banners/team_huddle_clean.jpg"
-            alt="Cricket Action"
-            fill
-            className="object-cover object-center scale-110"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#05120d] via-transparent to-[#05120d]" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#05120d] via-transparent to-[#05120d]" />
-        </div>
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#064e3b] via-[#047857] to-[#065f46] text-white relative overflow-hidden">
+      
+      {/* Stadium Ambient Glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-96 bg-emerald-400/20 blur-[120px] rounded-full pointer-events-none" />
+
+      <div className="max-w-5xl mx-auto p-8 sm:p-14 text-center relative z-10 rounded-3xl bg-white/10 border border-white/25 backdrop-blur-md shadow-2xl overflow-hidden">
+        
         {/* Eyebrow Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/25 border border-[#F0C419]/30 text-xs font-extrabold text-[#F0C419] uppercase tracking-wider mb-6">
-          <Sparkles className="w-4 h-4 text-[#F0C419]" />
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-xs font-black text-yellow-300 uppercase tracking-wider mb-6 shadow-sm">
+          <Sparkles className="w-4 h-4 text-yellow-300" />
           <span>India's Most Trusted Gaming Platform</span>
         </div>
 
-        {/* Heading in #F0C419 */}
-        <h2 className="text-3xl sm:text-5xl font-extrabold text-[#F0C419] tracking-tight leading-tight mb-4">
-          Your Next Win Awaits
+        {/* Heading */}
+        <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight mb-4">
+          Your Next Big Win Awaits on <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400">Lotus365</span>
         </h2>
 
-        {/* Subtitle in Cream #FFFAE5 */}
-        <p className="text-[#FFFAE5] text-base sm:text-xl max-w-2xl mx-auto leading-relaxed mb-8">
-          Your premier gaming experience is just one click away. Choose your path and start playing on India’s most trusted platform today.
+        {/* Subtitle */}
+        <p className="text-emerald-100 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8">
+          Join over 500,000 active players enjoying 0% commission cricket exchange markets, 1000+ live casino tables, and guaranteed 2-minute instant UPI cashouts.
         </p>
 
         {/* Trust Badges */}
-        <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-white/80 mb-10">
-          <span className="flex items-center gap-1.5">
-            <Zap className="w-4 h-4 text-[#F0C419]" />
+        <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-white/90 mb-10">
+          <span className="flex items-center gap-1.5 font-bold">
+            <Zap className="w-4 h-4 text-yellow-300" />
             <span>2-Minute Guaranteed Payouts</span>
           </span>
-          <span className="text-white/20">•</span>
-          <span className="flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-emerald-300" />
+          <span className="text-white/30">•</span>
+          <span className="flex items-center gap-1.5 font-bold">
+            <ShieldCheck className="w-4 h-4 text-emerald-200" />
             <span>Zero Commission on Cricket Exchange</span>
           </span>
-          <span className="text-white/20">•</span>
-          <span className="flex items-center gap-1.5">
-            <Sparkles className="w-4 h-4 text-[#FFD000]" />
+          <span className="text-white/30">•</span>
+          <span className="flex items-center gap-1.5 font-bold">
+            <Sparkles className="w-4 h-4 text-yellow-300" />
             <span>Min Deposit Just ₹100</span>
           </span>
         </div>
 
-        {/* The 4 Exact Primary Theme Buttons */}
+        {/* Primary Action Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-3.5 sm:gap-4 mb-8">
           <button
             onClick={handleWhatsApp}
-            className="cta-button min-w-[190px]"
-            id="final-login-btn"
+            id="final-cta-whatsapp-btn"
+            className="
+              emerald-pill-btn !py-4 !px-8 !text-base font-black shadow-xl
+              bg-emerald-500 hover:bg-emerald-400 text-white cursor-pointer group
+            "
           >
-            <Lock className="w-4 h-4 mr-1.5" />
-            <span>Lotus365 Login Now</span>
+            <MessageCircle className="w-5 h-5 fill-current group-hover:scale-110 transition-transform" />
+            <span>Get Official WhatsApp ID</span>
           </button>
 
           <button
             onClick={handleWhatsApp}
-            className="cta-button min-w-[190px]"
-            id="final-signup-btn"
+            className="
+              gold-pill-btn !py-4 !px-8 !text-base font-black shadow-xl cursor-pointer
+            "
           >
-            <MessageCircle className="w-4 h-4 mr-1.5" />
-            <span>Lotus365 Sign Up Free</span>
-          </button>
-
-          <button
-            onClick={handleWhatsApp}
-            className="cta-button-outline min-w-[160px]"
-            id="final-vip-btn"
-          >
-            <Crown className="w-4 h-4 mr-1.5 text-[#F0C419]" />
-            <span>Lotus365 VIP</span>
-          </button>
-
-          <button
-            onClick={handleWhatsApp}
-            className="cta-button-outline min-w-[160px]"
-            id="final-blue-btn"
-          >
-            <Zap className="w-4 h-4 mr-1.5 text-[#38BDF8]" />
-            <span>Lotus365 Blue Web</span>
+            <Crown className="w-5 h-5 text-emerald-950" />
+            <span>Join VIP Club Today</span>
           </button>
         </div>
 
-        {/* Existing User Login Link */}
-        <div className="text-xs sm:text-sm text-white/75">
-          Already have an account?{' '}
-          <button
-            onClick={handleWhatsApp}
-            className="inline-link ml-1 cursor-pointer font-bold"
-          >
-            Log In to Lotus365 Dashboard
-          </button>
-        </div>
+        {/* Disclaimer */}
+        <p className="text-[11px] text-emerald-200/80 max-w-md mx-auto">
+          🔒 256-Bit SSL Encrypted • 18+ Only • Play Responsibly • 24/7 Human WhatsApp Concierge
+        </p>
+
       </div>
     </section>
   );

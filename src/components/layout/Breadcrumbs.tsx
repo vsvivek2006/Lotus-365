@@ -32,11 +32,11 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <nav aria-label="Breadcrumb" className="py-2.5 px-4 sm:px-6 lg:px-8 bg-black/20 border-b border-white/10 text-xs text-white/70">
+      <nav aria-label="Breadcrumb" className="py-2.5 px-4 sm:px-6 lg:px-8 bg-slate-100 border-b border-slate-200 text-xs text-slate-600">
         <div className="max-w-6xl mx-auto flex items-center flex-wrap gap-1.5">
           <Link
             href="/"
-            className="flex items-center gap-1 hover:text-[#F0C419] transition-colors"
+            className="flex items-center gap-1 hover:text-emerald-700 transition-colors font-medium"
             title="Lotus365 Home"
           >
             <Home className="w-3.5 h-3.5" />
@@ -47,17 +47,17 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
             const isLast = index === items.length - 1;
             return (
               <React.Fragment key={index}>
-                <ChevronRight className="w-3.5 h-3.5 text-white/40 shrink-0" />
+                <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
                 {item.href && !isLast ? (
                   <Link
                     href={item.href}
-                    className="hover:text-[#F0C419] transition-colors truncate max-w-[200px]"
+                    className="hover:text-emerald-700 transition-colors truncate max-w-[200px] font-medium"
                     title={item.label}
                   >
                     {item.label}
                   </Link>
                 ) : (
-                  <span className="text-[#F0C419] font-semibold truncate max-w-[240px]">
+                  <span className="text-emerald-800 font-bold truncate max-w-[240px]">
                     {item.label}
                   </span>
                 )}

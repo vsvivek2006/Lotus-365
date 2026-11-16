@@ -78,15 +78,15 @@ export const RegisterPage: React.FC = () => {
           breadcrumbs={[{ label: 'Register Free ID' }]}
         />
 
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-          <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+          <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
             
             {/* Step Cards */}
             <div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4 text-center">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4 text-center">
                 How to Register on Lotus365: 4-Step Express Guide
               </h2>
-              <p className="text-center text-white/80 max-w-2xl mx-auto mb-8 text-xs sm:text-sm">
+              <p className="text-center text-slate-700 max-w-2xl mx-auto mb-8 text-xs sm:text-sm">
                 Creating an account on India's premier betting exchange takes less than a minute. Follow these simple steps to join over 1.5 million satisfied Indian players:
               </p>
 
@@ -97,21 +97,21 @@ export const RegisterPage: React.FC = () => {
                   { step: '03', title: 'Receive Secure Login Credentials', desc: 'Your agent will provide a unique username and private password assigned directly to your personal WhatsApp account.' },
                   { step: '04', title: 'Log In & Make Your First Deposit', desc: 'Visit lotus365officialid.com, enter your credentials, deposit via PhonePe/GPay/Paytm, and claim your 100% welcome bonus!' },
                 ].map((s) => (
-                  <div key={s.step} className="p-5 rounded-2xl bg-black/20 border border-white/10 hover:border-[#F0C419]/40 transition-colors">
-                    <div className="text-3xl font-black text-[#F0C419] mb-2">{s.step}</div>
-                    <h3 className="text-base font-bold text-white mb-1.5">{s.title}</h3>
-                    <p className="text-xs text-white/75 leading-relaxed">{s.desc}</p>
+                  <div key={s.step} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-[#F0C419]/40 transition-colors">
+                    <div className="text-3xl font-black text-slate-900 mb-2">{s.step}</div>
+                    <h3 className="text-base font-bold text-slate-900 mb-1.5">{s.title}</h3>
+                    <p className="text-xs text-slate-600 leading-relaxed">{s.desc}</p>
                   </div>
                 ))}
               </div>
 
               {/* Direct CTA Box */}
-              <div className="text-center mt-8 p-6 rounded-2xl bg-black/30 border border-[#F0C419]/30">
+              <div className="text-center mt-8 p-6 rounded-2xl bg-slate-50 border border-slate-200 border border-[#F0C419]/30">
                 <button onClick={handleWA} className="cta-button py-4 px-10 text-base font-black shadow-gold-glow inline-flex items-center gap-2">
                   <MessageCircle className="w-5 h-5 fill-current" />
                   <span>Message WhatsApp to Create Free ID</span>
                 </button>
-                <p className="mt-3 text-xs text-white/60">
+                <p className="mt-3 text-xs text-slate-500">
                   Direct WhatsApp concierge • No personal documents required • Instant ID activation 24/7/365
                 </p>
               </div>
@@ -119,68 +119,68 @@ export const RegisterPage: React.FC = () => {
 
             {/* Why WhatsApp Registration is Better */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
                 Why WhatsApp Registration is Superior for Indian Bettors
               </h2>
               <p className="mb-4">
                 Conventional international betting portals force Indian customers to endure cumbersome registration flows: submitting passport or Aadhaar scans, waiting 24 to 48 hours for manual KYC approval, and trusting foreign databases with sensitive personal identity files. At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we have completely transformed this model.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 text-center">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                   <UserCheck className="w-6 h-6 text-[#F0C419] mx-auto mb-2" />
-                  <div className="font-bold text-white text-sm mb-1">Zero Document Hassle</div>
-                  <div className="text-xs text-white/70">No Aadhaar or PAN uploads needed to start playing. Your privacy remains 100% protected.</div>
+                  <div className="font-bold text-slate-900 text-sm mb-1">Zero Document Hassle</div>
+                  <div className="text-xs text-slate-600">No Aadhaar or PAN uploads needed to start playing. Your privacy remains 100% protected.</div>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 text-center">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                   <Zap className="w-6 h-6 text-[#F0C419] mx-auto mb-2" />
-                  <div className="font-bold text-white text-sm mb-1">Under 60-Second Setup</div>
-                  <div className="text-xs text-white/70">From your first WhatsApp greeting to placing your first cricket bet in under two minutes.</div>
+                  <div className="font-bold text-slate-900 text-sm mb-1">Under 60-Second Setup</div>
+                  <div className="text-xs text-slate-600">From your first WhatsApp greeting to placing your first cricket bet in under two minutes.</div>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 text-center">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-center">
                   <ShieldCheck className="w-6 h-6 text-[#F0C419] mx-auto mb-2" />
-                  <div className="font-bold text-white text-sm mb-1">Direct Human Concierge</div>
-                  <div className="text-xs text-white/70">No chatbots or endless automated phone trees. Chat directly with dedicated VIP managers.</div>
+                  <div className="font-bold text-slate-900 text-sm mb-1">Direct Human Concierge</div>
+                  <div className="text-xs text-slate-600">No chatbots or endless automated phone trees. Chat directly with dedicated VIP managers.</div>
                 </div>
               </div>
             </div>
 
             {/* Comparison Table */}
             <div>
-              <h3 className="text-xl font-bold text-white mb-3">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">
                 Comparison: Lotus365 WhatsApp Registration vs. Conventional Sites
               </h3>
-              <div className="overflow-x-auto rounded-xl border border-white/10">
+              <div className="overflow-x-auto rounded-xl border border-slate-200">
                 <table className="w-full text-left text-xs sm:text-sm">
-                  <thead className="bg-[#0b3b2d] text-[#F0C419] font-semibold uppercase tracking-wider">
+                  <thead className="bg-slate-100 text-slate-900 font-semibold uppercase tracking-wider">
                     <tr>
                       <th className="p-3.5">Feature</th>
                       <th className="p-3.5">Lotus365 WhatsApp ID</th>
                       <th className="p-3.5">Conventional Offshore Sites</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-white/10 bg-black/20">
+                  <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                     <tr>
-                      <td className="p-3.5 font-bold text-white">Registration Time</td>
+                      <td className="p-3.5 font-bold text-slate-900">Registration Time</td>
                       <td className="p-3.5 text-emerald-400 font-semibold">Under 60 Seconds</td>
                       <td className="p-3.5">15–30 minutes + 48hr wait</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">KYC Document Uploads</td>
+                      <td className="p-3.5 font-bold text-slate-900">KYC Document Uploads</td>
                       <td className="p-3.5 text-emerald-400 font-semibold">None Required</td>
                       <td className="p-3.5">Mandatory Passport / Utility Bill</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">Smartphone Play</td>
+                      <td className="p-3.5 font-bold text-slate-900">Smartphone Play</td>
                       <td className="p-3.5 text-emerald-400 font-semibold">Instant 1-Tap Browser Play</td>
                       <td className="p-3.5">Heavy, Complicated App Setups</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">Payment Method</td>
+                      <td className="p-3.5 font-bold text-slate-900">Payment Method</td>
                       <td className="p-3.5 text-emerald-400 font-semibold">Direct Indian UPI (PhonePe, GPay, Paytm)</td>
                       <td className="p-3.5">Complex Crypto or International Cards</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-bold text-white">Withdrawal Speed</td>
+                      <td className="p-3.5 font-bold text-slate-900">Withdrawal Speed</td>
                       <td className="p-3.5 text-emerald-400 font-semibold">Guaranteed 2-Minute IMPS/UPI</td>
                       <td className="p-3.5">24 to 72 Banking Hours</td>
                     </tr>
@@ -191,13 +191,13 @@ export const RegisterPage: React.FC = () => {
 
             {/* What You Can Access With One ID */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
                 One Unified ID: Full Access to 50+ Gaming Arenas
               </h2>
               <p className="mb-4">
                 Your single Lotus365 login unlocks our entire digital entertainment ecosystem with a shared wallet balance:
               </p>
-              <ul className="list-disc list-inside space-y-2 text-xs sm:text-sm text-white/80">
+              <ul className="list-disc list-inside space-y-2 text-xs sm:text-sm text-slate-700">
                 <li><strong className="text-white"><Link href="/cricket-betting" className="text-[#F0C419] hover:underline" title="Cricket Betting Hub:">Cricket Betting Hub:</Link></strong> Live match odds, over/under session runs, bowler wickets, and player boundaries on IPL, World Cups, BBL, and PSL.</li>
                 <li><strong className="text-white"><Link href="/cricket-exchange" className="text-[#F0C419] hover:underline" title="Betting Exchange:">Betting Exchange:</Link></strong> Back and Lay selections against other players with industry-best 0% commission on select markets.</li>
                 <li><strong className="text-white"><Link href="/live-casino" className="text-[#F0C419] hover:underline" title="Live Casino & Indian Card Games:">Live Casino & Indian Card Games:</Link></strong> Real dealers hosting <Link href="/teen-patti" className="text-[#F0C419] hover:underline" title="Teen Patti">Teen Patti</Link>, <Link href="/andar-bahar" className="text-[#F0C419] hover:underline" title="Andar Bahar">Andar Bahar</Link>, Lightning Roulette, and Speed Baccarat.</li>
@@ -211,7 +211,7 @@ export const RegisterPage: React.FC = () => {
               <ShieldAlert className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
               <div>
                 <strong className="text-[#F0C419] block text-sm mb-1">Crucial Security Alert: Verify Official WhatsApp Numbers</strong>
-                <p className="text-xs text-white/80">
+                <p className="text-xs text-slate-700">
                   Always register exclusively through the verified WhatsApp links on <strong className="text-white">lotus365officialid.com</strong>. Beware of impostor Telegram groups or fraudulent social media pages posing as Lotus365 agents. Our legitimate desk will never ask for your bank PIN, UPI MPIN, or account passwords.
                 </p>
               </div>
@@ -222,35 +222,35 @@ export const RegisterPage: React.FC = () => {
               <h2 className="text-2xl font-extrabold text-[#F0C419]">
                 Registration Comparison: Lotus365 vs Foreign Bookmakers
               </h2>
-              <div className="overflow-x-auto rounded-xl border border-white/10">
+              <div className="overflow-x-auto rounded-xl border border-slate-200">
                 <table className="w-full text-left text-xs sm:text-sm">
-                  <thead className="bg-[#0b3b2d] text-[#F0C419] font-semibold uppercase tracking-wider">
+                  <thead className="bg-slate-100 text-slate-900 font-semibold uppercase tracking-wider">
                     <tr>
                       <th className="p-3">Onboarding Factor</th>
                       <th className="p-3">Lotus365 WhatsApp ID</th>
                       <th className="p-3">Traditional Offshore Sites</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-white/10 bg-black/20 text-xs">
+                  <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-xs">
                     <tr>
-                      <td className="p-3 font-bold text-white">ID Issuance Speed</td>
+                      <td className="p-3 font-bold text-slate-900">ID Issuance Speed</td>
                       <td className="p-3 text-emerald-400 font-bold">&lt; 60 Seconds Instant</td>
                       <td className="p-3 text-rose-400">24 to 48 Hours Verification</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-white">Identity Document Requirement</td>
+                      <td className="p-3 font-bold text-slate-900">Identity Document Requirement</td>
                       <td className="p-3 text-emerald-400 font-bold">Zero Documents (100% Private)</td>
                       <td className="p-3 text-rose-400">Mandatory Passport / Aadhaar Scans</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-white">Deposit Activation</td>
+                      <td className="p-3 font-bold text-slate-900">Deposit Activation</td>
                       <td className="p-3 text-emerald-400 font-bold">Instant UPI QR (&lt; 30s)</td>
                       <td className="p-3 text-rose-400">Foreign Forex Cards (Frequently Declined)</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-white">Dedicated Support Channel</td>
+                      <td className="p-3 font-bold text-slate-900">Dedicated Support Channel</td>
                       <td className="p-3 text-[#F0C419] font-bold">Private 24/7 Human WhatsApp Concierge</td>
-                      <td className="p-3 text-white/60">Impersonal Automated AI Bots</td>
+                      <td className="p-3 text-slate-500">Impersonal Automated AI Bots</td>
                     </tr>
                   </tbody>
                 </table>
@@ -258,33 +258,33 @@ export const RegisterPage: React.FC = () => {
             </div>
 
             {/* Account Recovery Guarantee */}
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
               <h3 className="text-base font-bold text-[#F0C419]">
                 Session Security & Multi-Device Login Management
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 Lotus365 implements military-grade session isolation across all authenticated sessions. When you log into your betting ID from your primary smartphone, your active session token is locked to your hardware footprint. If you ever switch devices or log in from a tablet or PC, our system alerts our 24/7 security protocol to ensure your bankroll balance and open exchange bets remain 100% safeguarded against unauthorized external access.
               </p>
             </div>
 
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
               <h3 className="text-base font-bold text-[#F0C419]">
                 Zero Risk Account Recovery & Re-Issuance Policy
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 If you ever misplace your smartphone, change your WhatsApp number, or delete your chat history, your balance and account progress are never lost. Simply reach out to our senior verification desk via our official domain lotus365officialid.com, verify your transaction history or registered banking details, and our compliance leads will re-link your verified ID with a new encrypted credential token in under two minutes.
               </p>
             </div>
 
 {/* Password Security Best Practices */}
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <h3 className="text-base font-bold text-[#F0C419]">
                 Crucial Password Guidelines for New Account Holders
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 Upon receiving your temporary credentials from your WhatsApp concierge, we strongly recommend logging in and immediately updating your password to a private string. Follow these golden principles:
               </p>
-              <ul className="list-disc pl-5 space-y-1 text-xs text-white/70">
+              <ul className="list-disc pl-5 space-y-1 text-xs text-slate-600">
                 <li>Combine at least 8 characters including uppercase letters, numbers, and special symbols (e.g. #, @, !).</li>
                 <li>Never share your password with friends, family, or unverified social media profiles.</li>
                 <li>Lotus365 staff will never ask you to reveal your secret password or bank OTP. Keep your login credentials strictly private and avoid using public shared devices without logging out at the end of your gaming session.</li>
@@ -299,9 +299,9 @@ export const RegisterPage: React.FC = () => {
               </h2>
               <div className="space-y-4">
                 {registerFaqs.map((faq, idx) => (
-                  <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                    <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
-                    <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
+                  <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                    <h3 className="font-bold text-slate-900 text-sm mb-2">{faq.q}</h3>
+                    <p className="text-xs text-slate-600 leading-relaxed">{faq.a}</p>
                   </div>
                 ))}
               </div>
@@ -372,12 +372,12 @@ export const LoginPage: React.FC = () => {
           breadcrumbs={[{ label: 'Member Login' }]}
         />
 
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
-          <div className="max-w-6xl mx-auto space-y-16 text-white/85 text-sm sm:text-base leading-relaxed">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
+          <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
             
             {/* Step-by-Step Login Procedure */}
             <div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4">
                 How to Log In to Your Official Lotus365 Account
               </h2>
               <p className="mb-4">
@@ -403,13 +403,13 @@ export const LoginPage: React.FC = () => {
                     desc: 'Hit submit. You will be instantly redirected to your unified gaming balance where you can view live cricket odds, launch live casino tables, or request instant withdrawals.',
                   },
                 ].map((item, idx) => (
-                  <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-4">
+                  <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-4">
                     <div className="w-8 h-8 rounded-lg bg-[#F0C419]/20 text-[#F0C419] font-black flex items-center justify-center shrink-0 text-sm">
                       {idx + 1}
                     </div>
                     <div>
-                      <h3 className="font-bold text-white text-sm mb-1">{item.step}</h3>
-                      <p className="text-xs text-white/70">{item.desc}</p>
+                      <h3 className="font-bold text-slate-900 text-sm mb-1">{item.step}</h3>
+                      <p className="text-xs text-slate-600">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -417,10 +417,10 @@ export const LoginPage: React.FC = () => {
             </div>
 
             {/* Need An ID Card */}
-            <div className="p-6 rounded-2xl bg-black/30 border border-[#F0C419]/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 border border-[#F0C419]/30 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div>
-                <h3 className="text-lg font-bold text-[#F0C419] mb-1">Don't Have a Lotus365 Login ID Yet?</h3>
-                <p className="text-xs text-white/80">
+                <h3 className="text-lg font-bold text-emerald-700 mb-1">Don't Have a Lotus365 Login ID Yet?</h3>
+                <p className="text-xs text-slate-700">
                   Registration takes less than 60 seconds on WhatsApp with zero document uploads. Get your credentials now!
                 </p>
               </div>
@@ -432,40 +432,40 @@ export const LoginPage: React.FC = () => {
 
             {/* Common Login Troubleshooting Matrix */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
                 Lotus365 Login Troubleshooting & Error Resolutions
               </h2>
               <p className="mb-4">
                 Encountering an issue logging into your account? Use the quick reference resolution table below:
               </p>
-              <div className="overflow-x-auto rounded-xl border border-white/10">
+              <div className="overflow-x-auto rounded-xl border border-slate-200">
                 <table className="w-full text-left text-xs sm:text-sm">
-                  <thead className="bg-[#0b3b2d] text-[#F0C419] font-semibold uppercase tracking-wider">
+                  <thead className="bg-slate-100 text-slate-900 font-semibold uppercase tracking-wider">
                     <tr>
                       <th className="p-3.5">Error / Symptom</th>
                       <th className="p-3.5">Probable Cause</th>
                       <th className="p-3.5">Immediate Solution</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-white/10 bg-black/20">
+                  <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                     <tr>
                       <td className="p-3.5 font-bold text-rose-300">Invalid Username or Password</td>
-                      <td className="p-3.5 text-white/70">Typo, incorrect capitalization, or leading whitespace</td>
+                      <td className="p-3.5 text-slate-600">Typo, incorrect capitalization, or leading whitespace</td>
                       <td className="p-3.5 text-emerald-400">Re-copy credentials directly from your WhatsApp chat without trailing spaces.</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-rose-300">Account Temporarily Suspended</td>
-                      <td className="p-3.5 text-white/70">Multiple consecutive failed login attempts or security audit</td>
+                      <td className="p-3.5 text-slate-600">Multiple consecutive failed login attempts or security audit</td>
                       <td className="p-3.5 text-emerald-400">Message WhatsApp support with your registered phone number for a 60-second unlock.</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-rose-300">Blank Screen / Endless Loading</td>
-                      <td className="p-3.5 text-white/70">Outdated browser cache or cookie conflicts</td>
+                      <td className="p-3.5 text-slate-600">Outdated browser cache or cookie conflicts</td>
                       <td className="p-3.5 text-emerald-400">Clear your browser cache, open an Incognito/Private window, or refresh the page.</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-rose-300">Forgotten Password</td>
-                      <td className="p-3.5 text-white/70">Lost or forgotten custom password</td>
+                      <td className="p-3.5 text-slate-600">Lost or forgotten custom password</td>
                       <td className="p-3.5 text-emerald-400">Contact our 24/7 WhatsApp concierge to verify your identity and generate a new password.</td>
                     </tr>
                   </tbody>
@@ -475,69 +475,69 @@ export const LoginPage: React.FC = () => {
 
             {/* Account Recovery Guide */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
                 Forgot Your Login Password? 60-Second Recovery Process
               </h2>
               <p className="mb-4">
                 Unlike platforms that send unreliably delayed email reset links, Lotus365 offers rapid human-assisted account recovery via WhatsApp:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
                   <div className="text-[#F0C419] font-bold text-sm mb-1 flex items-center gap-1.5">
                     <MessageCircle className="w-4 h-4" /> Step 1: Open WhatsApp
                   </div>
-                  <p className="text-xs text-white/70">Send a message from your registered phone number saying "Reset My Password".</p>
+                  <p className="text-xs text-slate-600">Send a message from your registered phone number saying "Reset My Password".</p>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
                   <div className="text-[#F0C419] font-bold text-sm mb-1 flex items-center gap-1.5">
                     <ShieldCheck className="w-4 h-4" /> Step 2: Quick Identity Check
                   </div>
-                  <p className="text-xs text-white/70">Confirm your registered username and recent deposit or withdrawal transaction detail.</p>
+                  <p className="text-xs text-slate-600">Confirm your registered username and recent deposit or withdrawal transaction detail.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
                   <div className="text-[#F0C419] font-bold text-sm mb-1 flex items-center gap-1.5">
                     <Lock className="w-4 h-4" /> Step 3: Instant New Credentials
                   </div>
-                  <p className="text-xs text-white/70">Receive a newly generated temporary password to log in and regain full access instantly.</p>
+                  <p className="text-xs text-slate-600">Receive a newly generated temporary password to log in and regain full access instantly.</p>
                 </div>
               </div>
             </div>
 
             {/* Emergency Recovery Protocol */}
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
               <h3 className="text-base font-bold text-[#F0C419]">
                 Credential Reset & 2FA Emergency Recovery Protocol
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 If you ever forget your password or lose access to your WhatsApp account, our security desk provides rapid account restoration. Message our official verification channel from your registered mobile number or verify your recent UPI transaction reference. Once verified by our senior shift supervisor, your account password is encrypted and re-issued within two minutes, ensuring your open bets and wallet balance remain completely secure.
               </p>
             </div>
 
             {/* Security Practices */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-4">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
                 Vital Best Practices for Account Security
               </h2>
               <div className="space-y-3">
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
                   <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-white text-sm block mb-0.5">Always Bookmark the Official Domain</strong>
-                    <p className="text-xs text-white/70">Bookmark <strong className="text-[#F0C419]">lotus365officialid.com</strong> in your browser. Never click unverified login links sent from unknown Telegram groups or suspicious SMS messages.</p>
+                    <p className="text-xs text-slate-600">Bookmark <strong className="text-[#F0C419]">lotus365officialid.com</strong> in your browser. Never click unverified login links sent from unknown Telegram groups or suspicious SMS messages.</p>
                   </div>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
                   <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-white text-sm block mb-0.5">Never Share Your Credentials</strong>
-                    <p className="text-xs text-white/70">Our official representatives will never ask you for your login password or your UPI banking PIN. Keep your password confidential at all times.</p>
+                    <p className="text-xs text-slate-600">Our official representatives will never ask you for your login password or your UPI banking PIN. Keep your password confidential at all times.</p>
                   </div>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 flex gap-3">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
                   <Smartphone className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-white text-sm block mb-0.5">Log Out on Shared or Public Devices</strong>
-                    <p className="text-xs text-white/70">If accessing Lotus365 on an office computer or friend's device, always remember to tap "Log Out" and avoid saving passwords in the browser password manager.</p>
+                    <p className="text-xs text-slate-600">If accessing Lotus365 on an office computer or friend's device, always remember to tap "Log Out" and avoid saving passwords in the browser password manager.</p>
                   </div>
                 </div>
               </div>
@@ -548,41 +548,41 @@ export const LoginPage: React.FC = () => {
               <h2 className="text-2xl font-extrabold text-[#F0C419]">
                 Troubleshooting Common Login Hurdles
               </h2>
-              <p className="text-xs sm:text-sm text-white/80">
+              <p className="text-xs sm:text-sm text-slate-700">
                 If you encounter difficulty accessing your account on lotus365officialid.com, refer to this rapid diagnostic matrix:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1.5">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Issue: Forgotten Password</span>
-                  <p className="text-white/70">Message our WhatsApp support desk stating "Password Reset". A verification ping to your registered number generates a fresh password in 60 seconds.</p>
+                  <p className="text-slate-600">Message our WhatsApp support desk stating "Password Reset". A verification ping to your registered number generates a fresh password in 60 seconds.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1.5">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Issue: Browser Cache Loop</span>
-                  <p className="text-white/70">Perform a hard refresh (Ctrl + F5 on PC, or clear mobile browser site data for lotus365officialid.com) to load the newest web app bundle.</p>
+                  <p className="text-slate-600">Perform a hard refresh (Ctrl + F5 on PC, or clear mobile browser site data for lotus365officialid.com) to load the newest web app bundle.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-black/20 border border-white/10 space-y-1.5">
+                <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Issue: Account Temporarily Locked</span>
-                  <p className="text-white/70">After 5 consecutive incorrect password attempts, automated security locks your session for 15 minutes. Contact WhatsApp support to unlock immediately.</p>
+                  <p className="text-slate-600">After 5 consecutive incorrect password attempts, automated security locks your session for 15 minutes. Contact WhatsApp support to unlock immediately.</p>
                 </div>
               </div>
             </div>
 
             {/* Cross-Browser Syncing */}
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-2">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
               <h3 className="text-base font-bold text-[#F0C419]">
                 Seamless Cross-Device Synchronization
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 Whether you place early-morning cricket exchange wagers on your MacBook or trade live IPL overs on your Android smartphone on the commute home, your open bets, matched positions, and wallet balances synchronize across all browser tabs in real time. Our low-latency WebSocket infrastructure ensures that any odds movement or cashout event reflects instantaneously regardless of which screen you are actively viewing.
               </p>
             </div>
 
 {/* Session Security Policies */}
-            <div className="p-5 rounded-2xl bg-black/20 border border-white/10 space-y-3">
+            <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <h3 className="text-base font-bold text-[#F0C419]">
                 Single-Session Concurrency & Automated Security Timeouts
               </h3>
-              <p className="text-xs text-white/80 leading-relaxed">
+              <p className="text-xs text-slate-700 leading-relaxed">
                 To protect your funds against unauthorized remote access, Lotus365 enforces automated single-session concurrent locks. If your account is logged in on a mobile phone and someone attempts to log in from an unknown desktop IP, the existing session is prompted for confirmation. Furthermore, sessions with zero activity automatically time out after 30 minutes of inactivity to safeguard against public device snooping.
               </p>
             </div>
@@ -595,9 +595,9 @@ export const LoginPage: React.FC = () => {
               </h2>
               <div className="space-y-4">
                 {loginFaqs.map((faq, idx) => (
-                  <div key={idx} className="p-4 rounded-xl bg-black/20 border border-white/10">
-                    <h3 className="font-bold text-white text-sm mb-2">{faq.q}</h3>
-                    <p className="text-xs text-white/70 leading-relaxed">{faq.a}</p>
+                  <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
+                    <h3 className="font-bold text-slate-900 text-sm mb-2">{faq.q}</h3>
+                    <p className="text-xs text-slate-600 leading-relaxed">{faq.a}</p>
                   </div>
                 ))}
               </div>

@@ -65,7 +65,7 @@ export const T20WorldCupPage: React.FC = () => (
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'T20 World Cup Betting' }]}
       />
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#05120d]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
           {/* Live T20 World Cup Exchange Widget */}
           <div className="space-y-4">
@@ -74,7 +74,7 @@ export const T20WorldCupPage: React.FC = () => (
                 <span className="text-xs uppercase font-extrabold tracking-wider text-[#F0C419]">
                   ICC World Cup Terminal
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-black text-white">
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
                   Live International Match Trading
                 </h2>
               </div>
@@ -91,8 +91,8 @@ export const T20WorldCupPage: React.FC = () => (
           </div>
 
           {/* Section 1: Overview */}
-          <div className="p-8 sm:p-10 rounded-3xl bg-[#081a13]/70 border border-white/10 space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-black text-white">
+          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
               The ICC T20 World Cup: International Cricket's Greatest Spectacle
             </h2>
             <p>
@@ -104,7 +104,7 @@ export const T20WorldCupPage: React.FC = () => (
           </div>
 
           {/* Section 2: Global Power Rankings */}
-          <div className="p-8 rounded-3xl bg-black/20 border border-white/15 space-y-6">
+          <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               T20 World Cup Contender Analysis & Betting Dynamics
             </h2>
@@ -135,12 +135,12 @@ export const T20WorldCupPage: React.FC = () => (
                   angle: 'Excellent value when batting first on hard, bouncy wickets.',
                 },
               ].map((c) => (
-                <div key={c.team} className="p-4 rounded-xl bg-white/5 border border-white/10 space-y-1.5">
+                <div key={c.team} className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
                   <div className="flex justify-between items-center">
-                    <span className="font-bold text-white text-base text-[#F0C419]">{c.team}</span>
+                    <span className="font-bold text-slate-900 text-base text-[#F0C419]">{c.team}</span>
                     <span className="text-xs bg-[#F0C419]/20 text-[#F0C419] px-2 py-0.5 rounded-full font-bold">{c.odds}</span>
                   </div>
-                  <div className="text-white/70"><strong>Core Strengths:</strong> {c.strengths}</div>
+                  <div className="text-slate-600"><strong>Core Strengths:</strong> {c.strengths}</div>
                   <div className="text-emerald-400 font-semibold pt-1">💡 Betting Angle: {c.angle}</div>
                 </div>
               ))}
@@ -156,9 +156,9 @@ export const T20WorldCupPage: React.FC = () => (
               Every single match of the T20 World Cup is broken down into granular in-play micro-markets allowing strategic wagering on every ball:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm">
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">Tournament Outrights</h3>
-                <ul className="text-white/70 space-y-1 list-disc list-inside">
+                <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Tournament Winner Outright</li>
                   <li>Finalists Prediction (Name the Finalists)</li>
                   <li>Top Tournament Run Scorer (Golden Bat)</li>
@@ -166,9 +166,9 @@ export const T20WorldCupPage: React.FC = () => (
                   <li>Group Stage To Qualify / Top of Group</li>
                 </ul>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">Match In-Play Markets</h3>
-                <ul className="text-white/70 space-y-1 list-disc list-inside">
+                <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Match Winner (Back & Lay)</li>
                   <li>6-Over Powerplay Session Benchmark</li>
                   <li>10-Over Mid-Innings Session</li>
@@ -176,9 +176,9 @@ export const T20WorldCupPage: React.FC = () => (
                   <li>Next Wicket Method of Dismissal</li>
                 </ul>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">Player Propositions</h3>
-                <ul className="text-white/70 space-y-1 list-disc list-inside">
+                <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Top Batsman (Team 1 & Team 2)</li>
                   <li>Top Bowler (Team 1 & Team 2)</li>
                   <li>Player Total Runs (Over/Under 28.5)</li>
@@ -195,7 +195,7 @@ export const T20WorldCupPage: React.FC = () => (
               <Star className="w-5 h-5 fill-current" />
               <span>Pro Tip: Trading Rain Interruptions & DLS Revisions</span>
             </div>
-            <p className="text-white/85 text-xs sm:text-sm leading-relaxed">
+            <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
               In tournament cricket where rain delays can occur, the Duckworth-Lewis-Stern (DLS) method systematically rewards teams that have wickets in hand when rain pauses play. On the Lotus365 <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="cricket exchange">cricket exchange</Link>, observant traders watch radar weather feeds: if clouds gather and a team is batting conservatively without losing wickets, laying the bowling team before rain hits generates instant price arbitrage when the revised par score drops significantly in the batting team's favor!
             </p>
           </div>
@@ -212,17 +212,17 @@ export const T20WorldCupPage: React.FC = () => (
               At this semi-final stage, exchange traders "Lay" both teams on the Lotus365 Cricket Exchange. By laying off the liability at significantly compressed odds, you create an unassailable "green book"—guaranteeing an identical net profit regardless of whether India, Australia, or an underdog opponent captures the World Cup trophy.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1.5">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                 <span className="font-bold text-[#F0C419] text-sm">Step 1: Early Value</span>
-                <p className="text-white/70">Back two dominant tournament favorites prior to the Super 8 round while odds offer double-digit value.</p>
+                <p className="text-slate-600">Back two dominant tournament favorites prior to the Super 8 round while odds offer double-digit value.</p>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1.5">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                 <span className="font-bold text-[#F0C419] text-sm">Step 2: Track Price Compression</span>
-                <p className="text-white/70">Observe market shortening as your chosen contenders qualify for the semi-finals and odds drop below 2.00.</p>
+                <p className="text-slate-600">Observe market shortening as your chosen contenders qualify for the semi-finals and odds drop below 2.00.</p>
               </div>
-              <div className="p-4 rounded-xl bg-black/25 border border-white/10 space-y-1.5">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                 <span className="font-bold text-[#F0C419] text-sm">Step 3: Lay & Green Up</span>
-                <p className="text-white/70">Lay the shortened positions on the exchange to lock in 100% risk-free profit before the final ball is bowled.</p>
+                <p className="text-slate-600">Lay the shortened positions on the exchange to lock in 100% risk-free profit before the final ball is bowled.</p>
               </div>
             </div>
           </div>
@@ -235,34 +235,34 @@ export const T20WorldCupPage: React.FC = () => (
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs sm:text-sm border-collapse rounded-xl overflow-hidden">
                 <thead>
-                  <tr className="bg-black/40 text-[#F0C419] border-b border-white/20">
+                  <tr className="bg-slate-50 border border-slate-200 text-[#F0C419] border-b border-slate-200">
                     <th className="p-3.5">Market Selection</th>
                     <th className="p-3.5">Lotus365 Exchange Odds</th>
                     <th className="p-3.5">Standard Bookmaker</th>
                     <th className="p-3.5">Net Advantage (on ₹10,000 Wager)</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/10 bg-black/20 text-white/80">
+                <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3.5 font-bold text-white">India to Beat Pakistan</td>
+                    <td className="p-3.5 font-bold text-slate-900">India to Beat Pakistan</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">1.75</td>
-                    <td className="p-3.5 text-white/60">1.62</td>
+                    <td className="p-3.5 text-slate-500">1.62</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">+₹1,300 Extra Net Cash</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Australia to Win World Cup Outright</td>
+                    <td className="p-3.5 font-bold text-slate-900">Australia to Win World Cup Outright</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">4.80</td>
-                    <td className="p-3.5 text-white/60">4.10</td>
+                    <td className="p-3.5 text-slate-500">4.10</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">+₹7,000 Extra Net Cash</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Match Total Sixes Over 14.5</td>
+                    <td className="p-3.5 font-bold text-slate-900">Match Total Sixes Over 14.5</td>
                     <td className="p-3.5 text-[#F0C419] font-bold">1.94</td>
-                    <td className="p-3.5 text-white/60">1.81</td>
+                    <td className="p-3.5 text-slate-500">1.81</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">+₹1,300 Extra Net Cash</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-white">Withdrawal Processing SLA</td>
+                    <td className="p-3.5 font-bold text-slate-900">Withdrawal Processing SLA</td>
                     <td className="p-3.5 text-emerald-400 font-bold">Under 2 Minutes (UPI)</td>
                     <td className="p-3.5 text-rose-400">24-48 Hours with manual review</td>
                     <td className="p-3.5 text-emerald-400 font-semibold">Instant Access to Money</td>
@@ -273,11 +273,11 @@ export const T20WorldCupPage: React.FC = () => (
           </div>
 
           {/* Tactical In-Play Analysis */}
-          <div className="p-6 rounded-2xl bg-black/20 border border-white/10 space-y-3">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
               Super 8 Overs Trading & DRS Impact Dynamics in T20 World Cup
             </h2>
-            <p className="text-xs sm:text-sm text-white/80 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               In ICC T20 World Cup fixtures, in-play liquidity surges during death overs (overs 16 to 20) and critical DRS reviews. Lotus365 provides sub-second odds recalculations that allow sharp traders to back batting sides when boundary hitters find rhythm or lay short prices when mystery spinners trigger middle-over dot ball pressure. Combined with zero latency streaming updates and 2-minute UPI cashouts, you maintain an unmatched betting advantage throughout the tournament.
             </p>
           </div>
@@ -290,12 +290,12 @@ export const T20WorldCupPage: React.FC = () => (
             </h2>
             <div className="space-y-4 text-sm">
               {t20Faqs.map((item, idx) => (
-                <div key={idx} className="p-5 rounded-2xl bg-black/25 border border-white/10 space-y-2">
-                  <h3 className="font-bold text-white text-base flex items-start gap-2">
+                <div key={idx} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
+                  <h3 className="font-bold text-slate-900 text-base flex items-start gap-2">
                     <span className="text-[#F0C419] font-extrabold">Q{idx + 1}:</span>
                     <span>{item.question}</span>
                   </h3>
-                  <p className="text-white/75 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed pl-6">{item.answer}</p>
                 </div>
               ))}
             </div>
