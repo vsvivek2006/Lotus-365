@@ -10,6 +10,7 @@ import {
   ShieldCheck,
   Headphones,
   Crown,
+  Sparkles,
 } from 'lucide-react';
 import { getWhatsAppUrl } from '../data/landingData';
 
@@ -23,35 +24,35 @@ const fintechBadges = [
     title: 'Instant Access',
     subtitle: 'via WhatsApp',
     color: 'text-emerald-300',
-    bg: 'bg-emerald-500/20 border-emerald-400/30',
+    bg: 'bg-emerald-500/25 border-emerald-400/40',
   },
   {
     icon: Clock,
     title: '30 Sec',
     subtitle: 'UPI Deposits',
     color: 'text-amber-300',
-    bg: 'bg-amber-500/20 border-amber-400/30',
+    bg: 'bg-amber-500/25 border-amber-400/40',
   },
   {
     icon: ShieldCheck,
     title: '2 Min',
     subtitle: 'Cashouts',
     color: 'text-teal-300',
-    bg: 'bg-teal-500/20 border-teal-400/30',
+    bg: 'bg-teal-500/25 border-teal-400/40',
   },
   {
     icon: Headphones,
     title: '24/7',
-    subtitle: 'Support',
+    subtitle: 'Live Support',
     color: 'text-emerald-200',
-    bg: 'bg-emerald-500/20 border-emerald-400/30',
+    bg: 'bg-emerald-500/25 border-emerald-400/40',
   },
   {
     icon: Crown,
     title: 'VIP',
-    subtitle: 'Benefits',
+    subtitle: 'Benefits & Rewards',
     color: 'text-yellow-300',
-    bg: 'bg-yellow-500/20 border-yellow-400/30',
+    bg: 'bg-yellow-500/25 border-yellow-400/40',
   },
 ];
 
@@ -103,24 +104,25 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
 
       {/* ══ INNER CONTENT WRAPPER ══ */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
 
           {/* ─────────────────────────────────────────────────────────────
               LEFT COLUMN: High-Impact Typography, SEO Pitch & Dual CTAs
           ───────────────────────────────────────────────────────────── */}
           <div className="lg:col-span-7 text-center lg:text-left">
             
-            {/* Tagline / Eyebrow Pill */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 backdrop-blur-md mb-5 shadow-sm">
-              <span className="flex h-2.5 w-2.5 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-300 opacity-75" />
-                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-yellow-400" />
+            {/* Tagline / Eyebrow Pill — Luxury Redesigned */}
+            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gradient-to-r from-yellow-400/20 via-amber-300/15 to-emerald-400/20 border border-yellow-300/40 backdrop-blur-md mb-5 shadow-[0_2px_14px_rgba(250,204,21,0.2)]">
+              <span className="flex h-2 w-2 relative">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-300 opacity-80" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-400" />
               </span>
-              <span className="text-white text-xs sm:text-sm font-black uppercase tracking-wider">
+              <Sparkles className="w-3.5 h-3.5 text-yellow-300 fill-yellow-300/40" />
+              <span className="text-yellow-200 text-xs sm:text-[13px] font-black uppercase tracking-wider drop-shadow-2xs">
                 Play Bigger. Win Bigger.
               </span>
-              <span className="text-white/40">•</span>
-              <span className="text-emerald-100 text-xs sm:text-sm font-semibold">
+              <span className="w-1 h-1 rounded-full bg-yellow-300/60" />
+              <span className="text-emerald-100 text-xs sm:text-[13px] font-bold tracking-wide">
                 Official Platform
               </span>
             </div>
@@ -146,7 +148,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
             </p>
 
             {/* Dual CTAs (WhatsApp Green + Frosted Glass 2-Min Demo) */}
-            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               {/* Primary: Get ID on WhatsApp */}
               <button
                 onClick={handleWhatsApp}
@@ -186,28 +188,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
               </button>
             </div>
 
-            {/* 5 Executive Fintech Badges (Integrated Glass Pills) */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-3">
-              {fintechBadges.map(({ icon: Icon, title, subtitle, color, bg }) => (
-                <div
-                  key={title}
-                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 border border-white/20 backdrop-blur-md transition-all shadow-xs"
-                >
-                  <div className={`p-1.5 rounded-lg border ${bg} shrink-0`}>
-                    <Icon className={`w-4 h-4 ${color}`} />
-                  </div>
-                  <div className="text-left min-w-0">
-                    <div className="text-white text-xs font-black leading-tight truncate">
-                      {title}
-                    </div>
-                    <div className="text-emerald-100/70 text-[10px] font-medium leading-tight truncate mt-0.5">
-                      {subtitle}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-
           </div>
 
           {/* ─────────────────────────────────────────────────────────────
@@ -238,6 +218,36 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
           </div>
 
         </div>
+
+        {/* ═════════════════════════════════════════════════════════════════
+            5 EXECUTIVE FINTECH BADGES (Full-Width Generous Trust Bar)
+            (Moved out of cramped column to full width - No truncation!)
+        ═════════════════════════════════════════════════════════════════ */}
+        <div className="relative z-20 mt-8 lg:mt-12 pt-6 border-t border-white/15">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+            {fintechBadges.map(({ icon: Icon, title, subtitle, color, bg }) => (
+              <div
+                key={title}
+                className="flex items-center gap-3 p-3 sm:p-3.5 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/20 backdrop-blur-md transition-all shadow-sm group cursor-default"
+              >
+                <div
+                  className={`p-2 rounded-xl border ${bg} shrink-0 group-hover:scale-105 transition-transform`}
+                >
+                  <Icon className={`w-4 h-4 sm:w-5 sm:h-5 ${color}`} />
+                </div>
+                <div className="text-left min-w-0">
+                  <div className="text-white text-xs sm:text-sm font-black leading-tight whitespace-nowrap">
+                    {title}
+                  </div>
+                  <div className="text-emerald-100/75 text-[10px] sm:text-[11px] font-semibold leading-tight whitespace-nowrap mt-0.5">
+                    {subtitle}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   );

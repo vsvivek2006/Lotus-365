@@ -37,8 +37,8 @@ export const PopularSectionsBar: React.FC<PopularSectionsBarProps> = ({ onOpenAu
       badgeColor: 'bg-amber-50 text-amber-700 border-amber-200',
     },
     {
-      title: 'Games',
-      subtitle: 'Free to Play',
+      title: 'Aviator',
+      subtitle: 'Crash Games & Multiplier',
       href: '/aviator-game',
       image: '/images/games/card_crash.jpg',
       badge: 'HOT RTP',
@@ -49,22 +49,25 @@ export const PopularSectionsBar: React.FC<PopularSectionsBarProps> = ({ onOpenAu
       subtitle: 'Exclusive Benefits',
       href: '/vip-club',
       image: '/images/vip/vip_crown_pure.jpg',
-      badge: 'EXCLUSIVE',
+      badge: 'ROYAL PERKS',
       badgeColor: 'bg-yellow-50 text-yellow-800 border-yellow-200',
     },
   ];
 
   return (
-    <section className="py-8 bg-white border-b border-gray-100 relative z-20">
+    <section className="py-8 sm:py-10 bg-[#F8FAFC] border-b border-slate-200/80 relative z-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="flex items-center justify-between gap-4 mb-5">
-          <div className="flex items-center gap-2">
+        <div className="flex items-center justify-between gap-4 mb-6">
+          <div className="flex items-center gap-2.5">
             <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
               <span>Popular Sections</span>
-              <Sparkles className="w-5 h-5 text-emerald-500 fill-emerald-500" />
+              <Sparkles className="w-5 h-5 text-emerald-600 fill-emerald-600" />
             </h2>
+            <span className="hidden sm:inline-block text-xs font-semibold text-slate-500 bg-white px-2.5 py-0.5 rounded-full border border-slate-200">
+              Instant Access
+            </span>
           </div>
           <Link
             href="/sportsbook"
@@ -76,47 +79,48 @@ export const PopularSectionsBar: React.FC<PopularSectionsBarProps> = ({ onOpenAu
         </div>
 
         {/* 5-Card Responsive Grid directly modeled from Mockup 1 */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 mb-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5 sm:gap-4 mb-6">
           {sections.map((sec, idx) => (
             <Link
               key={idx}
               href={sec.href}
-              className={`group relative p-4 rounded-2xl bg-white text-slate-900 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between overflow-hidden ${
+              className={`group relative p-4 sm:p-5 rounded-2xl bg-white text-slate-900 border border-slate-200/90 shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between overflow-hidden ${
                 idx === 4 ? 'col-span-2 sm:col-span-1' : ''
               }`}
             >
               {/* Top Row: Badge */}
               <div className="flex items-center justify-between mb-3">
-                <span className={`text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full border ${sec.badgeColor}`}>
+                <span
+                  className={`text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full border ${sec.badgeColor}`}
+                >
                   {sec.badge}
                 </span>
               </div>
 
               {/* Center 3D Visual with soft dissolve */}
-              <div className="relative w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 rounded-2xl overflow-hidden shadow-md group-hover:scale-105 transition-transform duration-300">
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 rounded-2xl overflow-hidden shadow-md group-hover:scale-105 transition-transform duration-300 bg-slate-50">
                 <Image
                   src={sec.image}
                   alt={sec.title}
                   fill
                   className="object-cover object-center"
                 />
-                {/* Dissolve ring border */}
-                <div className="absolute inset-0 rounded-2xl border border-white/20 shadow-[inset_0_0_10px_rgba(0,0,0,0.2)]" />
+                <div className="absolute inset-0 rounded-2xl border border-white/20 shadow-[inset_0_0_10px_rgba(0,0,0,0.15)]" />
               </div>
 
               {/* Title & Subtitle */}
-              <div className="text-center mt-1">
+              <div className="text-center mt-2">
                 <div className="font-black text-base text-slate-900 group-hover:text-emerald-700 transition-colors">
                   {sec.title}
                 </div>
-                <div className="text-[11px] text-slate-500 font-medium">
+                <div className="text-[11px] text-slate-500 font-medium truncate mt-0.5">
                   {sec.subtitle}
                 </div>
               </div>
 
               {/* Bottom indicator */}
-              <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-center gap-1 text-xs font-bold text-emerald-600">
-                <span>Explore</span>
+              <div className="mt-3.5 pt-2.5 border-t border-slate-100 flex items-center justify-center gap-1 text-xs font-bold text-emerald-600">
+                <span>Play Now</span>
                 <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
               </div>
             </Link>
@@ -161,7 +165,7 @@ export const PopularSectionsBar: React.FC<PopularSectionsBarProps> = ({ onOpenAu
 
             {/* Right: Gold Pill Button */}
             <div className="shrink-0">
-              <span className="gold-pill-btn !py-2.5 !px-6 !text-xs font-black shadow-lg flex items-center gap-2 group-hover:scale-105 transition-transform">
+              <span className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-yellow-400 to-amber-500 hover:from-yellow-300 hover:to-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider shadow-lg group-hover:scale-105 transition-transform">
                 <span>Explore VIP</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </span>
