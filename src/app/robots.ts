@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://lotus365officialid.com';
+  const baseUrl = 'https://lotusplay365.shop';
 
   return {
     rules: [

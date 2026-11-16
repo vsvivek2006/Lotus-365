@@ -945,7 +945,7 @@ export const KycVerificationGuidePage: React.FC = () => (
 const securityTipsFaqs = [
   { q: 'How does Lotus365 protect my account from unauthorized access?', a: 'We enforce 256-bit TLS/SSL encryption, automated single-session concurrency locks, 30-minute inactivity timeouts, and WhatsApp-verified credential resets.' },
   { q: 'Will Lotus365 support staff ever ask for my secret password or bank OTP?', a: 'NEVER. Official Lotus365 staff will never ask you to reveal your secret password, bank OTP, or UPI PIN. Never share these credentials with anyone.' },
-  { q: 'How do I recognize official Lotus365 login portals?', a: 'Always ensure the URL in your browser is https://lotus365officialid.com with an active SSL padlock. Beware of lookalike phishing domains on unverified Telegram channels.' },
+  { q: 'How do I recognize official Lotus365 login portals?', a: 'Always ensure the URL in your browser is https://lotusplay365.shop with an active SSL padlock. Beware of lookalike phishing domains on unverified Telegram channels.' },
   { q: 'What should I do if I suspect someone knows my password?', a: 'Message our 24/7 WhatsApp concierge immediately. We will freeze active sessions and issue a newly encrypted temporary password within 60 seconds.' },
   { q: 'Can I access my account from multiple devices?', a: 'Yes, but for security, logging in on a new device will prompt a session verification check on your active mobile phone.' },
 ];
@@ -995,7 +995,7 @@ export const AccountSecurityTipsPage: React.FC = () => (
               <ShieldCheck className="w-8 h-8 text-emerald-400" />
               <h3 className="text-lg font-bold text-slate-900">Verify the Domain</h3>
               <p className="text-xs sm:text-sm text-slate-600">
-                Bookmark <strong className="text-[#F0C419]">lotus365officialid.com</strong>. Never enter your credentials on suspicious Telegram links or unverified mirror sites.
+                Bookmark <strong className="text-[#F0C419]">lotusplay365.shop</strong>. Never enter your credentials on suspicious Telegram links or unverified mirror sites.
               </p>
             </div>
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">

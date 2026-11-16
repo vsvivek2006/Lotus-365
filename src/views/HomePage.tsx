@@ -28,26 +28,26 @@ const homeSchema = {
   '@graph': [
     {
       '@type': 'WebSite',
-      '@id': 'https://lotus365officialid.com/#website',
+      '@id': 'https://lotusplay365.shop/#website',
       name: 'Lotus365 Official',
-      url: 'https://lotus365officialid.com',
+      url: 'https://lotusplay365.shop',
       description: "India's #1 cricket betting exchange and live casino. Instant WhatsApp ID, 2-minute cashouts, and 24/7 dedicated support.",
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'https://lotus365officialid.com/search?q={search_term_string}',
+          urlTemplate: 'https://lotusplay365.shop/search?q={search_term_string}',
         },
         'query-input': 'required name=search_term_string',
       },
     },
     {
       '@type': 'SportsWagering',
-      '@id': 'https://lotus365officialid.com/#organization',
+      '@id': 'https://lotusplay365.shop/#organization',
       name: 'Lotus365 Official',
-      url: 'https://lotus365officialid.com',
-      logo: 'https://lotus365officialid.com/lotus-logo.png',
-      image: 'https://lotus365officialid.com/og-banner.webp',
+      url: 'https://lotusplay365.shop',
+      logo: 'https://lotusplay365.shop/lotus-logo.png',
+      image: 'https://lotusplay365.shop/og-banner.webp',
       description: "India's premier cricket betting exchange, live casino, and instant UPI cashout platform with 24/7 WhatsApp concierge.",
       offers: {
         '@type': 'Offer',
@@ -58,7 +58,7 @@ const homeSchema = {
     },
     {
       '@type': 'FAQPage',
-      '@id': 'https://lotus365officialid.com/#faq',
+      '@id': 'https://lotusplay365.shop/#faq',
       name: 'Lotus365 Frequently Asked Questions',
       mainEntity: FAQ_DATA.map((faq) => ({
         '@type': 'Question',

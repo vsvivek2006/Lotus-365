@@ -49,7 +49,7 @@ const liveCasinoFaqs = [
   },
   {
     question: 'Can I play live casino tables on my smartphone?',
-    answer: 'Yes! Lotus365 is 100% mobile-optimized. Simply open lotus365officialid.com on Mobile Chrome or Safari, tap your favorite game, and begin playing in fullscreen landscape or portrait mode immediately.'
+    answer: 'Yes! Lotus365 is 100% mobile-optimized. Simply open lotusplay365.shop on Mobile Chrome or Safari, tap your favorite game, and begin playing in fullscreen landscape or portrait mode immediately.'
   },
 ];
 
@@ -81,7 +81,7 @@ export const LiveCasinoPage: React.FC = () => (
               World-Class Live Casino Streaming Directly to Your Mobile Screen
             </h2>
             <p>
-              Forget static computer graphics. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
+              Forget static computer graphics. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
             </p>
             <p>
               Whether you are an enthusiast of traditional Indian heritage card games like <Link href="/teen-patti" className="text-[#F0C419] hover:underline font-semibold" title="Teen Patti">Teen Patti</Link> and <Link href="/andar-bahar" className="text-[#F0C419] hover:underline font-semibold" title="Andar Bahar">Andar Bahar</Link>, or high-stakes European classics like <Link href="/roulette" className="text-[#F0C419] hover:underline font-semibold" title="Roulette">Roulette</Link> and <Link href="/blackjack" className="text-[#F0C419] hover:underline font-semibold" title="Blackjack">Blackjack</Link>, Lotus365 provides transparent dealing with zero RNG doubts.

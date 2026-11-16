@@ -38,7 +38,7 @@ const contactFaqs = [
   },
   {
     q: 'What should I do if my WhatsApp message doesn’t deliver?',
-    a: 'Check your internet connection or ensure you are clicking the direct official link: wa.link/880088. You can also re-launch the chat from lotus365officialid.com.'
+    a: 'Check your internet connection or ensure you are clicking the direct official link: wa.link/880088. You can also re-launch the chat from lotusplay365.shop.'
   },
   {
     q: 'Does Lotus365 provide phone call support?',
@@ -186,7 +186,7 @@ export const ContactPage: React.FC = () => {
               <div className="space-y-1 text-xs">
                 <strong className="text-[#F0C419] block text-sm">Critical Security Notice: Beware of Fake Impostor Channels</strong>
                 <p className="text-slate-700 leading-relaxed">
-                  Always initiate contact exclusively through the official links on <strong className="text-white">lotus365officialid.com</strong>. Beware of rogue Telegram groups or Facebook pages claiming to be "Lotus365 Customer Care." Legitimate Lotus365 representatives will <strong>never</strong> ask for your bank ATM PIN, UPI MPIN, or confidential bank passwords.
+                  Always initiate contact exclusively through the official links on <strong className="text-white">lotusplay365.shop</strong>. Beware of rogue Telegram groups or Facebook pages claiming to be "Lotus365 Customer Care." Legitimate Lotus365 representatives will <strong>never</strong> ask for your bank ATM PIN, UPI MPIN, or confidential bank passwords.
                 </p>
               </div>
             </div>
@@ -285,7 +285,7 @@ export const ContactPage: React.FC = () => {
                 Before sending funds or requesting payouts, please review these 3 golden verification rules:
               </p>
               <ul className="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
-                <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link href="/" className="text-[#F0C419] underline" title="lotus365officialid.com">lotus365officialid.com</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
+                <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link href="/" className="text-[#F0C419] underline" title="lotusplay365.shop">lotusplay365.shop</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
                 <li><strong className="text-white">Confirmed UPI Merchant VPA:</strong> Legitimate Lotus365 deposit accounts will always display confirmed merchant names verified by our desk, and your personal account manager will provide dynamic deposit references matching your exact username.</li>
                 <li><strong className="text-white">No Sensitive Disclosures:</strong> We will never ask you to click third-party remote screen-sharing tools like AnyDesk or TeamViewer, nor will we ever prompt you to enter your bank ATM PIN or OTP.</li>
               </ul>

@@ -37,7 +37,7 @@ const privacyPolicyFaqs = [
   },
   {
     q: 'Does Lotus365 share data with overseas advertising networks like Meta or Google?',
-    a: 'No. We do not run external tracking pixels or sell audience lists to ad exchanges. Your visit to lotus365officialid.com is untracked by third-party social networks.'
+    a: 'No. We do not run external tracking pixels or sell audience lists to ad exchanges. Your visit to lotusplay365.shop is untracked by third-party social networks.'
   },
   {
     q: 'How long are my financial transaction logs retained?',
@@ -153,7 +153,7 @@ export const PrivacyPolicyPage: React.FC = () => (
             <div>
               <h2 className="text-xl font-extrabold text-slate-900 mb-3">5. Cookie Policy & Local Browser Storage</h2>
               <p className="mb-2">
-                On <strong className="text-white">lotus365officialid.com</strong>, we utilize lightweight, functional cookies exclusively to maintain your authenticated login session and remember your layout preferences. We do not deploy third-party advertising tracking cookies or ad retargeting pixels that monitor your browsing behavior across other websites.
+                On <strong className="text-white">lotusplay365.shop</strong>, we utilize lightweight, functional cookies exclusively to maintain your authenticated login session and remember your layout preferences. We do not deploy third-party advertising tracking cookies or ad retargeting pixels that monitor your browsing behavior across other websites.
               </p>
             </div>
 
@@ -192,7 +192,7 @@ export const PrivacyPolicyPage: React.FC = () => (
             <div>
               <h2 className="text-xl font-extrabold text-slate-900 mb-3">10. Anti-Phishing & Counter-Impersonation Protective Framework</h2>
               <p className="mb-2">
-                To protect players against malicious cyber syndicates attempting brand imitation, Lotus365 maintains active trademark and digital asset monitoring. We continually scan domain registries to takedown fraudulent copycat websites attempting to impersonate lotus365officialid.com. Our staff will never reach out via unsolicited SMS, Telegram private bots, or unauthorized email lists.
+                To protect players against malicious cyber syndicates attempting brand imitation, Lotus365 maintains active trademark and digital asset monitoring. We continually scan domain registries to takedown fraudulent copycat websites attempting to impersonate lotusplay365.shop. Our staff will never reach out via unsolicited SMS, Telegram private bots, or unauthorized email lists.
               </p>
             </div>
 

@@ -5,20 +5,20 @@ export const metadata: Metadata = {
   description: "Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7.",
   keywords: "andar bahar online, live andar bahar india, andar bahar real money, play andar bahar online, andar bahar game online, katti card game, andar bahar winning tricks",
   alternates: {
-    canonical: "https://lotus365officialid.com/andar-bahar",
+    canonical: "https://lotusplay365.shop/andar-bahar",
   },
   openGraph: {
     title: "Andar Bahar Online Real Cash | Live Dealer Card Game",
     description: "Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7.",
-    url: "https://lotus365officialid.com/andar-bahar",
+    url: "https://lotusplay365.shop/andar-bahar",
     type: "website",
-    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+    images: [{ url: "https://lotusplay365.shop/og-banner.webp" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Andar Bahar Online Real Cash | Live Dealer Card Game",
     description: "Experience live dealer Andar Bahar on Lotus365. Fast-paced 50/50 gameplay, exciting side bets with up to 120x payouts, and 2-minute UPI cashouts 24/7.",
-    images: ["https://lotus365officialid.com/og-banner.webp"],
+    images: ["https://lotusplay365.shop/og-banner.webp"],
   },
 };
 

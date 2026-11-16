@@ -178,7 +178,7 @@ const sitemapFaqs = [
   },
   {
     q: 'Where can I find the XML sitemap for search engine crawlers?',
-    a: 'Our machine-readable XML sitemap is maintained at https://lotus365officialid.com/sitemap.xml and indexed directly with Google Search Console.',
+    a: 'Our machine-readable XML sitemap is maintained at https://lotusplay365.shop/sitemap.xml and indexed directly with Google Search Console.',
   },
   {
     q: 'How frequently is this directory updated?',
@@ -256,7 +256,7 @@ export const SitemapPage: React.FC = () => (
               Our {totalPagesCount} platform routes are categorized into {sitemapData.length} core thematic silos to deliver an intuitive user experience and clear semantic signals to search engines. The Sports Betting exchange silo provides comprehensive market depth for cricket, IPL, football, tennis, and regional communities. The Live Casino cluster contains dedicated guides for Indian classics like Teen Patti and Andar Bahar alongside Evolution Gaming roulette, blackjack, and baccarat. The Banking hub covers step-by-step 2-minute UPI deposits and instant IMPS cashouts, while the VIP & Promotions directory details cashback tiers, referral bonuses, and high-roller privileges.
             </p>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Every page on lotus365officialid.com operates under HTTPS SSL encryption, complies with Google mobile-first indexing standards, and offers direct access to our 24/7 human WhatsApp concierge service at https://wa.link/880088 with direct 1-tap mobile access.
+              Every page on lotusplay365.shop operates under HTTPS SSL encryption, complies with Google mobile-first indexing standards, and offers direct access to our 24/7 human WhatsApp concierge service at https://wa.link/880088 with direct 1-tap mobile access.
             </p>
           </div>
 
@@ -391,7 +391,7 @@ export const SitemapPage: React.FC = () => (
               Comprehensive Platform Navigation & Security Verification Protocols
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-              Navigating across Lotus365 is designed to be seamless across both mobile devices and desktop computers. Every link cataloged in this directory connects directly to our verified domain lotus365officialid.com. Players enjoy immediate, secure access directly on any smartphone, tablet, or PC.
+              Navigating across Lotus365 is designed to be seamless across both mobile devices and desktop computers. Every link cataloged in this directory connects directly to our verified domain lotusplay365.shop. Players enjoy immediate, secure access directly on any smartphone, tablet, or PC.
             </p>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
               All financial deposits and cashouts are channeled through authorized WhatsApp verification desks with end-to-end encryption. Bookmark this sitemap as your permanent navigational compass for real-time cricket odds, live dealer tables, VIP reward tiers, and 2-minute UPI settlement guides.

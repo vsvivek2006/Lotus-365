@@ -144,7 +144,7 @@ export const HowToDepositPage: React.FC = () => (
                 {
                   step: '05',
                   title: 'Instant Balance Credit & Confirmation',
-                  desc: 'Our automated reconciliation system validates the UTR against the banking ledger and updates your lotus365officialid.com balance in under 30 seconds.',
+                  desc: 'Our automated reconciliation system validates the UTR against the banking ledger and updates your lotusplay365.shop balance in under 30 seconds.',
                 },
               ].map((item) => (
                 <div key={item.step} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-4">
@@ -393,7 +393,7 @@ export const HowToWithdrawPage: React.FC = () => (
                 {
                   step: '01',
                   title: 'Verify Your Unlocked Balance',
-                  desc: 'Log in to lotus365officialid.com and ensure your winnings are not tied up in active, unclosed sports bets or ongoing casino rounds.',
+                  desc: 'Log in to lotusplay365.shop and ensure your winnings are not tied up in active, unclosed sports bets or ongoing casino rounds.',
                 },
                 {
                   step: '02',

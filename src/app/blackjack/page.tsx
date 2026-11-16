@@ -5,20 +5,20 @@ export const metadata: Metadata = {
   description: "Play real money Blackjack 21 online with 99.5% RTP. Enjoy side bets like Perfect Pairs and 21+3 with professional live dealers and fast UPI settlements.",
   keywords: "blackjack online india, live blackjack india, play blackjack 21, real money blackjack, online 21 card game, blackjack strategy india",
   alternates: {
-    canonical: "https://lotus365officialid.com/blackjack",
+    canonical: "https://lotusplay365.shop/blackjack",
   },
   openGraph: {
     title: "Live Blackjack India | Real Dealer 21 with 99.5% RTP",
     description: "Play real money Blackjack 21 online with 99.5% RTP. Enjoy side bets like Perfect Pairs and 21+3 with professional live dealers and fast UPI settlements.",
-    url: "https://lotus365officialid.com/blackjack",
+    url: "https://lotusplay365.shop/blackjack",
     type: "website",
-    images: [{ url: "https://lotus365officialid.com/og-banner.webp" }],
+    images: [{ url: "https://lotusplay365.shop/og-banner.webp" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Live Blackjack India | Real Dealer 21 with 99.5% RTP",
     description: "Play real money Blackjack 21 online with 99.5% RTP. Enjoy side bets like Perfect Pairs and 21+3 with professional live dealers and fast UPI settlements.",
-    images: ["https://lotus365officialid.com/og-banner.webp"],
+    images: ["https://lotusplay365.shop/og-banner.webp"],
   },
 };
 

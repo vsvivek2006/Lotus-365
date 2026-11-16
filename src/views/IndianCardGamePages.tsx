@@ -35,7 +35,7 @@ const teenPattiFaqs = [
   { question: 'How fast can I withdraw my Teen Patti winnings?', answer: 'You can cash out your balance at any time through our 24/7 WhatsApp desk. UPI payouts are delivered in an average of 1 minute 45 seconds.' },
   { question: 'What is 6-Card Bonus side bet in Teen Patti?', answer: 'The 6-Card Bonus combines your 3 cards with the dealer\'s 3 cards to form the best possible 5-card poker hand. Hitting a Royal Flush pays out a monumental 1000:1 multiplier!' },
   { question: 'Can I chat with the live dealer in Hindi?', answer: 'Yes! Our dedicated Hindi Teen Patti tables feature native Indian dealers who converse warmly in Hindi throughout your session.' },
-  { question: 'Can I play Teen Patti on my mobile phone?', answer: 'Yes! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome or Safari and enjoy seamless full-screen gameplay directly in your browser.' },
+  { question: 'Can I play Teen Patti on my mobile phone?', answer: 'Yes! Lotus365 is 100% mobile-friendly. Simply open lotusplay365.shop in Chrome or Safari and enjoy seamless full-screen gameplay directly in your browser.' },
 ];
 
 const andarBaharFaqs = [
@@ -77,7 +77,7 @@ export const TeenPattiPage: React.FC = () => (
               The King of Indian Card Games: Teen Patti on Lotus365
             </h2>
             <p>
-              Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
+              Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
             </p>
           </div>
 
@@ -328,7 +328,7 @@ export const AndarBaharPage: React.FC = () => (
               The Magic of Andar Bahar: Simple, Fast & Electrifying
             </h2>
             <p>
-              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
+              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
             </p>
           </div>
 

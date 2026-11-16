@@ -17,7 +17,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://lotus365officialid.com'),
+  metadataBase: new URL('https://lotusplay365.shop'),
   title: 'Lotus365 Official Website – Cricket Exchange & Live Casino',
   description: 'Explore Lotus365 official sports exchange, live cricket odds, Aviator, Teen Patti & 1000+ casino tables.',
   robots: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'Lotus365 Official',
-    images: [{ url: 'https://lotus365officialid.com/og-banner.webp' }],
+    images: [{ url: 'https://lotusplay365.shop/og-banner.webp' }],
   },
   twitter: {
     card: 'summary_large_image',

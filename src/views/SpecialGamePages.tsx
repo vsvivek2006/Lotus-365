@@ -271,7 +271,7 @@ export const AviatorGamePage: React.FC = () => {
                 {[
                   { step: '01', title: 'Generate WhatsApp ID', desc: 'Message our 24/7 VIP helpline on WhatsApp (wa.link/880088). Receive your verified credentials within 30 seconds.' },
                   { step: '02', title: 'Instant UPI Top-Up', desc: 'Deposit funds via PhonePe, Google Pay, Paytm, or BHIM UPI. Minimum deposit is only ₹100 with zero processing deductions.' },
-                  { step: '03', title: 'Launch Aviator Lobby', desc: 'Log in to lotus365officialid.com on your mobile or PC browser. Tap "Crash Games" and choose Spribe Aviator with zero download.' },
+                  { step: '03', title: 'Launch Aviator Lobby', desc: 'Log in to lotusplay365.shop on your mobile or PC browser. Tap "Crash Games" and choose Spribe Aviator with zero download.' },
                   { step: '04', title: 'Place Bets & Cash Out', desc: 'Set your bet amount, configure your auto-cashout multiplier, and collect your payout before the plane departs.' },
                 ].map((item) => (
                   <div key={item.step} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-4">
@@ -345,7 +345,7 @@ const crashFaqs = [
   },
   {
     q: 'Can I play crash games easily on any smartphone?',
-    a: 'Yes. Lotus365 is 100% mobile-optimized. Simply navigate to lotus365officialid.com on Chrome or Safari for full high-definition gameplay on any Android or iOS device.'
+    a: 'Yes. Lotus365 is 100% mobile-optimized. Simply navigate to lotusplay365.shop on Chrome or Safari for full high-definition gameplay on any Android or iOS device.'
   },
 ];
 

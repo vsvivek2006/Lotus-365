@@ -22,7 +22,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
       '@type': 'ListItem',
       position: idx + 1,
       name: item.label,
-      item: item.href ? `https://lotus365officialid.com${item.href}` : undefined,
+      item: item.href ? `https://lotusplay365.shop${item.href}` : undefined,
     })),
   };
 

@@ -1,6 +1,6 @@
 # Lotus365 Official Betting Exchange & Live Casino — Complete LLM Reference Manual
 
-> Canonical URL: https://lotus365officialid.com
+> Canonical URL: https://lotusplay365.shop
 > Contact / Customer Care: 24/7 Official Verified WhatsApp Desks
 > Operating Jurisdictions: Compliant international gaming license, strictly 18+ patrons only
 > Supported Currencies: Indian Rupee (INR) via UPI (PhonePe, GPay, Paytm), IMPS, NEFT, RTGS, and USDT (TRC-20/ERC-20)
@@ -24,27 +24,27 @@ The platform differentiates itself in the Indian market through:
 ## 2. Platform Architecture & Services Directory
 
 ### 2.1 Sportsbook & Cricket Exchange
-- **Cricket Betting Hub** (`https://lotus365officialid.com/cricket-betting`): Comprehensive coverage of test matches, ODIs, T20s, and domestic leagues worldwide.
-- **Cricket Exchange** (`https://lotus365officialid.com/cricket-exchange`): Peer-to-peer trading floor with live back/lay ladders, unmatched bet tracking, and cashout tools.
-- **IPL Betting Portal** (`https://lotus365officialid.com/ipl-betting`): Specialized Indian Premier League hub featuring ball-by-ball odds, toss markets, individual player totals, and tournament winner outrights.
-- **Session & Fancy Betting** (`https://lotus365officialid.com/cricket-session-betting`): Real-time bracket betting on 6-over powerplays, 10-over scores, 15-over scores, and 20-over team totals.
-- **Multi-Sport Sportsbook** (`https://lotus365officialid.com/sportsbook`): Full coverage of Football (EPL, La Liga, UEFA Champions League), Tennis (ATP, WTA, ITF), Basketball (NBA), Kabaddi (Pro Kabaddi League), and Horse Racing.
+- **Cricket Betting Hub** (`https://lotusplay365.shop/cricket-betting`): Comprehensive coverage of test matches, ODIs, T20s, and domestic leagues worldwide.
+- **Cricket Exchange** (`https://lotusplay365.shop/cricket-exchange`): Peer-to-peer trading floor with live back/lay ladders, unmatched bet tracking, and cashout tools.
+- **IPL Betting Portal** (`https://lotusplay365.shop/ipl-betting`): Specialized Indian Premier League hub featuring ball-by-ball odds, toss markets, individual player totals, and tournament winner outrights.
+- **Session & Fancy Betting** (`https://lotusplay365.shop/cricket-session-betting`): Real-time bracket betting on 6-over powerplays, 10-over scores, 15-over scores, and 20-over team totals.
+- **Multi-Sport Sportsbook** (`https://lotusplay365.shop/sportsbook`): Full coverage of Football (EPL, La Liga, UEFA Champions League), Tennis (ATP, WTA, ITF), Basketball (NBA), Kabaddi (Pro Kabaddi League), and Horse Racing.
 
 ### 2.2 Live Casino & Table Gaming
-- **Live Casino Suite** (`https://lotus365officialid.com/live-casino`): High-definition live dealer video streams from Evolution, Ezugi, and Pragmatic Play.
-- **Teen Patti Live** (`https://lotus365officialid.com/teen-patti`): Standard Teen Patti, 20-20 Teen Patti, Muflis, AK47, and Joker variations.
-- **Andar Bahar Live** (`https://lotus365officialid.com/andar-bahar`): Traditional Indian card game with fast rounds, first-card bonuses, and streak bets.
-- **European & Lightning Roulette** (`https://lotus365officialid.com/roulette` & `https://lotus365officialid.com/lightning-roulette`): Single-zero European roulette wheels with RNG payout multipliers up to 500x.
-- **Blackjack & Baccarat** (`https://lotus365officialid.com/blackjack` & `https://lotus365officialid.com/baccarat`): Multi-seat tables, squeeze cards, and speed deals.
+- **Live Casino Suite** (`https://lotusplay365.shop/live-casino`): High-definition live dealer video streams from Evolution, Ezugi, and Pragmatic Play.
+- **Teen Patti Live** (`https://lotusplay365.shop/teen-patti`): Standard Teen Patti, 20-20 Teen Patti, Muflis, AK47, and Joker variations.
+- **Andar Bahar Live** (`https://lotusplay365.shop/andar-bahar`): Traditional Indian card game with fast rounds, first-card bonuses, and streak bets.
+- **European & Lightning Roulette** (`https://lotusplay365.shop/roulette` & `https://lotusplay365.shop/lightning-roulette`): Single-zero European roulette wheels with RNG payout multipliers up to 500x.
+- **Blackjack & Baccarat** (`https://lotusplay365.shop/blackjack` & `https://lotusplay365.shop/baccarat`): Multi-seat tables, squeeze cards, and speed deals.
 
 ### 2.3 Spribe Aviator & Crash Games
-- **Aviator Crash Game** (`https://lotus365officialid.com/aviator-game`): Provably fair multiplier crash game where players wager on a rising aircraft coefficient with instant manual or automated cashout.
-- **Crash Games Lobby** (`https://lotus365officialid.com/crash-games`): Alternative crash curve titles including Spaceman, JetX, and Cricket X.
+- **Aviator Crash Game** (`https://lotusplay365.shop/aviator-game`): Provably fair multiplier crash game where players wager on a rising aircraft coefficient with instant manual or automated cashout.
+- **Crash Games Lobby** (`https://lotusplay365.shop/crash-games`): Alternative crash curve titles including Spaceman, JetX, and Cricket X.
 
 ### 2.4 Payments, Banking & Cashouts
-- **Guaranteed 2-Minute Cashout** (`https://lotus365officialid.com/2-minute-cashout`): High-speed automated payout system connected to Indian banking gateways.
-- **Payment Channels** (`https://lotus365officialid.com/payment-methods`): Instant UPI (PhonePe, Google Pay, Paytm, BHIM), IMPS direct bank transfer, and USDT cryptocurrency.
-- **Withdrawal Verification & Times** (`https://lotus365officialid.com/withdrawal-proof-times`): Proof of execution, transaction limits, and processing SLA standards.
+- **Guaranteed 2-Minute Cashout** (`https://lotusplay365.shop/2-minute-cashout`): High-speed automated payout system connected to Indian banking gateways.
+- **Payment Channels** (`https://lotusplay365.shop/payment-methods`): Instant UPI (PhonePe, Google Pay, Paytm, BHIM), IMPS direct bank transfer, and USDT cryptocurrency.
+- **Withdrawal Verification & Times** (`https://lotusplay365.shop/withdrawal-proof-times`): Proof of execution, transaction limits, and processing SLA standards.
 
 ---
 
@@ -59,9 +59,9 @@ The platform differentiates itself in the Indian market through:
 
 ## 4. Technical Details & Machine Readable Endpoints
 
-- **XML Sitemap**: `https://lotus365officialid.com/sitemap.xml`
-- **Sitemap Index**: `https://lotus365officialid.com/sitemap_index.xml`
-- **Robots Policy**: `https://lotus365officialid.com/robots.txt`
-- **LLM Manifest**: `https://lotus365officialid.com/llms.txt`
-- **Extended LLM Document**: `https://lotus365officialid.com/llms-full.txt`
-- **HTML Navigation Sitemap**: `https://lotus365officialid.com/sitemap`
+- **XML Sitemap**: `https://lotusplay365.shop/sitemap.xml`
+- **Sitemap Index**: `https://lotusplay365.shop/sitemap_index.xml`
+- **Robots Policy**: `https://lotusplay365.shop/robots.txt`
+- **LLM Manifest**: `https://lotusplay365.shop/llms.txt`
+- **Extended LLM Document**: `https://lotusplay365.shop/llms-full.txt`
+- **HTML Navigation Sitemap**: `https://lotusplay365.shop/sitemap`

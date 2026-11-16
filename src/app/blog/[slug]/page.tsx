@@ -36,13 +36,13 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     title,
     description,
     alternates: {
-      canonical: `https://lotus365officialid.com/blog/${slug}`,
+      canonical: `https://lotusplay365.shop/blog/${slug}`,
     },
     openGraph: {
       title,
       description,
       type: "article",
-      url: `https://lotus365officialid.com/blog/${slug}`,
+      url: `https://lotusplay365.shop/blog/${slug}`,
       publishedTime: post.published_at || undefined,
       authors: [post.author || "Lotus365 Team"],
       images: [{ url: coverImg }],
@@ -85,12 +85,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       name: "Lotus365",
       logo: {
         "@type": "ImageObject",
-        url: "https://lotus365officialid.com/favicon.svg",
+        url: "https://lotusplay365.shop/favicon.svg",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://lotus365officialid.com/blog/${post.slug}`,
+      "@id": `https://lotusplay365.shop/blog/${post.slug}`,
     },
   };
 
@@ -102,19 +102,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://lotus365officialid.com",
+        "item": "https://lotusplay365.shop",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://lotus365officialid.com/blog",
+        "item": "https://lotusplay365.shop/blog",
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": post.title,
-        "item": `https://lotus365officialid.com/blog/${post.slug}`,
+        "item": `https://lotusplay365.shop/blog/${post.slug}`,
       },
     ],
   };

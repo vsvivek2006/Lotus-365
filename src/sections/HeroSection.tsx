@@ -7,57 +7,138 @@ import {
   MessageCircle,
   ArrowRight,
   Zap,
-  Trophy,
-  BookOpen,
-  Shield,
+  Clock,
+  ShieldCheck,
+  Headphones,
+  Crown,
   ChevronLeft,
   ChevronRight,
-  Flame,
   Sparkles,
-  Plane,
+  Play,
+  TrendingUp,
 } from 'lucide-react';
-import { OFFICIAL_WHATSAPP_URL } from '../data/landingData';
+import { OFFICIAL_WHATSAPP_URL, getWhatsAppUrl } from '../data/landingData';
 
 interface HeroSectionProps {
   onOpenAuth?: (mode: 'login' | 'register') => void;
 }
 
-const slides = [
+interface HeroSlide {
+  id: string;
+  badge: string;
+  eyebrow: string;
+  titlePrimary: string;
+  titleAccent: string;
+  subtitle: string;
+  description: string;
+  desktopImage: string;
+  mobileImage: string;
+  primaryCta: string;
+  secondaryCta: string;
+  secondaryActionType: 'demo' | 'link';
+  secondaryHref?: string;
+  floatingCard: {
+    tag: string;
+    tagColor: string;
+    title: string;
+    sub: string;
+    metric1Label: string;
+    metric1Val: string;
+    metric2Label: string;
+    metric2Val: string;
+  };
+}
+
+const slides: HeroSlide[] = [
   {
-    id: 'cricket',
-    eyebrow: 'Play · Learn · Enjoy • India\'s Premier Sports Hub',
-    titlePrimary: "India's Ultimate",
-    titleAccent: "Sports & Gaming",
-    titleSuffix: "Platform",
-    subtitle: "Step into a premium world of sports and gaming, where excitement meets trust. Real-time in-play cricket odds, 0% commission exchange trading, and instant WhatsApp login.",
-    desktopImage: '/images/banners/hero_slide_cricket_desktop.jpg',
-    mobileImage: '/images/banners/hero_slide_cricket_mobile.jpg',
+    id: 'sports-cricket',
+    badge: 'India Live Sports',
+    eyebrow: 'Play Bigger. Win Bigger.',
+    titlePrimary: "India's Premier",
+    titleAccent: 'Gaming Platform',
+    subtitle: 'Live Sports • 1,000+ Casino Games • Instant Play',
+    description:
+      'From live cricket exchange to 1,000+ casino games, Lotus365 delivers instant WhatsApp ID activation, 30-second deposits, and 2-minute withdrawals. More action. Less waiting.',
+    desktopImage: '/images/banners/hero_cricket_feathered_desktop.webp',
+    mobileImage: '/images/banners/hero_cricket_feathered_mobile.webp',
     primaryCta: 'Get ID on WhatsApp',
-    secondaryCta: 'Explore Live Exchange',
-    secondaryHref: '/cricket-exchange',
-    badgeType: 'cricket',
+    secondaryCta: '2-Min Demo ID',
+    secondaryActionType: 'demo',
+    floatingCard: {
+      tag: 'LIVE IN-PLAY',
+      tagColor: 'bg-red-500 text-white',
+      title: 'IND vs AUS',
+      sub: '3rd ODI • Mumbai',
+      metric1Label: 'India',
+      metric1Val: '278/4 (48.2)',
+      metric2Label: 'Australia',
+      metric2Val: 'Yet to bat',
+    },
   },
   {
-    id: 'casino',
-    eyebrow: '1,000+ Tables · Certified Live Dealers • Instant Cashout',
-    titlePrimary: "India's Premier",
-    titleAccent: "Live Casino & 3D",
-    titleSuffix: "Games Hub",
-    subtitle: "Experience high-definition live dealer Teen Patti, European Roulette, and Spribe Aviator with guaranteed 2-minute UPI cashouts and 24/7 WhatsApp concierge.",
-    desktopImage: '/images/banners/hero_slide_casino_desktop.jpg',
-    mobileImage: '/images/banners/hero_slide_casino_mobile.jpg',
+    id: 'live-casino',
+    badge: '1,000+ Casino Tables',
+    eyebrow: 'High Definition Streaming',
+    titlePrimary: "India's Ultimate",
+    titleAccent: 'Live Casino & 3D Hub',
+    subtitle: 'Live Teen Patti • Roulette • Aviator Radar',
+    description:
+      'Immerse in crystal-clear live casino streams with certified dealers, instant multiplier cashouts, and round-the-clock VIP private concierge on WhatsApp.',
+    desktopImage: '/images/banners/hero_casino_feathered_desktop.webp',
+    mobileImage: '/images/banners/hero_casino_feathered_mobile.webp',
     primaryCta: 'Get ID on WhatsApp',
     secondaryCta: 'Play 1,000+ Games',
+    secondaryActionType: 'link',
     secondaryHref: '/live-casino',
-    badgeType: 'casino',
+    floatingCard: {
+      tag: 'HOT MULTIPLIER',
+      tagColor: 'bg-amber-500 text-white',
+      title: 'Aviator & Roulette',
+      sub: 'Live Multiplier Stream',
+      metric1Label: 'Aviator Radar',
+      metric1Val: '8.42x',
+      metric2Label: 'Roulette Table',
+      metric2Val: 'Live Dealer',
+    },
   },
 ];
 
-const featurePills = [
-  { icon: Zap,      label: 'Live Scores',     sub: 'Real-Time Updates',      color: 'text-yellow-400' },
-  { icon: Trophy,   label: '1000+ Games',     sub: '& Activities',           color: 'text-amber-400' },
-  { icon: BookOpen, label: 'Expert Insights', sub: 'Guides & Analysis',      color: 'text-emerald-300'},
-  { icon: Shield,   label: 'Trusted Platform',sub: 'Safe & Secure',          color: 'text-teal-300'   },
+const fintechBadges = [
+  {
+    icon: Zap,
+    title: 'Instant Access',
+    subtitle: 'via WhatsApp',
+    iconColor: 'text-emerald-600',
+    iconBg: 'bg-emerald-50 border-emerald-100',
+  },
+  {
+    icon: Clock,
+    title: '30 Sec',
+    subtitle: 'UPI Deposits',
+    iconColor: 'text-amber-600',
+    iconBg: 'bg-amber-50 border-amber-100',
+  },
+  {
+    icon: ShieldCheck,
+    title: '2 Min',
+    subtitle: 'Cashouts',
+    iconColor: 'text-emerald-600',
+    iconBg: 'bg-emerald-50 border-emerald-100',
+  },
+  {
+    icon: Headphones,
+    title: '24/7',
+    subtitle: 'Human Support',
+    iconColor: 'text-teal-600',
+    iconBg: 'bg-teal-50 border-teal-100',
+  },
+  {
+    icon: Crown,
+    title: 'VIP',
+    subtitle: 'Benefits',
+    iconColor: 'text-amber-500',
+    iconBg: 'bg-amber-50 border-amber-100',
+  },
 ];
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
@@ -78,7 +159,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
     if (isPaused) return;
     timerRef.current = setInterval(() => {
       nextSlide();
-    }, 5500);
+    }, 6000);
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
@@ -88,228 +169,248 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
     if (onOpenAuth) {
       onOpenAuth('register');
     } else {
-      window.open(OFFICIAL_WHATSAPP_URL, '_blank', 'noopener,noreferrer');
+      window.open(
+        getWhatsAppUrl('Hi Lotus365, I want to get my official ID on WhatsApp (lotusplay365.shop)'),
+        '_blank',
+        'noopener,noreferrer'
+      );
     }
+  };
+
+  const handleDemoId = () => {
+    window.open(
+      getWhatsAppUrl('Hi Lotus365, please give me a 2-minute Free Demo ID to test lotusplay365.shop'),
+      '_blank',
+      'noopener,noreferrer'
+    );
   };
 
   const slide = slides[currentSlide];
 
   return (
     <section
-      className="relative overflow-hidden bg-gradient-to-b from-[#064e3b] via-[#047857] to-[#065f46] text-white"
+      className="relative bg-[#F8FAFC] pt-3 sm:pt-4 pb-6"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
+      aria-label="Lotus365 Hero Banner"
     >
-      {/* ── STADIUM AMBIENT LIGHTING (Lush Emerald & Gold Glow, Zero Black) ── */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-6xl h-[450px] bg-gradient-radial from-emerald-400/25 via-teal-300/10 to-transparent blur-[100px]" />
-        <div className="absolute -bottom-10 left-0 right-0 h-40 bg-gradient-to-t from-[#064e3b] to-transparent" />
-      </div>
-
-      {/* ── MAIN CONTENT CONTAINER ── */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center min-h-[500px]">
-
-          {/* ══ LEFT COLUMN: Dynamic Text Content ══ */}
-          <div className="lg:col-span-7 text-center lg:text-left z-10 transition-all duration-300">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        
+        {/* ══ CURVED EMERALD STADIUM HERO CARD (Full-Bleed Luxury Banner) ══ */}
+        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] shadow-xl border border-emerald-600/30 text-white">
+          
+          {/* Ambient Stadium Lighting Glows (Lush Emerald & Gold Beam, Zero Black) */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <div className="absolute top-0 right-1/4 w-[500px] h-[320px] bg-emerald-400/25 blur-[120px] rounded-full" />
+            <div className="absolute -top-16 -left-16 w-[360px] h-[360px] bg-teal-300/15 blur-[100px] rounded-full" />
+            <div className="absolute bottom-0 right-10 w-[400px] h-[250px] bg-amber-400/15 blur-[100px] rounded-full" />
             
-            {/* Status Eyebrow Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 backdrop-blur-md mb-4 shadow-sm">
-              <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-200" />
-              </span>
-              <span className="text-emerald-100 text-[11px] font-black uppercase tracking-widest">
-                {slide.eyebrow}
-              </span>
-            </div>
-
-            {/* Display Headline */}
-            <h1 className="font-black text-white leading-[1.08] tracking-tight mb-4">
-              <span className="block text-3xl sm:text-4xl lg:text-[2.6rem] mb-1">
-                {slide.titlePrimary}
-              </span>
-              <span className="block text-4xl sm:text-5xl lg:text-[3.2rem] text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 drop-shadow-sm">
-                {slide.titleAccent}
-              </span>
-              <span className="block text-4xl sm:text-5xl lg:text-[3.2rem]">
-                {slide.titleSuffix}
-              </span>
-            </h1>
-
-            {/* Sub-headline */}
-            <p className="text-emerald-50 text-sm sm:text-base leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 font-normal">
-              {slide.subtitle}
-            </p>
-
-            {/* Primary Action Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 mb-8">
-              <button
-                onClick={handleWhatsApp}
-                id="hero-whatsapp-btn"
-                className="
-                  group flex items-center justify-center gap-2.5
-                  px-8 py-3.5 rounded-full
-                  bg-emerald-500 hover:bg-emerald-400
-                  text-white font-extrabold text-base
-                  shadow-[0_4px_24px_rgba(16,185,129,0.5)]
-                  hover:shadow-[0_6px_32px_rgba(16,185,129,0.65)]
-                  transition-all duration-200 cursor-pointer
-                  w-full sm:w-auto border border-white/20
-                "
-              >
-                <MessageCircle className="w-5 h-5 fill-current" />
-                <span>{slide.primaryCta}</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
-
-              <Link
-                href={slide.secondaryHref}
-                className="
-                  flex items-center justify-center gap-2
-                  px-6 py-3.5 rounded-full
-                  bg-white/15 hover:bg-white/25 backdrop-blur-md
-                  text-white font-bold text-sm
-                  border border-white/30 hover:border-white/50
-                  transition-all duration-200
-                  w-full sm:w-auto
-                "
-              >
-                <Zap className="w-4 h-4 text-yellow-300" />
-                <span>{slide.secondaryCta}</span>
-              </Link>
-            </div>
-
-            {/* 4 Feature Pills */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3">
-              {featurePills.map(({ icon: Icon, label, sub, color }) => (
-                <div
-                  key={label}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm shadow-sm"
-                >
-                  <Icon className={`w-4 h-4 ${color} shrink-0`} />
-                  <div className="text-left">
-                    <div className="text-white text-[11px] font-bold leading-none">{label}</div>
-                    <div className="text-emerald-100/70 text-[9px] leading-none mt-0.5">{sub}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-
+            {/* Subtle Stadium Turf Arch Line */}
+            <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#064e3b]/80 to-transparent" />
           </div>
 
-          {/* ══ RIGHT COLUMN: Responsive Slider Visual (Desktop & Mobile) ══ */}
-          <div className="lg:col-span-5 relative flex items-center justify-center">
+          {/* Grid Layout: Left Content + Right High-Res Imagery */}
+          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 items-center min-h-[460px] lg:min-h-[500px] px-5 sm:px-8 lg:px-12 py-8 lg:py-10 gap-8">
             
-            {/* Main Visual Card Container with Soft Dissolve */}
-            <div className="relative w-full h-[360px] sm:h-[420px] lg:h-[460px] rounded-3xl overflow-hidden shadow-2xl border border-white/25 bg-gradient-to-br from-emerald-800 to-emerald-950">
+            {/* ── LEFT COLUMN: Text, Value Proposition & Actions ── */}
+            <div className="lg:col-span-7 text-center lg:text-left">
               
-              {/* Desktop View Image (Visible md and up) */}
-              <div className="hidden md:block absolute inset-0">
-                <Image
-                  key={`desktop-${slide.id}`}
-                  src={slide.desktopImage}
-                  alt={slide.titlePrimary}
-                  fill
-                  priority
-                  className="object-cover object-center transition-opacity duration-500"
-                />
-                {/* Dissolved edge gradient overlays (Zero Black, Pure Emerald Fade) */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#064e3b]/90 via-transparent to-transparent pointer-events-none" />
-                <div className="absolute inset-0 bg-gradient-to-r from-[#064e3b]/80 via-transparent to-transparent pointer-events-none" />
+              {/* Eyebrow Tagline Badge */}
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/15 border border-white/25 backdrop-blur-md mb-4 shadow-xs">
+                <span className="flex h-2 w-2 relative">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-300 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-400" />
+                </span>
+                <span className="text-white text-xs font-black uppercase tracking-wider">
+                  {slide.eyebrow}
+                </span>
+                <span className="text-white/40">•</span>
+                <span className="text-emerald-100 text-xs font-semibold">
+                  {slide.badge}
+                </span>
               </div>
 
-              {/* Mobile View Image (Visible sm and down) */}
-              <div className="block md:hidden absolute inset-0">
-                <Image
-                  key={`mobile-${slide.id}`}
-                  src={slide.mobileImage}
-                  alt={slide.titlePrimary}
-                  fill
-                  priority
-                  className="object-cover object-center transition-opacity duration-500"
-                />
-                {/* Mobile gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#064e3b]/95 via-transparent to-transparent pointer-events-none" />
+              {/* H1 Display Headline */}
+              <h1 className="font-black text-white tracking-tight leading-[1.08] mb-3">
+                <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem]">
+                  {slide.titlePrimary}
+                </span>
+                <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 drop-shadow-sm mt-0.5">
+                  {slide.titleAccent}
+                </span>
+              </h1>
+
+              {/* Sub-headline Pill / Bullet Line */}
+              <p className="text-emerald-100 font-semibold text-sm sm:text-base lg:text-lg mb-3">
+                {slide.subtitle}
+              </p>
+
+              {/* SEO Pitch Summary */}
+              <p className="text-emerald-50/90 text-xs sm:text-sm leading-relaxed mb-7 max-w-xl mx-auto lg:mx-0 font-normal">
+                {slide.description}
+              </p>
+
+              {/* Dual Action CTA Buttons (WhatsApp Green + Frosted Glass) */}
+              <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 mb-6">
+                
+                {/* Primary Button: WhatsApp Green */}
+                <button
+                  onClick={handleWhatsApp}
+                  id="hero-primary-whatsapp-btn"
+                  className="
+                    group flex items-center justify-center gap-2.5
+                    px-8 py-3.5 rounded-full
+                    bg-[#25D366] hover:bg-[#20ba5a]
+                    text-white font-extrabold text-base
+                    shadow-[0_4px_20px_rgba(37,211,102,0.45)]
+                    hover:shadow-[0_6px_28px_rgba(37,211,102,0.65)]
+                    transition-all duration-200 cursor-pointer
+                    w-full sm:w-auto border border-white/20
+                  "
+                >
+                  <MessageCircle className="w-5 h-5 fill-current" />
+                  <span>{slide.primaryCta}</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </button>
+
+                {/* Secondary Button: 2-Min Demo ID or Explore Link */}
+                {slide.secondaryActionType === 'demo' ? (
+                  <button
+                    onClick={handleDemoId}
+                    id="hero-demo-id-btn"
+                    className="
+                      flex items-center justify-center gap-2
+                      px-6 py-3.5 rounded-full
+                      bg-white/15 hover:bg-white/25 backdrop-blur-md
+                      text-white font-bold text-sm
+                      border border-white/30 hover:border-white/50
+                      transition-all duration-200 cursor-pointer
+                      w-full sm:w-auto
+                    "
+                  >
+                    <Zap className="w-4 h-4 text-yellow-300" />
+                    <span>{slide.secondaryCta}</span>
+                  </button>
+                ) : (
+                  <Link
+                    href={slide.secondaryHref || '/live-casino'}
+                    className="
+                      flex items-center justify-center gap-2
+                      px-6 py-3.5 rounded-full
+                      bg-white/15 hover:bg-white/25 backdrop-blur-md
+                      text-white font-bold text-sm
+                      border border-white/30 hover:border-white/50
+                      transition-all duration-200
+                      w-full sm:w-auto
+                    "
+                  >
+                    <Sparkles className="w-4 h-4 text-yellow-300" />
+                    <span>{slide.secondaryCta}</span>
+                  </Link>
+                )}
               </div>
 
-              {/* Floating Match or Casino Overlay Badge */}
-              {slide.id === 'cricket' ? (
-                <div className="absolute top-4 left-4 z-20 max-w-[210px] bg-white text-slate-900 rounded-2xl shadow-xl p-3 border border-slate-100">
+              {/* Slider Dots Indicator */}
+              <div className="flex items-center justify-center lg:justify-start gap-2 pt-2">
+                {slides.map((s, idx) => (
+                  <button
+                    key={s.id}
+                    onClick={() => setCurrentSlide(idx)}
+                    className={`h-2 rounded-full transition-all cursor-pointer ${
+                      currentSlide === idx
+                        ? 'w-8 bg-yellow-400 shadow-xs'
+                        : 'w-2 bg-white/40 hover:bg-white/70'
+                    }`}
+                    aria-label={`Switch to slide ${idx + 1}`}
+                  />
+                ))}
+              </div>
+
+            </div>
+
+            {/* ── RIGHT COLUMN: Responsive Visual with Dissolved Seamless Edges ── */}
+            <div className="lg:col-span-5 relative flex items-center justify-center">
+              
+              {/* Visual Card Frame */}
+              <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[440px] flex items-center justify-center">
+                
+                {/* Desktop Dissolved Image */}
+                <div className="hidden md:block absolute inset-0">
+                  <Image
+                    key={`desktop-${slide.id}`}
+                    src={slide.desktopImage}
+                    alt={slide.titlePrimary}
+                    fill
+                    priority
+                    className="object-contain object-right-bottom transition-opacity duration-500 drop-shadow-[0_15px_30px_rgba(0,0,0,0.25)]"
+                  />
+                </div>
+
+                {/* Mobile Dissolved Image */}
+                <div className="block md:hidden absolute inset-0">
+                  <Image
+                    key={`mobile-${slide.id}`}
+                    src={slide.mobileImage}
+                    alt={slide.titlePrimary}
+                    fill
+                    priority
+                    className="object-contain object-bottom transition-opacity duration-500"
+                  />
+                </div>
+
+                {/* Floating Interactive Live Match / Multiplier Card (Mockup 3 Style) */}
+                <div className="absolute top-2 left-2 sm:top-4 sm:left-4 z-20 max-w-[210px] sm:max-w-[230px] bg-white/95 backdrop-blur-md text-slate-900 rounded-2xl shadow-xl p-3 border border-emerald-100">
                   <div className="flex items-center justify-between mb-2 pb-1.5 border-b border-slate-100">
-                    <span className="flex items-center gap-1 text-[10px] font-black uppercase text-red-600">
-                      <span className="w-2 h-2 rounded-full bg-red-500 animate-ping" /> LIVE
+                    <span
+                      className={`inline-flex items-center gap-1 text-[9px] font-black uppercase px-2 py-0.5 rounded-full ${slide.floatingCard.tagColor}`}
+                    >
+                      <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
+                      {slide.floatingCard.tag}
                     </span>
-                    <span className="text-[10px] text-slate-400 font-semibold">3rd ODI • Mumbai</span>
+                    <span className="text-[10px] text-slate-400 font-semibold truncate ml-1">
+                      {slide.floatingCard.sub}
+                    </span>
                   </div>
+                  
                   <div className="flex items-center justify-between">
                     <div>
-                      <div className="text-xs font-bold">India</div>
-                      <div className="text-sm font-black text-emerald-600 font-mono">278/4</div>
+                      <div className="text-[11px] font-bold text-slate-700">
+                        {slide.floatingCard.metric1Label}
+                      </div>
+                      <div className="text-sm font-black text-emerald-600 font-mono">
+                        {slide.floatingCard.metric1Val}
+                      </div>
                     </div>
-                    <div className="text-[11px] font-bold text-slate-400">VS</div>
+                    <div className="text-[10px] font-bold text-slate-300 px-1">VS</div>
                     <div className="text-right">
-                      <div className="text-xs font-bold">Australia</div>
-                      <div className="text-[10px] text-slate-500 font-medium">Yet to bat</div>
+                      <div className="text-[11px] font-bold text-slate-700">
+                        {slide.floatingCard.metric2Label}
+                      </div>
+                      <div className="text-[11px] font-bold text-slate-500">
+                        {slide.floatingCard.metric2Val}
+                      </div>
                     </div>
                   </div>
                 </div>
-              ) : (
-                <div className="absolute top-4 left-4 z-20 max-w-[210px] bg-white text-slate-900 rounded-2xl shadow-xl p-3 border border-slate-100">
-                  <div className="flex items-center justify-between mb-2 pb-1.5 border-b border-slate-100">
-                    <span className="flex items-center gap-1 text-[10px] font-black uppercase text-emerald-600">
-                      <Sparkles className="w-3 h-3 text-[#F0C419]" /> 1,000+ TABLES
-                    </span>
-                    <span className="text-[10px] text-slate-400 font-semibold">Live Dealer</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">Aviator Radar</div>
-                      <div className="text-sm font-black text-amber-500 font-mono">8.42x</div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-xs font-bold text-slate-900">Teen Patti</div>
-                      <div className="text-[10px] text-emerald-600 font-bold">Live Stream</div>
-                    </div>
-                  </div>
-                </div>
-              )}
 
-              {/* Bottom Carousel Controls (Prev/Next + Dots) */}
-              <div className="absolute bottom-4 left-4 right-4 z-20 flex items-center justify-between bg-white/20 backdrop-blur-md px-3 py-2 rounded-full border border-white/30">
-                {/* Prev Button */}
-                <button
-                  onClick={prevSlide}
-                  className="p-1.5 rounded-full bg-white/20 hover:bg-white/40 text-white transition-all cursor-pointer"
-                  aria-label="Previous Slide"
-                >
-                  <ChevronLeft className="w-4 h-4" />
-                </button>
-
-                {/* Indicator Dots */}
-                <div className="flex items-center gap-2">
-                  {slides.map((s, idx) => (
-                    <button
-                      key={s.id}
-                      onClick={() => setCurrentSlide(idx)}
-                      className={`h-2 rounded-full transition-all cursor-pointer ${
-                        currentSlide === idx
-                          ? 'w-6 bg-yellow-400 shadow-sm'
-                          : 'w-2 bg-white/50 hover:bg-white/80'
-                      }`}
-                      aria-label={`Go to slide ${idx + 1}`}
-                    />
-                  ))}
+                {/* Slide Carousel Arrow Controls */}
+                <div className="absolute bottom-2 right-2 z-20 flex items-center gap-1.5">
+                  <button
+                    onClick={prevSlide}
+                    className="p-2 rounded-full bg-white/20 hover:bg-white/35 text-white backdrop-blur-md border border-white/30 transition-all cursor-pointer shadow-sm"
+                    aria-label="Previous Slide"
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+                  <button
+                    onClick={nextSlide}
+                    className="p-2 rounded-full bg-white/20 hover:bg-white/35 text-white backdrop-blur-md border border-white/30 transition-all cursor-pointer shadow-sm"
+                    aria-label="Next Slide"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
                 </div>
 
-                {/* Next Button */}
-                <button
-                  onClick={nextSlide}
-                  className="p-1.5 rounded-full bg-white/20 hover:bg-white/40 text-white transition-all cursor-pointer"
-                  aria-label="Next Slide"
-                >
-                  <ChevronRight className="w-4 h-4" />
-                </button>
               </div>
 
             </div>
@@ -317,6 +418,31 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
           </div>
 
         </div>
+
+        {/* ══ 5 EXECUTIVE FINTECH BADGES (Mockup 3 Trust Strip, Zero Black, Pure Clean Canvas) ══ */}
+        <div className="mt-3 bg-white rounded-2xl p-3 sm:p-4 shadow-xs border border-slate-200/90">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-4">
+            {fintechBadges.map(({ icon: Icon, title, subtitle, iconColor, iconBg }) => (
+              <div
+                key={title}
+                className="flex items-center gap-3 p-2.5 sm:p-3 rounded-xl bg-slate-50/80 hover:bg-emerald-50/50 border border-slate-200/60 hover:border-emerald-200/80 transition-colors"
+              >
+                <div className={`p-2 rounded-xl border shrink-0 ${iconBg}`}>
+                  <Icon className={`w-4 h-4 sm:w-5 sm:h-5 ${iconColor}`} />
+                </div>
+                <div className="min-w-0">
+                  <div className="text-xs sm:text-sm font-extrabold text-slate-900 leading-tight truncate">
+                    {title}
+                  </div>
+                  <div className="text-[10px] sm:text-xs font-medium text-slate-500 leading-tight truncate mt-0.5">
+                    {subtitle}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   );

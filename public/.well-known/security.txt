@@ -1,5 +1,5 @@
-Contact: mailto:security@lotus365officialid.com
+Contact: mailto:security@lotusplay365.shop
 Expires: 2027-10-05T00:00:00.000Z
 Preferred-Languages: en, hi
-Canonical: https://lotus365officialid.com/.well-known/security.txt
-Policy: https://lotus365officialid.com/privacy-policy
+Canonical: https://lotusplay365.shop/.well-known/security.txt
+Policy: https://lotusplay365.shop/privacy-policy

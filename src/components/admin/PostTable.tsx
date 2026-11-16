@@ -158,7 +158,7 @@ export function PostTable({ initialPosts }: PostTableProps) {
   };
 
   const handleCopyLink = async (slug: string, id: string) => {
-    const fullUrl = `https://lotus365officialid.com/blog/${slug}`;
+    const fullUrl = `https://lotusplay365.shop/blog/${slug}`;
     try {
       await navigator.clipboard.writeText(fullUrl);
       setCopiedId(id);

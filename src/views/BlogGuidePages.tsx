@@ -33,7 +33,7 @@ const reviewFaqs = [
                 },
                 {
                   q: 'What is the official domain of Lotus365?',
-                  a: 'The sole official, verified domain is https://lotus365officialid.com. Beware of phishing lookalikes or unverified third-party download mirrors.'
+                  a: 'The sole official, verified domain is https://lotusplay365.shop. Beware of phishing lookalikes or unverified third-party download mirrors.'
                 },
                 {
                   q: 'How fast are real money withdrawals on Lotus365?',
@@ -45,7 +45,7 @@ const reviewFaqs = [
                 },
                 {
                   q: 'Can I play Lotus365 on an iPhone without downloading an app?',
-                  a: 'Yes! Simply visit lotus365officialid.com in Safari and tap "Add to Home Screen" for a full native app-like experience with zero installation required.'
+                  a: 'Yes! Simply visit lotusplay365.shop in Safari and tap "Add to Home Screen" for a full native app-like experience with zero installation required.'
                 },
                 {
                   q: 'Does Lotus365 provide customer support in Hindi?',
@@ -102,7 +102,7 @@ export const ReviewPage: React.FC = () => (
               Comprehensive Platform Overview: What Is Lotus365?
             </h2>
             <p className="mb-4">
-              Established in 2019, <strong>Lotus365</strong> has grown into the undisputed market leader in online sports betting and live casino entertainment across India. Operating exclusively via its official web domain <strong className="text-white">lotus365officialid.com</strong>, the platform serves over 1.5 million active accounts by solving the two greatest frustrations Indian players historically faced with offshore foreign bookmakers: complicated registration hurdles and excruciatingly slow withdrawal times.
+              Established in 2019, <strong>Lotus365</strong> has grown into the undisputed market leader in online sports betting and live casino entertainment across India. Operating exclusively via its official web domain <strong className="text-white">lotusplay365.shop</strong>, the platform serves over 1.5 million active accounts by solving the two greatest frustrations Indian players historically faced with offshore foreign bookmakers: complicated registration hurdles and excruciatingly slow withdrawal times.
             </p>
             <p className="mb-4">
               Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link href="/how-to-withdraw" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
@@ -158,7 +158,7 @@ export const ReviewPage: React.FC = () => (
               Independent Regulatory & Data Encryption Audit
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-              Our review examined the cybersecurity architecture deployed across lotus365officialid.com. All web communication is shielded with SHA-256 Cloudflare SSL certificates and strict HTTP Strict Transport Security (HSTS) protocols. Because user registration and financial authentication occur via WhatsApp with end-to-end Signal protocol encryption, no plain-text debit card numbers, CVVs, or sensitive government credentials are stored on third-party cloud servers.
+              Our review examined the cybersecurity architecture deployed across lotusplay365.shop. All web communication is shielded with SHA-256 Cloudflare SSL certificates and strict HTTP Strict Transport Security (HSTS) protocols. Because user registration and financial authentication occur via WhatsApp with end-to-end Signal protocol encryption, no plain-text debit card numbers, CVVs, or sensitive government credentials are stored on third-party cloud servers.
             </p>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
               In terms of gaming fairness, all live casino feeds originate from licensed studio hubs subject to regular audits by testing agencies such as eCOGRA and iTech Labs. This guarantees that physical roulette wheel physics and automated card dealing shoes operate with certified mathematical integrity.
@@ -1144,7 +1144,7 @@ export const SafeBettingGuidePage: React.FC = () => (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-emerald-500/30 space-y-1">
                 <h3 className="font-bold text-emerald-400 text-sm">Official Authorized Domain</h3>
-                <p className="text-xs text-slate-600">Our official platform URL is strictly <strong className="text-white">lotus365officialid.com</strong>. Never enter login credentials on lookalike mirror domains or third-party web forms.</p>
+                <p className="text-xs text-slate-600">Our official platform URL is strictly <strong className="text-white">lotusplay365.shop</strong>. Never enter login credentials on lookalike mirror domains or third-party web forms.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-emerald-500/30 space-y-1">
                 <h3 className="font-bold text-emerald-400 text-sm">Official WhatsApp Channel</h3>
@@ -1315,7 +1315,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
               When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
             </p>
             <p className="mb-4">
-              Simply open <strong className="text-white">lotus365officialid.com</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, <Link href="/live-casino" className="text-[#F0C419] underline font-semibold" title="Live Casino">Live Casino</Link>, and <Link href="/aviator-game" className="text-[#F0C419] underline font-semibold" title="Aviator Crash">Aviator Crash</Link> games with silky 60 FPS graphics and instant balance updates.
+              Simply open <strong className="text-white">lotusplay365.shop</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, <Link href="/live-casino" className="text-[#F0C419] underline font-semibold" title="Live Casino">Live Casino</Link>, and <Link href="/aviator-game" className="text-[#F0C419] underline font-semibold" title="Aviator Crash">Aviator Crash</Link> games with silky 60 FPS graphics and instant balance updates.
             </p>
           </div>
 
@@ -1380,13 +1380,13 @@ export const MobileWebAppGuidePage: React.FC = () => (
               Step-by-Step PWA Installation Guide for Android & Apple iOS
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-              Adding lotus365officialid.com to your home screen gives you instant 1-tap gaming in under 5 seconds:
+              Adding lotusplay365.shop to your home screen gives you instant 1-tap gaming in under 5 seconds:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">Android (Google Chrome)</h3>
                 <ol className="list-decimal list-inside text-xs text-slate-600 space-y-1">
-                  <li>Open Chrome and navigate to lotus365officialid.com</li>
+                  <li>Open Chrome and navigate to lotusplay365.shop</li>
                   <li>Tap the 3 vertical dots menu in the top right corner</li>
                   <li>Select "Add to Home screen" or "Install App"</li>
                   <li>Confirm the prompt. The Lotus365 icon appears on your home screen</li>
@@ -1395,7 +1395,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <h3 className="font-bold text-[#F0C419] text-base">iPhone / iPad (Apple Safari)</h3>
                 <ol className="list-decimal list-inside text-xs text-slate-600 space-y-1">
-                  <li>Open Safari and visit lotus365officialid.com</li>
+                  <li>Open Safari and visit lotusplay365.shop</li>
                   <li>Tap the "Share" button (square icon with an arrow pointing up)</li>
                   <li>Scroll down and tap "Add to Home Screen"</li>
                   <li>Tap "Add" in the top right. Launch instant full-screen play anytime</li>
@@ -1416,7 +1416,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
                 </div>
                 <ol className="list-decimal list-inside space-y-2 text-xs text-slate-700">
                   <li>Open <strong>Google Chrome</strong> on your Android device.</li>
-                  <li>Navigate to <strong>https://lotus365officialid.com</strong>.</li>
+                  <li>Navigate to <strong>https://lotusplay365.shop</strong>.</li>
                   <li>Tap the three vertical dots (<strong>⋮</strong>) in the top-right corner.</li>
                   <li>Select <strong>"Add to Home screen"</strong> or <strong>"Install app"</strong>.</li>
                   <li>Tap "Add" — the golden Lotus365 logo will appear on your app screen for instant 1-tap access!</li>
@@ -1429,7 +1429,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
                 </div>
                 <ol className="list-decimal list-inside space-y-2 text-xs text-slate-700">
                   <li>Open <strong>Safari</strong> on your iPhone or iPad.</li>
-                  <li>Navigate to <strong>https://lotus365officialid.com</strong>.</li>
+                  <li>Navigate to <strong>https://lotusplay365.shop</strong>.</li>
                   <li>Tap the <strong>Share</strong> icon (the square with an arrow pointing upward) at the bottom.</li>
                   <li>Scroll down and tap <strong>"Add to Home Screen"</strong>.</li>
                   <li>Tap "Add" in the top right — Lotus365 is now installed on your iOS home screen!</li>
@@ -1477,12 +1477,12 @@ export const FaqPage: React.FC = () => {
     {
       cat: 'Account & WhatsApp ID',
       q: 'What is Lotus365 and how does it differ from traditional sportsbooks?',
-      a: 'Lotus365 is India’s premier online cricket betting exchange and live casino platform operating exclusively on the official domain lotus365officialid.com. Unlike traditional foreign sportsbooks that charge heavy 5% to 8% margin markups, Lotus365 functions as a true peer-to-peer exchange where players can Back (bet on) and Lay (bet against) match outcomes with 0% commission on marquee cricket fixtures. All account creation and banking are coordinated securely through our 24/7 human WhatsApp concierge desk at wa.link/880088.'
+      a: 'Lotus365 is India’s premier online cricket betting exchange and live casino platform operating exclusively on the official domain lotusplay365.shop. Unlike traditional foreign sportsbooks that charge heavy 5% to 8% margin markups, Lotus365 functions as a true peer-to-peer exchange where players can Back (bet on) and Lay (bet against) match outcomes with 0% commission on marquee cricket fixtures. All account creation and banking are coordinated securely through our 24/7 human WhatsApp concierge desk at wa.link/880088.'
     },
     {
       cat: 'Account & WhatsApp ID',
       q: 'How do I register for a free Lotus365 betting ID?',
-      a: 'Registration is 100% free and takes less than 60 seconds. Click any "Register via WhatsApp" button on lotus365officialid.com. Your chat will automatically open with the message "I want ID" — simply tap send, and our 24/7 support executive will immediately issue your verified username and login credentials.'
+      a: 'Registration is 100% free and takes less than 60 seconds. Click any "Register via WhatsApp" button on lotusplay365.shop. Your chat will automatically open with the message "I want ID" — simply tap send, and our 24/7 support executive will immediately issue your verified username and login credentials.'
     },
     {
       cat: 'Account & WhatsApp ID',
@@ -1546,7 +1546,7 @@ export const FaqPage: React.FC = () => {
     {
       cat: 'Cricket Exchange & Sportsbook',
       q: 'Is live cricket match streaming available on the platform?',
-      a: 'Yes! When logged into your active Lotus365 account on lotus365officialid.com, high-definition live match video streams are integrated directly above your betting slip with ultra-low latency delay (under 1.5 seconds).'
+      a: 'Yes! When logged into your active Lotus365 account on lotusplay365.shop, high-definition live match video streams are integrated directly above your betting slip with ultra-low latency delay (under 1.5 seconds).'
     },
 
     // Category 4: Live Casino & Teen Patti
@@ -1580,7 +1580,7 @@ export const FaqPage: React.FC = () => {
     {
       cat: 'Security & instant mobile play',
       q: 'Is my data and wallet balance protected by SSL encryption?',
-      a: 'Yes! All connections on lotus365officialid.com are secured by 256-bit TLS enterprise encryption. Server communications are monitored 24/7 by dedicated cybersecurity teams to guarantee complete data confidentiality and balance security.'
+      a: 'Yes! All connections on lotusplay365.shop are secured by 256-bit TLS enterprise encryption. Server communications are monitored 24/7 by dedicated cybersecurity teams to guarantee complete data confidentiality and balance security.'
     },
   ];
 
@@ -1764,7 +1764,7 @@ export const HowItWorksPage: React.FC = () => {
                   {
                     step: '03',
                     title: 'Log In & Deposit via PhonePe, GPay, or Paytm',
-                    desc: 'Open lotus365officialid.com in your mobile browser, enter your credentials, and fund your balance with as little as ₹100 via UPI. Funds reflect in your balance in 30 seconds.',
+                    desc: 'Open lotusplay365.shop in your mobile browser, enter your credentials, and fund your balance with as little as ₹100 via UPI. Funds reflect in your balance in 30 seconds.',
                     time: '⏱ Under 60 Seconds',
                   },
                   {
@@ -1817,7 +1817,7 @@ export const HowItWorksPage: React.FC = () => {
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <h3 className="font-bold text-[#F0C419] text-base">Phase 2: Encrypted Token Generation & Wallet Linking</h3>
-                <p className="text-xs text-slate-600 leading-relaxed">Your concierge provisions a private, secure username on lotus365officialid.com. Your wallet is initialized with zero account maintenance fees and full access to our cricket betting exchange, 1,000+ live dealer tables, and Spribe Aviator crash game.</p>
+                <p className="text-xs text-slate-600 leading-relaxed">Your concierge provisions a private, secure username on lotusplay365.shop. Your wallet is initialized with zero account maintenance fees and full access to our cricket betting exchange, 1,000+ live dealer tables, and Spribe Aviator crash game.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
                 <h3 className="font-bold text-[#F0C419] text-base">Phase 3: Real-Time Domestic UPI Clearance</h3>
@@ -1892,7 +1892,7 @@ export const HowItWorksPage: React.FC = () => {
                 <strong className="text-[#F0C419]">Minute 1:00 – 2:00:</strong> Transfer ₹1,000 via PhonePe or Google Pay, send your 12-digit UTR, and receive your 100% welcome bonus credit.
               </div>
               <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <strong className="text-[#F0C419]">Minute 2:00 – 15:00:</strong> Open the live cricket exchange on lotus365officialid.com, back India in the powerplay, and watch the match stream in HD.
+                <strong className="text-[#F0C419]">Minute 2:00 – 15:00:</strong> Open the live cricket exchange on lotusplay365.shop, back India in the powerplay, and watch the match stream in HD.
               </div>
               <div className="p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs">
                 <strong className="text-[#F0C419]">Minute 15:00 – 17:00:</strong> Conclude your winning trade, ping WhatsApp with your UPI ID, and receive your cashout directly into your bank statement.

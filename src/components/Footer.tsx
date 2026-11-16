@@ -201,7 +201,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
         {/* Bottom Legal & Copyright Bar */}
         <div className="pt-6 border-t border-emerald-500/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-emerald-200/70">
           <div>
-            &copy; {new Date().getFullYear()} <strong className="text-white">Lotus365 Official</strong> (lotus365officialid.com). All Rights Reserved. 18+ Only.
+            &copy; {new Date().getFullYear()} <strong className="text-white">Lotus365 Official</strong> (lotusplay365.shop). All Rights Reserved. 18+ Only.
           </div>
           <div className="flex items-center gap-4">
             <Link href="/responsible-gaming" className="hover:text-white transition-colors" title="Responsible Gaming">Responsible Gaming</Link>

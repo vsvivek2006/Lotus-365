@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Expert cricket exchange trading tactics, back & lay odds analysis, live casino tips, and platform guides directly from the Lotus365 analyst team.",
   alternates: {
-    canonical: "https://lotus365officialid.com/blog",
+    canonical: "https://lotusplay365.shop/blog",
   },
 };
 
@@ -37,33 +37,33 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
     "@graph": [
       {
         "@type": "CollectionPage",
-        "@id": "https://lotus365officialid.com/blog",
-        "url": "https://lotus365officialid.com/blog",
+        "@id": "https://lotusplay365.shop/blog",
+        "url": "https://lotusplay365.shop/blog",
         "name": "Lotus365 Blog & Betting Guides",
         "description":
           "Expert cricket exchange trading tactics, back & lay odds analysis, live casino tips, and platform guides directly from the Lotus365 analyst team.",
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://lotus365officialid.com/#website",
+          "@id": "https://lotusplay365.shop/#website",
           "name": "Lotus365 Official",
-          "url": "https://lotus365officialid.com",
+          "url": "https://lotusplay365.shop",
         },
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://lotus365officialid.com/blog#breadcrumb",
+        "@id": "https://lotusplay365.shop/blog#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://lotus365officialid.com",
+            "item": "https://lotusplay365.shop",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog & Guides",
-            "item": "https://lotus365officialid.com/blog",
+            "item": "https://lotusplay365.shop/blog",
           },
         ],
       },

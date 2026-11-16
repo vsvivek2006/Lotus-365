@@ -37,7 +37,7 @@ const cricketFaqs = [
   },
   {
     question: 'Can I bet on live cricket matches directly from my phone?',
-    answer: 'Yes, absolutely! Lotus365 is 100% mobile-friendly. Simply open lotus365officialid.com in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting with zero storage needed.',
+    answer: 'Yes, absolutely! Lotus365 is 100% mobile-friendly. Simply open lotusplay365.shop in Chrome, Safari, or any mobile browser on Android or iPhone to enjoy smooth 60 FPS in-play cricket betting with zero storage needed.',
   },
   {
     question: 'Can I claim a welcome bonus on my first cricket deposit?',
@@ -100,7 +100,7 @@ export const CricketBettingPage: React.FC = () => (
               Why Lotus365 Is India's Undisputed Leader in Cricket Betting
             </h2>
             <p className="text-center text-slate-600 max-w-3xl mx-auto text-sm sm:text-base mb-10 leading-relaxed font-normal">
-              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
+              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {features.map((f, i) => (
@@ -272,7 +272,7 @@ export const CricketBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                 <div className="text-xl font-black text-emerald-700 mb-1">Step 03</div>
                 <h3 className="font-bold text-slate-900 mb-1">Access Live Cricket Markets</h3>
-                <p className="text-xs text-slate-600">Open <strong className="text-white">lotus365officialid.com</strong> on your mobile browser, login, and browse ongoing IPL, T20, and international fixtures.</p>
+                <p className="text-xs text-slate-600">Open <strong className="text-white">lotusplay365.shop</strong> on your mobile browser, login, and browse ongoing IPL, T20, and international fixtures.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                 <div className="text-xl font-black text-emerald-700 mb-1">Step 04</div>

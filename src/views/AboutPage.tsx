@@ -51,7 +51,7 @@ const aboutFaqs = [
   },
   {
     question: 'Can I access Lotus365 on an iPhone, iPad, or Android phone?',
-    answer: 'Yes! Lotus365 is completely optimized for all mobile screens. Simply visit lotus365officialid.com on Safari or Chrome and bookmark or add to home screen for 1-tap gaming anytime.'
+    answer: 'Yes! Lotus365 is completely optimized for all mobile screens. Simply visit lotusplay365.shop on Safari or Chrome and bookmark or add to home screen for 1-tap gaming anytime.'
   }
 ];
 
@@ -108,7 +108,7 @@ export const AboutPage: React.FC = () => (
               <strong>Lotus365</strong> was established with a singular, revolutionary vision: to build a homegrown, high-performance betting platform tailored specifically to the technological and cultural realities of Indian players. We engineered direct, zero-fee integration with India’s <strong>Unified Payments Interface (UPI)</strong>, pioneered the legendary <strong>2-Minute Cashout Guarantee</strong>, and replaced slow, impersonal web ticket queues with private, 24/7 human concierge desks on <strong>WhatsApp</strong>.
             </p>
             <p>
-              Today, operating exclusively through our verified domain <strong className="text-white">lotus365officialid.com</strong>, Lotus365 is recognized across Mumbai, Delhi, Bengaluru, Hyderabad, and Kolkata as the gold standard in digital wagering trust.
+              Today, operating exclusively through our verified domain <strong className="text-white">lotusplay365.shop</strong>, Lotus365 is recognized across Mumbai, Delhi, Bengaluru, Hyderabad, and Kolkata as the gold standard in digital wagering trust.
             </p>
           </div>
 

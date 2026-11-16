@@ -115,7 +115,7 @@ export const HowItWorksSection: React.FC<HowItWorksProps> = ({ onOpenAuth }) => 
             <div className="flex items-start gap-3 p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 shadow-sm">
               <Lightbulb className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
               <div className="text-xs sm:text-sm leading-relaxed">
-                <strong>Pro Tip:</strong> Bookmark <Link href="/" className="text-emerald-700 underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link> to your phone's home screen for 1-tap access anytime. Need guidance? Read our <Link href="/how-it-works" className="text-emerald-700 underline font-bold">Step-by-Step Guide</Link> or explore our <Link href="/vip-club" className="text-emerald-700 underline font-bold">VIP Privileges</Link>.
+                <strong>Pro Tip:</strong> Bookmark <Link href="/" className="text-emerald-700 underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link> to your phone's home screen for 1-tap access anytime. Need guidance? Read our <Link href="/how-it-works" className="text-emerald-700 underline font-bold">Step-by-Step Guide</Link> or explore our <Link href="/vip-club" className="text-emerald-700 underline font-bold">VIP Privileges</Link>.
               </div>
             </div>
           </div>

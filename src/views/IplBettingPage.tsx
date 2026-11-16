@@ -37,7 +37,7 @@ const iplFaqs = [
   },
   {
     question: 'Can I bet on IPL live matches on my smartphone?',
-    answer: 'Yes! Lotus365 runs smoothly on Chrome and Safari across all Android and iOS smartphones. Simply visit lotus365officialid.com or bookmark it to your home screen for instant 60 FPS in-play cricket odds.',
+    answer: 'Yes! Lotus365 runs smoothly on Chrome and Safari across all Android and iOS smartphones. Simply visit lotusplay365.shop or bookmark it to your home screen for instant 60 FPS in-play cricket odds.',
   },
   {
     question: 'How do I claim an IPL welcome bonus on my first deposit?',
@@ -96,7 +96,7 @@ export const IplBettingPage: React.FC = () => (
               The Ultimate IPL 2026 Betting Experience on Lotus365
             </h2>
             <p>
-              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotus365officialid.com">lotus365officialid.com</Link>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
+              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
             </p>
             <p>
               By leveraging our peer-to-peer <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline" title="cricket exchange">cricket exchange</Link>, you bypass bookmaker margins and trade back and lay positions on match odds, session totals, player milestones, and over-by-over dynamics without a rupee cut in platform commission.

@@ -42,7 +42,7 @@ const registerFaqs = [
   },
   {
     q: 'Can I change my password after logging in for the first time?',
-    a: 'Yes, we strongly recommend updating your initial password upon your first successful login via the account profile tab at lotus365officialid.com.'
+    a: 'Yes, we strongly recommend updating your initial password upon your first successful login via the account profile tab at lotusplay365.shop.'
   },
   {
     q: 'Can I register multiple accounts on Lotus365?',
@@ -95,7 +95,7 @@ export const RegisterPage: React.FC = () => {
                   { step: '01', title: 'Tap the Official WhatsApp Link', desc: 'Click any "Register via WhatsApp" button on this site. Your chat will automatically open with "I want ID".' },
                   { step: '02', title: 'Send Pre-Filled Message', desc: 'Simply tap send on "I want ID". Our dedicated 24/7 customer concierge will reply in less than 30 seconds.' },
                   { step: '03', title: 'Receive Secure Login Credentials', desc: 'Your agent will provide a unique username and private password assigned directly to your personal WhatsApp account.' },
-                  { step: '04', title: 'Log In & Make Your First Deposit', desc: 'Visit lotus365officialid.com, enter your credentials, deposit via PhonePe/GPay/Paytm, and claim your 100% welcome bonus!' },
+                  { step: '04', title: 'Log In & Make Your First Deposit', desc: 'Visit lotusplay365.shop, enter your credentials, deposit via PhonePe/GPay/Paytm, and claim your 100% welcome bonus!' },
                 ].map((s) => (
                   <div key={s.step} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-[#F0C419]/40 transition-colors">
                     <div className="text-3xl font-black text-slate-900 mb-2">{s.step}</div>
@@ -212,7 +212,7 @@ export const RegisterPage: React.FC = () => {
               <div>
                 <strong className="text-[#F0C419] block text-sm mb-1">Crucial Security Alert: Verify Official WhatsApp Numbers</strong>
                 <p className="text-xs text-slate-700">
-                  Always register exclusively through the verified WhatsApp links on <strong className="text-white">lotus365officialid.com</strong>. Beware of impostor Telegram groups or fraudulent social media pages posing as Lotus365 agents. Our legitimate desk will never ask for your bank PIN, UPI MPIN, or account passwords.
+                  Always register exclusively through the verified WhatsApp links on <strong className="text-white">lotusplay365.shop</strong>. Beware of impostor Telegram groups or fraudulent social media pages posing as Lotus365 agents. Our legitimate desk will never ask for your bank PIN, UPI MPIN, or account passwords.
                 </p>
               </div>
             </div>
@@ -272,7 +272,7 @@ export const RegisterPage: React.FC = () => {
                 Zero Risk Account Recovery & Re-Issuance Policy
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
-                If you ever misplace your smartphone, change your WhatsApp number, or delete your chat history, your balance and account progress are never lost. Simply reach out to our senior verification desk via our official domain lotus365officialid.com, verify your transaction history or registered banking details, and our compliance leads will re-link your verified ID with a new encrypted credential token in under two minutes.
+                If you ever misplace your smartphone, change your WhatsApp number, or delete your chat history, your balance and account progress are never lost. Simply reach out to our senior verification desk via our official domain lotusplay365.shop, verify your transaction history or registered banking details, and our compliance leads will re-link your verified ID with a new encrypted credential token in under two minutes.
               </p>
             </div>
 
@@ -324,11 +324,11 @@ export const RegisterPage: React.FC = () => {
 const loginFaqs = [
   {
     q: 'What is the official login URL for Lotus365?',
-    a: 'The only official login destination is https://lotus365officialid.com. Do not attempt logging into secondary unverified domains that mimic our brand styling.'
+    a: 'The only official login destination is https://lotusplay365.shop. Do not attempt logging into secondary unverified domains that mimic our brand styling.'
   },
   {
     q: 'Can I log in using my mobile phone?',
-    a: 'Yes! Lotus365 is 100% optimized for mobile. Simply visit lotus365officialid.com on mobile Chrome or Safari to access your account instantly with smooth 60 FPS gameplay.'
+    a: 'Yes! Lotus365 is 100% optimized for mobile. Simply visit lotusplay365.shop on mobile Chrome or Safari to access your account instantly with smooth 60 FPS gameplay.'
   },
   {
     q: 'Is my login connection encrypted and secure?',
@@ -388,7 +388,7 @@ export const LoginPage: React.FC = () => {
                 {[
                   {
                     step: 'Step 1: Navigate to the Official Domain',
-                    desc: 'Open Google Chrome, Safari, or Brave and go directly to https://lotus365officialid.com. Ensure the SSL padlock icon appears in your browser address bar to protect against phishing copies.',
+                    desc: 'Open Google Chrome, Safari, or Brave and go directly to https://lotusplay365.shop. Ensure the SSL padlock icon appears in your browser address bar to protect against phishing copies.',
                   },
                   {
                     step: 'Step 2: Click the "Login" Button',
@@ -523,7 +523,7 @@ export const LoginPage: React.FC = () => {
                   <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-white text-sm block mb-0.5">Always Bookmark the Official Domain</strong>
-                    <p className="text-xs text-slate-600">Bookmark <strong className="text-[#F0C419]">lotus365officialid.com</strong> in your browser. Never click unverified login links sent from unknown Telegram groups or suspicious SMS messages.</p>
+                    <p className="text-xs text-slate-600">Bookmark <strong className="text-[#F0C419]">lotusplay365.shop</strong> in your browser. Never click unverified login links sent from unknown Telegram groups or suspicious SMS messages.</p>
                   </div>
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
@@ -549,7 +549,7 @@ export const LoginPage: React.FC = () => {
                 Troubleshooting Common Login Hurdles
               </h2>
               <p className="text-xs sm:text-sm text-slate-700">
-                If you encounter difficulty accessing your account on lotus365officialid.com, refer to this rapid diagnostic matrix:
+                If you encounter difficulty accessing your account on lotusplay365.shop, refer to this rapid diagnostic matrix:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
@@ -558,7 +558,7 @@ export const LoginPage: React.FC = () => {
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Issue: Browser Cache Loop</span>
-                  <p className="text-slate-600">Perform a hard refresh (Ctrl + F5 on PC, or clear mobile browser site data for lotus365officialid.com) to load the newest web app bundle.</p>
+                  <p className="text-slate-600">Perform a hard refresh (Ctrl + F5 on PC, or clear mobile browser site data for lotusplay365.shop) to load the newest web app bundle.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1.5">
                   <span className="font-bold text-[#F0C419] text-sm">Issue: Account Temporarily Locked</span>
