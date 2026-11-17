@@ -110,7 +110,7 @@ export const AviatorGamePage: React.FC = () => {
                 Your core gameplay objective is deceptively simple yet psychologically captivating: place one or two bets before takeoff and tap the <strong>"Cash Out"</strong> button before the lucky plane flies away off the radar screen. Cash out in time, and your stake is multiplied by the exact coefficient frozen at that millisecond. Fail to hit cash out before the departure crash, and your round stake is forfeited.
               </p>
               <p>
-                What makes Aviator the premier choice on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <Link href="/how-to-deposit" className="text-[#F0C419] font-semibold hover:underline" title="UPI deposit">UPI deposit</Link> and withdrawal account.
+                What makes Aviator the premier choice on <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link> is our 100% authentic integration with Spribe's certified game servers, ensuring zero latency, instant one-tap cashouts, authentic provably fair hashing, and immediate balance updates directly tied to your 2-minute <Link href="/how-to-deposit" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="UPI deposit">UPI deposit</Link> and withdrawal account.
               </p>
             </div>
 
@@ -143,32 +143,32 @@ export const AviatorGamePage: React.FC = () => {
                   </thead>
                   <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                     <tr>
-                      <td className="p-3.5 font-medium text-white">Software Provider</td>
+                      <td className="p-3.5 font-medium text-slate-900 font-bold">Software Provider</td>
                       <td className="p-3.5">Spribe Gaming (B2B Licensed)</td>
-                      <td className="p-3.5 text-emerald-400">Official Direct API Connection</td>
+                      <td className="p-3.5 text-emerald-800 font-bold">Official Direct API Connection</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-medium text-white">Return to Player (RTP)</td>
+                      <td className="p-3.5 font-medium text-slate-900 font-bold">Return to Player (RTP)</td>
                       <td className="p-3.5">97.00% – 98.50%</td>
-                      <td className="p-3.5 text-emerald-400">Configured at Maximum 98.50%</td>
+                      <td className="p-3.5 text-emerald-800 font-bold">Configured at Maximum 98.50%</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-medium text-white">Minimum Stake</td>
+                      <td className="p-3.5 font-medium text-slate-900 font-bold">Minimum Stake</td>
                       <td className="p-3.5">₹10 INR</td>
                       <td className="p-3.5">Accessible for casual entertainment</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-medium text-white">Maximum Stake</td>
+                      <td className="p-3.5 font-medium text-slate-900 font-bold">Maximum Stake</td>
                       <td className="p-3.5">₹10,000 INR per single bet</td>
                       <td className="p-3.5">Dual-bet supports up to ₹20,000 per flight</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-medium text-white">Provably Fair Algorithm</td>
+                      <td className="p-3.5 font-medium text-slate-900 font-bold">Provably Fair Algorithm</td>
                       <td className="p-3.5">Cryptographic SHA-512 Seed Merging</td>
-                      <td className="p-3.5 text-emerald-400">In-game public seed verification tool</td>
+                      <td className="p-3.5 text-emerald-800 font-bold">In-game public seed verification tool</td>
                     </tr>
                     <tr>
-                      <td className="p-3.5 font-medium text-white">Auto-Features</td>
+                      <td className="p-3.5 font-medium text-slate-900 font-bold">Auto-Features</td>
                       <td className="p-3.5">Auto-Bet & Auto-Cashout (1.01× to 100×)</td>
                       <td className="p-3.5">Millisecond execution with zero network lag</td>
                     </tr>
@@ -186,7 +186,7 @@ export const AviatorGamePage: React.FC = () => {
                 Skeptical players frequently wonder: <em>"Can Lotus365 or Spribe deliberately trigger a crash the moment I place a heavy bet?"</em> The technological answer is an absolute <strong>no</strong>. Aviator relies on cryptographic <strong>Provably Fair</strong> protocol, which guarantees that game outcomes are not calculated on the operator's server.
               </p>
               <div className="p-5 rounded-xl bg-slate-50 border border-slate-200 border border-[#F0C419]/30 space-y-3">
-                <h3 className="font-bold text-[#F0C419] flex items-center gap-2">
+                <h3 className="font-bold text-slate-900 flex items-center gap-2">
                   <Lock className="w-5 h-5 text-[#F0C419]" />
                   The 4-Seed Cryptographic Generation Formula
                 </h3>
@@ -257,7 +257,7 @@ export const AviatorGamePage: React.FC = () => {
               <div>
                 <strong className="text-[#F0C419] block text-sm mb-1">Expert Pro Tip: Avoid Fake Aviator "Signals" & Prediction Apps</strong>
                 <p className="text-xs text-slate-700">
-                  Never pay for Telegram groups, WhatsApp channels, or third-party software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <Link href="/" className="text-[#F0C419] underline" title="Lotus365">Lotus365</Link> portal.
+                  Never pay for Telegram groups, WhatsApp channels, or third-party software claiming to possess "Aviator Hack Predictor algorithms." Because Spribe computes crash coefficients using live browser client seeds, no external software can foresee the crash time. Genuine long-term victory comes exclusively from prudent bankroll distribution and auto-cashout self-discipline on the official <Link href="/" className="text-emerald-700 font-semibold hover:underline underline" title="Lotus365">Lotus365</Link> portal.
                 </p>
               </div>
             </div>
@@ -287,7 +287,7 @@ export const AviatorGamePage: React.FC = () => {
 
             {/* FAQ Section */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
                 <HelpCircle className="w-6 h-6 text-[#F0C419]" />
                 Frequently Asked Questions About Aviator
               </h2>
@@ -303,9 +303,9 @@ export const AviatorGamePage: React.FC = () => {
 
             {/* Internal Interlinking */}
             <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-xs text-slate-700 space-y-2">
-              <span className="text-[#F0C419] font-bold uppercase tracking-wider block">Explore Complementary Lotus365 Portals</span>
+              <span className="text-emerald-800 font-bold uppercase tracking-wider block">Explore Complementary Lotus365 Portals</span>
               <p>
-                Interested in testing other real-money gaming verticals? Discover our high-speed <Link href="/aviator-game" className="text-[#F0C419] hover:underline font-medium" title="Crash Games Directory">Crash Games Directory</Link>, try fast-paced <Link href="/color-prediction" className="text-[#F0C419] hover:underline font-medium" title="Color Prediction">Color Prediction</Link>, check live action at the <Link href="/live-casino" className="text-[#F0C419] hover:underline font-medium" title="Live Casino Lobby">Live Casino Lobby</Link>, or place match bets on the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-medium" title="IPL Cricket Betting Exchange">IPL Cricket Betting Exchange</Link>.
+                Interested in testing other real-money gaming verticals? Discover our high-speed <Link href="/aviator-game" className="text-emerald-700 font-semibold hover:underline hover:underline font-medium" title="Crash Games Directory">Crash Games Directory</Link>, try fast-paced <Link href="/color-prediction" className="text-emerald-700 font-semibold hover:underline hover:underline font-medium" title="Color Prediction">Color Prediction</Link>, check live action at the <Link href="/live-casino" className="text-emerald-700 font-semibold hover:underline hover:underline font-medium" title="Live Casino Lobby">Live Casino Lobby</Link>, or place match bets on the <Link href="/ipl-betting" className="text-emerald-700 font-semibold hover:underline hover:underline font-medium" title="IPL Cricket Betting Exchange">IPL Cricket Betting Exchange</Link>.
               </p>
             </div>
 
@@ -396,7 +396,7 @@ export const CrashGamesPage: React.FC = () => (
               In a crash game, every round starts at a 1.00× multiplier coefficient that increases dynamically along an upward mathematical curve. As the multiplier ascends, players retain complete agency: you decide precisely when to hit the <strong>Cash Out</strong> trigger. If you cash out before the crash event occurs, you pocket your initial wager multiplied by the exact real-time figure. However, if the multiplier crashes before you take profit, your stake is lost.
             </p>
             <p>
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we host the most comprehensive suite of crash games licensed by international auditing authorities, featuring titles by Spribe, SmartSoft Gaming, Pragmatic Play, and Evolution Gaming.
+              On <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we host the most comprehensive suite of crash games licensed by international auditing authorities, featuring titles by Spribe, SmartSoft Gaming, Pragmatic Play, and Evolution Gaming.
             </p>
           </div>
 
@@ -419,38 +419,38 @@ export const CrashGamesPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">
-                      <Link href="/aviator-game" className="text-[#F0C419] hover:underline" title="Aviator">Aviator</Link>
+                      <Link href="/aviator-game" className="text-emerald-700 font-semibold hover:underline hover:underline" title="Aviator">Aviator</Link>
                     </td>
                     <td className="p-3.5">Spribe</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">98.50%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">98.50%</td>
                     <td className="p-3.5">10,000×+</td>
                     <td className="p-3.5">Dual simultaneous bets & in-game community chat</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">JetX</td>
                     <td className="p-3.5">SmartSoft Gaming</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">97.00%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">97.00%</td>
                     <td className="p-3.5">25,000×</td>
                     <td className="p-3.5">Retro pixel supersonic jet with progressive jackpot</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Spaceman</td>
                     <td className="p-3.5">Pragmatic Play</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">96.50%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">96.50%</td>
                     <td className="p-3.5">5,000×</td>
                     <td className="p-3.5">50% Partial Cashout button to lock half profits</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cricket X</td>
                     <td className="p-3.5">SmartSoft Gaming</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">96.80%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">96.80%</td>
                     <td className="p-3.5">10,000×</td>
                     <td className="p-3.5">Cricket ball shot into the stratosphere</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cappadocia</td>
                     <td className="p-3.5">SmartSoft Gaming</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">97.00%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">97.00%</td>
                     <td className="p-3.5">1,000×</td>
                     <td className="p-3.5">Multi-balloon launch where players control their own launch time</td>
                   </tr>
@@ -493,19 +493,19 @@ export const CrashGamesPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">Methodology A: The Conservative 50% Lock (Spaceman / Dual-Bet)</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">Methodology A: The Conservative 50% Lock (Spaceman / Dual-Bet)</h3>
                 <p className="text-xs text-slate-700">
                   When playing games with partial cashout capabilities (such as Pragmatic's Spaceman) or dual-bet options (such as Aviator and JetX), configure an auto-cashout of 50% of your position at 2.00×. Reaching 2.00× completely recoups 100% of your original round stake. The remaining 50% can be permitted to climb to 5×, 10×, or 50× with zero financial risk to your core balance.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">Methodology B: The Fixed Ratio Scalping Technique</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">Methodology B: The Fixed Ratio Scalping Technique</h3>
                 <p className="text-xs text-slate-700">
                   Discipline is the hallmark of professional scalpers. Set an automatic cashout between 1.25× and 1.35× on single bets. Allocate exactly 2% of your total session wallet per round. While each single victory returns a 25–35% margin on the stake, the statistical win rate over 50 consecutive flights cushions against sudden single-round crashes.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">Methodology C: The Anti-Martingale (Paroli System)</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">Methodology C: The Anti-Martingale (Paroli System)</h3>
                 <p className="text-xs text-slate-700">
                   Unlike dangerous Martingale systems (doubling after losses), the Paroli system involves increasing your stake only after a successful round, resetting immediately to baseline after any loss or after 3 consecutive wins. This protects your bankroll during drawdown streaks while capitalizing aggressively during hot variance runs.
                 </p>
@@ -552,7 +552,7 @@ export const CrashGamesPage: React.FC = () => (
 
           {/* Social Chat & Rain Mechanics */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Live In-Game Chat & Community "Rain" Bonus Mechanics
             </h2>
             <p>
@@ -565,7 +565,7 @@ export const CrashGamesPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Crash Games
             </h2>
@@ -658,7 +658,7 @@ export const ColorPredictionPage: React.FC = () => (
               <strong>Color Prediction</strong> (frequently termed <em>Colour Wiz, Fast Parity, or Wingo</em>) has captivated millions of Indian players due to its unmatched simplicity, lightning-fast round frequency, and immediate real-money gratification. Operating on short 30-second, 1-minute, or 3-minute timers, the game asks players to forecast which color hue or numeric outcome will emerge from a certified digital draw.
             </p>
             <p className="mb-4">
-              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified shady websites.
+              Unlike complicated card games or sports fixtures that require hours to conclude, Color Prediction delivers definitive, transparent outcomes multiple times each minute. On <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our Color Prediction arena is engineered with certified RNG algorithms, eliminating the predatory balance-freezing practices found on unverified shady websites.
             </p>
             <p>
               Whether you are staking ₹20 on a primary color or targeting a 9:1 payout on an exact single number, Lotus365 guarantees lightning-fast credit of winnings and instant 2-minute withdrawals straight to your UPI or bank account.
@@ -685,7 +685,7 @@ export const ColorPredictionPage: React.FC = () => (
                 </thead>
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
-                    <td className="p-3.5 font-bold text-emerald-400">Green</td>
+                    <td className="p-3.5 font-bold text-emerald-800 font-bold">Green</td>
                     <td className="p-3.5">1, 3, 7, 9 (and half on 5)</td>
                     <td className="p-3.5 font-semibold text-slate-900">2.00× (1.50× if 5 appears)</td>
                     <td className="p-3.5 text-slate-600">~45% baseline chance; primary conservative wager</td>
@@ -699,13 +699,13 @@ export const ColorPredictionPage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-purple-400">Violet (Purple)</td>
                     <td className="p-3.5">0 and 5 only</td>
-                    <td className="p-3.5 font-semibold text-[#F0C419]">4.50×</td>
+                    <td className="p-3.5 font-semibold text-slate-900">4.50×</td>
                     <td className="p-3.5 text-slate-600">20% probability; accompanies 0 (Red+Violet) or 5 (Green+Violet)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-amber-300">Exact Single Number</td>
                     <td className="p-3.5">Any specific number (0–9)</td>
-                    <td className="p-3.5 font-extrabold text-[#F0C419]">9.00×</td>
+                    <td className="p-3.5 font-extrabold text-slate-900">9.00×</td>
                     <td className="p-3.5 text-slate-600">10% theoretical probability; high-reward strike</td>
                   </tr>
                   <tr>
@@ -730,21 +730,21 @@ export const ColorPredictionPage: React.FC = () => (
 
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">1. The Trend-Following "Dragon Streak" Strategy</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">1. The Trend-Following "Dragon Streak" Strategy</h3>
                 <p className="text-xs text-slate-700">
                   Inspect the recent results board. In color betting, random variance often creates "Dragon Streaks"—where a single color (e.g., Red) appears 5, 7, or 9 times consecutively. Rather than trying to guess when the streak will snap (a common gambler's fallacy), trend-following bettors place baseline wagers on the currently running color until an actual break occurs.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Color + Violet Insurance Hedging</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">2. Color + Violet Insurance Hedging</h3>
                 <p className="text-xs text-slate-700">
                   When you wager ₹1,000 on Red, place a fractional ₹200 insurance bet on Violet. If the result is 0 (Red + Violet), your Red bet returns half while your Violet bet pays out 4.50× (returning ₹900), turning what would otherwise be a diminished round into a substantial net profit.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">3. Strict 3-Stage Martingale Ceiling</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">3. Strict 3-Stage Martingale Ceiling</h3>
                 <p className="text-xs text-slate-700">
                   If using progression systems (doubling after a loss), never exceed three consecutive stages (e.g., ₹100 → ₹200 → ₹400). If the third stage does not resolve in your favor, reset to your base ₹100 unit. Uncapped Martingale progressions can wipe out an entire balance during an extended cold sequence.
                 </p>
@@ -794,7 +794,7 @@ export const ColorPredictionPage: React.FC = () => (
 
           {/* Game Room Variations: Parity, Sapre & Bcone */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Understanding Color Prediction Rooms: Parity, Sapre, Bcone & Emerd
             </h2>
             <p>
@@ -817,7 +817,7 @@ export const ColorPredictionPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Color Prediction
             </h2>
@@ -910,10 +910,10 @@ export const VirtualSportsPage: React.FC = () => (
               <strong>Virtual Sports</strong> represent the perfect marriage of sports betting intuition and state-of-the-art computer-generated graphics. Powered by sophisticated Random Number Generators (RNG) and 3D visual engines developed by global leaders like <em>Betradar</em> and <em>Kiron Interactive</em>, virtual sports deliver photorealistic simulations of live athletic competitions around the clock.
             </p>
             <p className="mb-4">
-              While real-world international cricket fixtures and football derbies depend on schedules, weather, and time zones, virtual sports on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> operate 24 hours a day, 365 days a year. Every 3 minutes, a new fixture kicks off with full match markets, live statistical previews, simulated video highlights, and instantaneous settlement of all placed bets.
+              While real-world international cricket fixtures and football derbies depend on schedules, weather, and time zones, virtual sports on <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link> operate 24 hours a day, 365 days a year. Every 3 minutes, a new fixture kicks off with full match markets, live statistical previews, simulated video highlights, and instantaneous settlement of all placed bets.
             </p>
             <p>
-              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <Link href="/how-to-deposit" className="text-[#F0C419] font-semibold hover:underline" title="UPI payouts">UPI payouts</Link> on Lotus365.
+              Whether it is midnight during the cricket off-season or a quiet weekday morning, you can always enjoy competitive match odds, in-depth markets, and instant 2-minute <Link href="/how-to-deposit" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="UPI payouts">UPI payouts</Link> on Lotus365.
             </p>
           </div>
 
@@ -998,17 +998,17 @@ export const VirtualSportsPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Event Availability</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">24/7/365 Non-stop (Every 3 mins)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">24/7/365 Non-stop (Every 3 mins)</td>
                     <td className="p-3.5">Dependent on real seasonal schedules</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Match Duration</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">90 seconds to 3 minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">90 seconds to 3 minutes</td>
                     <td className="p-3.5">90 minutes (Football) to 4 hours (T20)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Weather / Delays</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Zero rain stoppages or DLS recalculations</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Zero rain stoppages or DLS recalculations</td>
                     <td className="p-3.5">Subject to rain, pitch wetness, and bad light</td>
                   </tr>
                   <tr>
@@ -1033,21 +1033,21 @@ export const VirtualSportsPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">1. Respect Mathematical Odds Rather Than Team Names</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">1. Respect Mathematical Odds Rather Than Team Names</h3>
                 <p className="text-xs text-slate-700">
                   In virtual cricket, a team named "Mumbai" or "Chennai" is governed by assigned RNG rating weightings, not the actual real-world form of Rohit Sharma or MS Dhoni. Always examine the listed decimal odds: an RNG team priced at 1.45 has a statistically programmed 69% probability weight, regardless of franchise nostalgia.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Manage High Event Frequency with Strict Session Budgets</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">2. Manage High Event Frequency with Strict Session Budgets</h3>
                 <p className="text-xs text-slate-700">
                   Because virtual sports matches resolve every three minutes, it is easy to place 20 bets in an hour. Establish a dedicated session bankroll (e.g., ₹2,000) and limit each individual ticket to 2%–5% (₹50–₹100). Never attempt to chase losses in subsequent consecutive races.
                 </p>
               </div>
 
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">3. Diversify into Binary Total Markets (Over/Under)</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">3. Diversify into Binary Total Markets (Over/Under)</h3>
                 <p className="text-xs text-slate-700">
                   Instead of attempting to forecast exact football scores or exact cricket winners in high-variance virtual algorithms, focus on Over/Under total goals (Over 1.5 or 2.5) and cricket boundary lines where odds are balanced close to even money.
                 </p>
@@ -1057,7 +1057,7 @@ export const VirtualSportsPage: React.FC = () => (
 
           {/* Virtual Cricket Simulation Mechanics */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Virtual Cricket Engine: How Certified Simulators Model Player Metrics
             </h2>
             <p>
@@ -1070,7 +1070,7 @@ export const VirtualSportsPage: React.FC = () => (
 
           {/* Virtual vs Real Betting Synergy */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               How Indian Punters Use Virtual Sports During Cricket Off-Seasons
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1080,7 +1080,7 @@ export const VirtualSportsPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Virtual Sports
             </h2>
@@ -1096,9 +1096,9 @@ export const VirtualSportsPage: React.FC = () => (
 
           {/* Interlinks */}
           <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs text-xs text-slate-700 space-y-2">
-            <span className="text-[#F0C419] font-bold uppercase tracking-wider block">More Sports & Gaming on Lotus365</span>
+            <span className="text-emerald-800 font-bold uppercase tracking-wider block">More Sports & Gaming on Lotus365</span>
             <p>
-              Prefer real-world sporting events? Jump into our <Link href="/cricket-betting" className="text-[#F0C419] hover:underline font-semibold" title="Cricket Betting Hub">Cricket Betting Hub</Link>, explore the <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline font-semibold" title="Betting Exchange">Betting Exchange</Link>, or bet on world football at our <Link href="/football-betting" className="text-[#F0C419] hover:underline font-semibold" title="Football Sportsbook">Football Sportsbook</Link>.
+              Prefer real-world sporting events? Jump into our <Link href="/cricket-betting" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Cricket Betting Hub">Cricket Betting Hub</Link>, explore the <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Betting Exchange">Betting Exchange</Link>, or bet on world football at our <Link href="/football-betting" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Football Sportsbook">Football Sportsbook</Link>.
             </p>
           </div>
 

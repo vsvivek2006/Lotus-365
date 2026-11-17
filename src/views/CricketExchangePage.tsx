@@ -60,13 +60,13 @@ export const CricketExchangePage: React.FC = () => (
         title="India's Most Liquid "
         highlight="Cricket Exchange Platform"
         subtitle="Trade cricket odds with 0% net commission. Back teams to win, lay teams to lose, lock in guaranteed green profits mid-match, and withdraw winnings in 2 minutes via UPI."
-        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageSrc="/images/banners/banner_cricket_exchange.webp"
         imageAlt="Lotus365 Live Cricket Betting Exchange Stadium"
         breadcrumbs={[{ label: 'Cricket Exchange' }]}
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
-        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Interactive Live Exchange Board */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -96,10 +96,10 @@ export const CricketExchangePage: React.FC = () => (
               What Is a Cricket Betting Exchange and How Does It Work?
             </h2>
             <p>
-              In traditional sports betting, you place a wager against a centralized bookmaker who sets artificial odds with an 8% to 15% hidden margin cut against you. A <strong className="text-white">Cricket Betting Exchange</strong> completely eliminates the middleman bookmaker. On Lotus365, you trade directly against other Indian cricket enthusiasts in an open, transparent financial marketplace.
+              In traditional sports betting, you place a wager against a centralized bookmaker who sets artificial odds with an 8% to 15% hidden margin cut against you. A <strong className="text-slate-900 font-bold">Cricket Betting Exchange</strong> completely eliminates the middleman bookmaker. On Lotus365, you trade directly against other Indian cricket enthusiasts in an open, transparent financial marketplace.
             </p>
             <p>
-              Because you are betting against fellow players, the exchange provides two revolutionary advantages unavailable on ordinary betting apps: you can <strong className="text-white">Back</strong> an outcome (betting that an event will happen) or <strong className="text-white">Lay</strong> an outcome (acting as the bookmaker by betting that an event will NOT happen).
+              Because you are betting against fellow players, the exchange provides two revolutionary advantages unavailable on ordinary betting apps: you can <strong className="text-slate-900 font-bold">Back</strong> an outcome (betting that an event will happen) or <strong className="text-slate-900 font-bold">Lay</strong> an outcome (acting as the bookmaker by betting that an event will NOT happen).
             </p>
           </div>
 
@@ -136,7 +136,7 @@ export const CricketExchangePage: React.FC = () => (
 
           {/* Masterclass: Greening Up Arbitrage */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2.5">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2.5">
               <DollarSign className="w-7 h-7 text-[#F0C419]" />
               <span>The "Green Up" Cashout Formula: Guaranteed Profit Before Match End</span>
             </h2>
@@ -147,9 +147,9 @@ export const CricketExchangePage: React.FC = () => (
             <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-4">
               <h3 className="font-bold text-slate-900 text-base">Practical In-Play Trading Walkthrough:</h3>
               <ol className="space-y-3 text-xs sm:text-sm list-decimal list-inside text-slate-700">
-                <li><strong className="text-white">Pre-Match:</strong> You Back India at odds of <strong className="text-[#F0C419]">2.20</strong> with a ₹10,000 stake (Potential return: ₹22,000; Net Profit: ₹12,000).</li>
-                <li><strong className="text-white">During In-Play:</strong> India's opening bowlers strike twice in the powerplay, taking 2 early wickets. India's odds plummet to <strong className="text-[#F0C419]">1.30</strong>.</li>
-                <li><strong className="text-white">The Lay Hedge:</strong> You now Lay India at 1.30 with a stake of ₹16,923. Your liability on this lay is ₹5,077 (₹16,923 × 0.30).</li>
+                <li><strong className="text-slate-900 font-bold">Pre-Match:</strong> You Back India at odds of <strong className="text-[#F0C419]">2.20</strong> with a ₹10,000 stake (Potential return: ₹22,000; Net Profit: ₹12,000).</li>
+                <li><strong className="text-slate-900 font-bold">During In-Play:</strong> India's opening bowlers strike twice in the powerplay, taking 2 early wickets. India's odds plummet to <strong className="text-[#F0C419]">1.30</strong>.</li>
+                <li><strong className="text-slate-900 font-bold">The Lay Hedge:</strong> You now Lay India at 1.30 with a stake of ₹16,923. Your liability on this lay is ₹5,077 (₹16,923 × 0.30).</li>
                 <li><strong className="text-emerald-400 font-bold">The Guaranteed Outcome:</strong>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2 pl-4">
                     <div className="p-3 rounded-lg bg-emerald-950/40 border border-emerald-500/30">
@@ -171,7 +171,7 @@ export const CricketExchangePage: React.FC = () => (
 
           {/* Exchange Comparison Table */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Exchange Comparison: Lotus365 vs Betfair vs Traditional Bookmakers
             </h2>
             <p className="text-sm text-slate-700">
@@ -190,31 +190,31 @@ export const CricketExchangePage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">Net Commission Rate</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">0% (Zero Commission)</td>
+                    <td className="p-3.5 text-slate-900 font-bold">0% (Zero Commission)</td>
                     <td className="p-3.5 text-rose-400">5% to 7.5% per winning market</td>
                     <td className="p-3.5 text-rose-400">8% to 15% hidden margin</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">India UPI & IMPS Payouts</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">Instant (Under 2 Minutes)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">Instant (Under 2 Minutes)</td>
                     <td className="p-3.5 text-slate-500">Not supported (Crypto/E-wallets only)</td>
                     <td className="p-3.5 text-slate-500">12 to 48 Hours with KYC friction</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">Back & Lay on Session Runs</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">Full Fancy & Session Trading</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">Full Fancy & Session Trading</td>
                     <td className="p-3.5 text-slate-500">Limited session markets</td>
                     <td className="p-3.5 text-rose-400">No Laying Allowed (Back only)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">Access / VPN Requirement</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">100% Direct Web (Zero VPN)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">100% Direct Web (Zero VPN)</td>
                     <td className="p-3.5 text-rose-400">Blocked in India (Requires VPN)</td>
                     <td className="p-3.5 text-slate-500">Frequent ISP domain blocks</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">Customer Service</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">24/7 Dedicated WhatsApp Desk</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">24/7 Dedicated WhatsApp Desk</td>
                     <td className="p-3.5 text-slate-500">Email / Slow Bot Chat</td>
                     <td className="p-3.5 text-slate-500">Automated Bot Tickets</td>
                   </tr>
@@ -225,7 +225,7 @@ export const CricketExchangePage: React.FC = () => (
 
           {/* Session Trading Mechanics */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Deep-Dive: Fancy & Session Cricket Markets (Khado & Lambi)
             </h2>
             <p>
@@ -260,13 +260,13 @@ export const CricketExchangePage: React.FC = () => (
               <span>Exchange Rule of Thumb: Never Chase Losses on Khado</span>
             </div>
             <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
-              If a session run bet fails because of an unexpected maiden over or a double-wicket maiden, never double your stake on the following session out of frustration. Stick strictly to flat 2% to 4% bankroll allocations per market as explained in our <Link href="/betting-tips" className="text-[#F0C419] underline font-semibold" title="cricket betting tips guide">cricket betting tips guide</Link>.
+              If a session run bet fails because of an unexpected maiden over or a double-wicket maiden, never double your stake on the following session out of frustration. Stick strictly to flat 2% to 4% bankroll allocations per market as explained in our <Link href="/betting-tips" className="text-emerald-700 font-semibold hover:underline underline font-semibold" title="cricket betting tips guide">cricket betting tips guide</Link>.
             </p>
           </div>
 
           {/* 6 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Cricket Exchange Frequently Asked Questions</span>
             </h2>

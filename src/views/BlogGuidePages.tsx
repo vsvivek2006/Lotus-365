@@ -81,7 +81,7 @@ export const ReviewPage: React.FC = () => (
           {/* Executive Rating Card */}
           <div className="p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-200 border border-[#F0C419]/40 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="space-y-2 text-center sm:text-left">
-              <span className="text-xs font-bold uppercase tracking-widest text-[#F0C419]">Executive Audit Verdict</span>
+              <span className="text-xs font-bold uppercase tracking-widest text-emerald-800">Executive Audit Verdict</span>
               <h2 className="text-2xl sm:text-3xl font-black text-slate-900">Lotus365 Official Platform Score</h2>
               <div className="flex items-center justify-center sm:justify-start gap-1">
                 {[1,2,3,4,5].map(i => (
@@ -102,10 +102,10 @@ export const ReviewPage: React.FC = () => (
               Comprehensive Platform Overview: What Is Lotus365?
             </h2>
             <p className="mb-4">
-              Established in 2019, <strong>Lotus365</strong> has grown into the undisputed market leader in online sports betting and live casino entertainment across India. Operating exclusively via its official web domain <strong className="text-white">lotusplay365.shop</strong>, the platform serves over 1.5 million active accounts by solving the two greatest frustrations Indian players historically faced with offshore foreign bookmakers: complicated registration hurdles and excruciatingly slow withdrawal times.
+              Established in 2019, <strong>Lotus365</strong> has grown into the undisputed market leader in online sports betting and live casino entertainment across India. Operating exclusively via its official web domain <strong className="text-slate-900 font-bold">lotusplay365.shop</strong>, the platform serves over 1.5 million active accounts by solving the two greatest frustrations Indian players historically faced with offshore foreign bookmakers: complicated registration hurdles and excruciatingly slow withdrawal times.
             </p>
             <p className="mb-4">
-              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link href="/how-to-withdraw" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
+              Unlike traditional sportsbooks that impose heavy 5% to 8% margin markups, Lotus365 operates as a true peer-to-peer <strong>Cricket Betting Exchange</strong> where players can both "Back" (bet for) and "Lay" (bet against) match outcomes with up to 0% commission on marquee matches. Coupled with its guaranteed <Link href="/how-to-withdraw" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link> and instant 24/7 WhatsApp concierge support, Lotus365 sets an unmatched standard of operational excellence.
             </p>
           </div>
 
@@ -124,27 +124,27 @@ export const ReviewPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cricket Exchange & Odds</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">5.0 / 5.0</td>
+                    <td className="p-3.5 text-slate-900 font-bold">5.0 / 5.0</td>
                     <td className="p-3.5 text-slate-700">Deepest liquidity on IPL, international Tests, and T20 leagues with zero commission.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Withdrawal Speed & Integrity</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">5.0 / 5.0</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">5.0 / 5.0</td>
                     <td className="p-3.5 text-slate-700">Average payout clearance time of 114 seconds via UPI / IMPS with zero fees.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Dealer Casino Suite</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">4.9 / 5.0</td>
+                    <td className="p-3.5 text-slate-900 font-bold">4.9 / 5.0</td>
                     <td className="p-3.5 text-slate-700">1000+ tables including authentic Hindi-speaking Teen Patti, Andar Bahar, and Lightning Roulette.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Mobile Web App Experience</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">5.0 / 5.0</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">5.0 / 5.0</td>
                     <td className="p-3.5 text-slate-700">Fluid 60 FPS mobile browser gameplay with instant touch responsiveness on any phone.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Customer Support Quality</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">4.8 / 5.0</td>
+                    <td className="p-3.5 text-slate-900 font-bold">4.8 / 5.0</td>
                     <td className="p-3.5 text-slate-700">Dedicated human WhatsApp agents available 24/7/365 with sub-60 second response times.</td>
                   </tr>
                 </tbody>
@@ -154,7 +154,7 @@ export const ReviewPage: React.FC = () => (
 
           {/* Independent Regulatory & Data Encryption Audit */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Independent Regulatory & Data Encryption Audit
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -199,7 +199,7 @@ export const ReviewPage: React.FC = () => (
 
           {/* Platform Liquidity & Order Matching Speed Audit */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Platform Liquidity & Order Matching Speed Audit
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -212,7 +212,7 @@ export const ReviewPage: React.FC = () => (
 
           {/* Banking Integrity & Zero KYC Philosophy */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Banking Integrity & The Zero-Document KYC Philosophy
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -238,7 +238,7 @@ export const ReviewPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Lotus365
             </h2>
@@ -297,7 +297,7 @@ export const VsCompetitorsPage: React.FC = () => (
         title="Lotus365 vs " 
         highlight="Competitors" 
         subtitle="How does Lotus365 compare to international bookmakers and fantasy apps? Review our side-by-side breakdown across payout speed, exchange commission, mobile convenience, and customer support." 
-        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageSrc="/images/banners/banner_how_it_works.webp"
         imageAlt="Lotus365 vs Competitors Platform Comparison"
         breadcrumbs={[
           { label: 'Guides' },
@@ -339,49 +339,49 @@ export const VsCompetitorsPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cricket Exchange Model</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">Yes (Back & Lay)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold bg-emerald-900/30">Yes (Back & Lay)</td>
                     <td className="p-3.5 text-rose-300">No (Sportsbook only)</td>
                     <td className="p-3.5 text-rose-300">No (Sportsbook only)</td>
                     <td className="p-3.5 text-slate-600">Fantasy Only</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Exchange Commission</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">0% – 2%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold bg-emerald-900/30">0% – 2%</td>
                     <td className="p-3.5 text-rose-300">5% – 8% Margin</td>
                     <td className="p-3.5 text-rose-300">6% – 9% Margin</td>
                     <td className="p-3.5 text-rose-300">15% – 20% Platform Cut</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Average Cashout Speed</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">Under 2 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold bg-emerald-900/30">Under 2 Minutes</td>
                     <td className="p-3.5 text-rose-300">24 – 48 Hours</td>
                     <td className="p-3.5 text-rose-300">12 – 24 Hours</td>
                     <td className="p-3.5 text-slate-600">Instant Bank (TDS cut)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Registration Process</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">60s on WhatsApp</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold bg-emerald-900/30">60s on WhatsApp</td>
                     <td className="p-3.5 text-rose-300">Lengthy KYC Form</td>
                     <td className="p-3.5 text-rose-300">Complex Account Form</td>
                     <td className="p-3.5 text-slate-600">PAN Card Required</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Quick Setup?</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">No (100% Web PWA)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold bg-emerald-900/30">No (100% Web PWA)</td>
                     <td className="p-3.5 text-slate-600">Optional App</td>
                     <td className="p-3.5 text-rose-300">Complex Setup</td>
                     <td className="p-3.5 text-slate-600">Mandatory App</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Indian Card Games</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">Teen Patti & Andar Bahar</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold bg-emerald-900/30">Teen Patti & Andar Bahar</td>
                     <td className="p-3.5 text-rose-300">Very Limited</td>
                     <td className="p-3.5 text-slate-600">Available</td>
                     <td className="p-3.5 text-rose-300">None (Fantasy Only)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Customer Support Channel</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold bg-emerald-900/30">24/7 Human WhatsApp</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold bg-emerald-900/30">24/7 Human WhatsApp</td>
                     <td className="p-3.5 text-rose-300">Slow Email / Chatbot</td>
                     <td className="p-3.5 text-rose-300">Automated Chatbot</td>
                     <td className="p-3.5 text-rose-300">Ticket System</td>
@@ -393,7 +393,7 @@ export const VsCompetitorsPage: React.FC = () => (
 
           {/* Detailed Case Study */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Detailed Case Study: Lotus365 vs. Offshore Corporate Bookmakers
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -401,15 +401,15 @@ export const VsCompetitorsPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">True Exchange Odds</h3>
+                <h3 className="font-bold text-slate-900 text-base">True Exchange Odds</h3>
                 <p className="text-xs text-slate-600">Lotus365 matches bets peer-to-peer at true market rates with 0% bookmaker vigorish on marquee matches, directly enhancing your long-term return on investment.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">Instant INR Liquidity</h3>
+                <h3 className="font-bold text-slate-900 text-base">Instant INR Liquidity</h3>
                 <p className="text-xs text-slate-600">Zero forex currency conversion fees. Deposit exactly what you intend to wager via PhonePe, GPay, or Paytm and receive instant 2-minute cashouts.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">Zero Account Freezes</h3>
+                <h3 className="font-bold text-slate-900 text-base">Zero Account Freezes</h3>
                 <p className="text-xs text-slate-600">Offshore operators frequently freeze accounts when players hit winning streaks. Lotus365 welcomes winning players with uncapped VIP liquidity.</p>
               </div>
             </div>
@@ -420,12 +420,12 @@ export const VsCompetitorsPage: React.FC = () => (
 
           {/* Deep Dive on Differentiators */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               The 3 Major Pillars Where Lotus365 Dominates
             </h2>
 
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419] flex items-center gap-2">
+              <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 <Zap className="w-5 h-5 text-[#F0C419]" /> 1. The 2-Minute Cashout Advantage
               </h3>
               <p className="text-xs text-slate-700">
@@ -434,7 +434,7 @@ export const VsCompetitorsPage: React.FC = () => (
             </div>
 
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419] flex items-center gap-2">
+              <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 <Trophy className="w-5 h-5 text-[#F0C419]" /> 2. Exchange Trading (Back & Lay) vs Bookmaker Sportsbook
               </h3>
               <p className="text-xs text-slate-700">
@@ -443,7 +443,7 @@ export const VsCompetitorsPage: React.FC = () => (
             </div>
 
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419] flex items-center gap-2">
+              <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-[#F0C419]" /> 3. Privacy & Zero Invasive KYC Forms
               </h3>
               <p className="text-xs text-slate-700">
@@ -454,7 +454,7 @@ export const VsCompetitorsPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions: Lotus365 vs Competitors
             </h2>
@@ -532,13 +532,13 @@ export const BettingTipsPage: React.FC = () => (
               The overwhelming majority of casual cricket bettors lose money over time because they bet with their hearts rather than with mathematical probability. They back their favorite franchise or celebrated superstars regardless of pitch deterioration, weather shifts, or unfavourable market pricing.
             </p>
             <p className="mb-4">
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, professional cricket traders view every fixture as an evolving financial market. By mastering pitch variables, statistical venue averages, and in-play exchange hedging ("greening up"), you can systematically tilt the odds in your favor. Below is the master blueprint developed by our senior cricket analysts.
+              On <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, professional cricket traders view every fixture as an evolving financial market. By mastering pitch variables, statistical venue averages, and in-play exchange hedging ("greening up"), you can systematically tilt the odds in your favor. Below is the master blueprint developed by our senior cricket analysts.
             </p>
           </div>
 
           {/* The 6 Pillars */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               The 6 Golden Pillars of Professional Cricket Betting
             </h2>
 
@@ -569,7 +569,7 @@ export const BettingTipsPage: React.FC = () => (
               },
             ].map((p, idx) => (
               <div key={idx} className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="text-lg font-bold text-[#F0C419]">{p.title}</h3>
+                <h3 className="text-lg font-bold text-slate-900">{p.title}</h3>
                 <p className="text-xs text-slate-700 leading-relaxed">{p.body}</p>
               </div>
             ))}
@@ -577,7 +577,7 @@ export const BettingTipsPage: React.FC = () => (
 
           {/* Green Book Hedging Strategy */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               In-Play Green Book Hedging: Eliminating Risk on the Exchange
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -612,14 +612,14 @@ export const BettingTipsPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Wankhede Stadium, Mumbai</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">188 Runs</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">62%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">188 Runs</td>
+                    <td className="p-3.5 text-slate-900 font-bold">62%</td>
                     <td className="p-3.5 text-slate-700">Short boundaries + true bounce. Back Over on boundaries and sixes.</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">M. Chinnaswamy, Bengaluru</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">195 Runs</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">59%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">195 Runs</td>
+                    <td className="p-3.5 text-slate-900 font-bold">59%</td>
                     <td className="p-3.5 text-slate-700">High altitude + small ground. 200+ scores common; back power-hitters.</td>
                   </tr>
                   <tr>
@@ -630,7 +630,7 @@ export const BettingTipsPage: React.FC = () => (
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Narendra Modi Stadium, Ahmedabad</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">178 Runs</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">178 Runs</td>
                     <td className="p-3.5 text-slate-600">52%</td>
                     <td className="p-3.5 text-slate-700">Large boundary dimensions. Running between wickets and pacers key.</td>
                   </tr>
@@ -641,7 +641,7 @@ export const BettingTipsPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Cricket Betting Strategy
             </h2>
@@ -719,7 +719,7 @@ export const IplPredictionsPage: React.FC = () => (
               The Indian Premier League remains the absolute pinnacle of franchise cricket, commanding over ₹2,500 Crores in daily digital betting liquidity across India. The 2026 season introduces updated squad compositions following the mega-auctions, refined tactical adaptations to the <strong>Impact Player rule</strong>, and enhanced pitch dynamics across 12 host venues.
             </p>
             <p className="mb-4">
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our <Link href="/ipl-betting" className="text-[#F0C419] font-semibold hover:underline" title="IPL Betting Hub">IPL Betting Hub</Link> and Cricket Exchange deliver ball-by-ball micro-markets, session runs, highest opening partnerships, and tournament outright winner lines with 0% commission on select marquee clashes.
+              On <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our <Link href="/ipl-betting" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="IPL Betting Hub">IPL Betting Hub</Link> and Cricket Exchange deliver ball-by-ball micro-markets, session runs, highest opening partnerships, and tournament outright winner lines with 0% commission on select marquee clashes.
             </p>
           </div>
 
@@ -743,37 +743,37 @@ export const IplPredictionsPage: React.FC = () => (
                     <td className="p-3.5 font-bold text-slate-900">Chennai Super Kings (CSK)</td>
                     <td className="p-3.5 text-slate-700">Impenetrable Chepauk home fortress & spin depth</td>
                     <td className="p-3.5 text-slate-600">Pace bowler economy in away matches</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">5.50</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">5.50</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Mumbai Indians (MI)</td>
                     <td className="p-3.5 text-slate-700">Explosive middle-order batting & Bumrah factor</td>
                     <td className="p-3.5 text-slate-600">Spin options on slow turning tracks</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">5.00</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">5.00</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Kolkata Knight Riders (KKR)</td>
                     <td className="p-3.5 text-slate-700">Aggressive powerplay striking & all-round depth</td>
                     <td className="p-3.5 text-slate-600">Consistency of top-order against high pace</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">6.00</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">6.00</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Royal Challengers Bengaluru (RCB)</td>
                     <td className="p-3.5 text-slate-700">World-class batting lineup at Chinnaswamy</td>
                     <td className="p-3.5 text-slate-600">Death-overs bowling economy rates</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">7.50</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">7.50</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Sunrisers Hyderabad (SRH)</td>
                     <td className="p-3.5 text-slate-700">Record-breaking powerplay strike rates (Head/Abhishek)</td>
                     <td className="p-3.5 text-slate-600">Middle-order rebuilding if early wickets fall</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">6.50</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">6.50</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Rajasthan Royals (RR)</td>
                     <td className="p-3.5 text-slate-700">Balanced bowling attack & Samson-Jaiswal axis</td>
                     <td className="p-3.5 text-slate-600">Lower-order finishing under high pressure</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">8.00</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">8.00</td>
                   </tr>
                 </tbody>
               </table>
@@ -782,7 +782,7 @@ export const IplPredictionsPage: React.FC = () => (
 
           {/* Franchise Profiles */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Tactical Franchise Profiles & Squad Composition Dynamics
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -790,19 +790,19 @@ export const IplPredictionsPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Chennai Super Kings (CSK)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Chennai Super Kings (CSK)</h3>
                 <p className="text-xs text-slate-600">Master tacticians at turning Chepauk into an impregnable fortress. Heavy reliance on finger spinners, disciplined middle-order anchors, and death overs strike rotation make them prime favorites in low-scoring defensive encounters.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Mumbai Indians (MI)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Mumbai Indians (MI)</h3>
                 <p className="text-xs text-slate-600">Built for power hitting at the Wankhede Stadium. Their aggressive top-order approach results in explosive 6-over powerplay totals, making session over wagers exceptionally profitable when conditions remain dry.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Kolkata Knight Riders (KKR)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Kolkata Knight Riders (KKR)</h3>
                 <p className="text-xs text-slate-600">A team defined by boundary-clearing all-rounders and mystery spin combinations. Highly volatile in early group fixtures, creating huge in-play price swings ideal for exchange trading.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Royal Challengers Bengaluru (RCB)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Royal Challengers Bengaluru (RCB)</h3>
                 <p className="text-xs text-slate-600">Playing at the high-altitude, short-boundary Chinnaswamy Stadium, match totals frequently surpass 210 runs. Backing top team batters and total match sixes delivers consistent value.</p>
               </div>
             </div>
@@ -813,17 +813,17 @@ export const IplPredictionsPage: React.FC = () => (
 
           {/* Key Strategic Factors */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Critical IPL 2026 Betting Trends to Exploit
             </h2>
             <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-              <h3 className="font-bold text-[#F0C419] text-base mb-1">1. The Impact Player Inflation on Powerplay Totals</h3>
+              <h3 className="font-bold text-slate-900 text-base mb-1">1. The Impact Player Inflation on Powerplay Totals</h3>
               <p className="text-xs text-slate-700">
                 With teams essentially batting down to number 8 or 9 without consequence, openers strike with zero hesitation. First 6 overs totals of 65+ runs have become the new baseline across high-scoring venues. Look for high-value "Over" session bets when elite openers bat first.
               </p>
             </div>
             <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-              <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Chasing Superiority in Dew-Prone Stadiums</h3>
+              <h3 className="font-bold text-slate-900 text-base mb-1">2. Chasing Superiority in Dew-Prone Stadiums</h3>
               <p className="text-xs text-slate-700">
                 In Mumbai, Lucknow, and Delhi, teams winning the toss will almost universally bowl first. The batting conditions in overs 14–20 of the chase are significantly superior. Backing the chasing side when odds lengthen during the first innings offers prime trading value.
               </p>
@@ -832,7 +832,7 @@ export const IplPredictionsPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About IPL Predictions
             </h2>
@@ -907,7 +907,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
               Mastering Real-Money Casino Gaming: Knowledge Over Luck
             </h2>
             <p className="mb-4">
-              Online casino gaming in India has undergone a massive renaissance. Gone are the days of pixelated, computer-generated digital card tables. Today, on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, you connect directly to ultra-high-definition live dealer studios operated by global giants like Evolution Gaming, Ezugi, and Pragmatic Play Live.
+              Online casino gaming in India has undergone a massive renaissance. Gone are the days of pixelated, computer-generated digital card tables. Today, on <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, you connect directly to ultra-high-definition live dealer studios operated by global giants like Evolution Gaming, Ezugi, and Pragmatic Play Live.
             </p>
             <p className="mb-4">
               However, entering the live casino lobby without understanding the mathematical foundations—specifically <strong>Return to Player (RTP)</strong> and <strong>House Edge</strong>—is the quickest way to deplete your capital. This guide equips you with the statistical knowledge necessary to choose high-value games, deploy disciplined staking, and secure consistent profits.
@@ -916,7 +916,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
 
           {/* RTP Mathematics & Table Etiquette */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Understanding Live Dealer Return-to-Player (RTP) Mathematics
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -924,11 +924,11 @@ export const OnlineCasinoGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">High RTP Skill Games</h3>
+                <h3 className="font-bold text-slate-900 text-base">High RTP Skill Games</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">Live Blackjack delivers an extraordinary 99.50% RTP when following basic strategy charts. Baccarat Banker bets yield 98.94% RTP with a microscopic 1.06% house edge, making them premier choices for disciplined bankroll growth.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">High-Multiplier Action Games</h3>
+                <h3 className="font-bold text-slate-900 text-base">High-Multiplier Action Games</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">Lightning Roulette and Aviator offer explosive upside with multipliers scaling up to 500x and 10,000x respectively. Balance your play between low-volatility table games and high-upside multipliers to optimize session longevity.</p>
               </div>
             </div>
@@ -939,7 +939,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
 
           {/* Staking Rules & Etiquette */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Bankroll Partitioning & Staking Rules for Indian Card Games
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -980,23 +980,23 @@ export const OnlineCasinoGuidePage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Blackjack</td>
                     <td className="p-3.5">Basic Strategy Main Hand</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold">99.50%</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">0.50%</td>
-                    <td className="p-3.5 text-[#F0C419]">High (Skill-based)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold">99.50%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">0.50%</td>
+                    <td className="p-3.5 text-slate-900">High (Skill-based)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Baccarat</td>
                     <td className="p-3.5">Banker Bet (1.06% edge)</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">98.94%</td>
-                    <td className="p-3.5 text-emerald-400">1.06%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">98.94%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">1.06%</td>
                     <td className="p-3.5 text-slate-600">Low (Automated rules)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Aviator Crash Game</td>
                     <td className="p-3.5">1.30x – 1.50x Cashout</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">98.50%</td>
-                    <td className="p-3.5 text-emerald-400">1.50%</td>
-                    <td className="p-3.5 text-[#F0C419]">Medium (Timing control)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">98.50%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">1.50%</td>
+                    <td className="p-3.5 text-slate-900">Medium (Timing control)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">European Roulette</td>
@@ -1026,7 +1026,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
 
           {/* Strategic Advice for Indian Games */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Actionable Strategy for Top Casino Disciplines
             </h2>
             <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
@@ -1051,7 +1051,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Online Casino Games
             </h2>
@@ -1110,7 +1110,7 @@ export const SafeBettingGuidePage: React.FC = () => (
         title="Safe & Responsible " 
         highlight="Betting Guide" 
         subtitle="Online sports betting and gaming should always remain an exciting, controlled form of entertainment. Master our risk-management principles, bankroll defense strategies, and self-discipline frameworks." 
-        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageSrc="/images/banners/banner_how_it_works.webp"
         imageAlt="Safe and Responsible Betting Guide India"
         breadcrumbs={[
           { label: 'Guides' },
@@ -1126,7 +1126,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               The Philosophy of Sustainable & Safe Wagering
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe our long-term success is directly connected to the well-being and safety of our player community. Online sports betting and live casino entertainment must never be viewed as an emergency income solution or a method to resolve financial hardship.
+              At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe our long-term success is directly connected to the well-being and safety of our player community. Online sports betting and live casino entertainment must never be viewed as an emergency income solution or a method to resolve financial hardship.
             </p>
             <p className="mb-4">
               When approached with disciplined bankroll management and clear stop-loss limits, betting enhances the thrill of sports. However, when players succumb to emotional tilt or chase previous losses, entertainment can transform into a liability. This guide details practical protocols to keep your gaming healthy, enjoyable, and sustainable.
@@ -1135,7 +1135,7 @@ export const SafeBettingGuidePage: React.FC = () => (
 
           {/* Phishing Protection Guide */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Phishing & Fake Mirror Domain Identification Guide
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1144,7 +1144,7 @@ export const SafeBettingGuidePage: React.FC = () => (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-emerald-500/30 space-y-1">
                 <h3 className="font-bold text-emerald-400 text-sm">Official Authorized Domain</h3>
-                <p className="text-xs text-slate-600">Our official platform URL is strictly <strong className="text-white">lotusplay365.shop</strong>. Never enter login credentials on lookalike mirror domains or third-party web forms.</p>
+                <p className="text-xs text-slate-600">Our official platform URL is strictly <strong className="text-slate-900 font-bold">lotusplay365.shop</strong>. Never enter login credentials on lookalike mirror domains or third-party web forms.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-emerald-500/30 space-y-1">
                 <h3 className="font-bold text-emerald-400 text-sm">Official WhatsApp Channel</h3>
@@ -1158,7 +1158,7 @@ export const SafeBettingGuidePage: React.FC = () => (
 
           {/* 5 Rules of Bankroll Defense */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               The 5 Golden Rules of Bankroll Defense
             </h2>
             {[
@@ -1184,7 +1184,7 @@ export const SafeBettingGuidePage: React.FC = () => (
               },
             ].map((rule, idx) => (
               <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">{rule.title}</h3>
+                <h3 className="font-bold text-slate-900 text-base">{rule.title}</h3>
                 <p className="text-xs text-slate-700">{rule.body}</p>
               </div>
             ))}
@@ -1192,7 +1192,7 @@ export const SafeBettingGuidePage: React.FC = () => (
 
           {/* Identity Protection Standards */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Responsible Staking Boundaries & Identity Protection Standards
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1237,7 +1237,7 @@ export const SafeBettingGuidePage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Safe Betting
             </h2>
@@ -1296,7 +1296,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
         title="Lotus365 on " 
         highlight="Any Smartphone" 
         subtitle="Enjoy fast, high-speed cricket trading and live casino tables directly on your Android or iPhone. Discover how to add 1-tap instant access to your home screen and withdraw winnings in 2 minutes." 
-        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageSrc="/images/banners/banner_how_it_works.webp"
         imageAlt="Lotus365 Smartphone Web App Guide"
         breadcrumbs={[
           { label: 'Guides' },
@@ -1312,16 +1312,16 @@ export const MobileWebAppGuidePage: React.FC = () => (
               Smooth, Instant Mobile Gaming on Lotus365
             </h2>
             <p className="mb-4">
-              When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
+              When you're following a thrilling IPL over or tracking live cricket odds, every second counts. That is why <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link> is engineered for instant responsiveness on any smartphone. There are no complicated setups, no waiting for approvals, and no bulky downloads needed.
             </p>
             <p className="mb-4">
-              Simply open <strong className="text-white">lotusplay365.shop</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, <Link href="/live-casino" className="text-[#F0C419] underline font-semibold" title="Live Casino">Live Casino</Link>, and <Link href="/aviator-game" className="text-[#F0C419] underline font-semibold" title="Aviator Crash">Aviator Crash</Link> games with silky 60 FPS graphics and instant balance updates.
+              Simply open <strong className="text-slate-900 font-bold">lotusplay365.shop</strong> in your favorite mobile browser like Google Chrome or Apple Safari. You get complete access to our full <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, <Link href="/live-casino" className="text-emerald-700 font-semibold hover:underline underline font-semibold" title="Live Casino">Live Casino</Link>, and <Link href="/aviator-game" className="text-emerald-700 font-semibold hover:underline underline font-semibold" title="Aviator Crash">Aviator Crash</Link> games with silky 60 FPS graphics and instant balance updates.
             </p>
           </div>
 
           {/* Key Advantages */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Why Players Love Mobile Gaming on Lotus365
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1329,7 +1329,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">⚡ Instant One-Tap Play</h3>
+                <h3 className="font-bold text-slate-900 text-sm">⚡ Instant One-Tap Play</h3>
                 <p className="text-xs text-slate-600">Launch straight into your favorite games in under 3 seconds with zero waiting.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
@@ -1349,7 +1349,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
 
           {/* Comprehensive Smartphone Navigation */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Comprehensive Smartphone Navigation & Touch Optimization
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1357,15 +1357,15 @@ export const MobileWebAppGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">One-Tap Bet Placement</h3>
+                <h3 className="font-bold text-slate-900 text-sm">One-Tap Bet Placement</h3>
                 <p className="text-xs text-slate-600">Pre-set quick bet amounts (e.g., ₹500, ₹1,000, ₹5,000) allow you to back or lay cricket odds during rapid in-play shifts with a single finger tap.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">Full HD Live Streams</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Full HD Live Streams</h3>
                 <p className="text-xs text-slate-600">Integrated video streaming scales dynamically to portrait or landscape modes without interrupting active betting slips or wallet balance displays.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">Instant WhatsApp Linkage</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Instant WhatsApp Linkage</h3>
                 <p className="text-xs text-slate-600">Floating WhatsApp action buttons enable seamless switching between game tables and your 24/7 concierge for 2-minute deposits and cashouts.</p>
               </div>
             </div>
@@ -1376,7 +1376,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
 
           {/* Detailed Installation Walkthrough */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Step-by-Step PWA Installation Guide for Android & Apple iOS
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1384,7 +1384,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">Android (Google Chrome)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Android (Google Chrome)</h3>
                 <ol className="list-decimal list-inside text-xs text-slate-600 space-y-1">
                   <li>Open Chrome and navigate to lotusplay365.shop</li>
                   <li>Tap the 3 vertical dots menu in the top right corner</li>
@@ -1393,7 +1393,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
                 </ol>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">iPhone / iPad (Apple Safari)</h3>
+                <h3 className="font-bold text-slate-900 text-base">iPhone / iPad (Apple Safari)</h3>
                 <ol className="list-decimal list-inside text-xs text-slate-600 space-y-1">
                   <li>Open Safari and visit lotusplay365.shop</li>
                   <li>Tap the "Share" button (square icon with an arrow pointing up)</li>
@@ -1440,7 +1440,7 @@ export const MobileWebAppGuidePage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Mobile Play
             </h2>
@@ -1622,7 +1622,7 @@ export const FaqPage: React.FC = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
           <div className="max-w-6xl mx-auto space-y-16">
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 border border-[#F0C419]/30 text-slate-700 text-xs sm:text-sm leading-relaxed space-y-3">
-              <h2 className="text-xl font-bold text-[#F0C419]">Search Engine Knowledge Repository & Help Center</h2>
+              <h2 className="text-xl font-bold text-slate-900">Search Engine Knowledge Repository & Help Center</h2>
               <p>
                 Browse through our verified collection of frequently asked questions below. Whether you are a beginner looking to create your first free betting ID or a high-volume sports trader seeking details on exchange liquidity and 2-minute IMPS bank cashouts, our documentation provides comprehensive, transparent guidance.
               </p>
@@ -1657,7 +1657,7 @@ export const FaqPage: React.FC = () => {
 
             {/* Deep Knowledge Explanatory Guides */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-6 text-slate-700 text-xs sm:text-sm leading-relaxed">
-              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl font-extrabold text-slate-900">
                 Lotus365 Account Security & Banking SLA Standards
               </h2>
               <div className="space-y-4">
@@ -1743,7 +1743,7 @@ export const HowItWorksPage: React.FC = () => {
 
             {/* Steps Timeline */}
             <div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] mb-8 text-center">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-8 text-center">
                 Your 4-Minute Journey: Step-by-Step
               </h2>
               
@@ -1804,7 +1804,7 @@ export const HowItWorksPage: React.FC = () => {
 
             {/* Technical Onboarding Engine */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4 text-slate-700 text-xs sm:text-sm leading-relaxed">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Phase-by-Phase Technical Walkthrough of the WhatsApp Onboarding Engine
             </h2>
             <p>
@@ -1812,19 +1812,19 @@ export const HowItWorksPage: React.FC = () => {
             </p>
             <div className="space-y-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Phase 1: Automated Connection & Human Concierge Assignment</h3>
+                <h3 className="font-bold text-slate-900 text-base">Phase 1: Automated Connection & Human Concierge Assignment</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">When you tap the official WhatsApp link (wa.link/880088), our smart routing engine connects your chat with an available senior customer concierge. Within 30 seconds, a dedicated human agent greets you, eliminating frustrating automated bot loops.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Phase 2: Encrypted Token Generation & Wallet Linking</h3>
+                <h3 className="font-bold text-slate-900 text-base">Phase 2: Encrypted Token Generation & Wallet Linking</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">Your concierge provisions a private, secure username on lotusplay365.shop. Your wallet is initialized with zero account maintenance fees and full access to our cricket betting exchange, 1,000+ live dealer tables, and Spribe Aviator crash game.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Phase 3: Real-Time Domestic UPI Clearance</h3>
+                <h3 className="font-bold text-slate-900 text-base">Phase 3: Real-Time Domestic UPI Clearance</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">You receive a fresh merchant UPI handle or QR code. Transfer your chosen stake (minimum ₹100) via PhonePe, Google Pay, or Paytm. Share the 12-digit UTR confirmation, and your balance reflects on the web platform within 30 seconds.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-base">Phase 4: Instant 120-Second Payout Execution</h3>
+                <h3 className="font-bold text-slate-900 text-base">Phase 4: Instant 120-Second Payout Execution</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">When you conclude your gaming session, send your withdrawal request and UPI ID to your WhatsApp concierge. Funds are disbursed immediately from our segregated liquidity reserves directly into your bank account in under two minutes.</p>
               </div>
             </div>
@@ -1832,7 +1832,7 @@ export const HowItWorksPage: React.FC = () => {
 
           {/* Operational SLA Standards */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Operational Service Level Agreement (SLA) & Banking Standards
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1850,22 +1850,22 @@ export const HowItWorksPage: React.FC = () => {
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">First Response on WhatsApp</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">&lt; 30 Seconds</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">&lt; 30 Seconds</td>
                     <td className="p-3.5">Direct human greeting without automated chatbots</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Betting ID Provisioning</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">&lt; 60 Seconds</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">&lt; 60 Seconds</td>
                     <td className="p-3.5">Zero KYC scans; instant login credential token</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">UPI Deposit Credit</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">&lt; 30 Seconds</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">&lt; 30 Seconds</td>
                     <td className="p-3.5">Real-time webhook validation against 12-digit UTR</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">UPI Withdrawal Disbursement</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">&lt; 120 Seconds (2 Mins)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">&lt; 120 Seconds (2 Mins)</td>
                     <td className="p-3.5">Automated payout from segregated liquid banking reserves</td>
                   </tr>
                 </tbody>
@@ -1878,7 +1878,7 @@ export const HowItWorksPage: React.FC = () => {
 
           {/* First Day Blueprint */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Detailed Timeline of a Lotus365 User: First Day Blueprint
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1902,7 +1902,7 @@ export const HowItWorksPage: React.FC = () => {
 
           {/* Why WhatsApp Onboarding is Revolutionary */}
             <div className="space-y-4 text-slate-700 text-xs sm:text-sm leading-relaxed">
-              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl font-extrabold text-slate-900">
                 Why the WhatsApp-First Model is Better for Indian Players
               </h2>
               <p>

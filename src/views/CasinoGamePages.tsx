@@ -53,14 +53,14 @@ export const RoulettePage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Elegance of Live European Roulette on Lotus365
             </h2>
             <p>
-              Roulette is celebrated worldwide as the Queen of Casino Games. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), our Live Roulette brings authentic physical mahogany wheels spun by certified human croupiers directly to your screen. With HD multi-angle camera feeds from Evolution Gaming and Pragmatic Play Live studios, you witness the ivory ball decelerate and settle into the winning pocket in real-time.
+              Roulette is celebrated worldwide as the Queen of Casino Games. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), our Live Roulette brings authentic physical mahogany wheels spun by certified human croupiers directly to your screen. With HD multi-angle camera feeds from Evolution Gaming and Pragmatic Play Live studios, you witness the ivory ball decelerate and settle into the winning pocket in real-time.
             </p>
             <p>
-              We prioritize <strong className="text-white">European Roulette</strong> tables featuring a single green zero (0), offering a player-friendly house edge of just 2.70% (97.30% RTP). This stands in stark contrast to American roulette wheels that feature both a single zero (0) and double zero (00), which jacks the house edge up to a brutal 5.26%. By playing single-zero roulette on Lotus365, you instantly cut the mathematical house edge in half.
+              We prioritize <strong className="text-slate-900 font-bold">European Roulette</strong> tables featuring a single green zero (0), offering a player-friendly house edge of just 2.70% (97.30% RTP). This stands in stark contrast to American roulette wheels that feature both a single zero (0) and double zero (00), which jacks the house edge up to a brutal 5.26%. By playing single-zero roulette on Lotus365, you instantly cut the mathematical house edge in half.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export const RoulettePage: React.FC = () => (
           <CasinoTableShowcase initialCategory="roulette" />
 
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Comprehensive Roulette Bet Types & Payout Matrix
             </h2>
             <div className="overflow-x-auto">
@@ -85,43 +85,43 @@ export const RoulettePage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Straight Up (Single Number)</td>
                     <td className="p-3.5">1 Number</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">35 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">35 : 1</td>
                     <td className="p-3.5 text-slate-600">2.70%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Split Bet (Two Numbers)</td>
                     <td className="p-3.5">2 Adjacent Numbers</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">17 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">17 : 1</td>
                     <td className="p-3.5 text-slate-600">5.41%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Street Bet (Row of 3)</td>
                     <td className="p-3.5">3 Consecutive Numbers</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">11 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">11 : 1</td>
                     <td className="p-3.5 text-slate-600">8.11%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Corner / Square Bet</td>
                     <td className="p-3.5">4 Numbers in a Square</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">8 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">8 : 1</td>
                     <td className="p-3.5 text-slate-600">10.81%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Line Bet (Double Street)</td>
                     <td className="p-3.5">6 Numbers in Two Rows</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">5 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">5 : 1</td>
                     <td className="p-3.5 text-slate-600">16.22%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Dozens / Columns</td>
                     <td className="p-3.5">12 Numbers (1-12, 13-24, 25-36)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">2 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">2 : 1</td>
                     <td className="p-3.5 text-slate-600">32.43%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Even-Money Outside Bets (Red/Black, Odd/Even, 1-18/19-36)</td>
                     <td className="p-3.5">18 Numbers</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">1 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">1 : 1</td>
                     <td className="p-3.5 text-emerald-300">48.65%</td>
                   </tr>
                 </tbody>
@@ -131,7 +131,7 @@ export const RoulettePage: React.FC = () => (
 
           {/* Racetrack & Sector Wagering */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Racetrack: French Call Bets & Wheel Sector Coverage
             </h2>
             <p>
@@ -155,7 +155,7 @@ export const RoulettePage: React.FC = () => (
 
           {/* Betting Strategies Compared */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Popular Roulette Staking Systems: Mathematical Analysis
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm">
@@ -190,7 +190,7 @@ export const RoulettePage: React.FC = () => (
 
           {/* Wheel Physics & Dealer Signature */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Wheel Engineering: Slanted Frets, Deep Pockets & Dealer Signatures
             </h2>
             <p>
@@ -203,7 +203,7 @@ export const RoulettePage: React.FC = () => (
 
           {/* La Partage Rule */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               The French Roulette Advantage: La Partage & En Prison Rules
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -213,7 +213,7 @@ export const RoulettePage: React.FC = () => (
 
           {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Roulette Frequently Asked Questions</span>
             </h2>
@@ -268,14 +268,14 @@ export const BlackjackPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Ultimate Skill Game: Live Blackjack (21) on Lotus365
             </h2>
             <p>
-              Unlike purely luck-based casino games, <strong className="text-white">Blackjack</strong> is a game of skill and mathematics where player decisions directly dictate the outcome. By applying strict basic strategy, you can depress the casino house edge to a miniscule 0.50%—translating to an extraordinary <strong className="text-[#F0C419]">99.50% Return to Player (RTP)</strong>, the highest in the entire live casino industry.
+              Unlike purely luck-based casino games, <strong className="text-slate-900 font-bold">Blackjack</strong> is a game of skill and mathematics where player decisions directly dictate the outcome. By applying strict basic strategy, you can depress the casino house edge to a miniscule 0.50%—translating to an extraordinary <strong className="text-[#F0C419]">99.50% Return to Player (RTP)</strong>, the highest in the entire live casino industry.
             </p>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can choose from standard 7-seat classic tables, Infinite Blackjack (where unlimited players share the same hand), Speed Blackjack, and VIP high-roller salons with stakes ranging from ₹50 to ₹5,00,000 per hand.
+              On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can choose from standard 7-seat classic tables, Infinite Blackjack (where unlimited players share the same hand), Speed Blackjack, and VIP high-roller salons with stakes ranging from ₹50 to ₹5,00,000 per hand.
             </p>
           </div>
 
@@ -283,7 +283,7 @@ export const BlackjackPage: React.FC = () => (
           <CasinoTableShowcase initialCategory="blackjack" />
 
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Blackjack Payouts & Rules Summary
             </h2>
             <div className="overflow-x-auto">
@@ -300,20 +300,20 @@ export const BlackjackPage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Natural Blackjack (Ace + 10-Value)</td>
                     <td className="p-3.5">First two cards total exactly 21</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">3 : 2</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹2,500 Total (₹1,500 Profit)</td>
+                    <td className="p-3.5 text-slate-900 font-bold">3 : 2</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹2,500 Total (₹1,500 Profit)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Standard Win</td>
                     <td className="p-3.5">Hand closer to 21 than dealer without busting</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹2,000 Total (₹1,000 Profit)</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹2,000 Total (₹1,000 Profit)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Insurance Bet</td>
                     <td className="p-3.5">Dealer shows Ace upcard and reveals 10 in hole</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">2 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Protects original hand</td>
+                    <td className="p-3.5 text-slate-900 font-bold">2 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Protects original hand</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Push (Tie)</td>
@@ -328,7 +328,7 @@ export const BlackjackPage: React.FC = () => (
 
           {/* Basic Strategy Masterclass */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Basic Strategy Framework: Hard Totals, Soft Totals & Splits
             </h2>
             <p>
@@ -352,7 +352,7 @@ export const BlackjackPage: React.FC = () => (
 
           {/* Lucrative Side Bets */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Popular Blackjack Side Bets: Perfect Pairs & 21+3
             </h3>
             <p className="text-xs sm:text-sm text-slate-700">
@@ -382,7 +382,7 @@ export const BlackjackPage: React.FC = () => (
 
           {/* Composition-Dependent Strategy */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Composition-Dependent Strategy: The 16 vs 10 Conundrum
             </h2>
             <p>
@@ -395,7 +395,7 @@ export const BlackjackPage: React.FC = () => (
 
           {/* Table Etiquette */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Live Dealer Studio Etiquette & Bet Behind Functionality
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -405,7 +405,7 @@ export const BlackjackPage: React.FC = () => (
 
           {/* Pro Strategy Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Advanced Basic Strategy & Mathematical Analysis of Insurance Bets
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -415,7 +415,7 @@ export const BlackjackPage: React.FC = () => (
 
             {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Blackjack Frequently Asked Questions</span>
             </h2>
@@ -470,14 +470,14 @@ export const BaccaratPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The High-Roller's Game of Choice: Baccarat on Lotus365
             </h2>
             <p>
-              Baccarat has long reigned as the undisputed king of Asian casino floors in Macau, Singapore, and Manila. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can experience this prestigious game with real human dealers dealing from physical multi-deck shoes.
+              Baccarat has long reigned as the undisputed king of Asian casino floors in Macau, Singapore, and Manila. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can experience this prestigious game with real human dealers dealing from physical multi-deck shoes.
             </p>
             <p>
-              Baccarat features three core betting positions: <strong className="text-white">Player</strong>, <strong className="text-white">Banker</strong>, and <strong className="text-white">Tie</strong>. The objective is to predict which hand will total closest to 9. Tens and face cards (J, Q, K) count as zero, Aces count as one, and all other cards retain their face value. If a hand total exceeds 9, the first digit is dropped (e.g. 7 + 8 = 15, which becomes a 5).
+              Baccarat features three core betting positions: <strong className="text-slate-900 font-bold">Player</strong>, <strong className="text-slate-900 font-bold">Banker</strong>, and <strong className="text-slate-900 font-bold">Tie</strong>. The objective is to predict which hand will total closest to 9. Tens and face cards (J, Q, K) count as zero, Aces count as one, and all other cards retain their face value. If a hand total exceeds 9, the first digit is dropped (e.g. 7 + 8 = 15, which becomes a 5).
             </p>
           </div>
 
@@ -485,7 +485,7 @@ export const BaccaratPage: React.FC = () => (
           <CasinoTableShowcase initialCategory="baccarat" />
 
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Baccarat Odds, Probabilities & Mathematical House Edge
             </h2>
             <div className="overflow-x-auto">
@@ -502,14 +502,14 @@ export const BaccaratPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Banker Bet</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">0.95 : 1 (5% Commission)</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">1.06%</td>
+                    <td className="p-3.5 text-slate-900 font-bold">0.95 : 1 (5% Commission)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">1.06%</td>
                     <td className="p-3.5 text-emerald-300 font-semibold">45.86% (Excl. Ties: 50.68%)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Mathematically the best bet in the casino</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Mathematically the best bet in the casino</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Player Bet</td>
-                    <td className="p-3.5 text-white font-bold">1.00 : 1 Even Money</td>
+                    <td className="p-3.5 text-slate-900 font-bold font-bold">1.00 : 1 Even Money</td>
                     <td className="p-3.5 text-emerald-300">1.24%</td>
                     <td className="p-3.5 text-slate-600">44.62% (Excl. Ties: 49.32%)</td>
                     <td className="p-3.5">Solid secondary choice; no commission</td>
@@ -528,7 +528,7 @@ export const BaccaratPage: React.FC = () => (
 
           {/* Roadmap Mastery */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Roadmap Mastery: Deciphering the Digital Scoreboards
             </h2>
             <p>
@@ -558,7 +558,7 @@ export const BaccaratPage: React.FC = () => (
 
           {/* Third Card Tableau Explained */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Mathematical Third-Card Tableau: Player & Banker Drawing Rules
             </h2>
             <p>
@@ -578,7 +578,7 @@ export const BaccaratPage: React.FC = () => (
 
           {/* Commission vs Super 6 */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Classic Commission vs No Commission (Super 6) Baccarat
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -588,7 +588,7 @@ export const BaccaratPage: React.FC = () => (
 
           {/* Pattern Recognition & Probability */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Mathematics of Banker Streaks & The Gambler's Fallacy
             </h2>
             <p>
@@ -601,7 +601,7 @@ export const BaccaratPage: React.FC = () => (
 
           {/* Pro Strategy Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 The Mathematical Edge of Banker Bets & Commission Mechanics
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -611,7 +611,7 @@ export const BaccaratPage: React.FC = () => (
 
             {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Baccarat Frequently Asked Questions</span>
             </h2>
@@ -666,14 +666,14 @@ export const DragonTigerPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Ultimate Two-Card Showdown: Dragon Tiger on Lotus365
             </h2>
             <p>
-              Often described as a simplified two-card variation of Baccarat, <strong className="text-white">Dragon Tiger</strong> is the fastest table game in the live casino world. There are no complex third-card drawing rules, no hand combinations, and no mathematical additions.
+              Often described as a simplified two-card variation of Baccarat, <strong className="text-slate-900 font-bold">Dragon Tiger</strong> is the fastest table game in the live casino world. There are no complex third-card drawing rules, no hand combinations, and no mathematical additions.
             </p>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), the dealer deals exactly one card face-up to the <strong className="text-[#F0C419]">Dragon</strong> position and one card to the <strong className="text-rose-400">Tiger</strong> position. The position that receives the higher rank card wins! Aces are strictly the lowest card (value 1), while Kings are the highest card (value 13).
+              On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), the dealer deals exactly one card face-up to the <strong className="text-[#F0C419]">Dragon</strong> position and one card to the <strong className="text-rose-400">Tiger</strong> position. The position that receives the higher rank card wins! Aces are strictly the lowest card (value 1), while Kings are the highest card (value 13).
             </p>
           </div>
 
@@ -681,7 +681,7 @@ export const DragonTigerPage: React.FC = () => (
           <CasinoTableShowcase initialCategory="baccarat" />
 
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Dragon Tiger Betting Markets & Payout Structure
             </h2>
             <div className="overflow-x-auto">
@@ -696,27 +696,27 @@ export const DragonTigerPage: React.FC = () => (
                 </thead>
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Dragon</td>
+                    <td className="p-3.5 font-bold text-slate-900">Dragon</td>
                     <td className="p-3.5">Dragon card rank higher than Tiger</td>
-                    <td className="p-3.5 text-white font-bold">1 : 1</td>
-                    <td className="p-3.5 text-emerald-400">3.73%</td>
+                    <td className="p-3.5 text-slate-900 font-bold font-bold">1 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">3.73%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-rose-400">Tiger</td>
                     <td className="p-3.5">Tiger card rank higher than Dragon</td>
-                    <td className="p-3.5 text-white font-bold">1 : 1</td>
-                    <td className="p-3.5 text-emerald-400">3.73%</td>
+                    <td className="p-3.5 text-slate-900 font-bold font-bold">1 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">3.73%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Tie</td>
                     <td className="p-3.5">Both cards identical rank (e.g. 8 of Hearts & 8 of Spades)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">11 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">11 : 1</td>
                     <td className="p-3.5 text-rose-400 font-bold">32.77%</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-emerald-400">Suited Tie</td>
+                    <td className="p-3.5 font-bold text-emerald-800 font-bold">Suited Tie</td>
                     <td className="p-3.5">Both cards identical rank and identical suit</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">50 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">50 : 1</td>
                     <td className="p-3.5 text-rose-400 font-bold">13.98%</td>
                   </tr>
                 </tbody>
@@ -726,7 +726,7 @@ export const DragonTigerPage: React.FC = () => (
 
           {/* Proposition Markets */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Side Propositions: Big/Small & Red/Black
             </h2>
             <p>
@@ -756,7 +756,7 @@ export const DragonTigerPage: React.FC = () => (
 
           {/* Mathematical Reality of Tie Bets */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Mathematical Reality of Tie Bets: Why Discipline Wins
             </h2>
             <p>
@@ -769,7 +769,7 @@ export const DragonTigerPage: React.FC = () => (
 
           {/* Provider Comparison */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Evolution Gaming vs Pragmatic Play Dragon Tiger
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -779,7 +779,7 @@ export const DragonTigerPage: React.FC = () => (
 
           {/* Card Counting Systems */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Card Counting in Dragon Tiger: Tracking High Cards & Suited Ties
             </h2>
             <p>
@@ -792,7 +792,7 @@ export const DragonTigerPage: React.FC = () => (
 
           {/* Session Bankroll Guidelines */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Three Golden Bankroll Rules for Fast Two-Card Action
             </h3>
             <ul className="text-xs sm:text-sm text-slate-700 space-y-1.5 list-disc pl-5">
@@ -804,7 +804,7 @@ export const DragonTigerPage: React.FC = () => (
 
           {/* Pro Strategy Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Card Counting Possibilities & Suited Tie Tactical Hedging
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -814,7 +814,7 @@ export const DragonTigerPage: React.FC = () => (
 
             {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Dragon Tiger Frequently Asked Questions</span>
             </h2>
@@ -869,11 +869,11 @@ export const SpeedBaccaratPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Maximum Velocity: Live Speed Baccarat on Lotus365
             </h2>
             <p>
-              In traditional baccarat and baccarat squeeze tables, a single round can stretch past 60 to 75 seconds while cards are slowly revealed. For high-volume traders and seasoned players, <strong className="text-white">Speed Baccarat</strong> eliminates all delay. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), cards are dealt face-up instantly, cutting the complete round cycle to just <strong className="text-[#F0C419]">27 seconds</strong>.
+              In traditional baccarat and baccarat squeeze tables, a single round can stretch past 60 to 75 seconds while cards are slowly revealed. For high-volume traders and seasoned players, <strong className="text-slate-900 font-bold">Speed Baccarat</strong> eliminates all delay. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), cards are dealt face-up instantly, cutting the complete round cycle to just <strong className="text-[#F0C419]">27 seconds</strong>.
             </p>
             <p>
               This allows you to play more than double the number of hands per hour, maximizing your turnover rate to clear promotional bonuses rapidly or capitalize on hot shoe streaks without waiting between deals.
@@ -881,7 +881,7 @@ export const SpeedBaccaratPage: React.FC = () => (
           </div>
 
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Speed Baccarat vs Traditional Baccarat Comparison
             </h2>
             <div className="overflow-x-auto">
@@ -897,27 +897,27 @@ export const SpeedBaccaratPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Round Duration</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">27 Seconds</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">27 Seconds</td>
                     <td className="p-3.5 text-slate-600">48 Seconds</td>
                     <td className="p-3.5 text-slate-500">75+ Seconds</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Card Dealing Style</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Instant Face-Up Deal</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Instant Face-Up Deal</td>
                     <td className="p-3.5 text-slate-600">Face-Down Slide</td>
                     <td className="p-3.5 text-slate-500">Manual Suspense Squeeze</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Hands Per Hour</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">~130 Hands / Hr</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">~130 Hands / Hr</td>
                     <td className="p-3.5 text-slate-600">~75 Hands / Hr</td>
                     <td className="p-3.5 text-slate-500">~45 Hands / Hr</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Banker House Edge</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">1.06% (Identical)</td>
-                    <td className="p-3.5 text-emerald-400">1.06%</td>
-                    <td className="p-3.5 text-emerald-400">1.06%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">1.06% (Identical)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">1.06%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">1.06%</td>
                   </tr>
                 </tbody>
               </table>
@@ -926,7 +926,7 @@ export const SpeedBaccaratPage: React.FC = () => (
 
           {/* High Tempo Strategy */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Managing High-Tempo Play: Automated Auto-Bet & Bankroll Sizing
             </h2>
             <p>
@@ -956,7 +956,7 @@ export const SpeedBaccaratPage: React.FC = () => (
 
           {/* Neurobiology of High-Speed Play */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Psychology of Speed: Maintaining Poise at 130 Hands Per Hour
             </h2>
             <p>
@@ -969,7 +969,7 @@ export const SpeedBaccaratPage: React.FC = () => (
 
           {/* Squeeze vs Speed Contrast */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               When to Switch Between Squeeze and Speed Baccarat
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -979,7 +979,7 @@ export const SpeedBaccaratPage: React.FC = () => (
 
           {/* Step-by-Step Auto-Bet */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Mastering Auto-Bet on Mobile Speed Baccarat: A Step-by-Step Guide
             </h2>
             <p>
@@ -1010,7 +1010,7 @@ export const SpeedBaccaratPage: React.FC = () => (
 
           {/* Squeeze vs Speed Psychological Profile */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Player Psychological Profiles: Who Should Play Speed Baccarat?
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1020,7 +1020,7 @@ export const SpeedBaccaratPage: React.FC = () => (
 
           {/* Speed Strategy Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Managing High Turnover & Bankroll Variance in 27-Second Rounds
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1030,7 +1030,7 @@ export const SpeedBaccaratPage: React.FC = () => (
 
             {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Speed Baccarat Frequently Asked Questions</span>
             </h2>
@@ -1085,11 +1085,11 @@ export const LightningRoulettePage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               High-Voltage Electrifying Action: Lightning Roulette on Lotus365
             </h2>
             <p>
-              Developed by Evolution Gaming and awarded Game of the Year, <strong className="text-white">Lightning Roulette</strong> revolutionizes the classic casino experience. It combines a physical European roulette wheel with an electrifying high-payout RNG (Random Number Generator) multiplier system.
+              Developed by Evolution Gaming and awarded Game of the Year, <strong className="text-slate-900 font-bold">Lightning Roulette</strong> revolutionizes the classic casino experience. It combines a physical European roulette wheel with an electrifying high-payout RNG (Random Number Generator) multiplier system.
             </p>
             <p>
               After betting closes, the theatrical live host pulls the golden lightning lever. Lightning strikes the digital backdrop, generating between 1 and 5 <strong className="text-[#F0C419]">Lucky Numbers</strong> with supercharged multiplier values of <strong className="text-[#F0C419]">50x, 100x, 200x, 300x, 400x, or 500x</strong>! If the physical roulette ball settles on your chosen Straight-Up Lucky Number, your bet is multiplied by that astronomical value!
@@ -1097,7 +1097,7 @@ export const LightningRoulettePage: React.FC = () => (
           </div>
 
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Lightning Roulette Mechanics & Payout Breakdown
             </h2>
             <div className="overflow-x-auto">
@@ -1112,10 +1112,10 @@ export const LightningRoulettePage: React.FC = () => (
                 </thead>
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Straight Up (Single Number)</td>
+                    <td className="p-3.5 font-bold text-slate-900">Straight Up (Single Number)</td>
                     <td className="p-3.5 text-slate-600">35 : 1</td>
                     <td className="p-3.5 text-slate-700 font-semibold">29 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold">50x to 500x Payout!</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold">50x to 500x Payout!</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Split Bet (2 Numbers)</td>
@@ -1145,7 +1145,7 @@ export const LightningRoulettePage: React.FC = () => (
 
           {/* Winning Strategies */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Staking Strategies to Capture Lightning Multipliers
             </h2>
             <p>
@@ -1175,7 +1175,7 @@ export const LightningRoulettePage: React.FC = () => (
 
           {/* RNG Algorithm & Volatility Modeling */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               How the Lightning RNG Multiplier Algorithm Functions
             </h2>
             <p>
@@ -1188,7 +1188,7 @@ export const LightningRoulettePage: React.FC = () => (
 
           {/* Variant Comparison */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Lightning Roulette vs XXXtreme Lightning Roulette
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1198,7 +1198,7 @@ export const LightningRoulettePage: React.FC = () => (
 
           {/* Bankroll Allocation Models */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Bankroll Allocation Models for High-Multiplier Lightning Chasing
             </h2>
             <p>
@@ -1218,7 +1218,7 @@ export const LightningRoulettePage: React.FC = () => (
 
           {/* Evolution Gaming Licensing & Audits */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Evolution Gaming RNG Certification & Fair Play Guarantees
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1228,7 +1228,7 @@ export const LightningRoulettePage: React.FC = () => (
 
           {/* Lightning Strategy Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 High Volatility & 500x Multiplier Bankroll Management
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1238,7 +1238,7 @@ export const LightningRoulettePage: React.FC = () => (
 
             {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Lightning Roulette Frequently Asked Questions</span>
             </h2>
@@ -1293,14 +1293,14 @@ export const CasinoSlotsPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               500+ Premium Online Slots on Lotus365
             </h2>
             <p>
-              Online video slots have transformed from simple three-reel fruit machines into cinematic digital spectacles packed with cascading reels, expanding wilds, Megaways payline expansions, and colossal progressive jackpots. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can explore a curated library of over 500 top-tier slots from world-renowned software titans like Pragmatic Play, NetEnt, Play'n GO, and Microgaming.
+              Online video slots have transformed from simple three-reel fruit machines into cinematic digital spectacles packed with cascading reels, expanding wilds, Megaways payline expansions, and colossal progressive jackpots. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can explore a curated library of over 500 top-tier slots from world-renowned software titans like Pragmatic Play, NetEnt, Play'n GO, and Microgaming.
             </p>
             <p>
-              From iconic viral hits like <strong className="text-white">Gates of Olympus</strong> and <strong className="text-white">Sweet Bonanza</strong> to high-octane Egyptian adventures like <strong className="text-white">Book of Dead</strong>, all games are verified for mathematical randomness by independent testing agencies like BMM Testlabs and GLI.
+              From iconic viral hits like <strong className="text-slate-900 font-bold">Gates of Olympus</strong> and <strong className="text-slate-900 font-bold">Sweet Bonanza</strong> to high-octane Egyptian adventures like <strong className="text-slate-900 font-bold">Book of Dead</strong>, all games are verified for mathematical randomness by independent testing agencies like BMM Testlabs and GLI.
             </p>
           </div>
 
@@ -1308,7 +1308,7 @@ export const CasinoSlotsPage: React.FC = () => (
           <CasinoTableShowcase initialCategory="all" />
 
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Top 5 Featured Online Slots on Lotus365
             </h2>
             <div className="overflow-x-auto">
@@ -1324,39 +1324,39 @@ export const CasinoSlotsPage: React.FC = () => (
                 </thead>
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Gates of Olympus</td>
+                    <td className="p-3.5 font-bold text-slate-900">Gates of Olympus</td>
                     <td className="p-3.5 text-slate-600">Pragmatic Play</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">96.50%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">96.50%</td>
                     <td className="p-3.5 text-rose-400 font-semibold">High</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">5,000x Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">5,000x Bet</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Sweet Bonanza</td>
+                    <td className="p-3.5 font-bold text-slate-900">Sweet Bonanza</td>
                     <td className="p-3.5 text-slate-600">Pragmatic Play</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">96.48%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">96.48%</td>
                     <td className="p-3.5 text-amber-400 font-semibold">Medium-High</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">21,100x Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">21,100x Bet</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Big Bass Bonanza</td>
+                    <td className="p-3.5 font-bold text-slate-900">Big Bass Bonanza</td>
                     <td className="p-3.5 text-slate-600">Reel Kingdom</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">96.71%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">96.71%</td>
                     <td className="p-3.5 text-amber-400 font-semibold">Medium</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">2,100x Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">2,100x Bet</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Book of Dead</td>
+                    <td className="p-3.5 font-bold text-slate-900">Book of Dead</td>
                     <td className="p-3.5 text-slate-600">Play'n GO</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">96.21%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">96.21%</td>
                     <td className="p-3.5 text-rose-400 font-semibold">High</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">5,000x Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">5,000x Bet</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Gonzo's Quest Megaways</td>
+                    <td className="p-3.5 font-bold text-slate-900">Gonzo's Quest Megaways</td>
                     <td className="p-3.5 text-slate-600">Red Tiger</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">96.00%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">96.00%</td>
                     <td className="p-3.5 text-rose-400 font-semibold">High</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">21,000x Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">21,000x Bet</td>
                   </tr>
                 </tbody>
               </table>
@@ -1365,7 +1365,7 @@ export const CasinoSlotsPage: React.FC = () => (
 
           {/* Slot Mechanics */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Modern Slot Mechanics: Megaways, Tumbling Reels & Bonus Buys
             </h2>
             <p>
@@ -1399,7 +1399,7 @@ export const CasinoSlotsPage: React.FC = () => (
 
           {/* Progressive Jackpots & Variance Math */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Progressive Jackpots: Local vs Network Pooled Multi-Crore Pots
             </h2>
             <p>
@@ -1412,7 +1412,7 @@ export const CasinoSlotsPage: React.FC = () => (
 
           {/* Auto-Spin Protection */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Setting Responsible Auto-Spin Limits & Loss Ceilings
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1422,7 +1422,7 @@ export const CasinoSlotsPage: React.FC = () => (
 
           {/* Deep Dive Megaways & Cluster Pays */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Deep Dive: Megaways Engine vs Cluster Pays Mechanics
             </h2>
             <p>
@@ -1442,7 +1442,7 @@ export const CasinoSlotsPage: React.FC = () => (
 
           {/* Slot Bankroll Protection */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               The 200-Spin Rule: How to Survive High Volatility Slots
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1452,7 +1452,7 @@ export const CasinoSlotsPage: React.FC = () => (
 
           {/* Slots Strategy Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Volatility Index & Megaways Payline Mechanics Explained
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1462,7 +1462,7 @@ export const CasinoSlotsPage: React.FC = () => (
 
             {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Casino Slots Frequently Asked Questions</span>
             </h2>

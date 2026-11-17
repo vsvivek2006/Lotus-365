@@ -66,7 +66,7 @@ export const IplBettingPage: React.FC = () => (
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
-        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Live IPL Exchange Widget */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -96,16 +96,16 @@ export const IplBettingPage: React.FC = () => (
               The Ultimate IPL 2026 Betting Experience on Lotus365
             </h2>
             <p>
-              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
+              The Indian Premier League is the pinnacle of worldwide franchise cricket, commanding over 70% of the entire Indian sports wagering market during March, April, and May. At <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we provide Indian punters with an unmatched IPL trading arena. With millions in active daily liquidity, every single match from the tournament opener through the Narendra Modi Stadium final is matched in real time at true market prices.
             </p>
             <p>
-              By leveraging our peer-to-peer <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline" title="cricket exchange">cricket exchange</Link>, you bypass bookmaker margins and trade back and lay positions on match odds, session totals, player milestones, and over-by-over dynamics without a rupee cut in platform commission.
+              By leveraging our peer-to-peer <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline hover:underline" title="cricket exchange">cricket exchange</Link>, you bypass bookmaker margins and trade back and lay positions on match odds, session totals, player milestones, and over-by-over dynamics without a rupee cut in platform commission.
             </p>
           </div>
 
           {/* Section 2: Comprehensive IPL Markets Grid */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Over 70 Live In-Play Betting Markets per IPL 2026 Fixture
             </h2>
             <p>
@@ -142,7 +142,7 @@ export const IplBettingPage: React.FC = () => (
 
           {/* Section 3: All 10 Franchises Analysis */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               IPL 2026 Franchise Profiles & Betting Dynamics
             </h2>
             <p>
@@ -199,7 +199,7 @@ export const IplBettingPage: React.FC = () => (
 
           {/* Section 4: Venue & Pitch Reading Matrix */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               IPL 2026 Venue Pitch Matrix & Target Scoring Trends
             </h2>
             <p className="text-sm text-slate-700">
@@ -219,28 +219,28 @@ export const IplBettingPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Chinnaswamy (Bengaluru)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">198 Runs</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">68%</td>
+                    <td className="p-3.5 text-slate-900 font-bold">198 Runs</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">68%</td>
                     <td className="p-3.5 text-rose-400">High (after 8:30 PM)</td>
                     <td className="p-3.5">Back Over on match boundaries (fours & sixes)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Wankhede (Mumbai)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">192 Runs</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">64%</td>
+                    <td className="p-3.5 text-slate-900 font-bold">192 Runs</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">64%</td>
                     <td className="p-3.5 text-rose-400">Moderate to High</td>
                     <td className="p-3.5">Back team batting second to chase anything under 200</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Chepauk (Chennai)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">164 Runs</td>
+                    <td className="p-3.5 text-slate-900 font-bold">164 Runs</td>
                     <td className="p-3.5 text-slate-500">48% (Bat 1st edge)</td>
-                    <td className="p-3.5 text-emerald-400">Low (Slow turn)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Low (Slow turn)</td>
                     <td className="p-3.5">Back Under on middle-over session runs (7 to 15 overs)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Motera (Ahmedabad)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">184 Runs</td>
+                    <td className="p-3.5 text-slate-900 font-bold">184 Runs</td>
                     <td className="p-3.5 text-slate-600">52% (Balanced)</td>
                     <td className="p-3.5 text-yellow-400">Moderate</td>
                     <td className="p-3.5">Pace bowlers dominate powerplay; trade top bowler odds</td>
@@ -263,7 +263,7 @@ export const IplBettingPage: React.FC = () => (
 
           {/* Section 6: Step-by-Step Setup */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               How to Start Betting on IPL 2026 on Lotus365
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 text-xs sm:text-sm">
@@ -285,14 +285,14 @@ export const IplBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                 <div className="text-2xl font-black text-emerald-700 mb-1">04</div>
                 <div className="font-bold text-slate-900 mb-1">Instant Cashout</div>
-                <p className="text-slate-600">Withdraw winnings with our guaranteed <Link href="/how-to-withdraw" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link> directly to your bank account.</p>
+                <p className="text-slate-600">Withdraw winnings with our guaranteed <Link href="/how-to-withdraw" className="text-emerald-700 font-semibold hover:underline hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link> directly to your bank account.</p>
               </div>
             </div>
           </div>
 
           {/* Section 7: 6 In-Depth FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>IPL 2026 Betting Frequently Asked Questions</span>
             </h2>

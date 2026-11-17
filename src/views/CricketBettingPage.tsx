@@ -69,7 +69,7 @@ export const CricketBettingPage: React.FC = () => (
         title="India's Premier "
         highlight="Cricket Betting Exchange"
         subtitle="Experience high-liquidity cricket betting with 0% commission. Bet on IPL 2026, ICC Champions Trophy, Test match sessions, and global T20 leagues with guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/sports/cricket.svg"
+        imageSrc="/images/banners/banner_cricket_exchange.webp"
         imageAlt="India vs Australia Cricket Betting Exchange Match"
         breadcrumbs={[{ label: 'Cricket Betting' }]}
       />
@@ -100,7 +100,7 @@ export const CricketBettingPage: React.FC = () => (
               Why Lotus365 Is India's Undisputed Leader in Cricket Betting
             </h2>
             <p className="text-center text-slate-600 max-w-3xl mx-auto text-sm sm:text-base mb-10 leading-relaxed font-normal">
-              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-white">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
+              For millions of Indian sports enthusiasts, cricket is a passion. At <strong className="text-slate-900 font-bold">Lotus365</strong>, we treat cricket wagering with the precision it deserves. Operating via our official domain <Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>, our exchange matches peer-to-peer liquidity so you always bet against real punters at true market prices.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {features.map((f, i) => (
@@ -114,12 +114,12 @@ export const CricketBettingPage: React.FC = () => (
           </div>
 
           {/* Deep-Dive: Comprehensive Cricket Markets */}
-          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-6 text-slate-200 text-sm sm:text-base leading-relaxed">
+          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-slate-200/90 shadow-sm space-y-6 text-slate-700 text-sm sm:text-base leading-relaxed">
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
               Comprehensive Cricket Betting Markets Covered on Lotus365
             </h2>
             <p>
-              Unlike traditional sportsbooks that limit you to basic match-winner outcomes, Lotus365 offers an exhaustive array of over 60 micro-markets for every televised match. Whether you are following international Test fixtures, bilateral ODIs, or high-intensity franchise tournaments like the <Link href="/ipl-betting" className="text-[#F0C419] hover:underline font-semibold" title="Indian Premier League (IPL)">Indian Premier League (IPL)</Link>, our live board keeps you in complete control.
+              Unlike traditional sportsbooks that limit you to basic match-winner outcomes, Lotus365 offers an exhaustive array of over 60 micro-markets for every televised match. Whether you are following international Test fixtures, bilateral ODIs, or high-intensity franchise tournaments like the <Link href="/ipl-betting" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Indian Premier League (IPL)">Indian Premier League (IPL)</Link>, our live board keeps you in complete control.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
@@ -127,7 +127,7 @@ export const CricketBettingPage: React.FC = () => (
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                   <h3 className="text-base font-bold text-emerald-700 mb-1">1. Match Winner & Outright Series Odds</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Back your favoured team to win the match, or lay against outcomes on the <Link href="/cricket-exchange" className="text-[#F0C419] hover:underline" title="cricket exchange">cricket exchange</Link>. Odds fluctuate live from the opening toss through the final over based on real-time pitch behavior and wicket casualties.
+                    Back your favoured team to win the match, or lay against outcomes on the <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline hover:underline" title="cricket exchange">cricket exchange</Link>. Odds fluctuate live from the opening toss through the final over based on real-time pitch behavior and wicket casualties.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
@@ -169,7 +169,7 @@ export const CricketBettingPage: React.FC = () => (
 
           {/* Odds Comparison Table */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Exchange Odds vs Traditional Bookmakers: Why Punters Win More on Lotus365
             </h2>
             <p className="text-sm text-slate-700 leading-relaxed">
@@ -188,27 +188,27 @@ export const CricketBettingPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">India to Win vs Australia</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.92</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.92</td>
                     <td className="p-3.5 text-slate-500">1.80</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,200 Extra Net Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,200 Extra Net Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">CSK Powerplay Over 48.5 Runs</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.96</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.96</td>
                     <td className="p-3.5 text-slate-500">1.83</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,300 Extra Net Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,300 Extra Net Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">Top Batsman 50+ Runs</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">2.45</td>
+                    <td className="p-3.5 text-slate-900 font-bold">2.45</td>
                     <td className="p-3.5 text-slate-500">2.15</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹3,000 Extra Net Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹3,000 Extra Net Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-semibold text-slate-900">Platform Commission</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">0% (Zero)</td>
+                    <td className="p-3.5 text-slate-900 font-bold">0% (Zero)</td>
                     <td className="p-3.5 text-slate-500">5% to 8% Hidden Deductions</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">100% of Payout Kept</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">100% of Payout Kept</td>
                   </tr>
                 </tbody>
               </table>
@@ -222,13 +222,13 @@ export const CricketBettingPage: React.FC = () => (
               <span>Lotus365 Cricket Pro Tip: The "Greening Up" Strategy</span>
             </div>
             <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
-              On Lotus365's <Link href="/cricket-exchange" className="text-[#F0C419] underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, you can back a team at high pre-match odds (e.g., 2.20) and lay them during the match when they take early wickets and their odds drop to 1.30. By trading both positions, you lock in a guaranteed green profit before the match even finishes, regardless of who eventually wins!
+              On Lotus365's <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline underline font-semibold" title="Cricket Exchange">Cricket Exchange</Link>, you can back a team at high pre-match odds (e.g., 2.20) and lay them during the match when they take early wickets and their odds drop to 1.30. By trading both positions, you lock in a guaranteed green profit before the match even finishes, regardless of who eventually wins!
             </p>
           </div>
 
           {/* Pitch Analysis & Statistical Strategy Blueprint */}
           <div className="space-y-6 text-slate-700 text-sm sm:text-base leading-relaxed">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Mastering Pitch Reports & Venue Analysis for Cricket Betting
             </h2>
             <p>
@@ -237,22 +237,22 @@ export const CricketBettingPage: React.FC = () => (
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
-                <span><strong className="text-white">Boundary Dimensions:</strong> Smaller venues like Chinnaswamy Stadium (Bengaluru) or Wankhede Stadium (Mumbai) feature average first-innings scores in excess of 190, making "Over" on total sixes and powerplay runs the statistically favored position.</span>
+                <span><strong className="text-slate-900 font-bold">Boundary Dimensions:</strong> Smaller venues like Chinnaswamy Stadium (Bengaluru) or Wankhede Stadium (Mumbai) feature average first-innings scores in excess of 190, making "Over" on total sixes and powerplay runs the statistically favored position.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
-                <span><strong className="text-white">Spin vs Seam Pitch Characteristics:</strong> Traditional spin paradises like MA Chidambaram Stadium (Chepauk, Chennai) slow down drastically in the middle overs (7 to 15), rewarding "Under" session runs wagers as mystery spinners restrict scoring.</span>
+                <span><strong className="text-slate-900 font-bold">Spin vs Seam Pitch Characteristics:</strong> Traditional spin paradises like MA Chidambaram Stadium (Chepauk, Chennai) slow down drastically in the middle overs (7 to 15), rewarding "Under" session runs wagers as mystery spinners restrict scoring.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <CheckCircle2 className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
-                <span><strong className="text-white">The Night Match Dew Factor:</strong> In day-night fixtures across Northern and Western India between March and May, heavy evening dew renders the wet ball slick and unmanageable for spin bowlers, giving the chasing team a decisive 65% win probability advantage.</span>
+                <span><strong className="text-slate-900 font-bold">The Night Match Dew Factor:</strong> In day-night fixtures across Northern and Western India between March and May, heavy evening dew renders the wet ball slick and unmanageable for spin bowlers, giving the chasing team a decisive 65% win probability advantage.</span>
               </li>
             </ul>
           </div>
 
           {/* Step-by-Step: How to Bet on Cricket via WhatsApp */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               How to Start Betting on Cricket with Lotus365 in 4 Easy Steps
             </h2>
             <p className="text-sm text-slate-700 leading-relaxed">
@@ -262,29 +262,29 @@ export const CricketBettingPage: React.FC = () => (
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                 <div className="text-xl font-black text-emerald-700 mb-1">Step 01</div>
                 <h3 className="font-bold text-slate-900 mb-1">Request Your Login ID</h3>
-                <p className="text-xs text-slate-600">Connect with our 24/7 WhatsApp verification desk at <Link href="/contact" className="text-[#F0C419] hover:underline" title="contact support">contact support</Link> and send a message requesting a new Lotus365 Cricket ID.</p>
+                <p className="text-xs text-slate-600">Connect with our 24/7 WhatsApp verification desk at <Link href="/contact" className="text-emerald-700 font-semibold hover:underline hover:underline" title="contact support">contact support</Link> and send a message requesting a new Lotus365 Cricket ID.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                 <div className="text-xl font-black text-emerald-700 mb-1">Step 02</div>
                 <h3 className="font-bold text-slate-900 mb-1">Deposit Funds via UPI</h3>
-                <p className="text-xs text-slate-600">Deposit as little as ₹100 using PhonePe, Google Pay, or Paytm. Follow our <Link href="/how-to-deposit" className="text-[#F0C419] hover:underline" title="deposit guide">deposit guide</Link> for 30-second balance updates.</p>
+                <p className="text-xs text-slate-600">Deposit as little as ₹100 using PhonePe, Google Pay, or Paytm. Follow our <Link href="/how-to-deposit" className="text-emerald-700 font-semibold hover:underline hover:underline" title="deposit guide">deposit guide</Link> for 30-second balance updates.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                 <div className="text-xl font-black text-emerald-700 mb-1">Step 03</div>
                 <h3 className="font-bold text-slate-900 mb-1">Access Live Cricket Markets</h3>
-                <p className="text-xs text-slate-600">Open <strong className="text-white">lotusplay365.shop</strong> on your mobile browser, login, and browse ongoing IPL, T20, and international fixtures.</p>
+                <p className="text-xs text-slate-600">Open <strong className="text-slate-900 font-bold">lotusplay365.shop</strong> on your mobile browser, login, and browse ongoing IPL, T20, and international fixtures.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                 <div className="text-xl font-black text-emerald-700 mb-1">Step 04</div>
                 <h3 className="font-bold text-slate-900 mb-1">Instant 2-Minute Cashout</h3>
-                <p className="text-xs text-slate-600">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <Link href="/how-to-withdraw" className="text-[#F0C419] hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link>.</p>
+                <p className="text-xs text-slate-600">When your wagers settle, request an instant cashout to receive 100% of your winnings directly in your bank account within 120 seconds via our <Link href="/how-to-withdraw" className="text-emerald-700 font-semibold hover:underline hover:underline" title="2-minute cashout SLA">2-minute cashout SLA</Link>.</p>
               </div>
             </div>
           </div>
 
           {/* Comprehensive Cricket FAQ Section */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Frequently Asked Questions About Cricket Betting on Lotus365</span>
             </h2>

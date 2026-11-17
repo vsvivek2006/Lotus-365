@@ -206,19 +206,19 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               {currentPage > 1 ? (
                 <Link
                   href={`/blog?page=${currentPage - 1}`}
-                  className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-white/10 bg-brand-surface hover:bg-white/5 text-slate-200 transition-colors"
+                  className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-emerald-500/30 bg-emerald-900/60 hover:bg-emerald-800 text-white transition-colors"
                 >
                   <ChevronLeft className="w-4 h-4" />
                   Previous
                 </Link>
               ) : (
-                <span className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-white/5 bg-brand-surface/40 text-slate-600 cursor-not-allowed">
+                <span className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-emerald-500/20 bg-emerald-950/40 text-emerald-100/40 cursor-not-allowed">
                   <ChevronLeft className="w-4 h-4" />
                   Previous
                 </span>
               )}
 
-              <span className="text-slate-400">
+              <span className="text-emerald-200">
                 Page <span className="font-bold text-white">{currentPage}</span> of{" "}
                 <span className="font-bold text-white">{totalPages}</span>
               </span>
@@ -226,13 +226,13 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               {currentPage < totalPages ? (
                 <Link
                   href={`/blog?page=${currentPage + 1}`}
-                  className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-white/10 bg-brand-surface hover:bg-white/5 text-slate-200 transition-colors"
+                  className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-emerald-500/30 bg-emerald-900/60 hover:bg-emerald-800 text-white transition-colors"
                 >
                   Next
                   <ChevronRight className="w-4 h-4" />
                 </Link>
               ) : (
-                <span className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-white/5 bg-brand-surface/40 text-slate-600 cursor-not-allowed">
+                <span className="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg border border-emerald-500/20 bg-emerald-950/40 text-emerald-100/40 cursor-not-allowed">
                   Next
                   <ChevronRight className="w-4 h-4" />
                 </span>

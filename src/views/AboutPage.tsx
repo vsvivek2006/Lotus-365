@@ -70,7 +70,7 @@ export const AboutPage: React.FC = () => (
         title="India's Most Trusted "
         highlight="Betting Exchange"
         subtitle="Founded in 2019, Lotus365 has redefined digital sports betting and live gaming in India. Built on the principles of peer-to-peer fairness, cryptographic transparency, and guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageSrc="/images/banners/banner_about_official.webp"
         imageAlt="About Lotus365 Official Platform"
         breadcrumbs={[
           { label: 'About Us' },
@@ -108,7 +108,7 @@ export const AboutPage: React.FC = () => (
               <strong>Lotus365</strong> was established with a singular, revolutionary vision: to build a homegrown, high-performance betting platform tailored specifically to the technological and cultural realities of Indian players. We engineered direct, zero-fee integration with India’s <strong>Unified Payments Interface (UPI)</strong>, pioneered the legendary <strong>2-Minute Cashout Guarantee</strong>, and replaced slow, impersonal web ticket queues with private, 24/7 human concierge desks on <strong>WhatsApp</strong>.
             </p>
             <p>
-              Today, operating exclusively through our verified domain <strong className="text-white">lotusplay365.shop</strong>, Lotus365 is recognized across Mumbai, Delhi, Bengaluru, Hyderabad, and Kolkata as the gold standard in digital wagering trust.
+              Today, operating exclusively through our verified domain <strong className="text-slate-900 font-bold">lotusplay365.shop</strong>, Lotus365 is recognized across Mumbai, Delhi, Bengaluru, Hyderabad, and Kolkata as the gold standard in digital wagering trust.
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export const AboutPage: React.FC = () => (
                   <Award className="w-5 h-5 text-[#F0C419]" /> 1. Peer-to-Peer Exchange Integrity
                 </h3>
                 <p className="text-xs text-slate-600">
-                  Unlike traditional sportsbooks that profit when you lose, our <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link> is a true marketplace where players trade against one another. We simply provide the secure matching engine and charge our industry-low 0% to 2% commission.
+                  Unlike traditional sportsbooks that profit when you lose, our <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline underline" title="Cricket Exchange">Cricket Exchange</Link> is a true marketplace where players trade against one another. We simply provide the secure matching engine and charge our industry-low 0% to 2% commission.
                 </p>
               </div>
 
@@ -172,29 +172,29 @@ export const AboutPage: React.FC = () => (
                 </thead>
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">2019</td>
+                    <td className="p-3.5 font-bold text-slate-900">2019</td>
                     <td className="p-3.5 font-semibold text-slate-900">Platform Launch</td>
                     <td className="p-3.5 text-slate-600">Introduced peer-to-peer cricket exchange trading with direct WhatsApp customer onboarding.</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">2021</td>
+                    <td className="p-3.5 font-bold text-slate-900">2021</td>
                     <td className="p-3.5 font-semibold text-slate-900">Instant UPI Automation</td>
                     <td className="p-3.5 text-slate-600">Integrated NPCI banking rails, dropping average deposit confirmation time to under 30 seconds.</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">2023</td>
+                    <td className="p-3.5 font-bold text-slate-900">2023</td>
                     <td className="p-3.5 font-semibold text-slate-900">Live Indian Gaming Suites</td>
                     <td className="p-3.5 text-slate-600">Partnered with Evolution Gaming and Ezugi to deploy authentic Hindi-speaking Teen Patti and Andar Bahar tables.</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">2025</td>
+                    <td className="p-3.5 font-bold text-slate-900">2025</td>
                     <td className="p-3.5 font-semibold text-slate-900">2-Minute Cashout Guarantee</td>
                     <td className="p-3.5 text-slate-600">Established pre-funded corporate banking reserves, guaranteeing 120-second cashouts across India.</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">2026</td>
+                    <td className="p-3.5 font-bold text-slate-900">2026</td>
                     <td className="p-3.5 font-semibold text-slate-900">1.5M+ Player Community</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Lotus365 solidifies position as India’s #1 trusted digital gaming destination.</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Lotus365 solidifies position as India’s #1 trusted digital gaming destination.</td>
                   </tr>
                 </tbody>
               </table>
@@ -207,13 +207,13 @@ export const AboutPage: React.FC = () => (
               Commitment to Fair Play & Responsible Entertainment
             </h2>
             <p className="mb-4">
-              We hold the view that a healthy gaming ecosystem depends on customer welfare. Lotus365 enforces strict age verification (18+ only), certified cryptographic Random Number Generators (RNG) for all virtual games, and proactive responsible gambling tools. Players may at any time request cooling-off breaks, deposit ceilings, or account self-exclusion through our dedicated <Link href="/responsible-gaming" className="text-[#F0C419] font-semibold hover:underline" title="Responsible Gaming Desk">Responsible Gaming Desk</Link>.
+              We hold the view that a healthy gaming ecosystem depends on customer welfare. Lotus365 enforces strict age verification (18+ only), certified cryptographic Random Number Generators (RNG) for all virtual games, and proactive responsible gambling tools. Players may at any time request cooling-off breaks, deposit ceilings, or account self-exclusion through our dedicated <Link href="/responsible-gaming" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Responsible Gaming Desk">Responsible Gaming Desk</Link>.
             </p>
           </div>
 
           {/* High-Performance Tech & Corporate Liquidity */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Enterprise Technology Infrastructure & Banking Liquidity
             </h2>
             <p>
@@ -229,7 +229,7 @@ export const AboutPage: React.FC = () => (
 
           {/* Customer Service SLA Matrix */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Customer Service Service Level Agreement (SLA)
             </h2>
             <p>
@@ -256,7 +256,7 @@ export const AboutPage: React.FC = () => (
 
           {/* Our Core Philosophy: Player-First Fair Play */}
           <div className="p-5 rounded-2xl bg-[#F0C419]/10 border border-[#F0C419]/30 space-y-3">
-            <h3 className="text-base font-black text-[#F0C419]">
+            <h3 className="text-base font-black text-slate-900">
               The Lotus365 Player-First Pledge
             </h3>
             <p className="text-xs text-slate-700 leading-relaxed">
@@ -266,7 +266,7 @@ export const AboutPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Lotus365
             </h2>

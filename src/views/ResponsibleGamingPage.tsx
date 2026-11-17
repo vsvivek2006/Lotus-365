@@ -66,7 +66,7 @@ export const ResponsibleGamingPage: React.FC = () => (
         highlight="Play Responsibly"
         subtitle="At Lotus365, your safety, financial health, and peace of mind come first. We enforce strict 18+ age verification and provide comprehensive self-regulation tools to ensure sports betting and gaming remain purely entertaining."
         ctaLabel="Contact Welfare Desk on WhatsApp"
-        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageSrc="/images/banners/banner_about_official.webp"
         imageAlt="Responsible Gaming Charter and Player Safety on Lotus365"
         breadcrumbs={[
           { label: 'Player Welfare' },
@@ -94,7 +94,7 @@ export const ResponsibleGamingPage: React.FC = () => (
               Strict 18+ Age Verification & Minor Protection
             </h2>
             <p className="mb-4">
-              Underage gambling is strictly prohibited on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>. We enforce zero-tolerance policies regarding minors participating in any real-money sports betting or casino gaming activity.
+              Underage gambling is strictly prohibited on <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>. We enforce zero-tolerance policies regarding minors participating in any real-money sports betting or casino gaming activity.
             </p>
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
               <div className="flex items-center gap-2 text-rose-300 font-bold text-base">
@@ -192,31 +192,31 @@ export const ResponsibleGamingPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <div className="text-white font-bold text-sm">Vandrevala Foundation Helpline</div>
+                <div className="text-slate-900 font-bold text-sm">Vandrevala Foundation Helpline</div>
                 <p className="text-xs text-slate-600">24/7 free, confidential mental health and compulsive behavior counseling across India.</p>
-                <div className="text-xs text-[#F0C419] font-mono">Helpline: +91 9999 666 555</div>
+                <div className="text-xs text-emerald-800 font-mono font-semibold">Helpline: +91 9999 666 555</div>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <div className="text-white font-bold text-sm">Hope Trust India</div>
+                <div className="text-slate-900 font-bold text-sm">Hope Trust India</div>
                 <p className="text-xs text-slate-600">Asia’s leading addiction and behavioral wellness treatment network.</p>
-                <div className="text-xs text-[#F0C419] font-mono">Website: hopetrustindia.com</div>
+                <div className="text-xs text-emerald-800 font-mono font-semibold">Website: hopetrustindia.com</div>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <div className="text-white font-bold text-sm">Gamblers Anonymous (GA) India</div>
+                <div className="text-slate-900 font-bold text-sm">Gamblers Anonymous (GA) India</div>
                 <p className="text-xs text-slate-600">Fellowship of men and women sharing experience and mutual strength to recover.</p>
-                <div className="text-xs text-[#F0C419] font-mono">Website: gamblersanonymous.org</div>
+                <div className="text-xs text-emerald-800 font-mono font-semibold">Website: gamblersanonymous.org</div>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <div className="text-white font-bold text-sm">NIMHANS Behavioral Addiction Clinic</div>
+                <div className="text-slate-900 font-bold text-sm">NIMHANS Behavioral Addiction Clinic</div>
                 <p className="text-xs text-slate-600">National Institute of Mental Health & Neuro Sciences specialized clinical services.</p>
-                <div className="text-xs text-[#F0C419] font-mono">Helpline: 080-26995000</div>
+                <div className="text-xs text-emerald-800 font-mono font-semibold">Helpline: 080-26995000</div>
               </div>
             </div>
           </div>
 
           {/* Family Budgeting Safeguards */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Family Budgeting & Household Financial Safeguards
             </h2>
             <p className="text-xs sm:text-sm text-slate-700">
@@ -226,7 +226,7 @@ export const ResponsibleGamingPage: React.FC = () => (
 
           {/* 10 Golden Rules of Bankroll Stewardship */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               The 10 Golden Rules of Sensible Bankroll Stewardship
             </h2>
             <p className="text-xs text-slate-700">
@@ -270,11 +270,11 @@ export const ResponsibleGamingPage: React.FC = () => (
 
           {/* Step-by-Step Self-Exclusion Procedure */}
           <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-base font-bold text-[#F0C419]">
+            <h3 className="text-base font-bold text-slate-900">
               Detailed 3-Step Self-Exclusion Procedure
             </h3>
             <ol className="list-decimal pl-5 space-y-2 text-xs text-slate-700">
-              <li><strong>Contact Welfare Desk:</strong> Send a message on WhatsApp to <Link href="/contact" className="text-[#F0C419] underline" title="wa.link/880088">wa.link/880088</Link> requesting voluntary temporary or permanent self-exclusion.</li>
+              <li><strong>Contact Welfare Desk:</strong> Send a message on WhatsApp to <Link href="/contact" className="text-emerald-700 font-semibold hover:underline underline" title="wa.link/880088">wa.link/880088</Link> requesting voluntary temporary or permanent self-exclusion.</li>
               <li><strong>Confirm Account Details:</strong> State your username and confirm whether you prefer a cooling-off timeout (24h to 30 days) or complete multi-year exclusion.</li>
               <li><strong>Balance Settlement:</strong> Our financial desk will immediately audit your wallet balance and remit all remaining unpledged funds to your verified UPI/IMPS account before locking login access.</li>
             </ol>
@@ -282,7 +282,7 @@ export const ResponsibleGamingPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Responsible Gaming
             </h2>

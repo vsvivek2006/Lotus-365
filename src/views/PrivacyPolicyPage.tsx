@@ -69,7 +69,7 @@ export const PrivacyPolicyPage: React.FC = () => (
         highlight="100% Protected" 
         subtitle="At Lotus365, your personal confidentiality and financial privacy are non-negotiable. Learn how our zero-document data architecture, 256-bit TLS encryption, and secure WhatsApp rails protect your gaming activity." 
         ctaLabel="Contact Privacy Officer" 
-        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageSrc="/images/banners/banner_about_official.webp"
         imageAlt="Lotus365 Privacy Policy and Data Security"
         breadcrumbs={[
           { label: 'Legal' },
@@ -153,7 +153,7 @@ export const PrivacyPolicyPage: React.FC = () => (
             <div>
               <h2 className="text-xl font-extrabold text-slate-900 mb-3">5. Cookie Policy & Local Browser Storage</h2>
               <p className="mb-2">
-                On <strong className="text-white">lotusplay365.shop</strong>, we utilize lightweight, functional cookies exclusively to maintain your authenticated login session and remember your layout preferences. We do not deploy third-party advertising tracking cookies or ad retargeting pixels that monitor your browsing behavior across other websites.
+                On <strong className="text-slate-900 font-bold">lotusplay365.shop</strong>, we utilize lightweight, functional cookies exclusively to maintain your authenticated login session and remember your layout preferences. We do not deploy third-party advertising tracking cookies or ad retargeting pixels that monitor your browsing behavior across other websites.
               </p>
             </div>
 
@@ -211,22 +211,22 @@ export const PrivacyPolicyPage: React.FC = () => (
                   <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-xs">
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Data In Transit</td>
-                      <td className="p-3 text-emerald-400 font-mono">TLS 1.3 / AES-256-GCM</td>
+                      <td className="p-3 text-emerald-800 font-bold font-mono">TLS 1.3 / AES-256-GCM</td>
                       <td className="p-3 text-slate-600">Prevents public Wi-Fi packet interception and ISP connection snooping.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Data At Rest</td>
-                      <td className="p-3 text-emerald-400 font-mono">LUKS Volume Encryption (FIPS 140-2)</td>
+                      <td className="p-3 text-emerald-800 font-bold font-mono">LUKS Volume Encryption (FIPS 140-2)</td>
                       <td className="p-3 text-slate-600">Ensures physical server storage cannot be read if detached or decommissioned.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">DDoS Mitigation</td>
-                      <td className="p-3 text-emerald-400 font-mono">Cloudflare Enterprise Anycast Engine</td>
+                      <td className="p-3 text-emerald-800 font-bold font-mono">Cloudflare Enterprise Anycast Engine</td>
                       <td className="p-3 text-slate-600">Maintains 99.99% uptime during peak IPL tournament finals without lag.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Credential Auth</td>
-                      <td className="p-3 text-emerald-400 font-mono">Argon2id Hash Derivation</td>
+                      <td className="p-3 text-emerald-800 font-bold font-mono">Argon2id Hash Derivation</td>
                       <td className="p-3 text-slate-600">Renders brute-force password cracking mathematically impossible.</td>
                     </tr>
                   </tbody>
@@ -244,7 +244,7 @@ export const PrivacyPolicyPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Privacy & Security
             </h2>

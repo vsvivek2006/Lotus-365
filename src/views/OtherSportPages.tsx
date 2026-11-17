@@ -53,11 +53,11 @@ export const KabaddiBettingPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Rapid Rise of Kabaddi Betting in India
             </h2>
             <p>
-              Kabaddi is rooted in Indian soil, carrying centuries of martial discipline and athletic prowess. Since the inception of the Pro Kabaddi League (PKL), this traditional sport has transformed into India's second most-watched sporting phenomenon, attracting millions of passionate supporters every winter. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we have engineered a dedicated kabaddi wagering infrastructure featuring raid-by-raid live pricing, total team points over/unders, super tackle multiplier markets, and individual raider milestones.
+              Kabaddi is rooted in Indian soil, carrying centuries of martial discipline and athletic prowess. Since the inception of the Pro Kabaddi League (PKL), this traditional sport has transformed into India's second most-watched sporting phenomenon, attracting millions of passionate supporters every winter. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we have engineered a dedicated kabaddi wagering infrastructure featuring raid-by-raid live pricing, total team points over/unders, super tackle multiplier markets, and individual raider milestones.
             </p>
             <p>
               Traditional overseas bookmakers treat kabaddi as an afterthought, often offering delayed odds or closing markets prematurely mid-contest. In contrast, Lotus365 operates dedicated courtside feeds for every PKL fixture, allowing Indian punters to wager on rapid 30-second raid cycles with 0% net commission and guaranteed 2-minute cashouts via UPI.
@@ -66,32 +66,32 @@ export const KabaddiBettingPage: React.FC = () => (
 
           {/* Key PKL Markets */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Comprehensive Pro Kabaddi Betting Markets Explained
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Match Winner (Moneyline)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Match Winner (Moneyline)</h3>
                 <p className="text-slate-600">Wager on which franchise wins the 40-minute contest. Ties in PKL league-stage fixtures offer lucrative odds exceeding 6.50 to 7.00.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Point Spread Handicap</h3>
+                <h3 className="font-bold text-slate-900 text-base">Point Spread Handicap</h3>
                 <p className="text-slate-600">Heavy favorites (such as Puneri Paltan or Patna Pirates) are handicapped with -4.5 or -6.5 point lines, balancing betting action across both sides.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Total Match Points (Over / Under)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Total Match Points (Over / Under)</h3>
                 <p className="text-slate-600">Typical PKL totals fluctuate between 68.5 and 76.5 points. Fast raiding teams trigger high-scoring Over outcomes while defensive setups favor the Under.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Individual Raider Super 10s</h3>
+                <h3 className="font-bold text-slate-900 text-base">Individual Raider Super 10s</h3>
                 <p className="text-slate-600">Wager on star raiders (like Pardeep Narwal, Naveen Kumar, or Arjun Deshwal) scoring 10 or more touch/bonus points in a single fixture.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">High 5 Defender Milestone</h3>
+                <h3 className="font-bold text-slate-900 text-base">High 5 Defender Milestone</h3>
                 <p className="text-slate-600">Back elite corner and cover defenders (like Fazel Atrachali or Mohammadreza Shadloui) to register 5 or more successful tackle points.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">First Team to Score an All-Out</h3>
+                <h3 className="font-bold text-slate-900 text-base">First Team to Score an All-Out</h3>
                 <p className="text-slate-600">Predict which team inflicts the initial All-Out on their opponent, earning the crucial 2 bonus points and psychological upper hand.</p>
               </div>
             </div>
@@ -99,7 +99,7 @@ export const KabaddiBettingPage: React.FC = () => (
 
           {/* PKL Odds Comparison Table */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               PKL Odds Comparison: Lotus365 vs Competitor Platforms
             </h2>
             <div className="overflow-x-auto">
@@ -115,27 +115,27 @@ export const KabaddiBettingPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Puneri Paltan to Win</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.88</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.88</td>
                     <td className="p-3.5 text-slate-500">1.75</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,300 on ₹10k Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,300 on ₹10k Bet</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Total Points: Over 71.5</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.92</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.92</td>
                     <td className="p-3.5 text-slate-500">1.81</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,100 on ₹10k Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,100 on ₹10k Bet</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Match Draw (Tie Result)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">6.80</td>
+                    <td className="p-3.5 text-slate-900 font-bold">6.80</td>
                     <td className="p-3.5 text-slate-500">5.50</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹13,000 on ₹10k Bet</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹13,000 on ₹10k Bet</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cashout Disbursement Speed</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">120 Seconds (UPI)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">120 Seconds (UPI)</td>
                     <td className="p-3.5 text-rose-400">24 to 72 Hours</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Immediate Liquidity</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Immediate Liquidity</td>
                   </tr>
                 </tbody>
               </table>
@@ -144,7 +144,7 @@ export const KabaddiBettingPage: React.FC = () => (
 
           {/* Tactical In-Play Strategy */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Tactical Analysis: Defeating the Bookmaker in Pro Kabaddi
             </h2>
             <p>
@@ -152,13 +152,13 @@ export const KabaddiBettingPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419]">1. Super Tackle Asymmetry</h3>
+                <h3 className="font-bold text-slate-900">1. Super Tackle Asymmetry</h3>
                 <p className="text-slate-600">
                   When a defending team is reduced to 3 or fewer players, a successful tackle yields 2 points instead of 1 (a Super Tackle). Many unseasoned raiders rush recklessly in these situations, resulting in costly turnovers. Backing the defending team's spread when facing 3 defenders offers superior statistical value.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419]">2. Do-or-Die Raid Predictability</h3>
+                <h3 className="font-bold text-slate-900">2. Do-or-Die Raid Predictability</h3>
                 <p className="text-slate-600">
                   After two consecutive empty raids, the third raid is a mandatory Do-or-Die raid where the raider must score or be declared out. In Do-or-Die situations against elite defensive corner duos, the tackle success rate climbs to over 64%. Betting on defensive tackle points in Do-or-Die sequences provides consistent edge.
                 </p>
@@ -168,7 +168,7 @@ export const KabaddiBettingPage: React.FC = () => (
 
           {/* Court Dimensions and Mat Physics */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Court Dimensions, Mat Physics & Bonus Line Dynamics
             </h2>
             <p>
@@ -181,7 +181,7 @@ export const KabaddiBettingPage: React.FC = () => (
 
           {/* Tactical Defense Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Do-or-Die Raid Mechanics & Bonus Line Defensive Strategies
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -202,7 +202,7 @@ export const KabaddiBettingPage: React.FC = () => (
 
           {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Pro Kabaddi Betting Frequently Asked Questions</span>
             </h2>
@@ -259,11 +259,11 @@ export const BasketballBettingPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Fast-Paced Basketball Action on Lotus365
             </h2>
             <p>
-              With non-stop scoring runs, dynamic pace of play, and frequent lead changes, basketball offers some of the most liquid and lucrative wagering markets in global sports. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you gain direct access to all 82 regular-season games per NBA franchise, the NBA Play-In tournament, the NBA Playoffs, NBA Finals, EuroLeague, and FIBA international championships.
+              With non-stop scoring runs, dynamic pace of play, and frequent lead changes, basketball offers some of the most liquid and lucrative wagering markets in global sports. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you gain direct access to all 82 regular-season games per NBA franchise, the NBA Play-In tournament, the NBA Playoffs, NBA Finals, EuroLeague, and FIBA international championships.
             </p>
             <p>
               Whether you are analyzing Stephen Curry's three-point shooting prop in San Francisco or backing the Boston Celtics on a -5.5 point spread at TD Garden, our live odds visualizer delivers instantaneous in-play updates with zero lag and 0% commission on winning slips.
@@ -272,32 +272,32 @@ export const BasketballBettingPage: React.FC = () => (
 
           {/* Popular Basketball Markets */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Popular Basketball Betting Markets
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Point Spread (Line Betting)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Point Spread (Line Betting)</h3>
                 <p className="text-slate-600">The most popular NBA market. The favored team must win by more than the handicap (e.g. -6.5 points) for your wager to cash.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Total Game Points (Over / Under)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Total Game Points (Over / Under)</h3>
                 <p className="text-slate-600">Wager on combined scoring between both teams. NBA totals typically sit between 218.5 and 235.5 points depending on team pace.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Player Points, Rebounds & Assists</h3>
+                <h3 className="font-bold text-slate-900 text-base">Player Points, Rebounds & Assists</h3>
                 <p className="text-slate-600">Prop bets on stars like LeBron James, Nikola Jokić, or Luka Dončić scoring over/under set statistical thresholds.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Quarter & Half Spreads</h3>
+                <h3 className="font-bold text-slate-900 text-base">Quarter & Half Spreads</h3>
                 <p className="text-slate-600">Bet specifically on the outcome of the 1st quarter or 1st half, eliminating late-game garbage-time variance.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Race to 20 Points</h3>
+                <h3 className="font-bold text-slate-900 text-base">Race to 20 Points</h3>
                 <p className="text-slate-600">Fast-action market predicting which team establishes early offensive momentum and reaches the 20-point mark first.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Winning Margin Bands</h3>
+                <h3 className="font-bold text-slate-900 text-base">Winning Margin Bands</h3>
                 <p className="text-slate-600">Predict the exact margin band of victory (e.g. Celtics by 1-5 points, 6-10 points, or 11+ points) for multiplied payouts.</p>
               </div>
             </div>
@@ -305,7 +305,7 @@ export const BasketballBettingPage: React.FC = () => (
 
           {/* NBA Odds Comparison Table */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               NBA Odds Benchmarks: Lotus365 vs European Bookmakers
             </h2>
             <div className="overflow-x-auto">
@@ -321,27 +321,27 @@ export const BasketballBettingPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Lakers -4.5 Point Spread</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.95</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.95</td>
                     <td className="p-3.5 text-slate-500">1.85</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,000 Extra Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,000 Extra Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Warriors vs Suns: Over 228.5</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.93</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.93</td>
                     <td className="p-3.5 text-slate-500">1.84</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹900 Extra Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹900 Extra Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Nikola Jokić Over 11.5 Rebounds</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.88</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.88</td>
                     <td className="p-3.5 text-slate-500">1.78</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,000 Extra Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,000 Extra Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Withdrawal Processing Window</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">2 Minutes Guaranteed</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">2 Minutes Guaranteed</td>
                     <td className="p-3.5 text-rose-400">48+ Hours</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Immediate Availability</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Immediate Availability</td>
                   </tr>
                 </tbody>
               </table>
@@ -350,7 +350,7 @@ export const BasketballBettingPage: React.FC = () => (
 
           {/* Strategic In-Play Section */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               NBA Live In-Play Strategy: The 3rd Quarter Surge
             </h2>
             <p>
@@ -360,7 +360,7 @@ export const BasketballBettingPage: React.FC = () => (
 
           {/* Advanced Analytics */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Advanced Analytical Metrics: True Shooting %, Pace & Offensive Rating
             </h2>
             <p>
@@ -373,7 +373,7 @@ export const BasketballBettingPage: React.FC = () => (
 
           {/* Clutch Free Throw Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 4th Quarter Free Throw Strategy & Intentional Fouling Impact
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -383,7 +383,7 @@ export const BasketballBettingPage: React.FC = () => (
 
             {/* EuroLeague vs NBA Contrast */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Tactical Contrast: Wagering on NBA vs EuroLeague
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -404,7 +404,7 @@ export const BasketballBettingPage: React.FC = () => (
 
           {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Basketball Betting Frequently Asked Questions</span>
             </h2>
@@ -460,11 +460,11 @@ export const HorseRacingPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               India's Rich Horse Racing Heritage on Lotus365
             </h2>
             <p>
-              Thoroughbred horse racing has been a premier equestrian sport in India since 1777, governed by historic turf authorities like the Royal Western India Turf Club (RWITC). On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), racing enthusiasts can place Win, Place, Each-Way, and Forecast bets on prestigious race meetings across Mahalaxmi (Mumbai), Pune, Guindy (Chennai), Hyderabad, Kolkata, and Bangalore, as well as international Grade 1 fixtures like the Dubai World Cup and Royal Ascot.
+              Thoroughbred horse racing has been a premier equestrian sport in India since 1777, governed by historic turf authorities like the Royal Western India Turf Club (RWITC). On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), racing enthusiasts can place Win, Place, Each-Way, and Forecast bets on prestigious race meetings across Mahalaxmi (Mumbai), Pune, Guindy (Chennai), Hyderabad, Kolkata, and Bangalore, as well as international Grade 1 fixtures like the Dubai World Cup and Royal Ascot.
             </p>
             <p>
               Whether you are an experienced turf punter analyzing past performance sheets and pedigree records or a newcomer experiencing the adrenaline of the Indian Derby, Lotus365 provides authentic fixed odds, comprehensive jockey metrics, and rapid 2-minute UPI disbursements.
@@ -473,32 +473,32 @@ export const HorseRacingPage: React.FC = () => (
 
           {/* Horse Racing Bet Types */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Thoroughbred Bet Types Explained
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Win & Place Bets</h3>
+                <h3 className="font-bold text-slate-900 text-base">Win & Place Bets</h3>
                 <p className="text-slate-600">Win requires your horse to cross the line 1st. Place pays out if your horse finishes in the top 2 (fields under 8) or top 3 (fields of 8+ runners).</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Each-Way (E/W)</h3>
+                <h3 className="font-bold text-slate-900 text-base">Each-Way (E/W)</h3>
                 <p className="text-slate-600">Two equal bets combined: one for the horse to Win and one for the horse to Place, providing safety on longshot contenders.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Exacta & Trifecta</h3>
+                <h3 className="font-bold text-slate-900 text-base">Exacta & Trifecta</h3>
                 <p className="text-slate-600">Exacta predicts the exact 1st and 2nd finishers. Trifecta predicts 1st, 2nd, and 3rd in exact order for colossal multiplier payouts.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Quinella</h3>
+                <h3 className="font-bold text-slate-900 text-base">Quinella</h3>
                 <p className="text-slate-600">Select the 1st and 2nd horses across the line in any finishing order, providing increased winning probability.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Superfecta</h3>
+                <h3 className="font-bold text-slate-900 text-base">Superfecta</h3>
                 <p className="text-slate-600">Predict the 1st, 2nd, 3rd, and 4th horses in exact sequence, offering monumental returns from modest ₹100 stakes.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                <h3 className="font-bold text-[#F0C419] text-base">Jackpot Pool</h3>
+                <h3 className="font-bold text-slate-900 text-base">Jackpot Pool</h3>
                 <p className="text-slate-600">Select the winners of 5 nominated races on the day's racecard to participate in the platform's community jackpot pool.</p>
               </div>
             </div>
@@ -506,7 +506,7 @@ export const HorseRacingPage: React.FC = () => (
 
           {/* Indian Derby & Classic Racing Calendar */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Indian Classics & Premier Racing Calendar
             </h2>
             <div className="overflow-x-auto">
@@ -523,25 +523,25 @@ export const HorseRacingPage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Indian Derby (Grade 1)</td>
                     <td className="p-3.5 text-slate-600">RWITC (Mahalaxmi, Mumbai)</td>
-                    <td className="p-3.5 text-[#F0C419] font-mono">2,400m</td>
+                    <td className="p-3.5 text-slate-900 font-mono">2,400m</td>
                     <td className="p-3.5 text-slate-600">First Sunday of February</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Bangalore Derby (Grade 1)</td>
                     <td className="p-3.5 text-slate-600">Bangalore Turf Club (BTC)</td>
-                    <td className="p-3.5 text-[#F0C419] font-mono">2,000m</td>
+                    <td className="p-3.5 text-slate-900 font-mono">2,000m</td>
                     <td className="p-3.5 text-slate-600">Second Sunday of July</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Pune Derby (Grade 1)</td>
                     <td className="p-3.5 text-slate-600">RWITC (Pune Racecourse)</td>
-                    <td className="p-3.5 text-[#F0C419] font-mono">2,000m</td>
+                    <td className="p-3.5 text-slate-900 font-mono">2,000m</td>
                     <td className="p-3.5 text-slate-600">October Monsoon Season</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Calcutta Derby (Grade 1)</td>
                     <td className="p-3.5 text-slate-600">RCTC (Kolkata)</td>
-                    <td className="p-3.5 text-[#F0C419] font-mono">2,400m</td>
+                    <td className="p-3.5 text-slate-900 font-mono">2,400m</td>
                     <td className="p-3.5 text-slate-600">Second Sunday of January</td>
                   </tr>
                 </tbody>
@@ -551,7 +551,7 @@ export const HorseRacingPage: React.FC = () => (
 
           {/* Form Guide Masterclass */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Form Guide Masterclass: Decoding Weight, Going & Jockeys
             </h2>
             <p>
@@ -575,7 +575,7 @@ export const HorseRacingPage: React.FC = () => (
 
           {/* Paddock Inspections & Stewards Protocols */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Paddock Inspections, Coat Condition & Stewards Inquiries
             </h2>
             <p>
@@ -588,7 +588,7 @@ export const HorseRacingPage: React.FC = () => (
 
           {/* Jockey & Weight Handicap Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Jockey Weights & Official Handicapping Penalties
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -598,7 +598,7 @@ export const HorseRacingPage: React.FC = () => (
 
             {/* Pedigree & Breeding Lineage Analysis */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Pedigree & Sire Progeny Analysis on Indian Derbies
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -619,7 +619,7 @@ export const HorseRacingPage: React.FC = () => (
 
           {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Horse Racing Betting Frequently Asked Questions</span>
             </h2>
@@ -667,7 +667,7 @@ export const SportsbookPage: React.FC = () => (
         title="India's Complete "
         highlight="Online Sportsbook"
         subtitle="Over 40 sporting codes, 500+ global leagues, and 1,000+ live in-play events every day. Trade with 0% net commission and guaranteed 2-minute UPI withdrawals."
-        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageSrc="/images/banners/banner_sports_betting.webp"
         imageAlt="India's Complete Online Sportsbook"
         breadcrumbs={[{ label: 'Sportsbook' }]}
       />
@@ -675,11 +675,11 @@ export const SportsbookPage: React.FC = () => (
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The All-in-One Sportsbook Built for Indian Sports Punters
             </h2>
             <p>
-              On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you are never constrained to a single sporting code. Our unified sportsbook platform gives you single-wallet access to over 40 global sports disciplines, ranging from high-liquidity cricket exchanges to premier football leagues, grand slam tennis, pro kabaddi, horse racing, and Olympic sports.
+              On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you are never constrained to a single sporting code. Our unified sportsbook platform gives you single-wallet access to over 40 global sports disciplines, ranging from high-liquidity cricket exchanges to premier football leagues, grand slam tennis, pro kabaddi, horse racing, and Olympic sports.
             </p>
             <p>
               We have eliminated the friction of managing multiple accounts across fragmented websites. A single WhatsApp account registration at <a href={OFFICIAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-[#F0C419] underline font-bold" title="Official WhatsApp">Official WhatsApp</a> allows you to trade match odds, session totals, point spreads, and high-paying accumulator parlays with zero transaction fees and guaranteed 2-minute cashouts.
@@ -705,7 +705,7 @@ export const SportsbookPage: React.FC = () => (
 
           {/* Full Directory */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Full Directory of Sports Disciplines Covered
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs sm:text-sm">
@@ -727,7 +727,7 @@ export const SportsbookPage: React.FC = () => (
                 { name: 'Snooker & Pool', path: '/sportsbook' },
                 { name: 'Virtual Sports 24/7', path: '/virtual-sports' },
               ].map((s) => (
-                <Link key={s.name} href={s.path} className="p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#F0C419] hover:text-[#F0C419] text-white font-semibold transition-all text-center" title="S.path">
+                <Link key={s.name} href={s.path} className="p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#F0C419] hover:text-emerald-700 font-semibold hover:underline text-white font-semibold transition-all text-center" title="S.path">
                   {s.name}
                 </Link>
               ))}
@@ -736,7 +736,7 @@ export const SportsbookPage: React.FC = () => (
 
           {/* Multi-Sport Accumulator & Hedging Framework */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Multi-Sport Accumulator Construction & Cross-Discipline Hedging
             </h2>
             <p>
@@ -763,7 +763,7 @@ export const SportsbookPage: React.FC = () => (
 
           {/* Why Lotus365 Sportsbook Excels */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Why Lotus365 is India's Highest-Rated Sportsbook
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
@@ -796,7 +796,7 @@ export const SportsbookPage: React.FC = () => (
 
           {/* Step by Step Masterclass */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Comprehensive Step-by-Step Sports Betting Masterclass
             </h2>
             <p>
@@ -828,7 +828,7 @@ export const SportsbookPage: React.FC = () => (
 
           {/* Operational Metrics Table */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Sportsbook Operational Benchmarks
             </h2>
             <div className="overflow-x-auto">
@@ -844,27 +844,27 @@ export const SportsbookPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Minimum Deposit Threshold</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">₹100 (Instant UPI)</td>
+                    <td className="p-3.5 text-slate-900 font-bold">₹100 (Instant UPI)</td>
                     <td className="p-3.5 text-slate-500">₹500 to ₹1,000</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Accessible to All Budgets</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Accessible to All Budgets</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Minimum In-Play Stake</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">₹100 per Ticket</td>
+                    <td className="p-3.5 text-slate-900 font-bold">₹100 per Ticket</td>
                     <td className="p-3.5 text-slate-500">₹250+</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Flexible Risk Control</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Flexible Risk Control</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cashout Settlement Time</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">Under 120 Seconds</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">Under 120 Seconds</td>
                     <td className="p-3.5 text-rose-400">24 to 72 Hours</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Immediate Real Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Immediate Real Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Customer Helpline</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">24/7 WhatsApp Concierge</td>
+                    <td className="p-3.5 text-slate-900 font-bold">24/7 WhatsApp Concierge</td>
                     <td className="p-3.5 text-slate-500">Automated Web Bots</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Personal Human Care</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Personal Human Care</td>
                   </tr>
                 </tbody>
               </table>
@@ -873,7 +873,7 @@ export const SportsbookPage: React.FC = () => (
 
           {/* Pro Raid Strategy */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Super Raid Dynamics & Bonus Line Tactical Wagering
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -883,7 +883,7 @@ export const SportsbookPage: React.FC = () => (
 
             {/* NBA In-Play Analysis */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Pace Factor & 4th Quarter Over/Under Totals Hedging
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -893,7 +893,7 @@ export const SportsbookPage: React.FC = () => (
 
             {/* Track & Going Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Going Conditions & Track Handicap Analysis for Indian Derbies
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -903,7 +903,7 @@ export const SportsbookPage: React.FC = () => (
 
             {/* Sportsbook Architecture Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Exchange Liquidity vs. Fixed Sportsbook Margins Explained
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -913,7 +913,7 @@ export const SportsbookPage: React.FC = () => (
 
             {/* FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Lotus365 Sportsbook FAQs</span>
             </h2>

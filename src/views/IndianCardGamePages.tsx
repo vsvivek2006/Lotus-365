@@ -73,11 +73,11 @@ export const TeenPattiPage: React.FC = () => (
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Overview */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The King of Indian Card Games: Teen Patti on Lotus365
             </h2>
             <p>
-              Often referred to as "Indian Poker", <strong className="text-white">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
+              Often referred to as "Indian Poker", <strong className="text-slate-900 font-bold">Teen Patti</strong> (meaning "Three Cards") has been the centerpiece of social gatherings and Diwali festivities across India for generations. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we bring this heritage game to life in a professional real-money live dealer format. Streaming directly from state-of-the-art studios by Evolution Gaming and Ezugi, you can sit at tables with stakes from as low as ₹10 up to VIP tables accommodating ₹1,00,000 per hand.
             </p>
           </div>
 
@@ -86,7 +86,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* Hand Rankings */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Official Teen Patti Hand Hierarchy & Probabilities
             </h2>
             <p>
@@ -140,7 +140,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* Side Bets & Payout Table */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Lucrative Side Bets: Pair Plus & 6-Card Bonus Payouts
             </h2>
             <p className="text-sm text-slate-700">
@@ -160,38 +160,38 @@ export const TeenPattiPage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Royal Flush (6-Card)</td>
                     <td className="p-3.5 text-slate-500">N/A</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1,000 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹10,01,000 Total Return</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1,000 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹10,01,000 Total Return</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Straight Flush / Pure Sequence</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">40 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">200 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹41,000 to ₹2,01,000</td>
+                    <td className="p-3.5 text-slate-900 font-bold">40 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">200 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹41,000 to ₹2,01,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Three of a Kind (Trio / Trail)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">30 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">100 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹31,000 to ₹1,01,000</td>
+                    <td className="p-3.5 text-slate-900 font-bold">30 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">100 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹31,000 to ₹1,01,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Straight / Sequence</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">6 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">10 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹7,000 to ₹11,000</td>
+                    <td className="p-3.5 text-slate-900 font-bold">6 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">10 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹7,000 to ₹11,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Flush / Colour</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">3 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">15 : 1</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹4,000 to ₹16,000</td>
+                    <td className="p-3.5 text-slate-900 font-bold">3 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">15 : 1</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹4,000 to ₹16,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Pair</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1 : 1</td>
                     <td className="p-3.5 text-slate-500">N/A</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹2,000 Total Return</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹2,000 Total Return</td>
                   </tr>
                 </tbody>
               </table>
@@ -200,7 +200,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* Popular Variations */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Popular Variations: Muflis, AK47 & Live 20-20 Teen Patti
             </h2>
             <p>
@@ -224,7 +224,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* Bankroll Management */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Bankroll Stewardship: The 5-Unit Table Discipline in 3 Patti
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -234,7 +234,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* Historical Heritage */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Historical Origins of Katti (Mangatha) & Its Modern Live Evolution
             </h2>
             <p>
@@ -247,7 +247,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* Anti-Martingale Progression */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Strategic Staking: The Reverse Martingale (Paroli) System on Andar Bahar
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -268,7 +268,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* Dealer Integrity Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Live Dealer Shoe Integrity & Optical Scanner Verification
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -278,7 +278,7 @@ export const TeenPattiPage: React.FC = () => (
 
           {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Teen Patti Frequently Asked Questions</span>
             </h2>
@@ -324,11 +324,11 @@ export const AndarBaharPage: React.FC = () => (
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Overview */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Magic of Andar Bahar: Simple, Fast & Electrifying
             </h2>
             <p>
-              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-white">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
+              Originating in Southern India as <em>Ullae Veliyae</em> centuries ago, <strong className="text-slate-900 font-bold">Andar Bahar</strong> (Inside / Outside) is celebrated for its purity and rapid resolution. Unlike games with complex ranking calculations, Andar Bahar requires zero memorization. A single "Joker" (Opening) card is dealt face-up. Cards are then dealt alternately to the Andar and Bahar spots until an identical rank card appears. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), you can enjoy live tables with side bets, statistical trackers, and 0% withdrawal fees.
             </p>
           </div>
 
@@ -337,11 +337,11 @@ export const AndarBaharPage: React.FC = () => (
 
           {/* Mathematical Probability */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Mathematical Edge: Why Andar Holds a 51.5% Advantage
             </h2>
             <p>
-              In standard Andar Bahar, the dealer deals the very first card to the <strong className="text-white">Andar</strong> side. Because Andar receives the first opportunity to match the Joker, probability dictates that Andar will win 51.5% of the time, while Bahar wins 48.5% of the time.
+              In standard Andar Bahar, the dealer deals the very first card to the <strong className="text-slate-900 font-bold">Andar</strong> side. Because Andar receives the first opportunity to match the Joker, probability dictates that Andar will win 51.5% of the time, while Bahar wins 48.5% of the time.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-blue-950/40 border border-blue-500/30 space-y-1.5">
@@ -361,7 +361,7 @@ export const AndarBaharPage: React.FC = () => (
 
           {/* Side Bets Table */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Total Cards Dealt Side Bets: Up to 120x Multipliers
             </h2>
             <p className="text-sm text-slate-700">
@@ -380,33 +380,33 @@ export const AndarBaharPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">1 to 5 Cards</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">3.50 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Up to 10x</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,750 to +₹5,000</td>
+                    <td className="p-3.5 text-slate-900 font-bold">3.50 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Up to 10x</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,750 to +₹5,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">6 to 10 Cards</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">4.50 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Up to 15x</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹2,250 to +₹7,500</td>
+                    <td className="p-3.5 text-slate-900 font-bold">4.50 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Up to 15x</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹2,250 to +₹7,500</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">11 to 15 Cards</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">5.50 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Up to 25x</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹2,750 to +₹12,500</td>
+                    <td className="p-3.5 text-slate-900 font-bold">5.50 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Up to 25x</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹2,750 to +₹12,500</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">16 to 25 Cards</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">4.50 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Up to 30x</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹2,250 to +₹15,000</td>
+                    <td className="p-3.5 text-slate-900 font-bold">4.50 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Up to 30x</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹2,250 to +₹15,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">41+ Cards (Marathon Deal)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">120.00 : 1</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Up to 120x</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹60,000 Net Cash!</td>
+                    <td className="p-3.5 text-slate-900 font-bold">120.00 : 1</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Up to 120x</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹60,000 Net Cash!</td>
                   </tr>
                 </tbody>
               </table>
@@ -415,7 +415,7 @@ export const AndarBaharPage: React.FC = () => (
 
           {/* Card Counting Myths */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Debunking Card Counting Myths in Live Andar Bahar
             </h2>
             <p>
@@ -428,7 +428,7 @@ export const AndarBaharPage: React.FC = () => (
 
           {/* Studio Comparison */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Evolution Super Andar Bahar vs Ezugi OTT Andar Bahar
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -438,7 +438,7 @@ export const AndarBaharPage: React.FC = () => (
 
           {/* High Roller VIP Tables */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               High Roller VIP Salons & Dedicated Table Limits
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -459,12 +459,12 @@ export const AndarBaharPage: React.FC = () => (
 
           {/* 5 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Andar Bahar Frequently Asked Questions</span>
             </h2>
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3 mb-6">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Live Dealer Shoe Integrity & Optical Barcode Scanner Verification
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">

@@ -68,7 +68,7 @@ export const LiveCasinoPage: React.FC = () => (
         title="India's Premier "
         highlight="Live Casino Experience"
         subtitle="Immerse yourself in high-definition live dealer action streaming 24/7 from world-class studios. Teen Patti, Andar Bahar, Roulette, Blackjack, and Aviator with instant 2-minute UPI cashouts."
-        imageSrc="/images/games/image_game_Crazy_Time.webp"
+        imageSrc="/images/banners/banner_live_casino.webp"
         imageAlt="Lotus365 Live Casino Studio Suite"
         breadcrumbs={[{ label: 'Live Casino' }]}
       />
@@ -77,14 +77,14 @@ export const LiveCasinoPage: React.FC = () => (
         <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Executive Overview */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               World-Class Live Casino Streaming Directly to Your Mobile Screen
             </h2>
             <p>
-              Forget static computer graphics. At <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
+              Forget static computer graphics. At <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), our Live Casino connects you directly to professionally certified human dealers in real-time. Streaming in 1080p Full HD with sub-second latency from premium gaming studios operated by Evolution Gaming, Pragmatic Play Live, and Ezugi, you get the exact atmosphere of a VIP Macau or Las Vegas salon from your smartphone.
             </p>
             <p>
-              Whether you are an enthusiast of traditional Indian heritage card games like <Link href="/teen-patti" className="text-[#F0C419] hover:underline font-semibold" title="Teen Patti">Teen Patti</Link> and <Link href="/andar-bahar" className="text-[#F0C419] hover:underline font-semibold" title="Andar Bahar">Andar Bahar</Link>, or high-stakes European classics like <Link href="/roulette" className="text-[#F0C419] hover:underline font-semibold" title="Roulette">Roulette</Link> and <Link href="/blackjack" className="text-[#F0C419] hover:underline font-semibold" title="Blackjack">Blackjack</Link>, Lotus365 provides transparent dealing with zero RNG doubts.
+              Whether you are an enthusiast of traditional Indian heritage card games like <Link href="/teen-patti" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Teen Patti">Teen Patti</Link> and <Link href="/andar-bahar" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Andar Bahar">Andar Bahar</Link>, or high-stakes European classics like <Link href="/roulette" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Roulette">Roulette</Link> and <Link href="/blackjack" className="text-emerald-700 font-semibold hover:underline hover:underline font-semibold" title="Blackjack">Blackjack</Link>, Lotus365 provides transparent dealing with zero RNG doubts.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ export const LiveCasinoPage: React.FC = () => (
 
           {/* Game Library Directory Grid */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Explore Lotus365's Premier Live Casino Categories
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -121,7 +121,7 @@ export const LiveCasinoPage: React.FC = () => (
 
           {/* RTP & House Edge Comparison Matrix */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Live Casino Math: RTP & House Edge Comparison
             </h2>
             <p className="text-sm text-slate-700">
@@ -141,35 +141,35 @@ export const LiveCasinoPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Classic Blackjack</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">99.50%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">99.50%</td>
                     <td className="p-3.5 text-emerald-300">0.50%</td>
                     <td className="p-3.5 text-slate-600">Low</td>
                     <td className="p-3.5">Follow strict basic strategy charts on splitting & doubling</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Baccarat (Banker)</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">98.94%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">98.94%</td>
                     <td className="p-3.5 text-emerald-300">1.06%</td>
                     <td className="p-3.5 text-slate-600">Low</td>
                     <td className="p-3.5">Always back Banker; avoid the 14.4% house edge on Tie bets</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Aviator Crash Game</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">98.50%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">98.50%</td>
                     <td className="p-3.5 text-emerald-300">1.50%</td>
                     <td className="p-3.5 text-yellow-400">Medium</td>
                     <td className="p-3.5">Use dual-bet auto-cashout at 1.40x to cover primary stake</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">European Roulette</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">97.30%</td>
+                    <td className="p-3.5 text-slate-900 font-bold">97.30%</td>
                     <td className="p-3.5 text-yellow-400">2.70%</td>
                     <td className="p-3.5 text-slate-600">Low / Medium</td>
                     <td className="p-3.5">Stick to outside even-money bets (Red/Black, Odd/Even)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Teen Patti (Ante Bet)</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">96.50%</td>
+                    <td className="p-3.5 text-slate-900 font-bold">96.50%</td>
                     <td className="p-3.5 text-yellow-400">3.50%</td>
                     <td className="p-3.5 text-yellow-400">Medium</td>
                     <td className="p-3.5">Play hands holding Q-6-4 or higher; fold lower ranks</td>
@@ -193,13 +193,13 @@ export const LiveCasinoPage: React.FC = () => (
               <span>Casino Pro Tip: The Stop-Loss & Target Profit Rule</span>
             </div>
             <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
-              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link href="/how-to-withdraw" className="text-[#F0C419] underline font-semibold" title="2-minute cashout desk">2-minute cashout desk</Link> to lock in your real-money gains!
+              Before sitting at any live table, establish your session stop-loss (e.g. 20% of your total balance) and your win goal (e.g. +30% profit). Live casino games are fast-paced, and emotional tilt is the primary reason players give back winnings. When you hit your target win threshold, trigger an instant withdrawal via our <Link href="/how-to-withdraw" className="text-emerald-700 font-semibold hover:underline underline font-semibold" title="2-minute cashout desk">2-minute cashout desk</Link> to lock in your real-money gains!
             </p>
           </div>
 
           {/* Security & Studio Integrity */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Fair Play, Studio Licensing & Optical Character Recognition (OCR)
             </h2>
             <p>
@@ -207,15 +207,15 @@ export const LiveCasinoPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419]">High-Speed OCR Scanners</h3>
+                <h3 className="font-bold text-slate-900">High-Speed OCR Scanners</h3>
                 <p className="text-slate-600">Every card dealt across blackjack, baccarat, and teen patti is scanned via laser optical sensors, translating physical card values directly onto your screen with zero human manipulation.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419]">Multi-Angle HD Cameras</h3>
+                <h3 className="font-bold text-slate-900">Multi-Angle HD Cameras</h3>
                 <p className="text-slate-600">Roulette wheels and card shoes are captured by 3 independent high-speed camera angles simultaneously, including close-ups on the ball dropping into the wheel pocket.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419]">Live Dealer Interaction</h3>
+                <h3 className="font-bold text-slate-900">Live Dealer Interaction</h3>
                 <p className="text-slate-600">Chat live with dealers in Hindi and English. Dealers welcome you by your username, call out placed bets, and maintain total transparency during every shoe shuffle.</p>
               </div>
             </div>
@@ -223,7 +223,7 @@ export const LiveCasinoPage: React.FC = () => (
 
           {/* Multi-Camera Angle Studio Infrastructure */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Multi-Camera Studio Infrastructure & Optical Card Recognition (OCR)
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -233,7 +233,7 @@ export const LiveCasinoPage: React.FC = () => (
 
           {/* 8 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Live Casino Frequently Asked Questions</span>
             </h2>

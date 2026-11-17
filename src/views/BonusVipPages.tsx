@@ -85,7 +85,7 @@ export const WelcomeBonusPage: React.FC = () => (
           {/* Welcome Promo Banner */}
           <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-black/40 to-black/20 border border-[#F0C419]/40 text-center space-y-3">
             <Gift className="w-12 h-12 text-[#F0C419] mx-auto animate-bounce" />
-            <h2 className="text-2xl sm:text-3xl font-black text-[#F0C419]">100% First Deposit Match Up to ₹5,000</h2>
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">100% First Deposit Match Up to ₹5,000</h2>
             <p className="text-slate-700 text-xs sm:text-sm max-w-xl mx-auto">
               Deposit ₹1,000, play with ₹2,000. Deposit ₹5,000, play with ₹10,000! Available to all newly registered Indian members making their first UPI deposit on Lotus365.
             </p>
@@ -108,7 +108,7 @@ export const WelcomeBonusPage: React.FC = () => (
               Starting your online sports betting or live casino journey should be backed by real value, not deceptive marketing gimmicks. Many offshore bookmakers advertise enormous bonus figures like "300% up to ₹50,000," only to trap players with predatory 40x wagering hurdles, unrealistic 3-day deadlines, and hidden withdrawal caps that make cashing out winnings virtually impossible.
             </p>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe in straightforward, player-first hospitality. Our <strong>100% Welcome Bonus</strong> is designed to provide you with meaningful, playable bankroll leverage. Whether you intend to back your favorite IPL franchise on our <Link href="/cricket-exchange" className="text-[#F0C419] font-semibold hover:underline" title="Cricket Exchange">Cricket Exchange</Link>, try high-RTP <Link href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline" title="Aviator crash rounds">Aviator crash rounds</Link>, or play hands of <Link href="/teen-patti" className="text-[#F0C419] font-semibold hover:underline" title="Live Teen Patti">Live Teen Patti</Link>, our welcome credits give you an immediate competitive edge.
+              At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe in straightforward, player-first hospitality. Our <strong>100% Welcome Bonus</strong> is designed to provide you with meaningful, playable bankroll leverage. Whether you intend to back your favorite IPL franchise on our <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Cricket Exchange">Cricket Exchange</Link>, try high-RTP <Link href="/aviator-game" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Aviator crash rounds">Aviator crash rounds</Link>, or play hands of <Link href="/teen-patti" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Live Teen Patti">Live Teen Patti</Link>, our welcome credits give you an immediate competitive edge.
             </p>
           </div>
 
@@ -127,27 +127,27 @@ export const WelcomeBonusPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Deposit Match Percentage</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">100% Matching Bonus</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">100% Matching Bonus</td>
                     <td className="p-3.5">50% to 100%</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Maximum Bonus Cap</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹5,000 INR</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹5,000 INR</td>
                     <td className="p-3.5">₹2,500 to ₹10,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Turnover / Rollover Requirement</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5x (Sports) / 10x (Casino)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5x (Sports) / 10x (Casino)</td>
                     <td className="p-3.5 text-rose-300">25x to 40x (Extremely High)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Validity Duration</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">30 Full Days</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">30 Full Days</td>
                     <td className="p-3.5 text-rose-300">3 to 7 Days (Rushed)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Eligible Markets</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Cricket, Sports, Casino, Aviator</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Cricket, Sports, Casino, Aviator</td>
                     <td className="p-3.5">Strictly limited to high-risk parlays</td>
                   </tr>
                 </tbody>
@@ -203,7 +203,7 @@ export const WelcomeBonusPage: React.FC = () => (
 
           {/* Strategy Section */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Wagering Strategy: Back vs. Lay Matched Betting for Turnover Clearance
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -239,22 +239,22 @@ export const WelcomeBonusPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Cricket Match Odds (Exchange)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">100% Contribution</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">100% Contribution</td>
                     <td className="p-3.5">Fastest clearance with tight back/lay spreads</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Football & Tennis Match Betting</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">100% Contribution</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">100% Contribution</td>
                     <td className="p-3.5">Excellent for steady in-play hedging</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Live Teen Patti & Andar Bahar</td>
-                    <td className="p-3.5 text-[#F0C419] font-semibold">50% Contribution</td>
+                    <td className="p-3.5 text-slate-900 font-semibold">50% Contribution</td>
                     <td className="p-3.5">Rapid multi-round accumulation in HD live studios</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Aviator & Crash Games</td>
-                    <td className="p-3.5 text-[#F0C419] font-semibold">50% Contribution</td>
+                    <td className="p-3.5 text-slate-900 font-semibold">50% Contribution</td>
                     <td className="p-3.5">High RTP cashouts between 1.10x and 1.50x</td>
                   </tr>
                   <tr>
@@ -269,7 +269,7 @@ export const WelcomeBonusPage: React.FC = () => (
 
           {/* Expiry & Safety Protocols */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-extrabold text-[#F0C419]">
+            <h3 className="text-xl font-extrabold text-slate-900">
               Understanding Bonus Expiry Protocols & Wagering Deadlines
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -282,7 +282,7 @@ export const WelcomeBonusPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About the Welcome Bonus
             </h2>
@@ -370,10 +370,10 @@ export const FirstDepositBonusPage: React.FC = () => (
               Unlock Maximum Value from Your Opening Deposit
             </h2>
             <p className="mb-4">
-              Your initial deposit on <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link> is more than just funding your account; it is your gateway to our elite loyalty ecosystem. We offer a progressive, tiered <strong>First Deposit Booster</strong> that rewards both cautious beginners and high-stakes veterans with tailored promotional balances.
+              Your initial deposit on <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link> is more than just funding your account; it is your gateway to our elite loyalty ecosystem. We offer a progressive, tiered <strong>First Deposit Booster</strong> that rewards both cautious beginners and high-stakes veterans with tailored promotional balances.
             </p>
             <p className="mb-4">
-              By aligning your first deposit with the right tier bracket, you can unlock up to <strong>150% in matching bonus credits</strong>, complimentary free bets for high-profile IPL matches, and automatic fast-track entry into the Lotus365 <Link href="/vip-club" className="text-[#F0C419] font-semibold hover:underline" title="VIP Club">VIP Club</Link>.
+              By aligning your first deposit with the right tier bracket, you can unlock up to <strong>150% in matching bonus credits</strong>, complimentary free bets for high-profile IPL matches, and automatic fast-track entry into the Lotus365 <Link href="/vip-club" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="VIP Club">VIP Club</Link>.
             </p>
           </div>
 
@@ -395,21 +395,21 @@ export const FirstDepositBonusPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Starter Tier (₹100 – ₹999)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">100% Match</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">100% Match</td>
                     <td className="p-3.5">₹999</td>
                     <td className="p-3.5 text-slate-600">5x Sports Wagering</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Pro Bettor (₹1,000 – ₹4,999)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">120% Match</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">120% Match</td>
                     <td className="p-3.5">₹5,000</td>
                     <td className="p-3.5 text-slate-600">₹500 Free Bet on IPL + 5x Wagering</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">High Roller (₹5,000+)</td>
-                    <td className="p-3.5 text-[#F0C419] font-extrabold">150% Match</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">₹15,000</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Instant VIP Silver Status + Dedicated RM</td>
+                    <td className="p-3.5 text-slate-900 font-extrabold">150% Match</td>
+                    <td className="p-3.5 text-slate-900 font-bold">₹15,000</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Instant VIP Silver Status + Dedicated RM</td>
                   </tr>
                 </tbody>
               </table>
@@ -423,19 +423,19 @@ export const FirstDepositBonusPage: React.FC = () => (
             </h2>
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">1. Choose Your Tier Deliberately</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">1. Choose Your Tier Deliberately</h3>
                 <p className="text-xs text-slate-700">
                   Because the First Deposit Bonus is an exclusive one-time opportunity, deposit the maximum amount comfortable within your personal entertainment budget to lock in the highest tier match percentage.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">2. Leverage the Cricket Exchange Back/Lay Advantage</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">2. Leverage the Cricket Exchange Back/Lay Advantage</h3>
                 <p className="text-xs text-slate-700">
-                  Fulfill your turnover requirements on our <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link> by backing solid favorites or laying overpriced longshots with tight spreads, preserving your core principal while steadily chipping away at the turnover target.
+                  Fulfill your turnover requirements on our <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline underline" title="Cricket Exchange">Cricket Exchange</Link> by backing solid favorites or laying overpriced longshots with tight spreads, preserving your core principal while steadily chipping away at the turnover target.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs">
-                <h3 className="font-bold text-[#F0C419] text-base mb-1">3. Avoid Rushing Your Plays</h3>
+                <h3 className="font-bold text-slate-900 text-base mb-1">3. Avoid Rushing Your Plays</h3>
                 <p className="text-xs text-slate-700">
                   With 30 days of validity, you do not need to place all wagers on a single day. Wait for high-confidence match conditions, verified pitch reports, and favorable team news before deploying your bonus funds.
                 </p>
@@ -445,7 +445,7 @@ export const FirstDepositBonusPage: React.FC = () => (
 
           {/* Comprehensive Growth Models */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Comparative Bankroll Growth Models: ₹1,000 vs ₹5,000 vs ₹20,000
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -457,7 +457,7 @@ export const FirstDepositBonusPage: React.FC = () => (
                 <p className="text-xs text-slate-600">Deposit ₹1,000 + ₹1,000 bonus = ₹2,000 active bankroll. Ideal for casual cricket fans wanting to place ₹50 to ₹100 session stakes across 20+ IPL encounters.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-100 border border-slate-200 space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-sm">Strategic Pro (₹5,000)</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Strategic Pro (₹5,000)</h3>
                 <p className="text-xs text-slate-600">Deposit ₹5,000 + ₹6,000 bonus (120%) + ₹500 free bet = ₹11,500 total capital. Provides comfortable room for exchange trading, hedging, and live casino sessions.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-100 border border-slate-200 space-y-2">
@@ -476,26 +476,26 @@ export const FirstDepositBonusPage: React.FC = () => (
             <div className="space-y-3 text-xs sm:text-sm text-slate-700">
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] font-black flex items-center justify-center shrink-0 text-xs">1</div>
-                <div><strong className="text-white">Connect via Official WhatsApp:</strong> Tap the WhatsApp button or navigate to https://wa.link/880088 to message our verified 24/7 team.</div>
+                <div><strong className="text-slate-900 font-bold">Connect via Official WhatsApp:</strong> Tap the WhatsApp button or navigate to https://wa.link/880088 to message our verified 24/7 team.</div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] font-black flex items-center justify-center shrink-0 text-xs">2</div>
-                <div><strong className="text-white">Request Active QR Code:</strong> Inform your concierge of your intended deposit amount to receive a fresh merchant UPI handle or QR code.</div>
+                <div><strong className="text-slate-900 font-bold">Request Active QR Code:</strong> Inform your concierge of your intended deposit amount to receive a fresh merchant UPI handle or QR code.</div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] font-black flex items-center justify-center shrink-0 text-xs">3</div>
-                <div><strong className="text-white">Pay via PhonePe / GPay / Paytm:</strong> Transfer funds securely using your preferred mobile banking app and share the 12-digit UTR confirmation.</div>
+                <div><strong className="text-slate-900 font-bold">Pay via PhonePe / GPay / Paytm:</strong> Transfer funds securely using your preferred mobile banking app and share the 12-digit UTR confirmation.</div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#F0C419] text-[#14614C] font-black flex items-center justify-center shrink-0 text-xs">4</div>
-                <div><strong className="text-white">Instant Credential & Bonus Delivery:</strong> Within 30 seconds, your credentials and matched bonus are activated, allowing immediate web play without app installs.</div>
+                <div><strong className="text-slate-900 font-bold">Instant Credential & Bonus Delivery:</strong> Within 30 seconds, your credentials and matched bonus are activated, allowing immediate web play without app installs.</div>
               </div>
             </div>
           </div>
 
           {/* Staking Plans & Risk Management */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Risk-Managed Staking Plans for First Deposit Capital Preservation
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -518,7 +518,7 @@ export const FirstDepositBonusPage: React.FC = () => (
 
           {/* Capital Allocation Matrix */}
           <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200 space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">Capital Allocation Matrix: Multi-Match Wagering vs Single Stakes</h3>
+            <h3 className="text-xl font-bold text-slate-900">Capital Allocation Matrix: Multi-Match Wagering vs Single Stakes</h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               A common pitfall among inexperienced sports bettors is staking their entire first deposit bonus balance on a single high-profile match. While this offers short-term excitement, mathematical variance heavily penalizes concentrated risk. Spread your promotional capital across at least 10 to 15 distinct betting markets—such as top team batsman, total match sixes, first 6-overs session runs, and match winner.
             </p>
@@ -529,7 +529,7 @@ export const FirstDepositBonusPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About the First Deposit Bonus
             </h2>
@@ -634,21 +634,21 @@ export const ReferralBonusPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Casual (1 – 5 Friends)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹500 Flat Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹500 Flat Cash</td>
                     <td className="p-3.5">0.5% Lifetime Turnover</td>
                     <td className="p-3.5">—</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Influencer (6 – 25 Friends)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹750 Flat Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹750 Flat Cash</td>
                     <td className="p-3.5">1.0% Lifetime Turnover</td>
-                    <td className="p-3.5 text-emerald-400">₹5,000 Milestone Bonus</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">₹5,000 Milestone Bonus</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Master Affiliate (26+ Friends)</td>
-                    <td className="p-3.5 text-[#F0C419] font-extrabold">₹1,000 Flat Cash</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.5% – 2.0% Lifetime Turnover</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">₹25,000+ VIP Pool Share</td>
+                    <td className="p-3.5 text-slate-900 font-extrabold">₹1,000 Flat Cash</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.5% – 2.0% Lifetime Turnover</td>
+                    <td className="p-3.5 text-slate-900 font-bold">₹25,000+ VIP Pool Share</td>
                   </tr>
                 </tbody>
               </table>
@@ -686,7 +686,7 @@ export const ReferralBonusPage: React.FC = () => (
 
           {/* Lifetime Commission Architecture */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               The Multi-Tier Referral Lifetime Commission Matrix (Passive Income Architecture)
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -706,20 +706,20 @@ export const ReferralBonusPage: React.FC = () => (
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Tier 1: Community Partner</td>
                     <td className="p-3.5">1 – 5 Friends</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹500 per friend</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹500 per friend</td>
                     <td className="p-3.5">2.5% Net Turnover Share</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Tier 2: Elite Influencer</td>
                     <td className="p-3.5">6 – 20 Friends</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">₹750 per friend</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">₹750 per friend</td>
                     <td className="p-3.5">4.0% Net Turnover Share</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Tier 3: VIP Master Agent</td>
                     <td className="p-3.5">21+ Friends</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">₹1,000 per friend</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">6.0% Lifetime Weekly Revenue Share</td>
+                    <td className="p-3.5 text-slate-900 font-bold">₹1,000 per friend</td>
+                    <td className="p-3.5 text-slate-900 font-bold">6.0% Lifetime Weekly Revenue Share</td>
                   </tr>
                 </tbody>
               </table>
@@ -731,7 +731,7 @@ export const ReferralBonusPage: React.FC = () => (
 
           {/* Referral Anti-Syndicate Integrity Policy */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-            <h3 className="font-bold text-[#F0C419] text-base">Referral Partner Verification & Fraud Shield</h3>
+            <h3 className="font-bold text-slate-900 text-base">Referral Partner Verification & Fraud Shield</h3>
             <p className="text-xs text-slate-700 leading-relaxed">
               To safeguard our honest network of affiliates, Lotus365 deploys continuous multi-accounting detection algorithms. Referral earnings generated through genuine word-of-mouth recommendations, social media channels, and private group chats are cleared with 100% automated settlement every Monday morning via instant UPI bank transfers.
             </p>
@@ -745,7 +745,7 @@ export const ReferralBonusPage: React.FC = () => (
 
           {/* Network Reach Strategy */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Maximizing Network Reach: How Top Affiliates Earn Consistent Passive Income
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -753,11 +753,11 @@ export const ReferralBonusPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">Transparent Real-Time Dashboard</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Transparent Real-Time Dashboard</h3>
                 <p className="text-xs text-slate-600">Request complete weekly reports showing referred member active volume, platform turnover, and generated commission payouts.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">Weekly Automated Monday Payouts</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Weekly Automated Monday Payouts</h3>
                 <p className="text-xs text-slate-600">Commissions settle like clockwork every Monday noon directly to your UPI ID without invoice delays or withdrawal fees.</p>
               </div>
             </div>
@@ -768,7 +768,7 @@ export const ReferralBonusPage: React.FC = () => (
 
           {/* Conversion Channels */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-extrabold text-[#F0C419]">
+            <h3 className="text-xl font-extrabold text-slate-900">
               Dedicated Affiliate Tracking Infrastructure & Real-Time Auditing
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -779,7 +779,7 @@ export const ReferralBonusPage: React.FC = () => (
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200 space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">Affiliate Conversion Techniques: Telegram, WhatsApp & Social Media</h3>
+            <h3 className="text-xl font-bold text-slate-900">Affiliate Conversion Techniques: Telegram, WhatsApp & Social Media</h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               Successful Lotus365 referral partners actively share educational content, live match previews, and toss analysis with their personal networks. Highlighting our instant mobile play requirement, 2-minute UPI cashouts, and transparent WhatsApp customer support builds immediate trust with Indian sports fans who are tired of offshore betting sites with complicated KYC procedures and frozen withdrawals.
             </p>
@@ -790,7 +790,7 @@ export const ReferralBonusPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About the Referral Program
             </h2>
@@ -869,7 +869,7 @@ export const CashbackOffersPage: React.FC = () => (
               Real Cash Rebates: Because Every Bettor Deserves a Second Chance
             </h2>
             <p className="mb-4">
-              In sports betting and casino games, variance is an inescapable reality. Even the most seasoned cricket analysts occasionally suffer an unlucky over or an unexpected batting collapse. At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe true customer loyalty means standing by our players during downswings.
+              In sports betting and casino games, variance is an inescapable reality. Even the most seasoned cricket analysts occasionally suffer an unlucky over or an unexpected batting collapse. At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe true customer loyalty means standing by our players during downswings.
             </p>
             <p className="mb-4">
               Our <strong>Weekly Cashback Program</strong> functions as an automatic financial cushion. Every Monday at 12:00 PM IST, our automated ledger calculates your net activity across all sports and casino games for the preceding seven days. A healthy percentage of your net losses is returned straight to your wallet as real, playable, and withdrawable cash.
@@ -894,33 +894,33 @@ export const CashbackOffersPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Bronze (Standard Member)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5.0%</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5.0%</td>
-                    <td className="p-3.5 text-emerald-400">1x Turnover</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5.0%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5.0%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">1x Turnover</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Silver VIP</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">7.5%</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">7.5%</td>
-                    <td className="p-3.5 text-emerald-400">1x Turnover</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">7.5%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">7.5%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">1x Turnover</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Gold VIP</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">10.0%</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">10.0%</td>
-                    <td className="p-3.5 text-emerald-400">0x (Real Cash)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">10.0%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">10.0%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0x (Real Cash)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Platinum VIP</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">12.5%</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">12.5%</td>
-                    <td className="p-3.5 text-emerald-400">0x (Real Cash)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">12.5%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">12.5%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0x (Real Cash)</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">VIP Black Card</td>
-                    <td className="p-3.5 text-[#F0C419] font-extrabold">15.0% Uncapped</td>
-                    <td className="p-3.5 text-[#F0C419] font-extrabold">15.0% Uncapped</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">0x (Instant Cashout)</td>
+                    <td className="p-3.5 font-bold text-slate-900">VIP Black Card</td>
+                    <td className="p-3.5 text-slate-900 font-extrabold">15.0% Uncapped</td>
+                    <td className="p-3.5 text-slate-900 font-extrabold">15.0% Uncapped</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">0x (Instant Cashout)</td>
                   </tr>
                 </tbody>
               </table>
@@ -944,7 +944,7 @@ export const CashbackOffersPage: React.FC = () => (
 
           {/* Rebate Formula & Architecture */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Weekly Net Loss Rebate Mechanics & Mathematical Formula
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -971,27 +971,27 @@ export const CashbackOffersPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Bronze Member</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5% Weekly Rebate</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5% Weekly Rebate</td>
                     <td className="p-3.5">5% Weekly Rebate</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">0x (Instant Cashout)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">0x (Instant Cashout)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Silver VIP</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">7.5% Weekly Rebate</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">7.5% Weekly Rebate</td>
                     <td className="p-3.5">7.5% Weekly Rebate</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">0x (Instant Cashout)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">0x (Instant Cashout)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Gold VIP</td>
-                    <td className="p-3.5 text-[#F0C419] font-semibold">10% Weekly Rebate</td>
+                    <td className="p-3.5 text-slate-900 font-semibold">10% Weekly Rebate</td>
                     <td className="p-3.5">10% Weekly Rebate</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">0x (Instant Cashout)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">0x (Instant Cashout)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Black Card Elite</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">15% Weekly Rebate</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">15% Weekly Rebate</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">0x (Instant Cashout)</td>
+                    <td className="p-3.5 text-slate-900 font-bold">15% Weekly Rebate</td>
+                    <td className="p-3.5 text-slate-900 font-bold">15% Weekly Rebate</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">0x (Instant Cashout)</td>
                   </tr>
                 </tbody>
               </table>
@@ -1003,13 +1003,13 @@ export const CashbackOffersPage: React.FC = () => (
 
           {/* Psychological Defense & Staking Discipline */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-            <h3 className="font-bold text-[#F0C419] text-base">Fair Net Loss Calculation Transparency Guarantee</h3>
+            <h3 className="font-bold text-slate-900 text-base">Fair Net Loss Calculation Transparency Guarantee</h3>
             <p className="text-xs text-slate-700 leading-relaxed">
               Every Sunday midnight, our automated system tallies your aggregate turnover across all sports and casino categories. If variance has resulted in a net negative balance for the week, your calculated tier rebate percentage is transferred directly into your primary wallet at 12:00 PM IST on Monday, with immediate withdrawal clearance.
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Psychological Benefits of Cashback: Eliminating Tilt & Bankroll Depletion
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1036,7 +1036,7 @@ export const CashbackOffersPage: React.FC = () => (
 
           {/* Comparative Rebate Analysis */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-extrabold text-[#F0C419]">
+            <h3 className="text-xl font-extrabold text-slate-900">
               Risk-Free Bankroll Replenishment & Fair Play Standards
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1047,7 +1047,7 @@ export const CashbackOffersPage: React.FC = () => (
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200 space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">Comparative Analysis: Liquid Cash Rebates vs Promotional Free Bets</h3>
+            <h3 className="text-xl font-bold text-slate-900">Comparative Analysis: Liquid Cash Rebates vs Promotional Free Bets</h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               Many online betting platforms advertise "100% Risk-Free Bets" or "Cashback Insurances," only to credit losing refunds in the form of restrictive free bet vouchers with minimum odds thresholds of 3.00+ and mandatory 15x turnover. If you fail to hit those inflated odds within 48 hours, your rebate vanishes.
             </p>
@@ -1058,7 +1058,7 @@ export const CashbackOffersPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Weekly Cashback
             </h2>
@@ -1120,7 +1120,7 @@ export const VipClubPage: React.FC = () => (
         highlight="VIP Club" 
         subtitle="Step into India’s most exclusive betting sanctuary. Experience bespoke luxury with dedicated WhatsApp account directors, uncapped cashouts, elevated market limits, and private live dealer suites." 
         ctaLabel="Inquire About VIP Status" 
-        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageSrc="/images/banners/banner_vip_champions.webp"
         imageAlt="Lotus365 VIP Club Sanctuary"
         breadcrumbs={[{ label: 'VIP Club' }]}
       />
@@ -1137,7 +1137,7 @@ export const VipClubPage: React.FC = () => (
               Bespoke Gaming Luxury for Discerning Indian High Rollers
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, high-volume players are not treated like algorithmic numbers in a database. The <strong>Lotus365 VIP Club</strong> is an invitation-tier loyalty program crafted to deliver the white-glove treatment you would expect from the world's premier casinos in Macau, London, or Las Vegas.
+              At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, high-volume players are not treated like algorithmic numbers in a database. The <strong>Lotus365 VIP Club</strong> is an invitation-tier loyalty program crafted to deliver the white-glove treatment you would expect from the world's premier casinos in Macau, London, or Las Vegas.
             </p>
             <p className="mb-4">
               From the moment you ascend to VIP status, you receive a direct private WhatsApp communication channel with a dedicated Senior Account Director who oversees your deposits, facilitates custom betting limits on cricket matches, and coordinates priority IMPS payouts in under 60 seconds.
@@ -1181,29 +1181,29 @@ export const VipClubPage: React.FC = () => (
                     <td className="p-3.5 font-bold text-slate-900">Silver</td>
                     <td className="p-3.5">₹5,00,000</td>
                     <td className="p-3.5">₹15,00,000</td>
-                    <td className="p-3.5 text-emerald-400">7.5%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">7.5%</td>
                     <td className="p-3.5 text-slate-600">Shared VIP Desk</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-bold text-[#F0C419]">Gold</td>
+                    <td className="p-3.5 font-bold text-slate-900">Gold</td>
                     <td className="p-3.5">₹20,00,000</td>
                     <td className="p-3.5">₹25,00,000</td>
-                    <td className="p-3.5 text-emerald-400">10.0%</td>
-                    <td className="p-3.5 text-emerald-400">Dedicated Account RM</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">10.0%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Dedicated Account RM</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-amber-300">Platinum</td>
                     <td className="p-3.5">₹50,00,000</td>
                     <td className="p-3.5">₹50,00,000</td>
-                    <td className="p-3.5 text-emerald-400">12.5%</td>
-                    <td className="p-3.5 text-emerald-400">Senior Account Director</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">12.5%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Senior Account Director</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Black Card</td>
                     <td className="p-3.5">By Invitation Only</td>
-                    <td className="p-3.5 text-[#F0C419] font-extrabold">Unlimited</td>
-                    <td className="p-3.5 text-[#F0C419] font-extrabold">15.0% Uncapped</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Executive Suite 24/7</td>
+                    <td className="p-3.5 text-slate-900 font-extrabold">Unlimited</td>
+                    <td className="p-3.5 text-slate-900 font-extrabold">15.0% Uncapped</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Executive Suite 24/7</td>
                   </tr>
                 </tbody>
               </table>
@@ -1212,7 +1212,7 @@ export const VipClubPage: React.FC = () => (
 
           {/* The 5 Tiers Breakdown */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               The Five Prestigious VIP Tiers: Bronze, Silver, Gold, Platinum, Black Card
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1224,12 +1224,12 @@ export const VipClubPage: React.FC = () => (
                 <p className="text-xs text-slate-600 leading-relaxed">The foundation of our rewards club. Enjoy 5% to 7.5% weekly net loss cashback, standard 2-minute UPI cashouts, and 24/7 dedicated human WhatsApp support with zero automated bot queues.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-[#F0C419]/30 space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base flex items-center gap-2"><Crown className="w-5 h-5 text-[#F0C419]" /> Gold & Platinum Tiers</h3>
+                <h3 className="font-bold text-slate-900 text-base flex items-center gap-2"><Crown className="w-5 h-5 text-[#F0C419]" /> Gold & Platinum Tiers</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">For seasoned exchange traders. Receive up to 10% cashback, ₹25,00,000 daily withdrawal limits, customized odds spreads on high-stakes cricket matches, and surprise festive Diwali gift boxes.</p>
               </div>
             </div>
             <div className="p-5 rounded-2xl bg-gradient-to-r from-black/50 via-[#0b3b2d] to-black/50 border border-[#F0C419]/50 space-y-2">
-              <h3 className="text-base font-extrabold text-[#F0C419] flex items-center gap-2"><Trophy className="w-5 h-5 text-[#F0C419]" /> Dedicated Concierge Desk & Private Table Limits</h3>
+              <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2"><Trophy className="w-5 h-5 text-[#F0C419]" /> Dedicated Concierge Desk & Private Table Limits</h3>
               <p className="text-xs text-slate-700 leading-relaxed">
                 VIP members are assigned a private senior relationship manager on WhatsApp. Need a custom betting ceiling on a high-profile IPL final? Looking to execute a multi-lakh IMPS bank wire in under five minutes? Your VIP manager oversees all financial logistics with discreet white-glove precision.
               </p>
@@ -1246,7 +1246,7 @@ export const VipClubPage: React.FC = () => (
 
           {/* High-Stakes Order Books */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Custom Wagering Limits & Deep High-Stakes Cricket Order Books
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1254,11 +1254,11 @@ export const VipClubPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">Discreet Financial Execution</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Discreet Financial Execution</h3>
                 <p className="text-xs text-slate-600">Large withdrawals are routed through high-priority corporate banking channels with end-to-end encryption and total confidentiality.</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-1">
-                <h3 className="font-bold text-[#F0C419] text-sm">Tailored Festival Bonuses</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Tailored Festival Bonuses</h3>
                 <p className="text-xs text-slate-600">Celebrate Diwali, IPL Finals, and New Year with exclusive high-roller reload incentives, custom gadget rewards, and luxury hampers.</p>
               </div>
             </div>
@@ -1269,7 +1269,7 @@ export const VipClubPage: React.FC = () => (
 
           {/* Real-World VIP Experiences */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="font-bold text-[#F0C419] text-base">VIP Event Invitations & Tailored Celebration Packages</h3>
+            <h3 className="font-bold text-slate-900 text-base">VIP Event Invitations & Tailored Celebration Packages</h3>
             <p className="text-xs text-slate-700 leading-relaxed">
               Lotus365 deeply respects and values the enduring loyalty of our premier Indian gaming community. Throughout the sporting calendar, our VIP managers arrange complimentary stadium hospitality, 5-star hotel accommodations, and private airport transfers for top patrons attending marquee cricket tournaments and international sports events.
             </p>
@@ -1278,7 +1278,7 @@ export const VipClubPage: React.FC = () => (
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-extrabold text-[#F0C419]">
+            <h3 className="text-xl font-extrabold text-slate-900">
               Executive Concierge Support & Bespoke Banking Channels
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1289,7 +1289,7 @@ export const VipClubPage: React.FC = () => (
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200 space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">Corporate Hospitality & Real-World High-Roller Experiences</h3>
+            <h3 className="text-xl font-bold text-slate-900">Corporate Hospitality & Real-World High-Roller Experiences</h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               Our VIP relationship managers curate world-class hospitality experiences that transcend online betting. Gold and Platinum VIP members receive invitations to all-inclusive VIP stadium lounges during marquee IPL matches, India vs Pakistan World Cup clashes, and international bilateral series. We arrange luxury hotel accommodations, private ground transfers, and exclusive celebrity meet-and-greet sessions.
             </p>
@@ -1300,7 +1300,7 @@ export const VipClubPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About the VIP Club
             </h2>
@@ -1455,7 +1455,7 @@ export const VipBlackCardPage: React.FC = () => (
 
           {/* Black Card Elite Membership */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               By-Invitation-Only Elite Membership Criteria & Auditing
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1463,15 +1463,15 @@ export const VipBlackCardPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-[#F0C419]/40 space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-sm">Unlimited Cashout Limits</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Unlimited Cashout Limits</h3>
                 <p className="text-xs text-slate-600">Zero transaction or daily withdrawal ceilings. Cash out ₹10,00,000, ₹50,00,000, or more via multi-channel IMPS wires with dedicated treasury reserve clearance.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-[#F0C419]/40 space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-sm">Zero Slippage Liquidity Desk</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Zero Slippage Liquidity Desk</h3>
                 <p className="text-xs text-slate-600">Execute massive back and lay wagers directly into deep international exchange order books without moving the market price or encountering bet rejection.</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 border border-[#F0C419]/40 space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-sm">Personal Wealth Concierge</h3>
+                <h3 className="font-bold text-slate-900 text-sm">Personal Wealth Concierge</h3>
                 <p className="text-xs text-slate-600">Direct 24/7 hotline to a dedicated senior account executive catering to custom betting markets, private live casino tables, and luxury gifting.</p>
               </div>
             </div>
@@ -1490,13 +1490,13 @@ export const VipBlackCardPage: React.FC = () => (
 
           {/* Treasury & Clearance Architecture */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-            <h3 className="font-bold text-[#F0C419] text-base">Discreet High-Roller Financial Settlement Channels</h3>
+            <h3 className="font-bold text-slate-900 text-base">Discreet High-Roller Financial Settlement Channels</h3>
             <p className="text-xs text-slate-700 leading-relaxed">
               Black Card members benefit from dedicated multi-channel IMPS corporate rails that bypass public payment queues entirely. Seven-figure settlements are processed with complete privacy, encrypted audit logs, and instantaneous verification via your personal senior wealth manager on WhatsApp.
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Institutional Liquidity Clearance & Dedicated Treasury Routing
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1519,7 +1519,7 @@ export const VipBlackCardPage: React.FC = () => (
 
           {/* Private Syndicates Architecture */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-extrabold text-[#F0C419]">
+            <h3 className="text-xl font-extrabold text-slate-900">
               Private Staking Limits & Uncapped Wealth Management Services
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1530,7 +1530,7 @@ export const VipBlackCardPage: React.FC = () => (
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200 space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">Private Staking Syndicates & Customized Hedging Protocols</h3>
+            <h3 className="text-xl font-bold text-slate-900">Private Staking Syndicates & Customized Hedging Protocols</h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               For ultra-high-net-worth patrons and private trading syndicates operating institutional-size bankrolls, Lotus365 Black Card membership provides customized OTC (Over-The-Counter) trading desks. If your exchange strategy requires taking seven-figure positions on specialized series outrights, player performance index markets, or multi-match accumulators, our chief trading officer coordinates dedicated counterpart liquidity to match your orders instantly.
             </p>
@@ -1541,7 +1541,7 @@ export const VipBlackCardPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About the VIP Black Card
             </h2>

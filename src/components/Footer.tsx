@@ -88,15 +88,15 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
             {paymentBadges.map((badge) => (
               <div
                 key={badge.name}
-                className="h-14 rounded-2xl bg-white/10 border border-white/15 hover:border-emerald-300/50 hover:bg-white/15 transition-all flex items-center justify-center p-2 group shadow-sm"
+                className="h-14 rounded-2xl bg-emerald-950/50 border border-emerald-500/30 hover:border-emerald-400/60 hover:bg-emerald-900/50 transition-all flex items-center justify-center p-1.5 group shadow-sm"
               >
-                <div className="relative w-full h-full max-h-10">
+                <div className="relative w-full h-full">
                   <Image
                     src={badge.src}
                     alt={`${badge.name} payment method`}
                     fill
-                    sizes="120px"
-                    className="object-contain filter brightness-105 group-hover:brightness-125 transition-all"
+                    sizes="(max-width: 768px) 50vw, 160px"
+                    className="object-contain filter brightness-105 group-hover:brightness-115 transition-all"
                   />
                 </div>
               </div>

@@ -61,7 +61,7 @@ export const TermsPage: React.FC = () => (
         highlight="Terms & Conditions" 
         subtitle="Please review these operational terms and conditions carefully before accessing lotusplay365.shop. By generating an account ID via WhatsApp or wagering on our platform, you agree to be bound by these provisions." 
         ctaLabel="Contact Legal Desk on WhatsApp" 
-        imageSrc="/images/banners/hero-vip-lounge.svg"
+        imageSrc="/images/banners/banner_about_official.webp"
         imageAlt="Lotus365 Terms and Conditions Charter"
         breadcrumbs={[
           { label: 'Legal' },
@@ -77,7 +77,7 @@ export const TermsPage: React.FC = () => (
             <div>
               <h2 className="text-base font-bold text-slate-900 mb-1">Binding Legal Agreement</h2>
               <p className="text-xs text-slate-600">
-                These terms govern all user interactions, sports exchange wagers, casino gaming sessions, and financial settlements executed on <strong className="text-white">lotusplay365.shop</strong>. Last revised: September 2026.
+                These terms govern all user interactions, sports exchange wagers, casino gaming sessions, and financial settlements executed on <strong className="text-slate-900 font-bold">lotusplay365.shop</strong>. Last revised: September 2026.
               </p>
             </div>
           </div>
@@ -121,7 +121,7 @@ export const TermsPage: React.FC = () => (
             <div>
               <h2 className="text-xl font-extrabold text-slate-900 mb-3">4. Cricket Exchange Wagering & Market Settlement Rules</h2>
               <p className="mb-2">
-                Bets placed on the <Link href="/cricket-exchange" className="text-[#F0C419] underline" title="Cricket Exchange">Cricket Exchange</Link> represent peer-to-peer contracts between participating members.
+                Bets placed on the <Link href="/cricket-exchange" className="text-emerald-700 font-semibold hover:underline underline" title="Cricket Exchange">Cricket Exchange</Link> represent peer-to-peer contracts between participating members.
               </p>
               <ul className="list-disc list-inside space-y-1 text-xs text-slate-700">
                 <li><strong>Matched Bets:</strong> A bet is only binding once fully or partially "Matched" by an opposing player. Unmatched bets can be cancelled at any time prior to match commencement.</li>
@@ -177,7 +177,7 @@ export const TermsPage: React.FC = () => (
             <div>
               <h2 className="text-xl font-extrabold text-slate-900 mb-3">9. Intellectual Property, Trademarks & Domain Branding</h2>
               <p>
-                All visual design elements, proprietary odds calculation routines, software logos, typography, and promotional layouts hosted on <strong className="text-white">lotusplay365.shop</strong> constitute exclusive intellectual property. Unauthorized cloning, automated scraping, or deployment of lookalike mirror domains targeting Indian users will be met with immediate legal cease-and-desist actions and domain takedown procedures.
+                All visual design elements, proprietary odds calculation routines, software logos, typography, and promotional layouts hosted on <strong className="text-slate-900 font-bold">lotusplay365.shop</strong> constitute exclusive intellectual property. Unauthorized cloning, automated scraping, or deployment of lookalike mirror domains targeting Indian users will be met with immediate legal cease-and-desist actions and domain takedown procedures.
               </p>
             </div>
 
@@ -201,7 +201,7 @@ export const TermsPage: React.FC = () => (
 
           {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Platform Terms
             </h2>

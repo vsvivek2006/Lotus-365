@@ -70,7 +70,7 @@ export const HowToDepositPage: React.FC = () => (
         title="Deposit on " 
         highlight="Lotus365" 
         subtitle="Add funds to your Lotus365 balance in under 60 seconds using UPI, PhonePe, Google Pay, Paytm, or direct IMPS bank transfer. Minimum deposit is just ₹100 with zero transaction fees." 
-        imageSrc="/images/payments/upi.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="How to Deposit on Lotus365 via UPI"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'How to Deposit' }]}
       />
@@ -84,13 +84,13 @@ export const HowToDepositPage: React.FC = () => (
               Fast, Seamless & Zero-Fee Deposits on Lotus365
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we understand that when a high-voltage IPL match or an intense live casino table is underway, you cannot afford to wait 30 minutes for your deposit to reflect. That is why our proprietary payment routing network is directly integrated with India’s Unified Payments Interface (UPI) and NPCI banking rails, guaranteeing that 99.4% of deposits reflect in your wallet balance in under 60 seconds.
+              At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we understand that when a high-voltage IPL match or an intense live casino table is underway, you cannot afford to wait 30 minutes for your deposit to reflect. That is why our proprietary payment routing network is directly integrated with India’s Unified Payments Interface (UPI) and NPCI banking rails, guaranteeing that 99.4% of deposits reflect in your wallet balance in under 60 seconds.
             </p>
             <p className="mb-4">
               Whether you prefer depositing via <strong>PhonePe, Google Pay, Paytm, BHIM, CRED UPI</strong>, or instant <strong>IMPS net banking</strong>, our process eliminates confusing third-party payment gateways that trigger bank declines. Lotus365 charges exactly 0% in deposit fees, meaning 100% of your hard-earned rupees go straight toward your betting bankroll.
             </p>
             <p>
-              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/vip-club" className="text-[#F0C419] font-semibold hover:underline" title="100% First Deposit Welcome Bonus">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,00,000!
+              New to Lotus365? Make sure to ask our WhatsApp concierge about our current <Link href="/vip-club" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="100% First Deposit Welcome Bonus">100% First Deposit Welcome Bonus</Link> to double your initial playing balance up to ₹5,00,000!
             </p>
           </div>
 
@@ -177,28 +177,28 @@ export const HowToDepositPage: React.FC = () => (
                     <td className="p-3.5 font-bold text-slate-900">Google Pay / PhonePe / Paytm</td>
                     <td className="p-3.5">₹100</td>
                     <td className="p-3.5">₹1,00,000 per transaction</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Instant (30s)</td>
-                    <td className="p-3.5 text-emerald-400">0% (Free)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Instant (30s)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0% (Free)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">IMPS Instant Bank Transfer</td>
                     <td className="p-3.5">₹500</td>
                     <td className="p-3.5">₹5,00,000 per transaction</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">1 – 3 Minutes</td>
-                    <td className="p-3.5 text-emerald-400">0% (Free)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">1 – 3 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0% (Free)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">NEFT / RTGS (Corporate)</td>
                     <td className="p-3.5">₹50,000</td>
                     <td className="p-3.5">Unlimited VIP Tier</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">10 – 20 Minutes</td>
-                    <td className="p-3.5 text-emerald-400">0% (Free)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">10 – 20 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0% (Free)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cryptocurrency (USDT TRC-20)</td>
                     <td className="p-3.5">₹1,000 ($12)</td>
                     <td className="p-3.5">Unlimited</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">3 – 5 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">3 – 5 Minutes</td>
                     <td className="p-3.5">Network gas only</td>
                   </tr>
                 </tbody>
@@ -234,7 +234,7 @@ export const HowToDepositPage: React.FC = () => (
 
           {/* Common Deposit Mistakes to Avoid */}
             <div className="space-y-4">
-              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl font-extrabold text-slate-900">
                 Common Deposit Mistakes & How to Prevent Them
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -258,7 +258,7 @@ export const HowToDepositPage: React.FC = () => (
 
             {/* Anti-Fraud & Banking Escrow */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 Segregated Escrow Accounts for Total Deposit Security
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -268,7 +268,7 @@ export const HowToDepositPage: React.FC = () => (
 
 {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Lotus365 Deposits
             </h2>
@@ -354,7 +354,7 @@ export const HowToWithdrawPage: React.FC = () => (
               The true hallmark of a trusted online betting exchange is not how smoothly it accepts deposits, but how swiftly and respectfully it honors customer payouts. Offshore betting sites frequently delay player withdrawals by 48 to 72 hours, demanding repetitive passport scans, notarized documents, and imposing hidden rollover penalties.
             </p>
             <p className="mb-4">
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we operate on a strict <Link href="/how-to-withdraw" className="text-[#F0C419] font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
+              On <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we operate on a strict <Link href="/how-to-withdraw" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="2-Minute Cashout Guarantee">2-Minute Cashout Guarantee</Link>. When you win big on a cricket match or live blackjack table, your earnings belong to you immediately. Our dedicated 24/7 financial disbursement desk processes payouts continuously around the clock, delivering funds straight to your <strong>Google Pay, PhonePe, Paytm UPI, or IMPS bank account</strong> in 120 seconds.
             </p>
             <p>
               Best of all, there are <strong>zero transaction deductions or withdrawal service fees</strong>. Every single rupee you cash out arrives intact in your bank balance.
@@ -441,28 +441,28 @@ export const HowToWithdrawPage: React.FC = () => (
                     <td className="p-3.5 font-bold text-slate-900">UPI (Google Pay, PhonePe, Paytm)</td>
                     <td className="p-3.5">₹200</td>
                     <td className="p-3.5">₹1,00,000</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Under 2 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Under 2 Minutes</td>
                     <td className="p-3.5">Up to ₹5,00,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">IMPS Instant Bank Transfer</td>
                     <td className="p-3.5">₹500</td>
                     <td className="p-3.5">₹5,00,000</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5 – 10 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5 – 10 Minutes</td>
                     <td className="p-3.5">Up to ₹10,00,000</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">VIP Corporate RTGS</td>
                     <td className="p-3.5">₹2,00,000</td>
                     <td className="p-3.5">₹25,00,000+</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">15 – 30 Minutes</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">Custom VIP Limit</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">15 – 30 Minutes</td>
+                    <td className="p-3.5 text-slate-900 font-bold">Custom VIP Limit</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Crypto (USDT TRC-20)</td>
                     <td className="p-3.5">₹2,000</td>
                     <td className="p-3.5">₹10,00,000</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5 – 10 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5 – 10 Minutes</td>
                     <td className="p-3.5">Unlimited</td>
                   </tr>
                 </tbody>
@@ -498,7 +498,7 @@ export const HowToWithdrawPage: React.FC = () => (
 
           {/* The 1x AML Turnover Rule */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                 The Anti-Money Laundering (AML) 1x Turnover Standard Explained
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -525,21 +525,21 @@ export const HowToWithdrawPage: React.FC = () => (
                   <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-xs">
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Standard / Silver</td>
-                      <td className="p-3 text-[#F0C419]">₹500</td>
+                      <td className="p-3 text-slate-900">₹500</td>
                       <td className="p-3 text-slate-700">₹2,00,000 per day</td>
-                      <td className="p-3 text-emerald-400 font-bold">&lt; 120 Seconds (UPI)</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">&lt; 120 Seconds (UPI)</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Gold / Platinum</td>
-                      <td className="p-3 text-[#F0C419]">₹500</td>
+                      <td className="p-3 text-slate-900">₹500</td>
                       <td className="p-3 text-slate-700">₹10,00,000 per day</td>
-                      <td className="p-3 text-emerald-400 font-bold">&lt; 90 Seconds Priority</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">&lt; 90 Seconds Priority</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">VIP Black Card</td>
-                      <td className="p-3 text-[#F0C419]">₹500</td>
-                      <td className="p-3 text-emerald-400 font-bold">Uncapped / Unlimited</td>
-                      <td className="p-3 text-[#F0C419] font-bold">Instant RTGS / IMPS Concierge</td>
+                      <td className="p-3 text-slate-900">₹500</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">Uncapped / Unlimited</td>
+                      <td className="p-3 text-slate-900 font-bold">Instant RTGS / IMPS Concierge</td>
                     </tr>
                   </tbody>
                 </table>
@@ -548,7 +548,7 @@ export const HowToWithdrawPage: React.FC = () => (
 
 {/* Large Withdrawal Protocols */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 High-Volume Cashouts: VIP Protocols for Winnings Over ₹5,00,000
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -558,7 +558,7 @@ export const HowToWithdrawPage: React.FC = () => (
 
 {/* Reconciliation Guidelines */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Detailed Bank Reconciliation & Instant Settlement Protocol
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -571,7 +571,7 @@ export const HowToWithdrawPage: React.FC = () => (
 
             {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Lotus365 Withdrawals
             </h2>
@@ -640,7 +640,7 @@ export const UpiDepositPage: React.FC = () => (
         title="Instant " 
         highlight="UPI Deposit" 
         subtitle="Experience the gold standard in Indian sports betting payments. Fund your Lotus365 wallet in 30 seconds using Google Pay, PhonePe, Paytm, BHIM, or CRED UPI with zero fees and minimum ₹100." 
-        imageSrc="/images/payments/upi.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="Instant UPI Deposit India"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'UPI Deposit' }]}
       />
@@ -660,7 +660,7 @@ export const UpiDepositPage: React.FC = () => (
               Unlike debit cards, credit cards, or international e-wallets, UPI never forces you to expose your 16-digit card number, CVV code, or online banking passwords to third-party web portals. Every transaction is authenticated locally inside your smartphone using your secret 4-digit or 6-digit UPI MPIN, backed by two-factor device binding.
             </p>
             <p>
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we have optimized our payment gateways to interface natively with the UPI architecture, providing instant balance credits within 30 seconds of completing your payment.
+              On <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we have optimized our payment gateways to interface natively with the UPI architecture, providing instant balance credits within 30 seconds of completing your payment.
             </p>
           </div>
 
@@ -743,25 +743,25 @@ export const UpiDepositPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">PhonePe</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">99.6%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">99.6%</td>
                     <td className="p-3.5">25 – 35 Seconds</td>
                     <td className="p-3.5">₹1,00,000 / day</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Google Pay (GPay)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">99.4%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">99.4%</td>
                     <td className="p-3.5">30 – 40 Seconds</td>
                     <td className="p-3.5">₹1,00,000 / day</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Paytm UPI</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">99.1%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">99.1%</td>
                     <td className="p-3.5">30 – 45 Seconds</td>
                     <td className="p-3.5">₹1,00,000 / day</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">BHIM UPI</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">98.9%</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">98.9%</td>
                     <td className="p-3.5">40 – 60 Seconds</td>
                     <td className="p-3.5">₹40,000 to ₹1,00,000 / day</td>
                   </tr>
@@ -772,7 +772,7 @@ export const UpiDepositPage: React.FC = () => (
 
           {/* PhonePe vs GPay vs Paytm */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                 PhonePe vs Google Pay vs Paytm: Which UPI App is Fastest?
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -796,7 +796,7 @@ export const UpiDepositPage: React.FC = () => (
 
             {/* Resolving Bank Server Busy */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 Resolving "UPI Pending" Bank Statuses via the 12-Digit UTR Protocol
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -806,7 +806,7 @@ export const UpiDepositPage: React.FC = () => (
 
 {/* Bank Daily UPI Limits */}
             <div className="space-y-4">
-              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl font-extrabold text-slate-900">
                 Managing Daily Bank UPI Limits: Depositing ₹1,00,000+
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -826,7 +826,7 @@ export const UpiDepositPage: React.FC = () => (
 
 {/* UTR Tracing Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Resolving UPI Transaction Failures & 12-Digit UTR Tracing
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -839,7 +839,7 @@ export const UpiDepositPage: React.FC = () => (
 
             {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About UPI Deposits
             </h2>
@@ -928,7 +928,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
               For Lotus365 players withdrawing substantial sums—particularly balances between ₹50,000 and ₹5,00,000—IMPS is the preferred mechanism over UPI because it bypasses daily VPA limits imposed by retail apps like Google Pay. Payouts sent via IMPS land directly in your core bank account balance, ready for immediate ATM withdrawal, card spending, or personal transfers.
             </p>
             <p>
-              On <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our automated treasury disburses IMPS transfers within 5 to 10 minutes of confirmation with zero deduction fees.
+              On <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, our automated treasury disburses IMPS transfers within 5 to 10 minutes of confirmation with zero deduction fees.
             </p>
           </div>
 
@@ -1000,39 +1000,39 @@ export const ImpsWithdrawalPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">State Bank of India (SBI)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">3 – 7 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">3 – 7 Minutes</td>
                     <td className="p-3.5">99.3%</td>
-                    <td className="p-3.5 text-emerald-400">Yes (24/7)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Yes (24/7)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">HDFC Bank</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">2 – 5 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">2 – 5 Minutes</td>
                     <td className="p-3.5">99.8%</td>
-                    <td className="p-3.5 text-emerald-400">Yes (24/7)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Yes (24/7)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">ICICI Bank</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">2 – 5 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">2 – 5 Minutes</td>
                     <td className="p-3.5">99.7%</td>
-                    <td className="p-3.5 text-emerald-400">Yes (24/7)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Yes (24/7)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Axis Bank</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">3 – 6 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">3 – 6 Minutes</td>
                     <td className="p-3.5">99.5%</td>
-                    <td className="p-3.5 text-emerald-400">Yes (24/7)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Yes (24/7)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Punjab National Bank (PNB)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5 – 10 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5 – 10 Minutes</td>
                     <td className="p-3.5">98.9%</td>
-                    <td className="p-3.5 text-emerald-400">Yes (24/7)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Yes (24/7)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Kotak Mahindra Bank</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">2 – 5 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">2 – 5 Minutes</td>
                     <td className="p-3.5">99.6%</td>
-                    <td className="p-3.5 text-emerald-400">Yes (24/7)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">Yes (24/7)</td>
                   </tr>
                 </tbody>
               </table>
@@ -1041,7 +1041,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
 
           {/* IMPS vs NEFT vs RTGS */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                 Why Lotus365 Uses IMPS Rails Over Traditional NEFT or RTGS
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1065,7 +1065,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
 
             {/* IFSC & Bank Account Accuracy */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 IFSC Code & Beneficiary Details Verification Checklist
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1080,7 +1080,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
 
 {/* Bank Maintenance Schedules */}
             <div className="space-y-4">
-              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl font-extrabold text-slate-900">
                 Bank Maintenance Schedules & The Lotus365 Reserve Router
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1093,7 +1093,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
 
             {/* IMPS Payout Speed SLA */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 Guaranteed 120-Second IMPS Payout SLA
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1103,7 +1103,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
 
 {/* IMPS Gateway Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 National IMPS Gateway Architecture & High-Roller Payout Handling
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1116,7 +1116,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
 
             {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About IMPS Withdrawals
             </h2>
@@ -1185,7 +1185,7 @@ export const PaymentMethodsPage: React.FC = () => (
         title="All " 
         highlight="Payment Methods" 
         subtitle="Discover the wide array of zero-fee deposit and withdrawal options supported on Lotus365. Enjoy instant UPI top-ups, guaranteed 2-minute cashouts, direct IMPS bank transfers, and secure USDT crypto." 
-        imageSrc="/images/payments/upi.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="Lotus365 Accepted Payment Methods"
         breadcrumbs={[{ label: 'Payments' }]}
       />
@@ -1199,7 +1199,7 @@ export const PaymentMethodsPage: React.FC = () => (
               Comprehensive Financial Gateway for Indian Players
             </h2>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe financial flexibility and payment transparency are the cornerstones of a world-class gaming experience. We have tailored our payment infrastructure specifically for the Indian market, eliminating foreign conversion fees, frustrating credit card international blockades, and lengthy verification delays.
+              At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe financial flexibility and payment transparency are the cornerstones of a world-class gaming experience. We have tailored our payment infrastructure specifically for the Indian market, eliminating foreign conversion fees, frustrating credit card international blockades, and lengthy verification delays.
             </p>
             <p className="mb-4">
               Every payment rail featured on our platform is governed by three strict commitments: <strong>instant execution, 0% commission fees, and 24/7 human WhatsApp customer assistance</strong>.
@@ -1228,29 +1228,29 @@ export const PaymentMethodsPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Google Pay / PhonePe / Paytm (UPI)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Under 30 Seconds</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">Under 2 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Under 30 Seconds</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">Under 2 Minutes</td>
                     <td className="p-3.5">₹100 / ₹200</td>
-                    <td className="p-3.5 text-emerald-400">0% (Completely Free)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0% (Completely Free)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">IMPS Instant Bank Transfer</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">1 – 3 Minutes</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5 – 10 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">1 – 3 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5 – 10 Minutes</td>
                     <td className="p-3.5">₹500 / ₹500</td>
-                    <td className="p-3.5 text-emerald-400">0% (Completely Free)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0% (Completely Free)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">RTGS (High-Roller Transfers)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">10 – 20 Minutes</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">15 – 30 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">10 – 20 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">15 – 30 Minutes</td>
                     <td className="p-3.5">₹2,00,000 / ₹2,00,000</td>
-                    <td className="p-3.5 text-emerald-400">0% (Completely Free)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0% (Completely Free)</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Cryptocurrency (USDT TRC-20 / BEP-20)</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">3 – 5 Minutes</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">5 – 10 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">3 – 5 Minutes</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">5 – 10 Minutes</td>
                     <td className="p-3.5">₹1,000 / ₹2,000</td>
                     <td className="p-3.5">Network Gas Only</td>
                   </tr>
@@ -1261,7 +1261,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
           {/* Deep Dive on Channels */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl font-extrabold text-slate-900">
               Detailed Breakdown of Supported Financial Channels
             </h2>
 
@@ -1304,7 +1304,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
           {/* Comprehensive Banking Rail Comparison */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                 Banking Rail Comparison: Speed, Limits & Reliability Matrix
               </h2>
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -1321,24 +1321,24 @@ export const PaymentMethodsPage: React.FC = () => (
                   <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-xs">
                     <tr>
                       <td className="p-3 font-bold text-slate-900">UPI (PhonePe, GPay, Paytm)</td>
-                      <td className="p-3 text-emerald-400 font-bold">&lt; 30 Seconds</td>
-                      <td className="p-3 text-emerald-400 font-bold">&lt; 120 Seconds</td>
-                      <td className="p-3 text-emerald-400 font-bold">99.7%</td>
-                      <td className="p-3 text-[#F0C419] font-bold">0% (Zero Fees)</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">&lt; 30 Seconds</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">&lt; 120 Seconds</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">99.7%</td>
+                      <td className="p-3 text-slate-900 font-bold">0% (Zero Fees)</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">IMPS Direct Net Banking</td>
-                      <td className="p-3 text-emerald-400 font-bold">&lt; 2 Minutes</td>
-                      <td className="p-3 text-emerald-400 font-bold">&lt; 2 Minutes</td>
-                      <td className="p-3 text-emerald-400 font-bold">99.5%</td>
-                      <td className="p-3 text-[#F0C419] font-bold">0% (Zero Fees)</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">&lt; 2 Minutes</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">&lt; 2 Minutes</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">99.5%</td>
+                      <td className="p-3 text-slate-900 font-bold">0% (Zero Fees)</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Crypto USDT (TRC-20)</td>
                       <td className="p-3 text-sky-400">1 to 3 Minutes</td>
                       <td className="p-3 text-sky-400">Under 5 Minutes</td>
                       <td className="p-3 text-sky-400">99.9%</td>
-                      <td className="p-3 text-[#F0C419] font-bold">0% (Zero Fees)</td>
+                      <td className="p-3 text-slate-900 font-bold">0% (Zero Fees)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -1347,7 +1347,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
             {/* Zero Fee Guarantee */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 The Lotus365 100% Zero-Fee Platform Pledge
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1357,7 +1357,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
 {/* Crypto USDT vs INR UPI */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                 Crypto USDT (TRC-20) vs INR UPI: Choosing the Best Rail
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1385,7 +1385,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
             {/* Financial Audits & Segregated Balances */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 Segregated Corporate Liquidity & 100% Backed Balances
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1395,7 +1395,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
 {/* Reconciliation & Audits */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Corporate Account Segregation & Daily Transaction Reconciliation
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1405,7 +1405,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
             {/* Redundancy Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Payment Channel Redundancy & Zero-Downtime Settlement Guarantee
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1418,7 +1418,7 @@ export const PaymentMethodsPage: React.FC = () => (
 
             {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About Payment Methods
             </h2>
@@ -1504,7 +1504,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
               In the fast-moving world of online sports betting and live casino gaming, nothing matters more than the speed and reliability of your withdrawals. While many platforms brag about flashy odds and massive welcome banners, their true colors show when a player requests a cashout: lengthy verification hurdles, arbitrary account freezes, and frustrating 48-to-72-hour waiting periods.
             </p>
             <p className="mb-4">
-              At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we dismantled this outdated model by pioneering the <strong>2-Minute Cashout Guarantee</strong>. When you place a winning bet on an IPL match or strike a massive multiplier in <Link href="/aviator-game" className="text-[#F0C419] font-semibold hover:underline" title="Aviator">Aviator</Link>, your money is disbursed within 120 seconds of submitting your request on WhatsApp.
+              At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we dismantled this outdated model by pioneering the <strong>2-Minute Cashout Guarantee</strong>. When you place a winning bet on an IPL match or strike a massive multiplier in <Link href="/aviator-game" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Aviator">Aviator</Link>, your money is disbursed within 120 seconds of submitting your request on WhatsApp.
             </p>
             <p>
               We maintain dedicated liquidity reserves across India’s primary banking partners (HDFC, ICICI, SBI, and Axis Bank), ensuring that whether your cashout is ₹500 or ₹5,00,000, our automated disbursement gateway processes it immediately.
@@ -1531,19 +1531,19 @@ export const TwoMinuteCashoutPage: React.FC = () => (
                 </thead>
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200">
                   <tr className="bg-slate-100 border-l-4 border-l-[#F0C419]">
-                    <td className="p-3.5 font-bold text-[#F0C419]">Lotus365 (Official)</td>
-                    <td className="p-3.5 text-emerald-400 font-extrabold">Under 2 Minutes Guaranteed</td>
-                    <td className="p-3.5 text-emerald-400">None (Instant WhatsApp ID)</td>
-                    <td className="p-3.5 text-emerald-400">0% (Completely Free)</td>
+                    <td className="p-3.5 font-bold text-slate-900">Lotus365 (Official)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-extrabold">Under 2 Minutes Guaranteed</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">None (Instant WhatsApp ID)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold">0% (Completely Free)</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-medium text-white/90">Traditional Offshore Bookmakers</td>
+                    <td className="p-3.5 font-medium text-slate-900 font-bold/90">Traditional Offshore Bookmakers</td>
                     <td className="p-3.5 text-rose-300">24 to 72 Banking Hours</td>
                     <td className="p-3.5 text-rose-300">Mandatory Passport / Utility Scan</td>
                     <td className="p-3.5">2% to 5% Currency / Gateway Cut</td>
                   </tr>
                   <tr>
-                    <td className="p-3.5 font-medium text-white/90">Rival Indian Betting Exchanges</td>
+                    <td className="p-3.5 font-medium text-slate-900 font-bold/90">Rival Indian Betting Exchanges</td>
                     <td className="p-3.5 text-amber-300">2 to 6 Hours</td>
                     <td className="p-3.5">Frequent Re-verification Freezes</td>
                     <td className="p-3.5">1% to 2% Exchange Settlement Cut</td>
@@ -1625,7 +1625,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
 
           {/* The Engineering Behind 2-Minute Cashout */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                 How Lotus365 Delivers the 2-Minute Cashout Guarantee
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -1649,7 +1649,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
 
             {/* Emergency Escalation SLA */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 What Happens if a Cashout Takes Longer Than 2 Minutes?
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1659,7 +1659,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
 
 {/* Payout Speed Benchmark Table */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                 Payout Speed Benchmark: Lotus365 vs Major Indian Competitors
               </h2>
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -1675,9 +1675,9 @@ export const TwoMinuteCashoutPage: React.FC = () => (
                   <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-xs">
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Lotus365</td>
-                      <td className="p-3 text-emerald-400 font-bold">120 Seconds</td>
-                      <td className="p-3 text-emerald-400 font-bold">85 to 110 Seconds</td>
-                      <td className="p-3 text-emerald-400 font-bold">Zero Documents Required</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">120 Seconds</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">85 to 110 Seconds</td>
+                      <td className="p-3 text-emerald-800 font-bold font-bold">Zero Documents Required</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">European Bookmakers (Betway/Bet365)</td>
@@ -1698,7 +1698,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
 
             {/* Liquidity During IPL Finals */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 Peak Liquidity Resilience: Cashouts During IPL Finals
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1708,7 +1708,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
 
 {/* Liquidity Protocol */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Dedicated Liquidity Reserves & Automated Cashout Verification Protocol
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -1721,7 +1721,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
 
             {/* FAQs */}
           <div>
-            <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-[#F0C419]" />
               Frequently Asked Questions About 2-Minute Cashouts
             </h2>

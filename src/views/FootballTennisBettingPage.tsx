@@ -108,7 +108,7 @@ export const FootballBettingPage: React.FC = () => (
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
-        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Live Football Exchange Widget */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -138,13 +138,13 @@ export const FootballBettingPage: React.FC = () => (
               The Ultimate Football Betting Experience in India
             </h2>
             <p>
-              Football is the undisputed heavyweight of global sports betting. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we deliver coverage of over 500 domestic leagues and international tournaments spanning Europe, Asia, the Americas, and Africa. Whether backing Real Madrid in the UEFA Champions League, Manchester City in the Premier League, or Mohun Bagan in the Indian Super League (ISL), our live market engine delivers sub-second odds updates with 0% commission on your winning tickets.
+              Football is the undisputed heavyweight of global sports betting. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), we deliver coverage of over 500 domestic leagues and international tournaments spanning Europe, Asia, the Americas, and Africa. Whether backing Real Madrid in the UEFA Champions League, Manchester City in the Premier League, or Mohun Bagan in the Indian Super League (ISL), our live market engine delivers sub-second odds updates with 0% commission on your winning tickets.
             </p>
           </div>
 
           {/* Deep Market Breakdown */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Core Football Betting Markets Available on Lotus365
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -192,7 +192,7 @@ export const FootballBettingPage: React.FC = () => (
 
           {/* Odds Comparison */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Football Odds Comparison: Lotus365 vs Traditional Bookmakers
             </h2>
             <div className="overflow-x-auto">
@@ -208,27 +208,27 @@ export const FootballBettingPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Arsenal to Beat Chelsea</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">2.05</td>
+                    <td className="p-3.5 text-slate-900 font-bold">2.05</td>
                     <td className="p-3.5 text-slate-500">1.90</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,500 Extra Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,500 Extra Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Real Madrid vs Bayern: Over 2.5 Goals</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.82</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.82</td>
                     <td className="p-3.5 text-slate-500">1.70</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,200 Extra Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,200 Extra Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">ISL Match: Both Teams to Score</td>
-                    <td className="p-3.5 text-[#F0C419] font-bold">1.95</td>
+                    <td className="p-3.5 text-slate-900 font-bold">1.95</td>
                     <td className="p-3.5 text-slate-500">1.80</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">+₹1,500 Extra Cash</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">+₹1,500 Extra Cash</td>
                   </tr>
                   <tr>
                     <td className="p-3.5 font-bold text-slate-900">Platform Commission</td>
-                    <td className="p-3.5 text-emerald-400 font-bold">0% (Keep All)</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-bold">0% (Keep All)</td>
                     <td className="p-3.5 text-rose-400">Up to 8% margin cut</td>
-                    <td className="p-3.5 text-emerald-400 font-semibold">100% Payout Guaranteed</td>
+                    <td className="p-3.5 text-emerald-800 font-bold font-semibold">100% Payout Guaranteed</td>
                   </tr>
                 </tbody>
               </table>
@@ -237,7 +237,7 @@ export const FootballBettingPage: React.FC = () => (
 
           {/* Strategic In-Play Hedging & Cash Out Optimization */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               In-Play Hedging & Live Cash Out Mastery on Football
             </h2>
             <p>
@@ -245,19 +245,19 @@ export const FootballBettingPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419]">1. The 1-0 Lead Lock</h3>
+                <h3 className="font-bold text-slate-900">1. The 1-0 Lead Lock</h3>
                 <p className="text-slate-600">
                   When your backed underdog takes an early 1-0 lead in the 25th minute, their odds plummet dramatically. You can lay the underdog or back the draw/favorite on the exchange to lock in guaranteed profit regardless of who ultimately wins.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419]">2. Over/Under Goal Scalping</h3>
+                <h3 className="font-bold text-slate-900">2. Over/Under Goal Scalping</h3>
                 <p className="text-slate-600">
                   Backing "Over 2.5 Goals" in a cagey first half when odds are 2.20, then cashing out immediately after an explosive 50th-minute opening goal when odds sink to 1.35, securing a risk-free 60%+ return without sweating the remainder of the match.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419]">3. Red Card Value Reaction</h3>
+                <h3 className="font-bold text-slate-900">3. Red Card Value Reaction</h3>
                 <p className="text-slate-600">
                   When a referee issues a red card, the market frequently overreacts in the first 3 minutes. Identifying disciplined defensive sides that organize into low blocks allows you to back the Under or the 10-man team’s Asian handicap at bloated prices.
                 </p>
@@ -267,7 +267,7 @@ export const FootballBettingPage: React.FC = () => (
 
           {/* Major Competitions Breakdown */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-4">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Major Football Competitions & Tactical Characteristics
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm">
@@ -292,7 +292,7 @@ export const FootballBettingPage: React.FC = () => (
 
           {/* 7 FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Football Betting Frequently Asked Questions</span>
             </h2>
@@ -338,7 +338,7 @@ export const TennisBettingPage: React.FC = () => (
       />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F8FAFC]">
-        <div className="max-w-6xl mx-auto space-y-16 text-slate-200 text-sm sm:text-base leading-relaxed">
+        <div className="max-w-6xl mx-auto space-y-16 text-slate-700 text-sm sm:text-base leading-relaxed">
           {/* Live Tennis Exchange Widget */}
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -368,13 +368,13 @@ export const TennisBettingPage: React.FC = () => (
               Point-by-Point Tennis Trading on Lotus365
             </h2>
             <p>
-              Tennis is one of the most profitable sports for exchange trading because match momentum can turn on a single break of serve. On <strong className="text-white">Lotus365</strong> (<Link href="/" className="text-[#F0C419] hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), tennis bettors can trade live odds as every ace, rally, and break point occurs. With sub-second in-play data feeds and deep market liquidity, you can back players when they drop a set and lay them when they break back, securing guaranteed cash profits before match point.
+              Tennis is one of the most profitable sports for exchange trading because match momentum can turn on a single break of serve. On <strong className="text-slate-900 font-bold">Lotus365</strong> (<Link href="/" className="text-emerald-700 font-semibold hover:underline hover:underline font-bold" title="lotusplay365.shop">lotusplay365.shop</Link>), tennis bettors can trade live odds as every ace, rally, and break point occurs. With sub-second in-play data feeds and deep market liquidity, you can back players when they drop a set and lay them when they break back, securing guaranteed cash profits before match point.
             </p>
           </div>
 
           {/* Grand Slams & Tournaments */}
           <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The 4 Major Grand Slams & Year-Round Tour Coverage
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs sm:text-sm">
@@ -403,12 +403,12 @@ export const TennisBettingPage: React.FC = () => (
 
           {/* Deep Market Types */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Comprehensive Tennis Betting Markets
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">Match & Set Betting</h3>
+                <h3 className="font-bold text-slate-900 text-base">Match & Set Betting</h3>
                 <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Match Winner (Head-to-Head)</li>
                   <li>Set Betting (2-0, 2-1 in best of 3)</li>
@@ -418,7 +418,7 @@ export const TennisBettingPage: React.FC = () => (
                 </ul>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">Games & Handicaps</h3>
+                <h3 className="font-bold text-slate-900 text-base">Games & Handicaps</h3>
                 <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Game Handicap (+3.5, -3.5 games)</li>
                   <li>Total Match Games (Over/Under 21.5)</li>
@@ -428,7 +428,7 @@ export const TennisBettingPage: React.FC = () => (
                 </ul>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419] text-base">Micro In-Play Live</h3>
+                <h3 className="font-bold text-slate-900 text-base">Micro In-Play Live</h3>
                 <ul className="text-slate-600 space-y-1 list-disc list-inside">
                   <li>Current Game Winner</li>
                   <li>Next Break of Serve</li>
@@ -453,7 +453,7 @@ export const TennisBettingPage: React.FC = () => (
 
           {/* The Mechanics of Tennis Exchange Trading */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               The Mechanics of Tennis Exchange Trading: Scalping Break Points & Laying Servers
             </h2>
             <p>
@@ -461,13 +461,13 @@ export const TennisBettingPage: React.FC = () => (
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419]">Laying the Server at 0-30</h3>
+                <h3 className="font-bold text-slate-900">Laying the Server at 0-30</h3>
                 <p className="text-slate-600">
                   When a server falls behind 0-30 or 15-40 in their service game, market odds on the returner plummet. Laying the server at short odds offers asymmetric risk/reward: if the returner breaks, you lock in a major profit; if the server fights back to deuce, you can green out with minimal tick losses.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h3 className="font-bold text-[#F0C419]">Tiebreak Momentum Reversals</h3>
+                <h3 className="font-bold text-slate-900">Tiebreak Momentum Reversals</h3>
                 <p className="text-slate-600">
                   Tiebreaks are notoriously volatile. A single mini-break shifts odds by 30-50 ticks. By anticipating high-pressure unforced errors and entering positions at 3-3 or 4-4, traders can scalp 20-tick profit margins in under 90 seconds.
                 </p>
@@ -477,7 +477,7 @@ export const TennisBettingPage: React.FC = () => (
 
           {/* Grand Slam Surface Matrix */}
           <div className="space-y-4">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419]">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Court Surface Matrix: Speed, Bounce & Tactical Profiling
             </h2>
             <div className="overflow-x-auto">
@@ -493,20 +493,20 @@ export const TennisBettingPage: React.FC = () => (
                 <tbody className="divide-y divide-slate-100 bg-slate-50 border border-slate-200 text-slate-700">
                   <tr>
                     <td className="p-3 font-bold text-slate-900">Grass (Wimbledon)</td>
-                    <td className="p-3 text-emerald-400 font-semibold">Fast / Low Bounce</td>
-                    <td className="p-3 text-[#F0C419]">~14% (Lowest)</td>
+                    <td className="p-3 text-emerald-800 font-bold font-semibold">Fast / Low Bounce</td>
+                    <td className="p-3 text-slate-900">~14% (Lowest)</td>
                     <td className="p-3 text-slate-600">Backing Over Games, Over 0.5 Tiebreaks, and Big Servers (Isner/Hurkacz profile).</td>
                   </tr>
                   <tr>
                     <td className="p-3 font-bold text-slate-900">Clay (Roland Garros)</td>
                     <td className="p-3 text-amber-400 font-semibold">Slow / High Bounce</td>
-                    <td className="p-3 text-[#F0C419]">~28% (Highest)</td>
+                    <td className="p-3 text-slate-900">~28% (Highest)</td>
                     <td className="p-3 text-slate-600">Laying the server at 15-30, backing heavy topspin baseline grinders (Alcaraz/Nadal style).</td>
                   </tr>
                   <tr>
                     <td className="p-3 font-bold text-slate-900">Hard (Aus Open & US Open)</td>
                     <td className="p-3 text-sky-400 font-semibold">Medium-Fast True Bounce</td>
-                    <td className="p-3 text-[#F0C419]">~21% (Balanced)</td>
+                    <td className="p-3 text-slate-900">~21% (Balanced)</td>
                     <td className="p-3 text-slate-600">Set handicap trading, game total lines, and backing complete all-court tacticians (Sinner/Djokovic).</td>
                   </tr>
                 </tbody>
@@ -516,7 +516,7 @@ export const TennisBettingPage: React.FC = () => (
 
           {/* Live Streaming & Courtside Data Latency */}
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-            <h3 className="text-xl font-bold text-[#F0C419]">
+            <h3 className="text-xl font-bold text-slate-900">
               Low-Latency Courtside Live Data & Streaming Feeds
             </h3>
             <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -526,7 +526,7 @@ export const TennisBettingPage: React.FC = () => (
 
           {/* Tiebreak Trading Guide */}
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-xl font-extrabold text-[#F0C419]">
+              <h3 className="text-xl font-extrabold text-slate-900">
                 Tiebreak Hedging & Service Game Break Volatility in Live Tennis
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
@@ -536,7 +536,7 @@ export const TennisBettingPage: React.FC = () => (
 
             {/* 7 Tennis FAQs */}
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#F0C419] flex items-center gap-2">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
               <HelpCircle className="w-7 h-7 text-[#F0C419]" />
               <span>Tennis Betting Frequently Asked Questions</span>
             </h2>

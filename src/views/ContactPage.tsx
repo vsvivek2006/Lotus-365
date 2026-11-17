@@ -73,7 +73,7 @@ export const ContactPage: React.FC = () => {
           highlight="WhatsApp Support"
           subtitle="Experience white-glove customer assistance. Our dedicated team of human account managers is available round the clock, 365 days a year, delivering sub-60-second responses via secure WhatsApp chat."
           ctaLabel="Open WhatsApp Support Now"
-          imageSrc="/images/banners/hero-vip-lounge.svg"
+          imageSrc="/images/banners/banner_about_official.webp"
           imageAlt="24/7 Official WhatsApp Helpline Lotus365"
           breadcrumbs={[
             { label: 'Support' },
@@ -108,7 +108,7 @@ export const ContactPage: React.FC = () => {
                 Why Lotus365 Chooses WhatsApp for Customer Care
               </h2>
               <p className="mb-4">
-                At <Link href="/" className="text-[#F0C419] font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe customer support should be immediate, personal, and respectful of your time. Traditional foreign bookmakers force Indian players through clunky, automated chatbots that loop through generic scripted answers, or email ticketing desks that take 24 to 48 hours to resolve urgent withdrawal inquiries.
+                At <Link href="/" className="text-emerald-700 font-semibold hover:underline font-semibold hover:underline" title="Lotus365">Lotus365</Link>, we believe customer support should be immediate, personal, and respectful of your time. Traditional foreign bookmakers force Indian players through clunky, automated chatbots that loop through generic scripted answers, or email ticketing desks that take 24 to 48 hours to resolve urgent withdrawal inquiries.
               </p>
               <p className="mb-4">
                 By integrating our entire operations infrastructure directly into <strong>WhatsApp</strong>, we connect you straight to real, senior operations staff. Whether you need a fresh betting ID during a live IPL over, require an instant UPI deposit QR code, or want your winning cashout disbursed in 120 seconds, your personal WhatsApp concierge executes your request immediately without delay.
@@ -132,32 +132,32 @@ export const ContactPage: React.FC = () => {
                     <tr>
                       <td className="p-3.5 font-bold text-slate-900">New ID Desk</td>
                       <td className="p-3.5 text-slate-700">Account registration & credential delivery</td>
-                      <td className="p-3.5 text-emerald-400 font-bold">&lt; 30 Seconds</td>
-                      <td className="p-3.5 text-emerald-400">Under 60 Seconds</td>
+                      <td className="p-3.5 text-emerald-800 font-bold font-bold">&lt; 30 Seconds</td>
+                      <td className="p-3.5 text-emerald-800 font-bold">Under 60 Seconds</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-slate-900">Cashout Disbursement</td>
                       <td className="p-3.5 text-slate-700">UPI / IMPS withdrawal processing</td>
-                      <td className="p-3.5 text-emerald-400 font-bold">&lt; 45 Seconds</td>
-                      <td className="p-3.5 text-emerald-400">Under 120 Seconds</td>
+                      <td className="p-3.5 text-emerald-800 font-bold font-bold">&lt; 45 Seconds</td>
+                      <td className="p-3.5 text-emerald-800 font-bold">Under 120 Seconds</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-slate-900">Deposit Reconciliation</td>
                       <td className="p-3.5 text-slate-700">UPI UTR verification & balance top-up</td>
-                      <td className="p-3.5 text-emerald-400 font-bold">&lt; 30 Seconds</td>
-                      <td className="p-3.5 text-emerald-400">30 – 60 Seconds</td>
+                      <td className="p-3.5 text-emerald-800 font-bold font-bold">&lt; 30 Seconds</td>
+                      <td className="p-3.5 text-emerald-800 font-bold">30 – 60 Seconds</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-slate-900">Security & Recovery</td>
                       <td className="p-3.5 text-slate-700">Password reset & locked account unlock</td>
-                      <td className="p-3.5 text-emerald-400 font-bold">&lt; 60 Seconds</td>
-                      <td className="p-3.5 text-emerald-400">Under 2 Minutes</td>
+                      <td className="p-3.5 text-emerald-800 font-bold font-bold">&lt; 60 Seconds</td>
+                      <td className="p-3.5 text-emerald-800 font-bold">Under 2 Minutes</td>
                     </tr>
                     <tr>
                       <td className="p-3.5 font-bold text-slate-900">VIP Concierge</td>
                       <td className="p-3.5 text-slate-700">High-stakes limits, RTGS & bespoke promos</td>
-                      <td className="p-3.5 text-[#F0C419] font-bold">Instant Dedicated RM</td>
-                      <td className="p-3.5 text-[#F0C419] font-bold">Immediate Priority</td>
+                      <td className="p-3.5 text-slate-900 font-bold">Instant Dedicated RM</td>
+                      <td className="p-3.5 text-slate-900 font-bold">Immediate Priority</td>
                     </tr>
                   </tbody>
                 </table>
@@ -186,7 +186,7 @@ export const ContactPage: React.FC = () => {
               <div className="space-y-1 text-xs">
                 <strong className="text-[#F0C419] block text-sm">Critical Security Notice: Beware of Fake Impostor Channels</strong>
                 <p className="text-slate-700 leading-relaxed">
-                  Always initiate contact exclusively through the official links on <strong className="text-white">lotusplay365.shop</strong>. Beware of rogue Telegram groups or Facebook pages claiming to be "Lotus365 Customer Care." Legitimate Lotus365 representatives will <strong>never</strong> ask for your bank ATM PIN, UPI MPIN, or confidential bank passwords.
+                  Always initiate contact exclusively through the official links on <strong className="text-slate-900 font-bold">lotusplay365.shop</strong>. Beware of rogue Telegram groups or Facebook pages claiming to be "Lotus365 Customer Care." Legitimate Lotus365 representatives will <strong>never</strong> ask for your bank ATM PIN, UPI MPIN, or confidential bank passwords.
                 </p>
               </div>
             </div>
@@ -223,7 +223,7 @@ export const ContactPage: React.FC = () => {
 
             {/* Dispute Resolution Framework */}
             <div className="space-y-4">
-              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl font-extrabold text-slate-900">
                 Dispute Escalation & Transparent Resolution Hierarchy
               </h2>
               <p>
@@ -247,7 +247,7 @@ export const ContactPage: React.FC = () => {
 
             {/* Regional Multi-Lingual Coverage */}
             <div className="space-y-4">
-              <h2 className="text-2xl font-extrabold text-[#F0C419]">
+              <h2 className="text-2xl font-extrabold text-slate-900">
                 Regional Multi-Lingual Support Across India
               </h2>
               <p>
@@ -278,22 +278,22 @@ export const ContactPage: React.FC = () => {
 
             {/* Verification Checklist */}
             <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
-              <h3 className="text-base font-bold text-[#F0C419]">
+              <h3 className="text-base font-bold text-slate-900">
                 Official Verification Checklist: How to Ensure You Are Speaking with Legitimate Staff
               </h3>
               <p className="text-xs text-slate-700 leading-relaxed">
                 Before sending funds or requesting payouts, please review these 3 golden verification rules:
               </p>
               <ul className="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
-                <li><strong className="text-white">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link href="/" className="text-[#F0C419] underline" title="lotusplay365.shop">lotusplay365.shop</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
-                <li><strong className="text-white">Confirmed UPI Merchant VPA:</strong> Legitimate Lotus365 deposit accounts will always display confirmed merchant names verified by our desk, and your personal account manager will provide dynamic deposit references matching your exact username.</li>
-                <li><strong className="text-white">No Sensitive Disclosures:</strong> We will never ask you to click third-party remote screen-sharing tools like AnyDesk or TeamViewer, nor will we ever prompt you to enter your bank ATM PIN or OTP.</li>
+                <li><strong className="text-slate-900 font-bold">Verify Domain Origin:</strong> Always click the WhatsApp link directly from our official portal <Link href="/" className="text-emerald-700 font-semibold hover:underline underline" title="lotusplay365.shop">lotusplay365.shop</Link>. Never trust numbers sent via unsolicited SMS or unofficial Telegram broadcast groups.</li>
+                <li><strong className="text-slate-900 font-bold">Confirmed UPI Merchant VPA:</strong> Legitimate Lotus365 deposit accounts will always display confirmed merchant names verified by our desk, and your personal account manager will provide dynamic deposit references matching your exact username.</li>
+                <li><strong className="text-slate-900 font-bold">No Sensitive Disclosures:</strong> We will never ask you to click third-party remote screen-sharing tools like AnyDesk or TeamViewer, nor will we ever prompt you to enter your bank ATM PIN or OTP.</li>
               </ul>
             </div>
 
             {/* FAQs */}
             <div>
-              <h2 className="text-2xl font-extrabold text-[#F0C419] mb-6 flex items-center gap-2">
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-2">
                 <HelpCircle className="w-6 h-6 text-[#F0C419]" />
                 Frequently Asked Questions About Customer Support
               </h2>
