@@ -37,10 +37,8 @@ const navLinks = [
   },
   { label: 'Live Scores', href: '/live-scores', children: null },
   {
-    label: 'Live Casino',
+    label: 'Casino',
     href: '/live-casino',
-    badgeText: '1,000+',
-    badgeClass: 'bg-amber-100 text-amber-800 border-amber-200',
     children: [
       { label: 'Live Casino Lobby', href: '/live-casino' },
       { label: 'Teen Patti Live Dealer', href: '/teen-patti' },
@@ -53,8 +51,6 @@ const navLinks = [
   {
     label: 'Aviator',
     href: '/aviator-game',
-    badgeText: 'HOT 100x',
-    badgeClass: 'bg-red-100 text-red-600 border-red-200 animate-pulse',
     children: [
       { label: 'Spribe Aviator', href: '/aviator-game', badge: 'HOT' },
       { label: 'Crash Radar', href: '/crash-games' },
@@ -62,7 +58,7 @@ const navLinks = [
       { label: 'Color Prediction', href: '/color-prediction' },
     ],
   },
-  { label: 'News & Guides', href: '/blog', children: null },
+  { label: 'News', href: '/blog', children: null },
   {
     label: 'VIP Club',
     href: '/vip-club',
@@ -126,28 +122,24 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
   return (
     <>
       {/* ══════════════════════════════════════════════════════════════════
-          ULTRA-MODERN GLASSMORPHIC HEADER (Premier Gaming Grade)
+          ULTRA-MODERN CLEAN NAVBAR (Stable Height, Zero Shrink on Scroll)
       ══════════════════════════════════════════════════════════════════ */}
       <header
         className={`
-          sticky top-0 z-50 bg-white/95 backdrop-blur-xl transition-all duration-300
-          ${
-            isScrolled
-              ? 'shadow-[0_4px_24px_rgba(0,0,0,0.06)] border-b border-slate-200/90 py-1'
-              : 'border-b border-slate-100 py-2'
-          }
+          sticky top-0 z-50 bg-white/95 backdrop-blur-xl border-b border-slate-200/80 transition-shadow duration-200
+          ${isScrolled ? 'shadow-[0_4px_24px_rgba(0,0,0,0.06)]' : 'shadow-2xs'}
         `}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-[60px] gap-4">
+          <div className="flex items-center justify-between h-16 sm:h-[68px] gap-3">
 
             {/* ── Brand Logo ── */}
             <Link
               href="/"
-              className="flex items-center gap-2.5 shrink-0 group"
+              className="flex items-center gap-2.5 shrink-0 group select-none"
               title="Lotus365 Official Website"
             >
-              <div className="relative w-10 h-10 rounded-2xl bg-gradient-to-br from-emerald-600 via-[#047857] to-[#064e3b] p-0.5 shadow-md shadow-emerald-700/20 group-hover:shadow-emerald-500/40 transition-all flex items-center justify-center">
+              <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-2xl bg-gradient-to-br from-emerald-600 via-[#047857] to-[#064e3b] p-0.5 shadow-md shadow-emerald-700/20 group-hover:shadow-emerald-500/40 transition-all flex items-center justify-center">
                 <Image
                   src="/lotus-logo.png"
                   alt="Lotus365 Logo"
@@ -159,41 +151,41 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline gap-0.5">
-                  <span className="text-[1.35rem] font-black text-slate-900 tracking-tight leading-none">
+                  <span className="text-[1.25rem] sm:text-[1.35rem] font-black text-slate-900 tracking-tight leading-none">
                     Lotus
                   </span>
-                  <span className="text-[1.35rem] font-black text-emerald-600 tracking-tight leading-none">
+                  <span className="text-[1.25rem] sm:text-[1.35rem] font-black text-emerald-600 tracking-tight leading-none">
                     365
                   </span>
-                  <span className="ml-1 text-[9px] font-black uppercase px-1.5 py-0.2 rounded bg-amber-100 text-amber-800 border border-amber-200/80 leading-none">
+                  <span className="ml-1 text-[8.5px] sm:text-[9px] font-black uppercase px-1.5 py-0.2 rounded bg-amber-100 text-amber-800 border border-amber-200/80 leading-none">
                     VIP
                   </span>
                 </div>
-                <span className="text-[9.5px] font-bold uppercase tracking-wider text-slate-400 leading-none mt-1">
+                <span className="text-[9px] sm:text-[9.5px] font-bold uppercase tracking-wider text-slate-400 leading-none mt-1">
                   Official Exchange
                 </span>
               </div>
             </Link>
 
-            {/* ── Modern Segmented Navigation ── */}
+            {/* ── Clean Spaced Navigation Links ── */}
             <nav
               aria-label="Main navigation"
-              className="hidden lg:flex items-center gap-1 flex-1 justify-center"
+              className="hidden lg:flex items-center gap-1 xl:gap-2 shrink-0 justify-center"
             >
               {navLinks.map((link) => (
                 <div
                   key={link.label}
-                  className="relative"
+                  className="relative shrink-0"
                   onMouseEnter={() => link.children && handleDropdownEnter(link.label)}
                   onMouseLeave={() => link.children && handleDropdownLeave()}
                 >
                   <Link
                     href={link.href}
                     className={`
-                      flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[13px] font-bold transition-all duration-150 relative
+                      flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[13px] font-bold whitespace-nowrap transition-colors duration-150 relative select-none
                       ${
                         link.active
-                          ? 'bg-emerald-50 text-emerald-800 border border-emerald-200/70 shadow-2xs'
+                          ? 'bg-emerald-50 text-emerald-800 border border-emerald-200/70 shadow-2xs font-black'
                           : link.isVip
                           ? 'text-amber-800 hover:text-amber-900 hover:bg-amber-50 font-black'
                           : 'text-slate-700 hover:text-emerald-700 hover:bg-slate-100/70'
@@ -210,14 +202,6 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
                     )}
 
                     <span>{link.label}</span>
-
-                    {'badgeText' in link && link.badgeText && (
-                      <span
-                        className={`text-[9px] font-extrabold px-1.5 py-0.2 rounded-full border leading-tight ${link.badgeClass}`}
-                      >
-                        {link.badgeText}
-                      </span>
-                    )}
 
                     {link.children && (
                       <ChevronDown
@@ -263,19 +247,16 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
               ))}
             </nav>
 
-            {/* ── Desktop Right Actions (Search, WhatsApp Status & High-Impact Get ID) ── */}
+            {/* ── Desktop Right Actions (Search Icon, WhatsApp Concierge & Get ID) ── */}
             <div className="hidden sm:flex items-center gap-2.5 shrink-0">
-              {/* Keyboard-style Quick Search Pill */}
+              {/* Minimal Clean Search Icon Button */}
               <Link
                 href="/sportsbook"
-                className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-100/80 hover:bg-slate-200/70 border border-slate-200/80 text-slate-500 hover:text-slate-800 text-xs font-medium transition-all"
-                title="Search Matches & Casino"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-slate-500 hover:text-emerald-700 hover:bg-slate-100 transition-colors shrink-0"
+                title="Search Sports & Casino"
+                aria-label="Search"
               >
-                <Search className="w-3.5 h-3.5 text-slate-400" />
-                <span className="hidden xl:inline text-[11px]">Search...</span>
-                <kbd className="hidden xl:inline px-1.5 py-0.5 text-[9px] font-mono bg-white rounded border border-slate-200 text-slate-400">
-                  ⌘K
-                </kbd>
+                <Search className="w-4 h-4" />
               </Link>
 
               {/* WhatsApp Concierge Pill */}
@@ -283,7 +264,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
                 href={OFFICIAL_WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#25D366]/10 hover:bg-[#25D366]/20 text-[#128C7E] font-extrabold text-xs transition-all border border-[#25D366]/30 shadow-2xs"
+                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#25D366]/10 hover:bg-[#25D366]/20 text-[#128C7E] font-bold text-xs transition-all border border-[#25D366]/30 shadow-2xs shrink-0 select-none"
                 title="1-Tap WhatsApp Support"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-[#25D366] animate-pulse" />
@@ -296,31 +277,49 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
                 onClick={handleCTA}
                 id="header-get-id-btn"
                 className="
-                  group relative overflow-hidden flex items-center gap-2 px-6 py-2 rounded-full
+                  group relative overflow-hidden flex items-center gap-1.5 px-5 py-2 rounded-full
                   bg-gradient-to-r from-[#25D366] via-emerald-500 to-[#047857] hover:from-[#20ba5a] hover:to-emerald-600
                   text-white text-xs font-black uppercase tracking-wider
-                  shadow-[0_2px_14px_rgba(37,211,102,0.4)] hover:shadow-[0_4px_20px_rgba(37,211,102,0.6)]
-                  transition-all duration-200 cursor-pointer border border-white/20
+                  shadow-[0_2px_12px_rgba(37,211,102,0.35)] hover:shadow-[0_4px_18px_rgba(37,211,102,0.5)]
+                  transition-all duration-200 cursor-pointer border border-white/20 shrink-0 select-none
                 "
               >
                 <Zap className="w-3.5 h-3.5 fill-current text-yellow-300" />
                 <span>Get ID</span>
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
               </button>
             </div>
 
-            {/* ── Mobile: Get ID + Hamburger ── */}
-            <div className="flex lg:hidden items-center gap-2">
+            {/* ── Mobile Right Actions (Search Icon, WhatsApp Icon, Get ID & Menu) ── */}
+            <div className="flex lg:hidden items-center gap-1.5 shrink-0">
+              <Link
+                href="/sportsbook"
+                className="w-8 h-8 rounded-full flex items-center justify-center text-slate-500 hover:text-emerald-700 hover:bg-slate-100 transition-colors"
+                title="Search"
+                aria-label="Search"
+              >
+                <Search className="w-4 h-4" />
+              </Link>
+              <a
+                href={OFFICIAL_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full flex items-center justify-center text-[#25D366] bg-[#25D366]/10 hover:bg-[#25D366]/20 transition-colors"
+                title="WhatsApp Support"
+                aria-label="WhatsApp Support"
+              >
+                <MessageCircle className="w-4 h-4 fill-current text-[#25D366]" />
+              </a>
               <button
                 onClick={handleCTA}
-                className="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black shadow-sm transition-all cursor-pointer"
+                className="flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black shadow-xs transition-all cursor-pointer whitespace-nowrap"
               >
                 Get ID
               </button>
               <button
                 onClick={() => setMobileMenuOpen((v) => !v)}
                 aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
-                className="p-2 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer"
+                className="p-1.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer ml-0.5"
               >
                 {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
               </button>
