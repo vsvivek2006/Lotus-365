@@ -128,7 +128,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
             </div>
 
             <div className="flex items-center gap-2.5">
-              <button
+              <button type="button"
                 onClick={handleWhatsApp}
                 className="whatsapp-pill-btn !py-2 !px-4 text-xs font-bold cursor-pointer"
               >
@@ -208,7 +208,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
             <Link href="/responsible-gaming" className="hover:text-white transition-colors" title="Responsible Gaming">Responsible Gaming</Link>
             <Link href="/privacy-policy" className="hover:text-white transition-colors" title="Privacy Policy">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors" title="Terms & Conditions">Terms &amp; Conditions</Link>
-            <button onClick={scrollToTop} className="hover:text-[#F0C419] flex items-center gap-1 font-semibold ml-2 cursor-pointer text-emerald-300">
+            <button type="button" onClick={scrollToTop} className="hover:text-[#F0C419] flex items-center gap-1 font-semibold ml-2 cursor-pointer text-emerald-300">
               <ArrowUp className="w-3.5 h-3.5" />
               <span>Back to Top</span>
             </button>

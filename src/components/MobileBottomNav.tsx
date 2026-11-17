@@ -46,7 +46,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ onOpenAuth }) 
         </Link>
 
         {/* Central High-Convert WhatsApp ID Button */}
-        <button
+        <button type="button"
           onClick={handleWhatsApp}
           className="relative -top-4 flex flex-col items-center group cursor-pointer"
           aria-label="Get Instant WhatsApp ID"

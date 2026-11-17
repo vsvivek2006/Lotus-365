@@ -152,7 +152,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
             {/* Dual CTAs (WhatsApp Green + Frosted Glass 2-Min Demo) */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               {/* Primary: Get ID on WhatsApp */}
-              <button
+              <button type="button"
                 onClick={handleWhatsApp}
                 id="hero-whatsapp-btn"
                 className="
@@ -172,7 +172,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
               </button>
 
               {/* Secondary: 2-Min Demo ID */}
-              <button
+              <button type="button"
                 onClick={handleDemoId}
                 id="hero-demo-id-btn"
                 className="

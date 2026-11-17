@@ -213,7 +213,7 @@ export const CasinoTableShowcase: React.FC<CasinoTableShowcaseProps> = ({
             { id: 'baccarat', label: 'Baccarat' },
             { id: 'shows', label: 'Game Shows' },
           ].map((cat) => (
-            <button
+            <button type="button"
               key={cat.id}
               onClick={() => setFilter(cat.id)}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
@@ -283,7 +283,7 @@ export const CasinoTableShowcase: React.FC<CasinoTableShowcaseProps> = ({
 
             {/* Launch Action */}
             <div className="p-5 pt-0">
-              <button
+              <button type="button"
                 onClick={() => handleLaunch(table.name)}
                 className="emerald-pill-btn w-full !py-2.5 !px-4 text-xs sm:text-sm font-extrabold shadow-sm flex items-center justify-center gap-2 transition-all cursor-pointer"
               >

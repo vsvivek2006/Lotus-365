@@ -92,7 +92,7 @@ export const ContactPage: React.FC = () => {
                 Direct, end-to-end encrypted connection to our central financial operations and member support team. Average response time: <strong>under 45 seconds</strong>.
               </p>
               <div className="pt-2">
-                <button onClick={handleWhatsApp} className="cta-button py-4 px-10 text-base font-black shadow-gold-glow inline-flex items-center gap-2">
+                <button type="button" onClick={handleWhatsApp} className="cta-button py-4 px-10 text-base font-black shadow-gold-glow inline-flex items-center gap-2">
                   <MessageCircle className="w-5 h-5 fill-current" />
                   <span>Start WhatsApp Chat (wa.link/880088)</span>
                 </button>

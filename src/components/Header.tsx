@@ -273,7 +273,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
               </a>
 
               {/* Primary High-Impact CTA: Get ID Button */}
-              <button
+              <button type="button"
                 onClick={handleCTA}
                 id="header-get-id-btn"
                 className="
@@ -374,7 +374,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
               Lotus<span className="text-emerald-600">365</span>
             </span>
           </Link>
-          <button
+          <button type="button"
             onClick={() => setMobileMenuOpen(false)}
             className="p-2 rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-50 transition-colors cursor-pointer"
           >
@@ -400,7 +400,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
         </nav>
 
         <div className="px-4 pb-8 pt-4 border-t border-slate-100 space-y-2.5">
-          <button
+          <button type="button"
             onClick={() => {
               setMobileMenuOpen(false);
               handleCTA();

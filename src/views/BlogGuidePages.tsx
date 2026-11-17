@@ -1634,7 +1634,7 @@ export const FaqPage: React.FC = () => {
             <div className="space-y-4">
               {comprehensiveFaqs.map((faq, i) => (
                 <div key={i} className="rounded-2xl bg-white border border-slate-200 shadow-xs overflow-hidden transition-colors hover:border-[#F0C419]/30">
-                  <button
+                  <button type="button"
                     onClick={() => setOpen(open === i ? null : i)}
                     className="w-full flex items-center justify-between p-5 text-left transition-colors gap-4"
                   >
@@ -1796,7 +1796,7 @@ export const HowItWorksPage: React.FC = () => {
               <p className="text-xs sm:text-sm text-slate-600 max-w-md mx-auto">
                 Join over 1,500,000 satisfied Indian players enjoying 0% cricket exchange commission and 2-minute cashouts.
               </p>
-              <button onClick={handleWA} className="cta-button py-4 px-10 text-base font-black shadow-gold-glow inline-flex items-center gap-2">
+              <button type="button" onClick={handleWA} className="cta-button py-4 px-10 text-base font-black shadow-gold-glow inline-flex items-center gap-2">
                 <MessageCircle className="w-5 h-5 fill-current" />
                 <span>Get Your Free ID on WhatsApp Now</span>
               </button>

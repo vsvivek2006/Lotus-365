@@ -146,13 +146,13 @@ export const HowItWorksSection: React.FC<HowItWorksProps> = ({ onOpenAuth }) => 
                   ₹ 10,000.00
                 </div>
                 <div className="grid grid-cols-2 gap-2 text-xs">
-                  <button
+                  <button type="button"
                     onClick={() => onOpenAuth('register')}
                     className="py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold transition-all shadow-sm cursor-pointer text-center"
                   >
                     + Deposit Now
                   </button>
-                  <button
+                  <button type="button"
                     onClick={() => onOpenAuth('register')}
                     className="py-2 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-bold border border-slate-200 transition-all shadow-sm cursor-pointer text-center"
                   >
@@ -177,7 +177,7 @@ export const HowItWorksSection: React.FC<HowItWorksProps> = ({ onOpenAuth }) => 
                 </div>
               </div>
 
-              <button
+              <button type="button"
                 onClick={() => onOpenAuth('register')}
                 className="w-full emerald-pill-btn !py-3.5 !text-sm font-black shadow-lg cursor-pointer flex items-center justify-center gap-2"
               >

@@ -151,7 +151,7 @@ export const ExchangeOddsWidget: React.FC<MatchOddsProps> = ({
                   selectedBet.type === 'back' &&
                   selectedBet.price === lvl.price;
                 return (
-                  <button
+                  <button type="button"
                     key={idx}
                     onClick={() =>
                       setSelectedBet({
@@ -181,7 +181,7 @@ export const ExchangeOddsWidget: React.FC<MatchOddsProps> = ({
                   selectedBet.type === 'lay' &&
                   selectedBet.price === lvl.price;
                 return (
-                  <button
+                  <button type="button"
                     key={idx}
                     onClick={() =>
                       setSelectedBet({
@@ -229,7 +229,7 @@ export const ExchangeOddsWidget: React.FC<MatchOddsProps> = ({
             {/* Quick Stake Selector */}
             <div className="flex items-center gap-2 flex-wrap">
               {[500, 1000, 2500, 5000, 10000].map((amt) => (
-                <button
+                <button type="button"
                   key={amt}
                   onClick={() => setStake(amt)}
                   className={`px-2.5 py-1 rounded-md text-xs font-bold transition-all ${
@@ -258,7 +258,7 @@ export const ExchangeOddsWidget: React.FC<MatchOddsProps> = ({
                 </span>
               </div>
 
-              <button
+              <button type="button"
                 onClick={handlePlaceBet}
                 className="emerald-pill-btn !py-2.5 !px-5 text-xs sm:text-sm font-black shadow-md flex items-center gap-2 shrink-0 cursor-pointer"
               >

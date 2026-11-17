@@ -80,7 +80,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
               </p>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-                <button
+                <button type="button"
                   onClick={handleWhatsApp}
                   className="emerald-pill-btn !py-3.5 !px-8 text-sm sm:text-base font-bold shadow-xl cursor-pointer"
                 >
@@ -88,7 +88,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
                   <span>{ctaLabel}</span>
                   <ArrowRight className="w-4 h-4 ml-1" />
                 </button>
-                <button
+                <button type="button"
                   onClick={handleWhatsApp}
                   className="px-6 py-3.5 rounded-full bg-white/15 hover:bg-white/25 text-white text-sm font-bold border border-white/25 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-sm"
                 >

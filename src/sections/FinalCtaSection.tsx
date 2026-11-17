@@ -61,7 +61,7 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenAuth }) => {
 
         {/* Primary Action Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-3.5 sm:gap-4 mb-8">
-          <button
+          <button type="button"
             onClick={handleWhatsApp}
             id="final-cta-whatsapp-btn"
             className="
@@ -73,7 +73,7 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenAuth }) => {
             <span>Get Official WhatsApp ID</span>
           </button>
 
-          <button
+          <button type="button"
             onClick={handleWhatsApp}
             className="
               gold-pill-btn !py-4 !px-8 !text-base font-black shadow-xl cursor-pointer

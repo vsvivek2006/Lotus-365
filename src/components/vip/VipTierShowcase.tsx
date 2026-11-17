@@ -98,7 +98,7 @@ export const VipTierShowcase: React.FC = () => {
 
         <div className="flex items-center gap-1.5">
           {vipTiers.map((tier) => (
-            <button
+            <button type="button"
               key={tier.id}
               onClick={() => setSelectedTierId(tier.id)}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
@@ -179,7 +179,7 @@ export const VipTierShowcase: React.FC = () => {
                 <span className="font-bold text-slate-900">{selectedTier.concierge}</span>
               </div>
 
-              <button
+              <button type="button"
                 onClick={handleApplyVip}
                 className="emerald-pill-btn w-full sm:w-auto !py-3 !px-8 text-xs sm:text-sm font-black shadow-md flex items-center justify-center gap-2 cursor-pointer"
               >

@@ -160,7 +160,7 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
             {/* Tier Switcher Pills */}
             <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none">
               {VIP_TIERS.map((tier) => (
-                <button
+                <button type="button"
                   key={tier.id}
                   onClick={() => setSelectedTierId(tier.id)}
                   className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
@@ -199,7 +199,7 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
             <div className="text-xs text-slate-600 text-center sm:text-left">
               Ready to elevate your gaming experience with Black Card status?
             </div>
-            <button
+            <button type="button"
               onClick={handleWhatsApp}
               className="emerald-pill-btn !py-2.5 !px-6 text-xs font-bold shadow-md cursor-pointer"
             >

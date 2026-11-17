@@ -36,7 +36,7 @@ export const InteractiveOddsCalculator: React.FC = () => {
 
         {/* Back / Lay Mode Toggle */}
         <div className="flex items-center p-1 rounded-xl bg-slate-200/70 border border-slate-300">
-          <button
+          <button type="button"
             onClick={() => setMode('back')}
             className={`px-3 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               mode === 'back'
@@ -46,7 +46,7 @@ export const InteractiveOddsCalculator: React.FC = () => {
           >
             Back Bet
           </button>
-          <button
+          <button type="button"
             onClick={() => setMode('lay')}
             className={`px-3 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               mode === 'lay'
@@ -81,7 +81,7 @@ export const InteractiveOddsCalculator: React.FC = () => {
               </div>
               <div className="flex gap-2 mt-2">
                 {[500, 1000, 2500, 5000].map((amt) => (
-                  <button
+                  <button type="button"
                     key={amt}
                     onClick={() => setStake(amt)}
                     className="flex-1 py-1 rounded-md bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold border border-slate-200 cursor-pointer"
@@ -106,7 +106,7 @@ export const InteractiveOddsCalculator: React.FC = () => {
               />
               <div className="flex gap-2 mt-2">
                 {[1.5, 1.85, 2.2, 3.0].map((o) => (
-                  <button
+                  <button type="button"
                     key={o}
                     onClick={() => setOdds(o)}
                     className="flex-1 py-1 rounded-md bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold border border-slate-200 cursor-pointer"

@@ -172,7 +172,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
             { id: 'casino', label: '🎰 Live Casino & Aviator' },
             { id: 'vip', label: '👑 VIP Experience' },
           ].map((tab) => (
-            <button
+            <button type="button"
               key={tab.id}
               onClick={() => setActiveTab(tab.id as typeof activeTab)}
               className={`px-4 py-2 rounded-full text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
@@ -246,7 +246,7 @@ export const TestimonialsSection: React.FC<TestimonialsProps> = ({ onOpenAuth })
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">
-            <button
+            <button type="button"
               onClick={handleWhatsApp}
               className="gold-pill-btn !py-3.5 !px-8 text-xs sm:text-sm font-black shadow-lg cursor-pointer hover:scale-105 transition-all"
               id="testimonials-whatsapp-btn"

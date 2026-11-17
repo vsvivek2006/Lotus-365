@@ -34,7 +34,7 @@ export const PageCTA: React.FC<PageCTAProps> = ({
           {subtext}
         </p>
 
-        <button
+        <button type="button"
           onClick={handleWhatsApp}
           className="gold-pill-btn !py-4 !px-10 text-base font-black shadow-xl inline-flex items-center gap-2.5 cursor-pointer hover:scale-105 transition-all"
         >

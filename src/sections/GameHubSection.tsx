@@ -67,7 +67,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
             </p>
           </div>
 
-          <button
+          <button type="button"
             onClick={() => onOpenAuth('register')}
             className="emerald-pill-btn py-2.5 px-6 text-xs font-black self-start md:self-auto cursor-pointer shadow-lg"
           >
@@ -90,7 +90,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                 Enjoy instant-play arcade games, sports quizzes, fantasy leagues, and crash games with zero wagering required. Perfect for practice and daily rewards!
               </p>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
-                <button
+                <button type="button"
                   onClick={() => onOpenAuth('register')}
                   className="gold-pill-btn !py-2.5 !px-6 !text-xs font-black shadow-lg cursor-pointer hover:scale-105 transition-all"
                 >
@@ -123,7 +123,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
             const Icon = cat.icon;
             const isSelected = activeCategory === cat.id;
             return (
-              <button
+              <button type="button"
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all flex items-center gap-2 cursor-pointer ${
@@ -198,7 +198,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                 </div>
 
                 <div className="flex items-center gap-1.5">
-                  <button
+                  <button type="button"
                     onClick={() => onOpenAuth('register')}
                     className="flex-1 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] sm:text-xs font-black transition-all shadow-xs flex items-center justify-center gap-1 cursor-pointer"
                   >
@@ -223,7 +223,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
         {/* Explore All Games Toggle (Keeps Page Tight & Fast) */}
         {activeCategory === 'all' && !showAll && (
           <div className="text-center mt-8">
-            <button
+            <button type="button"
               onClick={() => setShowAll(true)}
               className="px-6 py-2.5 rounded-full bg-white hover:bg-slate-100 text-slate-800 font-extrabold text-xs sm:text-sm border border-slate-200 shadow-xs transition-all hover:border-emerald-500/50 cursor-pointer inline-flex items-center gap-2"
             >
@@ -249,7 +249,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-3 w-full lg:w-auto">
-            <button
+            <button type="button"
               onClick={() => onOpenAuth('register')}
               className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-rose-500 to-amber-500 hover:brightness-110 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-lg cursor-pointer"
             >

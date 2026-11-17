@@ -129,7 +129,7 @@ export const WhyChooseSection: React.FC<WhyChooseProps> = ({ onOpenAuth }) => {
                 </div>
               </div>
 
-              <button
+              <button type="button"
                 onClick={() => onOpenAuth('register')}
                 className="w-full py-3.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white font-extrabold text-sm shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2"
               >

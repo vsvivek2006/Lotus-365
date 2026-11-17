@@ -67,7 +67,7 @@ export const FaqSection: React.FC<FaqProps> = ({ onOpenAuth }) => {
               { id: 'vip', label: 'VIP Club' },
               { id: 'app', label: 'Mobile & Web App' },
             ].map((tab) => (
-              <button
+              <button type="button"
                 key={tab.id}
                 onClick={() => setActiveCategory(tab.id)}
                 className={`px-3.5 py-1.5 rounded-lg whitespace-nowrap transition-colors cursor-pointer font-bold ${
@@ -96,7 +96,7 @@ export const FaqSection: React.FC<FaqProps> = ({ onOpenAuth }) => {
                       : 'bg-white border-slate-200 hover:border-slate-300 shadow-sm'
                   }`}
                 >
-                  <button
+                  <button type="button"
                     onClick={() => toggleFaq(faq.id)}
                     aria-expanded={isOpen}
                     className="w-full p-4 sm:p-5 text-left flex items-center justify-between gap-4 cursor-pointer"

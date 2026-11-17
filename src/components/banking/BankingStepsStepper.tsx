@@ -63,7 +63,7 @@ export const BankingStepsStepper: React.FC = () => {
         </div>
 
         <div className="flex items-center p-1 rounded-xl bg-slate-200/70 border border-slate-300">
-          <button
+          <button type="button"
             onClick={() => setActiveTab('deposit')}
             className={`px-4 py-1.5 rounded-lg text-xs font-black transition-all cursor-pointer ${
               activeTab === 'deposit'
@@ -73,7 +73,7 @@ export const BankingStepsStepper: React.FC = () => {
           >
             How to Deposit
           </button>
-          <button
+          <button type="button"
             onClick={() => setActiveTab('withdraw')}
             className={`px-4 py-1.5 rounded-lg text-xs font-black transition-all cursor-pointer ${
               activeTab === 'withdraw'

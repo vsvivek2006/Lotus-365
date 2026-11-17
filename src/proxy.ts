@@ -9,10 +9,10 @@ export function sanitizeAdminRedirect(path: string | null | undefined): string {
   return "/admin";
 }
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Static assets, api, next internals bypass middleware
+  // Static assets, api, next internals bypass proxy
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
@@ -119,6 +119,8 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 }
+
+export default proxy;
 
 export const config = {
   matcher: ["/admin", "/admin/:path*"],

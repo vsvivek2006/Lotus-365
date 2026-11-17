@@ -111,7 +111,7 @@ export const AviatorFlightRadar: React.FC = () => {
             </div>
             <div className="flex gap-2">
               {[100, 500, 1000, 2500].map((amt) => (
-                <button
+                <button type="button"
                   key={amt}
                   onClick={() => setBetAmount(amt)}
                   className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
@@ -134,7 +134,7 @@ export const AviatorFlightRadar: React.FC = () => {
             </div>
             <div className="flex gap-2">
               {[1.5, 2.0, 3.5, 5.0].map((mult) => (
-                <button
+                <button type="button"
                   key={mult}
                   onClick={() => setTargetMultiplier(mult)}
                   className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
@@ -162,7 +162,7 @@ export const AviatorFlightRadar: React.FC = () => {
             </span>
           </div>
 
-          <button
+          <button type="button"
             onClick={handleLaunchAviator}
             className="w-full sm:w-auto py-3 px-8 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-black text-sm shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
