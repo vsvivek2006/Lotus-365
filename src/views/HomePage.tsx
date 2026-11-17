@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import { SEOHead } from '../components/seo/SEOHead';
-import { TopBar } from '../sections/TopBar';
 import { Header } from '../components/Header';
 import { HeroSection } from '../sections/HeroSection';
 import { PopularSectionsBar } from '../components/navigation/PopularSectionsBar';
@@ -87,7 +86,6 @@ export const HomePage: React.FC = () => {
         schema={homeSchema}
       />
       <div className="min-h-screen bg-white text-slate-900 flex flex-col selection:bg-emerald-600 selection:text-white">
-        <TopBar />
         <Header onOpenAuth={handleOpenAuth} />
         <main className="flex-1 pb-16 md:pb-0">
           <HeroSection onOpenAuth={handleOpenAuth} />

@@ -83,7 +83,7 @@ export const AviatorGamePage: React.FC = () => {
           title="Play " 
           highlight="Aviator" 
           subtitle="India's #1 Spribe crash game with industry-topping 98.5% RTP. Watch the red airplane ascend, observe real-time multiplier curves, and cash out before the craft flies away. Instant 24/7 UPI withdrawals on Lotus365." 
-          imageSrc="/images/games/aviator.svg"
+          imageSrc="/images/games/image_game_Aviatrix.webp"
           imageAlt="Play Spribe Aviator Crash Game Online"
           breadcrumbs={[{ label: 'Crash Games', href: '/aviator-game' }, { label: 'Aviator Crash Pro' }]}
         />
@@ -364,7 +364,7 @@ export const CrashGamesPage: React.FC = () => (
         title="Best " 
         highlight="Crash Games" 
         subtitle="Experience high-octane crash games including Aviator, JetX, Spaceman, and Cricket X. Watch exponential multiplier curves, manage your risk-reward ratio, and cash out before the inevitable crash." 
-        imageSrc="/images/banners/hero-aviator-speed.svg"
+        imageSrc="/images/games/image_game_Crorejet.webp"
         imageAlt="Crash Games Online India Hub"
         breadcrumbs={[{ label: 'Crash Games' }]}
       />
@@ -641,7 +641,7 @@ export const ColorPredictionPage: React.FC = () => (
         title="Fast " 
         highlight="Color Prediction" 
         subtitle="Predict Red, Green, or Violet and multiply your balance in 30-second rapid rounds. Experience fair RNG draws, 9x single-number payouts, and instant 2-minute UPI cashouts on Lotus365." 
-        imageSrc="/images/games/color-prediction.svg"
+        imageSrc="/images/games/image_game_Fortune_Gems_2.webp"
         imageAlt="Fast Color Prediction Game India"
         breadcrumbs={[{ label: 'Crash Games', href: '/aviator-game' }, { label: 'Color Prediction' }]}
       />

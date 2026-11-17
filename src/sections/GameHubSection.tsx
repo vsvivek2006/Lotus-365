@@ -17,11 +17,11 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
 
   const categories = [
     { id: 'all', label: 'All Popular Games', icon: Sparkles },
-    { id: 'exchange', label: 'Cricket & Sports Exchange', icon: Trophy },
-    { id: 'aviator', label: 'Aviator Crash', icon: Plane },
+    { id: 'aviator', label: 'Aviator & Crash', icon: Plane },
     { id: 'casino', label: 'Live Dealer Casino', icon: Dices },
-    { id: 'indian', label: 'Teen Patti & Desi', icon: Flame },
     { id: 'slots', label: 'Slots & Megaways', icon: Crown },
+    { id: 'indian', label: 'Teen Patti & Desi', icon: Flame },
+    { id: 'exchange', label: 'Cricket & Sports', icon: Trophy },
   ];
 
   const filteredGames =
@@ -99,11 +99,11 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
             {/* Right: 3D Controller Image with dissolved edges */}
             <div className="md:col-span-5 relative h-52 sm:h-60 flex items-center justify-center">
               <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
-                <Image
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src="/images/banners/games-hub-3d.jpg"
                   alt="3D Free Games Controller & Rewards"
-                  fill
-                  className="object-cover object-center scale-105"
+                  className="w-full h-full object-cover object-center scale-105"
                 />
                 {/* Dissolved edge masks */}
                 <div className="absolute inset-0 bg-gradient-to-r from-[#047857]/60 via-transparent to-transparent pointer-events-none md:block hidden" />
@@ -142,16 +142,14 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
               key={game.id}
               className="bg-white rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-lg hover:border-emerald-500/50 transition-all overflow-hidden group flex flex-col justify-between"
             >
-              {/* Card Banner / Art Visual */}
-              <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
+              {/* Card Banner / Art Visual (3:2 Ratio matching 300x200 authentic thumbnails) */}
+              <div className="relative aspect-[3/2] overflow-hidden bg-slate-100">
                 {game.imageSrc ? (
-                  <AdaptiveImage
+                  /* eslint-disable-next-line @next/next/no-img-element */
+                  <img
                     src={game.imageSrc}
                     alt={game.title}
-                    aspectRatio="16/9"
-                    className="group-hover:scale-108 transition-transform duration-300"
-                    containerClassName="h-full w-full rounded-none"
-                    overlayBadge={game.badge}
+                    className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-300"
                   />
                 ) : (
                   <div className={`h-full w-full bg-gradient-to-tr ${game.gradient} p-3 flex items-center justify-center`}>
@@ -161,10 +159,17 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
                   </div>
                 )}
 
-                {/* Provider Pill */}
-                <span className="absolute top-2.5 right-2.5 text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-900/80 text-white/90 backdrop-blur-sm border border-white/20 z-10">
-                  {game.provider}
-                </span>
+                {/* Top Badges: Category/Hot on left, Provider on right */}
+                <div className="absolute top-2 inset-x-2 flex items-center justify-between pointer-events-none z-10">
+                  {game.badge ? (
+                    <span className="text-[9px] font-black px-2 py-0.5 rounded-md bg-amber-400 text-slate-900 shadow-sm uppercase tracking-wide">
+                      {game.badge}
+                    </span>
+                  ) : <span />}
+                  <span className="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/85 text-white/95 backdrop-blur-sm border border-white/20 shadow-xs">
+                    {game.provider}
+                  </span>
+                </div>
               </div>
 
               {/* Card Info */}

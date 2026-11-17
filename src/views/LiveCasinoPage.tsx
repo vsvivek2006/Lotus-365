@@ -68,7 +68,7 @@ export const LiveCasinoPage: React.FC = () => (
         title="India's Premier "
         highlight="Live Casino Experience"
         subtitle="Immerse yourself in high-definition live dealer action streaming 24/7 from world-class studios. Teen Patti, Andar Bahar, Roulette, Blackjack, and Aviator with instant 2-minute UPI cashouts."
-        imageSrc="/images/banners/hero-casino-luxury.svg"
+        imageSrc="/images/games/image_game_Crazy_Time.webp"
         imageAlt="Lotus365 Live Casino Studio Suite"
         breadcrumbs={[{ label: 'Live Casino' }]}
       />

@@ -64,7 +64,7 @@ export const TeenPattiPage: React.FC = () => (
         title="India's Most Loved "
         highlight="Teen Patti Real Money"
         subtitle="Play live 3 Patti with beautiful human dealers streaming in Full HD. Enjoy 20-20 Teen Patti, One-Day rules, Pair Plus side bets paying up to 1000x, and 2-minute UPI cashouts."
-        imageSrc="/images/games/teen-patti.svg"
+        imageSrc="/images/games/image_game_Three_Card_Poker.webp"
         imageAlt="Teen Patti Real Money Live 3 Patti Cash Games"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Teen Patti' }]}
       />
@@ -315,7 +315,7 @@ export const AndarBaharPage: React.FC = () => (
         title="India's Classic "
         highlight="Andar Bahar Live"
         subtitle="Experience India's most straightforward and thrilling heritage card game. Bet on Andar or Bahar with live human dealers, side bet multipliers up to 120x, and 2-minute cashouts."
-        imageSrc="/images/games/andar-bahar.svg"
+        imageSrc="/images/games/image_game_Wealth_of_the_East.webp"
         imageAlt="Andar Bahar Real Money Live Card Game"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Andar Bahar' }]}
       />

@@ -27,7 +27,7 @@ export interface GameItem {
   provider: string;
   rtp: string;
   playersOnline: number;
-  badge?: 'HOT' | 'NEW' | 'LIVE' | 'JACKPOT';
+  badge?: string;
   gradient: string;
   iconType: 'dice' | 'cards' | 'plane' | 'cricket' | 'wheel' | 'crown';
   imageSrc?: string;

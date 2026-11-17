@@ -45,7 +45,7 @@ export const RoulettePage: React.FC = () => (
         title="India's Best "
         highlight="Live Roulette Tables"
         subtitle="Spin authentic live European roulette wheels streaming in 1080p HD. Enjoy 97.3% RTP, single-zero wheels, neighbor betting tracks, and guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/games/roulette.svg"
+        imageSrc="/images/games/image_game_Hindi_Roulette.webp"
         imageAlt="Live European Roulette Online India"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Roulette' }]}
       />
@@ -260,7 +260,7 @@ export const BlackjackPage: React.FC = () => (
         title="India's Premier "
         highlight="Live Blackjack Tables"
         subtitle="Test your skill against professional dealers at 50+ live blackjack tables. Enjoy 99.50% RTP, Infinite Blackjack, Perfect Pairs, and guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/games/blackjack.svg"
+        imageSrc="/images/games/image_game_VIP_Auto_Roulette.webp"
         imageAlt="Live Blackjack 21 Real Money"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Blackjack' }]}
       />
@@ -462,7 +462,7 @@ export const BaccaratPage: React.FC = () => (
         title="Asia's High-Roller "
         highlight="Live Baccarat Tables"
         subtitle="Step into VIP Macau-style baccarat salons streaming 24/7. Enjoy Banker 1.06% house edge, Speed Baccarat, No Commission tables, and guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/games/baccarat.svg"
+        imageSrc="/images/games/image_game_D_Dragon_Tiger.webp"
         imageAlt="Live Baccarat Real Money Punto Banco"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Baccarat' }]}
       />
@@ -658,7 +658,7 @@ export const DragonTigerPage: React.FC = () => (
         title="High-Speed "
         highlight="Live Dragon Tiger"
         subtitle="Experience Asia's fastest live card game. A single card to Dragon, a single card to Tiger — highest card wins. 15-second rounds and 2-minute UPI cashouts on Lotus365."
-        imageSrc="/images/games/baccarat.svg"
+        imageSrc="/images/games/image_game_Dragon_TigerA.webp"
         imageAlt="Live Dragon Tiger Two Card Showdown"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Dragon Tiger' }]}
       />
@@ -861,7 +861,7 @@ export const SpeedBaccaratPage: React.FC = () => (
         title="High-Velocity "
         highlight="Live Speed Baccarat"
         subtitle="For players who value pure tempo. Cards are dealt face-up immediately, cutting round durations to just 27 seconds with zero downtime and guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/games/baccarat.svg"
+        imageSrc="/images/games/image_game_Three_Card_Poker.webp"
         imageAlt="Live Speed Baccarat Fast Rounds"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Speed Baccarat' }]}
       />
@@ -1077,7 +1077,7 @@ export const LightningRoulettePage: React.FC = () => (
         title="Electrifying "
         highlight="Live Lightning Roulette"
         subtitle="Experience the world's most exhilarating live roulette game. In every round, 1 to 5 Lucky Numbers are struck by lightning, boosting straight-up payouts from 50x up to a monumental 500x!"
-        imageSrc="/images/games/lightning-roulette.svg"
+        imageSrc="/images/games/image_game_Mega_Fire_Blaze_Age_of_the_Gods_Roulett.webp"
         imageAlt="Live Lightning Roulette 500x Multipliers"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Lightning Roulette' }]}
       />
@@ -1285,7 +1285,7 @@ export const CasinoSlotsPage: React.FC = () => (
         title="India's Top "
         highlight="Online Casino Slots"
         subtitle="Spin 500+ premium video slots from Pragmatic Play, NetEnt, and Red Tiger. Megaways mechanics, tumbling reels, bonus buy features, and guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/games/casino-slots.svg"
+        imageSrc="/images/games/image_game_Gates_of_Olympus_Super_Scatter.webp"
         imageAlt="Online Casino Slots Megaways Jackpots"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Casino Slots' }]}
       />

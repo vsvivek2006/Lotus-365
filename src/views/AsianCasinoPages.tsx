@@ -44,7 +44,7 @@ export const Lucky7GamePage: React.FC = () => (
         title="Lucky 7 Live Card Game: "
         highlight="7 Up, 7 Down & Exact 7"
         subtitle="Experience India's most beloved live dealer card prediction game. Bet on 7 Up, 7 Down, Red/Black, and Odd/Even with ultra-fast 25-second rounds."
-        imageSrc="/images/games/lucky-7.svg"
+        imageSrc="/images/games/image_game_Fortune_Gems_2.webp"
         imageAlt="Lucky 7 Live Card Game"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Lucky 7' }]}
       />
@@ -173,7 +173,7 @@ export const ThirtyTwoCardsCasinoPage: React.FC = () => (
         title="32 Cards Live Casino: "
         highlight="Player 8, 9, 10 & 11"
         subtitle="Experience Asia's rapid-fire numbers card game. Back high-multiplier underdog hands or safe favorites with dynamic 30-second live dealer rounds."
-        imageSrc="/images/games/thirty-two-cards.svg"
+        imageSrc="/images/games/image_game_Three_Card_Poker.webp"
         imageAlt="32 Cards Live Casino"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: '32 Cards' }]}
       />
@@ -1054,7 +1054,7 @@ export const CrazyTimePage: React.FC = () => (
         title="Crazy Time Live: "
         highlight="Giant Wheels & 25,000x Multipliers"
         subtitle="Step into the world's most popular live game show. Trigger Coin Flip, Pachinko, Cash Hunt, and Crazy Time bonus rounds with massive multipliers."
-        imageSrc="/images/games/live-casino.svg"
+        imageSrc="/images/games/image_game_Crazy_Time.webp"
         imageAlt="Crazy Time Live Game Show"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Crazy Time' }]}
       />
@@ -1182,7 +1182,7 @@ export const MegaWheelPage: React.FC = () => (
         title="Mega Wheel Live: "
         highlight="500x Multiplier Game Show"
         subtitle="Spin the wheel of fortune with Pragmatic Play. Every single round awards random Mega Lucky Number boosts up to 500x with sub-2-minute cashouts."
-        imageSrc="/images/games/mega-wheel.svg"
+        imageSrc="/images/games/image_game_Funky_Time.webp"
         imageAlt="Mega Wheel Live Pragmatic Play 500x Multipliers"
         breadcrumbs={[{ label: 'Live Casino', href: '/live-casino' }, { label: 'Mega Wheel' }]}
       />
