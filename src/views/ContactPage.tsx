@@ -198,23 +198,23 @@ export const ContactPage: React.FC = () => {
               </h2>
               <div className="space-y-3">
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-white text-sm block mb-0.5">Include Your Registered Username</strong>
+                    <strong className="text-slate-900 font-bold text-sm block mb-0.5">Include Your Registered Username</strong>
                     <p className="text-xs text-slate-600">Mention your Lotus365 username in your opening message so the agent can load your account profile immediately.</p>
                   </div>
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-white text-sm block mb-0.5">Share 12-Digit UTR for Deposit Queries</strong>
+                    <strong className="text-slate-900 font-bold text-sm block mb-0.5">Share 12-Digit UTR for Deposit Queries</strong>
                     <p className="text-xs text-slate-600">If inquiring about a deposit, attach the payment screenshot showing the 12-digit UTR number for 30-second balance credit.</p>
                   </div>
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs flex gap-3">
-                  <Zap className="w-5 h-5 text-[#F0C419] shrink-0 mt-0.5" />
+                  <Zap className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-white text-sm block mb-0.5">State Your Withdrawal UPI Handle Clearly</strong>
+                    <strong className="text-slate-900 font-bold text-sm block mb-0.5">State Your Withdrawal UPI Handle Clearly</strong>
                     <p className="text-xs text-slate-600">For cashouts, provide your exact PhonePe, Google Pay, or Paytm UPI VPA (e.g., yourname@okhdfcbank) to trigger our 2-minute payout API.</p>
                   </div>
                 </div>

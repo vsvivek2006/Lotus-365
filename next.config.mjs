@@ -112,16 +112,10 @@ const nextConfig = {
       { source: '/icc-odi-world-cup', destination: '/cricket-betting', permanent: true },
       { source: '/test-cricket-betting', destination: '/cricket-betting', permanent: true },
 
-      // 3. IPL sub-routes -> /ipl-betting
+      // 3. IPL aliases -> /ipl-betting
       { source: '/ipl-teams-betting-odds', destination: '/ipl-betting', permanent: true },
-      { source: '/ipl-predictions', destination: '/ipl-betting', permanent: true },
 
-      // 4. Minor sports -> /sportsbook
-      { source: '/kabaddi-betting', destination: '/sportsbook', permanent: true },
-      { source: '/basketball-betting', destination: '/sportsbook', permanent: true },
-      { source: '/horse-racing-betting', destination: '/sportsbook', permanent: true },
-
-      // 5. Exchange rule pages -> /cricket-exchange
+      // 4. Exchange rule pages -> /cricket-exchange
       { source: '/tied-match-rules', destination: '/cricket-exchange', permanent: true },
       { source: '/bet-slip-guide', destination: '/how-it-works', permanent: true },
       { source: '/back-and-lay-betting', destination: '/cricket-exchange', permanent: true },
@@ -133,10 +127,7 @@ const nextConfig = {
       { source: '/in-play-cashout-guide', destination: '/cricket-exchange', permanent: true },
       { source: '/match-odds-trading', destination: '/cricket-exchange', permanent: true },
 
-      // 6. Casino game variations -> flagship casino games
-      { source: '/speed-baccarat', destination: '/baccarat', permanent: true },
-      { source: '/dragon-tiger', destination: '/baccarat', permanent: true },
-      { source: '/lightning-roulette', destination: '/roulette', permanent: true },
+      // 5. Casino game aliases -> related flagship casino games
       { source: '/roulette-strategies', destination: '/roulette', permanent: true },
       { source: '/32-cards-casino', destination: '/teen-patti', permanent: true },
       { source: '/super-over-game', destination: '/teen-patti', permanent: true },
@@ -146,41 +137,23 @@ const nextConfig = {
       { source: '/live-dealer-games', destination: '/live-casino', permanent: true },
       { source: '/crazy-time', destination: '/live-casino', permanent: true },
       { source: '/mega-wheel', destination: '/live-casino', permanent: true },
-      { source: '/crash-games', destination: '/aviator-game', permanent: true },
-      { source: '/virtual-sports', destination: '/color-prediction', permanent: true },
       { source: '/lucky-7-game', destination: '/color-prediction', permanent: true },
 
-      // 7. Payment sub-methods -> consolidated payment hubs
-      { source: '/phonepe-deposit', destination: '/how-to-deposit', permanent: true },
-      { source: '/google-pay-deposit', destination: '/how-to-deposit', permanent: true },
-      { source: '/paytm-deposit', destination: '/how-to-deposit', permanent: true },
-      { source: '/upi-deposit', destination: '/how-to-deposit', permanent: true },
+      // 6. Payment method aliases
+      { source: '/phonepe-deposit', destination: '/upi-deposit', permanent: true },
+      { source: '/google-pay-deposit', destination: '/upi-deposit', permanent: true },
+      { source: '/paytm-deposit', destination: '/upi-deposit', permanent: true },
       { source: '/crypto-deposit-usdt', destination: '/how-to-deposit', permanent: true },
-      { source: '/payment-methods', destination: '/how-to-deposit', permanent: true },
       { source: '/bank-transfer-neft-rtgs', destination: '/how-to-withdraw', permanent: true },
-      { source: '/imps-withdrawal', destination: '/how-to-withdraw', permanent: true },
-      { source: '/2-minute-cashout', destination: '/how-to-withdraw', permanent: true },
       { source: '/withdrawal-proof-times', destination: '/how-to-withdraw', permanent: true },
       { source: '/kyc-verification-guide', destination: '/how-it-works', permanent: true },
       { source: '/account-security-tips', destination: '/how-it-works', permanent: true },
 
-      // 8. Promotions & VIP sub-pages -> /vip-club
-      { source: '/first-deposit-bonus', destination: '/vip-club', permanent: true },
-      { source: '/welcome-bonus', destination: '/vip-club', permanent: true },
-      { source: '/cashback-offers', destination: '/vip-club', permanent: true },
-      { source: '/referral-bonus', destination: '/vip-club', permanent: true },
-      { source: '/vip-black-card', destination: '/vip-club', permanent: true },
+      // 7. Promotions & VIP aliases
       { source: '/lotus365-blue', destination: '/vip-club', permanent: true },
       { source: '/lotus365-partner-program', destination: '/vip-club', permanent: true },
 
-      // 9. Guides & Help sub-pages -> /how-it-works & /about
-      { source: '/lotus365-review', destination: '/about', permanent: true },
-      { source: '/lotus365-vs-competitors', destination: '/about', permanent: true },
-      { source: '/betting-tips', destination: '/cricket-betting', permanent: true },
-      { source: '/online-casino-guide', destination: '/live-casino', permanent: true },
-      { source: '/safe-betting-guide', destination: '/responsible-gaming', permanent: true },
-      { source: '/mobile-web-app-guide', destination: '/how-it-works', permanent: true },
-      { source: '/faq', destination: '/how-it-works', permanent: true },
+      // 8. General aliases
       { source: '/complaints-resolution', destination: '/contact', permanent: true },
       { source: '/responsible-gambling-tools', destination: '/responsible-gaming', permanent: true },
       { source: '/register', destination: '/how-it-works', permanent: true },
