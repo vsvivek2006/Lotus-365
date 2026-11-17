@@ -13,7 +13,7 @@ interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;

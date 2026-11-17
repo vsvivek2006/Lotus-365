@@ -131,22 +131,22 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
 
             {/* Display H1 Headline */}
             <h1 className="font-black text-white tracking-tight leading-[1.08] mb-4">
-              <span className="block text-3xl sm:text-5xl lg:text-[3.5rem]">
-                India&apos;s Premier
+              <span className="block text-3xl sm:text-5xl lg:text-[3.5rem] text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 drop-shadow-sm">
+                Lotus365 Official
               </span>
-              <span className="block text-3xl sm:text-5xl lg:text-[3.5rem] text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 drop-shadow-sm mt-1">
-                Gaming Platform
+              <span className="block text-2xl sm:text-4xl lg:text-[2.6rem] text-white mt-1.5 font-black">
+                India&apos;s Leading Cricket &amp; Gaming Platform
               </span>
             </h1>
 
             {/* Sub-headline */}
-            <p className="text-emerald-100 font-bold text-base sm:text-xl mb-3">
-              Live Sports • 1,000+ Casino Games • Instant Play
+            <p className="text-emerald-100 font-bold text-base sm:text-lg mb-3">
+              Instant Lotus ID via WhatsApp • 0% Commission Cricket Exchange • Live Casino
             </p>
 
             {/* Pitch Summary (BazaarLink SEO Validated) */}
             <p className="text-emerald-50/90 text-sm sm:text-base leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 font-normal">
-              From live cricket exchange to 1,000+ casino games, Lotus365 delivers instant WhatsApp ID activation, 30-second deposits, and 2-minute withdrawals. More action. Less waiting.
+              From live cricket exchange to 1,000+ casino games, Lotus365 delivers instant WhatsApp ID activation, 30-second UPI deposits, and guaranteed 2-minute cashouts. More action. Less waiting.
             </p>
 
             {/* Dual CTAs (WhatsApp Green + Frosted Glass 2-Min Demo) */}

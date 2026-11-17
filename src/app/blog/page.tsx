@@ -6,7 +6,7 @@ import { getPostCoverImage } from "@/lib/blog/images";
 import { Layout } from "@/components/layout/Layout";
 import { Calendar, User, ArrowRight, ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Lotus365 Blog – Cricket Betting Tips & Casino Guides",

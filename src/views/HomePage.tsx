@@ -10,6 +10,7 @@ import { WhyChooseSection } from '../sections/WhyChooseSection';
 import { HowItWorksSection } from '../sections/HowItWorksSection';
 import { VipClubSection } from '../sections/VipClubSection';
 import { TestimonialsSection } from '../sections/TestimonialsSection';
+import { LotusPlatformGuide } from '../components/seo/LotusPlatformGuide';
 import { FaqSection } from '../sections/FaqSection';
 import { FinalCtaSection } from '../sections/FinalCtaSection';
 import { Footer } from '../components/Footer';
@@ -39,10 +40,24 @@ const homeSchema = {
       '@type': 'SportsWagering',
       '@id': 'https://lotusplay365.shop/#organization',
       name: 'Lotus365 Official',
+      alternateName: [
+        'Lotus365',
+        'Lotus 365',
+        'Lotus ID',
+        'Lotus365 Official ID',
+        'Lotus Cricket Betting',
+        'Lotus365 Login',
+        'Lotus 365 App',
+        'Lotus365 Win',
+        'Lotus India',
+      ],
       url: 'https://lotusplay365.shop',
       logo: 'https://lotusplay365.shop/lotus-logo.png',
       image: 'https://lotusplay365.shop/og-banner.webp',
       description: "India's premier cricket betting exchange, live casino, and instant UPI cashout platform with 24/7 WhatsApp concierge.",
+      areaServed: 'IN',
+      currenciesAccepted: 'INR',
+      paymentAccepted: 'UPI, PhonePe, Google Pay, Paytm, IMPS Bank Transfer',
       offers: {
         '@type': 'Offer',
         price: '0',
@@ -95,6 +110,7 @@ export const HomePage: React.FC = () => {
           <HowItWorksSection onOpenAuth={handleOpenAuth} />
           <VipClubSection onOpenAuth={handleOpenAuth} />
           <TestimonialsSection onOpenAuth={handleOpenAuth} />
+          <LotusPlatformGuide onOpenAuth={handleOpenAuth} />
           <FaqSection onOpenAuth={handleOpenAuth} />
           <FinalCtaSection onOpenAuth={handleOpenAuth} />
         </main>
