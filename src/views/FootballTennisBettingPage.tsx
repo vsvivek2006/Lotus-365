@@ -102,7 +102,7 @@ export const FootballBettingPage: React.FC = () => (
         title="Premier League & "
         highlight="Football Betting India"
         subtitle="Wager on over 500 global football leagues. From the English Premier League and UEFA Champions League to the Indian Super League (ISL), trade with 0% net commission and 2-minute cashouts."
-        imageSrc="/images/sports/football.svg"
+        imageSrc="/images/banners/soccer_action_real.jpg"
         imageAlt="Premier League and Football Betting India"
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Football Betting' }]}
       />
@@ -332,7 +332,7 @@ export const TennisBettingPage: React.FC = () => (
         title="ATP, WTA & "
         highlight="Grand Slam Tennis Odds"
         subtitle="Experience point-by-point live tennis betting on Lotus365. Trade on Wimbledon, Roland Garros, US Open, Australian Open, and year-round ATP/WTA 1000 tournaments with 0% net commission."
-        imageSrc="/images/sports/tennis.svg"
+        imageSrc="/images/banners/tennis_action_real.jpg"
         imageAlt="ATP WTA and Grand Slam Tennis Odds"
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Tennis Betting' }]}
       />

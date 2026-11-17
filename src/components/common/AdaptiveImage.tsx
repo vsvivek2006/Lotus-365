@@ -25,7 +25,7 @@ export const AdaptiveImage: React.FC<AdaptiveImageProps> = ({
   aspectRatio = '16/9',
   containerClassName = '',
   className = '',
-  fallbackSrc = '/images/banners/hero-cricket-stadium.svg',
+  fallbackSrc = '/images/banners/cricket_stadium_real.jpg',
   overlayBadge,
   priority = false,
   fill = true,

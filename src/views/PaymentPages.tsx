@@ -337,7 +337,7 @@ export const HowToWithdrawPage: React.FC = () => (
         title="Lotus365 " 
         highlight="Withdrawal Guide" 
         subtitle="Enjoy the fastest withdrawal execution in the Indian betting industry. Cash out your sports and casino winnings to your UPI ID or bank account in under 2 minutes with zero withdrawal fees." 
-        imageSrc="/images/payments/imps.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="How to Withdraw from Lotus365 in 2 Minutes"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'How to Withdraw' }]}
       />
@@ -908,7 +908,7 @@ export const ImpsWithdrawalPage: React.FC = () => (
         title="IMPS " 
         highlight="Instant Withdrawal" 
         subtitle="Direct interbank transfers to State Bank of India, HDFC, ICICI, Axis, PNB, and over 140+ Indian scheduled commercial banks. Instant settlement around the clock with zero processing fees." 
-        imageSrc="/images/payments/imps.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="IMPS Direct Bank Withdrawal India"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: 'IMPS Withdrawal' }]}
       />
@@ -1487,7 +1487,7 @@ export const TwoMinuteCashoutPage: React.FC = () => (
         title="India's Fastest " 
         highlight="2-Minute Cashout" 
         subtitle="Lotus365 guarantees your withdrawal request is executed and dispatched within 120 seconds via UPI or IMPS. No delays, no excuses, and zero transaction fees — your winnings in your pocket instantly." 
-        imageSrc="/images/payments/imps.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="Lotus365 Guaranteed 2-Minute Cashout"
         breadcrumbs={[{ label: 'Payments', href: '/how-to-deposit' }, { label: '2-Minute Cashout' }]}
       />

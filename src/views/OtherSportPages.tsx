@@ -45,7 +45,7 @@ export const KabaddiBettingPage: React.FC = () => (
         title="India's #1 "
         highlight="Kabaddi Betting Platform"
         subtitle="Experience live raid-by-raid wagering on the Pro Kabaddi League (PKL). Bet on match outcomes, total raid points, super tackles, and outright champions with 2-minute UPI cashouts."
-        imageSrc="/images/sports/kabaddi.svg"
+        imageSrc="/images/banners/banner_sports_betting.webp"
         imageAlt="Pro Kabaddi League PKL Betting"
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Kabaddi Betting' }]}
       />
@@ -251,7 +251,7 @@ export const BasketballBettingPage: React.FC = () => (
         title="NBA & Global "
         highlight="Basketball Betting"
         subtitle="Wager on NBA, EuroLeague, and FIBA basketball with high-liquidity point spreads, moneyline odds, quarter-by-quarter markets, and instant 2-minute UPI cashouts."
-        imageSrc="/images/sports/basketball.svg"
+        imageSrc="/images/banners/banner_mobile_sports.webp"
         imageAlt="NBA and Global Basketball Betting"
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Basketball Betting' }]}
       />
@@ -452,7 +452,7 @@ export const HorseRacingPage: React.FC = () => (
         title="Premier "
         highlight="Horse Racing Betting India"
         subtitle="Wager on thoroughbred horse racing across the Royal Western India Turf Club (Mumbai), Pune, Bangalore, Chennai, and Dubai World Cup with India's best live odds."
-        imageSrc="/images/sports/horse-racing.svg"
+        imageSrc="/images/banners/banner_sports_betting.webp"
         imageAlt="Indian and Global Horse Racing Betting"
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Horse Racing' }]}
       />

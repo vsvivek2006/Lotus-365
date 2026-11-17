@@ -893,7 +893,7 @@ export const VirtualSportsPage: React.FC = () => (
         title="24/7 " 
         highlight="Virtual Sports" 
         subtitle="Never wait for live fixtures again. Bet on simulated T20 cricket, Premier League football, greyhounds, and thoroughbred horse racing with new matches starting every 3 minutes." 
-        imageSrc="/images/sports/virtual-sports.svg"
+        imageSrc="/images/banners/banner_mobile_sports.webp"
         imageAlt="24/7 Virtual Sports Betting India"
         breadcrumbs={[{ label: 'Sportsbook', href: '/sportsbook' }, { label: 'Virtual Sports' }]}
       />

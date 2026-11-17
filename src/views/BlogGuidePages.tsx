@@ -68,7 +68,7 @@ export const ReviewPage: React.FC = () => (
         title="Lotus365 Review " 
         highlight="2026" 
         subtitle="Is Lotus365 genuinely India's #1 sports betting exchange and live casino platform? Our in-depth, unbiased review examines betting liquidity, 0% commission structures, cashout integrity, and overall user trust." 
-        imageSrc="/images/banners/hero-cricket-stadium.svg"
+        imageSrc="/images/banners/banner_about_official.webp"
         imageAlt="Comprehensive Lotus365 Platform Review 2026"
         breadcrumbs={[
           { label: 'Guides' },
@@ -513,7 +513,7 @@ export const BettingTipsPage: React.FC = () => (
         title="Cricket " 
         highlight="Betting Tips & Strategy" 
         subtitle="Transform your cricket knowledge into consistent, disciplined profitability. Learn the mathematical frameworks, pitch-reading formulas, and in-play exchange trading tactics used by professional traders on Lotus365." 
-        imageSrc="/images/sports/cricket.svg"
+        imageSrc="/images/banners/banner_cricket_exchange.webp"
         imageAlt="Cricket Betting Tips and Trading Strategies 2026"
         breadcrumbs={[
           { label: 'Guides' },
@@ -700,7 +700,7 @@ export const IplPredictionsPage: React.FC = () => (
         title="IPL 2026 " 
         highlight="Expert Predictions & Odds" 
         subtitle="In-depth analytical preview of the Indian Premier League 2026. Squad evaluations, franchise strengths, venue dynamics, and tactical insights across all 10 teams on Lotus365." 
-        imageSrc="/images/sports/cricket.svg"
+        imageSrc="/images/banners/banner_cricket_exchange.webp"
         imageAlt="IPL 2026 Expert Predictions and Odds"
         breadcrumbs={[
           { label: 'IPL Betting', href: '/ipl-betting' },
@@ -891,7 +891,7 @@ export const OnlineCasinoGuidePage: React.FC = () => (
         title="Complete " 
         highlight="Online Casino Guide" 
         subtitle="Everything you need to master real-money online casino games in India. Understand game math, house edge percentages, optimal strategies for Teen Patti and Blackjack, and instant cashout mechanics on Lotus365." 
-        imageSrc="/images/games/live-casino-lobby.svg"
+        imageSrc="/images/banners/banner_live_casino.webp"
         imageAlt="Complete Online Casino Guide and RTP Rules"
         breadcrumbs={[
           { label: 'Live Casino', href: '/live-casino' },
@@ -1612,7 +1612,7 @@ export const FaqPage: React.FC = () => {
           title="Lotus365 " 
           highlight="Frequently Asked Questions" 
           subtitle="Definitive answers regarding WhatsApp ID registration, guaranteed 2-minute UPI cashouts, cricket betting exchange rules, live dealer games, and security protocols." 
-          imageSrc="/images/banners/hero-cricket-stadium.svg"
+          imageSrc="/images/banners/banner_about_official.webp"
           imageAlt="Lotus365 Frequently Asked Questions Hub"
           breadcrumbs={[
             { label: 'Help' },
@@ -1728,7 +1728,7 @@ export const HowItWorksPage: React.FC = () => {
           title="How " 
           highlight="Lotus365 Works" 
           subtitle="From your first WhatsApp message to placing your first cricket bet in under 4 minutes. Experience India's smoothest, most friction-free sports exchange and live casino onboarding." 
-          imageSrc="/images/banners/hero-cricket-stadium.svg"
+          imageSrc="/images/banners/banner_about_official.webp"
           imageAlt="How Lotus365 Works Step-by-Step Onboarding Guide"
           breadcrumbs={[
             { label: 'Help' },

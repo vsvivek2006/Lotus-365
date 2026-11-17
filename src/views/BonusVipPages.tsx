@@ -74,7 +74,7 @@ export const WelcomeBonusPage: React.FC = () => (
         highlight="Welcome Bonus" 
         subtitle="Double your starting bankroll on India's premier betting exchange. Receive an instant 100% matching bonus up to ₹5,000 on your first deposit via WhatsApp with transparent, player-friendly rollover terms." 
         ctaLabel="Claim Bonus via WhatsApp" 
-        imageSrc="/images/vip/card-gold.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="New Member Welcome Bonus Package"
         breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'Welcome Bonus' }]}
       />
@@ -356,7 +356,7 @@ export const FirstDepositBonusPage: React.FC = () => (
         highlight="Deposit Bonus" 
         subtitle="Turn your very first Lotus365 deposit into maximum betting power. Explore our tiered first deposit brackets and discover how to optimize your opening bankroll for cricket, casino, and crash gaming." 
         ctaLabel="Claim First Deposit Bonus" 
-        imageSrc="/images/vip/card-silver.svg"
+        imageSrc="/images/banners/banner_vip_champions.webp"
         imageAlt="First Deposit Bonus Booster"
         breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'First Deposit Bonus' }]}
       />
@@ -595,7 +595,7 @@ export const ReferralBonusPage: React.FC = () => (
         highlight="Referral Bonus" 
         subtitle="Turn your social network into recurring passive earnings. Introduce friends and followers to Lotus365 via WhatsApp and earn instant cash rewards plus lifetime commission on their betting turnover." 
         ctaLabel="Get Your Referral Link on WhatsApp" 
-        imageSrc="/images/vip/card-bronze.svg"
+        imageSrc="/images/banners/banner_how_to_deposit.webp"
         imageAlt="Referral and Affiliate Rewards Program"
         breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'Referral Bonus' }]}
       />
@@ -852,7 +852,7 @@ export const CashbackOffersPage: React.FC = () => (
         highlight="Cashback Offers" 
         subtitle="Bet with complete peace of mind. Lotus365 returns up to 15% of your weekly net losses as real cash directly into your account every Monday. No complicated rollover traps." 
         ctaLabel="Learn More on WhatsApp" 
-        imageSrc="/images/vip/card-platinum.svg"
+        imageSrc="/images/banners/banner_about_official.webp"
         imageAlt="Weekly Loss Cashback Offers"
         breadcrumbs={[{ label: 'Promotions', href: '/vip-club' }, { label: 'Cashback Offers' }]}
       />
@@ -1368,7 +1368,7 @@ export const VipBlackCardPage: React.FC = () => (
         highlight="VIP Black Card" 
         subtitle="The zenith of Indian betting excellence. Reserved exclusively for elite high-stakes players, the Black Card delivers limitless liquidity, uncapped 15% weekly cashback, and bespoke concierge hospitality." 
         ctaLabel="Inquire About Black Card via WhatsApp" 
-        imageSrc="/images/vip/card-black.svg"
+        imageSrc="/images/banners/banner_vip_champions.webp"
         imageAlt="Lotus365 VIP Black Card Program"
         breadcrumbs={[{ label: 'VIP Club', href: '/vip-club' }, { label: 'VIP Black Card' }]}
       />
