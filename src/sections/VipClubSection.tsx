@@ -56,15 +56,11 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
         
         {/* ── Top VIP Banner (Direct from Mockup 1 & 6) ── */}
         <div className="p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#065f46] border border-amber-400/40 shadow-xl mb-12 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden text-white">
-          {/* Dissolved Luxury VIP Artwork Backdrop */}
-          <div className="absolute inset-0 opacity-20 mix-blend-screen pointer-events-none">
-            <Image
-              src="/images/banners/vip_club_banner_feathered.jpg"
-              alt="VIP Club Luxury Background"
-              fill
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="object-cover object-center"
-            />
+          {/* Ambient Luxury Lighting Glow (Zero Image Ghosting) */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <div className="absolute -top-16 -left-16 w-80 h-80 bg-amber-400/20 rounded-full blur-3xl" />
+            <div className="absolute -bottom-20 right-1/4 w-96 h-48 bg-emerald-300/15 rounded-full blur-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#032318]/50 via-transparent to-[#042419]/60" />
           </div>
 
           <div className="flex items-center gap-5 relative z-10">

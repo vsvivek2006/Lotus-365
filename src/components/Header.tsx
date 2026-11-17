@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import React, { useState, useEffect, useRef } from 'react';
 import {
   Menu,
@@ -22,7 +23,7 @@ interface HeaderProps {
 }
 
 const navLinks = [
-  { label: 'Home', href: '/', active: true, children: null },
+  { label: 'Home', href: '/', children: null },
   {
     label: 'Sports',
     href: '/sportsbook',
@@ -68,6 +69,7 @@ const navLinks = [
 ];
 
 export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
+  const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -172,79 +174,85 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
               aria-label="Main navigation"
               className="hidden lg:flex items-center gap-1 xl:gap-2 shrink-0 justify-center"
             >
-              {navLinks.map((link) => (
-                <div
-                  key={link.label}
-                  className="relative shrink-0"
-                  onMouseEnter={() => link.children && handleDropdownEnter(link.label)}
-                  onMouseLeave={() => link.children && handleDropdownLeave()}
-                >
-                  <Link
-                    href={link.href}
-                    className={`
-                      flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[13px] font-bold whitespace-nowrap transition-colors duration-150 relative select-none
-                      ${
-                        link.active
-                          ? 'bg-emerald-50 text-emerald-800 border border-emerald-200/70 shadow-2xs font-black'
-                          : link.isVip
-                          ? 'text-amber-800 hover:text-amber-900 hover:bg-amber-50 font-black'
-                          : 'text-slate-700 hover:text-emerald-700 hover:bg-slate-100/70'
-                      }
-                    `}
+              {navLinks.map((link) => {
+                const isActive = link.href === '/'
+                  ? pathname === '/'
+                  : pathname.startsWith(link.href);
+
+                return (
+                  <div
+                    key={link.label}
+                    className="relative shrink-0"
+                    onMouseEnter={() => link.children && handleDropdownEnter(link.label)}
+                    onMouseLeave={() => link.children && handleDropdownLeave()}
                   >
-                    {link.isVip && <Crown className="w-3.5 h-3.5 text-amber-500 fill-amber-500/30" />}
-                    
-                    {link.hasLiveDot && (
-                      <span className="flex h-1.5 w-1.5 relative">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-                        <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
-                      </span>
-                    )}
-
-                    <span>{link.label}</span>
-
-                    {link.children && (
-                      <ChevronDown
-                        className={`w-3 h-3 text-slate-400 transition-transform duration-200 ${
-                          openDropdown === link.label ? 'rotate-180 text-emerald-600' : ''
-                        }`}
-                      />
-                    )}
-                  </Link>
-
-                  {/* Dropdown Menu */}
-                  {link.children && openDropdown === link.label && (
-                    <div
-                      className="absolute top-full left-0 mt-2 w-60 bg-white/98 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-100 p-2 z-50 animate-fadeIn"
-                      onMouseEnter={() => handleDropdownEnter(link.label)}
-                      onMouseLeave={handleDropdownLeave}
+                    <Link
+                      href={link.href}
+                      className={`
+                        flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[13px] font-bold whitespace-nowrap transition-colors duration-150 relative select-none
+                        ${
+                          isActive
+                            ? 'bg-emerald-50 text-emerald-800 border border-emerald-200/80 shadow-2xs font-black'
+                            : link.isVip
+                            ? 'text-amber-800 hover:text-amber-900 hover:bg-amber-50 font-black'
+                            : 'text-slate-700 hover:text-emerald-700 hover:bg-slate-100/70'
+                        }
+                      `}
                     >
-                      {link.children.map((child) => (
-                        <Link
-                          key={child.href}
-                          href={child.href}
-                          className="flex items-center justify-between px-3.5 py-2.5 text-[13px] font-semibold text-slate-700 hover:text-emerald-700 hover:bg-emerald-50/80 transition-all rounded-xl group"
-                        >
-                          <span className="group-hover:translate-x-0.5 transition-transform">
-                            {child.label}
-                          </span>
-                          {'badge' in child && child.badge && (
-                            <span
-                              className={`text-[9px] font-black px-1.5 py-0.5 rounded-full ${
-                                child.badge === 'LIVE IN-PLAY'
-                                  ? 'bg-red-50 text-red-600 border border-red-200 animate-pulse'
-                                  : 'bg-amber-50 text-amber-700 border border-amber-200'
-                              }`}
-                            >
-                              {child.badge}
+                      {link.isVip && <Crown className="w-3.5 h-3.5 text-amber-500 fill-amber-500/30" />}
+                      
+                      {link.hasLiveDot && (
+                        <span className="flex h-1.5 w-1.5 relative">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                          <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
+                        </span>
+                      )}
+
+                      <span>{link.label}</span>
+
+                      {link.children && (
+                        <ChevronDown
+                          className={`w-3 h-3 text-slate-400 transition-transform duration-200 ${
+                            openDropdown === link.label ? 'rotate-180 text-emerald-600' : ''
+                          }`}
+                        />
+                      )}
+                    </Link>
+
+                    {/* Dropdown Menu — 100% Solid Pure White Luxury Card */}
+                    {link.children && openDropdown === link.label && (
+                      <div
+                        className="absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.2)] border border-slate-200 p-2 z-[100] animate-fadeIn"
+                        onMouseEnter={() => handleDropdownEnter(link.label)}
+                        onMouseLeave={handleDropdownLeave}
+                      >
+                        {link.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            className="flex items-center justify-between px-3.5 py-2.5 text-[13px] font-bold text-slate-800 hover:text-emerald-800 hover:bg-emerald-50 transition-all rounded-xl group"
+                          >
+                            <span className="group-hover:translate-x-0.5 transition-transform">
+                              {child.label}
                             </span>
-                          )}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
+                            {'badge' in child && child.badge && (
+                              <span
+                                className={`text-[9.5px] font-black px-2 py-0.5 rounded-full ${
+                                  child.badge === 'LIVE IN-PLAY'
+                                    ? 'bg-red-50 text-red-600 border border-red-200 animate-pulse'
+                                    : 'bg-amber-50 text-amber-800 border border-amber-200'
+                                }`}
+                              >
+                                {child.badge}
+                              </span>
+                            )}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </nav>
 
             {/* ── Desktop Right Actions (Search Icon, WhatsApp Concierge & Get ID) ── */}

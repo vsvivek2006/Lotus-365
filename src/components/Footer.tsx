@@ -23,13 +23,55 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
     }
   };
 
-  const paymentBadges = [
-    { name: 'UPI', src: '/images/payments/upi.svg' },
-    { name: 'PhonePe', src: '/images/payments/phonepe.svg' },
-    { name: 'Google Pay', src: '/images/payments/gpay.svg' },
-    { name: 'Paytm', src: '/images/payments/paytm.svg' },
-    { name: 'IMPS Bank', src: '/images/payments/imps.svg' },
-    { name: 'USDT Crypto', src: '/images/payments/usdt-crypto.svg' },
+  const paymentMethods = [
+    {
+      name: 'UPI Instant',
+      sub: 'Zero Fee • 30-Sec',
+      icon: 'UPI',
+      bg: 'bg-emerald-600',
+      border: 'border-emerald-400/40',
+      subColor: 'text-amber-300',
+    },
+    {
+      name: 'PhonePe',
+      sub: 'Direct Scan & Pay',
+      icon: 'पे',
+      bg: 'bg-[#5f259f]',
+      border: 'border-purple-400/40',
+      subColor: 'text-purple-200',
+    },
+    {
+      name: 'Google Pay',
+      sub: 'UPI Autopay',
+      icon: 'GPay',
+      bg: 'bg-[#008643]',
+      border: 'border-emerald-400/40',
+      subColor: 'text-emerald-200',
+    },
+    {
+      name: 'Paytm Wallet',
+      sub: 'Instant Transfer',
+      icon: 'Paytm',
+      bg: 'bg-[#002e6e]',
+      border: 'border-sky-400/40',
+      subColor: 'text-sky-200',
+    },
+    {
+      name: 'Bank IMPS',
+      sub: '2-Min Cashouts',
+      icon: 'IMPS',
+      bg: 'bg-[#c2410c]',
+      border: 'border-orange-400/40',
+      subColor: 'text-amber-300',
+    },
+    {
+      name: 'USDT Crypto',
+      sub: 'TRC20 / ERC20',
+      icon: '₮',
+      bg: 'bg-[#0d9488]',
+      border: 'border-teal-400/40',
+      subColor: 'text-teal-200',
+    },
   ];
 
   return (
@@ -79,25 +121,29 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
           </div>
         </div>
 
-        {/* Payment Methods Graphic Showcase */}
+        {/* Payment Methods Graphic Showcase — Native Crystal-Clear Vector Cards */}
         <div className="pb-10 border-b border-emerald-500/20 mb-10">
           <div className="text-xs font-bold text-emerald-300 uppercase tracking-wider mb-4 flex items-center gap-2">
             <span>Guaranteed Instant Banking &amp; Payment Partners</span>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
-            {paymentBadges.map((badge) => (
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+            {paymentMethods.map((pm) => (
               <div
-                key={badge.name}
-                className="h-14 rounded-2xl bg-emerald-950/50 border border-emerald-500/30 hover:border-emerald-400/60 hover:bg-emerald-900/50 transition-all flex items-center justify-center p-1.5 group shadow-sm"
+                key={pm.name}
+                className="p-3 rounded-2xl bg-emerald-950/60 border border-emerald-500/30 hover:border-emerald-400/60 hover:bg-emerald-900/50 transition-all flex items-center gap-2.5 group shadow-xs"
               >
-                <div className="relative w-full h-full">
-                  <Image
-                    src={badge.src}
-                    alt={`${badge.name} payment method`}
-                    fill
-                    sizes="(max-width: 768px) 50vw, 160px"
-                    className="object-contain filter brightness-105 group-hover:brightness-115 transition-all"
-                  />
+                <div
+                  className={`w-9 h-9 rounded-xl ${pm.bg} border ${pm.border} flex items-center justify-center font-black text-white text-[11px] shrink-0 shadow-sm`}
+                >
+                  {pm.icon}
+                </div>
+                <div className="min-w-0 text-left">
+                  <div className="font-extrabold text-white text-xs truncate leading-tight group-hover:text-amber-300 transition-colors">
+                    {pm.name}
+                  </div>
+                  <div className={`text-[10px] font-semibold ${pm.subColor} truncate leading-tight mt-0.5`}>
+                    {pm.sub}
+                  </div>
                 </div>
               </div>
             ))}

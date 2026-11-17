@@ -133,15 +133,11 @@ export const PopularSectionsBar: React.FC<PopularSectionsBarProps> = ({ onOpenAu
           href="/vip-club"
           className="group block relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#042419] via-[#084530] to-[#042419] p-4 sm:p-5 border border-emerald-500/30 shadow-xl hover:shadow-2xl hover:border-emerald-400/50 transition-all duration-300"
         >
-          {/* Ambient Lighting & Dissolved Backdrop Image */}
-          <div className="absolute inset-0 opacity-40 mix-blend-screen pointer-events-none">
-            <Image
-              src="/images/banners/vip_club_banner_feathered.jpg"
-              alt="Lotus365 VIP Club"
-              fill
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="object-cover object-center"
-            />
+          {/* Luxury Ambient Lighting Glow Backdrop (Zero Image Ghosting) */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <div className="absolute -top-12 -left-12 w-64 h-64 bg-amber-400/15 rounded-full blur-3xl" />
+            <div className="absolute -bottom-10 right-1/4 w-80 h-36 bg-emerald-400/20 rounded-full blur-2xl" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#032318] via-[#084530] to-[#042419] opacity-90" />
           </div>
 
           <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-4">
