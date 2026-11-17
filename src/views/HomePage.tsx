@@ -5,16 +5,11 @@ import { Header } from '../components/Header';
 import { HeroSection } from '../sections/HeroSection';
 import { PopularSectionsBar } from '../components/navigation/PopularSectionsBar';
 import { MatchCentreWidget } from '../components/cricket/MatchCentreWidget';
-import { LiveTickerSection } from '../sections/LiveTickerSection';
-import { WhyChooseSection } from '../sections/WhyChooseSection';
 import { GameHubSection } from '../sections/GameHubSection';
+import { WhyChooseSection } from '../sections/WhyChooseSection';
 import { HowItWorksSection } from '../sections/HowItWorksSection';
-import { TestimonialsSection } from '../sections/TestimonialsSection';
 import { VipClubSection } from '../sections/VipClubSection';
-import { ComparisonSection } from '../sections/ComparisonSection';
-import { MobileAppSection } from '../sections/MobileAppSection';
-import { GuidesSection } from '../sections/GuidesSection';
-import { SeoContentSection } from '../sections/SeoContentSection';
+import { TestimonialsSection } from '../sections/TestimonialsSection';
 import { FaqSection } from '../sections/FaqSection';
 import { FinalCtaSection } from '../sections/FinalCtaSection';
 import { Footer } from '../components/Footer';
@@ -95,16 +90,11 @@ export const HomePage: React.FC = () => {
               <MatchCentreWidget onOpenAuth={handleOpenAuth} />
             </div>
           </div>
-          <LiveTickerSection onOpenAuth={handleOpenAuth} />
-          <WhyChooseSection onOpenAuth={handleOpenAuth} />
           <GameHubSection onOpenAuth={handleOpenAuth} />
+          <WhyChooseSection onOpenAuth={handleOpenAuth} />
           <HowItWorksSection onOpenAuth={handleOpenAuth} />
-          <TestimonialsSection onOpenAuth={handleOpenAuth} />
           <VipClubSection onOpenAuth={handleOpenAuth} />
-          <ComparisonSection onOpenAuth={handleOpenAuth} />
-          <MobileAppSection />
-          <GuidesSection onOpenAuth={handleOpenAuth} />
-          <SeoContentSection onOpenAuth={handleOpenAuth} />
+          <TestimonialsSection onOpenAuth={handleOpenAuth} />
           <FaqSection onOpenAuth={handleOpenAuth} />
           <FinalCtaSection onOpenAuth={handleOpenAuth} />
         </main>

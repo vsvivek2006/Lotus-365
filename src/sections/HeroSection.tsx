@@ -90,6 +90,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
           alt="Lotus365 Floodlit Arena"
           fill
           priority
+          unoptimized
           className="object-cover object-center opacity-25 mix-blend-overlay"
         />
 
@@ -209,6 +210,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
                   alt="Lotus365 Official Brand Ambassadors holding smartphone with verified ID"
                   fill
                   priority
+                  unoptimized
                   className="object-contain object-bottom select-none pointer-events-none drop-shadow-[0_20px_45px_rgba(0,0,0,0.4)]"
                 />
               </div>

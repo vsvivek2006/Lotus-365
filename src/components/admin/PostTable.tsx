@@ -396,7 +396,7 @@ export function PostTable({ initialPosts }: PostTableProps) {
                     {post.cover_image_url ? (
                       <Image
                         src={post.cover_image_url}
-                        alt=""
+                        alt={post.title || "Post thumbnail"}
                         fill
                         unoptimized
                         className="object-cover"
@@ -527,7 +527,7 @@ export function PostTable({ initialPosts }: PostTableProps) {
                             {post.cover_image_url ? (
                               <Image
                                 src={post.cover_image_url}
-                                alt=""
+                                alt={post.title || "Post thumbnail"}
                                 fill
                                 unoptimized
                                 className="object-cover group-hover:scale-105 transition-transform"

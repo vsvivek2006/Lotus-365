@@ -9,9 +9,9 @@ import { Calendar, User, ArrowRight, ChevronLeft, ChevronRight, Sparkles } from 
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Lotus365 Blog & Betting Guides | Live Cricket, Casino & Strategies",
+  title: "Lotus365 Blog – Cricket Betting Tips & Casino Guides",
   description:
-    "Expert cricket exchange trading tactics, back & lay odds analysis, live casino tips, and platform guides directly from the Lotus365 analyst team.",
+    "Lotus365 Blog – cricket betting exchange guides, live casino tips, and platform updates. Learn how to get your WhatsApp ID, deposit via UPI, and cash out fast.",
   alternates: {
     canonical: "https://lotusplay365.shop/blog",
   },

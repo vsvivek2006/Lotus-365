@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 import { POPULAR_GAMES } from '../data/landingData';
 import { GameItem } from '../types';
-import { Flame, Users, Sparkles, ArrowRight, Dices, Plane, Trophy, Crown, Play } from 'lucide-react';
+import { Flame, Users, Sparkles, ArrowRight, Dices, Plane, Trophy, Crown, Play, ChevronDown } from 'lucide-react';
 import { AdaptiveImage } from '../components/common/AdaptiveImage';
 
 interface GameHubProps {
@@ -24,8 +24,12 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
     { id: 'exchange', label: 'Cricket & Sports', icon: Trophy },
   ];
 
-  const filteredGames =
-    activeCategory === 'all'
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedGames =
+    activeCategory === 'all' && !showAll
+      ? POPULAR_GAMES.slice(0, 8)
+      : activeCategory === 'all'
       ? POPULAR_GAMES
       : POPULAR_GAMES.filter((g) => g.category === activeCategory);
 
@@ -137,7 +141,7 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
 
         {/* Games Grid - 2 columns on mobile, 4 on desktop */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
-          {filteredGames.map((game) => (
+          {displayedGames.map((game) => (
             <div
               key={game.id}
               className="bg-white rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-lg hover:border-emerald-500/50 transition-all overflow-hidden group flex flex-col justify-between"
@@ -216,6 +220,18 @@ export const GameHubSection: React.FC<GameHubProps> = ({ onOpenAuth }) => {
           ))}
         </div>
 
+        {/* Explore All Games Toggle (Keeps Page Tight & Fast) */}
+        {activeCategory === 'all' && !showAll && (
+          <div className="text-center mt-8">
+            <button
+              onClick={() => setShowAll(true)}
+              className="px-6 py-2.5 rounded-full bg-white hover:bg-slate-100 text-slate-800 font-extrabold text-xs sm:text-sm border border-slate-200 shadow-xs transition-all hover:border-emerald-500/50 cursor-pointer inline-flex items-center gap-2"
+            >
+              <span>Explore All 28+ Featured Games</span>
+              <ChevronDown className="w-4 h-4 text-emerald-600" />
+            </button>
+          </div>
+        )}
 
         {/* Aviator Deep Dive Feature Banner */}
         <div className="mt-12 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#064e3b] via-[#047857] to-[#0f3a2c] border border-rose-500/30 relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-8 text-white shadow-xl">
