@@ -91,6 +91,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
           fill
           priority
           unoptimized
+          sizes="100vw"
           className="object-cover object-center opacity-25 mix-blend-overlay"
         />
 
@@ -211,6 +212,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenAuth }) => {
                   fill
                   priority
                   unoptimized
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 520px"
                   className="object-contain object-bottom select-none pointer-events-none drop-shadow-[0_20px_45px_rgba(0,0,0,0.4)]"
                 />
               </div>

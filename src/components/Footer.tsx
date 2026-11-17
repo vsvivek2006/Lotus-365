@@ -95,6 +95,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuth }) => {
                     src={badge.src}
                     alt={`${badge.name} payment method`}
                     fill
+                    sizes="120px"
                     className="object-contain filter brightness-105 group-hover:brightness-125 transition-all"
                   />
                 </div>

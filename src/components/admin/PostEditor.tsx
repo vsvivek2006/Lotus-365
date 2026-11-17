@@ -702,6 +702,7 @@ export function PostEditor({ initialData }: PostEditorProps) {
                       alt={titleValue || "Cover"}
                       fill
                       unoptimized
+                      sizes="(max-width: 768px) 100vw, 800px"
                       className="object-cover"
                     />
                   </div>

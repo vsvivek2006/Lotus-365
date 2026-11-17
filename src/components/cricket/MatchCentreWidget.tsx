@@ -88,6 +88,7 @@ export const MatchCentreWidget: React.FC<MatchCentreProps> = ({ onOpenAuth, clas
             src="/images/banners/team_huddle_clean.jpg"
             alt="Cricket Stadium Atmosphere"
             fill
+            sizes="(max-width: 768px) 100vw, 1200px"
             className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#042f20] via-transparent to-[#042f20]" />

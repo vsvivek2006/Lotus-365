@@ -103,6 +103,7 @@ export const PopularSectionsBar: React.FC<PopularSectionsBarProps> = ({ onOpenAu
                   src={sec.image}
                   alt={sec.title}
                   fill
+                  sizes="80px"
                   className="object-cover object-center"
                 />
                 <div className="absolute inset-0 rounded-2xl border border-white/20 shadow-[inset_0_0_10px_rgba(0,0,0,0.15)]" />
@@ -138,6 +139,7 @@ export const PopularSectionsBar: React.FC<PopularSectionsBarProps> = ({ onOpenAu
               src="/images/banners/vip_club_banner_feathered.jpg"
               alt="Lotus365 VIP Club"
               fill
+              sizes="(max-width: 768px) 100vw, 1200px"
               className="object-cover object-center"
             />
           </div>

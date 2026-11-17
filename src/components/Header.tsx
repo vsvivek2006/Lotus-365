@@ -290,11 +290,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
               </button>
             </div>
 
-            {/* ── Mobile Right Actions (Search Icon, WhatsApp Icon, Get ID & Menu) ── */}
+            {/* ── Mobile Right Actions (WhatsApp Icon, Get ID & Menu) ── */}
             <div className="flex lg:hidden items-center gap-1.5 shrink-0">
               <Link
                 href="/sportsbook"
-                className="w-8 h-8 rounded-full flex items-center justify-center text-slate-500 hover:text-emerald-700 hover:bg-slate-100 transition-colors"
+                className="hidden sm:flex w-8 h-8 rounded-full items-center justify-center text-slate-500 hover:text-emerald-700 hover:bg-slate-100 transition-colors"
                 title="Search"
                 aria-label="Search"
               >
@@ -311,15 +311,17 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
                 <MessageCircle className="w-4 h-4 fill-current text-[#25D366]" />
               </a>
               <button
+                type="button"
                 onClick={handleCTA}
-                className="flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black shadow-xs transition-all cursor-pointer whitespace-nowrap"
+                className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black shadow-xs transition-all cursor-pointer whitespace-nowrap"
               >
                 Get ID
               </button>
               <button
+                type="button"
                 onClick={() => setMobileMenuOpen((v) => !v)}
                 aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
-                className="p-1.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer ml-0.5"
+                className="p-1.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer"
               >
                 {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
               </button>
@@ -350,7 +352,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAuth }) => {
           flex flex-col
           transition-transform duration-300 ease-in-out
           lg:hidden
-          ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}
+          ${mobileMenuOpen ? 'translate-x-0 visible pointer-events-auto' : 'translate-x-full invisible pointer-events-none'}
         `}
       >
         <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100">

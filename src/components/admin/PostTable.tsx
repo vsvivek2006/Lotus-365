@@ -399,6 +399,7 @@ export function PostTable({ initialPosts }: PostTableProps) {
                         alt={post.title || "Post thumbnail"}
                         fill
                         unoptimized
+                        sizes="56px"
                         className="object-cover"
                       />
                     ) : (
@@ -530,6 +531,7 @@ export function PostTable({ initialPosts }: PostTableProps) {
                                 alt={post.title || "Post thumbnail"}
                                 fill
                                 unoptimized
+                                sizes="40px"
                                 className="object-cover group-hover:scale-105 transition-transform"
                               />
                             ) : (

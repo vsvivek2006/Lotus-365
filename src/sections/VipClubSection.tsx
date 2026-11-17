@@ -62,6 +62,7 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
               src="/images/banners/vip_club_banner_feathered.jpg"
               alt="VIP Club Luxury Background"
               fill
+              sizes="(max-width: 768px) 100vw, 1200px"
               className="object-cover object-center"
             />
           </div>
@@ -73,6 +74,7 @@ export const VipClubSection: React.FC<VipClubProps> = ({ onOpenAuth }) => {
                 src="/images/vip/vip_crown_pure.jpg"
                 alt="VIP Crown"
                 fill
+                sizes="80px"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 shadow-[inset_0_0_12px_rgba(240,196,25,0.4)] pointer-events-none" />
