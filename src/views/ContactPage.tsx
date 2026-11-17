@@ -73,7 +73,7 @@ export const ContactPage: React.FC = () => {
           highlight="WhatsApp Support"
           subtitle="Experience white-glove customer assistance. Our dedicated team of human account managers is available round the clock, 365 days a year, delivering sub-60-second responses via secure WhatsApp chat."
           ctaLabel="Open WhatsApp Support Now"
-          imageSrc="/images/banners/banner_about_official.webp"
+          imageSrc="/images/banners/hero_banner_win_more.webp"
           imageAlt="24/7 Official WhatsApp Helpline Lotus365"
           breadcrumbs={[
             { label: 'Support' },

@@ -69,7 +69,7 @@ export const CricketBettingPage: React.FC = () => (
         title="India's Premier "
         highlight="Cricket Betting Exchange"
         subtitle="Experience high-liquidity cricket betting with 0% commission. Bet on IPL 2026, ICC Champions Trophy, Test match sessions, and global T20 leagues with guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/banners/banner_cricket_exchange.webp"
+        imageSrc="/images/banners/hero_banner_bet_sports.webp"
         imageAlt="India vs Australia Cricket Betting Exchange Match"
         breadcrumbs={[{ label: 'Cricket Betting' }]}
       />

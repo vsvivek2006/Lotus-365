@@ -70,7 +70,7 @@ export const AboutPage: React.FC = () => (
         title="India's Most Trusted "
         highlight="Betting Exchange"
         subtitle="Founded in 2019, Lotus365 has redefined digital sports betting and live gaming in India. Built on the principles of peer-to-peer fairness, cryptographic transparency, and guaranteed 2-minute UPI cashouts."
-        imageSrc="/images/banners/banner_about_official.webp"
+        imageSrc="/images/banners/hero_banner_play_big.webp"
         imageAlt="About Lotus365 Official Platform"
         breadcrumbs={[
           { label: 'About Us' },

@@ -60,7 +60,7 @@ export const IplBettingPage: React.FC = () => (
         title="India's #1 Rated "
         highlight="IPL 2026 Betting Platform"
         subtitle="Trade on all 74 IPL matches with India's deepest exchange liquidity, 0% net commission, ball-by-ball micro-markets, and guaranteed 2-minute UPI cashouts directly to your bank."
-        imageSrc="/images/banners/banner_cricket_exchange.webp"
+        imageSrc="/images/banners/hero_banner_sports_win.webp"
         imageAlt="IPL 2026 Championship Trophy & Match Markets"
         breadcrumbs={[{ label: 'Cricket Betting', href: '/cricket-betting' }, { label: 'IPL Betting 2026' }]}
       />

@@ -60,7 +60,7 @@ export const CricketExchangePage: React.FC = () => (
         title="India's Most Liquid "
         highlight="Cricket Exchange Platform"
         subtitle="Trade cricket odds with 0% net commission. Back teams to win, lay teams to lose, lock in guaranteed green profits mid-match, and withdraw winnings in 2 minutes via UPI."
-        imageSrc="/images/banners/banner_cricket_exchange.webp"
+        imageSrc="/images/banners/hero_banner_cricket_bat.webp"
         imageAlt="Lotus365 Live Cricket Betting Exchange Stadium"
         breadcrumbs={[{ label: 'Cricket Exchange' }]}
       />
