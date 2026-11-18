@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { getBlogPost } from "@/lib/blog/posts";
+import { getBlogPost, getAllPublishedSlugs } from "@/lib/blog/posts";
 import { getPostCoverImage, isOptimizedHost } from "@/lib/blog/images";
 import { cleanHtml } from "@/lib/ai/contentFormatter";
 import { Layout } from "@/components/layout/Layout";
@@ -14,6 +14,11 @@ interface BlogPostPageProps {
 }
 
 export const revalidate = 86400;
+
+export async function generateStaticParams() {
+  const slugs = await getAllPublishedSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;

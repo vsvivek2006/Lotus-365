@@ -3,6 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import { createPublicClient } from '@/lib/supabase/public';
 
+export const revalidate = 86400;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://lotusplay365.shop';
   const appDir = path.join(process.cwd(), 'src/app');

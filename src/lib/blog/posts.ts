@@ -52,3 +52,17 @@ export async function getBlogPost(slug: string): Promise<PostRecord | null> {
     return null;
   }
 }
+
+export async function getAllPublishedSlugs(): Promise<string[]> {
+  try {
+    const supabase = createPublicClient();
+    const { data } = await supabase
+      .from("posts")
+      .select("slug")
+      .eq("status", "published")
+      .limit(100);
+    return (data || []).map((p) => p.slug).filter(Boolean);
+  } catch {
+    return [];
+  }
+}

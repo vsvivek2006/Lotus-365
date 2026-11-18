@@ -6,11 +6,6 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
-        userAgent: '*',
-        allow: '/',
-        disallow: ['/admin', '/admin/*', '/api/*'],
-      },
-      {
         userAgent: [
           'GPTBot',
           'ChatGPT-User',
@@ -20,6 +15,19 @@ export default function robots(): MetadataRoute.Robots {
           'Google-Extended',
           'Applebot-Extended',
         ],
+        allow: '/',
+        disallow: ['/admin', '/admin/*', '/api/*'],
+      },
+      {
+        userAgent: [
+          'Bytespider',
+          'PetalBot',
+          'MJ12bot',
+        ],
+        disallow: '/',
+      },
+      {
+        userAgent: '*',
         allow: '/',
         disallow: ['/admin', '/admin/*', '/api/*'],
       },
